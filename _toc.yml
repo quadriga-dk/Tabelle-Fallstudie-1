@@ -2,22 +2,30 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: Markdown/Intro
 parts:
-  - caption: Entwicklungsumgebung
+  - caption: 1. Einleitung
     chapters:
-      - file: develop/intro
-      - file: develop/git
-      - file: develop/unix
-      - file: develop/python
-      - file: develop/jupyter_book
-      - file: develop/editor
-  - caption: Datentypen und Formatierung
+    - file: Markdown/Ausgangssituation
+    - file: Markdown/Aufbau_Fallstudie
+    - file: Markdown/Datenbasis_Bildungsbericht
+  - caption: 2. Datennachnutzung & Datenqualität
     chapters:
-      - file: formatting/markdown
-      - file: formatting/notebooks
-      - file: formatting/markdown-notebooks
-  - caption: Assessment
+    - file: Markdown/Einleitung_Datennachnutzung
+    - file: Markdown/Qualitätsmerkmale_Offene_Daten
+    - file: Markdown/Qualitätsmerkmale_Statistikdaten
+    - file: Markdown/Fair_Prinzipien
+    - file: Markdown/5_Star_Model
+    - file: Markdown/Linked_Data
+  - caption: 3. Datenzitierung
     chapters:
-      - file: assessment/introduction
-      - file: assessment/jupyterquiz
+    - file: Markdown/Einleitung_Datenzitierung
+    - file: Markdown/PID
+  - caption: 4. Datenmanipulation
+    chapters:
+    - file: Markdown/Einleitung_Datenmanipulation
+    - file: Markdown/R_Markdown
+    - file: Markdown/R_Übung_Reprodu
+  - caption: Literaturverzeichnis
+    chapters:
+    - file: Markdown/Literaturverzeichnis 

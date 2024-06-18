@@ -1,0 +1,1574 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Übung: Arbeiten mit CSV-Dateien in R &#8212; Fallstudie I - Tabelle</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Markdown/R_Markdown';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Übung: Reproduzierbarkeit Nationaler Bildungsbericht" href="R_%C3%9Cbung_Reprodu.html" />
+    <link rel="prev" title="Einleitung" href="Einleitung_Datenmanipulation.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="Intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/quadriga-logo.jpeg" class="logo__image only-light" alt="Fallstudie I - Tabelle - Home"/>
+    <script>document.write(`<img src="../_static/quadriga-logo.jpeg" class="logo__image only-dark" alt="Fallstudie I - Tabelle - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="Intro.html">
+                    QUADRIGA - Fallstudie I: Bildungslandschaft
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">1. Einleitung</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Ausgangssituation.html">Ausgangssituation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Aufbau_Fallstudie.html">Aufbau der Fallstudie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Datenbasis_Bildungsbericht.html">Datenbasis: Nationaler Bildungsbericht</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">2. Datennachnutzung &amp; Datenqualität</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Einleitung_Datennachnutzung.html">Einleitung: Datennachnutzung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Qualit%C3%A4tsmerkmale_Offene_Daten.html">Qualitätsmerkmale für (Offene) Daten und Metadaten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Qualit%C3%A4tsmerkmale_Statistikdaten.html">Qualitätsmerkmale für Statistikdaten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Fair_Prinzipien.html">FAIR-Prinzipien</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5_Star_Model.html">5-Star-Modell</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Linked_Data.html">Linked Data</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">3. Datenzitierung</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Einleitung_Datenzitierung.html">Einleitung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PID.html">PID</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">4. Datenmanipulation</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Einleitung_Datenmanipulation.html">Einleitung</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Übung: Arbeiten mit CSV-Dateien in R</a></li>
+<li class="toctree-l1"><a class="reference internal" href="R_%C3%9Cbung_Reprodu.html">Übung: Reproduzierbarkeit Nationaler Bildungsbericht</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Literaturverzeichnis</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Literaturverzeichnis.html">Literaturverzeichnis</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+<a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button"
+   title="Source repository"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+
+</a>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/Markdown/R_Markdown.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Übung: Arbeiten mit CSV-Dateien in R</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vorwort">1 Vorwort</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#installieren-von-r-und-r-studio">Installieren von R und R-Studio</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#erste-schritte-in-r-studio">2 Erste Schritte in R-Studio</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#einleitung">3 Einleitung</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#einlesen-von-csv-dateien">Einlesen von CSV Dateien</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#daten-sichten">4 Daten sichten</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dateiinhalt-interpretieren">Dateiinhalt interpretieren</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#anmerkungen-zu-der-ausgangsdatei">Anmerkungen zu der Ausgangsdatei</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#daten-aufbereiten">5 Daten aufbereiten</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#umlaute-entfernen">Umlaute entfernen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tabelle-unterteilen">Tabelle unterteilen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#spaltenuberschriften-setzen">Spaltenüberschriften setzen</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#auswertung">6 Auswertung</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#variablenklassen-bestimmen">Variablenklassen bestimmen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#variablenklasse-andern">Variablenklasse ändern</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#variablen-hinzufugen">Variablen hinzufügen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#unterkategorisieren">Unterkategorisieren</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tabellendaten-filtern">Tabellendaten filtern</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sortieren-von-tabellendaten">Sortieren von Tabellendaten</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="ubung-arbeiten-mit-csv-dateien-in-r">
+<span id="ubung-csv"></span><h1>Übung: Arbeiten mit CSV-Dateien in R<a class="headerlink" href="#ubung-arbeiten-mit-csv-dateien-in-r" title="Permalink to this heading">#</a></h1>
+<section id="vorwort">
+<h2>1 Vorwort<a class="headerlink" href="#vorwort" title="Permalink to this heading">#</a></h2>
+<p>Die folgende Lerneinheit soll Ihnen den Ersteinstieg in die
+Computersprache <strong>R</strong> erleichtern.<br />
+Als Fallbeispiel wird eine CSV-Datei mit Rohdaten zum <em>Personalstand an
+Hochschulen</em> eingelesen und ausgewertet.<br />
+Um die CSV-Datei herunterzuladen, klicken Sie bitte
+<a class="reference external" href="https://www-genesis.destatis.de/genesis//online?operation=table&amp;amp;code=21341-0001&amp;amp;bypass=true&amp;amp;levelindex=0&amp;amp;levelid=1706718181851">hier</a>
+(Quelle: Statistisches Bundesamt 2022).</p>
+<section id="installieren-von-r-und-r-studio">
+<h3>Installieren von R und R-Studio<a class="headerlink" href="#installieren-von-r-und-r-studio" title="Permalink to this heading">#</a></h3>
+<p>Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte
+vorab <strong>R</strong>. Zudem benötigen Sie eine geeignete Entwicklungsumgebung.
+Hierfür bietet sich <strong>R-Studio</strong> an.<br />
+Zur Installation der Computersprache <strong>R</strong> und <strong>R-Studio</strong> geht es
+<a class="reference external" href="https://posit.co/download/rstudio-desktop/">hier</a>.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="erste-schritte-in-r-studio">
+<h2>2 Erste Schritte in R-Studio<a class="headerlink" href="#erste-schritte-in-r-studio" title="Permalink to this heading">#</a></h2>
+<p><strong>Neues R Skript anlegen</strong></p>
+<ol class="arabic simple">
+<li><p>Öffnen Sie R-Studio.</p></li>
+<li><p>Ein neues Skript, in dem Sie Befehle eingeben können, öffnen Sie
+unter <em>Files</em>:
+<img alt="" src="../_images/R_Studio_open_new_script.png" /><br />
+<em>Abbildung 4: Anleitung zum Öffnen eines neuen R-Skriptes</em></p></li>
+</ol>
+<p><strong>Interface von R-Studio:</strong><br />
+<img alt="" src="../_images/R_Studio_Interface.png" />
+<em>Abbildung 5: Interface von R-Studio</em></p>
+<p><strong>R Skript:</strong><br />
+Im R Skript werden die Befehle eingegeben, welche <strong>R</strong> ausführen soll.
+Um einen eingegebenen Befehl auszuführen, drücken Sie entweder
+<code class="docutils literal notranslate"><span class="pre">Strg</span> <span class="pre">+</span> <span class="pre">Enter</span></code> oder Sie drücken mit der Maus auf den <em>Run-Button</em> in der
+oberen rechten Ecke des Fensters. Ein Befehl ist z.B. <code class="docutils literal notranslate"><span class="pre">1+1</span></code>. Das Skript
+und dessen Befehle können abgespeichert werden und zu einem späteren
+Zeitpunkt erneut geöffnet werden.</p>
+<p><strong>Console:</strong><br />
+In der Console werden die Ergebnisse der Befehle angezeigt. Wenn Sie im
+Skript <code class="docutils literal notranslate"><span class="pre">1+1</span></code> eingegeben und ausgeführt haben, erscheint in der Console
+das Ergebnis <code class="docutils literal notranslate"><span class="pre">2</span></code>. Sie können auch Befehle direkt in der Console
+ausführen, diese werden dann jedoch nicht gespeichert.</p>
+<p><strong>Environment:</strong><br />
+In der Environment werden geladene Dateien und Datensätze angezeigt.
+Zudem sind hier selbst erstellte Listen etc. vorzufinden.</p>
+<p><strong>Files, Plots, Packages, etc.</strong><br />
+In diesem Fenster werden verschiedene Funktionen angeboten. Über die
+Fensterkachel <strong>Files</strong> können Sie Dateien anzeigen lassen und
+Importieren <em>(Dazu mehr im Abschnitt <strong>Einlesen von CSV Dateien</strong>)</em>.<br />
+Die Fensterkachel <strong>PLOTS</strong> zeigt Ihnen erstellte Grafiken an.<br />
+Die Fensterkachel <strong>Packages</strong> zeigt Ihnen alle installierten R-Packages
+auf Ihrem Rechner an. Ein Package ist eine Ansammlung von
+<strong>R</strong>-Befehlen. Manche Befehle können Sie nur ausführen, wenn Sie das
+dazugehörige Package durch den Befehl
+<code class="docutils literal notranslate"><span class="pre">install.packages(&quot;*Packagename*&quot;)</span></code> installiert und durch den Befehlt
+<code class="docutils literal notranslate"><span class="pre">library(*Packagename*)</span></code>geladen haben <em>(Dazu mehr im folgenden Abschnitt
+<strong>Einleitung</strong>)</em>.</p>
+</section>
+<hr class="docutils" />
+<section id="einleitung">
+<h2>3 Einleitung<a class="headerlink" href="#einleitung" title="Permalink to this heading">#</a></h2>
+<blockquote>
+<div><p>Für Computersprachen gilt allgemein: Es gibt nie nur einen Weg zum
+Ziel. Unterschiedliche Befehle können Sie zum gleichen Ziel bringen.
+Dieses gilt auch für die folgenden angeführten Befehle.</p>
+</div></blockquote>
+<p>Damit Sie die in diesem Skript angeführten Befehle verwenden können,
+müssen Sie das folgende Package installieren und laden:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">install</span><span class="o">.</span><span class="n">packages</span><span class="p">(</span><span class="s2">&quot;tidyverse&quot;</span><span class="p">)</span>
+<span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span>
+</pre></div>
+</div>
+<section id="einlesen-von-csv-dateien">
+<h3>Einlesen von CSV Dateien<a class="headerlink" href="#einlesen-von-csv-dateien" title="Permalink to this heading">#</a></h3>
+<p>Hierfür gibt es zwei Befehle: <code class="docutils literal notranslate"><span class="pre">read.csv()</span></code> oder <code class="docutils literal notranslate"><span class="pre">read.csv2()</span></code></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">read.csv()</span></code> wird verwendet, wenn die CSV Dateiwerte durch Kommata
+separiert werden.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">read.csv2()</span></code> wird verwendet, wenn die CSV Dateiwerte durch Semicola
+separiert werden.</p></li>
+</ul>
+<p><strong>Fallbeispiel:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#Daten einlesen</span>
+<span class="n">data_csv</span> <span class="o">&lt;-</span> <span class="n">read</span><span class="o">.</span><span class="n">csv2</span><span class="p">(</span><span class="s2">&quot;21341-0001_$F.csv&quot;</span><span class="p">,</span><span class="n">header</span> <span class="o">=</span> <span class="n">FALSE</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>Erklärung des Codes:</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">#Daten</span> <span class="pre">einlesen</span></code>:<br />
+Durch das setzen eines <code class="docutils literal notranslate"><span class="pre">#</span></code> wird der folgende Inhalt in der Zeile
+nicht als Code interpretiert und somit auch nicht ausgeführt. Wenn
+Sie Textbausteine, Kommentare, Überschriften etc. in Ihrem
+<strong>R-Skript</strong> integrieren möchten, was für eine bessere
+Nachvollziehbarkeit Ihres Skriptes zu empfehlen ist, benutzen Sie
+immer das <code class="docutils literal notranslate"><span class="pre">#</span></code> -Symbol, um dies kenntlich zu machen. Ansonsten wird
+<strong>R</strong> einen Error ausgeben.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">read.csv2()</span></code>:<br />
+Die verwendete Datei ist durch Semicola separiert. Deswegen wird
+hier <code class="docutils literal notranslate"><span class="pre">read.csv2()</span></code> verwendet.</p>
+<ul>
+<li><p><em>Woraus ist dies ersichtlich? Durch Öffnen der Datei in der
+Console Ihres Rechners können Sie die verwendeten Trennzeichen
+erkennen.</em></p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&quot;21341-0001_$F.csv&quot;</span></code>:<br />
+Hier steht der Name der CSV-Datei, die geladen werden soll.</p>
+<ul>
+<li><p>Bei Verwendung von R-Studio: Sie sollten unter <em>Files</em> den
+Ordner aufrufen, in dem Ihre Dateien gespeichert sind. Nach
+klicken auf die gewünschte Datei, können Sie die Option <strong>Import
+Dataset…</strong> nutzen.</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">header</span> <span class="pre">=</span> <span class="pre">FALSE</span></code>:<br />
+Die CSV Datei hat keine Überschriften, daher muss hier der Zusatz
+hinzugefügt werden.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">data_csv</span> <span class="pre">&lt;-</span></code>:<br />
+Damit Sie einen Befehl nicht immer wieder ausführen müssen, können
+Sie dem Befehl mittels eines Pfeils <code class="docutils literal notranslate"><span class="pre">&lt;-</span></code> einem Namen zuordnen.</p>
+<ul>
+<li><p>Hier: “data_csv”. Nun können Sie in dem folgenden Skript nur
+noch den gesetzten Namen verwenden.</p></li>
+</ul>
+</li>
+</ul>
+<p><em><strong>Alternative:</strong></em> <em>Falls die Datei nicht unter “Files” auffindbar ist,
+kann auch der Befehl <code class="docutils literal notranslate"><span class="pre">choose.files()</span></code> genutzt werden:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">data_csv</span> <span class="o">&lt;-</span> <span class="n">read</span><span class="o">.</span><span class="n">csv2</span><span class="p">(</span><span class="n">choose</span><span class="o">.</span><span class="n">files</span><span class="p">(),</span><span class="n">header</span> <span class="o">=</span> <span class="n">FALSE</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="tip admonition">
+<p class="admonition-title">Tipp</p>
+<p>Wenn Sie die Bedeutung und Syntax eines Befehls besser verstehen wollen, empfielt es sich, diesen Befehl im Handbuch nachzuschlagen. Hierzu setzen Sie ein <code class="docutils literal notranslate"><span class="pre">?</span></code> vor den Befehl Ihres Interesses.</p>
+</div>
+<p><em>Beispiel:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>?read.csv2
+</pre></div>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="daten-sichten">
+<h2>4 Daten sichten<a class="headerlink" href="#daten-sichten" title="Permalink to this heading">#</a></h2>
+<p>Es ist immer ratsam, einen ersten Blick auf die Daten zu werfen, um
+deren Struktur zu verstehen.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">show</span><span class="p">(</span><span class="n">data_csv</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="c1">##                                                                 V1	   V2	    V3</span>
+    <span class="c1">## 1                                      GENESIS-Tabelle: 21341-0001            </span>
+    <span class="c1">## 2                     Personal an Hochschulen: Deutschland, Jahre,            </span>
+    <span class="c1">## 3  Personalgruppen nach Besch\xe4ftigungsverh\xe4ltnis, Geschlecht            </span>
+    <span class="c1">## 4                                 Statistik des Hochschulpersonals            </span>
+    <span class="c1">## 5                                                      Deutschland            </span>
+    <span class="c1">## 6                                 Personal an Hochschulen (Anzahl)            </span>
+    <span class="c1">## 7                                                                                2020</span>
+    <span class="c1">## 8                Wissenschaftliches und k\xfcnstlerisches Personal m\xe4nnlich	247720</span>
+    <span class="c1">## 9                Wissenschaftliches und k\xfcnstlerisches Personal    weiblich	167112</span>
+    <span class="c1">## 10               Wissenschaftliches und k\xfcnstlerisches Personal   Insgesamt 	414832</span>
+    <span class="c1">## 11            Hauptberufl. wissenschaftl. u. k\xfcnstler. Personal m\xe4nnlich	159567</span>
+    <span class="c1">## 12            Hauptberufl. wissenschaftl. u. k\xfcnstler. Personal    weiblich	109708</span>
+    <span class="c1">## 13            Hauptberufl. wissenschaftl. u. k\xfcnstler. Personal   Insgesamt	269275</span>
+    <span class="c1">## 14                                                     Professoren m\xe4nnlich	36344</span>
+    <span class="c1">## 15                                                     Professoren    weiblich	12949</span>
+    <span class="c1">## 16                                                     Professoren   Insgesamt	49293</span>
+    <span class="c1">## 17                                        Dozenten und Assistenten m\xe4nnlich	2182</span>
+    <span class="c1">## 18                                        Dozenten und Assistenten    weiblich	1546</span>
+    <span class="c1">## 19                                        Dozenten und Assistenten   Insgesamt	3728</span>
+    <span class="c1">## 20              Wissenschaftliche und k\xfcnstlerische Mitarbeiter m\xe4nnlich	116004</span>
+    <span class="c1">## 21              Wissenschaftliche und k\xfcnstlerische Mitarbeiter    weiblich	89383</span>
+    <span class="c1">## 22              Wissenschaftliche und k\xfcnstlerische Mitarbeiter   Insgesamt	205387</span>
+    <span class="c1">## 23                         Lehrkr\xe4fte f\xfcr besondere Aufgaben m\xe4nnlich	5037</span>
+    <span class="c1">## 24                         Lehrkr\xe4fte f\xfcr besondere Aufgaben    weiblich	5830</span>
+    <span class="c1">## 25                         Lehrkr\xe4fte f\xfcr besondere Aufgaben   Insgesamt	10867</span>
+    <span class="c1">## 26            Nebenberufl. wissenschaftl. u. k\xfcnstler. Personal m\xe4nnlich	88153</span>
+    <span class="c1">## 27            Nebenberufl. wissenschaftl. u. k\xfcnstler. Personal    weiblich	57404</span>
+    <span class="c1">## 28            Nebenberufl. wissenschaftl. u. k\xfcnstler. Personal   Insgesamt	145557</span>
+    <span class="c1">## 29                                        Gastprofessoren, Emeriti m\xe4nnlich	1534</span>
+    <span class="c1">## 30                                        Gastprofessoren, Emeriti    weiblich	259</span>
+    <span class="c1">## 31                                        Gastprofessoren, Emeriti   Insgesamt	1793</span>
+    <span class="c1">## 32                                                 Lehrbeauftragte m\xe4nnlich	64492</span>
+    <span class="c1">## 33                                                 Lehrbeauftragte    weiblich	35238</span>
+    <span class="c1">## 34                                                 Lehrbeauftragte   Insgesamt	99730</span>
+    <span class="c1">## 35                                Wissenschaftliche Hilfskr\xe4fte m\xe4nnlich	22127</span>
+    <span class="c1">## 36                                Wissenschaftliche Hilfskr\xe4fte    weiblich	21907</span>
+    <span class="c1">## 37                                Wissenschaftliche Hilfskr\xe4fte   Insgesamt	44034</span>
+    <span class="c1">## 38                Verwaltungs-, technisches und sonstiges Personal m\xe4nnlich	100320</span>
+    <span class="c1">## 39                Verwaltungs-, technisches und sonstiges Personal    weiblich	243913</span>
+    <span class="c1">## 40                Verwaltungs-, technisches und sonstiges Personal   Insgesamt	344233</span>
+    <span class="c1">## 41              Hauptberufl. Verwaltungs-, techn. u.sonst.Personal m\xe4nnlich	98247</span>
+    <span class="c1">## 42              Hauptberufl. Verwaltungs-, techn. u.sonst.Personal    weiblich	240419</span>
+    <span class="c1">## 43              Hauptberufl. Verwaltungs-, techn. u.sonst.Personal   Insgesamt	338666</span>
+    <span class="c1">## 44                                             Verwaltungspersonal m\xe4nnlich	25941</span>
+    <span class="c1">## 45                                             Verwaltungspersonal    weiblich	83918</span>
+    <span class="c1">## 46                                             Verwaltungspersonal   Insgesamt	109859</span>
+    <span class="c1">## 47                                             Bibliothekspersonal m\xe4nnlich	2443</span>
+    <span class="c1">## 48                                             Bibliothekspersonal    weiblich	7308</span>
+    <span class="c1">## 49                                             Bibliothekspersonal   Insgesamt	9751</span>
+    <span class="c1">## 50                                            Technisches Personal m\xe4nnlich	33025</span>
+    <span class="c1">## 51                                            Technisches Personal    weiblich	26360</span>
+    <span class="c1">## 52                                            Technisches Personal   Insgesamt	59385</span>
+    <span class="c1">## 53                                              Sonstiges Personal m\xe4nnlich	14422</span>
+    <span class="c1">## 54                                              Sonstiges Personal    weiblich	41609</span>
+    <span class="c1">## 55                                              Sonstiges Personal   Insgesamt	56031</span>
+    <span class="c1">## 56                                                  Pflegepersonal m\xe4nnlich	15427</span>
+    <span class="c1">## 57                                                  Pflegepersonal    weiblich	63731</span>
+    <span class="c1">## 58                                                  Pflegepersonal   Insgesamt	79158</span>
+    <span class="c1">## 59                                                        Arbeiter m\xe4nnlich	      -</span>
+    <span class="c1">## 60                                                        Arbeiter    weiblich	      -</span>
+    <span class="c1">## 61                                                        Arbeiter   Insgesamt	      -</span>
+    <span class="c1">## 62                                                   Auszubildende m\xe4nnlich	6284</span>
+    <span class="c1">## 63                                                   Auszubildende    weiblich	16137</span>
+    <span class="c1">## 64                                                   Auszubildende   Insgesamt	22421</span>
+    <span class="c1">## 65                                                    Praktikanten m\xe4nnlich	705</span>
+    <span class="c1">## 66                                                    Praktikanten    weiblich	1356</span>
+    <span class="c1">## 67                                                    Praktikanten   Insgesamt	2061</span>
+    <span class="c1">## 68                   Sonstiges Personal f\xfcr Lehre und Forschung m\xe4nnlich	      -</span>
+    <span class="c1">## 69                   Sonstiges Personal f\xfcr Lehre und Forschung    weiblich	      -</span>
+    <span class="c1">## 70                   Sonstiges Personal f\xfcr Lehre und Forschung   Insgesamt	      -</span>
+    <span class="c1">## 71                               Leitungs- und Verwaltungspersonal m\xe4nnlich	      -</span>
+    <span class="c1">## 72                               Leitungs- und Verwaltungspersonal    weiblich	      -</span>
+    <span class="c1">## 73                               Leitungs- und Verwaltungspersonal   Insgesamt	      -</span>
+    <span class="c1">## 74              Nebenberufl. Verwaltungs-, techn. u.sonst.Personal m\xe4nnlich	2073</span>
+    <span class="c1">## 75              Nebenberufl. Verwaltungs-, techn. u.sonst.Personal    weiblich	3494</span>
+    <span class="c1">## 76              Nebenberufl. Verwaltungs-, techn. u.sonst.Personal   Insgesamt	5567</span>
+    <span class="c1">## 77                                         Sonstige Hilfskr\xe4fte m\xe4nnlich	2073</span>
+    <span class="c1">## 78                                         Sonstige Hilfskr\xe4fte    weiblich	3494</span>
+    <span class="c1">## 79                                         Sonstige Hilfskr\xe4fte   Insgesamt	5567</span>
+    <span class="c1">## 80                                      Zeitweilig Besch\xe4ftigte m\xe4nnlich	      -</span>
+    <span class="c1">## 81                                      Zeitweilig Besch\xe4ftigte    weiblich	      -</span>
+    <span class="c1">## 82                                      Zeitweilig Besch\xe4ftigte   Insgesamt	      -</span>
+    <span class="c1">## 83                                                       Insgesamt m\xe4nnlich	348040</span>
+    <span class="c1">## 84                                                       Insgesamt    weiblich	411025</span>
+    <span class="c1">## 85                                                       Insgesamt   Insgesamt	759065</span>
+    <span class="c1">## 86                                                      __________            </span>
+    <span class="c1">## 87                   \xa9 Statistisches Bundesamt (Destatis), 2023            </span>
+    <span class="c1">## 88                                    Stand: 04.04.2024 / 18:30:01            </span>
+</pre></div>
+</div>
+<p><em>Alternative:</em></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">view</span><span class="p">(</span><span class="n">data_csv</span><span class="p">)</span>
+<span class="c1">#oder</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">data_csv</span><span class="p">)</span>
+</pre></div>
+</div>
+<section id="dateiinhalt-interpretieren">
+<h3>Dateiinhalt interpretieren<a class="headerlink" href="#dateiinhalt-interpretieren" title="Permalink to this heading">#</a></h3>
+<p>Die Datei hat drei Spalten (V1, V2, V3):</p>
+<ul class="simple">
+<li><p><strong>V1:</strong> In den Zeilen 1-6 und 87-88 stehen die Metadaten der Datei.
+Hier finden Sie Infos zum Herausgeber, Inhalt der Daten, etc..<br />
+In den Zeilen 8-85 befinden sich Bezeichnung zum
+Angestelltenverhältnis des Hochschulpersonals (Dozent,
+Gastprofessoren, etc.).</p></li>
+<li><p><strong>V2:</strong> Diese Spalte unterteilt die Beschäftigten nach Geschlecht
+(männlich, weiblich &amp; Insgesamt).</p></li>
+<li><p><strong>V3:</strong> In den Zeilen 8-85 sind die jeweiligen absoluten
+Personalzahlen enthalten. In der Zeile 7 ist die Spaltenüberschrift
+“2020” gegeben. Diese bezieht sich auf das Erhebungsjahr der
+Daten.</p></li>
+</ul>
+</section>
+<section id="anmerkungen-zu-der-ausgangsdatei">
+<h3>Anmerkungen zu der Ausgangsdatei<a class="headerlink" href="#anmerkungen-zu-der-ausgangsdatei" title="Permalink to this heading">#</a></h3>
+<p>Es fallen hier direkt mehrere Punkte auf, welche die CSV-Datei
+schlechter maschinenlesbar machen:</p>
+<ol class="arabic simple">
+<li><p>Der Titel des Datensatzes ist nicht prägnant und verständlich.</p></li>
+<li><p>Metadaten (Übergeordnete Informationen über die vorliegenden Daten)
+sollten nicht in der Tabelle selbst auftauchen sondern separiert in
+dem dafür vorgesehenen Metadatenbereich abgespeichert werden. Die
+CSV-Datei sollte neben der Kopfzeile und der Inhaltsdaten keine
+weiteren Informationen enthalten.</p></li>
+<li><p>Spalten sollten immer Überschriften haben. Dies fehlt hier für
+<strong>V1</strong> und <strong>V2</strong>.</p></li>
+<li><p>Auf Umlaute und Sonderzeichen ist zu verzichten. Dies führt zu einer
+fehlerhaften Anzeige. In <strong>V1 Zeile 87</strong> wird das Sonderzeichen
+“Copyright” nicht logisch erkannt und als “.” angezeigt. In den
+Spalten <strong>V1</strong> und <strong>V2</strong> werden Wörter mit Umlauten wie
+<em>“männlich”, ““für”, “Lehrkräfte”, etc.</em> alle fehlerhaft angezeigt.
+Um größtmögliche Kompatibilität zu anderen Programmen zu
+gewährleisten, sollten Dateien immer der UTF-8-Zeichenkodierung
+folgen. Andernfalls können Probleme bei der maschinellen
+Verarbeitung entstehen, wie Sie in der Tabelle erkennen können.</p></li>
+</ol>
+<p>Wenn Sie mehr zum Thema <em>“hochwertiger Datenaufbau”</em> wissen möchten,
+werfen Sie gerne einen Blick in den
+<a class="reference external" href="https://nqdm-projekt.de/de/downloads/leitfaden">NQDM-Leitfaden</a>.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="daten-aufbereiten">
+<h2>5 Daten aufbereiten<a class="headerlink" href="#daten-aufbereiten" title="Permalink to this heading">#</a></h2>
+<p>Im folgenden Abschnitt werden die zuletzt erwähnten Qualitätsmängel der
+Datendarstellung behoben und die Daten zur Auswertung vorbereitet.</p>
+<p><strong>Problem der Zeichenkodierung</strong><br />
+Im Default interpretiert <strong>R</strong> Dokumente als UTF-8 (Unicode) kodiert.
+Dies ist die Ausgangseinstellung und <strong>R-Skripte</strong> werden mit dieser
+Zeichenkodierung ebenfalls abgespeichert, solange Sie dies nicht manuell
+ändern. Beim Laden von nicht UTF-8 kodierten Dateien kann es jedoch zu
+Anzeigeproblemen kommen, wie in der Tabelle feststellbar. Siehe
+beispielsweise Zelle V2 Zeile 8:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">## [1] &quot;m\xe4nnlich&quot;</span>
+</pre></div>
+</div>
+<p>Solch eine Anzeige spricht dafür, dass ein ISO 8859-1 (“Latin-1”)
+kodiertes Dokument inklusive Umlauten als UTF-8 interpretiert wird.
+Damit Ihre Datei kompatibel und gut maschinell lesbar für andere
+Programme bleibt, sollten Sie stets eine UFT-8 Kodierung beibehalten.
+Eine bessere Anzeige können Sie trotzdem mit folgenden Schritten
+erreichen.</p>
+<div class="admonition-hinweis admonition">
+<p class="admonition-title">Hinweis</p>
+<p>Je nach Einstellung von R-Studio kommt dieses Problem ggf. nicht auf und Umlaute werden korrekt angezeigt.</p>
+</div>
+<p><strong>Lösungsansätze bei falscher Anzeige</strong><br />
+Sie können die Datei als ISO 8859-1 (“Latin-1”) kodiert laden. Hierzu
+müssen Sie zum bekannten Einlesebefehl nur den Zusatz
+<code class="docutils literal notranslate"><span class="pre">encoding</span> <span class="pre">=</span> <span class="pre">&quot;latin1&quot;</span></code> hinzufügen, damit <strong>R</strong> weiß, welche
+Zeichenkodierung im Dokument verwendet wurde:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">data_csv_clean</span> <span class="o">&lt;-</span> <span class="n">read</span><span class="o">.</span><span class="n">csv2</span><span class="p">(</span><span class="s2">&quot;21341-0001_$F.csv&quot;</span><span class="p">,</span> <span class="n">header</span> <span class="o">=</span> <span class="n">FALSE</span><span class="p">,</span> <span class="n">encoding</span> <span class="o">=</span> <span class="s2">&quot;latin1&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Wenn Sie schnell überprüfen möchten, ob die Umlaute nun korrekt
+angezeigt werden, können Sie den Befehl <code class="docutils literal notranslate"><span class="pre">head()</span></code> benutzen. Hierdurch
+werden nur die ersten Zeilen Ihrer Tabelle angezeigt.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">head</span><span class="p">(</span><span class="n">data_csv_clean</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="c1">##                                                          V1 V2 V3</span>
+    <span class="c1">## 1                               GENESIS-Tabelle: 21341-0001      </span>
+    <span class="c1">## 2              Personal an Hochschulen: Deutschland, Jahre,      </span>
+    <span class="c1">## 3 Personalgruppen nach Beschäftigungsverhältnis, Geschlecht      </span>
+    <span class="c1">## 4                          Statistik des Hochschulpersonals      </span>
+    <span class="c1">## 5                                               Deutschland      </span>
+    <span class="c1">## 6                          Personal an Hochschulen (Anzahl)</span>
+</pre></div>
+</div>
+<p>An dem Wort “Beschäftigungsverältnis” in Zeile 3 sehen Sie, dass die
+CSV-Datei nun korrekt gelesen wird. Wie bereits erwähnt sollte Sie auf
+Umlaute jedoch in Gänze verzichten.</p>
+<p><em>Alternative:</em><br />
+Um Probleme mit der Zeichenkodierung zu vermeiden, speichern Sie am
+besten schon im Vorhinein Ihre Datei mit UTF-8 Kodierung ab. Dies können
+Sie meist direkt unter den <code class="docutils literal notranslate"><span class="pre">Speichern</span> <span class="pre">unter...</span></code> Dateiformaten auswählen:</p>
+<p>![](<em>images/UTF8</em> Zeichenkodierung.png)<br />
+<em>Abbildung 6: Abspeichern mit UTF-8 Zeichenkodierung</em></p>
+<section id="umlaute-entfernen">
+<h3>Umlaute entfernen<a class="headerlink" href="#umlaute-entfernen" title="Permalink to this heading">#</a></h3>
+<p>Mittels des Befehls <code class="docutils literal notranslate"><span class="pre">str_replace_all</span></code> können Sie einzelne Buchstaben in
+Ihrer Tabelle ersetzen. Dies ist jedoch nur separat für einzelne Spalten
+möglich.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>data_csv_clean$V1 &lt;- str_replace_all(data_csv_clean$V1, c(&quot;ä&quot; = &quot;ae&quot;, &quot;ö&quot; = &quot;oe&quot;, &quot;ü&quot; =&quot;ue&quot;, &quot;ß&quot; =&quot;ss&quot;))
+data_csv_clean$V2 &lt;- str_replace_all(data_csv_clean$V2, c(&quot;ä&quot; = &quot;ae&quot;, &quot;ö&quot; = &quot;oe&quot;, &quot;ü&quot; =&quot;ue&quot;, &quot;ß&quot; =&quot;ss&quot;))
+</pre></div>
+</div>
+<p><strong>Erklärung des Codes:</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">data_csv_utf8$V1</span></code>:<br />
+Durch das Anhängen eines <code class="docutils literal notranslate"><span class="pre">$</span></code>- Zeichens an den Namen der Tabelle
+signalisieren Sie <strong>R</strong>, dass Sie sich nur auf einen bestimmte
+Variable - hier die Spalte <strong>V1</strong> - beziehen möchten.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">str_replace_all</span></code>:<br />
+Suchen und ersetzen von einzelnen Zeichen(-ketten) in ihrer
+Tabelle.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">c(&quot;ä&quot;</span> <span class="pre">=</span> <span class="pre">&quot;ae&quot;,</span> <span class="pre">&quot;ö&quot;</span> <span class="pre">=</span> <span class="pre">&quot;oe&quot;,...)</span></code>:<br />
+Der Befehl <code class="docutils literal notranslate"><span class="pre">c</span></code> erstellt einen Vektor. Ein Vektor kombiniert von
+Ihnen festgelegte Zahlen- oder Zeichenketten (letzteres wird auch
+<strong>“String”</strong> genannt). Ein String ist z.B. c(“Apfel”, “Birne”,
+“Kiwi”).<br />
+Im hier verwendeten Zusammenhang mit <code class="docutils literal notranslate"><span class="pre">str_replace_all()</span></code> wird <strong>R</strong>
+befohlen, alle “ä” durch “ae” zu ersetzen und alle “ö” durch “oe”
+usw..</p></li>
+</ul>
+<p><strong>Ergebnis ansehen</strong>:<br />
+Über die <code class="docutils literal notranslate"><span class="pre">show()</span></code> -Funktion könnten Sie jetzt die Tabelle erneut sichten
+und überprüfen, ob die Zeichenumkodierung funktioniert hat. Wenn Ihre
+Tabelle jedoch sehr lang ist (so wie in diesem Fall) und Sie nur einen
+Teil Ihrer Tabelle betrachten möchten, können Sie sich auch nur
+bestimmte Bereiche anzeigen lassen. Hierfür setzen Sie hinter den
+Dateinamen eckige Klammern und bestimmen den
+Wertebereich:<code class="docutils literal notranslate"><span class="pre">[*Zeilenbereich*,*Spaltenbereich*]</span></code>.</p>
+<p>*Hinweis: Wenn Sie einen Wertebereich angeben wollen, platzieren Sie
+zwischen den ersten und letzten Wert einen Doppelpunkt<code class="docutils literal notranslate"><span class="pre">:</span></code> und * <strong>R</strong>
+<em>inkludiert alle dazwischenliegenden Werte (“von… bis…”). Ein Komma
+separiert Bereiche.</em></p>
+<p><strong>Allgemeines Beispiel:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">1</span><span class="p">:</span><span class="mi">5</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">## [1] 1 2 3 4 5</span>
+</pre></div>
+</div>
+<p>Ein Vektor mit Wertebereichen:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">c</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="mi">5</span><span class="p">,</span> <span class="mi">11</span><span class="p">:</span><span class="mi">15</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">##  [1]  1  2  3  4  5 11 12 13 14 15</span>
+</pre></div>
+</div>
+<p><strong>Angewendet auf die vorliegende CSV-Tabelle:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">show</span><span class="p">(</span><span class="n">data_csv_clean</span><span class="p">[</span><span class="mi">8</span><span class="p">:</span><span class="mi">20</span><span class="p">,</span><span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">])</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="c1">##                                                      V1        V2     V3</span>
+    <span class="c1">## 8       Wissenschaftliches und kuenstlerisches Personal maennlich 247720</span>
+    <span class="c1">## 9       Wissenschaftliches und kuenstlerisches Personal  weiblich 167112</span>
+    <span class="c1">## 10      Wissenschaftliches und kuenstlerisches Personal Insgesamt 414832</span>
+    <span class="c1">## 11   Hauptberufl. wissenschaftl. u. kuenstler. Personal maennlich 159567</span>
+    <span class="c1">## 12   Hauptberufl. wissenschaftl. u. kuenstler. Personal  weiblich 109708</span>
+    <span class="c1">## 13   Hauptberufl. wissenschaftl. u. kuenstler. Personal Insgesamt 269275</span>
+    <span class="c1">## 14                                          Professoren maennlich  36344</span>
+    <span class="c1">## 15                                          Professoren  weiblich  12949</span>
+    <span class="c1">## 16                                          Professoren Insgesamt  49293</span>
+    <span class="c1">## 17                             Dozenten und Assistenten maennlich   2182</span>
+    <span class="c1">## 18                             Dozenten und Assistenten  weiblich   1546</span>
+    <span class="c1">## 19                             Dozenten und Assistenten Insgesamt   3728</span>
+    <span class="c1">## 20     Wissenschaftliche und kuenstlerische Mitarbeiter maennlich 116004</span>
+</pre></div>
+</div>
+<p>Wie Sie erkennen können, wurden die Umlaute erfolgreich umgeschrieben.</p>
+</section>
+<section id="tabelle-unterteilen">
+<h3>Tabelle unterteilen<a class="headerlink" href="#tabelle-unterteilen" title="Permalink to this heading">#</a></h3>
+<p>Damit die Tabelle eine bessere Struktur erlangt, empfiehlt sich eine
+Separierung in Metadaten und Tabellendaten.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Metadaten</span> <span class="o">&lt;-</span> <span class="n">data_csv_clean</span><span class="p">[</span><span class="n">c</span><span class="p">(</span><span class="mi">1</span><span class="p">:</span><span class="mi">6</span><span class="p">,</span> <span class="mi">87</span><span class="p">:</span><span class="mi">88</span><span class="p">),</span> <span class="mi">1</span><span class="p">]</span>
+<span class="n">Tabellendaten</span> <span class="o">&lt;-</span> <span class="n">data_csv_clean</span><span class="p">[</span><span class="mi">8</span><span class="p">:</span><span class="mi">85</span><span class="p">,</span> <span class="mi">1</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
+</pre></div>
+</div>
+</section>
+<section id="spaltenuberschriften-setzen">
+<h3>Spaltenüberschriften setzen<a class="headerlink" href="#spaltenuberschriften-setzen" title="Permalink to this heading">#</a></h3>
+<p>Der Befehl <code class="docutils literal notranslate"><span class="pre">colnames()</span></code>ermöglicht es Ihnen Spaltenüberschriften zu
+setzen.</p>
+<p>Sie können dies entweder für jede Spalte mit einem einzelnen Befehl
+durchführen:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">colnames</span><span class="p">(</span><span class="n">Tabellendaten</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;-</span> <span class="s2">&quot;Angestelltenverhaeltnis&quot;</span>
+</pre></div>
+</div>
+<p>Oder alle Spaltenüberschriften mittels eines Vektors gleichzeitig neu
+setzen:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">colnames</span><span class="p">(</span><span class="n">Tabellendaten</span><span class="p">)</span> <span class="o">&lt;-</span> <span class="n">c</span><span class="p">(</span><span class="s2">&quot;Angestelltenverhaeltnis&quot;</span><span class="p">,</span> <span class="s2">&quot;Geschlecht&quot;</span><span class="p">,</span> <span class="s2">&quot;Angestelltenzahl_2020&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#Ergebnis ansehen</span>
+<span class="n">head</span><span class="p">(</span><span class="n">Tabellendaten</span><span class="p">)</span> 
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="c1">##                                 Angestelltenverhaeltnis Geschlecht Angestelltenzahl_2020</span>
+    <span class="c1">## 8       Wissenschaftliches und kuenstlerisches Personal  maennlich 		 247720</span>
+    <span class="c1">## 9       Wissenschaftliches und kuenstlerisches Personal   weiblich 		 167112</span>
+    <span class="c1">## 10      Wissenschaftliches und kuenstlerisches Personal  Insgesamt 		 414832</span>
+    <span class="c1">## 11   Hauptberufl. wissenschaftl. u. kuenstler. Personal  maennlich 		 159567</span>
+    <span class="c1">## 12   Hauptberufl. wissenschaftl. u. kuenstler. Personal   weiblich 		 109708</span>
+    <span class="c1">## 13   Hauptberufl. wissenschaftl. u. kuenstler. Personal  Insgesamt 		 269275</span>
+</pre></div>
+</div>
+<p>Damit die Nummerierung der Tabellenzeilen nicht bei der Zahl 8 startet,
+empfiehlt sich die Nummerierung der Zeilen neu zu setzen. Herzu kann der
+Befehl <code class="docutils literal notranslate"><span class="pre">row.names</span></code> eingesetzt werden:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">row</span><span class="o">.</span><span class="n">names</span><span class="p">(</span><span class="n">Tabellendaten</span><span class="p">)</span> <span class="o">&lt;-</span> <span class="mi">1</span><span class="p">:</span><span class="mi">78</span>
+</pre></div>
+</div>
+<p><em>Alternative:</em><br />
+Direkte manuelle Bearbeitung in der Tabelle:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">edit</span><span class="p">(</span><span class="n">Tabellendaten</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition-achtung admonition">
+<p class="admonition-title">Achtung!</p>
+<p>Es empfiehlt sich auf Befehle wie diese zu verzichten, da die Änderungen nicht im <strong>R Skript</strong> oder der <strong>Console</strong> angezeigt und somit <strong>nicht nachvollzogen</strong> werden können!</p>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="auswertung">
+<h2>6 Auswertung<a class="headerlink" href="#auswertung" title="Permalink to this heading">#</a></h2>
+<p>Der folgende Abschnitt thematisiert Auswertungsmöglichkeiten mit Fokus
+auf Untergruppierungen und Filterfunktionen.</p>
+<section id="variablenklassen-bestimmen">
+<h3>Variablenklassen bestimmen<a class="headerlink" href="#variablenklassen-bestimmen" title="Permalink to this heading">#</a></h3>
+<p>Damit Sie Ihre Daten adäquat auswerten können, müssen Sie sich über die
+Struktur und Klasse der Variablen bewusst sein.</p>
+<p><strong>Die wichtigsten Variablenklassen im Überblick:</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">integer</span></code>: Ganze Zahlen.<br />
+Beispiel: 1,2,5.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">numeric</span></code>: Zahl mit Kommastellen.<br />
+Beispiel: 1.99, 2.33, 5.00.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">character</span></code>: Zeichenketten bzw. Strings.<br />
+Beispiel: “Hallo”, “Apfel”, “Hannah”.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">factor</span></code>: Kategoriale Variablen.<br />
+Beispiel: “schlecht”, “gut”, “sehr gut”</p></li>
+</ul>
+<p>Die Variablenklasse ist ausschlaggebend dafür, wie Sie die
+Variablendaten auswerten können. Beispielsweise können Sie mit einer
+<code class="docutils literal notranslate"><span class="pre">numeric</span></code> -Variable rechnen, mit einer <code class="docutils literal notranslate"><span class="pre">character</span></code> -Variable jedoch
+nicht.</p>
+<p><strong>Variablenklassen bestimmen im Code:</strong><br />
+Der Befehl <code class="docutils literal notranslate"><span class="pre">class()</span></code>gibt uns die jeweilige Klasse des Objektes wieder:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>class(Tabellendaten$Angestelltenverhaeltnis) #sollte als character oder factor gelesen werden
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">## [1] &quot;character&quot;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>class(Tabellendaten$Geschlecht) #sollte als character oder factor gelesen werden
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">## [1] &quot;character&quot;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>class(Tabellendaten$Angestelltenzahl_2020) #sollte als numerisch oder integer gelesen werden
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">## [1] &quot;character&quot;</span>
+</pre></div>
+</div>
+<p>Die Variablenklassen für “Angestelltenverhältnis” und “Geschlecht” sind
+passend. Die Variable “Angestelltenzahl_2020” wird jedoch auch als
+<code class="docutils literal notranslate"><span class="pre">character</span></code> interpretiert. Dies muss manuell geändert werden, da sonst
+bestimmte Auswertungen nicht möglich sind und Fehler entstehen können.</p>
+<div class="tip admonition">
+<p class="admonition-title">Tipp</p>
+<p>Im <em>Environment</em> Fenster können Sie die Variablenklassen ebenfalls schnell einsehen.</p>
+</div>
+<p><img alt="" src="../_images/R_Environment_Variablenklassen.png" /><br />
+<em>Abbildung 7: Environment-Fenster in R-Studio</em></p>
+<p><strong>Fallbeispiel:</strong> Betrachten Sie die Funktion <code class="docutils literal notranslate"><span class="pre">max()</span></code>, welche den
+Maximalwert in der jeweiligen Spalte zurückgeben soll. Hinweis:
+<code class="docutils literal notranslate"><span class="pre">na.rm</span> <span class="pre">=</span> <span class="pre">TRUE</span></code> muss hinzugefügt werden, damit die nicht vorhandenen
+Werte nicht berücksichtigt werden, ansonsten kommt es zu einem Error.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>max(Tabellendaten$Angestelltenzahl_2020, na.rm = TRUE)
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">## [1] &quot;99730&quot;</span>
+</pre></div>
+</div>
+<p>Wenn Sie jedoch einen Blick in die Tabelle werfen, sehen Sie schnell,
+dass es mehrere Angestelltenzahlen über 100.000 gibt. Die ausgegebene
+Zahl kann also nicht stimmen!</p>
+<p><strong>Wie kann es zu solch einem Fehler kommen?</strong><br />
+Da die Variable “Angestelltenzahl_2020” als <code class="docutils literal notranslate"><span class="pre">character</span></code> interpretiert
+wird, ändert sich auch die Bedeutung der Funktion <code class="docutils literal notranslate"><span class="pre">max()</span></code>. Die Funkion
+<code class="docutils literal notranslate"><span class="pre">max()</span></code> gibt nun nicht mehr den Maximalwert zurück, sondern den
+niedrigsten Platz in alphabetischer Sortierung. Nur wenn wenn die Werte
+in der Tabelle auch als Zahlen (also numerisch/integer) von <strong>R</strong>
+gelesen werden, gibt die Funktion <code class="docutils literal notranslate"><span class="pre">max()</span></code> den Maximalwert der Spalte
+zurück.</p>
+</section>
+<section id="variablenklasse-andern">
+<h3>Variablenklasse ändern<a class="headerlink" href="#variablenklasse-andern" title="Permalink to this heading">#</a></h3>
+<p>Hierfür überspeichern Sie die Daten der jeweiligen Spalte mit den exakt
+selben Daten, nur das Sie durch den Befehl <code class="docutils literal notranslate"><span class="pre">as.integer</span></code> die Klasse der
+Variable ändern. Wenn Sie die Klasse in numerisch ändern wollen würden
+Sie <code class="docutils literal notranslate"><span class="pre">as.numeric</span></code> usw. verwenden.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Tabellendaten$Angestelltenzahl_2020 &lt;- as.integer(Tabellendaten$Angestelltenzahl_2020)
+</pre></div>
+</div>
+<p>Überprüfen Sie gegebenenfalls erneut die Klasse:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>class(Tabellendaten$Angestelltenzahl_2020)
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">## [1] &quot;integer&quot;</span>
+</pre></div>
+</div>
+<p>Wenn Sie nun noch einmal die Beispielfunktion <code class="docutils literal notranslate"><span class="pre">max()</span></code> heranziehen, dann
+bekommen Sie jetzt durch neuer Klassenzugehörigkeit der Variable den
+Maximalwert angezeigt:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>max(Tabellendaten$Angestelltenzahl_2020, na.rm = TRUE)
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">## [1] 759065</span>
+</pre></div>
+</div>
+<blockquote>
+<div><p><strong>Merken:</strong> Überprüfen Sie immer die Art der Variablenklasse, welche
+<strong>R</strong> Ihren Daten zuweist und ändern Sie dies gegebenenfalls, um
+Fehler zu vermeiden.</p>
+</div></blockquote>
+<div class="admonition-wichtig admonition">
+<p class="admonition-title">Wichtig!</p>
+<p>Überprüfen Sie immer die Art der Variablenklasse, welche <strong>R</strong> Ihren Daten zuweist und ändern Sie dies gegebenenfalls, um Fehler zu vermeiden.</p>
+</div>
+</section>
+<section id="variablen-hinzufugen">
+<h3>Variablen hinzufügen<a class="headerlink" href="#variablen-hinzufugen" title="Permalink to this heading">#</a></h3>
+<p>Eine gute <strong>Kategorisierung</strong> Ihrer Daten ist notwendig, um effizient zu
+filtern. Hierzu müssen Sie die Struktur der Daten nachvollziehen
+können.<br />
+Um die einzelnen Ausprägung der Variable “Angestelltenverhaeltnis” zu
+sichten, bietet Ihnen <strong>R</strong> den Befehl <code class="docutils literal notranslate"><span class="pre">unique()</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>unique(Tabellendaten$Angestelltenverhaeltnis)
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="c1">##  [1] &quot;Wissenschaftliches und kuenstlerisches Personal&quot;     </span>
+    <span class="c1">##  [2] &quot;  Hauptberufl. wissenschaftl. u. kuenstler. Personal&quot;</span>
+    <span class="c1">##  [3] &quot;    Professoren&quot;                                     </span>
+    <span class="c1">##  [4] &quot;    Dozenten und Assistenten&quot;                        </span>
+    <span class="c1">##  [5] &quot;    Wissenschaftliche und kuenstlerische Mitarbeiter&quot;</span>
+    <span class="c1">##  [6] &quot;    Lehrkraefte fuer besondere Aufgaben&quot;             </span>
+    <span class="c1">##  [7] &quot;  Nebenberufl. wissenschaftl. u. kuenstler. Personal&quot;</span>
+    <span class="c1">##  [8] &quot;    Gastprofessoren, Emeriti&quot;                        </span>
+    <span class="c1">##  [9] &quot;    Lehrbeauftragte&quot;                                 </span>
+    <span class="c1">## [10] &quot;    Wissenschaftliche Hilfskraefte&quot;                  </span>
+    <span class="c1">## [11] &quot;Verwaltungs-, technisches und sonstiges Personal&quot;    </span>
+    <span class="c1">## [12] &quot;  Hauptberufl. Verwaltungs-, techn. u.sonst.Personal&quot;</span>
+    <span class="c1">## [13] &quot;    Verwaltungspersonal&quot;                             </span>
+    <span class="c1">## [14] &quot;    Bibliothekspersonal&quot;                             </span>
+    <span class="c1">## [15] &quot;    Technisches Personal&quot;                            </span>
+    <span class="c1">## [16] &quot;    Sonstiges Personal&quot;                              </span>
+    <span class="c1">## [17] &quot;    Pflegepersonal&quot;                                  </span>
+    <span class="c1">## [18] &quot;    Arbeiter&quot;                                        </span>
+    <span class="c1">## [19] &quot;    Auszubildende&quot;                                   </span>
+    <span class="c1">## [20] &quot;    Praktikanten&quot;                                    </span>
+    <span class="c1">## [21] &quot;    Sonstiges Personal fuer Lehre und Forschung&quot;     </span>
+    <span class="c1">## [22] &quot;    Leitungs- und Verwaltungspersonal&quot;               </span>
+    <span class="c1">## [23] &quot;  Nebenberufl. Verwaltungs-, techn. u.sonst.Personal&quot;</span>
+    <span class="c1">## [24] &quot;    Sonstige Hilfskraefte&quot;                           </span>
+    <span class="c1">## [25] &quot;    Zeitweilig Beschaeftigte&quot;                        </span>
+    <span class="c1">## [26] &quot;Insgesamt&quot;</span>
+</pre></div>
+</div>
+<p>Wie Sie erkennen können, ist die Variable “Angestelltenverhaeltnis”
+recht unübersichtlich, da sie verschiedene Unterkategorien enthält. Bei
+Betrachtung der einzelnen Positionen ist jedoch nicht erkennbar, zu
+welcher Überkategorie die Position gehört.</p>
+<p><strong>Bei genauerer Betrachtung der Tabelle fällt auf, dass es drei Ebenen
+gibt:</strong></p>
+<ol class="arabic simple">
+<li><p>Ebene: “Wissenschaftliches und künstlerisches Personal” und
+“Verwaltungs-, technisches und sonstiges Personal”</p></li>
+<li><p>Ebene: “Hauptberuflich” und “Nebenberuflich”</p></li>
+<li><p>Ebene: Die einzelnen Positionen der Berufsbezeichnungen z.B.
+“Professoren”, “Dozenten und Assistenten”, etc.</p></li>
+</ol>
+<p>Für eine übersichtlichere Struktur in der Tabelle, kann für die ersten
+zwei Ebenen jeweils eine neue Variable erstellt werden. Hierdurch werden
+zwei neue Spalten zur Tabelle hinzugefügt und Sie können dann bei
+Betrachtung einer einzelnen Zeile alle wichtigen Informationen
+herauslesen, was derzeit nicht möglich ist.</p>
+<p><strong>Neue Variablen erstellen</strong>:<br />
+Da die Struktur es nicht erlaubt, die neuen Variablen durch Referenz auf
+die bereits vorhandenen Variablen zu erzeugen, müssen die neuen
+Variablen manuell strukturiert werden.</p>
+<p>Erzeugen Sie hierfür zunächst neue Variablen und setzen Sie den Inhalt
+erst mal auf unbekannt (NA).</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>#1.Ebene: Neue Variable &quot;Personalkategorie&quot;
+Tabellendaten$Personalkategorie &lt;- c(NA)
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>#2.Ebene: Neue Variable &quot;Art der Anstellung&quot;
+Tabellendaten$Art_der_Anstellung &lt;- c(NA)
+</pre></div>
+</div>
+<p>Der Spalteninhalt muss nun manuell eingetragen werden.<br />
+Achtung: Diese Weise ist leider recht fehleranfällig, ist jedoch durch
+den Aufbau der Datei, ohne komplexere Funktionen zu benutzen, nicht
+anders möglich.</p>
+<blockquote>
+<div><p><strong>Merken!:</strong> Wenn Sie Daten generieren, strukturieren Sie diese immer
+gut. Dies erleichtert Ihnen selbst, aber auch allen anderen, die Ihre
+Daten verwenden, dass Arbeiten! Eine gute Struktur von Daten liefert der Tidy- Data Ansatz (Kapitel ??)</p>
+</div></blockquote>
+<div class="admonition-wichtig admonition">
+<p class="admonition-title">Wichtig!</p>
+<p>Wenn Sie Daten generieren, strukturieren Sie diese immer gut. Dies erleichtert Ihnen selbst, aber auch allen anderen, die Ihre Daten verwenden, dass Arbeiten! Eine gute Struktur von Daten liefert der Tidy- Data Ansatz (s. <a class="reference internal" href="Einleitung_Datenmanipulation.html#tidy-data"><span class="std std-ref">Kapitel Tidy Data</span></a>).</p>
+</div>
+<p><strong>Einpflegen des Variableninhalts</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>#1.Ebene
+Tabellendaten$Personalkategorie[76:78] &lt;- &quot;Insgesamt&quot;
+Tabellendaten$Personalkategorie[1:30] &lt;- &quot;Wissenschaftliches und künstlerisches Personal&quot;
+Tabellendaten$Personalkategorie[31:75] &lt;- &quot;Verwaltungs-, technisches und sonstiges Personal&quot;
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>#2.Ebene
+Tabellendaten$Art_der_Anstellung[c(1:3, 31:33, 76:78)] &lt;- &quot;Insgesamt&quot;
+Tabellendaten$Art_der_Anstellung[c(4:18,34:66)] &lt;- &quot;Hauptberuflich&quot;
+Tabellendaten$Art_der_Anstellung[c(19:30,67:75)] &lt;- &quot;Nebenberuflich&quot;
+</pre></div>
+</div>
+<p>Ergebnis ansehen:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">show</span><span class="p">(</span><span class="n">Tabellendaten</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="c1">##                                 Angestelltenverhaeltnis Geschlecht</span>
+    <span class="c1">## 1       Wissenschaftliches und kuenstlerisches Personal  maennlich</span>
+    <span class="c1">## 2       Wissenschaftliches und kuenstlerisches Personal   weiblich</span>
+    <span class="c1">## 3       Wissenschaftliches und kuenstlerisches Personal  Insgesamt</span>
+    <span class="c1">## 4    Hauptberufl. wissenschaftl. u. kuenstler. Personal  maennlich</span>
+    <span class="c1">## 5    Hauptberufl. wissenschaftl. u. kuenstler. Personal   weiblich</span>
+    <span class="c1">## 6    Hauptberufl. wissenschaftl. u. kuenstler. Personal  Insgesamt</span>
+    <span class="c1">## 7                                           Professoren  maennlich</span>
+    <span class="c1">## 8                                           Professoren   weiblich</span>
+    <span class="c1">## 9                                           Professoren  Insgesamt</span>
+    <span class="c1">## 10                             Dozenten und Assistenten  maennlich</span>
+    <span class="c1">## 11                             Dozenten und Assistenten   weiblich</span>
+    <span class="c1">## 12                             Dozenten und Assistenten  Insgesamt</span>
+    <span class="c1">## 13     Wissenschaftliche und kuenstlerische Mitarbeiter  maennlich</span>
+    <span class="c1">## 14     Wissenschaftliche und kuenstlerische Mitarbeiter   weiblich</span>
+    <span class="c1">## 15     Wissenschaftliche und kuenstlerische Mitarbeiter  Insgesamt</span>
+    <span class="c1">## 16                  Lehrkraefte fuer besondere Aufgaben  maennlich</span>
+    <span class="c1">## 17                  Lehrkraefte fuer besondere Aufgaben   weiblich</span>
+    <span class="c1">## 18                  Lehrkraefte fuer besondere Aufgaben  Insgesamt</span>
+    <span class="c1">## 19   Nebenberufl. wissenschaftl. u. kuenstler. Personal  maennlich</span>
+    <span class="c1">## 20   Nebenberufl. wissenschaftl. u. kuenstler. Personal   weiblich</span>
+    <span class="c1">## 21   Nebenberufl. wissenschaftl. u. kuenstler. Personal  Insgesamt</span>
+    <span class="c1">## 22                             Gastprofessoren, Emeriti  maennlich</span>
+    <span class="c1">## 23                             Gastprofessoren, Emeriti   weiblich</span>
+    <span class="c1">## 24                             Gastprofessoren, Emeriti  Insgesamt</span>
+    <span class="c1">## 25                                      Lehrbeauftragte  maennlich</span>
+    <span class="c1">## 26                                      Lehrbeauftragte   weiblich</span>
+    <span class="c1">## 27                                      Lehrbeauftragte  Insgesamt</span>
+    <span class="c1">## 28                       Wissenschaftliche Hilfskraefte  maennlich</span>
+    <span class="c1">## 29                       Wissenschaftliche Hilfskraefte   weiblich</span>
+    <span class="c1">## 30                       Wissenschaftliche Hilfskraefte  Insgesamt</span>
+    <span class="c1">## 31     Verwaltungs-, technisches und sonstiges Personal  maennlich</span>
+    <span class="c1">## 32     Verwaltungs-, technisches und sonstiges Personal   weiblich</span>
+    <span class="c1">## 33     Verwaltungs-, technisches und sonstiges Personal  Insgesamt</span>
+    <span class="c1">## 34   Hauptberufl. Verwaltungs-, techn. u.sonst.Personal  maennlich</span>
+    <span class="c1">## 35   Hauptberufl. Verwaltungs-, techn. u.sonst.Personal   weiblich</span>
+    <span class="c1">## 36   Hauptberufl. Verwaltungs-, techn. u.sonst.Personal  Insgesamt</span>
+    <span class="c1">## 37                                  Verwaltungspersonal  maennlich</span>
+    <span class="c1">## 38                                  Verwaltungspersonal   weiblich</span>
+    <span class="c1">## 39                                  Verwaltungspersonal  Insgesamt</span>
+    <span class="c1">## 40                                  Bibliothekspersonal  maennlich</span>
+    <span class="c1">## 41                                  Bibliothekspersonal   weiblich</span>
+    <span class="c1">## 42                                  Bibliothekspersonal  Insgesamt</span>
+    <span class="c1">## 43                                 Technisches Personal  maennlich</span>
+    <span class="c1">## 44                                 Technisches Personal   weiblich</span>
+    <span class="c1">## 45                                 Technisches Personal  Insgesamt</span>
+    <span class="c1">## 46                                   Sonstiges Personal  maennlich</span>
+    <span class="c1">## 47                                   Sonstiges Personal   weiblich</span>
+    <span class="c1">## 48                                   Sonstiges Personal  Insgesamt</span>
+    <span class="c1">## 49                                       Pflegepersonal  maennlich</span>
+    <span class="c1">## 50                                       Pflegepersonal   weiblich</span>
+    <span class="c1">## 51                                       Pflegepersonal  Insgesamt</span>
+    <span class="c1">## 52                                             Arbeiter  maennlich</span>
+    <span class="c1">## 53                                             Arbeiter   weiblich</span>
+    <span class="c1">## 54                                             Arbeiter  Insgesamt</span>
+    <span class="c1">## 55                                        Auszubildende  maennlich</span>
+    <span class="c1">## 56                                        Auszubildende   weiblich</span>
+    <span class="c1">## 57                                        Auszubildende  Insgesamt</span>
+    <span class="c1">## 58                                         Praktikanten  maennlich</span>
+    <span class="c1">## 59                                         Praktikanten   weiblich</span>
+    <span class="c1">## 60                                         Praktikanten  Insgesamt</span>
+    <span class="c1">## 61          Sonstiges Personal fuer Lehre und Forschung  maennlich</span>
+    <span class="c1">## 62          Sonstiges Personal fuer Lehre und Forschung   weiblich</span>
+    <span class="c1">## 63          Sonstiges Personal fuer Lehre und Forschung  Insgesamt</span>
+    <span class="c1">## 64                    Leitungs- und Verwaltungspersonal  maennlich</span>
+    <span class="c1">## 65                    Leitungs- und Verwaltungspersonal   weiblich</span>
+    <span class="c1">## 66                    Leitungs- und Verwaltungspersonal  Insgesamt</span>
+    <span class="c1">## 67   Nebenberufl. Verwaltungs-, techn. u.sonst.Personal  maennlich</span>
+    <span class="c1">## 68   Nebenberufl. Verwaltungs-, techn. u.sonst.Personal   weiblich</span>
+    <span class="c1">## 69   Nebenberufl. Verwaltungs-, techn. u.sonst.Personal  Insgesamt</span>
+    <span class="c1">## 70                                Sonstige Hilfskraefte  maennlich</span>
+    <span class="c1">## 71                                Sonstige Hilfskraefte   weiblich</span>
+    <span class="c1">## 72                                Sonstige Hilfskraefte  Insgesamt</span>
+    <span class="c1">## 73                             Zeitweilig Beschaeftigte  maennlich</span>
+    <span class="c1">## 74                             Zeitweilig Beschaeftigte   weiblich</span>
+    <span class="c1">## 75                             Zeitweilig Beschaeftigte  Insgesamt</span>
+    <span class="c1">## 76                                            Insgesamt  maennlich</span>
+    <span class="c1">## 77                                            Insgesamt   weiblich</span>
+    <span class="c1">## 78                                            Insgesamt  Insgesamt</span>
+    <span class="c1">##    Angestelltenzahl_2020                                Personalkategorie Art_der_Anstellung</span>
+    <span class="c1">## 1                 247720   Wissenschaftliches und künstlerisches Personal          Insgesamt</span>
+    <span class="c1">## 2                 167112   Wissenschaftliches und künstlerisches Personal          Insgesamt</span>
+    <span class="c1">## 3                 414832   Wissenschaftliches und künstlerisches Personal          Insgesamt</span>
+    <span class="c1">## 4                 159567   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 5                 109708   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 6                 269275   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 7                  36344   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 8                  12949   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 9                  49293   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 10                  2182   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 11                  1546   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 12                  3728   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 13                116004   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 14                 89383   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 15                205387   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 16                  5037   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 17                  5830   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 18                 10867   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 19                 88153   Wissenschaftliches und künstlerisches Personal     Nebenberuflich</span>
+    <span class="c1">## 20                 57404   Wissenschaftliches und künstlerisches Personal     Nebenberuflich</span>
+    <span class="c1">## 21                145557   Wissenschaftliches und künstlerisches Personal     Nebenberuflich</span>
+    <span class="c1">## 22                  1534   Wissenschaftliches und künstlerisches Personal     Nebenberuflich</span>
+    <span class="c1">## 23                   259   Wissenschaftliches und künstlerisches Personal     Nebenberuflich</span>
+    <span class="c1">## 24                  1793   Wissenschaftliches und künstlerisches Personal     Nebenberuflich</span>
+    <span class="c1">## 25                 64492   Wissenschaftliches und künstlerisches Personal     Nebenberuflich</span>
+    <span class="c1">## 26                 35238   Wissenschaftliches und künstlerisches Personal     Nebenberuflich</span>
+    <span class="c1">## 27                 99730   Wissenschaftliches und künstlerisches Personal     Nebenberuflich</span>
+    <span class="c1">## 28                 22127   Wissenschaftliches und künstlerisches Personal     Nebenberuflich</span>
+    <span class="c1">## 29                 21907   Wissenschaftliches und künstlerisches Personal     Nebenberuflich</span>
+    <span class="c1">## 30                 44034   Wissenschaftliches und künstlerisches Personal     Nebenberuflich</span>
+    <span class="c1">## 31                100320 Verwaltungs-, technisches und sonstiges Personal          Insgesamt</span>
+    <span class="c1">## 32                243913 Verwaltungs-, technisches und sonstiges Personal          Insgesamt</span>
+    <span class="c1">## 33                344233 Verwaltungs-, technisches und sonstiges Personal          Insgesamt</span>
+    <span class="c1">## 34                 98247 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 35                240419 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 36                338666 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 37                 25941 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 38                 83918 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 39                109859 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 40                  2443 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 41                  7308 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 42                  9751 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 43                 33025 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 44                 26360 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 45                 59385 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 46                 14422 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 47                 41609 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 48                 56031 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 49                 15427 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 50                 63731 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 51                 79158 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 52                    NA Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 53                    NA Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 54                    NA Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 55                  6284 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 56                 16137 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 57                 22421 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 58                   705 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 59                  1356 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 60                  2061 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 61                    NA Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 62                    NA Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 63                    NA Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 64                    NA Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 65                    NA Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 66                    NA Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 67                  2073 Verwaltungs-, technisches und sonstiges Personal     Nebenberuflich</span>
+    <span class="c1">## 68                  3494 Verwaltungs-, technisches und sonstiges Personal     Nebenberuflich</span>
+    <span class="c1">## 69                  5567 Verwaltungs-, technisches und sonstiges Personal     Nebenberuflich</span>
+    <span class="c1">## 70                  2073 Verwaltungs-, technisches und sonstiges Personal     Nebenberuflich</span>
+    <span class="c1">## 71                  3494 Verwaltungs-, technisches und sonstiges Personal     Nebenberuflich</span>
+    <span class="c1">## 72                  5567 Verwaltungs-, technisches und sonstiges Personal     Nebenberuflich</span>
+    <span class="c1">## 73                    NA Verwaltungs-, technisches und sonstiges Personal     Nebenberuflich</span>
+    <span class="c1">## 74                    NA Verwaltungs-, technisches und sonstiges Personal     Nebenberuflich</span>
+    <span class="c1">## 75                    NA Verwaltungs-, technisches und sonstiges Personal     Nebenberuflich</span>
+    <span class="c1">## 76                348040                                        Insgesamt          Insgesamt</span>
+    <span class="c1">## 77                411025                                        Insgesamt          Insgesamt</span>
+    <span class="c1">## 78                759065                                        Insgesamt          Insgesamt</span>
+</pre></div>
+</div>
+</section>
+<section id="unterkategorisieren">
+<h3>Unterkategorisieren<a class="headerlink" href="#unterkategorisieren" title="Permalink to this heading">#</a></h3>
+<p>Eine Unterkategorisierung (auch Sub-Sampling gennant) bietet sich auch
+insbesondere für die Variable “Geschlecht” an.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>unique(Tabellendaten$Geschlecht)
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">## [1] &quot;maennlich&quot; &quot;weiblich&quot;  &quot;Insgesamt&quot;</span>
+</pre></div>
+</div>
+<p>Durch das Aufführen der Variablenausprägung <code class="docutils literal notranslate"><span class="pre">&quot;Insgesamt&quot;</span></code> wird die
+Tabelle recht unübersichtlich. Es empfiehlt sich das sub-samplen der
+Tabelle nach den verschiedenen Geschlechtsausprägungen:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#Geschlecht</span>
+<span class="n">Tabelle_maennlich</span> <span class="o">&lt;-</span> <span class="n">subset</span><span class="p">(</span><span class="n">Tabellendaten</span><span class="p">,</span> <span class="n">Geschlecht</span> <span class="o">==</span> <span class="s2">&quot;maennlich&quot;</span><span class="p">)</span>
+<span class="n">Tabelle_weiblich</span> <span class="o">&lt;-</span> <span class="n">subset</span><span class="p">(</span><span class="n">Tabellendaten</span><span class="p">,</span> <span class="n">Geschlecht</span> <span class="o">==</span> <span class="s2">&quot;weiblich&quot;</span><span class="p">)</span>
+<span class="n">Tabelle_Insgesamt</span> <span class="o">&lt;-</span> <span class="n">subset</span><span class="p">(</span><span class="n">Tabellendaten</span><span class="p">,</span> <span class="n">Geschlecht</span> <span class="o">==</span> <span class="s2">&quot;Insgesamt&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#Ergbnis ansehen </span>
+<span class="n">head</span><span class="p">(</span><span class="n">Tabelle_Insgesamt</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="c1">##                                 Angestelltenverhaeltnis Geschlecht Angestelltenzahl_2020                              Personalkategorie Art_der_Anstellung</span>
+    <span class="c1">## 3       Wissenschaftliches und kuenstlerisches Personal  Insgesamt                414832 Wissenschaftliches und künstlerisches Personal          Insgesamt</span>
+    <span class="c1">## 6    Hauptberufl. wissenschaftl. u. kuenstler. Personal  Insgesamt                269275 Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 9                                           Professoren  Insgesamt                 49293 Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 12                             Dozenten und Assistenten  Insgesamt                  3728 Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 15     Wissenschaftliche und kuenstlerische Mitarbeiter  Insgesamt                205387 Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 18                  Lehrkraefte fuer besondere Aufgaben  Insgesamt                 10867 Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+</pre></div>
+</div>
+<p>Wenn Sie nun z.B. aus der Tabelle_Insgesamt die zweite Spalte entfernen
+möchten, da diese redundant ist, können Sie die Spalte aus dem Subsample
+entfernen:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Tabelle_Insgesamt</span> <span class="o">&lt;-</span> <span class="n">subset</span><span class="p">(</span><span class="n">Tabelle_Insgesamt</span><span class="p">,</span> <span class="n">select</span><span class="o">=</span> <span class="n">c</span><span class="p">(</span><span class="o">-</span><span class="n">Geschlecht</span><span class="p">))</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#Ergebnis ansehen</span>
+<span class="n">head</span><span class="p">(</span><span class="n">Tabelle_Insgesamt</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="c1">##                                 Angestelltenverhaeltnis Angestelltenzahl_2020                              Personalkategorie  Art_der_Anstellung</span>
+    <span class="c1">## 3       Wissenschaftliches und kuenstlerisches Personal                414832 Wissenschaftliches und künstlerisches Personal           Insgesamt</span>
+    <span class="c1">## 6    Hauptberufl. wissenschaftl. u. kuenstler. Personal                269275 Wissenschaftliches und künstlerisches Personal      Hauptberuflich</span>
+    <span class="c1">## 9                                           Professoren                 49293 Wissenschaftliches und künstlerisches Personal      Hauptberuflich</span>
+    <span class="c1">## 12                             Dozenten und Assistenten                  3728 Wissenschaftliches und künstlerisches Personal      Hauptberuflich</span>
+    <span class="c1">## 15     Wissenschaftliche und kuenstlerische Mitarbeiter                205387 Wissenschaftliches und künstlerisches Personal      Hauptberuflich</span>
+    <span class="c1">## 18                  Lehrkraefte fuer besondere Aufgaben                 10867 Wissenschaftliches und künstlerisches Personal      Hauptberuflich</span>
+</pre></div>
+</div>
+</section>
+<section id="tabellendaten-filtern">
+<h3>Tabellendaten filtern<a class="headerlink" href="#tabellendaten-filtern" title="Permalink to this heading">#</a></h3>
+<p>Alternativ zum <code class="docutils literal notranslate"><span class="pre">subset</span></code>-Befehl kann mit dem Befehl <code class="docutils literal notranslate"><span class="pre">filter</span></code> gearbeitet
+werden.<br />
+Sie können Ihre Tabelle mittels der <code class="docutils literal notranslate"><span class="pre">filter</span></code>-Funktion filtern und so
+nach belieben die Tabelle nur gezielte Inhalte anzeigen lassen.</p>
+<p>Hierzu können Sie verschiedene Operatoren und Funktionen nutzen:</p>
+<p><strong>Mathematische Operatoren:</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">==</span></code> (Ist gleich)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">!=</span></code> (Ist nicht gleich)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;</span></code> (Kleiner als)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&lt;=</span></code> (Kleiner-Gleich)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&gt;</span></code> (Größer als)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&gt;=</span></code> (größer-Gleich)</p></li>
+</ul>
+<p>Beispiel:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>filter(Tabelle_Insgesamt, Tabelle_Insgesamt$Angestelltenzahl_2020 &lt;= 5000)
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="c1">##        Angestelltenverhaeltnis Angestelltenzahl_2020                                Personalkategorie Art_der_Anstellung</span>
+    <span class="c1">## 1     Dozenten und Assistenten                  3728   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 2     Gastprofessoren, Emeriti                  1793   Wissenschaftliches und künstlerisches Personal     Nebenberuflich</span>
+    <span class="c1">## 3                 Praktikanten                  2061 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+</pre></div>
+</div>
+<p><strong>Logische Operatoren:</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">!</span></code> (logisches NICHT)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&amp;</span></code> (logisches UND)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">|</span></code> (logisches ODER)</p></li>
+</ul>
+<p>Beispiel:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>filter(Tabellendaten, Tabellendaten$Personalkategorie == &quot;Wissenschaftliches und künstlerisches Personal&quot; &amp; Tabellendaten$Geschlecht == &quot;weiblich&quot; )
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="c1">##                                 Angestelltenverhaeltnis Geschlecht Angestelltenzahl_2020 			     Personalkategorie Art_der_Anstellung</span>
+    <span class="c1">## 1       Wissenschaftliches und kuenstlerisches Personal   weiblich 		 167112 Wissenschaftliches und künstlerisches Personal 	    	Insgesamt</span>
+    <span class="c1">## 2    Hauptberufl. wissenschaftl. u. kuenstler. Personal   weiblich 		 109708 Wissenschaftliches und künstlerisches Personal 	   Hauptberuflich</span>
+    <span class="c1">## 3                                           Professoren   weiblich		  12949 Wissenschaftliches und künstlerisches Personal 	   Hauptberuflich</span>
+    <span class="c1">## 4                              Dozenten und Assistenten   weiblich 		   1546 Wissenschaftliches und künstlerisches Personal 	   Hauptberuflich</span>
+    <span class="c1">## 5      Wissenschaftliche und kuenstlerische Mitarbeiter   weiblich 		  89383 Wissenschaftliches und künstlerisches Personal 	   Hauptberuflich</span>
+    <span class="c1">## 6                   Lehrkraefte fuer besondere Aufgaben   weiblich 		   5830 Wissenschaftliches und künstlerisches Personal 	   Hauptberuflich</span>
+    <span class="c1">## 7    Nebenberufl. wissenschaftl. u. kuenstler. Personal   weiblich 		  57404 Wissenschaftliches und künstlerisches Personal 	   Hauptberuflich</span>
+    <span class="c1">## 8                              Gastprofessoren, Emeriti   weiblich 		    259 Wissenschaftliches und künstlerisches Personal 	   Hauptberuflich</span>
+    <span class="c1">## 9                                       Lehrbeauftragte   weiblich 		  35238 Wissenschaftliches und künstlerisches Personal 	   Hauptberuflich</span>
+    <span class="c1">## 10                       Wissenschaftliche Hilfskraefte   weiblich 		  21907 Wissenschaftliches und künstlerisches Personal 	   Hauptberuflich</span>
+</pre></div>
+</div>
+<p><strong>Verwenden von Funktionen:</strong></p>
+<p>Beispiel: Ausgabe des kleinsten Wertes mittels er <code class="docutils literal notranslate"><span class="pre">min()</span></code> -Funktion</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>filter(Tabellendaten, Tabellendaten$Angestelltenzahl_2020 == min(Tabellendaten$Angestelltenzahl_2020, na.rm = TRUE))
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="c1">##        Angestelltenverhaeltnis Geschlecht Angestelltenzahl_2020 				    Personalkategorie Art_der_Anstellung</span>
+    <span class="c1">## 1     Gastprofessoren, Emeriti   weiblich                   259 Wissenschaftliches und künstlerisches Personal     Nebenberuflich</span>
+</pre></div>
+</div>
+<p><strong>Mögliche Probleme?</strong></p>
+<p>Wenn via der Variable <code class="docutils literal notranslate"><span class="pre">Angestelltenverhaeltnis</span></code> gefilterte werden soll, gibt <strong>R</strong> folgenden Output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>#Beispiel: Filtern nach &quot;Professoren&quot;
+filter(Tabellendaten, Tabellendaten$Angestelltenverhaeltnis == &quot;Professoren&quot;)
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">##1     Angestelltenverhaeltnis Geschlecht Angestelltenzahl_2020 Personalkategorie Art_der_Anstellung  </span>
+	<span class="o">&lt;</span><span class="mi">0</span> <span class="n">Zeilen</span><span class="o">&gt;</span> <span class="p">(</span><span class="n">oder</span> <span class="n">row</span><span class="o">.</span><span class="n">names</span> <span class="n">mit</span> <span class="n">Länge</span> <span class="mi">0</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Wenn Sie jedoch in den Datensatz schauen, sehen Sie, dass Professoren unter <code class="docutils literal notranslate"><span class="pre">Angestelltenverhaltnis</span></code> mit aufgelistet werden.</p>
+<p><strong>Warum werden “Professoren” nicht gefunden?</strong><br />
+Das Problem besteht darin, dass die Ausgangsdatei Leerzeichen vor dem Wort Professoren (und auch vor anderen Bezeichnungen von Angestelltenverhältnissen) enthält.</p>
+<p>Mit dem Befehl <code class="docutils literal notranslate"><span class="pre">trimws()</span></code>können Sie die vorgestellten Leerzeichen vor den Bezeichnungen entfernen:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Tabellendaten$Angestelltenverhaeltnis &lt;- trimws(Tabellendaten$Angestelltenverhaeltnis)
+</pre></div>
+</div>
+<p>Führen Sie nun erneut die Filtersuche durch und Sie erhalten das korrekte Ergebnis:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>filter(Tabellendaten, Tabellendaten$Angestelltenverhaeltnis == &quot;Professoren&quot;)
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">##  Angestelltenverhaeltnis Geschlecht Angestelltenzahl_2020                              Personalkategorie Art_der_Anstellung</span>
+<span class="c1">##1             Professoren   männlich                 36344 Wissenschaftliches und künstlerisches Personal     Hauptberuflich </span>
+<span class="c1">##2             Professoren   weiblich                 12949 Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+<span class="c1">##3             Professoren  Insgesamt                 49293 Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+</pre></div>
+</div>
+</section>
+<section id="sortieren-von-tabellendaten">
+<h3>Sortieren von Tabellendaten<a class="headerlink" href="#sortieren-von-tabellendaten" title="Permalink to this heading">#</a></h3>
+<p>Sie können Tabellen mittels des <code class="docutils literal notranslate"><span class="pre">order()</span></code>-Befehls nach belieben
+sortieren.</p>
+<p>Beispiel:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Tabelle_Insgesamt_Sortiert &lt;- Tabelle_Insgesamt[order(Tabelle_Insgesamt$Angestelltenzahl_2020, decreasing = TRUE),]
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#Ergebnis ansehen</span>
+<span class="n">head</span><span class="p">(</span><span class="n">Tabelle_Insgesamt_Sortiert</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="c1">##                                 Angestelltenverhaeltnis Angestelltenzahl_2020                                Personalkategorie Art_der_Anstellung</span>
+    <span class="c1">## 78                                            Insgesamt                759065                                        Insgesamt          Insgesamt</span>
+    <span class="c1">## 3       Wissenschaftliches und kuenstlerisches Personal                414832   Wissenschaftliches und künstlerisches Personal          Insgesamt</span>
+    <span class="c1">## 33     Verwaltungs-, technisches und sonstiges Personal                344233 Verwaltungs-, technisches und sonstiges Personal          Insgesamt</span>
+    <span class="c1">## 36   Hauptberufl. Verwaltungs-, techn. u.sonst.Personal                338666 Verwaltungs-, technisches und sonstiges Personal     Hauptberuflich</span>
+    <span class="c1">## 6    Hauptberufl. wissenschaftl. u. kuenstler. Personal                269275   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+    <span class="c1">## 15     Wissenschaftliche und kuenstlerische Mitarbeiter                205387   Wissenschaftliches und künstlerisches Personal     Hauptberuflich</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./Markdown"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Einleitung_Datenmanipulation.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Einleitung</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="R_%C3%9Cbung_Reprodu.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Übung: Reproduzierbarkeit Nationaler Bildungsbericht</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vorwort">1 Vorwort</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#installieren-von-r-und-r-studio">Installieren von R und R-Studio</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#erste-schritte-in-r-studio">2 Erste Schritte in R-Studio</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#einleitung">3 Einleitung</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#einlesen-von-csv-dateien">Einlesen von CSV Dateien</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#daten-sichten">4 Daten sichten</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dateiinhalt-interpretieren">Dateiinhalt interpretieren</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#anmerkungen-zu-der-ausgangsdatei">Anmerkungen zu der Ausgangsdatei</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#daten-aufbereiten">5 Daten aufbereiten</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#umlaute-entfernen">Umlaute entfernen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tabelle-unterteilen">Tabelle unterteilen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#spaltenuberschriften-setzen">Spaltenüberschriften setzen</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#auswertung">6 Auswertung</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#variablenklassen-bestimmen">Variablenklassen bestimmen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#variablenklasse-andern">Variablenklasse ändern</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#variablen-hinzufugen">Variablen hinzufügen</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#unterkategorisieren">Unterkategorisieren</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tabellendaten-filtern">Tabellendaten filtern</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sortieren-von-tabellendaten">Sortieren von Tabellendaten</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Jana, Juliane, Paul und Anton
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

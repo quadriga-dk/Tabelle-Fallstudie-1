@@ -1,0 +1,532 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Aufbau der Fallstudie &#8212; Fallstudie I - Tabelle</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Markdown/Aufbau_Fallstudie';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Datenbasis: Nationaler Bildungsbericht" href="Datenbasis_Bildungsbericht.html" />
+    <link rel="prev" title="Ausgangssituation" href="Ausgangssituation.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="Intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/quadriga-logo.jpeg" class="logo__image only-light" alt="Fallstudie I - Tabelle - Home"/>
+    <script>document.write(`<img src="../_static/quadriga-logo.jpeg" class="logo__image only-dark" alt="Fallstudie I - Tabelle - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="Intro.html">
+                    QUADRIGA - Fallstudie I: Bildungslandschaft
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">1. Einleitung</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Ausgangssituation.html">Ausgangssituation</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Aufbau der Fallstudie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Datenbasis_Bildungsbericht.html">Datenbasis: Nationaler Bildungsbericht</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">2. Datennachnutzung &amp; Datenqualität</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Einleitung_Datennachnutzung.html">Einleitung: Datennachnutzung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Qualit%C3%A4tsmerkmale_Offene_Daten.html">Qualitätsmerkmale für (Offene) Daten und Metadaten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Qualit%C3%A4tsmerkmale_Statistikdaten.html">Qualitätsmerkmale für Statistikdaten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Fair_Prinzipien.html">FAIR-Prinzipien</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5_Star_Model.html">5-Star-Modell</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Linked_Data.html">Linked Data</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">3. Datenzitierung</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Einleitung_Datenzitierung.html">Einleitung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PID.html">PID</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">4. Datenmanipulation</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Einleitung_Datenmanipulation.html">Einleitung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="R_Markdown.html">Übung: Arbeiten mit CSV-Dateien in R</a></li>
+<li class="toctree-l1"><a class="reference internal" href="R_%C3%9Cbung_Reprodu.html">Übung: Reproduzierbarkeit Nationaler Bildungsbericht</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Literaturverzeichnis</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Literaturverzeichnis.html">Literaturverzeichnis</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+<a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button"
+   title="Source repository"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+
+</a>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/Markdown/Aufbau_Fallstudie.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Aufbau der Fallstudie</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="aufbau-der-fallstudie">
+<h1>Aufbau der Fallstudie<a class="headerlink" href="#aufbau-der-fallstudie" title="Permalink to this heading">#</a></h1>
+<p>Die modellhafte Forschungsfrage der Fallstudie lautet: Wie hat sich die Zusammensetzung des Personals an Hochschulen in Deutschland im letzten Jahrzehnt (2010-2020) entwickelt?</p>
+<p>Als Grundlage zur Beantwortung dieser Frage dienen Daten aus dem Nationalen Bildungsbericht 2022, insbesondere das Kapitel H - “Bildungspersonal: Struktur, Entwicklung, Qualität und Professionalisierung” sowie die diesem Kapitel zugeordnete Tabelle H1 - “Personalbestand und Personalstruktur”. Die Daten stammen von den Statistischen Ämtern des Bundes und der Länder, der Hochschulpersonalstatistik und eigenen Berechnungen der Autor:innengruppe. Es werden im Rahmen der Forschungsfrage also keine eigenen Daten erhoben, sondern bestehende Daten nachgenutzt.</p>
+<p>Basierend auf den Originaldaten werden die im Bildungsbericht vorgestellten Ergebnisse und Analysen nachvollzogen bzw. auf ihre Reproduzierbarkeit überprüft. Dazu wird die Qualität des Datensatzes bewertet und der Entstehungskontext sowie die Ergebnisse nachvollzogen, indem die Daten für die Analyse aufbereitet werden.</p>
+<p>Dies geschieht u. a. mit den Werkzeugen Jupyter Books und der statistischen Software R Studio, für deren Verwendung hier erste Schritte aufgezeigt werden.</p>
+<p>Neben der Kenntnis über die Reproduzierbarkeit von datenbasierten Ergebnissen können folgende Lernziele genannt werden:</p>
+<ul class="simple">
+<li><p>Fähigkeit, nachgenutzte Daten bezüglich ihrer Datenqualität kritisch zu bewerten</p></li>
+<li><p>Fähigkeit zum Umgang mit maschinenlesbaren Daten und Re-Datafizierung</p></li>
+<li><p>Fähigkeit für die Datenaggregation und -skalierung</p></li>
+<li><p>Fähigkeit zur Analyse von Daten mittels statistischer Verfahren</p></li>
+</ul>
+<p>(die genannten Lernziele können auch wie die Grob- und Feinlernziele benannt werden)</p>
+<p>Im wissenschaftlichen Datenfluss (Framework verlinken?/Bild einfügen?) sind damit die Phasen</p>
+<ul class="simple">
+<li><p>Planung (Kompetenz Datenzitierung)</p></li>
+<li><p>Erhebung/Nachnutzung (Kompetenz Sicherstellen der Qualität der Datenquellen)</p></li>
+</ul>
+<hr class="docutils" />
+<p>Die folgende Lerneinheit gliedert sich daher hauptsächlich in drei Abschnitte:</p>
+<ul class="simple">
+<li><p>Datennachnutzung &amp; Datenqualität</p></li>
+<li><p>Datenzitierung</p></li>
+<li><p>Datenmanipulation.</p></li>
+</ul>
+<p>Bevor im Folgenden die Lerneinheit beginnt, wird an dieser Stelle ein kurzer Exkurs zu den Gütekriterien der empirischen Sozialforschung eingeschoben. Hier noch erwähnen, warum die Gütekriterien der Sozialforschung für die Verwaltungswissenschaft überhaupt von Bedeutung sind.</p>
+<p>Die Reproduzierbarkeit bzw. Reliabilität von Forschungsergebnissen ist, zusammen mit den beiden weiteren klassischen Gütekriterien Objektivität und Validität, Bestandteil guter wissenschaftlicher Praxis, insbesondere in der empirischen Sozialforschung <span id="id1">[<a class="reference internal" href="Literaturverzeichnis.html#id11" title="Michael Häder. Empirische Sozialforschung: Eine Einführung. Springer Fachmedien Wiesbaden, Wiesbaden, 2019. ISBN 978-3-658-26985-2 978-3-658-26986-9. URL: http://link.springer.com/10.1007/978-3-658-26986-9 (visited on 2024-04-24), doi:10.1007/978-3-658-26986-9.">Häder, 2019</a>, <a class="reference internal" href="Literaturverzeichnis.html#id10" title="Aglaja Przyborski and Monika Wohlrab-Sahr. Qualitative Sozialforschung: Ein Arbeitsbuch. Lehr- und Handbücher der Soziologie. Oldenbourg Verlag, München, 4., erweiterte auflage edition, 2014. ISBN 978-3-486-70892-9.">Przyborski and Wohlrab-Sahr, 2014</a>]</span>.</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Exkurs: Gütekriterien der empirischen Sozialforschung</p>
+<h2 class="rubric" id="gutekriterien-der-empirischen-sozialforschung">Gütekriterien der empirischen Sozialforschung</h2>
+<p>Als Gütekriterien werden Qualitätsmerkmale bezeichnet, welche zur Bewertung von Forschungskonzeption und -auswertung herangezogen werden. Nachfolgend werden diese Kriterien genauer beleuchtet. Mit dem Wissen um diese Kriterien und bei deren transparenter Vermittlung lässt sich der Aufbau einer wissenschaftlichen Untersuchung nachvollziehen und prüfen, was die Vertrauenswürdigkeit erhöht und die Nachnutzung fördert.</p>
+<p>Bei Objektivität erschließt sich auf den ersten Blick kein Zusammenhang zu unserem Beispiel. Die von uns angesprochenen Verwaltungswissenschaftler:innen wollen (zumindest in diesem Fallbeispiel) keine Befragung durchführen, sondern Daten nachnutzen. –&gt;Der Link kommt über die Reliabilität</p>
+<h3 class="rubric" id="objektivitat">Objektivität</h3>
+<p>Die Objektivität einer Untersuchung beinhaltet die Minimierung von äußerlichem Einfluss auf die Untersuchungsteilnehmer*innen. Die teilnehmende Person darf nicht durch die Umgebung, Art der Fragestellung oder einem direkten persönlichem Kontakt innerhalb der Untersuchung zu einem anderen Reaktions- bzw. Antwortverhalten beeinflusst werden. Somit sollten die Ergebnisse unabhängig von der Person sein, welche die Messinstrumente verwendet hat <span id="id2">[<a class="reference internal" href="Literaturverzeichnis.html#id11" title="Michael Häder. Empirische Sozialforschung: Eine Einführung. Springer Fachmedien Wiesbaden, Wiesbaden, 2019. ISBN 978-3-658-26985-2 978-3-658-26986-9. URL: http://link.springer.com/10.1007/978-3-658-26986-9 (visited on 2024-04-24), doi:10.1007/978-3-658-26986-9.">Häder, 2019</a>, <a class="reference internal" href="Literaturverzeichnis.html#id10" title="Aglaja Przyborski and Monika Wohlrab-Sahr. Qualitative Sozialforschung: Ein Arbeitsbuch. Lehr- und Handbücher der Soziologie. Oldenbourg Verlag, München, 4., erweiterte auflage edition, 2014. ISBN 978-3-486-70892-9.">Przyborski and Wohlrab-Sahr, 2014</a>]</span>.</p>
+<blockquote>
+<div><p>Beispielfrage zur Prüfung der Objektivität: Wird die teilnehmende Person manipuliert oder beeinflusst?</p>
+</div></blockquote>
+<h3 class="rubric" id="validitat">Validität</h3>
+<p>Die Validität einer Untersuchung bezeichnet die Übereinstimmung von dem zu untersuchenden Konzept und der tatsächlichen Untersuchung. Damit eine Untersuchung valide ist, müssen die verwendeten Messinstrumente angemessen sein und adäquat zur Forschungsfrage passen <span id="id3">[<a class="reference internal" href="Literaturverzeichnis.html#id11" title="Michael Häder. Empirische Sozialforschung: Eine Einführung. Springer Fachmedien Wiesbaden, Wiesbaden, 2019. ISBN 978-3-658-26985-2 978-3-658-26986-9. URL: http://link.springer.com/10.1007/978-3-658-26986-9 (visited on 2024-04-24), doi:10.1007/978-3-658-26986-9.">Häder, 2019</a>, <a class="reference internal" href="Literaturverzeichnis.html#id10" title="Aglaja Przyborski and Monika Wohlrab-Sahr. Qualitative Sozialforschung: Ein Arbeitsbuch. Lehr- und Handbücher der Soziologie. Oldenbourg Verlag, München, 4., erweiterte auflage edition, 2014. ISBN 978-3-486-70892-9.">Przyborski and Wohlrab-Sahr, 2014</a>]</span>.</p>
+<blockquote>
+<div><p>Beispielfrage: Wird tatsächlich das gemessen, was eigentlich gemessen werden soll?</p>
+</div></blockquote>
+<h3 class="rubric" id="reliabilitat">Reliabilität</h3>
+<p>Die Reliabilität bezeichnet die Zuverlässigkeit einer Methode. Hierunter fällt die Reproduzierbarkeit einer Untersuchung bezüglich der Durchführung als auch der Messergebnisse <span id="id4">[<a class="reference internal" href="Literaturverzeichnis.html#id11" title="Michael Häder. Empirische Sozialforschung: Eine Einführung. Springer Fachmedien Wiesbaden, Wiesbaden, 2019. ISBN 978-3-658-26985-2 978-3-658-26986-9. URL: http://link.springer.com/10.1007/978-3-658-26986-9 (visited on 2024-04-24), doi:10.1007/978-3-658-26986-9.">Häder, 2019</a>, <a class="reference internal" href="Literaturverzeichnis.html#id10" title="Aglaja Przyborski and Monika Wohlrab-Sahr. Qualitative Sozialforschung: Ein Arbeitsbuch. Lehr- und Handbücher der Soziologie. Oldenbourg Verlag, München, 4., erweiterte auflage edition, 2014. ISBN 978-3-486-70892-9.">Przyborski and Wohlrab-Sahr, 2014</a>]</span>.</p>
+<blockquote>
+<div><p>Beispielfrage: Liefert die Wiederholung der Untersuchung die gleichen Ergebnisse?</p>
+</div></blockquote>
+<p>In der Lerneinheit <a class="reference internal" href="R_%C3%9Cbung_Reprodu.html#uebung-reproduzierbarkeit"><span class="std std-ref">Übung: Reproduzierbarkeit Nationaler Bildungsbericht</span></a> werden Methoden und Werkzeuge für das Nachvollziehen von Forschungsergebnissen erarbeitet.</p>
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./Markdown"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Ausgangssituation.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Ausgangssituation</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Datenbasis_Bildungsbericht.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Datenbasis: Nationaler Bildungsbericht</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Jana, Juliane, Paul und Anton
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,555 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>PID &#8212; Fallstudie I - Tabelle</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Markdown/PID';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Einleitung" href="Einleitung_Datenmanipulation.html" />
+    <link rel="prev" title="Einleitung" href="Einleitung_Datenzitierung.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="Intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/quadriga-logo.jpeg" class="logo__image only-light" alt="Fallstudie I - Tabelle - Home"/>
+    <script>document.write(`<img src="../_static/quadriga-logo.jpeg" class="logo__image only-dark" alt="Fallstudie I - Tabelle - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="Intro.html">
+                    QUADRIGA - Fallstudie I: Bildungslandschaft
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">1. Einleitung</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Ausgangssituation.html">Ausgangssituation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Aufbau_Fallstudie.html">Aufbau der Fallstudie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Datenbasis_Bildungsbericht.html">Datenbasis: Nationaler Bildungsbericht</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">2. Datennachnutzung &amp; Datenqualität</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Einleitung_Datennachnutzung.html">Einleitung: Datennachnutzung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Qualit%C3%A4tsmerkmale_Offene_Daten.html">Qualitätsmerkmale für (Offene) Daten und Metadaten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Qualit%C3%A4tsmerkmale_Statistikdaten.html">Qualitätsmerkmale für Statistikdaten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Fair_Prinzipien.html">FAIR-Prinzipien</a></li>
+<li class="toctree-l1"><a class="reference internal" href="5_Star_Model.html">5-Star-Modell</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Linked_Data.html">Linked Data</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">3. Datenzitierung</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Einleitung_Datenzitierung.html">Einleitung</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">PID</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">4. Datenmanipulation</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Einleitung_Datenmanipulation.html">Einleitung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="R_Markdown.html">Übung: Arbeiten mit CSV-Dateien in R</a></li>
+<li class="toctree-l1"><a class="reference internal" href="R_%C3%9Cbung_Reprodu.html">Übung: Reproduzierbarkeit Nationaler Bildungsbericht</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Literaturverzeichnis</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="Literaturverzeichnis.html">Literaturverzeichnis</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+<a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button"
+   title="Source repository"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+
+</a>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/Markdown/PID.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>PID</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fair-digital-objects">FAIR Digital Objects</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ubung-datenzitierung">Übung Datenzitierung</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="pid">
+<span id="id1"></span><h1>PID<a class="headerlink" href="#pid" title="Permalink to this heading">#</a></h1>
+<p>Ein Persistenter Identifikator (oder engl. Persistent Identifier, PID) ist eine eindeutige und dauerhafte (=persistente) digitale Referenz, die aus einer definierten Kombination von Ziffern und/oder alphanumerischen Zeichen besteht (<a class="reference external" href="https://forschungsdaten.info/praxis-kompakt/glossar/#c269858">https://forschungsdaten.info/praxis-kompakt/glossar/#c269858</a>). Sie können auf ein digitales Objekt (z. B. einen Datensatz), aber auch auf Personen und Organisationen verweisen. Zudem befinden sich momentan PID für Software, Forschungsinstrumente, Datenmanagementpläne, Repositorien oder wissenschaftliche Konferenzen in Entwicklung (<a class="reference external" href="https://projects.tib.eu/pid-service/persistent-identifiers/persistent-identifiers-pids/">https://projects.tib.eu/pid-service/persistent-identifiers/persistent-identifiers-pids/</a>). Im Gegensatz zu einer URL (s. o.) verweist ein PID nicht auf einen Standort, sondern auf das Objekt selbst, sodass es selbst dann noch auffindbar bleibt, wenn sich der Standort ändert.</p>
+<p>Ein verbreiteter Standard für digitale Objekte ist DOI (Digital Object Identifier, <a class="reference external" href="https://projects.tib.eu/pid-service/persistent-identifiers/digital-object-identifiers-dois/">https://projects.tib.eu/pid-service/persistent-identifiers/digital-object-identifiers-dois/</a>), ein weiterer wäre URN (Uniform Resource Name, <a class="reference external" href="https://www.ub.hu-berlin.de/de/bibliotheksglossar/urn">https://www.ub.hu-berlin.de/de/bibliotheksglossar/urn</a>). Für Personen hat sich ORCID (Open Researcher Contributor Identifier, <a class="reference external" href="https://orcid.org/">https://orcid.org/</a>) etabliert, für Organisationen ROR (Research Organization Registry, <a class="reference external" href="https://ror.org/">https://ror.org/</a>). Ein weiterer Standard ist GND (Gemeinsame Normdatei), mit dem Entitäten, also Personen, Körperschaften, Konferenzen, Geografika, Sachbegriffe und Werke repräsentiert werden können (<a class="reference external" href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html">https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html</a>).</p>
+<p>PID machen wissenschaftliches Arbeiten im digitalen Raum erst möglich. Ebenso wie im physischen Raum eine Akte oder Veröffentlichung genau benannt und lokalisiert werden muss, um sie zu bearbeiten, benötigen digitale Daten eine eindeutige Kennung. So garantieren sie Beständigkeit und Verwertbarkeit. Ziel ist also eine möglichst breite, interdisziplinäre Austauschbarkeit, Vernetzung und sichere Zitierung, was letztlich die Datenqualität erhöht (<a class="reference external" href="https://www.deutsche-digitale-bibliothek.de/content/blog/persistente-identifikatoren-fuer-unterschiedliche-ressourcen-aller-kultursparten">https://www.deutsche-digitale-bibliothek.de/content/blog/persistente-identifikatoren-fuer-unterschiedliche-ressourcen-aller-kultursparten</a>). Für Forschende liegt der Vorteil darin, dass sich Forschungsdaten schneller und einfacher auffinden lassen und die eigene Forschungsleistung so sichtbarer wird. Die bessere Auffindbarkeit und Kontextualisierung durch PID und Metadaten schafft zudem mehr Transparenz und erleichtert dadurch die Einschätzung der Qualität der Daten und Forschungsergebnisse.</p>
+<p>PID sind vor allem im Kontext von Linked Data (s. <a class="reference internal" href="Linked_Data.html#linked-data"><span class="std std-ref">Kapitel Linked Data</span></a>) zu beachten, denn so lassen sich schnell und unkompliziert Verweise von einem Datensatz zu verwandten Datensätzen, zu dem/der Autor*in und anderen Veröffentlichungen darstellen.</p>
+<p>Wenn Daten von GovData geharvestet werden sollen, brauchen sie neben Metadaten nach dem Standard <a class="reference external" href="http://DCAT-AP.de">DCAT-AP.de</a> einen persistenten URI. Um selbst Daten einzustellen muss man angemeldet und Mitarbeiter*in einer auf der Webseite gelisteten Institutionen sein (<a class="reference external" href="https://www.govdata.de/datenbereitstellungaufgovdata">https://www.govdata.de/datenbereitstellungaufgovdata</a>).</p>
+<p>Im Prinzip sind alle PID URI, weil letzteres das übergreifende Konzept ist.</p>
+<p>PID werden beim Upload von Daten und in der Regel von Repositorien automatisiert vergeben. Kontaktstellen an der Bibliothek einer Einrichtung können dazu unterstützen. Eine Anleitung findet sich bei der TIB: <a class="reference external" href="https://projects.tib.eu/pid-service/tib-doi-konsortium/anleitungen-zur-doi-registrierung/">https://projects.tib.eu/pid-service/tib-doi-konsortium/anleitungen-zur-doi-registrierung/</a></p>
+<section id="fair-digital-objects">
+<h2>FAIR Digital Objects<a class="headerlink" href="#fair-digital-objects" title="Permalink to this heading">#</a></h2>
+<p>Im Kontext von administrativen Datenstrukturen ist die Verknüpfbarkeit von Datensätzen von entscheidender Bedeutung <span id="id2">[<a class="reference internal" href="Literaturverzeichnis.html#id17" title="Robert M. Groves and Brian A. Harris-Kojetin, editors. Federal Statistics, Multiple Data Sources, and Privacy Protection: Next Steps. National Academies Press, Washington, D.C., December 2017. ISBN 978-0-309-46537-3. URL: https://www.nap.edu/catalog/24893 (visited on 2024-04-30), doi:10.17226/24893.">Groves and Harris-Kojetin, 2017</a>]</span>. Wenn in unterschiedlichen Datensätzen verschiedene Informationen zu Personen gesammelt werden, kann eine effiziente Verknüpfung nur über ein in allen Datensätzen vorhandenes gleiches Variablenmerkmal (z.B. Name, Steuer-ID, Sozialversicherungsnummer) gesetzt werden. Dieses Variablenmerkmal sollte im besten Fall einzigartig sein und eine Person klar identifizieren können. <span id="id3">[<a class="reference internal" href="Literaturverzeichnis.html#id17" title="Robert M. Groves and Brian A. Harris-Kojetin, editors. Federal Statistics, Multiple Data Sources, and Privacy Protection: Next Steps. National Academies Press, Washington, D.C., December 2017. ISBN 978-0-309-46537-3. URL: https://www.nap.edu/catalog/24893 (visited on 2024-04-30), doi:10.17226/24893.">Groves and Harris-Kojetin, 2017</a>]</span> zeigen die Wichtigkeit dieser Konsistenz am Beispiel der Namensgebung auf: Wenn die Person Dr. Max Tom Mustermann in verschiedenen Datensätzen mal als „Max Mustermann“ oder „Dr. Mustermann“ oder auch „Max Tom Mustermann“ abgespeichert wird, ist eine simple Verknüpfung der Informationen aus den Datensätzen mittels des Namens eine Person nicht möglich. Zudem ist zu beachten, dass sich Namen doppeln können und es sich hier nicht um ein einzigartiges Merkmal handelt. Hier müssten weiter Merkmale (z.B. Adresse, Ausweisnummer) in Kombination verwendet werden, um ein Individuum klar zu identifizieren und dessen Informationen zu aggregieren.</p>
+<p>Für die digitale Verwaltung können entsprechend FAIR Digital Objects eine Lösung sein. Durch sie können Daten standardisiert und nutzbar gemacht werden, was den Austausch zwischen Behörden erleichtern kann. Ein digitales Objekt kann jede Größe haben, beispielsweise eine Excel-Tabelle umfassen. Wenn das Objekt FAIR ist, ist es einfach auffindbar und zugänglich, mit anderen Objekten und Softwaresystemen kompatibel und wiederverwendbar (s. o.). Für die Verwaltung kann das ein sinnvolles Leitbild sein. Mit dem XÖV-Standard zum Datenaustausch und dem Metadatenstandard <a class="reference external" href="http://DCAT-AP.de">DCAT-AP.de</a> ist bereits ein Schritt in diese Richtung gemacht worden <span id="id4">[<a class="reference internal" href="Literaturverzeichnis.html#id37" title="Bundesdruckerei. Was sind FAIR Digital Objects? January 2023. URL: https://www.bundesdruckerei.de/de/innovation-hub/was-sind-fair-digital-objects.">Bundesdruckerei, 2023</a>]</span>.</p>
+</section>
+<section id="ubung-datenzitierung">
+<h2>Übung Datenzitierung<a class="headerlink" href="#ubung-datenzitierung" title="Permalink to this heading">#</a></h2>
+<p>Quiz (nach GoFAIR Austria):</p>
+<p>Frage 1: Eine ORCID dient …</p>
+<ul class="simple">
+<li><p>Option 1</p></li>
+<li><p>Option 2</p></li>
+<li><p>Option 3</p></li>
+</ul>
+<p>Frage 2: Welche Aussage trifft zu?</p>
+<ul class="simple">
+<li><p>Option 1</p></li>
+<li><p>Option 2</p></li>
+<li><p>Option 3</p></li>
+</ul>
+<p>Frage 3: Kann die “broken links”-Problematik durch die Verwendung von PIDs vermieden werden?</p>
+<ul class="simple">
+<li><p>Option 1</p></li>
+<li><p>Option 2</p></li>
+<li><p>Option 3</p></li>
+</ul>
+<p>Frage 4: Wozu werden PIDs vergeben?</p>
+<ul class="simple">
+<li><p>Option 1</p></li>
+<li><p>Option 2</p></li>
+<li><p>Option 3</p></li>
+</ul>
+<p>Frage 5: Wie kann ich einen Datensatz finden, der mit einem DOI eindeutig gekennzeichnet ist?</p>
+<ul class="simple">
+<li><p>Option 1</p></li>
+<li><p>Option 2</p></li>
+<li><p>Option 3</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./Markdown"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Einleitung_Datenzitierung.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Einleitung</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Einleitung_Datenmanipulation.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Einleitung</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fair-digital-objects">FAIR Digital Objects</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ubung-datenzitierung">Übung Datenzitierung</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Jana, Juliane, Paul und Anton
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

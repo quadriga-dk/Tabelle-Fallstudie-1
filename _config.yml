@@ -1,17 +1,19 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Template Book
-author: |
-  <a ref="https://quadriga-dk.de">QUADRIGA</a>
-logo: logo.jpg
-copyright: "2024"
-exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, README.md]
+title: Fallstudie I - Tabelle 
+author: Jana, Juliane, Paul und Anton
+logo: quadriga-logo.jpeg
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/QuadrigaTabelle/Fallstudie1
+  branch: main
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -20,22 +22,23 @@ latex:
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
-  - references.bib
+  - Literatur.bib
+
+# reference style
+sphinx:
+  config:
+    bibtex_reference_style: author_year
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/quadriga-dk/Book_Template  # Online location of your book
-  path_to_book: book  # Optional path to your book, relative to the repository root
-  branch: main  # Which branch of the repository should be used when creating links (optional)
-
-launch_buttons:
-  notebook_interface: jupyterlab
-  thebe: true
-  binderhub_url: https://mybinder.org
-  colab_url: https://colab.research.google.com
+  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
+  path_to_book: docs  # Optional path to your book, relative to the repository root
+  branch: master  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  use_issues_button: true
+  use_issues_button: false
   use_repository_button: true
+
+
