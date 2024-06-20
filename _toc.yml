@@ -9,17 +9,22 @@ parts:
     - file: Markdown/Ausgangssituation
     - file: Markdown/Aufbau_Fallstudie
     - file: Markdown/Datenbasis_Bildungsbericht
-  - caption: 2. Datennachnutzung & Datenqualität
+  - caption: 2. FAIRes Datenmanagement
     chapters:
     - file: Markdown/Einleitung_Datennachnutzung
     - file: Markdown/Fair_Prinzipien
-    - file: Markdown/5_Star_Model
-    - file: Markdown/Linked_Data
-  - caption: 3. Datenzitierung
+    - file: Markdown/FAIR_Übung_Tabelle
+  - caption: 3. Datenzitierung 
     chapters:
     - file: Markdown/Einleitung_Datenzitierung
+    - file: Markdown/Übung_Rohdaten
+  - caption: 4. 5-Sterne-Modell
+    chapters: 
+    - file: Markdown/5_Star_Model
     - file: Markdown/PID
-  - caption: 4. Datenmanipulation
+    - file: Markdown/Linked_Data
+    - file: Markdown/Star_Übung_csv
+  - caption: 5. Datenmanipulation
     chapters:
     - file: Markdown/Einleitung_Datenmanipulation
     - file: Markdown/R_Markdown
