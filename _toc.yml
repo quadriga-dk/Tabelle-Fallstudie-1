@@ -12,8 +12,6 @@ parts:
   - caption: 2. Datennachnutzung & Datenqualität
     chapters:
     - file: Markdown/Einleitung_Datennachnutzung
-    - file: Markdown/Qualitätsmerkmale_Offene_Daten
-    - file: Markdown/Qualitätsmerkmale_Statistikdaten
     - file: Markdown/Fair_Prinzipien
     - file: Markdown/5_Star_Model
     - file: Markdown/Linked_Data
