@@ -9,7 +9,6 @@ parts:
     - file: Markdown/Ausgangssituation
     - file: Markdown/Aufbau_Fallstudie
     - file: Markdown/Datenbasis_Bildungsbericht
-    - file: Markdown/test_datei
   - caption: 2. Datennachnutzung & Datenqualität
     chapters:
     - file: Markdown/Einleitung_Datennachnutzung
