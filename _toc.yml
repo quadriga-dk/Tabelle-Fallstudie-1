@@ -23,7 +23,7 @@ parts:
     - file: Markdown/5_Star_Model
     - file: Markdown/PID
     - file: Markdown/Linked_Data
-    - file: Markdown/Star_Übung_csv
+    - file: Markdown/Star_Übung_CSV
   - caption: 5. Datenmanipulation
     chapters:
     - file: Markdown/Einleitung_Datenmanipulation
