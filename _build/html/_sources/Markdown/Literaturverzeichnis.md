@@ -1,0 +1,5 @@
+# Literaturverzeichnis 
+
+```{bibliography}
+:style: alpha
+```
