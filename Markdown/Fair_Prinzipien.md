@@ -60,9 +60,3 @@ Im Rahmen des Verhaltenskodex für europäische Statistiken der Europäischen Un
 
 - **Zugänglichkeit und Klarheit:** Die bereitgestellten Statistiken werden öffentlich zur Verfügung gestellt und sind leicht auffindbar. Zudem wird transparent und detailreich die Statistik inklusive der Datenerhebung und -auswertung sowie Inhalt zu den beteiligten Parteien angegeben.
 ```
-
-## Übung FAIR-Prinzipien
-
-**An dieser Stelle sollte eine Übung eingebaut werden, mit der abgefragt wird, welche der Qualitätskriterien welchen FAIR Prinzipien zugeordnet werden können. Das entspräche der Ebene kognitives Wissen 1 oder 2 (erinnern, verstehen) (?)*
-
-Während die FAIR-Prinzipien die Offenheit von Datensätzen nicht fordern, aber unterstützen, dient das nachfolgend beschriebene 5-Sterne-Modell zu Bewertung der Qualität eines Datensatzes durch seine Offenheit.
