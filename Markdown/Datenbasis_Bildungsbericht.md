@@ -21,15 +21,5 @@ Die Daten, die zur Erzeugung der Visualisierung verwendet wurden, finden sich im
 
 Da es sich bei dieser Tabelle um aggregierte Daten handelt, ist es sinnvoll, die Rohdaten für diese Daten zu suchen, da die Daten im Rahmen der Fallstudie im Sinn der Reproduzierbarkeit erneut analysiert werden sollen und sich Daten im CSV-Format besser weiterverarbeiten lassen als im Excel-Format. 
 Bevor wir das tun, werden wir Sie im nächsten Kapitel aber zunächst mit dem Thema Datennachnutzung vertraut machen. Dazu untersuchen wir die Qualität unseres Datensatzes anhand der FAIR-Prinzipien.
+
 *Falls Ihnen die FAIR-Prinzipien bereits vertraut sind, können Sie auch direkt zu Kapitel 5 springen.*
-
----
-*Dieser Abschnitt kann ausgeschnitten und an anderer Stelle eingefügt werden -> Einleitung Datenmanipulation?*
-
-In der Tabelle wird als Quelle für die Rohdaten u. a. auf das Statistische Bundesamt (Destatis, [https://www-genesis.destatis.de/genesis/online](https://www-genesis.destatis.de/genesis/online)) verwiesen. Dort lassen sie sich nach kurzer Recherche ausmachen und direkt im CSV-Format herunterladen: [https://www-genesis.destatis.de/genesis//online?operation=table&code=21341-0001&bypass=true&levelindex=0&levelid=1716993151909#abreadcrumb](https://www-genesis.destatis.de/genesis//online?operation=table&code=21341-0001&bypass=true&levelindex=0&levelid=1716993151909#abreadcrumb). 
-
-Ein kurzes Tutorial zu Datenqualität und Maschinenlesbarkeit tabellarischer Daten in Bezug auf CSV und XLSX (Excel) bietet folgendes Video der Open Data Informationsstelle Berlin. Dort erfahren Sie u. a., wie sich die beiden Formate unterscheiden und warum Excel-Tabellen oft nicht einwandfrei maschinenlesbar sind.
-
-[https://www.youtube.com/embed/Nb_cLObVKho?si=cuM3HATsLLsvbk-h](https://www.youtube.com/embed/Nb_cLObVKho?si=cuM3HATsLLsvbk-h)
-
-**Hier eine Frage eine Frage einbinden?: Wie offen und technisch verwendbar sind diese Datensätze für die nachfolgenden Analysen?*
