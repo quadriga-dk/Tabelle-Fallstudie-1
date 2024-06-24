@@ -30,6 +30,7 @@ parts:
     - file: Markdown/Datenstruktur
     - file: Markdown/R_Markdown
     - file: Markdown/R_Übung_Reprodu
+    - file: Markdown/Übung_Zeitreihe_R
   - caption: 6. Zusammenfassung
     chapters:
     - file: Markdown/Reflexion
