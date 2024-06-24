@@ -17,9 +17,14 @@ from jupyterquiz import display_quiz
 
 Um Daten auf ihre FAIRness zu prüfen, bieten sich Checklisten an. Wir beziehen uns in dieser Übung auf die Checkliste von Jones&Grootveld (2017), die Sie unter folgendem Link bei Zenodo auf Englisch einsehen können: https://zenodo.org/records/5111307.
 
-Den vier Kriterien sind jeweils 4 Aussagen zugeordnet, die Sie in dieser Übung auf den Datensatz anwenden sollen.
+Den Datensatz, also die Tabelle im Format Excel, können Sie unter folgendem Link als zum Bildungsbericht zugehörigen Datensatz herunterladen: https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2024/bildung-in-deutschland-2024#10. Sie gehört zum Kapitel "H - Berufliche Bildung" und ist dort als H1 gelistet. Ein Klick auf *(xlsx)* lädt automatisch die Excel-Tabelle herunter.
 
-Zum ersten Kriterium 'Auffindbarkeit' heißt es dementsprechend:
+<span style="color:red"> Achtung: Die entsprechende Tabelle lässt sich (momentan?) leider nicht (!) mehr herunterladen...</span>
+
+Den vier Kriterien (**F**indable, **A**ccessible, **I**nteroperable und **R**eusable) sind jeweils 4 Aussagen zugeordnet, die Sie in dieser Übung auf den Datensatz anwenden sollen.
+
+
+Daten sind auffindbar (findable), wenn sie von anderen gefunden werden können. Das ist der Fall, wenn die Daten mit einem persistenten Identifikator bezeichnet und mit Metadaten beschrieben sind, die in einer durchsuchbaren Ressource online zur Verfügung stehen. Dazu lassen sich die folgenden 4 Aussagen prüfen:
 
 
 ```{code-cell} ipython3
@@ -42,10 +47,10 @@ questions = \
     'answers': [
     { 'answer': 'Ja',
       'correct': False,
-      'feedback': '...'},
+      'feedback': 'möp'},
     { 'answer': 'Nein',
       'correct': True,
-      'feedback': '...'},
+      'feedback': 'möp'},
     ]
   },
 { 'question': "3. Die Metadaten sind online in einer durchsuchbaren Ressource verfügbar, z. B. einem Katalog oder einem Datenspeicher.",
@@ -53,10 +58,10 @@ questions = \
     'answers': [
     { 'answer': 'Ja',
       'correct': False,
-      'feedback': '...'},
+      'feedback': 'möp'},
     { 'answer': 'Nein',
       'correct': True,
-      'feedback': '...'},
+      'feedback': 'möp'},
     ]
   },
 { 'question': "4. Der Metadatensatz gibt den eindeutigen Indentifikator (URI/PID) an.",
@@ -74,7 +79,8 @@ questions = \
 display_quiz(questions)
 ```
 
-Um die Zugänglichkeit (**A**ccessibility) zu bewerten, müssen folgende Aussagen geprüft werden. Lesen Sie sich die Sätze durch und überlegen sich eine Antwort. Die Lösungen lassen sich durch einen Klick auf den Pfeil einblenden. 
+Unter Zugänglichkeit (Accessibility) versteht man den Zugang zu den Daten für Menschen und Maschinen. Dieser kann Einschränkungen unterliegen, denn FAIR bedeutet nicht, dass Daten offen sein müssen. Wenn Daten aber nicht zugänglich sind, sollten wenigstens die Metadaten zur Verfügung stehen.
+Lesen Sie sich die folgenden Sätze durch und überlegen sich eine Antwort. Die Lösungen lassen sich durch einen Klick auf den Pfeil einblenden. 
 
 ````{admonition} Aussage 1
 :class: tip
