@@ -41,13 +41,15 @@ Durch Einhaltung dieser Struktur entsteht eine Tabelle, die eine schnelle, einfa
 Beispiel für keine Tidy-Data-Struktur:
 ![](_images/tidy_data_schlecht.png) 
 
-**Quiz:**\ 
-Die obige abgebildete Raw-Data-Tabelle weißt mehrere Mängel auf und entspricht nicht den Maßstäben einer Tidy-Data-Struktur. Können Sie alle Fehler finden?\ 
+*** 
+**Quiz:**
+
+Die obige abgebildete Raw-Data-Tabelle weißt mehrere Mängel auf und entspricht nicht den Maßstäben einer Tidy-Data-Struktur. Können Sie alle Fehler finden? 
 
 
 Antworten:
 - (1)	Inkonsistenz
-- 
+
 - (2)	Zellen enthalten mehr als nur einen Inhalt
 
 - (3)	Leere Zellen
@@ -60,7 +62,7 @@ Antworten:
   
 - (7) Es werden optische Hervorhebungen verwendet
 
-
+*** 
 Nach Wickham (2014) sind die häufigsten Fehler im Aufbau von Datensätzen folgende:
 
 - Spaltenüberschriften sind keine vernünftigen Variablennamen sondern numerische Werte.
