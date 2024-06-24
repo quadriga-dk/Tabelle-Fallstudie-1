@@ -71,5 +71,5 @@ Nach Wickham (2014) sind die häufigsten Fehler im Aufbau von Datensätzen folge
 
 
 ```{note}
-Nun stellt sich bei Ihnen sicherlich die Frage, wie es denn um unser Raw-Data-Set vom Statistischen Bundesamt steht? Weißt dieser eine vorbildliche Struktur auf? Diese Frage wird in der folgenden Lerneinheit [Übung: Arbeiten mit CSV-Dateien in R](Übung_csv) beantwortet.
+Nun stellt sich bei Ihnen sicherlich die Frage, wie es denn um unser Raw-Data-Set vom Statistischen Bundesamt steht? Weißt dieses eine vorbildliche Struktur auf? Diese Frage wird in der folgenden Lerneinheit [Übung: Arbeiten mit CSV-Dateien in R](Übung_csv) beantwortet.
 ```
