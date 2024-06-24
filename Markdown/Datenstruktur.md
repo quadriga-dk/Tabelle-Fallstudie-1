@@ -20,9 +20,6 @@ Beispielhafte simple Form der Datennormalisierung:
 Further Reading:
 https://databasecamp.de/daten/normalisierung
 
-{cite}`codd_further_1971`
-{cite}`khodorovskii_normalization_2002`
-{cite}`khodorovskii_normalization_2002,codd_further_1971`
 
 (Tidy_data)=
 ## Tidy-Data-Struktur
