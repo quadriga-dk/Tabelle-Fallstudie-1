@@ -17,11 +17,63 @@ from jupyterquiz import display_quiz
 
 Um Daten auf ihre FAIRness zu prüfen, bieten sich Checklisten an. Wir beziehen uns in dieser Übung auf die Checkliste von Jones&Grootveld (2017), die Sie unter folgendem Link bei Zenodo einsehen können: https://zenodo.org/records/5111307.
 
-Zur Auffindbarkeit:
-1. Ihren Daten ist ein eindeutiger Identifikator (URI/PID) zugewiesen
-2. Es gibt umfangreiche Metadaten, die Ihre Daten beschreiben
-3. Die Metadaten sind online in einer durchsuchbaren Ressource verfügbar, z. B. einem Katalog oder einem Datenspeicher
-4. Der Metadatensatz gibt den eindeutigen Indentifikator (URI/PID) an
+Den vier Kriterien sind jeweils 4 Aussagen zugeordnet, die Sie in dieser Übung auf den Datensatz anwenden sollen.
+
+Zum ersten Kriterium 'Auffindbarkeit' heißt es dementsprechend:
+
+
+```{code-cell} ipython3
+:tags: [remove_input]
+questions = \
+[
+  { 'question': "1. Ihren Daten ist ein eindeutiger Identifikator (URI/PID) zugewiesen.",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja',
+      'correct': False,
+      'feedback': 'Nein, den Daten ist kein eindeutiger Identifikator zugewiesen.'},
+    { 'answer': 'Nein',
+      'correct': True,
+      'feedback': 'Richtig. Den Daten ist kein eindeutiger Identifikator zugewiesen'},
+    ]
+  },
+  { 'question': "2. Es gibt umfangreiche Metadaten, die Ihre Daten beschreiben.",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja',
+      'correct': False,
+      'feedback': '...'},
+    { 'answer': 'Nein',
+      'correct': True,
+      'feedback': '...'},
+    ]
+  },
+{ 'question': "3. Die Metadaten sind online in einer durchsuchbaren Ressource verfügbar, z. B. einem Katalog oder einem Datenspeicher.",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja',
+      'correct': False,
+      'feedback': '...'},
+    { 'answer': 'Nein',
+      'correct': True,
+      'feedback': '...'},
+    ]
+  },
+{ 'question': "4. Der Metadatensatz gibt den eindeutigen Indentifikator (URI/PID) an.",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja',
+      'correct': False,
+      'feedback': 'Nein, denn es gibt keinen eindeutigen Identifikator.'},
+    { 'answer': 'Nein',
+      'correct': True,
+      'feedback': 'Richtig.'},
+    ]
+  }
+]
+
+display_quiz(questions)
+```
 
 Zur Zugänglichkeit:
 1. Wenn Sie der persistenten ID folgen, gelangen Sie zu den Daten oder den zugehörigen Metadaten
