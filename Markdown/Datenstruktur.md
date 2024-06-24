@@ -20,6 +20,10 @@ Beispielhafte simple Form der Datennormalisierung:
 Further Reading:
 https://databasecamp.de/daten/normalisierung
 
+{cite}`codd_further_1971`
+{cite}`khodorovskii_normalization_2002`
+{cite}`khodorovskii_normalization_2002,codd_further_1971`
+
 (Tidy_data)=
 ## Tidy-Data-Struktur
 Eine sinnvolle Struktur für Ihre Daten ist unerlässlich. Eine weitverbreiteter Standard für diese Struktur setzt das sogenannte „Tidy Dataset“ {cite}`wickham_tidy_2014`. Ein Datensatz wird als „Tidy“ bezeichnet, wenn es folgende Struktur erfüllt:
