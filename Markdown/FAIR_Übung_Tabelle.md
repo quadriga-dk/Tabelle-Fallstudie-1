@@ -15,7 +15,7 @@ from jupyterquiz import display_quiz
 ```
 # Übung FAIR-Prinzipien
 
-Um Daten auf ihre FAIRness zu prüfen, bieten sich Checklisten an. Wir beziehen uns in dieser Übung auf die Checkliste von Jones&Grootveld (2017), die Sie unter folgendem Link bei Zenodo einsehen können: https://zenodo.org/records/5111307.
+Um Daten auf ihre FAIRness zu prüfen, bieten sich Checklisten an. Wir beziehen uns in dieser Übung auf die Checkliste von Jones&Grootveld (2017), die Sie unter folgendem Link bei Zenodo auf Englisch einsehen können: https://zenodo.org/records/5111307.
 
 Den vier Kriterien sind jeweils 4 Aussagen zugeordnet, die Sie in dieser Übung auf den Datensatz anwenden sollen.
 
@@ -75,8 +75,16 @@ questions = \
 display_quiz(questions)
 ```
 
-Zur Zugänglichkeit:
-1. Wenn Sie der persistenten ID folgen, gelangen Sie zu den Daten oder den zugehörigen Metadaten
+Um die Zugänglichkeit (**A**ccessibility) zu bewerten, müssen folgende Aussagen geprüft werden: 
+
+`````{admonition} Übung
+:class: tip
+1. Wenn Sie dem persistenten Identifikator folgen, gelangen Sie zu den Daten oder den zugehörigen Metadaten.
+````{admonition} Lösung
+:class: dropdown
+Nein. Da es keinen persistenten Identifikator gibt (siehe die Übung zur Auffindbarkeit), erübrigt sich diese Frage.
+````
+
 2. Das Protokoll, über das die Daten abgerufen werden können, folgt anerkannten Standards, z. B. http
 3. Das Zugriffsverfahren umfasst erforderlichenfalls Authentifizierungs- und Autorisierungsschritte
 4. Metadaten sind, wo immer möglich, zugänglich, auch wenn die Daten nicht zugänglich sind.
