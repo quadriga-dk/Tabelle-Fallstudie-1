@@ -26,7 +26,8 @@ parts:
     - file: Markdown/Star_Übung_CSV
   - caption: 5. Datenmanipulation
     chapters:
-    - file: Markdown/Einleitung_Datenmanipulation
+    - file: Markdown/Datenmanipulation
+    - file: Markdown/Datenstruktur
     - file: Markdown/R_Markdown
     - file: Markdown/R_Übung_Reprodu
   - caption: Literaturverzeichnis
