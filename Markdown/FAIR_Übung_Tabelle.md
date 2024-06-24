@@ -71,23 +71,47 @@ questions = \
     ]
   }
 ]
-
 display_quiz(questions)
 ```
 
-Um die Zugänglichkeit (**A**ccessibility) zu bewerten, müssen folgende Aussagen geprüft werden: 
+Um die Zugänglichkeit (**A**ccessibility) zu bewerten, müssen folgende Aussagen geprüft werden. Lesen Sie sich die Sätze durch und überlegen sich eine Antwort. Die Lösungen lassen sich durch einen Klick auf den Pfeil einblenden. 
 
-`````{admonition} Übung
+````{admonition} Aussage 1
 :class: tip
-1. Wenn Sie dem persistenten Identifikator folgen, gelangen Sie zu den Daten oder den zugehörigen Metadaten.
-````{admonition} Lösung
+Wenn Sie dem persistenten Identifikator folgen, gelangen Sie zu den Daten oder den zugehörigen Metadaten.
+```{admonition} Lösung
 :class: dropdown
 Nein. Da es keinen persistenten Identifikator gibt (siehe die Übung zur Auffindbarkeit), erübrigt sich diese Frage.
+```
 ````
 
-2. Das Protokoll, über das die Daten abgerufen werden können, folgt anerkannten Standards, z. B. http
-3. Das Zugriffsverfahren umfasst erforderlichenfalls Authentifizierungs- und Autorisierungsschritte
-4. Metadaten sind, wo immer möglich, zugänglich, auch wenn die Daten nicht zugänglich sind.
+````{admonition} Aussage 2
+:class: tip
+Das Protokoll, über das die Daten abgerufen werden können, folgt anerkannten Standards, z. B. http.
+```{admonition} Lösung
+:class: dropdown
+Ja. Die Daten sind über http abrufbar, nämlich über den Link: https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2024/bildung-in-deutschland-2024#10. 
+```
+````
+
+````{admonition} Aussage 3
+:class: tip
+Das Zugriffsverfahren umfasst erforderlichenfalls Authentifizierungs- und Autorisierungsschritte.
+```{admonition} Lösung
+:class: dropdown
+Nein. Die Daten stehen als offene Statistikdaten allen Nutzer*innen zur freien Verfügung. Daher bedarf es weder einer Athentifizierung noch einer Autorisierung.
+```
+````
+
+````{admonition} Aussage 4
+:class: tip
+Metadaten sind, wo immer möglich, zugänglich, auch wenn die Daten nicht zugänglich sind.
+```{admonition} Lösung
+:class: dropdown
+Nein. Metadaten sind nur in der Tabelle aufgelistet und daher nicht unabhängig von den eigentlichen Daten zugänglich.
+```
+````
+
 
 Zur Interoperabilität:
 1. Die Daten werden in allgemein verständlichen und vorzugsweise offenen Formaten bereitgestellt
