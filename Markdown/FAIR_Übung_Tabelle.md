@@ -48,7 +48,9 @@ questions = \
     { 'answer': 'Ja',
       'correct': False,
       'feedback': 'Das ist leider nicht richtig. Die Daten werden nicht durch umfangreiche Metadaten beschrieben.'},
-    
+    { 'answer': 'Nein',
+      'correct': True,
+      'feedback': 'Richtig, denn es gibt nur wenige Metadaten und die sind im Datensatz selbst (in den Tabellen und dem vorangestellten Inhaltsverzeichnis) enthalten. Da die Tabellen sehr aggregiert sind, wäre das Erstellen von Metadaten sehr herausfordernd. Üblicherweise könnte man in den Metadaten beispielsweise Aussagen zum Erhebungszeitraum, der erhebenden Institution und der Art der Erhebung erwarten.'},
     ]
   },
 { 'question': "3. Die Metadaten sind online in einer durchsuchbaren Ressource verfügbar, z. B. einem Katalog oder einem Datenspeicher.",
@@ -169,6 +171,8 @@ questions = \
     ]
   }
 ]
+display_quiz(questions)
+````
 
 
 Die **Wiederverwendbarkeit** (Reusability) von Daten wird erleichtert, wenn den Daten eine umfangreiche Dokumentation beiliegt. Durch eine eindeutige Lizenz wissen Nutzende sofort, was sie mit den Daten machen können.
