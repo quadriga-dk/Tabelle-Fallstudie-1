@@ -48,9 +48,7 @@ questions = \
     { 'answer': 'Ja',
       'correct': False,
       'feedback': 'Das ist leider nicht richtig. Die Daten werden nicht durch umfangreiche Metadaten beschrieben.'},
-    { 'answer': 'Nein',
-      'correct': True,
-      'feedback': 'Richtig, denn es gibt nur wenige Metadaten und die sind im Datensatz selbst (in den Tabellen und dem vorangestellten Inhaltsverzeichnis) enthalten. Da die Tabellen sehr aggregiert sind, wäre das Erstellen von Metadaten sehr herausfordernd. Üblicherweise könnte man in den Metadaten beispielsweise Aussagen zum Erhebungszeitraum, der erhebenden Institution und der Art der Erhebung erwarten.'},
+    
     ]
   },
 { 'question': "3. Die Metadaten sind online in einer durchsuchbaren Ressource verfügbar, z. B. einem Katalog oder einem Datenspeicher.",
@@ -121,41 +119,57 @@ Nein. Metadaten sind nur in der Tabelle aufgelistet und daher nicht unabhängig 
 
 Ein Datensatz ist **interoperabel** (interoperable) oder kompatibel, wenn Daten und Metadaten anerkannten oder üblichen Formaten und Standards entsprechen. So lassen sie sich leichter einbetten und/oder austauschen. 
 
-````{admonition} Aussage 1
-:class: tip
-Die Daten werden in allgemein verständlichen und vorzugsweise offenen Formaten bereitgestellt.
-```{admonition} Lösung
-:class: dropdown
-Ja und nein. Das Format Excel ist weit verbreitet und vor allem in der Verwaltung ein üblicher Standard, ist aber ein proprietäres Format (Microsoft) und damit nicht offen. Excel soll vor allem die Lesbarkeit für Menschen ermöglichen. Ist eine Tabelle zu stark formatiert, beispielsweise durch farbliche Hinterlegungen, fett oder kursiv beschriebene Zellen, dann leidet darunter die Maschinenlesbarkeit.
-```
-````
 
-````{admonition} Aussage 2
-:class: tip
-Die bereitgestellten Metadaten entsprechen den einschlägigen Standards.
-```{admonition} Lösung
-:class: dropdown
-Nein, denn es gibt kaum Metadaten. Bei statistischen Erhebungen würde man mindestens Aussagen zu Ort, Zeitraum und Art der Erhebung erwarten.
-```
-````
+````{code-cell} ipython3
+:tags: [remove_input]
+questions = \
+[
+  { 'question': "1. Die Daten werden in allgemein verständlichen und vorzugsweise offenen Formaten bereitgestellt.",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja',
+      'correct': True,
+      'feedback': 'Diese Antwort ist teilweise richtig. Das Format Excel ist weit verbreitet und vor allem in der Verwaltung ein üblicher Standard.'},
+    { 'answer': 'Nein',
+      'correct': True,
+      'feedback': 'Diese Antwort ist ebenfalls richtig, denn Excel ist ein proprietäres Format (Microsoft) und damit nicht offen. Excel soll vor allem die Lesbarkeit für Menschen ermöglichen. Ist eine Tabelle zu stark formatiert, beispielsweise durch farbliche Hinterlegungen, fett oder kursiv beschriebene Zellen, dann leidet darunter die Maschinenlesbarkeit.'},
+    ]
+  },
+  { 'question': "2. Die bereitgestellten Metadaten entsprechen den einschlägigen Standards.",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja',
+      'correct': False,
+      'feedback': 'Das ist leider nicht richtig. Man würde mehr Informationen durch die Metadaten erwarten, zum Beispiel wer die Daten wann und aus welchem Grund gesammelt hat.'},
+    { 'answer': 'Nein',
+      'correct': True,
+      'feedback': 'Diese Antwort ist richtig, denn man würde mehr Informationen erwarten, beispielsweise wer die Daten wann und aus welchem Grund gesammelt hat.'},
+    ]
+  },
+{ 'question': "3. Kontrollierte Vokabularien, Schlüsselwörter, Thesauri oder Ontologien werden nach Möglichkeit verwendet.",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja',
+      'correct': True,
+      'feedback': 'Richtig, Die verfügbaren Informationen sind standardisiert bezeichnet, sodass sie von Fachwissenschaftler*innen verstanden werden.'},
+    { 'answer': 'Nein',
+      'correct': False,
+      'feedback': 'Diese Antwort ist leider nicht richtig.'},
+    ]
+  },
+{ 'question': "4. Es werden qualifizierte Verweise und Links zu anderen verwandten Daten bereitgestellt.",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja',
+      'correct': False,
+      'feedback': 'Nein, denn es gibt keine Verweise und Links zu anderen Daten.'},
+    { 'answer': 'Nein',
+      'correct': True,
+      'feedback': 'Richtig, denn Links und Verweise zu anderen Daten findet man in den (Meta-)Daten nicht.'},
+    ]
+  }
+]
 
-````{admonition} Aussage 3
-:class: tip
-Kontrollierte Vokabularien, Schlüsselwörter, Thesauri oder Ontologien werden nach Möglichkeit verwendet.
-```{admonition} Lösung
-:class: dropdown
-Ja. Die verfügbaren Informationen sind so bezeichnet, dass sie von Fachwissenschaftler*innen verstanden werden. 
-```
-````
-
-````{admonition} Aussage 4
-:class: tip
-Es werden qualifizierte Verweise und Links zu anderen verwandten Daten bereitgestellt.
-```{admonition} Lösung
-:class: dropdown
-Nein. Es gibt keine Links und Verweise auf verwandte Daten.
-```
-````
 
 Die **Wiederverwendbarkeit** (Reusability) von Daten wird erleichtert, wenn den Daten eine umfangreiche Dokumentation beiliegt. Durch eine eindeutige Lizenz wissen Nutzende sofort, was sie mit den Daten machen können.
 
