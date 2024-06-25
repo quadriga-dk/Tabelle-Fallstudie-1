@@ -19,7 +19,7 @@ Um Daten auf ihre FAIRness zu prüfen, bieten sich Checklisten an. Wir beziehen 
 
 Den Datensatz, also die Tabelle im Format Excel, können Sie unter folgendem Link als zum Bildungsbericht zugehörigen Datensatz herunterladen: https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2024/bildung-in-deutschland-2024#10. Sie gehört zum Kapitel "H - Berufliche Bildung" und ist dort als H1 gelistet. Ein Klick auf `(xlsx)` lädt automatisch die Excel-Tabelle herunter.
 
-<span style="color:red"> Achtung: Die entsprechende Tabelle lässt sich (momentan?) leider nicht (!) mehr herunterladen...</span>
+<span style="color:red"> *Achtung: Die entsprechende Tabelle lässt sich (momentan?) leider nicht (!) mehr herunterladen...*</span>
 
 Den vier Kriterien (**F**indable, **A**ccessible, **I**nteroperable und **R**eusable) sind jeweils 4 Aussagen zugeordnet, die Sie in dieser Übung auf den Datensatz anwenden sollen.
 
@@ -47,7 +47,7 @@ questions = \
     'answers': [
     { 'answer': 'Ja',
       'correct': False,
-      'feedback': 'Das ist leider nicht richtig.'},
+      'feedback': 'Das ist leider nicht richtig. Die Daten werden nicht durch umfangreiche Metadaten beschrieben.'},
     { 'answer': 'Nein',
       'correct': True,
       'feedback': 'Richtig, denn es gibt nur wenige Metadaten und die sind im Datensatz selbst (in den Tabellen und dem vorangestellten Inhaltsverzeichnis) enthalten. Da die Tabellen sehr aggregiert sind, wäre das Erstellen von Metadaten sehr herausfordernd. Üblicherweise könnte man in den Metadaten beispielsweise Aussagen zum Erhebungszeitraum, der erhebenden Institution und der Art der Erhebung erwarten.'},
@@ -119,7 +119,7 @@ Nein. Metadaten sind nur in der Tabelle aufgelistet und daher nicht unabhängig 
 ````
 
 
-Ein Datensatz ist **interoperabel** (interoperable) oder kompatibel, wenn Daten und Metadaten anerkannten oder üblichen Formaten und Standards entsprechen. So lassen sie sich leichter einbetten und/pder austauschen. 
+Ein Datensatz ist **interoperabel** (interoperable) oder kompatibel, wenn Daten und Metadaten anerkannten oder üblichen Formaten und Standards entsprechen. So lassen sie sich leichter einbetten und/oder austauschen. 
 
 ````{admonition} Aussage 1
 :class: tip
