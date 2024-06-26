@@ -608,7 +608,7 @@ gelesen werden, gibt die Funktion `max()` den Maximalwert der Spalte
 zurück.  
   
   
-
+(Variablenklasse)=
 ### Variablenklasse ändern 
 
 Hierfür überspeichern Sie die Daten der jeweiligen Spalte mit den exakt
