@@ -269,9 +269,8 @@ Das Personal an Hochschulen in Deutschland gliedert sich in zwei Hauptgruppen:
 - 1. Wissenschaftliches und künstlerisches Personal
 - 2. Verwaltungs-, technisches und sonstiges Personal
 
-Beide Personalgruppen haben Sie zwischen den Jahren 2010 und 2020 kontinuierlich erhöht.\ 
-Der Personalstand des wissenschaftlichen und künstlerischen Personals hat sich um 90.465 Mitarbeitende auf 414.832 erhöht. Der Anteil dieser Gruppe am gesamten Personalbestand hat sich ebenfalls
-von 53,91 % auf 54,65 % gesteigert.\ 
+Beide Personalgruppen haben Sie zwischen den Jahren 2010 und 2020 kontinuierlich erhöht.
+Der Personalstand des wissenschaftlichen und künstlerischen Personals hat sich um 90.465 Mitarbeitende auf 414.832 erhöht. Der Anteil dieser Gruppe am gesamten Personalbestand hat sich ebenfalls von 53,91 % auf 54,65 % gesteigert.
 Der Personalstand des Verwaltungs-, technischen und sonstigen Personal hat sich um 66.918 Mitarbeitende auf 344.233 erhöht. Der Anteil dieser Gruppe am gesamten Personalbestand hat sich jedoch von 46,09 % auf 45,35 % verringert.
 `````
 
