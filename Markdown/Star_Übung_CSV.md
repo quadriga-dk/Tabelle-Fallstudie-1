@@ -14,7 +14,9 @@ Ja, er ist offen zur Verfügung gestellt worden. Bei Destatis heißt es a. a. O.
 ````
 `````
 
-`````{admonition} Den 2. Stern gibt es für die Bereitstellung des Datensatzes in einem maschinenlesbaren Format. Ist dies der Fall?
+Den 2. Stern gibt es für die Bereitstellung des Datensatzes in einem maschinenlesbaren Format. 
+
+`````{admonition} Ist dies der Fall?
 :class: tip
 ````{admonition} Lösung
 :class: dropdown
@@ -24,7 +26,9 @@ Ja, denn es handelt sich um Daten im Format CSV.
 ````
 `````
 
-`````{admonition} Ein 3. Stern kann vergeben werden, wenn das Format des Datensatzes nicht-proprietär ist. Wie schätzen Sie das ein?
+Ein 3. Stern kann vergeben werden, wenn das Format des Datensatzes nicht-proprietär ist. 
+
+`````{admonition} Wie schätzen Sie das ein?
 :class: tip
 ````{admonition} Lösung
 :class: dropdown
@@ -46,7 +50,9 @@ Nein. Der Datensatz verfügt nicht über einen eindeutigen, persistenten Identif
 ````
 `````
 
-`````{admonition} Einen 5. Stern erhält der Datensatz, wenn er mit anderen Daten(sätzen) verlinkt ist. Trifft das zu?
+Einen 5. Stern erhält der Datensatz, wenn er mit anderen Daten(sätzen) verlinkt ist. 
+
+`````{admonition} Trifft das zu?
 :class: tip
 ````{admonition} Lösung
 :class: dropdown
