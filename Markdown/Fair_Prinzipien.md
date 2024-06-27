@@ -1,6 +1,12 @@
 # FAIR-Prinzipien
 
-In Bezug auf die Nachnutzung, aber auch hinsichtlich der Qualität von Daten sei an dieser Stelle zudem auf die FAIR-Prinzipien verwiesen. Sie stellen Grundsätze des Datenmanagements dar, die den Austausch und die weitere Nutzung von Daten vereinfachen. FAIR ist das Akronym von Findable, Accessible, Interoperable und Reusable - also auffindbar, zugänglich, interoperabel (kompatibel) und wiederverwendbar. Die 2016 veröffentlichten Prinzipien, die seit 2019 auch in den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" der Deutschen Forschungsgemeinschaft (DFG, https://www.dfg.de/resource/blob/173732/4166759430af8dc2256f0fa54e009f03/kodex-gwp-data.pdf) verankert sind, haben sich mittlerweile zu einem Standard entwickelt {cite}`spiecker_ecodm_2022`.
+In Bezug auf die Nachnutzung, aber auch hinsichtlich der Qualität von Daten(sätzen) wollen wir Sie hier mit den FAIR-Prinzipien vertraut machen. Diese stellen Grundsätze des Datenmanagements dar, die unter anderem den Austausch und die weitere Nutzung von Daten vereinfachen. FAIR ist das Akronym von **F**indable, **A**ccessible, **I**nteroperable und **R**eusable - also auffindbar, zugänglich, interoperabel (bzw. kompatibel) und wiederverwendbar. Diese 2016 veröffentlichten Prinzipien, die seit 2019 auch in den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" der Deutschen Forschungsgemeinschaft (DFG, https://www.dfg.de/resource/blob/173732/4166759430af8dc2256f0fa54e009f03/kodex-gwp-data.pdf) verankert sind, haben sich mittlerweile zu einem Standard entwickelt {cite}`spiecker_ecodm_2022`.
+
+
+![FP1](https://github.com/the-turing-way/the-turing-way/blob/main/book/website/figures/fair-principles.jpg "FAIR Prinzipien")
+
+Bildquelle: The Turing Way Community, & Scriberia. (2020). Illustrations from the Turing Way book dashes. Zenodo. https://doi.org/10.5281/zenodo.3695300
+
 
 Die **Auffindbarkeit** von Daten lässt sich zum Beispiel durch die Verwendung von Persistenten Identifikatoren (s. [Kapitel PID](PID)) für Daten und Datensätze wesentlich vereinfachen. Weiterhin sollten Forschungsdaten immer mit Quellen versehen werden wie es die fachspezifischen Standards erfordern (s. [Kapitel Datenzitierung](Einleitung_Datenzitierung)). Darüber hinaus sollten die Daten mit zahlreichen Metadaten beschrieben werden, für die ebenfalls disziplinspezifische Standards und Schemata vorliegen {cite}`hollander_parthenos_nodate`.
 
