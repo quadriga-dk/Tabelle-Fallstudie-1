@@ -15,13 +15,13 @@ from jupyterquiz import display_quiz
 ```
 # Übung FAIR-Prinzipien
 
-Um Daten auf ihre FAIRness zu prüfen, bieten sich Checklisten an. Wir beziehen uns in dieser Übung auf die Checkliste von Jones&Grootveld (2017), die Sie unter folgendem Link bei Zenodo auf Englisch einsehen können: https://zenodo.org/records/5111307.
+Um Daten auf ihre FAIRness zu prüfen, bieten sich Checklisten an. Wir beziehen uns in dieser Übung auf die Checkliste von Jones&Grootveld (2017), die Sie unter folgendem Link bei Zenodo auf Englisch einsehen können: https://zenodo.org/records/5111307. Für diese Übung haben wir das Dokument übersetzt.
 
-Den Datensatz, also die Tabelle im Format Excel, können Sie unter folgendem Link als zum Bildungsbericht zugehörigen Datensatz herunterladen: https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2024/bildung-in-deutschland-2024#10. Sie gehört zum Kapitel "H - Berufliche Bildung" und ist dort als H1 gelistet. Ein Klick auf `(xlsx)` lädt automatisch die Excel-Tabelle herunter.
+Den Datensatz, also die Tabelle im Format Excel, können Sie unter folgendem Link als zum Bildungsbericht zugehörigen Datensatz herunterladen: https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/bildung-in-deutschland-2022#10. Sie gehört zum Kapitel "H - Bildungspersonal: Struktur, Entwicklung, Qualität und Professionalisierung" und ist dort als "H1 - Personalbestand und Personalstruktur" gelistet. Ein Klick auf `(xlsx)` lädt automatisch die Excel-Tabelle herunter. Bitte beachten Sie, dass sie den Bildungsbericht für das Jahr **2022** öffnen.
 
-<span style="color:red"> *Achtung: Die entsprechende Tabelle lässt sich (momentan?) leider nicht (!) mehr herunterladen...*</span>
+Den vier Kriterien (**F**indable, **A**ccessible, **I**nteroperable und **R**eusable), die wir im vorherigen Kapitel kennengelernt haben, sind jeweils 4 Aussagen zugeordnet, die Sie in dieser Übung auf den Datensatz anwenden sollen. Es handelt sich dabei um einfache Ja-und-Nein-Fragen. Beachten Sie aber, dass eine Aussage nicht immer eindeutig zu beantworten ist und manchmal sowohl Ja als auch Nein richtig sein können.
 
-Den vier Kriterien (**F**indable, **A**ccessible, **I**nteroperable und **R**eusable) sind jeweils 4 Aussagen zugeordnet, die Sie in dieser Übung auf den Datensatz anwenden sollen.
+Viel Erfolg!
 
 
 Daten sind **auffindbar** (findable), wenn sie von anderen gefunden werden können. Das ist der Fall, wenn die Daten mit einem persistenten Identifikator bezeichnet und mit Metadaten beschrieben sind, die in einer durchsuchbaren Ressource online zur Verfügung stehen. Dazu lassen sich die folgenden 4 Aussagen prüfen:
