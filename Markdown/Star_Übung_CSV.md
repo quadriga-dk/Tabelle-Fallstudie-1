@@ -1,4 +1,4 @@
-##Übung zum 5-Sterne-Modell
+#Übung zum 5-Sterne-Modell
 
 In dieser Übung werden Sie den Datensatz, den Sie auf Destatis heruntergeladen haben anhand des 5-Sterne-Modells auf seine Qualität bewerten. 
 
