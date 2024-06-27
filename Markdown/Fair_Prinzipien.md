@@ -2,12 +2,12 @@
 
 In Bezug auf die Nachnutzung, aber auch hinsichtlich der Qualität von Daten(sätzen) wollen wir Sie hier mit den FAIR-Prinzipien vertraut machen. Diese stellen Grundsätze des Datenmanagements dar, die unter anderem den Austausch und die weitere Nutzung von Daten vereinfachen. FAIR ist das Akronym von **F**indable, **A**ccessible, **I**nteroperable und **R**eusable - also auffindbar, zugänglich, interoperabel (bzw. kompatibel) und wiederverwendbar. Diese 2016 veröffentlichten Prinzipien, die seit 2019 auch in den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" der Deutschen Forschungsgemeinschaft (DFG, https://www.dfg.de/resource/blob/173732/4166759430af8dc2256f0fa54e009f03/kodex-gwp-data.pdf) verankert sind, haben sich mittlerweile zu einem Standard entwickelt {cite}`spiecker_ecodm_2022`.
 
-<img src="[URL-to-image](https://github.com/the-turing-way/the-turing-way/blob/main/book/website/figures/fair-principles.jpg)" alt="FAIR Prinzipien" />
+![Fair Prinzipien](https://github.com/quadriga-dk/Tabelle-Fallstudie-1/blob/main/Markdown/_images/fair-principles.jpg)
 
 Bildquelle: The Turing Way Community, & Scriberia. (2020). Illustrations from the Turing Way book dashes. Zenodo. https://doi.org/10.5281/zenodo.3695300
 
 
-Die **Auffindbarkeit** von Daten lässt sich zum Beispiel durch die Verwendung von Persistenten Identifikatoren (s. [Kapitel PID](PID)) für Daten und Datensätze wesentlich vereinfachen. Weiterhin sollten Forschungsdaten immer mit Quellen versehen werden wie es die fachspezifischen Standards erfordern (s. [Kapitel Datenzitierung](Einleitung_Datenzitierung)). Darüber hinaus sollten die Daten mit zahlreichen Metadaten beschrieben werden, für die ebenfalls disziplinspezifische Standards und Schemata vorliegen {cite}`hollander_parthenos_nodate`.
+Die **Auffindbarkeit** von Daten lässt sich zum Beispiel durch die Verwendung von Persistenten Identifikatoren (<span style="color:red">s. [Kapitel PID](PID)</span>) für Daten und Datensätze wesentlich vereinfachen. Weiterhin sollten Forschungsdaten immer mit Quellen versehen werden wie es die fachspezifischen Standards erfordern <span style="color:red">(s. [Kapitel Datenzitierung](Einleitung_Datenzitierung)</span>). Darüber hinaus sollten die Daten mit zahlreichen Metadaten beschrieben werden, für die ebenfalls disziplinspezifische Standards und Schemata vorliegen {cite}`hollander_parthenos_nodate`.
 
 Unter **Zugänglichkeit** fällt die Auswahl eines vertrauenswürdigen Repositoriums als Speicherort für die Daten(sätze) und die klare Regelung des Zugriffs auf diese sowie die Verwendung von standardisierten Protokollen {cite}`hollander_parthenos_nodate`.
 
@@ -17,51 +17,4 @@ Die **Wiederverwendbarkeit** von Daten lässt sich von vornherein unterstützen,
 
 Further Reading:
 
-Eine detaillierte Ausformulierung der Prinzipien findet sich auf https://www.go-fair.org/fair-principles/. Eine Checkliste von Jones & Grootveld (2017) zur Überprüfung der FAIRness von Datensätzen findet sich bei Zenodo: https://zenodo.org/records/5111307.
-
-```{admonition} Mehr zu Qualitätssicherung im Kontext von Open Data finden Sie hier: 
-:class: tip, dropdown
-# Qualitätsmerkmale für (Offene) Daten und Metadaten
-
-Die inhaltliche und kontextuelle Qualität von Daten und Metadaten kann anhand von verschiedenen Qualitätsmerkmalen erfasst werden. In der Fachliteratur variieren die einzelnen Dimensionen je nach Disziplin und Kontext {cite}`behkamal_metrics-driven_2014,bruns_leitfaden_2019,neumaier_automated_2016,vetro_open_2016`. Die nachfolgenden Qualitätsmerkmale bilden eine fachübergreifende Basis zur Evaluation der Datenqualität:
-
-- **Fehlerfreiheit:** Die Daten und Metadaten sind fehlerfrei. Somit sind nur korrekte Werte in der Datei vorhanden {cite}`pipino_data_2002,vaddepalli_taxonomy_2023`.
-
-- **Aktualität:** Die Daten und Metadaten sind auf dem neuesten Stand und werden in regelmäßigen Intervallen überprüft. Das Aktualisierungsintervall ist in den Metadaten mit angegeben. Die Datei enthält eine Versionsnummer, aus welcher erkenntlich wird, auf welchem zeitlichen Stand die Datei ist {cite}`pipino_data_2002,vaddepalli_taxonomy_2023`.
-
-- **Genauigkeit:** Die Daten und Metadaten sind so präzise wie möglich angegeben. Demnach wird auf Rundungen von Zahlen verzichtet. Die Metadaten enthalten alle relevanten Details zur Datei {cite}`behkamal_metrics-driven_2014,bruns_leitfaden_2019,vetro_open_2016`.
-
-- **Konformität:** Die Daten und Metadaten entsprechen den domänenspezifischen Standards. Diese beziehen sich auf Datumsangaben, Zeichenkodierung, etc.. Zudem sind alle Informationen enthalten, welche durch verendetes Vokabular und Betitelung impliziert werden {cite}`behkamal_metrics-driven_2014,vetro_open_2016`.
-
-- **Konsistenz:** Daten und Metadaten sind widerspruchsfrei. Dies gilt für die Daten selbst und auch in Bezug auf andere Datensätze {cite}`behkamal_metrics-driven_2014,pipino_data_2002`.
-
-- **Vertrauenswürdigkeit:** Der Ursprung der Daten ist kenntlich gemacht. Zudem sollte eine Evaluation bezüglich der Glaubwürdigkeit des Herausgebers erfolgen {cite}`bruns_leitfaden_2019,pipino_data_2002`.
-
-- **Transparenz:** Veränderungen an den Daten ist für Dritte ersichtlich (beispielsweise durch die Angabe einer Versionsnummer) {cite}`bruns_leitfaden_2019`.
-
-- **Verständlichkeit:** Die Daten sind so strukturiert und bezeichnet, dass Außenstehende dieses leicht verstehen können. Es wird nur einfaches Vokabular verwendet, welches kein besonderes Fachwissen voraussetzt {cite}`behkamal_metrics-driven_2014,vetro_open_2016,pipino_data_2002`.
-
-- **Vollständigkeit:** Die Daten sind vollständig (z.B. sind alle Datenfelder befüllt). Falls die Daten unvollständig sind, wird auf die Unvollständigkeit hingewiesen {cite}`behkamal_metrics-driven_2014,vetro_open_2016,pipino_data_2002`.
-
-- **Zugänglichkeit:** Die Daten können auf einfache Weise abgerufen werden. Außerdem besteht eine permanente Verlinkung aller Referenzen und Links (z.B. mittels Verwendung permanenter URIs) {cite}`behkamal_metrics-driven_2014,vetro_open_2016,pipino_data_2002,vaddepalli_taxonomy_2023`.
-
-Further Reading: NQDM Checklisten: https://cdn0.scrvt.com/fokus/19c04efdafe63fe4/edbc85cd796a/Checkliste_NQDM_CSV.pdf
-```
-
-```{admonition} Mehr zu Qualitätssicherung im Kontext von Statistikdaten finden Sie hier: 
-:class: tip, dropdown
-# Qualitätsmerkmale für Statistikdaten
-
-Im Rahmen des Verhaltenskodex für europäische Statistiken der Europäischen Union werden Qualitätskriterien für die statistische Datenerhebung und -aufbereitung aufgelistet und erläutert {cite}`noauthor_verhaltenskodex_2018`. Dieser Kodex legt die Basis für einen qualitativ hochwertigen Umgang mit statistischen Daten und ist angelehnt an die zehn Fundamental Principles of Official Statistics der Vereinten Nationen {cite}`noauthor_fundamental_2014`. Im nachfolgenden werden die Qualitätskriterien von "Statistischen Produkten" des Verhaltenskodex näher begutachtet:
-
-
-- **Relevanz:** Die bereitgestellten Statistiken bieten Mehrwert für die Nutzer*innen.
-
-- **Genauigkeit und Zuverlässigkeit:** Die bereitgestellten Statistiken sind fehlerfrei und detailliert.
-
-- **Aktualität und Pünktlichkeit:** Die bereitgestellten Statistiken werden regelmäßig aktualisiert und zum angesetzten Zeitpunkt fristgerecht veröffentlicht.
-
-- **Kohärenz und Vergleichbarkeit:** Die bereitgestellten Statistiken sind untereinander und im Zeitverlauf konsistent und mit anderen staatlich öffentlichten Statistiken vergleichbar. Hierbei steht die Möglichkeit der Datenkombination aus verschiedenen öffentlichen Institutionen im Vordergrund.
-
-- **Zugänglichkeit und Klarheit:** Die bereitgestellten Statistiken werden öffentlich zur Verfügung gestellt und sind leicht auffindbar. Zudem wird transparent und detailreich die Statistik inklusive der Datenerhebung und -auswertung sowie Inhalt zu den beteiligten Parteien angegeben.
-```
+Eine detaillierte Ausformulierung der Prinzipien findet sich auf https://www.go-fair.org/fair-principles/. Zum Prüfen der sogenannten FAIRness von Daten haben sich Checklisten etabliert. Eine von diesen ist die von Jones & Grootveld (2017), die sich bei Zenodo findet (https://zenodo.org/records/5111307). Sie stellt die Basis für die Übung im nächsten Kapitel dar.
