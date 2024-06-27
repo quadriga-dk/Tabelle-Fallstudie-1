@@ -14,16 +14,16 @@ parts:
     - file: Markdown/Einleitung_Datennachnutzung
     - file: Markdown/Fair_Prinzipien
     - file: Markdown/FAIR_Übung_Tabelle
-  - caption: 3. Datenzitierung 
-    chapters:
-    - file: Markdown/Einleitung_Datenzitierung
-    - file: Markdown/Übung_Rohdaten
-  - caption: 4. 5-Sterne-Modell
+  - caption: 3. 5-Sterne-Modell
     chapters: 
     - file: Markdown/5_Star_Model
     - file: Markdown/PID
     - file: Markdown/Linked_Data
     - file: Markdown/Star_Übung_CSV
+  - caption: 4. Datenzitierung 
+    chapters:
+    - file: Markdown/Einleitung_Datenzitierung
+    - file: Markdown/Übung_Rohdaten
   - caption: 5. Datenmanipulation
     chapters:
     - file: Markdown/Datenmanipulation
