@@ -19,10 +19,11 @@ Um Daten auf ihre FAIRness zu prüfen, bieten sich Checklisten an. Wir beziehen 
 
 Den Datensatz, also die Tabelle im Format Excel, können Sie unter folgendem Link als zum Bildungsbericht zugehörigen Datensatz herunterladen: https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/bildung-in-deutschland-2022#10. Sie gehört zum Kapitel "H - Bildungspersonal: Struktur, Entwicklung, Qualität und Professionalisierung" und ist dort als "H1 - Personalbestand und Personalstruktur" gelistet. Ein Klick auf `(xlsx)` lädt automatisch die Excel-Tabelle herunter. Bitte beachten Sie, dass sie den Bildungsbericht für das Jahr **2022** öffnen.
 
-Den vier Kriterien (**F**indable, **A**ccessible, **I**nteroperable und **R**eusable), die wir im vorherigen Kapitel kennengelernt haben, sind jeweils 4 Aussagen zugeordnet, die Sie in dieser Übung auf den Datensatz anwenden sollen. Es handelt sich dabei um einfache Ja-und-Nein-Fragen. Beachten Sie aber, dass eine Aussage nicht immer eindeutig zu beantworten ist und manchmal sowohl Ja als auch Nein richtig sein können.
+Den vier Kriterien (**F**indable, **A**ccessible, **I**nteroperable und **R**eusable), die wir im vorherigen Kapitel kennengelernt haben, sind jeweils 4 Aussagen zugeordnet, die Sie in dieser Übung auf den Datensatz anwenden sollen. Es handelt sich dabei um einfache Ja-und-Nein-Fragen. Beachten Sie aber, dass manche Aussage nicht immer eindeutig zu beantworten ist und manchmal sowohl Ja als auch Nein richtig sein können.
 
 Viel Erfolg!
 
+---
 
 Daten sind **auffindbar** (findable), wenn sie von anderen einfach gefunden werden können. Das ist der Fall, wenn die Daten mit einem persistenten Identifikator bezeichnet (<span style="color:red">siehe Kapitel URI/PID</span>) und mit Metadaten beschrieben sind, die in einer durchsuchbaren Ressource online zur Verfügung stehen. Dazu lassen sich die folgenden 4 Aussagen prüfen:
 
@@ -154,34 +155,37 @@ questions = \
     'answers': [
     { 'answer': 'Ja',
       'correct': True,
-      'feedback': 'Diese Antwort ist teilweise richtig. Das Format Excel ist weit verbreitet und vor allem in der Verwaltung ein üblicher Standard.'},
+      'feedback': 'Diese Antwort ist teilweise richtig, denn das Format Excel ist weit verbreitet, allgemein verständlich und vor allem in der Verwaltung ein üblicher Standard.'},
     { 'answer': 'Nein',
       'correct': True,
-      'feedback': 'Diese Antwort ist ebenfalls richtig, denn Excel ist ein proprietäres Format (Microsoft) und damit nicht offen. Excel soll vor allem die Lesbarkeit für Menschen ermöglichen. Ist eine Tabelle zu stark formatiert, beispielsweise durch farbliche Hinterlegungen, fett oder kursiv beschriebene Zellen, dann leidet darunter die Maschinenlesbarkeit.'},
+      'feedback': 'Diese Antwort ist ebenfalls richtig, denn Excel ist ein proprietäres Format (Microsoft) und damit nicht offen. Excel soll vor allem die Lesbarkeit von (Tabellen-)Daten für Menschen ermöglichen. Ist eine Tabelle zu stark formatiert, beispielsweise durch farbliche Hinterlegungen, fett oder kursiv beschriebene Zellen, dann leidet darunter die Maschinenlesbarkeit.'},
     ]
   },
+
   { 'question': "2. Die bereitgestellten Metadaten entsprechen den einschlägigen Standards.",
     'type': 'multiple_choice',
     'answers': [
     { 'answer': 'Ja',
       'correct': False,
-      'feedback': 'Das ist leider nicht richtig. Man würde mehr Informationen durch die Metadaten erwarten, zum Beispiel wer die Daten wann und aus welchem Grund gesammelt hat.'},
+      'feedback': 'Das ist leider nicht richtig, denn es gibt keine Metadaten. In den Metadaten würde man Aussagen darüber erwarten, wer die Daten wann und aus welchem Grund gesammelt hat.'},
     { 'answer': 'Nein',
       'correct': True,
-      'feedback': 'Diese Antwort ist richtig, denn man würde mehr Informationen erwarten, beispielsweise wer die Daten wann und aus welchem Grund gesammelt hat.'},
+      'feedback': 'Diese Antwort ist richtig, denn es gibt keine Metadaten. Man würde üblicherweise Informationen darüber erwarten, wer die Daten wann und aus welchem Grund gesammelt hat.'},
     ]
   },
+
 { 'question': "3. Kontrollierte Vokabularien, Schlüsselwörter, Thesauri oder Ontologien werden nach Möglichkeit verwendet.",
     'type': 'multiple_choice',
     'answers': [
     { 'answer': 'Ja',
-      'correct': True,
-      'feedback': 'Richtig, Die verfügbaren Informationen sind standardisiert bezeichnet, sodass sie von Fachwissenschaftler*innen verstanden werden.'},
-    { 'answer': 'Nein',
       'correct': False,
-      'feedback': 'Diese Antwort ist leider nicht richtig.'},
+      'feedback': 'Diese Antwort ist nicht richtig, denn es gibt keine Informationen (Metadaten), die standardisiert bezeichnet sind.'},
+    { 'answer': 'Nein',
+      'correct': True,
+      'feedback': 'Richtig, denn es gibt keine Metadaten, die kontrollierte Vokabularien etc. verwenden.'},
     ]
   },
+
 { 'question': "4. Es werden qualifizierte Verweise und Links zu anderen verwandten Daten bereitgestellt.",
     'type': 'multiple_choice',
     'answers': [
@@ -200,40 +204,62 @@ display_quiz(questions)
 
 Die **Wiederverwendbarkeit** (Reusability) von Daten wird erleichtert, wenn den Daten eine umfangreiche Dokumentation beiliegt. Durch eine eindeutige Lizenz wissen Nutzende sofort, was sie mit den Daten machen können.
 
-````{admonition} Aussage 1
-:class: tip
-Die Daten sind genau und mit vielen relevanten Attributen gut beschrieben.
-```{admonition} Lösung
-:class: dropdown
-Ja und nein. Die Daten sind exakt und ausführlich. Allerdings werden die Daten selbst nicht ausführlich beschrieben. 
-```
+
+````{code-cell} ipython3
+:tags: [remove_input]
+questions = \
+[
+  { 'question': "1. Die Daten sind genau und mit vielen relevanten Attributen gut beschrieben.",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja',
+      'correct': True,
+      'feedback': 'Diese Antwort ist richtig, denn die Daten sind exakt und ausführlich. Allerdings werden die Daten selbst nicht ausführlich beschrieben.'},
+    { 'answer': 'Nein',
+      'correct': True,
+      'feedback': 'Diese Antwort ist ebenfalls richtig, denn die Daten sind zwar akkurat, aber nicht mit relevanten Attributen beschrieben.'},
+    ]
+  },
+
+  { 'question': "2. Die Daten haben eine klare und zugängliche Datennutzungslizenz.",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja',
+      'correct': False,
+      'feedback': 'Das ist leider nicht richtig, denn obwohl die Daten offen zur Verfügung stehen, ist nicht klar, ob sie einer Nutzungslizenz unterliegen. Zumindest ist diese nicht einfach zu finden.'},
+    { 'answer': 'Nein',
+      'correct': True,
+      'feedback': 'Diese Antwort ist richtig, denn obwohl die Daten offen zugänglich sind, findet sich keine Lizenz für ihre Nutzung. Eine Lizenz (CC BY-SA 3.0 DE) findet sich nur im Bildungsbericht selbst.'},
+    ]
+  },
+
+{ 'question': "3. Es ist klar, wie, warum und von wem die Daten erstellt und verarbeitet worden sind.",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja',
+      'correct': True,
+      'feedback': 'Diese Antwort ist teilweise richtig, denn Informationen von wem die Daten erstellt wurden, finden sich in den Tabellen selbst.'},
+    { 'answer': 'Nein',
+      'correct': True,
+      'feedback': 'Diese Antwort ist teilweise richtig, denn es gibt zwar einige Informationen zur Erstellung der Daten, allerdings stammen sie nicht aus den Metadaten, sondern den Tabellen selbst oder aus dem Bericht. Dort muss man die Informationen allerdings erst suchen, was die Wiederverwendbarkeit erschwert.'},
+    ]
+  },
+
+{ 'question': "4. Die Daten und Metadaten entsprechen den einschlägigen Fachstandards.",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja',
+      'correct': True,
+      'feedback': 'Diese Antwort ist in Teilen richtig, denn die Daten entsprechen einschlägigen Fachstandards aber es gibt keine Metadaten.'},
+    { 'answer': 'Nein',
+      'correct': True,
+      'feedback': 'Teilweise richtig, denn es gibt keine Metadaten, die Standards entsprechen könnten. Auf die Daten trifft es aber zu.'},
+    ]
+  }
+]
+display_quiz(questions)
 ````
 
-````{admonition} Aussage 2
-:class: tip
-Die Daten haben eine klare und zugängliche Datennutzungslizenz.
-```{admonition} Lösung
-:class: dropdown
-Jein. Die Daten sind offen zugänglich, aber die Lizenz (CC BY-SA 3.0 DE) ist nur im Bildungsbericht selbst hinterlegt.
-```
-````
+---
 
-````{admonition} Aussage 3
-:class: tip
-Es ist klar, wie, warum und von wem die Daten erstellt und verarbeitet worden sind.
-```{admonition} Lösung
-:class: dropdown
-Ja. Diese Informationen erhält man zwar nicht aus den Metadaten, aber aus dem zugehörigen Bericht und den Erklärungen zu dem Bericht. 
-```
-````
-
-````{admonition} Aussage 4
-:class: tip
-Die Daten und Metadaten entsprechen den einschlägigen Fachstandards.
-```{admonition} Lösung
-:class: dropdown
-Ja und nein. Die Daten entsprechen einschlägigen Fachstandards aber es gibt kaum Metadaten.
-```
-````
-
-Am Ende noch ein Hinweis: Nur, weil die Daten in dieser Übung weniger gut abschließen, heißt das nicht, dass sie nicht von guter Qualität wären. Die meisten "schlechten" Antworten ergeben sich aus der Tatsache, dass die Daten nicht eigenständig veröffentlicht sind. Wäre das geschehen, gäbe es eine Verlinkung zur Textpublikation (dem Bericht), es gäbe einen URI/PID und sicher auch Metadaten, die beschrieben, was in den Tabellen überhaupt zu finden wäre. Da die Datentabellen in diesem Beispiel wie an den Bericht "angehängt" und nicht als eigenständige Forschungsdaten publiziert sind, schneiden sie in diesem Test eher schlecht ab. Sie sind tatsächlich schwer zu finden, wenn man nicht weiß, dass sie zum Bildungsbericht gehören.
+Am Ende noch ein Hinweis: Nur, weil die untersuchten Daten in dieser Übung weniger gut abschließen, heißt das nicht, dass sie nicht von guter Qualität sind. Die meisten "schlechten" Antworten ergeben sich aus der Tatsache, dass die Daten nicht eigenständig veröffentlicht sind. Wäre das geschehen, gäbe es eine Verlinkung zur Textpublikation (dem Bericht), es gäbe einen URI/PID und damit auch Metadaten, die beschrieben, was in den Tabellen überhaupt zu finden wäre. Da die Datentabellen in diesem Beispiel wie an den Bericht "angehängt" und nicht als eigenständige Forschungsdaten publiziert sind, schneiden sie in diesem Test eher schlecht ab. Sie sind tatsächlich schwer zu finden, wenn man nicht weiß, dass sie zum Bildungsbericht gehören. Sie sind aber zugänglich. Die Interoperabilität lässt sich eigentlich nicht bewerten, da die Daten nicht eigenständig veröffentlicht sind.
