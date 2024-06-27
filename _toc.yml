@@ -14,6 +14,7 @@ parts:
     - file: Markdown/Einleitung_Datennachnutzung
     - file: Markdown/Fair_Prinzipien
     - file: Markdown/FAIR_Übung_Tabelle
+    - file: Markdown/Qualitätskriterien.md
   - caption: 3. 5-Sterne-Modell
     chapters: 
     - file: Markdown/5_Star_Model
