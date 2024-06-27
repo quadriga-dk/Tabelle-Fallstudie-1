@@ -1,4 +1,4 @@
-# Einleitung: Datennachnutzung
+# Datennachnutzung und Qualitätsbewertung
 
 ````{margin}
 ```{note}
@@ -12,8 +12,9 @@
 ```
 ````
 
-Der erste Teil dieser Lerneinheit befasst sich mit der Datennachnutzung, die maßgeblich von der Qualität der Daten und der sie beschreibenden Metadaten abhängt. Weiterhin wird auf die Datenzitierung Bezug genommen, da ein genaues Zitieren Teil der guten wissenschaftlichen Praxis (https://www.dfg.de/de/grundlagen-rahmenbedingungen/grundlagen-und-prinzipien-der-foerderung/gwp) ist.
+Diese Lerneinheit befasst sich mit der Datennachnutzung, die maßgeblich von der Qualität der Daten und der sie beschreibenden Metadaten abhängt. Da wir die Reproduzierbarkeit des Datensatzes prüfen und anhand der vorliegenden Daten unsere Forschungsfrage beantworten wollen, müssen wir zuerst die Qualität der Datensätze unter die Lupe nehmen.
 
-Da der nationale Bildungsbericht die Daten offen auf Basis von Bundesstatistikdaten zur Verfüngung stellt, wird an dieser Stelle auf offene Daten (Open Data) eingegangen. Unter Open Data versteht man, dass die Daten im Netz frei verfügbar und nutzbar sind. Sie sollen durch die Möglichkeit einer freier Nachnutzung mehr Transparenz ermöglichen und sind ein Basiselement der Reproduzierbarkeit von Forschungsergebnissen, weshalb Open Data auch als Teil der Open-Science-Bewegung verstanden werden kann (forschungsdaten.info 2024, https://forschungsdaten.info/themen/finden-und-nachnutzen/open-data-open-access-und-nachnutzung/). 
+Der nationale Bildungsbericht stellt die Daten offen auf Basis von Bundesstatistikdaten zur Verfügung. Daher werden wir auf offene Daten (Open Data) und die Qualitätskriterien für Open Data eingehen. Unter Open Data versteht man, dass die Daten im Netz frei verfügbar und nutzbar sind. Sie sollen durch die Möglichkeit einer freier Nachnutzung mehr Transparenz in der Forschung ermöglichen und sind ein Basiselement der Reproduzierbarkeit von Forschungsergebnissen, weshalb Open Data auch als Teil der Open-Science-Bewegung verstanden werden kann (forschungsdaten.info 2024, https://forschungsdaten.info/themen/finden-und-nachnutzen/open-data-open-access-und-nachnutzung/). 
 
-Die Qualität von (offenen) Daten lässt sich an verschiedener Kriterien festmachen, die für unterschiedliche Kontexte zusammengestellt wurden. Im Folgenden werden diesbezüglich zuerst die Qualitätsmerkmale für Open Data und die Qualitätsmerkmale für Statistikdaten erläutert. Diese werden durch die allgemein gültigen FAIR-Prinzipien und das 5-Sterne-Modell ergänzt, die zu Linked Data und Datenverknüpfungen überleiten.
+Die Qualität von (offenen) Daten lässt sich an verschiedenen Kriterien festmachen, die für unterschiedliche Kontexte zusammengestellt wurden. Im Folgenden werden diesbezüglich die Qualitätsmerkmale für Open Data und die Qualitätsmerkmale für Statistikdaten erläutert, die für die Verwaltungswissenschaften von herausgehobener Bedeutung sind. 
+Bevor wir das tun, gehen wir zunächst aber auf die im (Forschungs-)Datenmanagement wichtigen und allgemein gültigen FAIR-Prinzipien ein. Dies sind Richtlinien, die dabei helfen, Daten(sätze) nachnutzbar abzulegen, indem sie gut zu finden, einfach zugänglich und mit verschiedenen Systemen lesbar gestaltet sind.
