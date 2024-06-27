@@ -1,4 +1,4 @@
-# 5-Star-Modell
+# 5-Sterne-Modell
 
 ![](_images/5_star_model.png)
 *Abbildung 3: Eigene Abbildung basierend auf {cite}`bruns_leitfaden_2019`.*
