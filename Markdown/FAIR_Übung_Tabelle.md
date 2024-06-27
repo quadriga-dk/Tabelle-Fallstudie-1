@@ -24,14 +24,14 @@ Den vier Kriterien (**F**indable, **A**ccessible, **I**nteroperable und **R**eus
 Viel Erfolg!
 
 
-Daten sind **auffindbar** (findable), wenn sie von anderen gefunden werden können. Das ist der Fall, wenn die Daten mit einem persistenten Identifikator bezeichnet und mit Metadaten beschrieben sind, die in einer durchsuchbaren Ressource online zur Verfügung stehen. Dazu lassen sich die folgenden 4 Aussagen prüfen:
+Daten sind **auffindbar** (findable), wenn sie von anderen einfach gefunden werden können. Das ist der Fall, wenn die Daten mit einem persistenten Identifikator bezeichnet (<span style="color:red">siehe Kapitel URI/PID</span>) und mit Metadaten beschrieben sind, die in einer durchsuchbaren Ressource online zur Verfügung stehen. Dazu lassen sich die folgenden 4 Aussagen prüfen:
 
 
 ````{code-cell} ipython3
 :tags: [remove_input]
 questions = \
 [
-  { 'question': "1. Ihren Daten ist ein eindeutiger Identifikator (URI/PID) zugewiesen.",
+  { 'question': "1. Den Daten ist ein eindeutiger Identifikator (URI/PID) zugewiesen.",
     'type': 'multiple_choice',
     'answers': [
     { 'answer': 'Ja',
@@ -42,6 +42,7 @@ questions = \
       'feedback': 'Richtig. Den Daten ist kein eindeutiger Identifikator zugewiesen'},
     ]
   },
+
   { 'question': "2. Es gibt umfangreiche Metadaten, die Ihre Daten beschreiben.",
     'type': 'multiple_choice',
     'answers': [
@@ -50,26 +51,28 @@ questions = \
       'feedback': 'Das ist leider nicht richtig. Die Daten werden nicht durch umfangreiche Metadaten beschrieben.'},
     { 'answer': 'Nein',
       'correct': True,
-      'feedback': 'Richtig, denn es gibt nur wenige Metadaten und die sind im Datensatz selbst (in den Tabellen und dem vorangestellten Inhaltsverzeichnis) enthalten. Da die Tabellen sehr aggregiert sind, wäre das Erstellen von Metadaten sehr herausfordernd. Üblicherweise könnte man in den Metadaten beispielsweise Aussagen zum Erhebungszeitraum, der erhebenden Institution und der Art der Erhebung erwarten.'},
+      'feedback': 'Richtig, denn es gibt keine Metadaten, die die Tabelle(n) umfangreich beschreiben.'},
     ]
   },
+
 { 'question': "3. Die Metadaten sind online in einer durchsuchbaren Ressource verfügbar, z. B. einem Katalog oder einem Datenspeicher.",
     'type': 'multiple_choice',
     'answers': [
     { 'answer': 'Ja',
       'correct': False,
-      'feedback': 'Nein, denn es gibt keine Metadaten, die nicht im Datensatz selbst (in der Tabelle) genannt werden.'},
+      'feedback': 'Nein, denn es gibt keine extra gelisteten Metadaten.'},
     { 'answer': 'Nein',
       'correct': True,
-      'feedback': 'Richtig, denn es gibt nur wenige Metadaten im Datensatz selbst.'},
+      'feedback': 'Richtig, denn es gibt keine Metadaten.'},
     ]
   },
+
 { 'question': "4. Der Metadatensatz gibt den eindeutigen Indentifikator (URI/PID) an.",
     'type': 'multiple_choice',
     'answers': [
     { 'answer': 'Ja',
       'correct': False,
-      'feedback': 'Nein, denn es gibt keinen eindeutigen Identifikator.'},
+      'feedback': 'Nein, denn es gibt weder einen eindeutigen/persistenten Identifikator, noch Metadaten.'},
     { 'answer': 'Nein',
       'correct': True,
       'feedback': 'Richtig.'},
@@ -79,43 +82,63 @@ questions = \
 display_quiz(questions)
 ````
 
-Unter **Zugänglichkeit** (Accessibility) versteht man den Zugang zu den Daten für Menschen und Maschinen. Dieser kann Einschränkungen unterliegen, denn FAIR bedeutet nicht, dass Daten offen sein müssen. Wenn Daten aber nicht zugänglich sind, sollten wenigstens die Metadaten zur Verfügung stehen.
-Lesen Sie sich die folgenden Sätze durch und überlegen sich eine Antwort. Die Lösungen lassen sich per Klick einblenden. 
 
-````{admonition} Aussage 1
-:class: tip
-Wenn Sie dem persistenten Identifikator folgen, gelangen Sie zu den Daten oder den zugehörigen Metadaten.
-```{admonition} Lösung
-:class: dropdown
-Nein. Da es keinen persistenten Identifikator gibt (siehe die Übung zur Auffindbarkeit), erübrigt sich diese Frage.
-```
-````
+Unter **Zugänglichkeit** (Accessibility) versteht man den Zugang zu den Daten für Menschen **und** Maschinen. Dieser kann Einschränkungen unterliegen, denn FAIR bedeutet nicht, dass Daten offen sein müssen. Wenn Daten aber nicht zugänglich sind, sollten wenigstens die Metadaten zur Verfügung stehen.
 
-````{admonition} Aussage 2
-:class: tip
-Das Protokoll, über das die Daten abgerufen werden können, folgt anerkannten Standards, z. B. http.
-```{admonition} Lösung
-:class: dropdown
-Ja. Die Daten sind über http abrufbar, nämlich über den Link: https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2024/bildung-in-deutschland-2024#10. 
-```
-````
 
-````{admonition} Aussage 3
-:class: tip
-Das Zugriffsverfahren umfasst erforderlichenfalls Authentifizierungs- und Autorisierungsschritte.
-```{admonition} Lösung
-:class: dropdown
-Nein. Die Daten stehen als offene Statistikdaten allen Nutzer*innen zur freien Verfügung. Daher bedarf es weder einer Authentifizierung noch einer Autorisierung.
-```
-````
+````{code-cell} ipython3
+:tags: [remove_input]
+questions = \
+[
+  { 'question': "1. Wenn Sie dem persistenten Identifikator folgen, gelangen Sie zu den Daten oder den zugehörigen Metadaten.",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja',
+      'correct': False,
+      'feedback': 'Nein, denn es gibt keinen eindeutigen bzw. persistenten Identifikator.'},
+    { 'answer': 'Nein',
+      'correct': True,
+      'feedback': 'Richtig. Da es keinen persistenten Identifikator gibt (siehe die Übung Nr. 1 zur Auffindbarkeit), erübrigt sich diese Frage'},
+    ]
+  },
 
-````{admonition} Aussage 4
-:class: tip
-Metadaten sind, wo immer möglich, zugänglich, auch wenn die Daten nicht zugänglich sind.
-```{admonition} Lösung
-:class: dropdown
-Nein. Metadaten sind nur in der Tabelle aufgelistet und daher nicht unabhängig von den eigentlichen Daten zugänglich.
-```
+  { 'question': "2. Das Protokoll, über das die Daten abgerufen werden können, folgt anerkannten Standards, z. B. HTTP.",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja',
+      'correct': True,
+      'feedback': 'Richtig. Die Daten sind über das Hypertext Transfer Protocol (kurz: HTTP) abgrufbar, nämlich über den oben angegebenen Link.'},
+    { 'answer': 'Nein',
+      'correct': False,
+      'feedback': 'Diese Antwort ist leider nicht richtig.'},
+    ]
+  },
+
+{ 'question': "3. Das Zugriffsverfahren umfasst erforderlichenfalls Authentifizierungs- und Autorisierungsschritte.",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja',
+      'correct': False,
+      'feedback': 'Nein. Für den Zugang zu den Daten muss man sich nirgendwo einloggen oder ähnliches.'},
+    { 'answer': 'Nein',
+      'correct': True,
+      'feedback': 'Richtig. Die Daten stehen als offene Statistikdaten allen Nutzer*innen zur freien Verfügung. Daher bedarf es weder einer Authentifizierung noch einer Autorisierung.'},
+    ]
+  },
+
+{ 'question': "4. Metadaten sind, wo immer möglich, zugänglich, auch wenn die Daten nicht zugänglich sind.",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja',
+      'correct': False,
+      'feedback': 'Nein, denn es gibt keine Metadaten.'},
+    { 'answer': 'Nein',
+      'correct': True,
+      'feedback': 'Richtig, denn es gibt keine Metadaten.'},
+    ]
+  }
+]
+display_quiz(questions)
 ````
 
 
@@ -212,3 +235,5 @@ Die Daten und Metadaten entsprechen den einschlägigen Fachstandards.
 Ja und nein. Die Daten entsprechen einschlägigen Fachstandards aber es gibt kaum Metadaten.
 ```
 ````
+
+Am Ende noch ein Hinweis: Nur, weil die Daten in dieser Übung weniger gut abschließen, heißt das nicht, dass sie nicht von guter Qualität wären. Die meisten "schlechten" Antworten ergeben sich aus der Tatsache, dass die Daten nicht eigenständig veröffentlicht sind. Wäre das geschehen, gäbe es eine Verlinkung zur Textpublikation (dem Bericht), es gäbe einen URI/PID und sicher auch Metadaten, die beschrieben, was in den Tabellen überhaupt zu finden wäre. Da die Datentabellen in diesem Beispiel wie an den Bericht "angehängt" und nicht als eigenständige Forschungsdaten publiziert sind, schneiden sie in diesem Test eher schlecht ab. Sie sind tatsächlich schwer zu finden, wenn man nicht weiß, dass sie zum Bildungsbericht gehören.
