@@ -318,7 +318,7 @@ werfen Sie gerne einen Blick in den
 
 ------------------------------------------------------------------------
 
-## 5 Daten aufbereiten 
+## 4 Daten aufbereiten 
 
 Im folgenden Abschnitt werden die zuletzt erwähnten Qualitätsmängel der
 Datendarstellung behoben und die Daten zur Auswertung vorbereitet.
