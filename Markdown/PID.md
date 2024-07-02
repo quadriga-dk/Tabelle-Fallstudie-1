@@ -15,13 +15,9 @@ Im Prinzip sind alle PID URI, weil letzteres das übergreifende Konzept ist.
 
 PID werden beim Upload von Daten und in der Regel von Repositorien automatisiert vergeben. Kontaktstellen an der Bibliothek einer Einrichtung können dazu unterstützen. Eine Anleitung findet sich bei der TIB: https://projects.tib.eu/pid-service/tib-doi-konsortium/anleitungen-zur-doi-registrierung/
 
-## FAIR Digital Objects
 
-Im Kontext von administrativen Datenstrukturen ist die Verknüpfbarkeit von Datensätzen von entscheidender Bedeutung {cite}`groves_federal_2017`. Wenn in unterschiedlichen Datensätzen verschiedene Informationen zu Personen gesammelt werden, kann eine effiziente Verknüpfung nur über ein in allen Datensätzen vorhandenes gleiches Variablenmerkmal (z.B. Name, Steuer-ID, Sozialversicherungsnummer) gesetzt werden. Dieses Variablenmerkmal sollte im besten Fall einzigartig sein und eine Person klar identifizieren können. {cite}`groves_federal_2017` zeigen die Wichtigkeit dieser Konsistenz am Beispiel der Namensgebung auf: Wenn die Person Dr. Max Tom Mustermann in verschiedenen Datensätzen mal als „Max Mustermann“ oder „Dr. Mustermann“ oder auch „Max Tom Mustermann“ abgespeichert wird, ist eine simple Verknüpfung der Informationen aus den Datensätzen mittels des Namens eine Person nicht möglich. Zudem ist zu beachten, dass sich Namen doppeln können und es sich hier nicht um ein einzigartiges Merkmal handelt. Hier müssten weiter Merkmale (z.B. Adresse, Ausweisnummer) in Kombination verwendet werden, um ein Individuum klar zu identifizieren und dessen Informationen zu aggregieren.
 
-Für die digitale Verwaltung können entsprechend FAIR Digital Objects eine Lösung sein. Durch sie können Daten standardisiert und nutzbar gemacht werden, was den Austausch zwischen Behörden erleichtern kann. Ein digitales Objekt kann jede Größe haben, beispielsweise eine Excel-Tabelle umfassen. Wenn das Objekt FAIR ist, ist es einfach auffindbar und zugänglich, mit anderen Objekten und Softwaresystemen kompatibel und wiederverwendbar (s. o.). Für die Verwaltung kann das ein sinnvolles Leitbild sein. Mit dem XÖV-Standard zum Datenaustausch und dem Metadatenstandard DCAT-AP.de ist bereits ein Schritt in diese Richtung gemacht worden {cite}`bundesdruckerei_was_2023`. 
-
-## Übung Datenzitierung
+## Übung PID
 
 Quiz (nach GoFAIR Austria):
 
