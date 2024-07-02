@@ -23,7 +23,7 @@ Zur Installation der Computersprache **R** und **R-Studio** geht es
 
 ```{admonition} Eine Anleitung für die ersten Schritte mit R Studio finden Sie hier: 
 :class: tip, dropdown
-## 2 Erste Schritte in R-Studio
+## Erste Schritte in R-Studio
 
 **Neues R Skript anlegen**  
 1. Öffnen Sie R-Studio.  
@@ -69,7 +69,7 @@ dazugehörige Package durch den Befehl
 ```
 ------------------------------------------------------------------------
 
-## 3 Einleitung
+## 2 Einleitung
 
 > Für Computersprachen gilt allgemein: Es gibt nie nur einen Weg zum
 > Ziel. Unterschiedliche Befehle können Sie zum gleichen Ziel bringen.
@@ -160,7 +160,7 @@ Wenn Sie die Bedeutung und Syntax eines Befehls besser verstehen wollen, empfiel
 ```
 ------------------------------------------------------------------------
 
-## 4 Daten sichten
+## 3 Daten sichten
 
 Es ist immer ratsam, einen ersten Blick auf die Daten zu werfen, um
 deren Struktur zu verstehen.  
@@ -524,7 +524,7 @@ Es empfiehlt sich auf Befehle wie diese zu verzichten, da die Änderungen nicht 
 
 ------------------------------------------------------------------------
 
-## 6 Auswertung 
+## 5 Auswertung 
 
 Der folgende Abschnitt thematisiert Auswertungsmöglichkeiten mit Fokus
 auf Untergruppierungen und Filterfunktionen.  
