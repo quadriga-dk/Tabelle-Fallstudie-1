@@ -21,6 +21,8 @@ Zur Installation der Computersprache **R** und **R-Studio** geht es
 
 ------------------------------------------------------------------------
 
+```{admonition} Eine Anleitung für die ersten Schritte mit R Studio finden Sie hier: 
+:class: tip, dropdown
 ## 2 Erste Schritte in R-Studio
 
 **Neues R Skript anlegen**  
@@ -64,7 +66,7 @@ dazugehörige Package durch den Befehl
 `install.packages("*Packagename*")` installiert und durch den Befehlt
 `library(*Packagename*)`geladen haben *(Dazu mehr im folgenden Abschnitt
 **Einleitung**)*.  
-
+```
 ------------------------------------------------------------------------
 
 ## 3 Einleitung
