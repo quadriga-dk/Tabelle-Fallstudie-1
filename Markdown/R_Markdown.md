@@ -313,7 +313,7 @@ schlechter maschinenlesbar machen:
     Verarbeitung entstehen, wie Sie in der Tabelle erkennen können.  
 
 Wenn Sie mehr zum Thema *“hochwertiger Datenaufbau”* wissen möchten,
-werfen Sie gerne einen Blick in den
+werfen Sie gerne einen Blick in das Kapitel  [Tidy Data Struktur](https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenstruktur.html#tidy-data-struktur) oder auch den
 [NQDM-Leitfaden](https://nqdm-projekt.de/de/downloads/leitfaden).  
 
 ------------------------------------------------------------------------
