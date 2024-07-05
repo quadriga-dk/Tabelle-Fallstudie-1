@@ -1,5 +1,5 @@
 (Einleitung_Datenzitierung)=
-# Einleitung
+# Forschungsdaten zitieren
 
 ````{margin}
 ```{note}
