@@ -16,9 +16,11 @@ parts:
     - file: Markdown/PID
     - file: Markdown/Linked_Data
   - caption: 3. FAIR Prinzipien  
+    chapters:
     - file: Markdown/Fair_Prinzipien
     - file: Markdown/FAIR_Übung_Tabelle
  - caption: 4. 5 Sterne Modell
+    chapters:
     - file: Markdown/5_Star_Model
     - file: Markdown/Übung_Rohdaten
     - file: Markdown/Star_Übung_CSV
