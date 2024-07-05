@@ -26,7 +26,7 @@ parts:
     - file: Markdown/Star_Übung_CSV
     - file: Markdown/Qualitätskriterien
   - caption: 5. Datenmanipulation
-   chapters:
+    chapters:
     - file: Markdown/Datenmanipulation
     - file: Markdown/Datenstruktur
     - file: Markdown/R_Markdown
