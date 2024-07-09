@@ -18,9 +18,7 @@ Den 2. Stern gibt es für die Bereitstellung des Datensatzes in einem maschinenl
 :class: tip
 ````{admonition} Lösung
 :class: dropdown
-```
 Ja, denn es handelt sich um Daten im Format CSV.
-```
 ````
 `````
 
@@ -30,9 +28,7 @@ Ein 3. Stern kann vergeben werden, wenn das Format des Datensatzes nicht-proprie
 :class: tip
 ````{admonition} Lösung
 :class: dropdown
-```
 Ja, das Format CSV ist ein nicht-proprietäres Format.
-```
 ````
 `````
 
@@ -42,9 +38,7 @@ Für den 4. Stern gilt es die folgende Frage zu beantworten:
 :class: tip
 ````{admonition} Lösung
 :class: dropdown
-```
 Nein. Der Datensatz verfügt nicht über einen eindeutigen, persistenten Identifikator wie bspw. einen URI.
-```
 ````
 `````
 
@@ -54,9 +48,7 @@ Einen 5. Stern erhält der Datensatz, wenn er mit anderen Daten(sätzen) verlink
 :class: tip
 ````{admonition} Lösung
 :class: dropdown
-```
 Nein, das trifft nicht zu. Es gibt keine Verlinkungen zu anderen Daten(sätzen). Und da bereits Frage 4 verneint worden ist, bleibt es ohnehin bei 3 Sternen.
-```
 ````
 `````
 
