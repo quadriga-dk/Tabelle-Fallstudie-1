@@ -23,19 +23,21 @@ parts:
     - file: Markdown/5_Star_Model
     - file: Markdown/Übung_Rohdaten
     - file: Markdown/Star_Übung_CSV
-  - caption: (4. Rest)
+    - file: Markdown/Qualität_Reflexion
+  - caption: 5. Datenzitierung und Identifikatoren
     chapters:
     - file: Markdown/Einleitung_Datenzitierung
     - file: Markdown/PID
     - file: Markdown/Linked_Data
-  - caption: 5. Datenmanipulation
+    - file: Markdown/Zitierung_Reflexion
+  - caption: 6. Datenmanipulation
     chapters:
     - file: Markdown/Datenmanipulation
     - file: Markdown/Datenstruktur
     - file: Markdown/R_Markdown
     - file: Markdown/R_Übung_Reprodu
     - file: Markdown/Übung_Zeitreihe_R
-  - caption: 6. Zusammenfassung
+  - caption: 7. Zusammenfassung
     chapters:
     - file: Markdown/Reflexion
   - caption: Literaturverzeichnis
