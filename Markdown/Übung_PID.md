@@ -1,0 +1,92 @@
+# Übung PID
+
+
+Um das Kapitel Datenzitierung/Persistent Identifier abzuschließen, können Sie Ihr Wissen hier in einem kleinen Quiz überprüfen.
+Das Quiz stammt von FAIR Data Austria (2021). „Persistente Identifikatoren (PID)“. In: Offene Bildungsressourcen Forschungsdatenmanagement. (https://fair-office.at/index.php/pid/) und ist mit CC BY 4.0 lizensiert. Unter dem Link können Sie bei Bedarf die Originalsversion des Quiz' ausprobieren und sich ein erklärendes Video zum Thema PID ansehen, das von der RWTH Aachen erstellt wurde.
+
+
+````{code-cell} ipython3
+:tags: [remove_input]
+questions = \
+[
+  { 'question': "1. Wie kann ich einen Datensatz finden, der mit einem DOI eindeutig gekennzeichnet ist?",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Um einen bestimmten Datensatz zu finden, brauche ich neben dem DOI in jedem Fall auch den Titel des Datensatzes.',
+      'correct': False,
+      'feedback': '...'},
+    { 'answer': 'Ich muss wissen, in welchem Repositorium der Datensatz abgelegt ist. Auf der Webseite des Repositorium gebe ich dann einfach den DOI in die Suchmaske ein.',
+      'correct': False,
+      'feedback': '...'},
+    { 'answer': 'Ich gebe den DOI in eine gängige Suchmaschine ein und warte, was passiert.',
+      'correct': True,
+      'feedback': '...'},
+    ]
+  },
+
+
+{ 'question': "2. Kann die "broken links"-Problematik durch die Verwendung von PIDs vermieden werden?",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Ja, weil der PID die Referenz vom Speicherort entkoppelt.',
+      'correct': True,
+      'feedback': '...'},
+    { 'answer': 'Ja, aber nur solange die Metadaten zum PID nicht geändert werden.',
+      'correct': False,
+      'feedback': '...'},
+    { 'answer': 'Vielleicht, aber das ist den enormen Aufwand zur Beschaffung eines PID nicht wert.',
+      'correct': False,
+      'feedback': '...'},
+    ]
+  },
+
+
+{ 'question': "3. Welche Aussage trifft zu?",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Die Vergabe von persistenten Identifikatoren erfolgt auf Länderebene. Ein PID muss daher immer einen zweistellige Ländercode nach ISO-Norm 3166 enthalten.',
+      'correct': False,
+      'feedback': '...'},
+    { 'answer': 'Bei vielen Datenrepositorien erfolgt die Vergabe eines persistenten Identifikators automatisch beim Upload der Daten.',
+      'correct': True,
+      'feedback': '...'},
+    { 'answer': 'Ein PID wird nur für Datensätze vergeben, die für jedermann uneingeschränkt (Open Access) verfügbar sind.',
+      'correct': False,
+      'feedback': '...'},
+    ]
+  },
+
+
+{ 'question': "4. Eine ORCID iD dient …",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'der Kennzeichnung, dass eine Publikation Open Access verfügbar ist.',
+      'correct': False,
+      'feedback': '...'},
+    { 'answer': 'der exakten Zuordnung von Publikationen und Forschungsaktivitäten zu einer bestimmten Forscherin oder einem bestimmten Forscher.',
+      'correct': True,
+      'feedback': '...'},
+    { 'answer': 'der exakten Zuordnung einer Publikation zu einer Forschungseinrichtung.',
+      'correct': False,
+      'feedback': '...'},
+    ]
+  },
+
+
+{ 'question': "5. Wozu werden PIDs vergeben?",
+    'type': 'multiple_choice',
+    'answers': [
+    { 'answer': 'Damit (digitale) Ressourcen wie z.B. Forschungsdaten dauerhaft auffindbar, abrufbar und zitierbar sind.',
+      'correct': True,
+      'feedback': '...'},
+    { 'answer': 'Damit mehr Verwaltungsaufwand entsteht.',
+      'correct': False,
+      'feedback': '...'},
+    { 'answer': 'Damit nur berechtigte Nutzer*innen auf die Daten zugreifen können.',
+      'correct': False,
+      'feedback': '...'},
+    ]
+  }
+]
+display_quiz(questions)
+````
