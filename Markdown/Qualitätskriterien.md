@@ -1,6 +1,10 @@
 # Qualitätskriterien
 
-Im vorherigen Abschnitt haben wir erfahren, dass die FAIR-Prinzipien vor allem ein Bewertungsmaßstab zur Datennachnutzung liefert. In diesem Abschnitt widmen wir uns den Kriterien der Qualitätsbewertung. Dabei beginnen wir mit den fachübergreifenden Merkmalen für (offene) Daten und Metadaten und gehen anschließend auf die für die Verwaltungswissenschaft wichtigen Merkmale für Statistikdaten ein.
+Im vorherigen Abschnitt haben wir erfahren, dass die FAIR-Prinzipien vor allem ein Bewertungsmaßstab zur Datennachnutzung liefert. In diesem Abschnitt widmen wir uns den Kriterien der Qualitätsbewertung. 
+
+Der nationale Bildungsbericht stellt unsere Beispieldaten offen auf Basis von Bundesstatistikdaten zur Verfügung. Daher werden wir auf Offene Daten (Open Data) und die Qualitätskriterien für Open Data eingehen. Unter Open Data versteht man, dass die Daten im Netz frei verfügbar und nutzbar sind. Sie sollen durch die Möglichkeit einer freien Nachnutzung mehr Transparenz in der Forschung ermöglichen und sind ein Basiselement der Reproduzierbarkeit von Forschungsergebnissen, weshalb Open Data auch als Teil der Open-Science-Bewegung verstanden werden kann [*Quelle einfügen*: forschungsdaten.info 2024, https://forschungsdaten.info/themen/finden-und-nachnutzen/open-data-open-access-und-nachnutzung/].
+
+Anschließend werden Merkmale für Statistikdaten aufgezeigt, da diese für die Verwaltungswissenschaften von herausgehobener Bedeutung sind.
 
 
 ## Qualitätsmerkmale für (Offene) Daten und Metadaten
