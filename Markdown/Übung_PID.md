@@ -1,7 +1,7 @@
 # Übung PID
 
 
-Um das Kapitel Datenzitierung/Persistent Identifier abzuschließen, können Sie Ihr Wissen hier in einem kleinen Quiz überprüfen.
+Um das Kapitel Datenzitierung und Identifikatoren abzuschließen, können Sie Ihr Wissen hier in einem kleinen Quiz überprüfen.
 Das Quiz stammt von FAIR Data Austria (2021). „Persistente Identifikatoren (PID)“. In: Offene Bildungsressourcen Forschungsdatenmanagement. (https://fair-office.at/index.php/pid/) und ist mit CC BY 4.0 lizensiert. Unter dem Link können Sie bei Bedarf die Originalsversion des Quiz' ausprobieren und sich ein erklärendes Video zum Thema PID ansehen, das von der RWTH Aachen erstellt wurde.
 
 
