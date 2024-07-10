@@ -1,10 +1,9 @@
-# Weitere Qualitätskriterien
+# Qualitätskriterien
+
+Im vorherigen Abschnitt haben wir erfahren, dass die FAIR-Prinzipien vor allem ein Bewertungsmaßstab zur Datennachnutzung liefert. In diesem Abschnitt widmen wir uns den Kriterien der Qualitätsbewertung. Dabei beginnen wir mit den fachübergreifenden Merkmalen für (offene) Daten und Metadaten und gehen anschließend auf die für die Verwaltungswissenschaft wichtigen Merkmale für Statistikdaten ein.
 
 
-
-```{admonition} Mehr zu Qualitätssicherung im Kontext von Open Data finden Sie hier: 
-:class: tip, dropdown
-# Qualitätsmerkmale für (Offene) Daten und Metadaten
+## Qualitätsmerkmale für (Offene) Daten und Metadaten
 
 Die inhaltliche und kontextuelle Qualität von Daten und Metadaten kann anhand von verschiedenen Qualitätsmerkmalen erfasst werden. In der Fachliteratur variieren die einzelnen Dimensionen je nach Disziplin und Kontext {cite}`behkamal_metrics-driven_2014,bruns_leitfaden_2019,neumaier_automated_2016,vetro_open_2016`. Die nachfolgenden Qualitätsmerkmale bilden eine fachübergreifende Basis zur Evaluation der Datenqualität:
 
@@ -29,11 +28,9 @@ Die inhaltliche und kontextuelle Qualität von Daten und Metadaten kann anhand v
 - **Zugänglichkeit:** Die Daten können auf einfache Weise abgerufen werden. Außerdem besteht eine permanente Verlinkung aller Referenzen und Links (z.B. mittels Verwendung permanenter URIs) {cite}`behkamal_metrics-driven_2014,vetro_open_2016,pipino_data_2002,vaddepalli_taxonomy_2023`.
 
 Further Reading: NQDM Checklisten: https://cdn0.scrvt.com/fokus/19c04efdafe63fe4/edbc85cd796a/Checkliste_NQDM_CSV.pdf
-```
 
-```{admonition} Mehr zu Qualitätssicherung im Kontext von Statistikdaten finden Sie hier: 
-:class: tip, dropdown
-# Qualitätsmerkmale für Statistikdaten
+
+## Qualitätsmerkmale für Statistikdaten
 
 Im Rahmen des Verhaltenskodex für europäische Statistiken der Europäischen Union werden Qualitätskriterien für die statistische Datenerhebung und -aufbereitung aufgelistet und erläutert {cite}`noauthor_verhaltenskodex_2018`. Dieser Kodex legt die Basis für einen qualitativ hochwertigen Umgang mit statistischen Daten und ist angelehnt an die zehn Fundamental Principles of Official Statistics der Vereinten Nationen {cite}`noauthor_fundamental_2014`. Im nachfolgenden werden die Qualitätskriterien von "Statistischen Produkten" des Verhaltenskodex näher begutachtet:
 
@@ -47,8 +44,19 @@ Im Rahmen des Verhaltenskodex für europäische Statistiken der Europäischen Un
 - **Kohärenz und Vergleichbarkeit:** Die bereitgestellten Statistiken sind untereinander und im Zeitverlauf konsistent und mit anderen staatlich öffentlichten Statistiken vergleichbar. Hierbei steht die Möglichkeit der Datenkombination aus verschiedenen öffentlichen Institutionen im Vordergrund.
 
 - **Zugänglichkeit und Klarheit:** Die bereitgestellten Statistiken werden öffentlich zur Verfügung gestellt und sind leicht auffindbar. Zudem wird transparent und detailreich die Statistik inklusive der Datenerhebung und -auswertung sowie Inhalt zu den beteiligten Parteien angegeben.
-```
 
-*Hier vielleicht die Auflösung gleich mitliefern, also zeigen, welche Kriterien unser Datensatz erfüllt.*
 
-Es zeigt sich, dass die Bewertung von Daten(sätzen) unterschiedlich ausfällt - je nachdem, welchen Maßstab man anlegt. Einen weiteren spannenden Ansatz, der zudem eine Brücke zu weiteren Themen schlägt, ist das 5-Sterne-Modell, das wir im nächsten Kapitel behandeln. 
+
+`````{admonition} Fällt Ihnen an den beiden Auflistungen etwas auf?
+:class: tip
+````{admonition} Lösung
+:class: dropdown
+Erstens überschneiden sich einige Aspekte in beiden Listen. So erwähnen beide beispielsweise die Genauigkeit, die Aktualität oder die Zuverlässigkeit.
+Zweitens finden sich hier alle Stichworte wieder, die wir bereits von den FAIR-Prinzipien kennen. Diesbezüglich zu nennen sind z. B. die Angabe von Metadaten nach domänenspezifischen Standards, die Auffindbarkeit, die Zugänglichkeit, die Interoperabilität (hier als Vergleich- und Kombinierbarkeit) und auch die Wiederverwendbarkeit (hier als Transparenz, Verständlichkeit, Vertrauenswürdigkeit).
+````
+`````
+
+
+
+Es zeigt sich, dass Datenqualität und Datennachnutzung eng miteinander verknüpft sind, denn wer Daten nachnutzen möchte, profitiert von qualitätvollen Daten und Metadaten. 
+Einen letztes Modell, das zudem eine Brücke zum bereits mehrfach angedeuteten Thema Persistente Identifikatoren (PID) schlägt, ist das 5-Sterne-Modell, das wir im nächsten Abschnitt behandeln. 
