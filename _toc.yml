@@ -29,6 +29,7 @@ parts:
     - file: Markdown/Einleitung_Datenzitierung
     - file: Markdown/PID
     - file: Markdown/Linked_Data
+    - file: Markdown/Übung_PID
     - file: Markdown/Zitierung_Reflexion
   - caption: 6. Datenmanipulation
     chapters:
