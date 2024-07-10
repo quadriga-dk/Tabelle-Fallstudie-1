@@ -12,15 +12,17 @@ parts:
   - caption: 2. Datennachnutzung und Qualitätsbewertung
     chapters:
     - file: Markdown/Einleitung_Datennachnutzung
+  - caption: 3. Datennachnutzung/FAIR-Prinzipien
+    chapters:
     - file: Markdown/Fair_Prinzipien
     - file: Markdown/FAIR_Übung_Tabelle
     - file: Markdown/FAIR_Reflexion
-  - caption: 3. 5 Sterne Modell
+  - caption: 4. Qualitätsbewertung/5-Sterne-Modell
     chapters:
+    - file: Markdown/Qualitätskriterien
     - file: Markdown/5_Star_Model
     - file: Markdown/Übung_Rohdaten
     - file: Markdown/Star_Übung_CSV
-    - file: Markdown/Qualitätskriterien
   - caption: (4. Rest)
     chapters:
     - file: Markdown/Einleitung_Datenzitierung
