@@ -1,13 +1,20 @@
 # 5-Sterne-Modell
 
+
+In den vorherigen Abschnitten haben Sie bereits Merkmale zur Qualitätsbestimmung und mit den FAIR-Prinzipien auch ein Schema zur Bewertung kennengelernt. Während bei diesen der Fokus auf der Wiederverwendbarkeit der Daten liegt, steht beim 5-Sterne-Modell die Offenheit und Interoperabilität der Daten im Vordergrund {cite}`gangemi_assessing_2018`. Die fünf Stufen sind kaskadierend, d.h. damit ein Datensatz beispielsweise eine Bewertung von 3 Sternen erhalten kann, müssen die Stufen eins bis drei vollständig erfüllt sein {cite}`bruns_leitfaden_2019`.
+
+
+*... hier braucht es noch ein paar Sätze zum Modell: entwickelt von wem, warum, für wen und warum ist es wichtig.*
+
+
+
 ![](_images/5_star_model.png)
 *Abbildung 3: Eigene Abbildung basierend auf {cite}`bruns_leitfaden_2019`.*
 
-Um die Qualität von Daten einzuschätzen, gibt es verschiedene Bewertungsschemata und -dimensionen. Während die FAIR-Prinzipien ihren Fokus in der Bewertung auf die Wiederverwendbarkeit der Daten legen, steht beim 5-Sterne-Modell die Offenheit und Interoperabilität der Daten im Vordergrund {cite}`gangemi_assessing_2018`. Die fünf Stufen sind kaskadierend, d.h. damit ein Datensatz beispielsweise eine Drei-Sterne. Bewertung erhalten kann, müssen die Stufen eins bis drei vollständig erfüllt sein {cite}`bruns_leitfaden_2019`.
 
-Mithilfe des 5-Sterne-Modells  können folgende Einschätzung hinsichtlich des Datensatzes vorgenommen werden:
+Mithilfe des 5-Sterne-Modells können folgende Einschätzungen hinsichtlich des Datensatzes vorgenommen werden:
 
-- **1 Stern** = Der erste Stern wird an Datensätze verliehen, die unter einer offenen Lizenz zur Verfügung gestellt werden, unabhängig ihrer eigentlichen Datenqualität (Bruns et al., 2019). Ein Stern bedeutet, dass der Nutzer auf die Daten zugreifen, die Daten nutzen, sie lokal speichern, bearbeiten und teilen kann {cite}`gangemi_assessing_2018`.
+- **1 Stern** = Der erste Stern wird an Datensätze verliehen, die unter einer offenen Lizenz zur Verfügung gestellt werden - unabhängig ihrer eigentlichen Datenqualität (Bruns et al., 2019). Ein Stern bedeutet, dass der Nutzer auf die Daten zugreifen, die Daten nutzen, sie lokal speichern, bearbeiten und teilen kann {cite}`gangemi_assessing_2018`.
 
 - **2 Sterne** = Ist der Datensatz mit zwei Sterne ausgezeichnet, handelt es sich um maschinenlesbare, strukturierte Daten (z. B. um eine Exceltabelle anstelle einer Fotokopie der Tabelle) (Al-khatib, 2021). Der Datensatz ist neben der offenen Lizenz zusätzlich leicht wiederverwendbar {cite}`bruns_leitfaden_2019`.
 
