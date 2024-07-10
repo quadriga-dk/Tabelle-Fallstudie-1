@@ -30,13 +30,13 @@ questions = \
     'answers': [
     { 'answer': 'Um einen bestimmten Datensatz zu finden, brauche ich neben dem DOI in jedem Fall auch den Titel des Datensatzes.',
       'correct': False,
-      'feedback': '...'},
+      'feedback': 'Diese Antwort ist leider nicht richtig.'},
     { 'answer': 'Ich muss wissen, in welchem Repositorium der Datensatz abgelegt ist. Auf der Webseite des Repositorium gebe ich dann einfach den DOI in die Suchmaske ein.',
       'correct': False,
-      'feedback': '...'},
+      'feedback': 'Diese Antwort ist leider nicht richtig.'},
     { 'answer': 'Ich gebe den DOI in eine gängige Suchmaschine ein und warte, was passiert.',
       'correct': True,
-      'feedback': '...'},
+      'feedback': 'Richtig!'},
     ]
   },
 
@@ -46,13 +46,13 @@ questions = \
     'answers': [
     { 'answer': 'Ja, weil der PID die Referenz vom Speicherort entkoppelt.',
       'correct': True,
-      'feedback': '...'},
+      'feedback': 'Richtig!'},
     { 'answer': 'Ja, aber nur solange die Metadaten zum PID nicht geändert werden.',
       'correct': False,
-      'feedback': '...'},
+      'feedback': 'Diese Antwort ist leider nicht richtig.'},
     { 'answer': 'Vielleicht, aber das ist den enormen Aufwand zur Beschaffung eines PID nicht wert.',
       'correct': False,
-      'feedback': '...'},
+      'feedback': 'Diese Antwort ist leider nicht richtig.'},
     ]
   },
 
@@ -62,13 +62,13 @@ questions = \
     'answers': [
     { 'answer': 'Die Vergabe von persistenten Identifikatoren erfolgt auf Länderebene. Ein PID muss daher immer einen zweistellige Ländercode nach ISO-Norm 3166 enthalten.',
       'correct': False,
-      'feedback': '...'},
+      'feedback': 'Diese Antwort ist leider nicht richtig.'},
     { 'answer': 'Bei vielen Datenrepositorien erfolgt die Vergabe eines persistenten Identifikators automatisch beim Upload der Daten.',
       'correct': True,
-      'feedback': '...'},
+      'feedback': 'Richtig!'},
     { 'answer': 'Ein PID wird nur für Datensätze vergeben, die für jedermann uneingeschränkt (Open Access) verfügbar sind.',
       'correct': False,
-      'feedback': '...'},
+      'feedback': 'Diese Antwort ist leider nicht richtig.'},
     ]
   },
 
@@ -78,13 +78,13 @@ questions = \
     'answers': [
     { 'answer': 'der Kennzeichnung, dass eine Publikation Open Access verfügbar ist.',
       'correct': False,
-      'feedback': '...'},
+      'feedback': 'Diese Antwort ist leider nicht richtig.'},
     { 'answer': 'der exakten Zuordnung von Publikationen und Forschungsaktivitäten zu einer bestimmten Forscherin oder einem bestimmten Forscher.',
       'correct': True,
-      'feedback': '...'},
+      'feedback': 'Richtig!'},
     { 'answer': 'der exakten Zuordnung einer Publikation zu einer Forschungseinrichtung.',
       'correct': False,
-      'feedback': '...'},
+      'feedback': 'Diese Antwort ist leider nicht richtig.'},
     ]
   },
 
