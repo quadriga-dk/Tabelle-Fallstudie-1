@@ -41,7 +41,7 @@ questions = \
   },
 
 
-{ 'question': "2. Kann die "broken links"-Problematik durch die Verwendung von PIDs vermieden werden?",
+{ 'question': "2. Kann die broken links-Problematik durch die Verwendung von PIDs vermieden werden?",
     'type': 'multiple_choice',
     'answers': [
     { 'answer': 'Ja, weil der PID die Referenz vom Speicherort entkoppelt.',
