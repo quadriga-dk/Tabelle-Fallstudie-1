@@ -259,7 +259,3 @@ questions = \
 ]
 display_quiz(questions)
 ````
-
----
-
-Am Ende noch ein Hinweis: Nur, weil die untersuchten Daten in dieser Übung weniger gut abschließen, heißt das nicht, dass sie nicht von guter Qualität sind. Die meisten "schlechten" Antworten ergeben sich aus der Tatsache, dass die Daten nicht eigenständig veröffentlicht sind. Wäre das geschehen, gäbe es eine Verlinkung zur Textpublikation (dem Bericht), es gäbe einen URI/PID und damit auch Metadaten, die beschrieben, was in den Tabellen überhaupt zu finden wäre. Da die Datentabellen in diesem Beispiel wie an den Bericht "angehängt" und nicht als eigenständige Forschungsdaten publiziert sind, schneiden sie in diesem Test eher schlecht ab. Sie sind tatsächlich schwer zu finden, wenn man nicht weiß, dass sie zum Bildungsbericht gehören. Sie sind aber zugänglich. Die Interoperabilität lässt sich eigentlich nicht bewerten, da die Daten nicht eigenständig veröffentlicht sind.
