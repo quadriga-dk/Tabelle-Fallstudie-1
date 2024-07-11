@@ -9,15 +9,13 @@ parts:
     - file: Markdown/Ausgangssituation
     - file: Markdown/Aufbau_Fallstudie
     - file: Markdown/Datenbasis_Bildungsbericht
-  - caption: 2. Datennachnutzung und Qualitätsbewertung
+  - caption: 2. Datennachnutzung und FAIR-Prinzipien
     chapters:
     - file: Markdown/Einleitung_Datennachnutzung
-  - caption: 3. Datennachnutzung/FAIR-Prinzipien
-    chapters:
     - file: Markdown/Fair_Prinzipien
     - file: Markdown/FAIR_Übung_Tabelle
     - file: Markdown/FAIR_Reflexion
-  - caption: 4. Qualitätsbewertung/5-Sterne-Modell
+  - caption: 4. Qualitätsbewertung und 5-Sterne-Modell
     chapters:
     - file: Markdown/Qualitätskriterien
     - file: Markdown/5_Star_Model
@@ -41,6 +39,6 @@ parts:
   - caption: 7. Zusammenfassung
     chapters:
     - file: Markdown/Reflexion
-  - caption: Literaturverzeichnis
+  - caption: Abschluss
     chapters:
     - file: Markdown/Literaturverzeichnis 
