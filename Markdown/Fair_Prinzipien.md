@@ -7,7 +7,7 @@ In Bezug auf die Nachnutzung von (Forschungs-)Daten wollen wir Sie hier mit den 
 Bildquelle: The Turing Way Community, & Scriberia. (2020). Illustrations from the Turing Way book dashes. Zenodo. https://doi.org/10.5281/zenodo.3695300
 
 
-Die **Auffindbarkeit** von Daten lässt sich zum Beispiel durch die Verwendung von Persistenten Identifikatoren (<span style="color:red">s. [Kapitel PID](PID)</span>) für Daten und Datensätze wesentlich vereinfachen. Dieser Aspekt ist von zentraler Bedeutung für alle FAIR-Prinzipien. Weiterhin sollten Forschungsdaten immer mit Quellen versehen werden wie es die fachspezifischen Standards erfordern <span style="color:red">(s. [Kapitel Datenzitierung](Einleitung_Datenzitierung)</span>). Darüber hinaus sollten die Daten mit zahlreichen Metadaten beschrieben werden, für die ebenfalls disziplinspezifische Standards und Schemata vorliegen {cite}`hollander_parthenos_nodate`.
+Die **Auffindbarkeit** von Daten lässt sich zum Beispiel durch die Verwendung von Persistenten Identifikatoren (s. [Kapitel PID](PID)) für Daten und Datensätze wesentlich vereinfachen. Dieser Aspekt ist von zentraler Bedeutung für alle FAIR-Prinzipien. Weiterhin sollten Forschungsdaten immer mit Quellen versehen werden wie es die fachspezifischen Standards erfordern (s. [Kapitel Datenzitierung](Einleitung_Datenzitierung)). Darüber hinaus sollten die Daten mit zahlreichen Metadaten beschrieben werden, für die eine Reihe disziplinübergreifende und -spezifische Standards und Schemata vorliegen {cite}`hollander_parthenos_nodate`.
 
 Unter **Zugänglichkeit** fällt die Auswahl eines vertrauenswürdigen Repositoriums als Speicherort für die Daten(sätze) und die klare Regelung des Zugriffs auf diese sowie die Verwendung von standardisierten Protokollen {cite}`hollander_parthenos_nodate`.
 
@@ -15,6 +15,7 @@ Eine **Interoperabilität** von Daten(sätzen) lässt sich einstellen, wenn Date
 
 Die **Wiederverwendbarkeit** von Daten lässt sich von vornherein unterstützen, indem transparent dokumentiert wird, was die Daten beinhalten. Die präzise Benennung von Daten - auch nach Konventionen - erleichtert eine Nachnutzung ebenfalls. Die Nutzung von gängigen, in der Disziplin typischen Formaten ist hier erneut zu nennen und schließlich vereinfacht zudem die Verwendung von Lizenzen die Nachnutzung von Daten erheblich, da dadurch klar definiert ist, wer welche Rechte hat und wer die Daten wie verwenden darf {cite}`hollander_parthenos_nodate`.
 
-Further Reading:
+**Weitere Informationen**
 
-Eine detaillierte Ausformulierung der Prinzipien auf Englisch findet sich auf https://www.go-fair.org/fair-principles/. Eine deutsche Übersetzung der originalen Prinzipien findet sich bei Zenodo (https://zenodo.org/records/6247015) Zum Prüfen der so genannten FAIRness von Daten haben sich Checklisten etabliert. Eine von diesen stammt von Jones & Grootveld (2017), die sich ebenfalls bei Zenodo findet (https://zenodo.org/records/5111307). Sie stellt die Basis für die Übung im nächsten Abschnitt dar.
+Eine detaillierte Ausformulierung der Prinzipien auf Englisch findet sich auf https://www.go-fair.org/fair-principles/ und eine deutsche Übersetzung der originalen Prinzipien ist bei Zenodo einsehbar (https://zenodo.org/records/6247015). 
+Zum Prüfen der so genannten FAIRness von Daten haben sich Checklisten etabliert. Eine von diesen stammt von Jones & Grootveld (2017), die ebenfalls bei Zenodo zugänglich ist (https://zenodo.org/records/5111307). Sie stellt die Basis für die Übung im nächsten Abschnitt dar.
