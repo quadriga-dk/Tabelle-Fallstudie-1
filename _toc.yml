@@ -15,11 +15,11 @@ parts:
     - file: Markdown/Fair_Prinzipien
     - file: Markdown/FAIR_Übung_Tabelle
     - file: Markdown/FAIR_Reflexion
+    - file: Markdown/Übung_Rohdaten
   - caption: 4. Qualitätsbewertung und 5-Sterne-Modell
     chapters:
     - file: Markdown/Qualitätskriterien
     - file: Markdown/5_Star_Model
-    - file: Markdown/Übung_Rohdaten
     - file: Markdown/Star_Übung_CSV
     - file: Markdown/Qualität_Reflexion
   - caption: 5. Datenzitierung und Identifikatoren
