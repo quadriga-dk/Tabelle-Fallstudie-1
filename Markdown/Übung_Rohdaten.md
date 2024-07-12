@@ -12,19 +12,19 @@ Dies unterstreicht das kurze Tutorial zu Datenqualität und Maschinenlesbarkeit 
 
 Da Sie in den folgenden Kapiteln mit einem CSV-Datensatz arbeiten werden, muss die Excel-Tabelle des Berichts umgewandelt werden. Da sie nicht konvertiert werden soll und die Tabellen des Berichts nur im Format XLSX zur Verfügung stehen, muss die Rohdatenquelle für die Daten ermittelt werden.
 
-![Quellenangabe](_images/Quelle_Destatis.png)
+![Quellenangabe](_images/Quelle_Destatis.PNG)
 
 
 Am Ende der Tabelle H1-9web wird als Quelle für die Rohdaten u. a. auf das Statistische Bundesamt [Destatis](https://www-genesis.destatis.de/genesis/online) verwiesen. 
 
 Dort sind die relevanten Daten praktischerweise nach kurzer Recherche (Suche nach "Personal" und "Hochschule") auszumachen. Angezeigt werden mehrere Tabellen. Die benötigte hat den Code 21341-0001.
 
-![Anzeige der Suchergebnisse](_images/Destatis_Suche.png)
+![Anzeige der Suchergebnisse](_images/Destatis_Suche.PNG)
 
 
 Wenn Sie den Abruf starten, wird Ihnen die Tabelle bereits angezeigt. Sie können die Daten nun in verschiedenen Formaten auswählen.
 
-![Anzeige der Tabelle](_images/Destatis_Abruf.png)
+![Anzeige der Tabelle](_images/Destatis_Abruf.PNG)
 
 
 Wählen Sie CSV aus und der Datensatz wird im Format CSV heruntergeladen.
