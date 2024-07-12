@@ -15,17 +15,17 @@ from jupyterquiz import display_quiz
 ```
 # Übung FAIR-Prinzipien
 
-Um Daten auf ihre FAIRness zu prüfen, bieten sich Checklisten an. Wir beziehen uns in dieser Übung auf die Checkliste von Jones&Grootveld (2017), die Sie unter folgendem Link bei Zenodo auf Englisch einsehen können: https://zenodo.org/records/5111307. Für diese Übung haben wir das Dokument übersetzt.
+Um Daten auf ihre FAIRness zu prüfen, bieten sich Checklisten an. Diese Übung bezieht sich auf die Checkliste von Jones&Grootveld (2017), die Sie unter folgendem Link bei Zenodo auf Englisch einsehen können: https://zenodo.org/records/5111307. Für diese Übung wurde das Dokument übersetzt.
 
-Den Datensatz, also die Tabelle im Format Excel, können Sie unter folgendem Link als zum Bildungsbericht zugehörigen Datensatz herunterladen: https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/bildung-in-deutschland-2022#10. Sie gehört zum Kapitel "H - Bildungspersonal: Struktur, Entwicklung, Qualität und Professionalisierung" und ist dort als "H1 - Personalbestand und Personalstruktur" gelistet. Ein Klick auf `(xlsx)` lädt automatisch die Excel-Tabelle herunter. Bitte beachten Sie, dass sie den Bildungsbericht für das Jahr **2022** öffnen.
+Den Datensatz, also die Tabelle im Format XSLX, können Sie unter folgendem Link als zum Bildungsbericht zugehörigen Datensatz herunterladen: https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/bildung-in-deutschland-2022#10. Sie gehört zum Kapitel "H - Bildungspersonal: Struktur, Entwicklung, Qualität und Professionalisierung" und ist dort als "H1 - Personalbestand und Personalstruktur" gelistet. Ein Klick auf `(xlsx)` lädt automatisch die Excel-Tabelle herunter. Bitte beachten Sie, dass sie den Bildungsbericht für das Jahr **2022** öffnen. Die hier zu prüfende Tabelle ist der Reiter "H1-9web: Personal an Hochschulen 2010, 2012, 2014, 2016, 2018, 2019 und 2020 nach Personalgruppen und Hochschulart".
 
-Den vier Kriterien (**F**indable, **A**ccessible, **I**nteroperable und **R**eusable), die wir im vorherigen Kapitel kennengelernt haben, sind jeweils 4 Aussagen zugeordnet, die Sie in dieser Übung auf den Datensatz anwenden sollen. Es handelt sich dabei um einfache Ja-und-Nein-Fragen. Beachten Sie aber, dass manche Aussage nicht immer eindeutig zu beantworten ist und manchmal sowohl Ja als auch Nein richtig sein können.
+Den vier Kriterien (**F**indable, **A**ccessible, **I**nteroperable und **R**eusable), die Sie im vorherigen Kapitel kennengelernt haben, sind jeweils 4 Aussagen zugeordnet, die Sie in dieser Übung auf die Tabelle anwenden sollen. Es handelt sich dabei um einfache Ja-und-Nein-Fragen. Beachten Sie, dass manche Aussage nicht immer eindeutig zu beantworten ist und manchmal sowohl Ja als auch Nein richtig sein können.
 
 Viel Erfolg!
 
 ---
 
-Daten sind **auffindbar** (findable), wenn sie von anderen einfach gefunden werden können. Das ist der Fall, wenn die Daten mit einem persistenten Identifikator bezeichnet (<span style="color:red">siehe Kapitel URI/PID</span>) und mit Metadaten beschrieben sind, die in einer durchsuchbaren Ressource online zur Verfügung stehen. Dazu lassen sich die folgenden 4 Aussagen prüfen:
+Daten sind **auffindbar** (findable), wenn sie von anderen einfach gefunden werden können. Das ist der Fall, wenn die Daten mit einem persistenten Identifikator bezeichnet und mit Metadaten beschrieben sind, die in einer durchsuchbaren Ressource online zur Verfügung stehen. Dazu lassen sich die folgenden 4 Aussagen prüfen:
 
 
 ````{code-cell} ipython3
@@ -52,7 +52,7 @@ questions = \
       'feedback': 'Das ist leider nicht richtig. Die Daten werden nicht durch umfangreiche Metadaten beschrieben.'},
     { 'answer': 'Nein',
       'correct': True,
-      'feedback': 'Richtig, denn es gibt keine Metadaten, die die Tabelle(n) umfangreich beschreiben.'},
+      'feedback': 'Richtig, denn es gibt keine Metadaten, die die Tabelle umfangreich beschreiben.'},
     ]
   },
 
@@ -73,7 +73,7 @@ questions = \
     'answers': [
     { 'answer': 'Ja',
       'correct': False,
-      'feedback': 'Nein, denn es gibt weder einen eindeutigen/persistenten Identifikator, noch Metadaten.'},
+      'feedback': 'Nein, denn es gibt weder einen eindeutigen/persistenten Identifikator noch Metadaten.'},
     { 'answer': 'Nein',
       'correct': True,
       'feedback': 'Richtig.'},
@@ -99,7 +99,7 @@ questions = \
       'feedback': 'Nein, denn es gibt keinen eindeutigen bzw. persistenten Identifikator.'},
     { 'answer': 'Nein',
       'correct': True,
-      'feedback': 'Richtig. Da es keinen persistenten Identifikator gibt (siehe die Übung Nr. 1 zur Auffindbarkeit), erübrigt sich diese Frage'},
+      'feedback': 'Richtig. Da es keinen persistenten Identifikator gibt (siehe die Übung Nr. 1 zur Auffindbarkeit), erübrigt sich diese Frage.'},
     ]
   },
 
@@ -120,7 +120,7 @@ questions = \
     'answers': [
     { 'answer': 'Ja',
       'correct': False,
-      'feedback': 'Nein. Für den Zugang zu den Daten muss man sich nirgendwo einloggen oder ähnliches.'},
+      'feedback': 'Nein. Für den Zugang zu den Daten ist keine Authentifizierung oder Autorisierung nötig.'},
     { 'answer': 'Nein',
       'correct': True,
       'feedback': 'Richtig. Die Daten stehen als offene Statistikdaten allen Nutzer*innen zur freien Verfügung. Daher bedarf es weder einer Authentifizierung noch einer Autorisierung.'},
@@ -226,7 +226,7 @@ questions = \
     'answers': [
     { 'answer': 'Ja',
       'correct': False,
-      'feedback': 'Das ist leider nicht richtig, denn obwohl die Daten offen zur Verfügung stehen, ist nicht klar, ob sie einer Nutzungslizenz unterliegen. Zumindest ist diese nicht einfach zu finden.'},
+      'feedback': 'Das ist leider nicht richtig, denn obwohl die Daten offen zur Verfügung stehen, findet sich keine eindeutig auf die Daten bezogene Nutzungslizenz.'},
     { 'answer': 'Nein',
       'correct': True,
       'feedback': 'Diese Antwort ist richtig, denn obwohl die Daten offen zugänglich sind, findet sich keine Lizenz für ihre Nutzung. Eine Lizenz (CC BY-SA 3.0 DE) findet sich nur im Bildungsbericht selbst.'},
@@ -238,10 +238,10 @@ questions = \
     'answers': [
     { 'answer': 'Ja',
       'correct': True,
-      'feedback': 'Diese Antwort ist teilweise richtig, denn Informationen von wem die Daten erstellt wurden, finden sich in den Tabellen selbst.'},
+      'feedback': 'Diese Antwort ist teilweise richtig, denn Informationen von wem die Daten erstellt wurden, finden sich in den Tabellen selbst. Allerdings würde man mehr Informationen in den Metadaten erwarten.'},
     { 'answer': 'Nein',
       'correct': True,
-      'feedback': 'Diese Antwort ist teilweise richtig, denn es gibt zwar einige Informationen zur Erstellung der Daten, allerdings stammen sie nicht aus den Metadaten, sondern den Tabellen selbst oder aus dem Bericht. Dort muss man die Informationen allerdings erst suchen, was die Wiederverwendbarkeit erschwert.'},
+      'feedback': 'Diese Antwort ist richtig, denn es gibt zwar einige Informationen zur Erstellung der Daten, allerdings stammen sie nicht aus den Metadaten, sondern den Tabellen selbst oder dem Bericht. Dort muss man die Informationen erst suchen, was die Wiederverwendbarkeit erschwert.'},
     ]
   },
 
@@ -250,7 +250,7 @@ questions = \
     'answers': [
     { 'answer': 'Ja',
       'correct': True,
-      'feedback': 'Diese Antwort ist in Teilen richtig, denn die Daten entsprechen einschlägigen Fachstandards aber es gibt keine Metadaten.'},
+      'feedback': 'Diese Antwort ist in Teilen richtig, denn die Daten entsprechen einschlägigen Fachstandards. Allerdings es gibt keine Metadaten.'},
     { 'answer': 'Nein',
       'correct': True,
       'feedback': 'Teilweise richtig, denn es gibt keine Metadaten, die Standards entsprechen könnten. Auf die Daten trifft es aber zu.'},
