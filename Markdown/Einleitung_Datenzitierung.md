@@ -18,3 +18,7 @@ Das Zitieren von Forschungsdaten ist Teil der guten wissenschaftlichen Praxis (h
 Es gibt allerdings auch allgemeine Richtlinien wie jene der Gruppe Force11 {cite}`force11_joint_2014`. In den dort formulierten 8 Punkten heißt es, dass Daten wie Publikationen als legitime, zitierbare Forschungsergebnisse anzusehen sind (1) und dementsprechend auf die Urheber:innen verwiesen werden muss (2). Zitate sollten nach Evidenz verwendet (3), mit eindeutigen Identifikatoren versehen werden (4) und den Zugang zu den Daten selbst bzw. ihren Metadaten erleichtern (5). Weiterhin sollten die Identifikatoren und Metadaten dauerhaft - im Zweifel auch über die Lebensdauer der Daten hinaus - bestehen bleiben (6). Des Weiteren sollten die Zitate spezifisch sein und die Überprüfbarkeit der Daten erleichtern (7) sowie eine Balance aus Flexibilität und Interoperabilität bieten (8).
 
 In diesem Video vom Forschungsdatenmanagement Bayern wird das Thema "Forschungsdaten zitieren" kurz und verständlich erläutert: https://www.youtube.com/watch?v=WBiZydSV-m0&t=86s
+
+---
+
+*Macht es hier noch Sinn, die "rechtssichere Nachnutzung" zu erwähnen? -> könnte in Richtung Lizenzen gehen*
