@@ -1,11 +1,28 @@
-# Übung Rohdaten
+# XLSX und CSV
 
-*hier die Übung R_Übung_Reprodu(zierbarkeit) hochziehen?*
+Bevor Sie im nächsten Kapitel Kriterien zur Qualitätsbewertung kennenlernen, lassen Sie uns noch einmal einen Blick auf die Daten werfen. Aus der Bewertung der FAIRness der Daten ging bereits hervor, dass Daten im Format XLSX unter bestimmten Gesichtspunkten Einschränkungen unterliegen können.
 
-In der Tabelle wird als Quelle für die Rohdaten u. a. auf das Statistische Bundesamt (Destatis, [https://www-genesis.destatis.de/genesis/online](https://www-genesis.destatis.de/genesis/online)) verwiesen. Dort lassen sie sich nach kurzer Recherche ausmachen und direkt im CSV-Format herunterladen: [https://www-genesis.destatis.de/genesis//online?operation=table&code=21341-0001&bypass=true&levelindex=0&levelid=1716993151909#abreadcrumb](https://www-genesis.destatis.de/genesis//online?operation=table&code=21341-0001&bypass=true&levelindex=0&levelid=1716993151909#abreadcrumb). 
-
-Ein kurzes Tutorial zu Datenqualität und Maschinenlesbarkeit tabellarischer Daten in Bezug auf CSV und XLSX (Excel) bietet folgendes Video der Open Data Informationsstelle Berlin. Dort erfahren Sie u. a., wie sich die beiden Formate unterscheiden und warum Excel-Tabellen oft nicht einwandfrei maschinenlesbar sind.
+Dies unterstreicht das kurze Tutorial zu Datenqualität und Maschinenlesbarkeit tabellarischer Daten in Bezug auf CSV und XLSX, dass von der [Open Data Informationsstelle Berlin](https://odis-berlin.de/), einem Projekt der [Technologiestiftung Berlin](https://www.technologiestiftung-berlin.de/) erstellt wurde. Dort erfahren Sie u. a., wie sich die beiden Formate unterscheiden und warum Excel-Tabellen oft nicht einwandfrei maschinenlesbar sind. Das Video wurde unter der Lizenz CC BY veröffentlicht.
 
 [https://www.youtube.com/embed/Nb_cLObVKho?si=cuM3HATsLLsvbk-h](https://www.youtube.com/embed/Nb_cLObVKho?si=cuM3HATsLLsvbk-h)
 
-**Hier eine Frage eine Frage einbinden?: Wie offen und technisch verwendbar sind diese Datensätze für die nachfolgenden Analysen?*
+
+---
+
+
+Da Sie in den folgenden Kapiteln mit einem CSV-Datensatz arbeiten werden, muss die Excel-Tabelle des Berichts umgewandelt werden. Da sie nicht konvertiert werden soll und die Tabellen des Berichts nur im Format XLSX zur Verfügung stehen, muss die Rohdatenquelle für die Daten ermittelt werden.
+
+*Bild Quelle Destatis*
+
+Am Ende der Tabelle H1-9web wird als Quelle für die Rohdaten u. a. auf das Statistische Bundesamt [Destatis](https://www-genesis.destatis.de/genesis/online) verwiesen. Dort sind die relevanten Daten praktischerweise nach kurzer Recherche (Suche nach "Personal" und "Hochschule") auszumachen. 
+
+*Bild Destatis Suche*
+
+Wenn Sie den Abruf starten, wird Ihnen die Tabelle bereits angezeigt. Sie können die Daten nur in verschiedenen Formaten auswählen.
+
+*Bild Destatis Abruf*
+
+Wählen Sie CSV aus und der Datensatz wird im Format CSV heruntergeladen.
+
+
+Wunderbar, damit sind Sie bereit für die folgenden Kapitel!
