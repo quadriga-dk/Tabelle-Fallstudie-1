@@ -1,8 +1,8 @@
 # Qualitätskriterien
 
-Im vorherigen Abschnitt haben wir erfahren, dass die FAIR-Prinzipien vor allem ein Bewertungsmaßstab zur Datennachnutzung liefert. In diesem Abschnitt widmen wir uns den Kriterien der Qualitätsbewertung. 
+Im vorherigen Abschnitt haben Sie erfahren, dass die FAIR-Prinzipien vor allem einen Bewertungsmaßstab zur Datennachnutzung liefern. In diesem Abschnitt stehen nun die Kriterien der Qualitätsbewertung im Mittelpunkt. 
 
-Der nationale Bildungsbericht stellt unsere Beispieldaten offen auf Basis von Bundesstatistikdaten zur Verfügung. Daher werden wir auf Offene Daten (Open Data) und die Qualitätskriterien für Open Data eingehen. Unter Open Data versteht man, dass die Daten im Netz frei verfügbar und nutzbar sind. Sie sollen durch die Möglichkeit einer freien Nachnutzung mehr Transparenz in der Forschung ermöglichen und sind ein Basiselement der Reproduzierbarkeit von Forschungsergebnissen, weshalb Open Data auch als Teil der Open-Science-Bewegung verstanden werden kann [*Quelle einfügen*: forschungsdaten.info 2024, https://forschungsdaten.info/themen/finden-und-nachnutzen/open-data-open-access-und-nachnutzung/].
+Der nationale Bildungsbericht stellt die Beispieldaten offen auf Basis von Bundesstatistikdaten zur Verfügung. Daher wird im Folgenden auf Offene Daten (Open Data) und die Qualitätskriterien für Open Data eingegangen. Unter Open Data versteht man, dass die Daten im Netz frei verfügbar und nutzbar sind. Sie sollen durch die Möglichkeit einer freien Nachnutzung mehr Transparenz in der Forschung ermöglichen und sind ein Basiselement der Reproduzierbarkeit von Forschungsergebnissen, weshalb Open Data auch als Teil der Open-Science-Bewegung verstanden werden kann [*Quelle einfügen*: forschungsdaten.info 2024, https://forschungsdaten.info/themen/finden-und-nachnutzen/open-data-open-access-und-nachnutzung/].
 
 Anschließend werden Merkmale für Statistikdaten aufgezeigt, da diese für die Verwaltungswissenschaften von herausgehobener Bedeutung sind.
 
@@ -17,7 +17,7 @@ Die inhaltliche und kontextuelle Qualität von Daten und Metadaten kann anhand v
 
 - **Genauigkeit:** Die Daten und Metadaten sind so präzise wie möglich angegeben. Demnach wird auf Rundungen von Zahlen verzichtet. Die Metadaten enthalten alle relevanten Details zur Datei {cite}`behkamal_metrics-driven_2014,bruns_leitfaden_2019,vetro_open_2016`.
 
-- **Konformität:** Die Daten und Metadaten entsprechen den domänenspezifischen Standards. Diese beziehen sich auf Datumsangaben, Zeichenkodierung, etc.. Zudem sind alle Informationen enthalten, welche durch verendetes Vokabular und Betitelung impliziert werden {cite}`behkamal_metrics-driven_2014,vetro_open_2016`.
+- **Konformität:** Die Daten und Metadaten entsprechen den domänenspezifischen Standards. Diese beziehen sich auf Datumsangaben, Zeichenkodierung, etc.. Zudem sind alle Informationen enthalten, welche durch verwendetes Vokabular und Betitelung impliziert werden {cite}`behkamal_metrics-driven_2014,vetro_open_2016`.
 
 - **Konsistenz:** Daten und Metadaten sind widerspruchsfrei. Dies gilt für die Daten selbst und auch in Bezug auf andere Datensätze {cite}`behkamal_metrics-driven_2014,pipino_data_2002`.
 
@@ -27,11 +27,13 @@ Die inhaltliche und kontextuelle Qualität von Daten und Metadaten kann anhand v
 
 - **Verständlichkeit:** Die Daten sind so strukturiert und bezeichnet, dass Außenstehende dieses leicht verstehen können. Es wird nur einfaches Vokabular verwendet, welches kein besonderes Fachwissen voraussetzt {cite}`behkamal_metrics-driven_2014,vetro_open_2016,pipino_data_2002`.
 
-- **Vollständigkeit:** Die Daten sind vollständig (z.B. sind alle Datenfelder befüllt). Falls die Daten unvollständig sind, wird auf die Unvollständigkeit hingewiesen {cite}`behkamal_metrics-driven_2014,vetro_open_2016,pipino_data_2002`.
+- **Vollständigkeit:** Die Daten sind vollständig (z. B. sind alle Datenfelder befüllt). Falls die Daten unvollständig sind, wird auf die Unvollständigkeit hingewiesen {cite}`behkamal_metrics-driven_2014,vetro_open_2016,pipino_data_2002`.
 
 - **Zugänglichkeit:** Die Daten können auf einfache Weise abgerufen werden. Außerdem besteht eine permanente Verlinkung aller Referenzen und Links (z.B. mittels Verwendung permanenter URIs) {cite}`behkamal_metrics-driven_2014,vetro_open_2016,pipino_data_2002,vaddepalli_taxonomy_2023`.
 
-Further Reading: NQDM Checklisten: https://cdn0.scrvt.com/fokus/19c04efdafe63fe4/edbc85cd796a/Checkliste_NQDM_CSV.pdf
+**Weitere Informationen**
+
+Eine Checkliste zur Steigerung der Qualität von CSV-Dateien haben Fraunhofer FOKUS und Pumacy Technologies AG im Rahmen des NQDM-Projektes (Normentwurf für qualitativ hochwertige Daten und Metadaten) erarbeitet: https://cdn0.scrvt.com/fokus/19c04efdafe63fe4/edbc85cd796a/Checkliste_NQDM_CSV.pdf
 
 
 ## Qualitätsmerkmale für Statistikdaten
@@ -55,8 +57,9 @@ Im Rahmen des Verhaltenskodex für europäische Statistiken der Europäischen Un
 :class: tip
 ````{admonition} Lösung
 :class: dropdown
-Erstens überschneiden sich einige Aspekte in beiden Listen. So erwähnen beide beispielsweise die Genauigkeit, die Aktualität oder die Zuverlässigkeit.
-Zweitens finden sich hier alle Stichworte wieder, die wir bereits von den FAIR-Prinzipien kennen. Diesbezüglich zu nennen sind z. B. die Angabe von Metadaten nach domänenspezifischen Standards, die Auffindbarkeit, die Zugänglichkeit, die Interoperabilität (hier als Vergleich- und Kombinierbarkeit) und auch die Wiederverwendbarkeit (hier als Transparenz, Verständlichkeit, Vertrauenswürdigkeit).
+Zum einen überschneiden sich einige Aspekte in den Listen. So erwähnen beide beispielsweise die Genauigkeit, die Aktualität oder die Zuverlässigkeit.
+
+Zum anderen finden sich hier alle Stichworte wieder, die Sie bereits von den FAIR-Prinzipien kennen. Diesbezüglich zu nennen sind z. B. die Angabe von Metadaten nach domänenspezifischen Standards, die Auffindbarkeit, die Zugänglichkeit, die Interoperabilität (hier als Vergleich- und Kombinierbarkeit) und auch die Wiederverwendbarkeit (hier als Transparenz, Verständlichkeit, Vertrauenswürdigkeit).
 ````
 `````
 
