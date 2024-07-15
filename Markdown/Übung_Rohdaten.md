@@ -1,6 +1,6 @@
 # XLSX und CSV
 
-Bevor Sie im nächsten Kapitel Kriterien zur Qualitätsbewertung kennenlernen, lassen Sie uns noch einmal einen Blick auf die Daten werfen. Aus der Bewertung der FAIRness der Daten ging bereits hervor, dass Daten im Format XLSX unter bestimmten Gesichtspunkten Einschränkungen unterliegen können.
+Als Einstieg in das Kapitel Qualitätsbewertung, lassen Sie uns noch einmal einen Blick auf die Daten werfen. Aus der Bewertung der FAIRness der Daten ging bereits hervor, dass Daten im Format XLSX unter bestimmten Gesichtspunkten Einschränkungen unterliegen können.
 
 Dies unterstreicht das kurze Tutorial zu Datenqualität und Maschinenlesbarkeit tabellarischer Daten in Bezug auf CSV und XLSX, dass von der [Open Data Informationsstelle Berlin](https://odis-berlin.de/), einem Projekt der [Technologiestiftung Berlin](https://www.technologiestiftung-berlin.de/) erstellt wurde. Dort erfahren Sie u. a., wie sich die beiden Formate unterscheiden und warum Excel-Tabellen oft nicht einwandfrei maschinenlesbar sind. Das Video wurde unter der Lizenz CC BY veröffentlicht.
 
@@ -10,7 +10,7 @@ Dies unterstreicht das kurze Tutorial zu Datenqualität und Maschinenlesbarkeit 
 ---
 
 
-Da Sie in den folgenden Kapiteln mit einem CSV-Datensatz arbeiten werden, muss die Excel-Tabelle des Berichts umgewandelt werden. Da sie nicht konvertiert werden soll und die Tabellen des Berichts nur im Format XLSX zur Verfügung stehen, muss die Rohdatenquelle für die Daten ermittelt werden.
+Da Sie ab diesem Kapitel mit einem CSV-Datensatz arbeiten werden, muss die Excel-Tabelle des Berichts umgewandelt werden. Da sie nicht konvertiert werden soll und die Tabellen des Berichts nur im Format XLSX zur Verfügung stehen, muss die Rohdatenquelle für die Daten ermittelt werden.
 
 ![Quellenangabe](_images/Quelle_Destatis.PNG)
 
