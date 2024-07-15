@@ -15,28 +15,28 @@ parts:
     - file: Markdown/Fair_Prinzipien
     - file: Markdown/FAIR_Übung_Tabelle
     - file: Markdown/FAIR_Reflexion
-  - caption: 4. Qualitätsbewertung und 5-Sterne-Modell
+  - caption: 3. Qualitätsbewertung und 5-Sterne-Modell
     chapters:
     - file: Markdown/Übung_Rohdaten
     - file: Markdown/Qualitätskriterien
     - file: Markdown/5_Star_Model
     - file: Markdown/Star_Übung_CSV
     - file: Markdown/Qualität_Reflexion
-  - caption: 5. Datenzitierung und Identifikatoren
+  - caption: 4. Datenzitierung und Identifikatoren
     chapters:
     - file: Markdown/Einleitung_Datenzitierung
     - file: Markdown/PID
     - file: Markdown/Linked_Data
     - file: Markdown/Übung_PID
     - file: Markdown/Zitierung_Reflexion
-  - caption: 6. Datenmanipulation
+  - caption: 5. Datenmanipulation
     chapters:
     - file: Markdown/Datenmanipulation
     - file: Markdown/Datenstruktur
     - file: Markdown/R_Markdown
     - file: Markdown/R_Übung_Reprodu
     - file: Markdown/Übung_Zeitreihe_R
-  - caption: 7. Zusammenfassung
+  - caption: 6. Zusammenfassung
     chapters:
     - file: Markdown/Reflexion
   - caption: Abschluss
