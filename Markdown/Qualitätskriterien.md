@@ -1,6 +1,6 @@
 # Qualitätskriterien
 
-Im vorherigen Abschnitt haben Sie erfahren, dass die FAIR-Prinzipien vor allem einen Bewertungsmaßstab zur Datennachnutzung liefern. In diesem Abschnitt stehen nun die Kriterien der Qualitätsbewertung im Mittelpunkt. 
+Im Kapitel Datennachnutzung haben Sie erfahren, dass die FAIR-Prinzipien vor allem einen Bewertungsmaßstab zur Datennachnutzung liefern. In diesem Abschnitt stehen nun die Kriterien der Qualitätsbewertung im Mittelpunkt. 
 
 Der nationale Bildungsbericht stellt die Beispieldaten offen auf Basis von Bundesstatistikdaten zur Verfügung. Daher wird im Folgenden auf Offene Daten (Open Data) und die Qualitätskriterien für Open Data eingegangen. Unter Open Data versteht man, dass die Daten im Netz frei verfügbar und nutzbar sind. Sie sollen durch die Möglichkeit einer freien Nachnutzung mehr Transparenz in der Forschung ermöglichen und sind ein Basiselement der Reproduzierbarkeit von Forschungsergebnissen, weshalb Open Data auch als Teil der Open-Science-Bewegung verstanden werden kann [*Quelle einfügen*: forschungsdaten.info 2024, https://forschungsdaten.info/themen/finden-und-nachnutzen/open-data-open-access-und-nachnutzung/].
 
@@ -33,7 +33,7 @@ Die inhaltliche und kontextuelle Qualität von Daten und Metadaten kann anhand v
 
 **Weitere Informationen**
 
-Eine Checkliste zur Steigerung der Qualität von CSV-Dateien haben Fraunhofer FOKUS und Pumacy Technologies AG im Rahmen des NQDM-Projektes (Normentwurf für qualitativ hochwertige Daten und Metadaten) erarbeitet: https://cdn0.scrvt.com/fokus/19c04efdafe63fe4/edbc85cd796a/Checkliste_NQDM_CSV.pdf
+Eine Checkliste zur Steigerung der Qualität von CSV-Dateien haben das Fraunhofer FOKUS und die Pumacy Technologies AG im Rahmen des NQDM-Projektes (Normentwurf für qualitativ hochwertige Daten und Metadaten) erarbeitet: https://cdn0.scrvt.com/fokus/19c04efdafe63fe4/edbc85cd796a/Checkliste_NQDM_CSV.pdf
 
 
 ## Qualitätsmerkmale für Statistikdaten
@@ -53,7 +53,7 @@ Im Rahmen des Verhaltenskodex für europäische Statistiken der Europäischen Un
 
 
 
-`````{admonition} Fällt Ihnen an den beiden Auflistungen etwas auf?
+`````{admonition} Was fällt Ihnen an den beiden Auflistungen auf?
 :class: tip
 ````{admonition} Lösung
 :class: dropdown
@@ -66,4 +66,5 @@ Zum anderen finden sich hier alle Stichworte wieder, die Sie bereits von den FAI
 
 
 Es zeigt sich, dass Datenqualität und Datennachnutzung eng miteinander verknüpft sind, denn wer Daten nachnutzen möchte, profitiert von qualitätvollen Daten und Metadaten. 
-Einen letztes Modell, das zudem eine Brücke zum bereits mehrfach angedeuteten Thema Persistente Identifikatoren (PID) schlägt, ist das 5-Sterne-Modell, das wir im nächsten Abschnitt behandeln. 
+
+Ein letztes Modell, das zudem eine Brücke zum bereits mehrfach angedeuteten Thema Persistente Identifikatoren (PID) schlägt, ist das 5-Sterne-Modell, das im nächsten Abschnitt behandelt wird. 
