@@ -1,3 +1,4 @@
+(Rohdaten)=
 # XLSX und CSV
 
 Als Einstieg in das Kapitel Qualitätsbewertung, lassen Sie uns noch einmal einen Blick auf die Daten werfen. Aus der Bewertung der FAIRness der Daten ging bereits hervor, dass Daten im Format XLSX unter bestimmten Gesichtspunkten Einschränkungen unterliegen können.
