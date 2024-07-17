@@ -1,3 +1,4 @@
+(Qualitätskriterien)=
 # Qualitätskriterien
 
 Im Kapitel Datennachnutzung haben Sie erfahren, dass die FAIR-Prinzipien vor allem einen Bewertungsmaßstab zur Datennachnutzung liefern. In diesem Abschnitt stehen nun die Kriterien der Qualitätsbewertung im Mittelpunkt. 
