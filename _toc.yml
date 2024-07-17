@@ -7,8 +7,8 @@ parts:
   - caption: 1. Einleitung
     chapters:
     - file: Markdown/Ausgangssituation
-    - file: Markdown/Aufbau_Fallstudie
     - file: Markdown/Datenbasis_Bildungsbericht
+    - file: Markdown/Aufbau_Fallstudie
   - caption: 2. Datennachnutzung und FAIR-Prinzipien
     chapters:
     - file: Markdown/Einleitung_Datennachnutzung
