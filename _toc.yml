@@ -36,6 +36,7 @@ parts:
     - file: Markdown/R_Markdown
     - file: Markdown/R_Übung_Reprodu
     - file: Markdown/Übung_Zeitreihe_R
+    - file: Markdown/Reflexion_Datenmanipulation
   - caption: 6. Zusammenfassung
     chapters:
     - file: Markdown/Reflexion
