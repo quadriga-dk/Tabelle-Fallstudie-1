@@ -12,6 +12,7 @@ parts:
   - caption: 2. Datennachnutzung und FAIR-Prinzipien
     chapters:
     - file: Markdown/Einleitung_Datennachnutzung
+    - file: Markdown/Einleitung_Datenzitierung
     - file: Markdown/Fair_Prinzipien
     - file: Markdown/FAIR_Übung_Tabelle
     - file: Markdown/FAIR_Reflexion
@@ -22,13 +23,12 @@ parts:
     - file: Markdown/5_Star_Model
     - file: Markdown/Star_Übung_CSV
     - file: Markdown/Qualität_Reflexion
-  - caption: 4. Datenzitierung und Identifikatoren
+  - caption: 4. Identifikatoren und Linked Data
     chapters:
     - file: Markdown/PID
     - file: Markdown/Linked_Data
     - file: Markdown/Übung_PID
     - file: Markdown/Zitierung_Reflexion
-    - file: Markdown/Einleitung_Datenzitierung
   - caption: 5. Datenmanipulation
     chapters:
     - file: Markdown/Datenmanipulation
