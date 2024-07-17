@@ -257,5 +257,5 @@ questions = \
     ]
   }
 ]
-display_quiz(questions)
+display_quiz(questions, colors={ '--jq-many-choice-bg': '#6f78ffff' })
 ````
