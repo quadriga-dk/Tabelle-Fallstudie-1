@@ -24,11 +24,11 @@ parts:
     - file: Markdown/Qualität_Reflexion
   - caption: 4. Datenzitierung und Identifikatoren
     chapters:
-    - file: Markdown/Einleitung_Datenzitierung
     - file: Markdown/PID
     - file: Markdown/Linked_Data
     - file: Markdown/Übung_PID
     - file: Markdown/Zitierung_Reflexion
+    - file: Markdown/Einleitung_Datenzitierung
   - caption: 5. Datenmanipulation
     chapters:
     - file: Markdown/Datenmanipulation
