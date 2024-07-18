@@ -20,26 +20,27 @@ parts:
     chapters:
     - file: Markdown/10_XLSXundCSV
     - file: Markdown/11_Qualitätskriterien
-    - file: Markdown/12_5-sterne
+    - file: Markdown/12_5-Sterne
     - file: Markdown/13_Übung_5-Sterne
     - file: Markdown/14_Reflexion_Qualität
   - caption: 4. Identifikatoren und Linked Data
     chapters:
-    - file: Markdown/PID
-    - file: Markdown/Linked_Data
-    - file: Markdown/Übung_PID
-    - file: Markdown/Zitierung_Reflexion
+    - file: Markdown/15_PID
+    - file: Markdown/16_Linked-Data
+    - file: Markdown/17_Übung_PID
+    - file: Markdown/18_Reflexion_Identifikatoren
   - caption: 5. Datenmanipulation
     chapters:
-    - file: Markdown/Datenmanipulation
-    - file: Markdown/Datenstruktur
-    - file: Markdown/R_Markdown
-    - file: Markdown/R_Übung_Reprodu
-    - file: Markdown/Übung_Zeitreihe_R
-    - file: Markdown/Reflexion_Datenmanipulation
+    - file: Markdown/19_Datenmanipulation
+    - file: Markdown/20_Datenstruktur
+    - file: Markdown/21_Einstieg_R
+    - file: Markdown/22_Übung_Reproduzierbarkeit
+    - file: Markdown/23_Übung_Zeitreihe
+    - file: Markdown/24_Reflexion_Datenmanipulation
   - caption: 6. Zusammenfassung
     chapters:
-    - file: Markdown/Reflexion
-  - caption: Abschluss
+    - file: Markdown/25_Reflexion
+  - caption: 7. Abschluss
     chapters:
+    - file: Markdown/26_Danksagung
     - file: Markdown/Literaturverzeichnis 
