@@ -34,7 +34,7 @@ Die inhaltliche und kontextuelle Qualität von Daten und Metadaten kann anhand v
 
 **Weitere Informationen**
 
-Eine Checkliste zur Steigerung der Qualität von CSV-Dateien haben das Fraunhofer FOKUS und die Pumacy Technologies AG im Rahmen des NQDM-Projektes (Normentwurf für qualitativ hochwertige Daten und Metadaten) erarbeitet: https://cdn0.scrvt.com/fokus/19c04efdafe63fe4/edbc85cd796a/Checkliste_NQDM_CSV.pdf
+Zur Steigerung der Qualität von CSV-Dateien haben das Fraunhofer FOKUS und die Pumacy Technologies AG im Rahmen des NQDM-Projektes (Normentwurf für qualitativ hochwertige Daten und Metadaten) eine [Checkliste](https://cdn0.scrvt.com/fokus/19c04efdafe63fe4/edbc85cd796a/Checkliste_NQDM_CSV.pdf) erarbeitet. 
 
 
 ## Qualitätsmerkmale für Statistikdaten
