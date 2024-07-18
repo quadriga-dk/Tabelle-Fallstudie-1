@@ -19,5 +19,5 @@ Diese Fallstudie gliedert sich daher in folgende Kapitel und Abschnitte, die Sie
 
 - Im **3. Schritt** machen wir Sie mit Persistenten Identifikatoren und Linked Data vertraut (s. [Kapitel Identifikatoren und Linked Data](PID).
 
-- Im **4. Schritt** zeigen wir Ihnen, wie Daten bereinigt und manipuliert werden können. Dazu machen wir Sie mit den Grundlagen des Arbeitens mit R vertraut, vollziehen eine Datenanalyse des Bildungsberichts nach und lösen am Ende mit Hilfe des neu erlangten Wissens die Forschungsfrage (s. [Kapitel Datenmanipulation](Datenmanipulation).  
+- Im **4. Schritt** zeigen wir Ihnen, wie Daten bereinigt und manipuliert werden können. Dazu machen wir Sie mit den Grundlagen des Arbeitens mit R vertraut, vollziehen eine Datenanalyse des Bildungsberichts nach und lösen am Ende mit Hilfe des neu erlangten Wissens die Forschungsfrage (s. [Kapitel Datenmanipulation](Datenmanipulation)).  
 
