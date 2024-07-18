@@ -19,9 +19,25 @@ Um diese zu beantworten, vermittelt diese Fallstudie Kenntnisse in Bezug auf qua
 Neben der bereits elementaren Nutzung statistischer Daten in der Verwaltungswissenschaft, gewinnt die Nachnutzung von Forschungsdaten zunehmend an Bedeutung. Die in dieser Fallstudie erlernbaren Tools helfen dabei, die Reproduzierbarkeit von Analysen und Ergebnissen zu prüfen und zu bewerten. Durch die hier gezeigten Schritte der Datenmanipulation lassen sich Tabellen bereinigen, um so weitere datengetriebene Analysen durchzuführen.
 
 
-## Lernziele
+## Lernziele bzw. zu erwerbende Kompetenzen
 
-`````{admonition} Groblernziel 1
+`````{admonition} Sicherstellen der Qualität der Datensätze
+:class: keypoints
+````{admonition} Feinlernziel 1
+:class: dropdown
+Feinlernziel 1 Beschreibung
+````
+`````
+
+`````{admonition} Datenzitierung
+:class: keypoints
+````{admonition} Feinlernziel 1
+:class: dropdown
+Feinlernziel 1 Beschreibung
+````
+`````
+
+`````{admonition} Datenmanipulation
 :class: keypoints
 ````{admonition} Feinlernziel 1
 :class: dropdown
