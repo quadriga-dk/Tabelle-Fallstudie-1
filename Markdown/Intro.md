@@ -1,7 +1,7 @@
 # Reproduzierbarkeit von Datenanalysen
 
 
-*Bild*
+![](_images/Collage_2.png)
 
 
 Diese Fallstudie bildet mit Hilfe eines Jupyter Books einen Forschungsverlauf in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
