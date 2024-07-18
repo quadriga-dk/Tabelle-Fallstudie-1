@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: Markdown/01_Intro
+root: Markdown/Intro
 parts:
   - caption: 1. Einleitung
     chapters:
