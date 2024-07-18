@@ -19,10 +19,10 @@ parts:
   - caption: 3. Qualitätsbewertung und 5-Sterne-Modell
     chapters:
     - file: Markdown/10_XLSXundCSV
-    - file: Markdown/Qualitätskriterien
-    - file: Markdown/5_Star_Model
-    - file: Markdown/Star_Übung_CSV
-    - file: Markdown/Qualität_Reflexion
+    - file: Markdown/11_Qualitätskriterien
+    - file: Markdown/12_5-sterne
+    - file: Markdown/13_Übung_5-Sterne
+    - file: Markdown/14_Reflexion_Qualität
   - caption: 4. Identifikatoren und Linked Data
     chapters:
     - file: Markdown/PID
