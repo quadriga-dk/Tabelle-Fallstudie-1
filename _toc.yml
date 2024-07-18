@@ -11,11 +11,11 @@ parts:
     - file: Markdown/04_Struktur_Fallstudie
   - caption: 2. Datennachnutzung und FAIR-Prinzipien
     chapters:
-    - file: Markdown/Einleitung_Datennachnutzung
-    - file: Markdown/Einleitung_Datenzitierung
-    - file: Markdown/Fair_Prinzipien
-    - file: Markdown/FAIR_Übung_Tabelle
-    - file: Markdown/FAIR_Reflexion
+    - file: Markdown/05_Datennachnutzung
+    - file: Markdown/06_FairPrinzipien
+    - file: Markdown/07_Übung_FAIR
+    - file: Markdown/08_Datenzitierung
+    - file: Markdown/09_Reflexion_FAIR
   - caption: 3. Qualitätsbewertung und 5-Sterne-Modell
     chapters:
     - file: Markdown/Übung_Rohdaten
