@@ -30,5 +30,7 @@ Wenn Sie den Abruf starten, wird Ihnen die Tabelle bereits angezeigt. Sie könne
 
 Wählen Sie CSV aus und der Datensatz wird im Format CSV heruntergeladen.
 
+Alternativ können Sie den Datensatz auch aus unserem Repository laden: [CSV-Datensatz](Data/21341-0001_%24F.csv)
+
 
 Wunderbar, damit sind Sie bereit für die folgenden Kapitel!
