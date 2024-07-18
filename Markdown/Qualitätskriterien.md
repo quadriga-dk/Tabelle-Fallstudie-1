@@ -68,4 +68,4 @@ Zum anderen finden sich hier alle Stichworte wieder, die Sie bereits von den FAI
 
 Es zeigt sich, dass Datenqualität und Datennachnutzung eng miteinander verknüpft sind, denn wer Daten nachnutzen möchte, profitiert von qualitätvollen Daten und Metadaten. 
 
-Ein letztes Modell, das zudem eine Brücke zum bereits mehrfach angedeuteten Thema Persistente Identifikatoren (PID) schlägt, ist das 5-Sterne-Modell, das im nächsten Abschnitt behandelt wird. 
+Im nähsten Abschnitt lernen Sie mit dem 5-Sterne-Modell ein weiteres Bewertungsschema für Datenqualität kennen. 
