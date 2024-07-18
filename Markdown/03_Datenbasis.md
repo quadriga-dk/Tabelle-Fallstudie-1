@@ -25,4 +25,4 @@ Die Daten, die zur Erzeugung der Visualisierung verwendet wurden, finden sich im
 
 
 Da es sich bei dieser Tabelle um aggregierte Daten handelt, ist es sinnvoll, die Rohdaten für diese Daten zu suchen, da die Daten im Rahmen der Fallstudie im Sinn der Reproduzierbarkeit erneut analysiert werden sollen und sich Daten im CSV-Format besser weiterverarbeiten lassen als im Excel-Format. 
-Bevor wir das tun, werden wir Sie im nächsten Kapitel aber zunächst mit dem Thema Datennachnutzung vertraut machen. Dazu untersuchen wir unter anderem die Qualität des Datensatzes anhand der FAIR-Prinzipien.
+Bevor wir das tun, werden wir Sie im folgenden Kapitel aber zunächst mit dem Thema Datennachnutzung vertraut machen. Dazu untersuchen wir unter anderem die Qualität des Datensatzes anhand der FAIR-Prinzipien.
