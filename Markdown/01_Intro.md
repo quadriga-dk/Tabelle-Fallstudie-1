@@ -1,4 +1,5 @@
-# Reproduzierbarkeit von Datenanalysen: Entwicklung des Hochschulpersonals in Deutschland. Ein Fallbeispiel aus dem Nationalen Bildungsbericht
+# Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht 
+## Entwicklung des Hochschulpersonals in Deutschland 
 
 
 ![](_images/Collage_2.png)
