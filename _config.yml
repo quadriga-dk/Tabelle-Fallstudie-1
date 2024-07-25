@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Fallstudie I - Tabelle 
-author: Jana, Juliane, Paul und Anton
+author: Datenkompetenzzentrum QUADRIGA
 logo: quadriga-logo.jpeg
 copyright: "2024"
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, README.md]
