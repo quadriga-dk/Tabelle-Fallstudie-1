@@ -17,5 +17,5 @@ Die **Wiederverwendbarkeit** von Daten lässt sich von vornherein unterstützen,
 
 **Weitere Informationen**
 
-Eine detaillierte Ausformulierung der Prinzipien auf Englisch findet sich auf https://www.go-fair.org/fair-principles/ und eine deutsche Übersetzung der originalen Prinzipien ist bei Zenodo einsehbar (https://zenodo.org/records/6247015). 
-Zum Prüfen der so genannten FAIRness von Daten haben sich Checklisten etabliert. Eine von diesen stammt von Jones & Grootveld (2017), die ebenfalls bei Zenodo zugänglich ist (https://zenodo.org/records/5111307). Sie stellt die Basis für die Übung im nächsten Abschnitt dar.
+Eine detaillierte Ausformulierung der Prinzipien auf Englisch findet sich auf https://www.go-fair.org/fair-principles/ und eine deutsche Übersetzung der originalen Prinzipien ist bei [Zenodo](https://zenodo.org/records/6247015) einsehbar. 
+Zum Prüfen der so genannten FAIRness von Daten haben sich Checklisten etabliert. Eine von diesen stammt von [Jones & Grootveld](https://zenodo.org/records/5111307) (2017), die ebenfalls bei Zenodo zugänglich ist. Sie stellt die Basis für die Übung im nächsten Abschnitt dar.
