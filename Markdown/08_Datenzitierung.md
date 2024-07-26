@@ -13,7 +13,7 @@
 ```
 ````
 
-In einem Kapitel über Datennachnutzung darf selbstverständlich ein Abschnitt über das Zitieren von Forschungsdaten nicht fehlen. Die Zitation ist Teil der [guten wissenschaftlichen Praxis](https://www.dfg.de/de/grundlagen-rahmenbedingungen/grundlagen-und-prinzipien-der-foerderung/gwp) und erfolgt analog zur Zitierung von Literatur. 
+In einem Kapitel über Datennachnutzung darf selbstverständlich ein Abschnitt über das Zitieren von Forschungsdaten nicht fehlen. Die Zitation ist Teil der guten wissenschaftlichen Praxis {cite}`deutsche_forschungsgemeinschaft_guidelines_2022` und erfolgt analog zur Zitierung von Literatur. 
 
 Eine allgmeine Richtlinie wurde von der so genannten Gruppe Force11 formuliert {cite}`force11_joint_2014`. In den dort aufgeführten 8 Punkten heißt es, dass 
 - Daten wie Publikationen als legitime, zitierbare Forschungsergebnisse anzusehen sind (1) und
