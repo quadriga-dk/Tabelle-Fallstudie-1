@@ -3,7 +3,7 @@
 
 Im Kapitel Datennachnutzung haben Sie erfahren, dass die FAIR-Prinzipien vor allem einen Bewertungsmaßstab zur Datennachnutzung liefern. In diesem Abschnitt stehen nun die Kriterien der Qualitätsbewertung im Mittelpunkt. 
 
-Der nationale Bildungsbericht stellt die Beispieldaten offen auf Basis von Bundesstatistikdaten zur Verfügung. Daher wird im Folgenden auf Offene Daten (Open Data) und die Qualitätskriterien für Open Data eingegangen. Unter Open Data versteht man, dass die Daten im Netz frei verfügbar und nutzbar sind. Sie sollen durch die Möglichkeit einer freien Nachnutzung mehr Transparenz in der Forschung ermöglichen und sind ein Basiselement der Reproduzierbarkeit von Forschungsergebnissen, weshalb Open Data auch als Teil der Open-Science-Bewegung verstanden werden kann [*Quelle einfügen*: forschungsdaten.info 2024, https://forschungsdaten.info/themen/finden-und-nachnutzen/open-data-open-access-und-nachnutzung/].
+Der nationale Bildungsbericht stellt die Beispieldaten offen auf Basis von Bundesstatistikdaten zur Verfügung. Daher wird im Folgenden auf Offene Daten (Open Data) und die Qualitätskriterien für Open Data eingegangen. Unter Open Data versteht man, dass die Daten im Netz frei verfügbar und nutzbar sind. Sie sollen durch die Möglichkeit einer freien Nachnutzung mehr Transparenz in der Forschung ermöglichen und sind ein Basiselement der Reproduzierbarkeit von Forschungsergebnissen, weshalb Open Data auch als Teil der Open-Science-Bewegung verstanden werden kann {cite}`noauthor_open_2023`.
 
 Anschließend werden Merkmale für Statistikdaten aufgezeigt, da diese für die Verwaltungswissenschaften von herausgehobener Bedeutung sind.
 
@@ -34,7 +34,7 @@ Die inhaltliche und kontextuelle Qualität von Daten und Metadaten kann anhand v
 
 **Weitere Informationen**
 
-Zur Steigerung der Qualität von CSV-Dateien haben das Fraunhofer FOKUS und die Pumacy Technologies AG im Rahmen des NQDM-Projektes (Normentwurf für qualitativ hochwertige Daten und Metadaten) eine [Checkliste](https://cdn0.scrvt.com/fokus/19c04efdafe63fe4/edbc85cd796a/Checkliste_NQDM_CSV.pdf) erarbeitet. 
+Zur Steigerung der Qualität von CSV-Dateien haben das Fraunhofer FOKUS und die Pumacy Technologies AG im Rahmen des NQDM-Projektes (Normentwurf für qualitativ hochwertige Daten und Metadaten) eine [Checkliste](https://cdn0.scrvt.com/fokus/19c04efdafe63fe4/edbc85cd796a/Checkliste_NQDM_CSV.pdf) erarbeitet {cite}`bruns_checkliste_2019`. 
 
 
 ## Qualitätsmerkmale für Statistikdaten
