@@ -90,7 +90,7 @@ Hierfür gibt es zwei Befehle: `read.csv()` oder `read.csv2()`
 -   `read.csv()` wird verwendet, wenn die CSV Dateiwerte durch Kommata
     separiert werden.  
       
--   `read.csv2()` wird verwendet, wenn die CSV Dateiwerte durch Semicola
+-   `read.csv2()` wird verwendet, wenn die CSV Dateiwerte durch Semikola
     separiert werden.  
       
 
@@ -113,7 +113,7 @@ data_csv <- read.csv2("21341-0001_$F.csv",header = FALSE)
     **R** einen Error ausgeben.  
 
 -   `read.csv2()`:  
-    Die verwendete Datei ist durch Semicola separiert. Deswegen wird
+    Die verwendete Datei ist durch Semikola separiert. Deswegen wird
     hier `read.csv2()` verwendet.  
 
     -   *Woraus ist dies ersichtlich? Durch Öffnen der Datei in der
