@@ -3,7 +3,7 @@
 
 Als Einstieg in das Kapitel Qualitätsbewertung, lassen Sie uns noch einmal einen Blick auf die Daten werfen. Aus der Bewertung der FAIRness der Daten ging bereits hervor, dass Daten im Format XLSX unter bestimmten Gesichtspunkten Einschränkungen unterliegen können.
 
-Dies unterstreicht das kurze Tutorial zu Datenqualität und Maschinenlesbarkeit tabellarischer Daten in Bezug auf CSV und XLSX, dass von der [Open Data Informationsstelle Berlin](https://odis-berlin.de/), einem Projekt der [Technologiestiftung Berlin](https://www.technologiestiftung-berlin.de/) erstellt wurde. Dort erfahren Sie u. a., wie sich die beiden Formate unterscheiden und warum Excel-Tabellen oft nicht einwandfrei maschinenlesbar sind. Das Video wurde unter der Lizenz CC BY veröffentlicht.
+Dies unterstreicht das kurze Tutorial zu Datenqualität und Maschinenlesbarkeit tabellarischer Daten in Bezug auf CSV und XLSX, dass von der [Open Data Informationsstelle Berlin](https://odis-berlin.de/), einem Projekt der [Technologiestiftung Berlin](https://www.technologiestiftung-berlin.de/), erstellt wurde. Dort erfahren Sie u. a., wie sich die beiden Formate unterscheiden und warum Excel-Tabellen oft nicht einwandfrei maschinenlesbar sind. Das Video wurde unter der Lizenz CC BY veröffentlicht.
 
 [https://www.youtube.com/embed/Nb_cLObVKho?si=cuM3HATsLLsvbk-h](https://www.youtube.com/embed/Nb_cLObVKho?si=cuM3HATsLLsvbk-h)
 
