@@ -15,7 +15,7 @@ from jupyterquiz import display_quiz
 ```
 # Übung FAIR-Prinzipien
 
-Um Daten auf ihre FAIRness zu prüfen, bieten sich Checklisten an. Diese Übung bezieht sich auf die Checkliste von Jones&Grootveld (2017), die Sie unter folgendem Link bei Zenodo auf Englisch einsehen können: https://zenodo.org/records/5111307. Für diese Übung wurde das Dokument übersetzt.
+Um Daten auf ihre FAIRness zu prüfen, bieten sich Checklisten an. Diese Übung bezieht sich auf die Checkliste von Jones & Grootveld (2017), die Sie unter folgendem Link bei Zenodo auf Englisch einsehen können: https://zenodo.org/records/5111307. Für diese Übung wurde das Dokument übersetzt.
 
 Den Datensatz, also die Tabelle im Format XSLX, können Sie unter folgendem Link als zum Bildungsbericht zugehörigen Datensatz herunterladen: https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/bildung-in-deutschland-2022#10. Sie gehört zum Kapitel "H - Bildungspersonal: Struktur, Entwicklung, Qualität und Professionalisierung" und ist dort als "H1 - Personalbestand und Personalstruktur" gelistet. Ein Klick auf `(xlsx)` lädt automatisch die Excel-Tabelle herunter. Bitte beachten Sie, dass sie den Bildungsbericht für das Jahr **2022** öffnen. Die hier zu prüfende Tabelle ist der Reiter "H1-9web: Personal an Hochschulen 2010, 2012, 2014, 2016, 2018, 2019 und 2020 nach Personalgruppen und Hochschulart". 
 Alternativ finden Sie die Tabelle auch in unserem Repository: [Excel-Tabelle](Data/h1-anhang.xlsx).
@@ -159,7 +159,7 @@ questions = \
       'feedback': 'Diese Antwort ist teilweise richtig, denn das Format Excel ist weit verbreitet, allgemein verständlich und vor allem in der Verwaltung ein üblicher Standard.'},
     { 'answer': 'Nein',
       'correct': True,
-      'feedback': 'Diese Antwort ist ebenfalls richtig, denn Excel ist ein proprietäres Format (Microsoft) und damit nicht offen. Excel soll vor allem die Lesbarkeit von (Tabellen-)Daten für Menschen ermöglichen. Ist eine Tabelle zu stark formatiert, beispielsweise durch farbliche Hinterlegungen, fett oder kursiv beschriebene Zellen, dann leidet darunter die Maschinenlesbarkeit.'},
+      'feedback': 'Diese Antwort ist teilweise richtig, denn Excel ist ein proprietäres Format (Microsoft) und damit nicht offen. Excel soll vor allem die Lesbarkeit von (Tabellen-)Daten für Menschen ermöglichen. Ist eine Tabelle zu stark formatiert, beispielsweise durch farbliche Hinterlegungen, fett oder kursiv beschriebene Zellen, dann leidet darunter die Maschinenlesbarkeit.'},
     ]
   },
 
@@ -218,7 +218,7 @@ questions = \
       'feedback': 'Diese Antwort ist richtig, denn die Daten sind exakt und ausführlich. Allerdings werden die Daten selbst nicht ausführlich beschrieben.'},
     { 'answer': 'Nein',
       'correct': True,
-      'feedback': 'Diese Antwort ist ebenfalls richtig, denn die Daten sind zwar akkurat, aber nicht mit relevanten Attributen beschrieben.'},
+      'feedback': 'Diese Antwort ist richtig, denn die Daten sind zwar akkurat, aber nicht mit relevanten Attributen beschrieben.'},
     ]
   },
 
