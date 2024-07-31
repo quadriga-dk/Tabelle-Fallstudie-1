@@ -42,7 +42,7 @@ Zur Steigerung der Qualität von CSV-Dateien haben das Fraunhofer FOKUS und die 
 Im Rahmen des Verhaltenskodex für europäische Statistiken der Europäischen Union werden Qualitätskriterien für die statistische Datenerhebung und -aufbereitung aufgelistet und erläutert {cite}`noauthor_verhaltenskodex_2018`. Dieser Kodex legt die Basis für einen qualitativ hochwertigen Umgang mit statistischen Daten und ist angelehnt an die zehn Fundamental Principles of Official Statistics der Vereinten Nationen {cite}`noauthor_fundamental_2014`. Im nachfolgenden werden die Qualitätskriterien von "Statistischen Produkten" des Verhaltenskodex näher begutachtet:
 
 
-- **Relevanz:** Die bereitgestellten Statistiken bieten Mehrwert für die Nutzer*innen.
+- **Relevanz:** Die bereitgestellten Statistiken bieten Mehrwert für die Nutzer:innen.
 
 - **Genauigkeit und Zuverlässigkeit:** Die bereitgestellten Statistiken sind fehlerfrei und detailliert.
 
