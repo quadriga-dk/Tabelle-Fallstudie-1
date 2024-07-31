@@ -1,6 +1,6 @@
 # Reflexion Identifikatoren
 
-Persistente Identifikatoren sind quasi das Rückgrat wissenschaftlichen Arbeitens in der digitalen Welt. Durch das eindeutige Bezeichnen von Publikationen, Daten und Autor*innen erleichtert sich das Nachnutzen, Zitieren und Verlinken von (Forschungs-)Ergebnissen erheblich und ermöglicht vorher nicht gekannte Synergien.
+Persistente Identifikatoren sind quasi das Rückgrat wissenschaftlichen Arbeitens in der digitalen Welt. Durch das eindeutige Bezeichnen von Publikationen, Daten und Autor:innen erleichtert sich das Nachnutzen, Zitieren und Verlinken von (Forschungs-)Ergebnissen erheblich und ermöglicht vorher nicht gekannte Synergien.
 
 `````{admonition} Haben Sie sich bereits eine ORCID zugelegt?
 :class: tip
