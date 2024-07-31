@@ -6,7 +6,7 @@
 Wem wollen wir danken? Den Institutionen, von denen wir Material verwendet haben?
 Das wären:
 
-[Autor*innengruppe Bildungsbericht](https://www.bildungsbericht.de/de/autor-innengruppe-bildungsbericht/autorengruppe)  
+[Autor:innengruppe Bildungsbericht](https://www.bildungsbericht.de/de/autor-innengruppe-bildungsbericht/autorengruppe)  
 [Forschungsdatenmanagement Bayern](https://www.fdm-bayern.org/)  
 [Go Fair Austria](https://fair-office.at/)  
 [Open Data Informationsstelle Berlin](https://odis-berlin.de/)  
