@@ -12,6 +12,6 @@ Nichtsdestotrotz sollte es das Ziel sein, Daten nach bestem Wissen und Gewissen 
 :class: tip
 In der Regel ist es hilfreich sich vorzustellen, welche Angaben zu einem Datensatz man selbst gerne vorfinden würde. Erfahre ich aus dem Datensatz beispielsweise, ob ich ihn nutzen darf?
 
-Ein gutes Datenmanagement erleichtert nicht nur potentiellen Nachnutzenden, sondern auch Ihren Kolleg*innen und vielleicht sogar Ihnen selbst die zukünftige Arbeit mit diesen Daten, denn vor allem wenn die Erhebung oder Bearbeitung bereits eine Weile zurück liegt, sind Kontextinformationen oft nicht mehr aus dem Kopf abrufbar. 
+Ein gutes Datenmanagement erleichtert nicht nur potentiellen Nachnutzenden, sondern auch Ihren Kolleg:innen und vielleicht sogar Ihnen selbst die zukünftige Arbeit mit diesen Daten, denn vor allem wenn die Erhebung oder Bearbeitung bereits eine Weile zurück liegt, sind Kontextinformationen oft nicht mehr aus dem Kopf abrufbar. 
 `````
 
