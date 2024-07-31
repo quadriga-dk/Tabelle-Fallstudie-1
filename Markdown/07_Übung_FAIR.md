@@ -124,7 +124,7 @@ questions = \
       'feedback': 'Nein. Für den Zugang zu den Daten ist keine Authentifizierung oder Autorisierung nötig.'},
     { 'answer': 'Nein',
       'correct': True,
-      'feedback': 'Richtig. Die Daten stehen als offene Statistikdaten allen Nutzer*innen zur freien Verfügung. Daher bedarf es weder einer Authentifizierung noch einer Autorisierung.'},
+      'feedback': 'Richtig. Die Daten stehen als offene Statistikdaten allen Nutzer:innen zur freien Verfügung. Daher bedarf es weder einer Authentifizierung noch einer Autorisierung.'},
     ]
   },
 
