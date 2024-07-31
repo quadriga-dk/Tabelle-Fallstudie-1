@@ -98,7 +98,7 @@ questions = \
     { 'answer': 'Damit mehr Verwaltungsaufwand entsteht.',
       'correct': False,
       'feedback': '...'},
-    { 'answer': 'Damit nur berechtigte Nutzer*innen auf die Daten zugreifen können.',
+    { 'answer': 'Damit nur berechtigte Nutzer:innen auf die Daten zugreifen können.',
       'correct': False,
       'feedback': '...'},
     ]
