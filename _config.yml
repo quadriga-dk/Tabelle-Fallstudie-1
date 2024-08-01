@@ -4,7 +4,6 @@
 title: Fallstudie I - Tabelle 
 author: Datenkompetenzzentrum QUADRIGA
 logo: quadriga-logo.jpeg
-copyright: "2024"
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, README.md]
 
 html:
