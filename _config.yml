@@ -37,4 +37,8 @@ html:
   use_issues_button: true
   use_repository_button: true
 
+# Distinguish between internal and external links
+parse:
+   myst_url_schemes: [mailto, http, https]
+
 
