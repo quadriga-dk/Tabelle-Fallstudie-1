@@ -90,7 +90,7 @@ Hierfür gibt es zwei Befehle: `read.csv()` oder `read.csv2()`
 -   `read.csv()` wird verwendet, wenn die CSV Dateiwerte durch Kommata
     separiert werden.  
       
--   `read.csv2()` wird verwendet, wenn die CSV Dateiwerte durch Semicola
+-   `read.csv2()` wird verwendet, wenn die CSV Dateiwerte durch Semikola
     separiert werden.  
       
 
@@ -113,7 +113,7 @@ data_csv <- read.csv2("21341-0001_$F.csv",header = FALSE)
     **R** einen Error ausgeben.  
 
 -   `read.csv2()`:  
-    Die verwendete Datei ist durch Semicola separiert. Deswegen wird
+    Die verwendete Datei ist durch Semikola separiert. Deswegen wird
     hier `read.csv2()` verwendet.  
 
     -   *Woraus ist dies ersichtlich? Durch Öffnen der Datei in der
@@ -425,9 +425,9 @@ Dateinamen eckige Klammern und bestimmen den
 Wertebereich:`[*Zeilenbereich*,*Spaltenbereich*]`.  
 
 *Hinweis: Wenn Sie einen Wertebereich angeben wollen, platzieren Sie
-zwischen den ersten und letzten Wert einen Doppelpunkt`:` und * **R**
-*inkludiert alle dazwischenliegenden Werte (“von… bis…”). Ein Komma
-separiert Bereiche.*  
+zwischen den ersten und letzten Wert einen Doppelpunkt`:` und **R**
+inkludiert alle dazwischenliegenden Werte (“von… bis…”). Ein Komma
+separiert Bereiche.  
   
 **Allgemeines Beispiel:**
 ```
@@ -537,7 +537,7 @@ Struktur und Klasse der Variablen bewusst sein.
 **Die wichtigsten Variablenklassen im Überblick:**  
 
 -   `integer`: Ganze Zahlen.  
-    Beispiel: 1,2,5.
+    Beispiel: 1, 2, 5.
 
 -   `numeric`: Zahl mit Kommastellen.  
     Beispiel: 1.99, 2.33, 5.00.
@@ -1042,7 +1042,7 @@ filter(Tabellendaten, Tabellendaten$Angestelltenverhaeltnis == "Professoren")
 ##1     Angestelltenverhaeltnis Geschlecht Angestelltenzahl_2020 Personalkategorie Art_der_Anstellung  
 	<0 Zeilen> (oder row.names mit Länge 0)
 ```
-Wenn Sie jedoch in den Datensatz schauen, sehen Sie, dass Professoren unter `Angestelltenverhaltnis` mit aufgelistet werden. 
+Wenn Sie jedoch in den Datensatz schauen, sehen Sie, dass Professoren unter `Angestelltenverhaeltnis` mit aufgelistet werden. 
 
 **Warum werden "Professoren" nicht gefunden?**\
 Das Problem besteht darin, dass die Ausgangsdatei Leerzeichen vor dem Wort Professoren (und auch vor anderen Bezeichnungen von Angestelltenverhältnissen) enthält.

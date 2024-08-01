@@ -2,12 +2,12 @@
 
 In den vorangegangenen Übungen konnten wir verschiedene Fragen nach der Qualität der Daten und der Reproduzierbarkeit beantworten. 
 
-Doch wie steht es eigentlich um unsere eigentlich Forschungsfrage:
+Doch wie steht es eigentlich um unsere Forschungsfrage:
 
 > Wie hat sich die Zusammensetzung des Personals an Hochschulen in Deutschland im letzten Jahrzehnt (2010-2020) entwickelt?
 
 Um diese Frage beantworten zu können, reicht unsere Raw-Data Datei nicht aus, das diese nur die Daten für das Jahr 2020 enthält.
-Das Open-Data-Portal von Destatis bietet jedoch auch die Möglichkeiten, das Daten für alles Jahre von 2020 bs 2020 herunterzuladen
+Das Open-Data-Portal von Destatis bietet jedoch auch die Möglichkeiten, die Daten für alle Jahre von 2010 bis 2020 herunterzuladen
 (https://www-genesis.destatis.de/genesis//online?operation=table&code=21341-0001&bypass=true&levelindex=1&levelid=1719408768654#abreadcrumb).
 
 ## Daten vorbereiten

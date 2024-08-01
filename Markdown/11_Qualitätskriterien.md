@@ -18,7 +18,7 @@ Die inhaltliche und kontextuelle Qualität von Daten und Metadaten kann anhand v
 
 - **Genauigkeit:** Die Daten und Metadaten sind so präzise wie möglich angegeben. Demnach wird auf Rundungen von Zahlen verzichtet. Die Metadaten enthalten alle relevanten Details zur Datei {cite}`behkamal_metrics-driven_2014,bruns_leitfaden_2019,vetro_open_2016`.
 
-- **Konformität:** Die Daten und Metadaten entsprechen den domänenspezifischen Standards. Diese beziehen sich auf Datumsangaben, Zeichenkodierung, etc.. Zudem sind alle Informationen enthalten, welche durch verwendetes Vokabular und Betitelung impliziert werden {cite}`behkamal_metrics-driven_2014,vetro_open_2016`.
+- **Konformität:** Die Daten und Metadaten entsprechen den domänenspezifischen Standards. Diese beziehen sich auf Datumsangaben, Zeichenkodierung, etc. Zudem sind alle Informationen enthalten, welche durch verwendetes Vokabular und Betitelung impliziert werden {cite}`behkamal_metrics-driven_2014,vetro_open_2016`.
 
 - **Konsistenz:** Daten und Metadaten sind widerspruchsfrei. Dies gilt für die Daten selbst und auch in Bezug auf andere Datensätze {cite}`behkamal_metrics-driven_2014,pipino_data_2002`.
 
@@ -42,7 +42,7 @@ Zur Steigerung der Qualität von CSV-Dateien haben das Fraunhofer FOKUS und die 
 Im Rahmen des Verhaltenskodex für europäische Statistiken der Europäischen Union werden Qualitätskriterien für die statistische Datenerhebung und -aufbereitung aufgelistet und erläutert {cite}`noauthor_verhaltenskodex_2018`. Dieser Kodex legt die Basis für einen qualitativ hochwertigen Umgang mit statistischen Daten und ist angelehnt an die zehn Fundamental Principles of Official Statistics der Vereinten Nationen {cite}`noauthor_fundamental_2014`. Im nachfolgenden werden die Qualitätskriterien von "Statistischen Produkten" des Verhaltenskodex näher begutachtet:
 
 
-- **Relevanz:** Die bereitgestellten Statistiken bieten Mehrwert für die Nutzer*innen.
+- **Relevanz:** Die bereitgestellten Statistiken bieten Mehrwert für die Nutzer:innen.
 
 - **Genauigkeit und Zuverlässigkeit:** Die bereitgestellten Statistiken sind fehlerfrei und detailliert.
 
