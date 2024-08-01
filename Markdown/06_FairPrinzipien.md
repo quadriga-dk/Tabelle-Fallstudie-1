@@ -1,6 +1,6 @@
 # FAIR-Prinzipien
 
-In Bezug auf die Nachnutzung von (Forschungs-)Daten wollen wir Sie hier mit den FAIR-Prinzipien vertraut machen. Diese stellen Grundsätze des Datenmanagements dar, die unter anderem den Austausch und die weitere Nutzung von Daten vereinfachen. FAIR ist das Akronym von **F**indable, **A**ccessible, **I**nteroperable und **R**eusable - also auffindbar, zugänglich, interoperabel (bzw. kompatibel) und wiederverwendbar. Diese 2016 veröffentlichten Prinzipien, die seit 2019 auch in den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" der Deutschen Forschungsgemeinschaft {cite}`deutsche_forschungsgemeinschaft_guidelines_2022` verankert sind, haben sich mittlerweile zu einem Standard entwickelt {cite}`spiecker_ecodm_2022`.
+In Bezug auf die Nachnutzung von (Forschungs-)Daten wollen wir Sie hier mit den FAIR-Prinzipien vertraut machen. Diese stellen Grundsätze des Datenmanagements dar, die unter anderem den Austausch und die weitere Nutzung von Daten vereinfachen. FAIR ist das Akronym von **F**indable, **A**ccessible, **I**nteroperable und **R**eusable - also auffindbar, zugänglich, interoperabel (bzw. kompatibel) und wiederverwendbar. Diese 2016 veröffentlichten Prinzipien, die seit 2019 auch in den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" der Deutschen Forschungsgemeinschaft verankert sind {cite}`deutsche_forschungsgemeinschaft_guidelines_2022`, haben sich mittlerweile zu einem Standard entwickelt {cite}`spiecker_ecodm_2022`.
 
 ![Fair Prinzipien](_images/fair-principles.jpg)
 
@@ -18,6 +18,6 @@ Die **Wiederverwendbarkeit** von Daten lässt sich von vornherein unterstützen,
 **Weitere Informationen**
 
 Eine detaillierte Ausformulierung der Prinzipien auf Englisch findet sich auf https://www.go-fair.org/fair-principles/ und eine [deutsche Übersetzung](https://zenodo.org/records/6247015) der originalen Prinzipien ist bei Zenodo einsehbar {cite}`wilkinson_fair-prinzipien_2016`. 
-Zum Prüfen der so genannten FAIRness von Daten haben sich Checklisten etabliert. Eine von diesen stammt von {textcite}`jones_how_2017`, die ebenfalls bei Zenodo zugänglich ist {cite}`jones_how_2017`. Sie stellt die Basis für die Übung im nächsten Abschnitt dar.
+Zum Prüfen der so genannten FAIRness von Daten haben sich Checklisten etabliert. Eine von diesen stammt von [Jones und Grootveld](https://zenodo.org/records/5111307), die ebenfalls bei Zenodo zugänglich ist {cite}`jones_how_2017`. Sie stellt die Basis für die Übung im nächsten Abschnitt dar.
 
 
