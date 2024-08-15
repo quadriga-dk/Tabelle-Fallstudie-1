@@ -109,7 +109,7 @@ questions = \
     'answers': [
     { 'answer': 'Ja',
       'correct': True,
-      'feedback': 'Richtig. Die Daten sind über das Hypertext Transfer Protocol (kurz: HTTP) abgrufbar, nämlich über den oben angegebenen Link.'},
+      'feedback': 'Richtig. Sowohl die Seite des Bildungsberichts als auch die Daten sind über das Hypertext Transfer Protocol (kurz: HTTP) abgrufbar, nämlich über den oben angegebenen Link.'},
     { 'answer': 'Nein',
       'correct': False,
       'feedback': 'Diese Antwort ist leider nicht richtig.'},
