@@ -24,7 +24,7 @@ bibtex_bibfiles:
 # reference style
 sphinx:
   config:
-    bibtex_reference_style: author_year
+    bibtex_reference_style: apalike-german
 
 # Information about where the book exists on the web
 repository:
