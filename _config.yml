@@ -22,7 +22,6 @@ bibtex_bibfiles:
   - Literatur.bib
 
 # reference style
-sphinx:
   config:
     bibtex_reference_style: author_year
 
@@ -31,6 +30,12 @@ repository:
   url: https://github.com/quadriga-dk/Tabelle-Fallstudie-1  # Online location of your book
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
+launch_buttons:
+  notebook_interface: jupyterlab
+  thebe: true
+  binderhub_url: https://mybinder.org
+  colab_url: https://colab.research.google.com
+  
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
