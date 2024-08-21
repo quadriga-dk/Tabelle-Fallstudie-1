@@ -25,9 +25,13 @@ Eine allgmeine Richtlinie wurde von der so genannten Gruppe Force11 formuliert {
 - Des Weiteren sollten die Zitate spezifisch sein und die Überprüfbarkeit der Daten erleichtern (7) sowie
 - eine Balance aus Flexibilität und Interoperabilität bieten (8).
 
-Einen kurzen und verständlichen Überblick dazu, bietet dieses Video vom Forschungsdatenmanagement Bayern: 
+Einen kurzen und verständlichen Überblick dazu, bietet dieses Video vom Forschungsdatenmanagement Bayern:  
 
-https://www.youtube.com/watch?v=WBiZydSV-m0&t=86s
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=WBiZydSV-m0&t=86s"
+title="YouTube video player" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>  
 
 **Zusammenfassung**
 
