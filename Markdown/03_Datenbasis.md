@@ -1,3 +1,4 @@
+(Datenbasis)=
 # Datenbasis: Nationaler Bildungsbericht 
 
 Diese Fallstudie des Datentyps Tabelle arbeitet mit strukturierten Daten, also Daten, die in einem vorgegebenen Format organisiert und sortiert sind. Als Arbeitsgrundlage dienen Daten des Nationalen Bildungsberichts (2022) und von Destatis.
