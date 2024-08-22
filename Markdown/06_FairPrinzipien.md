@@ -4,7 +4,7 @@ In Bezug auf die Nachnutzung von (Forschungs-)Daten wollen wir Sie hier mit den 
 
 ![Fair Prinzipien](_images/fair-principles.jpg)
 
-Bildquelle: The Turing Way Community, & Scriberia. (2020). Illustrations from the Turing Way book dashes. Zenodo. https://doi.org/10.5281/zenodo.3695300
+Bildquelle: The Turing Way Community, & Scriberia. (2020). Illustrations from the Turing Way book dashes. Zenodo. <a href="https://doi.org/10.5281/zenodo.3695300" target="_blank">https://doi.org/10.5281/zenodo.3695300</a>
 
 
 Die **Auffindbarkeit** von Daten lässt sich zum Beispiel durch die Verwendung von Persistenten Identifikatoren (s. Kapitel [Persistent Identifier (PID)](PID)) für Daten und Datensätze wesentlich vereinfachen. Dieser Aspekt ist von zentraler Bedeutung für alle FAIR-Prinzipien. Weiterhin sollten Forschungsdaten immer mit Quellen versehen werden wie es die fachspezifischen Standards erfordern (s. Kapitel [Datenzitierung](Einleitung_Datenzitierung)). Darüber hinaus sollten die Daten mit zahlreichen Metadaten beschrieben werden, für die eine Reihe disziplinübergreifende und -spezifische Standards und Schemata vorliegen {cite}`hollander_parthenos_nodate`.
@@ -17,7 +17,7 @@ Die **Wiederverwendbarkeit** von Daten lässt sich von vornherein unterstützen,
 
 **Weitere Informationen**
 
-Eine detaillierte Ausformulierung der Prinzipien auf Englisch findet sich auf https://www.go-fair.org/fair-principles/ und eine [deutsche Übersetzung](https://zenodo.org/records/6247015) der originalen Prinzipien ist bei Zenodo einsehbar {cite}`wilkinson_fair-prinzipien_2016`. 
-Zum Prüfen der so genannten FAIRness von Daten haben sich Checklisten etabliert. Eine von diesen stammt von [Jones und Grootveld](https://zenodo.org/records/5111307), die ebenfalls bei Zenodo zugänglich ist {cite}`jones_how_2017`. Sie stellt die Basis für die Übung im nächsten Abschnitt dar.
+Eine detaillierte Ausformulierung der Prinzipien auf Englisch findet sich auf der <a href="https://www.go-fair.org/fair-principles/" target="_blank">Webseite der Initiative GO FAIR</a> und eine <a href="https://zenodo.org/records/6247015" target="_blank">deutsche Übersetzung</a> der originalen Prinzipien ist bei Zenodo einsehbar {cite}`wilkinson_fair-prinzipien_2016`. 
+Zum Prüfen der so genannten FAIRness von Daten haben sich Checklisten etabliert. Eine von diesen stammt von Jones und Grootveld (2017), die ebenfalls bei <a href="https://zenodo.org/records/5111307" target="_blank">Zenodo</a> zugänglich ist {cite}`jones_how_2017`. Sie stellt die Basis für die Übung im nächsten Abschnitt dar.
 
 
