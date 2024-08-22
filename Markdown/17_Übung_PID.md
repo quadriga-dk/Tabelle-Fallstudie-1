@@ -11,7 +11,13 @@ kernelspec:
 ---
 ```{code-cell} ipython3
 :tags: [remove_cell]
+# Jupyterquiz
 from jupyterquiz import display_quiz
+
+# Coporate Design
+import sys
+sys.path.append("..")
+from quadriga_config import colors
 ```
 
 # Übung PID
@@ -104,5 +110,5 @@ questions = \
     ]
   }
 ]
-display_quiz(questions)
+display_quiz(questions, colors = colors.jupyterquiz)
 ````
