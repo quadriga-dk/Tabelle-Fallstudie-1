@@ -6,10 +6,10 @@
 Wem wollen wir danken? Den Institutionen, von denen wir Material verwendet haben?
 Das wären:
 
-[Autor:innengruppe Bildungsbericht](https://www.bildungsbericht.de/de/autor-innengruppe-bildungsbericht/autorengruppe)  
-[Forschungsdatenmanagement Bayern](https://www.fdm-bayern.org/)  
-[Go Fair Austria](https://fair-office.at/)  
-[Open Data Informationsstelle Berlin](https://odis-berlin.de/)  
+- <a href="https://www.bildungsbericht.de/de/autor-innengruppe-bildungsbericht/autorengruppe" target="_blank">Autor:innengruppe Bildungsbericht</a>  
+- <a href="https://www.fdm-bayern.org/" target="_blank">Forschungsdatenmanagement Bayern</a>  
+- <a href="https://fair-office.at/" target="_blank">Go Fair Austria</a>  
+- <a href="https://odis-berlin.de/" target="_blank">Open Data Informationsstelle Berlin</a>  
 
 ---
 
@@ -23,10 +23,10 @@ Wenn Sie mitwirken oder Probleme melden wollen, können Sie das Projektteam unte
 
 Dieses Jupyter Book wurde erstellt von:
 
-[Jana Plomin](https://orcid.org/0000-0003-0127-7493)  
-[Juliane Schmeling](https://orcid.org/0009-0005-9814-1139)  
-[Anton Schulze](https://orcid.org/0009-0003-5670-8577)  
-[Paul Walter](https://orcid.org/0000-0002-9236-3268)  
+- Jana Plomin <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](_images/orcid_symbol.png)</a>   
+- Juliane Schmeling <a href="https://orcid.org/0009-0005-9814-1139" target="_blank">![](_images/orcid_symbol.png)</a>  
+- Anton Schulze <a href="https://orcid.org/0009-0003-5670-8577" target="_blank">![](_images/orcid_symbol.png)</a>  
+- Paul Walter <a href="https://orcid.org/0000-0002-9236-3268" target="_blank">![](_images/orcid_symbol.png)</a>  
 
 sowie 
 
