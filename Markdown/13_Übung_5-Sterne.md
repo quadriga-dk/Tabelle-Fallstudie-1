@@ -1,6 +1,6 @@
 # Übung zum 5-Sterne-Modell
 
-In dieser Übung werden Sie den CSV-Datensatz, den Sie im Abschnitt [XLSX und CSV](Rohdaten) von Destatis heruntergeladen haben, anhand des 5-Sterne-Modells auf seine Qualität bewerten. 
+In dieser Übung werden Sie den CSV-Datensatz, den Sie im Kapitel [XLSX und CSV](Rohdaten) von Destatis heruntergeladen haben, anhand des 5-Sterne-Modells auf seine Qualität bewerten. 
 
 Da das Modell kaskadierend ist, beginnen wir beim 1. Stern. Um zu prüfen, ob dieser vergeben werden kann, beantworten Sie bitte folgende Frage:
 
