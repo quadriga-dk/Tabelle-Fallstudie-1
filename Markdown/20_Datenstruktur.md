@@ -1,6 +1,6 @@
 # Datenstruktur
 
-Die Struktur eines Datensatzes prägt maßgeblich dessen maschinelle Lesbarkeit und Auswertungsmöglichkeiten. Für eine effiziente [Datenmanipulation](Datenmanipulation) bedarf es eines gut strukturierten Datensatzes. In den meisten Fällen haben Sie jedoch nicht nur einen Datensatz, sondern ganz viele. Daher kommt folgende Frage auf:
+Die Struktur eines Datensatzes prägt maßgeblich dessen maschinelle Lesbarkeit und Auswertungsmöglichkeiten. Für eine effiziente Datenmanipulation bedarf es eines gut strukturierten Datensatzes. In den meisten Fällen haben Sie jedoch nicht nur einen Datensatz, sondern ganz viele. Daher kommt folgende Frage auf:
 
 ```{note}
 :class: tip
@@ -16,10 +16,10 @@ Im Kontext der Datenorganisation ist es zudem ratsam, sich mit der Normalisierun
 
 Beispielhafte simple Form der Datennormalisierung:
 ![](_images/Normalisierung_Tabelle.png)  
-*Abbildung nach {cite}`noauthor_what_2023`*
+*Abbildung nach Niklas Lang{cite}`noauthor_what_2023`*
 
-Further Reading:
-https://databasecamp.de/daten/normalisierung
+Weitere Informationene erhalten Sie im Blog <a href="https://databasecamp.de/daten/normalisierung" target="_blank">Data Base Camp</a>, von dem wir die obige Grafik nachgenutzt haben.  
+
 
 
 (Tidy_data)=
