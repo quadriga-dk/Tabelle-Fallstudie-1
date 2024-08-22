@@ -27,11 +27,9 @@ Eine allgmeine Richtlinie wurde von der so genannten Gruppe Force11 formuliert {
 
 Einen kurzen und verständlichen Überblick dazu, bietet dieses Video vom Forschungsdatenmanagement Bayern:  
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?app=desktop&v=WBiZydSV-m0&t=0s"
-title="YouTube video player" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-</iframe>  
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WBiZydSV-m0?si=" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Zusammenfassung**
 
