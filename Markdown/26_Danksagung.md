@@ -23,10 +23,10 @@ Wenn Sie mitwirken oder Probleme melden wollen, können Sie das Projektteam unte
 
 Dieses Jupyter Book wurde erstellt von:
 
-- Jana Plomin <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](_images/orcid.png)</a>   
-- Juliane Schmeling <a href="https://orcid.org/0009-0005-9814-1139" target="_blank">![](_images/orcid.png)</a>  
-- Anton Schulze <a href="https://orcid.org/0009-0003-5670-8577" target="_blank">![](_images/orcid.png)</a>  
-- Paul Walter <a href="https://orcid.org/0000-0002-9236-3268" target="_blank">![](_images/orcid.png)</a>  
+- Jana Plomin <a class="no-text-decoration mr-0" href="https://orcid.org/0000-0003-0127-7493" aria-label="Plomin, Jana: ORCID profile" title="Plomin, Jana: ORCID profile"><img class="inline-id-icon ml-5" src="/static/images/orcid.svg" alt="ORCID logo"></a>  
+- Juliane Schmeling <a class="no-text-decoration mr-0" href="https://orcid.org/0009-0005-9814-1139" aria-label="Schmeling, Juliane: ORCID profile" title="Schmeling, Juliane: ORCID profile"><img class="inline-id-icon ml-5" src="/static/images/orcid.svg" alt="ORCID logo"></a>  
+- Anton Schulze <a class="no-text-decoration mr-0" href="https://orcid.org/0009-0003-5670-8577" aria-label="Schulze, Anton: ORCID profile" title="Schulze, Anton: ORCID profile"><img class="inline-id-icon ml-5" src="/static/images/orcid.svg" alt="ORCID logo"></a>  
+- Paul Walter <a class="no-text-decoration mr-0" href="https://orcid.org/0000-0002-9236-3268" aria-label="Walter, Paul: ORCID profile" title="Walter, Paul: ORCID profile"><img class="inline-id-icon ml-5" src="/static/images/orcid.svg" alt="ORCID logo"></a>  
 
 sowie 
 
