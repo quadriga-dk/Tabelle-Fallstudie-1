@@ -23,10 +23,10 @@ Wenn Sie mitwirken oder Probleme melden wollen, können Sie das Projektteam unte
 
 Dieses Jupyter Book wurde erstellt von:
 
-- Jana Plomin <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](_images/orcid_symbol.png)</a>   
-- Juliane Schmeling <a href="https://orcid.org/0009-0005-9814-1139" target="_blank">![](_images/orcid_symbol.png)</a>  
-- Anton Schulze <a href="https://orcid.org/0009-0003-5670-8577" target="_blank">![](_images/orcid_symbol.png)</a>  
-- Paul Walter <a href="https://orcid.org/0000-0002-9236-3268" target="_blank">![](_images/orcid_symbol.png)</a>  
+- Jana Plomin <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](_images/orcid.logo.svg)</a>   
+- Juliane Schmeling <a href="https://orcid.org/0009-0005-9814-1139" target="_blank">![](_images/orcid.logo.svg)</a>  
+- Anton Schulze <a href="https://orcid.org/0009-0003-5670-8577" target="_blank">![](_images/orcid.logo.svg)</a>  
+- Paul Walter <a href="https://orcid.org/0000-0002-9236-3268" target="_blank">![](_images/orcid.logo.svg)</a>  
 
 sowie 
 
