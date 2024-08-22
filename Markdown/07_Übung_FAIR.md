@@ -11,15 +11,14 @@ kernelspec:
 ---
 ```{code-cell} ipython3
 :tags: [remove_cell]
+# Jupyterquiz
 from jupyterquiz import display_quiz
-```
 
 # Coporate Design
 import sys
 sys.path.append("..")
 from quadriga_config import colors
 ```
-
 
 (ÜbungFAIR)=
 # Übung FAIR-Prinzipien
@@ -90,7 +89,7 @@ questions = \
     ]
   }
 ]
-display_quiz(questions)
+display_quiz(questions, colors = colors.jupyterquiz)
 ````
 
 
@@ -149,7 +148,7 @@ questions = \
     ]
   }
 ]
-display_quiz(questions)
+display_quiz(questions, colors = colors.jupyterquiz)
 ````
 
 
@@ -208,7 +207,7 @@ questions = \
     ]
   }
 ]
-display_quiz(questions, colors={ '--jq-many-choice-bg': '#6f78ffff' })
+display_quiz(questions, colors = colors.jupyterquiz)
 ````
 
 
