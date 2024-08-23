@@ -15,9 +15,9 @@ Um die CSV-Datei herunterzuladen, klicken Sie bitte
 
 Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte
 vorab **R**. Zudem benötigen Sie eine geeignete Entwicklungsumgebung.
-Hierfür bietet sich **R-Studio** an.  
-Zur Installation der Computersprache **R** und **R-Studio** geht es
-[hier](https://posit.co/download/rstudio-desktop/).  
+Hierfür bietet sich **RStudio** an.  
+Die Computersprache **R** und **RStudio** können Sie direkt vom Entwickler bzw. Maintainer <a href="https://posit.co/download/rstudio-desktop/" target="_blank">Posit</a> beziehen.
+ 
 
 ------------------------------------------------------------------------
 
@@ -109,7 +109,7 @@ data_csv <- read.csv2("21341-0001_$F.csv",header = FALSE)
     Sie Textbausteine, Kommentare, Überschriften etc. in Ihrem
     **R-Skript** integrieren möchten, was für eine bessere
     Nachvollziehbarkeit Ihres Skriptes zu empfehlen ist, benutzen Sie
-    immer das `#` -Symbol, um dies kenntlich zu machen. Ansonsten wird
+    immer das `#`-Symbol, um dies kenntlich zu machen. Ansonsten wird
     **R** einen Error ausgeben.  
 
 -   `read.csv2()`:  
@@ -124,9 +124,9 @@ data_csv <- read.csv2("21341-0001_$F.csv",header = FALSE)
 -   `"21341-0001_$F.csv"`:  
     Hier steht der Name der CSV-Datei, die geladen werden soll.  
 
-    -   Bei Verwendung von R-Studio: Sie sollten unter *Files* den
-        Ordner aufrufen, in dem Ihre Dateien gespeichert sind. Nach
-        klicken auf die gewünschte Datei, können Sie die Option **Import
+    -   Bei Verwendung von RStudio: Sie sollten unter *Files* den
+        Ordner aufrufen, in dem Ihre Dateien gespeichert sind. Nach dem
+        Klicken auf die gewünschte Datei, können Sie die Option **Import
         Dataset…** nutzen.  
           
 
@@ -163,7 +163,7 @@ Wenn Sie die Bedeutung und Syntax eines Befehls besser verstehen wollen, empfiel
 ## 3 Daten sichten
 
 Es ist immer ratsam, einen ersten Blick auf die Daten zu werfen, um
-deren Struktur zu verstehen.  
+deren Struktur zu verstehen. Dazu verwenden Sie folgenden Befehl:  
 ```
 show(data_csv)
 ```
@@ -260,7 +260,7 @@ show(data_csv)
     ## 88                                    Stand: 04.04.2024 / 18:30:01            
 ``` 
 
-*Alternative:*
+*Alternativ können Sie auch folgende Befehle nutzen:*
 ```
 view(data_csv)
 #oder
@@ -293,7 +293,7 @@ schlechter maschinenlesbar machen:
 
 1.  Der Titel des Datensatzes ist nicht prägnant und verständlich.
 
-2.  Metadaten (Übergeordnete Informationen über die vorliegenden Daten)
+2.  Metadaten (übergeordnete Informationen über die vorliegenden Daten)
     sollten nicht in der Tabelle selbst auftauchen sondern separiert in
     dem dafür vorgesehenen Metadatenbereich abgespeichert werden. Die
     CSV-Datei sollte neben der Kopfzeile und der Inhaltsdaten keine
@@ -308,13 +308,12 @@ schlechter maschinenlesbar machen:
     Spalten **V1** und **V2** werden Wörter mit Umlauten wie
     *“männlich”, ““für”, “Lehrkräfte”, etc.* alle fehlerhaft angezeigt.
     Um größtmögliche Kompatibilität zu anderen Programmen zu
-    gewährleisten, sollten Dateien immer der UTF-8-Zeichenkodierung
+    gewährleisten, sollten Dateien immer der <a href="https://de.wikipedia.org/wiki/UTF-8" target="_blank">UTF-8-Zeichenkodierung</a>
     folgen. Andernfalls können Probleme bei der maschinellen
     Verarbeitung entstehen, wie Sie in der Tabelle erkennen können.  
 
-Wenn Sie mehr zum Thema *“hochwertiger Datenaufbau”* wissen möchten,
-werfen Sie gerne einen Blick in das Kapitel  [Tidy Data Struktur](https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenstruktur.html#tidy-data-struktur) oder auch den
-[NQDM-Leitfaden](https://nqdm-projekt.de/de/downloads/leitfaden).  
+Wenn Sie mehr zum Thema “hochwertiger Datenaufbau” wissen möchten,
+werfen Sie gerne einen Blick in das Kapitel  [Tidy Data Struktur](https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenstruktur.html#tidy-data-struktur) oder auch den <a href="https://nqdm-projekt.de/de/downloads/leitfaden" target="_blank">NQDM-Leitfaden</a>.  
 
 ------------------------------------------------------------------------
 
@@ -342,7 +341,7 @@ erreichen.
 
 
 `````{admonition} Hinweis
-Je nach Einstellung von R-Studio kommt dieses Problem ggf. nicht auf und Umlaute werden korrekt angezeigt.
+Je nach Einstellung von RStudio kommt dieses Problem ggf. nicht auf und Umlaute werden korrekt angezeigt.
 `````
 
 **Lösungsansätze bei falscher Anzeige**  
@@ -380,7 +379,7 @@ Um Probleme mit der Zeichenkodierung zu vermeiden, speichern Sie am
 besten schon im Vorhinein Ihre Datei mit UTF-8 Kodierung ab. Dies können
 Sie meist direkt unter den `Speichern unter...` Dateiformaten auswählen:
 
-![](_images/UTF8_ Zeichenkodierung.png)  
+![](_images/UTF8_Zeichenkodierung.png)  
 *Abbildung 6: Abspeichern mit UTF-8 Zeichenkodierung*
 
 ### Umlaute entfernen 
@@ -416,7 +415,7 @@ data_csv_clean$V2 <- str_replace_all(data_csv_clean$V2, c("ä" = "ae", "ö" = "o
       
 
 **Ergebnis ansehen**:  
-Über die `show()` -Funktion könnten Sie jetzt die Tabelle erneut sichten
+Über die `show()`-Funktion könnten Sie jetzt die Tabelle erneut sichten
 und überprüfen, ob die Zeichenumkodierung funktioniert hat. Wenn Ihre
 Tabelle jedoch sehr lang ist (so wie in diesem Fall) und Sie nur einen
 Teil Ihrer Tabelle betrachten möchten, können Sie sich auch nur
@@ -550,11 +549,11 @@ Struktur und Klasse der Variablen bewusst sein.
 
 Die Variablenklasse ist ausschlaggebend dafür, wie Sie die
 Variablendaten auswerten können. Beispielsweise können Sie mit einer
-`numeric` -Variable rechnen, mit einer `character` -Variable jedoch
+`numeric`-Variable rechnen, mit einer `character`-Variable jedoch
 nicht.  
   
 **Variablenklassen bestimmen im Code:**  
-Der Befehl `class()`gibt uns die jeweilige Klasse des Objektes wieder:  
+Der Befehl `class()` gibt uns die jeweilige Klasse des Objektes wieder:  
 ```
 class(Tabellendaten$Angestelltenverhaeltnis) #sollte als character oder factor gelesen werden
 ```
@@ -573,7 +572,7 @@ class(Tabellendaten$Angestelltenzahl_2020) #sollte als numerisch oder integer ge
 ```
 ## [1] "character"
 ```
-Die Variablenklassen für “Angestelltenverhältnis” und “Geschlecht” sind
+Die Variablenklassen für “Angestelltenverhaeltnis” und “Geschlecht” sind
 passend. Die Variable “Angestelltenzahl_2020” wird jedoch auch als
 `character` interpretiert. Dies muss manuell geändert werden, da sonst
 bestimmte Auswertungen nicht möglich sind und Fehler entstehen können.  
@@ -584,7 +583,7 @@ Im *Environment* Fenster können Sie die Variablenklassen ebenfalls schnell eins
 `````
   
 ![](_images/R_Environment_Variablenklassen.png)  
-*Abbildung 7: Environment-Fenster in R-Studio*  
+*Abbildung 7: Environment-Fenster in RStudio*  
 
 **Fallbeispiel:** Betrachten Sie die Funktion `max()`, welche den
 Maximalwert in der jeweiligen Spalte zurückgeben soll. Hinweis:
@@ -615,8 +614,8 @@ zurück.
 
 Hierfür überspeichern Sie die Daten der jeweiligen Spalte mit den exakt
 selben Daten, nur das Sie durch den Befehl `as.integer` die Klasse der
-Variable ändern. Wenn Sie die Klasse in numerisch ändern wollen würden
-Sie `as.numeric` usw. verwenden.  
+Variable ändern. Wenn Sie die Klasse in numerisch ändern wollen, würden
+Sie `as.numeric` verwenden.  
 ```
 Tabellendaten$Angestelltenzahl_2020 <- as.integer(Tabellendaten$Angestelltenzahl_2020)
 ```
@@ -636,9 +635,7 @@ max(Tabellendaten$Angestelltenzahl_2020, na.rm = TRUE)
 ```
 ## [1] 759065
 ```
-> **Merken:** Überprüfen Sie immer die Art der Variablenklasse, welche
-> **R** Ihren Daten zuweist und ändern Sie dies gegebenenfalls, um
-> Fehler zu vermeiden.
+
 
 `````{admonition} Wichtig!
 Überprüfen Sie immer die Art der Variablenklasse, welche **R** Ihren Daten zuweist und ändern Sie dies gegebenenfalls, um Fehler zu vermeiden.
@@ -691,7 +688,7 @@ welcher Überkategorie die Position gehört.
 **Bei genauerer Betrachtung der Tabelle fällt auf, dass es drei Ebenen
 gibt:**
 
-1.  Ebene: “Wissenschaftliches und künstlerisches Personal” und
+1.  Ebene: “Wissenschaftliches und kuenstlerisches Personal” und
     “Verwaltungs-, technisches und sonstiges Personal”  
 
 2.  Ebene: “Hauptberuflich” und “Nebenberuflich”
@@ -725,12 +722,9 @@ Achtung: Diese Weise ist leider recht fehleranfällig, ist jedoch durch
 den Aufbau der Datei, ohne komplexere Funktionen zu benutzen, nicht
 anders möglich.  
 
-> **Merken!:** Wenn Sie Daten generieren, strukturieren Sie diese immer
-> gut. Dies erleichtert Ihnen selbst, aber auch allen anderen, die Ihre
-> Daten verwenden, dass Arbeiten! Eine gute Struktur von Daten liefert der Tidy- Data Ansatz (Kapitel ??)
 
 ```{admonition} Wichtig!
-Wenn Sie Daten generieren, strukturieren Sie diese immer gut. Dies erleichtert Ihnen selbst, aber auch allen anderen, die Ihre Daten verwenden, dass Arbeiten! Eine gute Struktur von Daten liefert der Tidy- Data Ansatz (s. [Kapitel Tidy Data](Tidy_data)).
+Wenn Sie Daten generieren, strukturieren Sie diese immer gut. Dies erleichtert Ihnen selbst, aber auch allen anderen, die Ihre Daten verwenden, das Arbeiten! Eine gute Struktur von Daten liefert der Tidy-Data Ansatz (s. Kapitel [Tidy Data](Tidy_data)).
 ```
  
 **Einpflegen des Variableninhalts**
@@ -946,7 +940,7 @@ head(Tabelle_Insgesamt)
     ## 18                  Lehrkraefte fuer besondere Aufgaben  Insgesamt                 10867 Wissenschaftliches und künstlerisches Personal     Hauptberuflich
 ```
   
-Wenn Sie nun z.B. aus der Tabelle\_Insgesamt die zweite Spalte entfernen
+Wenn Sie nun z.B. aus der *Tabelle\_Insgesamt* die zweite Spalte entfernen
 möchten, da diese redundant ist, können Sie die Spalte aus dem Subsample
 entfernen:
 ```
@@ -971,8 +965,7 @@ head(Tabelle_Insgesamt)
 
 Alternativ zum `subset`-Befehl kann mit dem Befehl `filter` gearbeitet
 werden.  
-Sie können Ihre Tabelle mittels der `filter`-Funktion filtern und so
-nach belieben die Tabelle nur gezielte Inhalte anzeigen lassen.  
+Damit können Sie Ihre Tabelle filtern und sich gezielt Inhalte anzeigen lassen.  
   
 Hierzu können Sie verschiedene Operatoren und Funktionen nutzen:  
   
@@ -983,7 +976,7 @@ Hierzu können Sie verschiedene Operatoren und Funktionen nutzen:
 -   `<` (Kleiner als)
 -   `<=` (Kleiner-Gleich)
 -   `>` (Größer als)
--   `>=` (größer-Gleich)
+-   `>=` (Größer-Gleich)
 
 Beispiel:
 ```
@@ -1022,7 +1015,7 @@ filter(Tabellendaten, Tabellendaten$Personalkategorie == "Wissenschaftliches und
   
 **Verwenden von Funktionen:**
 
-Beispiel: Ausgabe des kleinsten Wertes mittels er `min()` -Funktion
+Beispiel: Ausgabe des kleinsten Wertes mittels der `min()`-Funktion
 ```
 filter(Tabellendaten, Tabellendaten$Angestelltenzahl_2020 == min(Tabellendaten$Angestelltenzahl_2020, na.rm = TRUE))
 ```
@@ -1033,7 +1026,7 @@ filter(Tabellendaten, Tabellendaten$Angestelltenzahl_2020 == min(Tabellendaten$A
   
 **Mögliche Probleme?**
 
-Wenn via der Variable `Angestelltenverhaeltnis` gefilterte werden soll, gibt **R** folgenden Output:
+Wenn mit der Variable `Angestelltenverhaeltnis` gefiltert werden soll, gibt **R** folgenden Output:
 ```
 #Beispiel: Filtern nach "Professoren"
 filter(Tabellendaten, Tabellendaten$Angestelltenverhaeltnis == "Professoren")
@@ -1047,7 +1040,7 @@ Wenn Sie jedoch in den Datensatz schauen, sehen Sie, dass Professoren unter `Ang
 **Warum werden "Professoren" nicht gefunden?**\
 Das Problem besteht darin, dass die Ausgangsdatei Leerzeichen vor dem Wort Professoren (und auch vor anderen Bezeichnungen von Angestelltenverhältnissen) enthält.
 
-Mit dem Befehl `trimws()`können Sie die vorgestellten Leerzeichen vor den Bezeichnungen entfernen:
+Mit dem Befehl `trimws()` können Sie die vorgestellten Leerzeichen vor den Bezeichnungen entfernen:
 ```
 Tabellendaten$Angestelltenverhaeltnis <- trimws(Tabellendaten$Angestelltenverhaeltnis)
 ```
