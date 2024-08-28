@@ -20,28 +20,70 @@ Um diese zu beantworten, vermittelt diese Fallstudie Kenntnisse in Bezug auf qua
 Neben der bereits elementaren Nutzung statistischer Daten in der Verwaltungswissenschaft, gewinnt die Nachnutzung von Forschungsdaten zunehmend an Bedeutung. Die in dieser Fallstudie erlernbaren Tools helfen dabei, die Reproduzierbarkeit von Analysen und Ergebnissen zu prüfen und zu bewerten. Durch die hier gezeigten Schritte der Datenmanipulation lassen sich Tabellen bereinigen, um so weitere datengetriebene Analysen durchzuführen.
 
 
-## Lernziele bzw. zu erwerbende Kompetenzen
+## Lernziele bzw. zu erwerbende Kompetenzen  
 
-`````{admonition} Sicherstellen der Qualität der Datensätze
+In diesem Lehrbuch werden folgende, im QUADRIGA-Datenkompetenzframework festgelegten Kompetenzen behandelt:  
+
+- Basis-(Daten-)Kompetenz (1)
+- Qualitätssicherung (3)
+- Verifizierung (6)
+- Aufbereitung (7)
+- Werkzeuge (10)
+- Grundlegende Datenanalyse (11)
+
+sowie in Teilen:
+
+- Identifikation (2)
+- Ehtik & Recht (4)
+- Erschließung (5)  
+
+Nach Abschluss dieses Lehrbuchs werden die Anwendenden folgende Lernziele erfolgreich absolviert haben:  
+
+`````{admonition} Grundsätze des Datenmanagements
 :class: keypoints
-````{admonition} Feinlernziel 1
+````{admonition} FAIR-Prinzipien
 :class: dropdown
-Feinlernziel 1 Beschreibung
+Die Lernenden sind mit den FAIR-Prinzipien vertraut und können Datensätze auf ihre FAIRness prüfen.
 ````
 `````
 
 `````{admonition} Datenzitierung
 :class: keypoints
-````{admonition} Feinlernziel 1
+````{admonition} Datenzitierung
 :class: dropdown
-Feinlernziel 1 Beschreibung
+Die Lernenden kennen die allgemein anerkannten Methoden der Datenzitierung.
+Die Lernenden sind in der Lage, persistente Identifikatoren zu nennen und zu erkennen.
+````
+`````
+
+`````{admonition} Sicherstellen der Qualität von Datensätzen
+:class: keypoints
+````{admonition} Qualitätskriterien
+:class: dropdown
+Die Anwendenden kennen den Unterschied zwischen XLSX- und CSV-Dateien.
+Die Anwendenden wissen, auf welchen Portalen passende Datensätze zu finden sind.
+Die Anwendenden kennen Qualitätskriterien von Datensätzen und können diese auf neue Datensätze anwenden.
 ````
 `````
 
 `````{admonition} Datenmanipulation
 :class: keypoints
-````{admonition} Feinlernziel 1
+````{admonition} Verifizierung und Aufbereitung
 :class: dropdown
-Feinlernziel 1 Beschreibung
+Die Lernenden kennen Qualitätsprobleme von Daten und können Fehler und Lücken in den Daten identifizieren und beheben.
+Die Lernenden kennen Methoden der Datenaufbereitung und können diese anwenden.
+````
+`````
+
+`````{admonition} Analyse
+:class: keypoints
+````{admonition} Reproduzierbarkeit und Interpretation
+:class: dropdown
+Die Lernenden kennen Techniken der Datenanalyse und können diese anwenden.
+Die Lernenden können geeignete Verfahren zur Lösung einer Fragestellung ausmachen.
+Die Lernenden können Daten in verwertbare Informationen umwandeln.
+Die Lernenden können die Reproduzierbarkeit einer Studie evaluieren.
+Die Lernenden sind in der Lage, die Bedeutung der Reproduzierbarkeit von Ergebnissen zu bewerten und ihre eigenen Arbeiten in diesem Kontext kritisch zu reflektieren.
+Die Lernenden sind in der Lage, Daten in einer angemessenen Form zu visualisieren.
 ````
 `````
