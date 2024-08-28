@@ -40,50 +40,50 @@ sowie in Teilen:
 Nach Abschluss dieses Lehrbuchs werden die Anwendenden folgende Lernziele erfolgreich absolviert haben:  
 
 `````{admonition} Grundsätze des Datenmanagements
-:class: keypoints
+:class: callout
 ````{admonition} FAIR-Prinzipien
 :class: dropdown
-Die Lernenden sind mit den FAIR-Prinzipien vertraut und können Datensätze auf ihre FAIRness prüfen.
+- Die Lernenden sind mit den FAIR-Prinzipien vertraut und können Datensätze auf ihre FAIRness prüfen.
 ````
 `````
 
 `````{admonition} Datenzitierung
-:class: keypoints
-````{admonition} Datenzitierung
+:class: callout
+````{admonition} Zitierregeln und PID
 :class: dropdown
-Die Lernenden kennen die allgemein anerkannten Methoden der Datenzitierung.
-Die Lernenden sind in der Lage, persistente Identifikatoren zu nennen und zu erkennen.
+- Die Lernenden kennen die allgemein anerkannten Methoden der Datenzitierung.
+- Die Lernenden sind in der Lage, persistente Identifikatoren zu nennen und zu erkennen.
 ````
 `````
 
 `````{admonition} Sicherstellen der Qualität von Datensätzen
-:class: keypoints
+:class: callout
 ````{admonition} Qualitätskriterien
 :class: dropdown
-Die Anwendenden kennen den Unterschied zwischen XLSX- und CSV-Dateien.
-Die Anwendenden wissen, auf welchen Portalen passende Datensätze zu finden sind.
-Die Anwendenden kennen Qualitätskriterien von Datensätzen und können diese auf neue Datensätze anwenden.
+- Die Anwendenden wissen, auf welchen Portalen passende Datensätze zu finden sind.
+- Die Anwendenden kennen Qualitätskriterien von Datensätzen und können diese auf neue Datensätze anwenden.
 ````
 `````
 
 `````{admonition} Datenmanipulation
-:class: keypoints
+:class: callout
 ````{admonition} Verifizierung und Aufbereitung
 :class: dropdown
-Die Lernenden kennen Qualitätsprobleme von Daten und können Fehler und Lücken in den Daten identifizieren und beheben.
-Die Lernenden kennen Methoden der Datenaufbereitung und können diese anwenden.
+- Die Anwendenden kennen den Unterschied zwischen XLSX- und CSV-Dateien.
+- Die Lernenden kennen Qualitätsprobleme von Daten und können Fehler und Lücken in den Daten identifizieren und beheben.
+- Die Lernenden kennen Methoden der Datenaufbereitung und können diese anwenden.
 ````
 `````
 
 `````{admonition} Analyse
-:class: keypoints
+:class: callout
 ````{admonition} Reproduzierbarkeit und Interpretation
 :class: dropdown
-Die Lernenden kennen Techniken der Datenanalyse und können diese anwenden.
-Die Lernenden können geeignete Verfahren zur Lösung einer Fragestellung ausmachen.
-Die Lernenden können Daten in verwertbare Informationen umwandeln.
-Die Lernenden können die Reproduzierbarkeit einer Studie evaluieren.
-Die Lernenden sind in der Lage, die Bedeutung der Reproduzierbarkeit von Ergebnissen zu bewerten und ihre eigenen Arbeiten in diesem Kontext kritisch zu reflektieren.
-Die Lernenden sind in der Lage, Daten in einer angemessenen Form zu visualisieren.
+- Die Lernenden kennen Techniken der Datenanalyse und können diese anwenden.
+- Die Lernenden können geeignete Verfahren zur Lösung einer Fragestellung ausmachen.
+- Die Lernenden können Daten in verwertbare Informationen umwandeln.
+- Die Lernenden können die Reproduzierbarkeit einer Studie evaluieren.
+- Die Lernenden sind in der Lage, die Bedeutung der Reproduzierbarkeit von Ergebnissen zu bewerten und ihre eigenen Arbeiten in diesem Kontext kritisch zu reflektieren.
+- Die Lernenden sind in der Lage, Daten in einer angemessenen Form zu visualisieren.
 ````
 `````
