@@ -24,7 +24,7 @@ Weitere Informationene erhalten Sie im Blog <a href="https://databasecamp.de/dat
 
 (Tidy_data)=
 ## Tidy-Data-Struktur
-Eine sinnvolle Struktur für Ihre Daten ist unerlässlich. Eine weitverbreiteter Standard für diese Struktur setzt das sogenannte „Tidy Dataset“ {cite}`wickham_tidy_2014`. Ein Datensatz wird als „Tidy“ bezeichnet, wenn es folgende Struktur erfüllt:
+Eine sinnvolle Struktur für Ihre Daten ist unerlässlich. Ein weitverbreiteter Standard für diese Struktur setzt das sogenannte „Tidy Dataset“ {cite}`wickham_tidy_2014`. Ein Datensatz wird als „Tidy“ bezeichnet, wenn es folgende Struktur erfüllt:
 
 1. Jede Variable ist eine Spalte
 
@@ -33,7 +33,7 @@ Eine sinnvolle Struktur für Ihre Daten ist unerlässlich. Eine weitverbreiteter
 3. jeder einzelne Wert (Datenpunkt) wird
 einer Variable und einer Beobachtung zugeordnet.
 
-Nach dieser Struktur enthält jede Zelle exakt ein Wert und ist klar einer einzigen Variable zuzuordnen. Es entsteht ein rechteckiges Layout. Wenn Sie Berechnungen auf Basis der Tabellendaten durchführen möchten, sollten dies nie in der Raw-Data Datei erfolgen. Eine saubere Datei enthält nur eine einzige ausgefüllte Tabelle. Außerdem ist in der Raw-Data Datei auf jegliche Formen von optischen Hervorhebungen (z.B. Fettdruck, farbliche Markierungen, etc.) zu verzichten {cite}`broman_data_2018,wickham_tidy_2014`. 
+Nach dieser Struktur enthält jede Zelle exakt einen Wert und ist klar einer einzigen Variable zuzuordnen. Es entsteht ein rechteckiges Layout. Wenn Sie Berechnungen auf Basis der Tabellendaten durchführen möchten, sollten dies nie in der Raw-Data Datei erfolgen. Eine saubere Datei enthält nur eine einzige ausgefüllte Tabelle. Außerdem ist in der Raw-Data Datei auf jegliche Formen von optischen Hervorhebungen (z.B. Fettdruck, farbliche Markierungen, etc.) zu verzichten {cite}`broman_data_2018,wickham_tidy_2014`. 
 
 Beispiel für eine gute Tidy-Data-Struktur: 
 ![](_images/tidy_data_gut.png) 
