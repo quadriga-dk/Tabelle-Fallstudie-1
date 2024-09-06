@@ -59,7 +59,7 @@ Hier können Sie nun das Jahr 2020 auswählen, auf dass das Kreisdiagramm verwei
 Wie Sie nun vermutlich selber erkannt haben, handelt es sich bei dieser Datei um die CSV-Ausgangsdatei aus vorangegangener Lerneinheit [Übung: Arbeiten mit CSV-Dateien in R](Übung_csv).
 
 ### Nachbauen des Kreisdiagramms in R
-Das nachfolgende Skript knüpft an die vorangegangene Übung an. Es wird vorausgesetzt das die Daten entsprechend des Skriptes angepasst wurden.
+Das nachfolgende Skript knüpft an die vorangegangene Übung an. Es wird vorausgesetzt, dass die Daten entsprechend des Skriptes angepasst wurden.
 Ihre Tabellendaten sollten wie folgt aussehen:
 
 ```
