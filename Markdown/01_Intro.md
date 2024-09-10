@@ -22,40 +22,38 @@ Neben der bereits elementaren Nutzung statistischer Daten in der Verwaltungswiss
 
 ## Lernziele bzw. zu erwerbende Kompetenzen  
 
-Sie müssen dieses JupyterBook nicht am Stück durchgehen, sondern können es auch Kapitel für Kapitel absolvieren. Dabei werden Sie folgende Lernziele erreichen:    
+Sie müssen dieses JupyterBook nicht am Stück durchgehen, sondern können es auch Kapitel für Kapitel absolvieren. Dabei werden Sie folgende Lernziele erreichen:  
 
 
-```{note} Grundsätze des Datenmanagements
+```{admonition} Grundsätze des Datenmanagements
+:class: keypoints
 - Die Lernenden sind mit den FAIR-Prinzipien vertraut und können Datensätze auf ihre FAIRness prüfen.
-```
+```  
 
-`````{admonition} Sicherstellen der Qualität von Datensätzen
-:class: dropdown
+```{admonition} Sicherstellen der Qualität von Datensätzen
+:class: keypoints
 - Die Anwendenden wissen, auf welchen Portalen passende Datensätze zu finden sind.
 - Die Anwendenden kennen Qualitätskriterien von Datensätzen und können diese auf neue Datensätze anwenden.
-`````
+```  
 
-`````{admonition} Zitierregeln und PID
-:class: .keypoints
+```{admonition} Zitierregeln und PID
+:class: keypoints
 - Die Lernenden kennen die allgemein anerkannten Methoden der Datenzitierung.
 - Die Lernenden sind in der Lage, persistente Identifikatoren zu nennen und zu erkennen.
-`````
+```  
 
-`````{admonition} Verifizierung und Aufbereitung
+```{admonition} Verifizierung und Aufbereitung
 :class: keypoints 
-- Die Anwendenden kennen den Unterschied zwischen XLSX- und CSV-Dateien.
 - Die Lernenden kennen Qualitätsprobleme von Daten und können Fehler und Lücken in den Daten identifizieren und beheben.
 - Die Lernenden kennen Methoden der Datenaufbereitung und können diese anwenden.
-`````
+```  
 
-`````{admonition} Reproduzierbarkeit und Interpretation
-:class: .Lernziele
-````{admonition} 
+```{admonition} Reproduzierbarkeit und Interpretation
+:class: keypoints
 - Die Lernenden kennen Techniken der Datenanalyse und können diese anwenden.
 - Die Lernenden können geeignete Verfahren zur Lösung einer Fragestellung ausmachen.
 - Die Lernenden können Daten in verwertbare Informationen umwandeln.
 - Die Lernenden können die Reproduzierbarkeit einer Studie evaluieren.
 - Die Lernenden sind in der Lage, die Bedeutung der Reproduzierbarkeit von Ergebnissen zu bewerten und ihre eigenen Arbeiten in diesem Kontext kritisch zu reflektieren.
 - Die Lernenden sind in der Lage, Daten in einer angemessenen Form zu visualisieren.
-````
-`````
+```  
