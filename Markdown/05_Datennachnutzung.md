@@ -1,9 +1,10 @@
 (Datennachnutzung)=
 # Datennachnutzung und Qualitätsbewertung  
 
-```{admonition} Grundsätze des Datenmanagements
+```{tip} Lernziel: Grundsätze des Datenmanagements
 :class: keypoints
 - Die Lernenden sind mit den FAIR-Prinzipien vertraut und können Datensätze auf ihre FAIRness prüfen.
+- Die Lernenden erkennen den Wert guter (Daten-)Dokumentation.
 ```  
 
 Dieses Kapitel befasst sich mit der Datennachnutzung, die maßgeblich von der Qualität der Daten und der sie beschreibenden Metadaten abhängt. Da in dieser Fallstudie die Reproduzierbarkeit des Datensatzes geprüft und anhand der vorliegenden Daten die Forschungsfrage beantwortet werden soll, gilt es, die Daten hinsichtlich ihrer Qualität genauer zu untersuchen.
