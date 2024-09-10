@@ -1,7 +1,13 @@
 (Qualitätskriterien)=
 # Qualitätskriterien
 
-Im Kapitel Datennachnutzung haben Sie erfahren, dass die FAIR-Prinzipien vor allem einen Bewertungsmaßstab zur Datennachnutzung liefern. In diesem Abschnitt stehen nun die Kriterien der Qualitätsbewertung im Mittelpunkt. 
+```{admonition} Lernziel: Sicherstellen der Qualität von Datensätzen
+:class: keypoints
+- Die Anwendenden wissen, auf welchen Portalen passende Datensätze zu finden sind.
+- Die Anwendenden kennen Qualitätskriterien von Datensätzen und können diese auf neue Datensätze anwenden.
+```  
+
+Im Kapitel Datennachnutzung haben Sie erfahren, dass die FAIR-Prinzipien vor allem einen Bewertungsmaßstab zur Datennachnutzung liefern. In diesem Kapitel stehen nun die Kriterien der Qualitätsbewertung im Mittelpunkt. 
 
 Der nationale Bildungsbericht stellt die Beispieldaten offen auf Basis von Bundesstatistikdaten zur Verfügung. Daher wird im Folgenden auf Offene Daten (Open Data) und die Qualitätskriterien für Open Data eingegangen. Unter Open Data versteht man, dass die Daten im Netz frei verfügbar und nutzbar sind. Sie sollen durch die Möglichkeit einer freien Nachnutzung mehr Transparenz in der Forschung ermöglichen und sind ein Basiselement der Reproduzierbarkeit von Forschungsergebnissen, weshalb Open Data auch als Teil der Open-Science-Bewegung verstanden werden kann {cite}`noauthor_open_2023`.
 
@@ -68,4 +74,4 @@ Zum anderen finden sich hier alle Stichworte wieder, die Sie bereits von den FAI
 
 Es zeigt sich, dass Datenqualität und Datennachnutzung eng miteinander verknüpft sind, denn wer Daten nachnutzen möchte, profitiert von qualitätvollen Daten und Metadaten. 
 
-Im nähsten Abschnitt lernen Sie mit dem 5-Sterne-Modell ein weiteres Bewertungsschema für Datenqualität kennen. 
+Im nächsten Abschnitt lernen Sie mit dem 5-Sterne-Modell ein weiteres Bewertungsschema für Datenqualität kennen. 
