@@ -25,7 +25,7 @@ Neben der bereits elementaren Nutzung statistischer Daten in der Verwaltungswiss
 Sie müssen dieses JupyterBook nicht am Stück durchgehen, sondern können es auch Kapitel für Kapitel absolvieren. Dabei werden Sie folgende Lernziele erreichen:    
 
 
-```{Grundsätze des Datenmanagements}
+```{note} Grundsätze des Datenmanagements
 - Die Lernenden sind mit den FAIR-Prinzipien vertraut und können Datensätze auf ihre FAIRness prüfen.
 ```
 
@@ -36,24 +36,20 @@ Sie müssen dieses JupyterBook nicht am Stück durchgehen, sondern können es au
 `````
 
 `````{admonition} Zitierregeln und PID
-:class: callout
-````{admonition}
+:class: .keypoints
 - Die Lernenden kennen die allgemein anerkannten Methoden der Datenzitierung.
 - Die Lernenden sind in der Lage, persistente Identifikatoren zu nennen und zu erkennen.
-````
 `````
 
 `````{admonition} Verifizierung und Aufbereitung
-:class: callout
-````{admonition} 
+:class: keypoints 
 - Die Anwendenden kennen den Unterschied zwischen XLSX- und CSV-Dateien.
 - Die Lernenden kennen Qualitätsprobleme von Daten und können Fehler und Lücken in den Daten identifizieren und beheben.
 - Die Lernenden kennen Methoden der Datenaufbereitung und können diese anwenden.
-````
 `````
 
 `````{admonition} Reproduzierbarkeit und Interpretation
-:class: callout
+:class: .Lernziele
 ````{admonition} 
 - Die Lernenden kennen Techniken der Datenanalyse und können diese anwenden.
 - Die Lernenden können geeignete Verfahren zur Lösung einer Fragestellung ausmachen.
