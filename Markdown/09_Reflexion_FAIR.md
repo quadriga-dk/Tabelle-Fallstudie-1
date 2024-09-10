@@ -6,3 +6,5 @@ Die Übung zu den FAIR-Prinzipien hat verdeutlicht, dass die untersuchten Daten 
 :class: tip
 Die FAIR-Prinzipien decken nur einen Teil dessen ab, was sich im Forschungsdatenmanagement als best practice etabliert hat. Darüber hinaus hängt der Grad der FAIRness von Daten nicht notwendigerweise mit ihrer Qualität zusammen. 
 `````
+
+Die Beantwortung der Forschungsfrage hat dieses Kapitel indirekt unterstützt. Da die Frage nach der Entwicklung des Hochschulpersonals im letzten Jahrzehnt nicht anhand eigener Datenerhebungen zu beantworten ist, muss auf bestehende Daten zurückgegriffen werden, die im Sinne der Aufgabenstellung nachgenutzt werden. Dazu war es wichtig Grundsätze der Datennachnutzung kennenzulernen.
