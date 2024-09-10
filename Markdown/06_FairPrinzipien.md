@@ -3,7 +3,7 @@
 In Bezug auf die Nachnutzung von (Forschungs-)Daten wollen wir Sie hier mit den FAIR-Prinzipien vertraut machen. Diese stellen Grundsätze des Datenmanagements dar, die unter anderem den Austausch und die weitere Nutzung von Daten vereinfachen. FAIR ist das Akronym von **F**indable, **A**ccessible, **I**nteroperable und **R**eusable - also auffindbar, zugänglich, interoperabel (bzw. kompatibel) und wiederverwendbar. Diese 2016 veröffentlichten Prinzipien, die seit 2019 auch in den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" der Deutschen Forschungsgemeinschaft verankert sind {cite}`deutsche_forschungsgemeinschaft_guidelines_2022`, haben sich mittlerweile zu einem Standard entwickelt {cite}`spiecker_ecodm_2022`.
 
 ![Fair Prinzipien](_images/fair-principles.jpg)
-
+*Abbildung 4: Die FAIR-Prinzipien*
 Bildquelle: The Turing Way Community, & Scriberia. (2020). Illustrations from the Turing Way book dashes. Zenodo. <a href="https://doi.org/10.5281/zenodo.3695300" target="_blank">https://doi.org/10.5281/zenodo.3695300</a>
 
 
@@ -13,7 +13,16 @@ Unter **Zugänglichkeit** fällt die Auswahl eines vertrauenswürdigen Repositor
 
 Eine **Interoperabilität** von Daten(sätzen) lässt sich einstellen, wenn Daten sowohl von Menschen als auch Maschinen einfach mit anderen Daten(sätzen) verknüpft werden können. Dies lässt sich durch gut dokumentierte und maschinenlesbar APIs, eindeutig definierte, für das Fachgebiet relevante Vokabulare und offene, standardisierte Dateiformate erreichen {cite}`hollander_parthenos_nodate`.
 
-Die **Wiederverwendbarkeit** von Daten lässt sich von vornherein unterstützen, indem transparent dokumentiert wird, was die Daten beinhalten. Die präzise Benennung von Daten - auch nach Konventionen - erleichtert eine Nachnutzung ebenfalls. Die Nutzung von gängigen, in der Disziplin typischen Formaten ist hier erneut zu nennen und schließlich vereinfacht zudem die Verwendung von Lizenzen die Nachnutzung von Daten erheblich, da dadurch klar definiert ist, wer welche Rechte hat und wer die Daten wie verwenden darf {cite}`hollander_parthenos_nodate`.
+Die **Wiederverwendbarkeit** von Daten lässt sich von vornherein unterstützen, indem transparent dokumentiert wird, was die Daten beinhalten. Die präzise Benennung von Daten - auch nach Konventionen - erleichtert eine Nachnutzung ebenfalls. Die Nutzung von gängigen, in der Disziplin typischen Formaten ist hier erneut zu nennen und schließlich vereinfacht zudem die Verwendung von Lizenzen die Nachnutzung von Daten erheblich, da dadurch klar definiert ist, wer welche Rechte hat und wer die Daten wie verwenden darf {cite}`hollander_parthenos_nodate`.  
+
+```{admonition} FAIR in der Praxis
+:class: hint
+Falls Sie sich fragen, was das mit ihrer (Daten-)Praxis zu tun hat, seien hier ein paar Stichworte genannt:
+- Eine gute Dokumentation, Aus- und Bezeichnung von Daten(sätzen) erleichtert Ihnen und Ihren Kolleg:innen das Arbeiten mit diesen - auch in Zukunft.
+- Wenn Sie eigene Forschung betreiben, werden Sie sich freuen, wenn es zu Ihrer Forschungsfrage Vergleichsdaten aus anderen Städten oder Bundesländern gibt, die Sie nachnutzen können.
+- Sie müssen gar keine eigenen Daten erheben, weil zu einer bestimmten Problematik bereits viele Daten vorliegen bzw. die Erhebung überproportional aufwändig wäre.
+- Wenn Ihre Daten nachgenutzt werden, wird Ihre Forschung unter neuen Aspekten weitergeführt. Sie bleibt dadurch länger relevant und kann zu einem wichtigen Impuls für neue Ideen werden.
+```  
 
 **Weitere Informationen**
 
