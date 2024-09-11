@@ -18,8 +18,8 @@ parts:
     - file: Markdown/09_Reflexion_FAIR
   - caption: 3. Qualitätsbewertung und 5-Sterne-Modell
     chapters:
-    - file: Markdown/10_XLSXundCSV
-    - file: Markdown/11_Qualitätskriterien
+    - file: Markdown/10_Qualitätskriterien
+    - file: Markdown/11_XLSXundCSV
     - file: Markdown/12_5-Sterne
     - file: Markdown/13_Übung_5-Sterne
     - file: Markdown/14_Reflexion_Qualität
