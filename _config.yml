@@ -33,7 +33,7 @@ repository:
 
 launch_buttons:
   notebook_interface: jupyterlab
-  thebe: true
+  #thebe: true
   binderhub_url: https://mybinder.org
   colab_url: https://colab.research.google.com
   
