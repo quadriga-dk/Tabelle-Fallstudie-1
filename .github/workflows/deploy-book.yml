@@ -37,7 +37,7 @@ jobs:
 
     - name: Install IRkernel
       run: |
-        Rscript -e "IRkernel::installspec()"
+        Rscript -e "install.packages('IRkernel')"
 
     # (optional) Cache your executed notebooks between runs
     # if you have config:
