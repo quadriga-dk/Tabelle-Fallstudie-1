@@ -38,6 +38,22 @@ jobs:
     - name: Install IRkernel
       run: |
         Rscript -e "install.packages('IRkernel')"
+        
+    - name: Print kernelspec version
+      run: |
+        jupyter kernelspec --version
+
+    - name: Print all kernels
+      run: |
+        jupyter kernelspec list
+
+    - name: Register IRkernel
+      run: |
+        Rscript -e "IRkernel::installspec()"
+
+    - name: Print all kernels again
+      run: |
+        jupyter kernelspec list
 
     # (optional) Cache your executed notebooks between runs
     # if you have config:
