@@ -29,6 +29,7 @@ Sie müssen dieses JupyterBook nicht am Stück durchgehen, sondern können es au
 ```{admonition} Grundsätze des Datenmanagements
 :class: keypoints
 - Die Lernenden sind mit den FAIR-Prinzipien vertraut und können Datensätze auf ihre FAIRness prüfen.
+- Die Lernenden erkennen den Wert guter (Daten-)Dokumentation.
 ```  
 
 ```{admonition} Sicherstellen der Qualität von Datensätzen
