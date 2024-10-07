@@ -33,8 +33,8 @@ Angezeigt werden dann mehrere Tabellen wie Abb. 6 zeigt. Die von uns benötigte 
 
 Nachdem Sie auf die Tabelle 21341-0001 geklickt haben, erscheint die Seite "Tabelle abrufen". Beginnen Sie den Abruf der Werte mit einem Klick auf den Button `(Starten)`.  
 
-Sodann wird Ihnen die Tabelle bereits angezeigt. Sie können die Daten nun in verschiedenen Formaten auswählen.
-Wählen Sie CSV aus und der Datensatz wird als 21341-0001_$F im Format CSV heruntergeladen.
+Sodann wird Ihnen die Tabelle bereits angezeigt. Sie können die Daten nun in verschiedenen Formaten auswählen. Destatis bietet hier andere Formate, die für eine maschinelle Weiterverabreitung geeigneter sind als CSV. Wir arbeiten für unsere Lernzwecke mit der CSV-Datei weiter, weil CSV ein häufig genutztes Format ist. 
+Wählen Sie deshalb CSV aus und der Datensatz wird als 21341-0001_$F im Format CSV heruntergeladen.
 
 ![Anzeige der Tabelle](_images/Destatis_Abruf2.PNG)
 *Abbildung 7: Wählen Sie CSV aus*  
