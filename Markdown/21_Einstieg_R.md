@@ -8,7 +8,7 @@ Computersprache **R** erleichtern.
 Als Fallbeispiel wird eine CSV-Datei mit Rohdaten zum *Personalstand an
 Hochschulen* eingelesen und ausgewertet.  
 Um die CSV-Datei herunterzuladen, klicken Sie bitte
-[hier](https://www-genesis.destatis.de/genesis//online?operation=table&code=21341-0001&bypass=true&levelindex=0&levelid=1706718181851)
+[hier](Data/21341-0001_F.csv)
 (Quelle: Statistisches Bundesamt 2022).  
 
 ### Installieren von R und R-Studio
