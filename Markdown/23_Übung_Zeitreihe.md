@@ -8,7 +8,7 @@ Doch wie steht es eigentlich um unsere Forschungsfrage:
 
 Um diese Frage beantworten zu können, reicht unsere Raw-Data Datei nicht aus, das diese nur die Daten für das Jahr 2020 enthält.
 Das Open-Data-Portal von Destatis bietet jedoch auch die Möglichkeiten, die Daten für alle Jahre von 2010 bis 2020 herunterzuladen
-(https://www-genesis.destatis.de/genesis//online?operation=table&code=21341-0001&bypass=true&levelindex=1&levelid=1719408768654#abreadcrumb).
+([https://www-genesis.destatis.de/genesis//online?operation=table&code=21341-0001&bypass=true&levelindex=0&levelid=1729590207944#abreadcrumb]).
 
 ## Daten vorbereiten
 
