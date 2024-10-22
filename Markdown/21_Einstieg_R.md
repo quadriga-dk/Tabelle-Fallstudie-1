@@ -518,7 +518,7 @@ edit(Tabellendaten)
 ```
 
 ```{admonition} Achtung!
-Es empfiehlt sich auf Befehle wie diese zu verzichten, da die Änderungen nicht im **R Skript** oder der **Console** angezeigt und somit **nicht nachvollzogen** werden können!  
+Es empfiehlt sich auf Befehle zur manuellen Bearbeitung zu verzichten, da die Änderungen nicht im **R Skript** oder der **Console** angezeigt und somit **nicht nachvollzogen** werden können!  
 ```
 
 ------------------------------------------------------------------------
