@@ -406,7 +406,7 @@ data_csv_clean$V2 <- str_replace_all(data_csv_clean$V2, c("ä" = "ae", "ö" = "o
 -   `c("ä" = "ae", "ö" = "oe",...)`:  
     Der Befehl `c` erstellt einen Vektor. Ein Vektor kombiniert von
     Ihnen festgelegte Zahlen- oder Zeichenketten (letzteres wird auch
-    **“String”** genannt). Ein String ist z.B. c(“Apfel”, “Birne”,
+    **“String”** genannt). Ein String ist z.B. (“Apfel”, “Birne”,
     “Kiwi”).  
     Im hier verwendeten Zusammenhang mit `str_replace_all()` wird **R**
     befohlen, alle “ä” durch “ae” zu ersetzen und alle “ö” durch “oe”
