@@ -18,7 +18,7 @@ Beispielhafte simple Form der Datennormalisierung:
 ![](_images/Normalisierung_Tabelle.png)  
 *Abbildung nach Niklas Lang{cite}`noauthor_what_2023`*
 
-Weitere Informationene erhalten Sie im Blog <a href="https://databasecamp.de/daten/normalisierung" target="_blank">Data Base Camp</a>, von dem wir die obige Grafik nachgenutzt haben.  
+Weitere Informationen erhalten Sie im Blog <a href="https://databasecamp.de/daten/normalisierung" target="_blank">Data Base Camp</a>, von dem wir die obige Grafik nachgenutzt haben.  
 
 
 
@@ -46,7 +46,7 @@ Beispiel für keine Tidy-Data-Struktur:
 *** 
 **Quiz:**
 
-Die obige abgebildete Raw-Data-Tabelle weißt mehrere Mängel auf und entspricht nicht den Maßstäben einer Tidy-Data-Struktur. Können Sie alle Fehler finden? 
+Die obige abgebildete Raw-Data-Tabelle weist mehrere Mängel auf und entspricht nicht den Maßstäben einer Tidy-Data-Struktur. Können Sie alle Fehler finden? 
 
 
 Antworten:
@@ -75,5 +75,5 @@ Nach Wickham (2014) sind die häufigsten Fehler im Aufbau von Datensätzen folge
 
 
 ```{note}
-Nun stellt sich bei Ihnen sicherlich die Frage, wie es denn um unser Raw-Data-Set vom Statistischen Bundesamt steht? Weißt dieses eine vorbildliche Struktur auf? Diese Frage wird in der folgenden Lerneinheit [Übung: Arbeiten mit CSV-Dateien in R](Übung_csv) beantwortet.
+Nun stellt sich bei Ihnen sicherlich die Frage, wie es denn um unser Raw-Data-Set vom Statistischen Bundesamt steht? Weist dieses eine vorbildliche Struktur auf? Diese Frage wird in der folgenden Lerneinheit [Übung: Arbeiten mit CSV-Dateien in R](Übung_csv) beantwortet.
 ```
