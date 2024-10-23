@@ -350,7 +350,7 @@ müssen Sie zum bekannten Einlesebefehl nur den Zusatz
 `encoding = "latin1"` hinzufügen, damit **R** weiß, welche
 Zeichenkodierung im Dokument verwendet wurde:
 ```
-data_csv_clean <- read.csv2("21341-0001_$F.csv", header = FALSE, encoding = "latin1")
+data_csv_clean <- read.csv2("21341-0001_F_2020.csv", header = FALSE, encoding = "latin1")
 ```
 
 Wenn Sie schnell überprüfen möchten, ob die Umlaute nun korrekt
