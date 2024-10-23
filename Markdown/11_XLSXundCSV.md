@@ -31,15 +31,15 @@ Angezeigt werden dann mehrere Tabellen wie Abb. 6 zeigt. Die von uns benötigte 
 *Abbildung 6: Die Tabelle 21341-0001 sollte gefunden werden*  
 
 
-Nachdem Sie auf die Tabelle 21341-0001 geklickt haben, erscheint die Seite "Tabelle abrufen". Beginnen Sie den Abruf der Werte mit einem Klick auf den Button `(Starten)`.  
+Nachdem Sie auf die Tabelle 21341-0001 geklickt haben, erscheint die Seite "Tabelle abrufen". Unter "Tabellenaufbau" wählen wir noch das Jahr 2020 aus, weil wir zunächst ein Jahr bertrachten wollen. Beginnen Sie den Abruf der Werte mit einem Klick auf den Button `(Werteabruf)`.  
 
 Sodann wird Ihnen die Tabelle bereits angezeigt. Sie können die Daten nun in verschiedenen Formaten auswählen. Destatis bietet hier andere Formate, die für eine maschinelle Weiterverabreitung geeigneter sind als CSV. Wir arbeiten für unsere Lernzwecke mit der CSV-Datei weiter, weil CSV ein häufig genutztes Format ist. 
 Wählen Sie deshalb CSV aus und der Datensatz wird als 21341-0001_$F im Format CSV heruntergeladen.
 
-![Anzeige der Tabelle](_images/Destatis_Abruf2.PNG)
+![Anzeige der Tabelle](_images/Destatis_Abruf_2020.png)
 *Abbildung 7: Wählen Sie CSV aus*  
 
-Alternativ können Sie den Datensatz auch aus unserem Repository laden: [CSV-Datensatz](Data/21341-0001_F.csv)
+Alternativ können Sie den Datensatz auch aus unserem Repository laden: [CSV-Datensatz](Data/21341-0001_F_2020.csv)
 
 
 Wunderbar, damit sind Sie bereit für die folgenden Kapitel!
