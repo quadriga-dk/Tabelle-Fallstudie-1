@@ -17,7 +17,9 @@ Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte
 vorab **R**. Zudem benötigen Sie eine geeignete Entwicklungsumgebung.
 Hierfür bietet sich **RStudio** an.  
 Die Computersprache **R** und **RStudio** können Sie direkt vom Entwickler bzw. Maintainer <a href="https://posit.co/download/rstudio-desktop/" target="_blank">Posit</a> beziehen.
- 
+
+**Hinweis**
+Die folgenden Übungen sind auf der Basis von R 4.4.1 entwickelt worden und wurden zur Nutzung von RStudio 2024.09.0 Build 375 über Windows konzipiert. Bei der Nutzung einer anderen RStudio Version oder eines anderen Betriebssystems können Funktionen eventuell variieren.  
 
 ------------------------------------------------------------------------
 
