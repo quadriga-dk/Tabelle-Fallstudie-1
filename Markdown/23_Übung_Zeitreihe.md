@@ -7,8 +7,8 @@ Doch wie steht es eigentlich um unsere Forschungsfrage:
 > Wie hat sich die Zusammensetzung des Personals an Hochschulen in Deutschland im letzten Jahrzehnt (2010-2020) entwickelt?
 
 Um diese Frage beantworten zu können, reicht unsere Raw-Data Datei nicht aus, das diese nur die Daten für das Jahr 2020 enthält.
-Das Open-Data-Portal von Destatis bietet jedoch auch die Möglichkeiten, die Daten für alle Jahre von 2010 bis 2020 herunterzuladen
-([https://www-genesis.destatis.de]) oder Sie laden den Datensatz [hier](21341-0001_F_2010-2020.csv) direkt aus unserem Repositorium hierunter.
+Das Open-Data-Portal von [Destatis](https://www-genesis.destatis.de) bietet jedoch auch die Möglichkeiten, die Daten für alle Jahre von 2010 bis 2020 herunterzuladen
+oder Sie laden den Datensatz [hier](21341-0001_F_2010-2020.csv) direkt aus unserem Repositorium hierunter.
 
 ## Daten vorbereiten
 
