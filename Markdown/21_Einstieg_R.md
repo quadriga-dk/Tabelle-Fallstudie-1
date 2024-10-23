@@ -7,8 +7,8 @@ Die folgende Lerneinheit soll Ihnen den Ersteinstieg in die
 Computersprache **R** erleichtern.  
 Als Fallbeispiel wird eine CSV-Datei mit Rohdaten zum *Personalstand an
 Hochschulen* eingelesen und ausgewertet.  
-Um die CSV-Datei herunterzuladen, klicken Sie bitte
-[hier](Data/21341-0001_F.csv)
+Entweder haben Sie diese Datei schon in Kapitel 3 heruntergeladen, können Sie klicken
+[hier](21341-0001_F_2020.csv) um die CSV-Datei herunterzuladen.
 (Quelle: Statistisches Bundesamt 2022).  
 
 ### Installieren von R und R-Studio
