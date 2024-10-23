@@ -7,8 +7,8 @@ Die folgende Lerneinheit soll Ihnen den Ersteinstieg in die
 Computersprache **R** erleichtern.  
 Als Fallbeispiel wird eine CSV-Datei mit Rohdaten zum *Personalstand an
 Hochschulen* eingelesen und ausgewertet.  
-Entweder haben Sie diese Datei schon in Kapitel 3 heruntergeladen, können Sie klicken
-[hier](21341-0001_F_2020.csv) um die CSV-Datei herunterzuladen.
+Entweder haben Sie diese Datei schon in [Kapitel 3](https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/11_XLSXundCSV.html) heruntergeladen oder Sie klicken
+[hier](21341-0001_F_2020.csv) um die CSV-Datei aus unserem Repositorium direkt herunterzuladen.
 (Quelle: Statistisches Bundesamt 2022).  
 
 ### Installieren von R und R-Studio
@@ -98,7 +98,7 @@ Hierfür gibt es zwei Befehle: `read.csv()` oder `read.csv2()`
 
 ```
 #Daten einlesen
-data_csv <- read.csv2("21341-0001_$F.csv",header = FALSE)
+data_csv <- read.csv2("21341-0001_F_2020.csv",header = FALSE)
 ```
 
 **Erklärung des Codes:**  
@@ -121,7 +121,7 @@ data_csv <- read.csv2("21341-0001_$F.csv",header = FALSE)
         erkennen.*  
           
 
--   `"21341-0001_$F.csv"`:  
+-   `"21341-0001_F_2020.csv"`:  
     Hier steht der Name der CSV-Datei, die geladen werden soll.  
 
     -   Bei Verwendung von RStudio: Sie sollten unter *Files* den
