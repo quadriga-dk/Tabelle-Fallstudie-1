@@ -37,6 +37,7 @@ Sodann wird Ihnen die Tabelle bereits angezeigt. Sie können die Daten nun in ve
 Wählen Sie deshalb CSV aus und der Datensatz wird als 21341-0001_$F im Format CSV heruntergeladen.
 
 ![Anzeige der Tabelle](_images/Destatis_Abruf_2020.png)
+
 *Abbildung 7: Wählen Sie CSV aus*  
 
 Alternativ können Sie den Datensatz auch aus unserem Repository laden: [CSV-Datensatz](Data/21341-0001_F_2020.csv)
