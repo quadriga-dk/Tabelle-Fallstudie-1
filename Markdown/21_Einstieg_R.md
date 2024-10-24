@@ -7,8 +7,8 @@ Die folgende Lerneinheit soll Ihnen den Ersteinstieg in die
 Computersprache **R** erleichtern.  
 Als Fallbeispiel wird eine CSV-Datei mit Rohdaten zum *Personalstand an
 Hochschulen* eingelesen und ausgewertet.  
-Um die CSV-Datei herunterzuladen, klicken Sie bitte
-[hier](https://www-genesis.destatis.de/genesis//online?operation=table&code=21341-0001&bypass=true&levelindex=0&levelid=1706718181851)
+Entweder haben Sie diese Datei schon in [Kapitel 3](https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/11_XLSXundCSV.html) heruntergeladen oder Sie klicken
+[hier](21341-0001_F_2020.csv) um die CSV-Datei aus unserem Repositorium direkt herunterzuladen.
 (Quelle: Statistisches Bundesamt 2022).  
 
 ### Installieren von R und R-Studio
@@ -17,7 +17,9 @@ Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte
 vorab **R**. Zudem benötigen Sie eine geeignete Entwicklungsumgebung.
 Hierfür bietet sich **RStudio** an.  
 Die Computersprache **R** und **RStudio** können Sie direkt vom Entwickler bzw. Maintainer <a href="https://posit.co/download/rstudio-desktop/" target="_blank">Posit</a> beziehen.
- 
+
+**Hinweis**
+Die folgenden Übungen sind auf der Basis von R 4.4.1 entwickelt worden und wurden zur Nutzung von RStudio 2024.09.0 Build 375 über Windows konzipiert. Bei der Nutzung einer anderen RStudio Version oder eines anderen Betriebssystems können Funktionen eventuell variieren.  
 
 ------------------------------------------------------------------------
 
@@ -98,7 +100,7 @@ Hierfür gibt es zwei Befehle: `read.csv()` oder `read.csv2()`
 
 ```
 #Daten einlesen
-data_csv <- read.csv2("21341-0001_$F.csv",header = FALSE)
+data_csv <- read.csv2("21341-0001_F_2020.csv",header = FALSE)
 ```
 
 **Erklärung des Codes:**  
@@ -121,7 +123,7 @@ data_csv <- read.csv2("21341-0001_$F.csv",header = FALSE)
         erkennen.*  
           
 
--   `"21341-0001_$F.csv"`:  
+-   `"21341-0001_F_2020.csv"`:  
     Hier steht der Name der CSV-Datei, die geladen werden soll.  
 
     -   Bei Verwendung von RStudio: Sie sollten unter *Files* den
@@ -350,7 +352,7 @@ müssen Sie zum bekannten Einlesebefehl nur den Zusatz
 `encoding = "latin1"` hinzufügen, damit **R** weiß, welche
 Zeichenkodierung im Dokument verwendet wurde:
 ```
-data_csv_clean <- read.csv2("21341-0001_$F.csv", header = FALSE, encoding = "latin1")
+data_csv_clean <- read.csv2("21341-0001_F_2020.csv", header = FALSE, encoding = "latin1")
 ```
 
 Wenn Sie schnell überprüfen möchten, ob die Umlaute nun korrekt
@@ -406,7 +408,7 @@ data_csv_clean$V2 <- str_replace_all(data_csv_clean$V2, c("ä" = "ae", "ö" = "o
 -   `c("ä" = "ae", "ö" = "oe",...)`:  
     Der Befehl `c` erstellt einen Vektor. Ein Vektor kombiniert von
     Ihnen festgelegte Zahlen- oder Zeichenketten (letzteres wird auch
-    **“String”** genannt). Ein String ist z.B. c(“Apfel”, “Birne”,
+    **“String”** genannt). Ein String ist z.B. (“Apfel”, “Birne”,
     “Kiwi”).  
     Im hier verwendeten Zusammenhang mit `str_replace_all()` wird **R**
     befohlen, alle “ä” durch “ae” zu ersetzen und alle “ö” durch “oe”
@@ -518,7 +520,7 @@ edit(Tabellendaten)
 ```
 
 ```{admonition} Achtung!
-Es empfiehlt sich auf Befehle wie diese zu verzichten, da die Änderungen nicht im **R Skript** oder der **Console** angezeigt und somit **nicht nachvollzogen** werden können!  
+Es empfiehlt sich auf Befehle zur manuellen Bearbeitung zu verzichten, da die Änderungen nicht im **R Skript** oder der **Console** angezeigt und somit **nicht nachvollzogen** werden können!  
 ```
 
 ------------------------------------------------------------------------

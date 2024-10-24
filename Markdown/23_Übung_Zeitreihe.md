@@ -7,19 +7,19 @@ Doch wie steht es eigentlich um unsere Forschungsfrage:
 > Wie hat sich die Zusammensetzung des Personals an Hochschulen in Deutschland im letzten Jahrzehnt (2010-2020) entwickelt?
 
 Um diese Frage beantworten zu können, reicht unsere Raw-Data Datei nicht aus, das diese nur die Daten für das Jahr 2020 enthält.
-Das Open-Data-Portal von Destatis bietet jedoch auch die Möglichkeiten, die Daten für alle Jahre von 2010 bis 2020 herunterzuladen
-(https://www-genesis.destatis.de/genesis//online?operation=table&code=21341-0001&bypass=true&levelindex=1&levelid=1719408768654#abreadcrumb).
+Das Open-Data-Portal von [Destatis](https://www-genesis.destatis.de) bietet jedoch auch die Möglichkeiten, die Daten für alle Jahre von 2010 bis 2020 herunterzuladen
+oder Sie laden den Datensatz [hier](21341-0001_F_2010-2020.csv) direkt aus unserem Repositorium hierunter.
 
 ## Daten vorbereiten
 
 Die CSV Datei können Sie nun wie in der Lerneinheit [Übung: Arbeiten mit CSV-Dateien in R](Einlesen_csv) einlesen und in Daten und Metadaten unterteilen.
 
 ```
-#Benötigtes Package zum Start des Session laden, damit alle hier verwendeteten Befehle verfügbar sind
+#Benötigtes Package zum Start der Session laden, damit alle hier verwendeteten Befehle verfügbar sind
 library(tidyverse) 
 
 #Daten einlesen
-data_csv_clean <- read.csv2("21341-0001_$F.csv", header = FALSE, encoding = "latin1")
+data_csv_clean <- read.csv2("21341-0001_F_2010-2020.csv", header = FALSE, encoding = "latin1")
 
 #Datenkategorie setzten
 Metadaten <- data_csv_clean[c(1:6, 87:88), 1]

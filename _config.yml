@@ -4,7 +4,7 @@
 title: Fallstudie I - Tabelle 
 author: Datenkompetenzzentrum QUADRIGA
 logo: quadriga-logo.jpeg
-copyright: "2024"
+copyright: http://www.apache.org/licenses/LICENSE-2.0 
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, README.md]
 
 # Force re-execution of notebooks on each build.

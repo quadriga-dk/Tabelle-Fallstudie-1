@@ -14,7 +14,6 @@ parts:
     - file: Markdown/05_Datennachnutzung
     - file: Markdown/06_FairPrinzipien
     - file: Markdown/07_Übung_FAIR
-    - file: Markdown/08_Datenzitierung
     - file: Markdown/09_Reflexion_FAIR
   - caption: 3. Qualitätsbewertung und 5-Sterne-Modell
     chapters:
@@ -25,6 +24,7 @@ parts:
     - file: Markdown/14_Reflexion_Qualität
   - caption: 4. Identifikatoren und Linked Data
     chapters:
+    - file: Markdown/15_Datenzitierung
     - file: Markdown/15_PID
     - file: Markdown/16_Linked-Data
     - file: Markdown/17_Übung_PID

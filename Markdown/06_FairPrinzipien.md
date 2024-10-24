@@ -11,7 +11,7 @@ Die **Auffindbarkeit** von Daten lässt sich zum Beispiel durch die Verwendung v
 
 Unter **Zugänglichkeit** fällt die Auswahl eines vertrauenswürdigen Repositoriums als Speicherort für die Daten(sätze) und die klare Regelung des Zugriffs auf diese sowie die Verwendung von standardisierten Protokollen {cite}`hollander_parthenos_nodate`.
 
-Eine **Interoperabilität** von Daten(sätzen) lässt sich einstellen, wenn Daten sowohl von Menschen als auch Maschinen einfach mit anderen Daten(sätzen) verknüpft werden können. Dies lässt sich durch gut dokumentierte und maschinenlesbar APIs, eindeutig definierte, für das Fachgebiet relevante Vokabulare und offene, standardisierte Dateiformate erreichen {cite}`hollander_parthenos_nodate`.
+Eine **Interoperabilität** von Daten(sätzen) lässt sich einstellen, wenn Daten sowohl von Menschen als auch Maschinen einfach mit anderen Daten(sätzen) verknüpft werden können. Dies lässt sich durch gut dokumentierte und maschinenlesbare APIs, eindeutig definierte und für das Fachgebiet relevante Vokabulare und offene, standardisierte Dateiformate erreichen {cite}`hollander_parthenos_nodate`.
 
 Die **Wiederverwendbarkeit** von Daten lässt sich von vornherein unterstützen, indem transparent dokumentiert wird, was die Daten beinhalten. Die präzise Benennung von Daten - auch nach Konventionen - erleichtert eine Nachnutzung ebenfalls. Die Nutzung von gängigen, in der Disziplin typischen Formaten ist hier erneut zu nennen und schließlich vereinfacht zudem die Verwendung von Lizenzen die Nachnutzung von Daten erheblich, da dadurch klar definiert ist, wer welche Rechte hat und wer die Daten wie verwenden darf {cite}`hollander_parthenos_nodate`.  
 

@@ -259,7 +259,7 @@ questions = \
     'answers': [
     { 'answer': 'Ja',
       'correct': True,
-      'feedback': 'Diese Antwort ist in Teilen richtig, denn die Daten entsprechen einschlägigen Fachstandards. Allerdings es gibt keine Metadaten.'},
+      'feedback': 'Diese Antwort ist in Teilen richtig, denn die Daten entsprechen einschlägigen Fachstandards. Allerdings gibt es keine Metadaten.'},
     { 'answer': 'Nein',
       'correct': True,
       'feedback': 'Teilweise richtig, denn es gibt keine Metadaten, die Standards entsprechen könnten. Auf die Daten trifft es aber zu.'},

@@ -1,17 +1,11 @@
 (Einleitung_Datenzitierung)=
 # Forschungsdaten zitieren
 
-````{margin}
-```{note}
-**Kompetenz:** Datenzitierung
-```
-````
-
-````{margin}
-```{note}
-**Feinlernziel:** Die Lernenden sind in der Lage, persistente Identifikatoren zu nennen und zu erkennen, um Daten zu zitieren (Ebene kognitiv 1 bis 2).
-```
-````
+```{admonition} Datenzitierung und PID
+:class: keypoints
+- Die Lernenden kennen die allgemein anerkannten Methoden der Datenzitierung.
+- Die Lernenden sind in der Lage, persistente Identifikatoren zu nennen und zu erkennen.
+``` 
 
 In einem Kapitel über Datennachnutzung darf selbstverständlich ein Abschnitt über das Zitieren von Forschungsdaten nicht fehlen. Die Zitation ist Teil der guten wissenschaftlichen Praxis {cite}`deutsche_forschungsgemeinschaft_guidelines_2022` und erfolgt analog zur Zitierung von Literatur. 
 
@@ -35,4 +29,12 @@ Einen kurzen und verständlichen Überblick dazu, bietet dieses Video vom Forsch
 
 Wenn Sie Daten zitieren, sollten sie also die Urheber:innen benennen und den PID/URI des Datensatzes oder einen Link zu den Daten angeben.
 
-Wenn Sie Daten selbst zur Verfügung stellen, sollten Sie alle Beteiligten benennen, einen PID/URI vergeben, den Datensatz mit Metadaten ausführlich beschreiben und in einem gängigen, im besten Fall offenen Format bereitstellen.
+Wenn Sie Daten selbst zur Verfügung stellen, sollten Sie alle Beteiligten benennen, einen PID/URI vergeben, den Datensatz mit Metadaten ausführlich beschreiben und in einem gängigen, im besten Fall offenen Format bereitstellen.  
+
+
+```{admonition} Weitere Informationen
+:class: tip
+Zusätzliche Informationen zum Thema Datenzitierung finden Sie auf
+- der Informationsplattform <a href="https://forschungsdaten.info/themen/finden-und-nachnutzen/zitieren-von-daten/" target="_blank">forschungsdaten.info</a>
+- der Webseite von <a href="https://forschungsdaten.info/themen/finden-und-nachnutzen/zitieren-von-daten/" target="_blank">Auffinden, Zitieren, Dokumentieren</a> von ZBW, Gesis und RatSWD
+```  

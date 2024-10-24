@@ -1,6 +1,16 @@
 (Uebung_Reproduzierbarkeit)=
 # Übung: Reproduzierbarkeit Nationaler Bildungsbericht
 
+```{admonition} Reproduzierbarkeit und Interpretation
+:class: keypoints
+- Die Lernenden kennen Techniken der Datenanalyse und können diese anwenden.
+- Die Lernenden können geeignete Verfahren zur Lösung einer Fragestellung ausmachen.
+- Die Lernenden können Daten in verwertbare Informationen umwandeln.
+- Die Lernenden können die Reproduzierbarkeit einer Studie evaluieren.
+- Die Lernenden sind in der Lage, die Bedeutung der Reproduzierbarkeit von Ergebnissen zu bewerten und ihre eigenen Arbeiten in diesem Kontext kritisch zu reflektieren.
+- Die Lernenden sind in der Lage, Daten in einer angemessenen Form zu visualisieren.
+```  
+
 In dem vorangegangenen Kapitel wurden Sie  mit ersten Grundbausteinen im Arbeiten mit **R** vertraut gemacht.  Diese Fähigkeiten können Sie nutzen, um die *Reproduzierbarkeit* von Grafiken, Daten, etc. zu überprüfen.
 
 `````{admonition} Doch was genau ist eigentlich Reproduzierbarkeit?
