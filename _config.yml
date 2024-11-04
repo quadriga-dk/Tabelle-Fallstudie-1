@@ -28,12 +28,12 @@ sphinx:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/quadriga-dk/Tabelle-Fallstudie-1  # Online location of your book
+  url: https://github.com/schnaitter/Tabelle-Fallstudie-1  # Online location of your book
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
 launch_buttons:
   notebook_interface: jupyterlab
-  thebe: true
+  #thebe: true
   binderhub_url: https://mybinder.org
   colab_url: https://colab.research.google.com
   
@@ -44,3 +44,7 @@ html:
   use_repository_button: true
 
 
+# Enable interactive widgets
+jupyter:
+widgets:
+  enable: true

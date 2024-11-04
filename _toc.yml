@@ -44,3 +44,6 @@ parts:
     chapters:
     - file: Markdown/26_Danksagung
     - file: Markdown/Literaturverzeichnis 
+  - caption: 8. Test von R
+    chapters:
+    - file: R_Lerneinheit
