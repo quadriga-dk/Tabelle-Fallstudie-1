@@ -1,5 +1,5 @@
-(Datenmanipulation)=
-# Einleitung: Datenmanipulation
+(Datenmanipulation (Visualisierung und Reproduktion))=
+# Einleitung: Datenmanipulation (Visualisierung und Reproduktion)
 
 ```{admonition} Verifizierung und Aufbereitung
 :class: keypoints 
