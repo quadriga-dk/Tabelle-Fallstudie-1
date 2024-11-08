@@ -33,7 +33,7 @@ parts:
     chapters:
     - file: Markdown/19_Datenmanipulation
     - file: Markdown/20_Datenstruktur
-    - file: Markdown/21A_Einstieg_R
+    - file: Markdown/21_Einstieg_R
     - file: Markdown/24_Reflexion_Datenmanipulation
   - caption: 6. Datenmanipulation II
     chapters:
@@ -50,12 +50,12 @@ parts:
     - file: Markdown/Literaturverzeichnis
    - caption: 9. Altes Kapitel Datenmanipulation
     chapters:
-    - file: Markdown/19_Datenmanipulation
-    - file: Markdown/20_Datenstruktur
-    - file: Markdown/21_Einstieg_R
-    - file: Markdown/22_Übung_Reproduzierbarkeit
-    - file: Markdown/23_Übung_Zeitreihe
-    - file: Markdown/24_Reflexion_Datenmanipulation
+    - file: Markdown/19_Alt_Datenmanipulation
+    - file: Markdown/20_Alt_Datenstruktur
+    - file: Markdown/21_Alt_Einstieg_R
+    - file: Markdown/22_Alt_Übung_Reproduzierbarkeit
+    - file: Markdown/23_Alt_Übung_Zeitreihe
+    - file: Markdown/24_Alt_Reflexion_Datenmanipulation
   - caption: 9. Test von R
     chapters:
     - file: R_Lerneinheit
