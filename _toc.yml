@@ -34,16 +34,20 @@ parts:
     - file: Markdown/19_Datenmanipulation
     - file: Markdown/20_Datenstruktur
     - file: Markdown/21_Einstieg_R
+    - file: Markdown/24_Reflexion_Datenmanipulation
+  - caption: 6. Datenmanipulation II
+    chapters:
+    - file: Markdown/19_Datenmanipulation
     - file: Markdown/22_Übung_Reproduzierbarkeit
     - file: Markdown/23_Übung_Zeitreihe
     - file: Markdown/24_Reflexion_Datenmanipulation
-  - caption: 6. Zusammenfassung
+  - caption: 7. Zusammenfassung
     chapters:
     - file: Markdown/25_Reflexion
-  - caption: 7. Abschluss
+  - caption: 8. Abschluss
     chapters:
     - file: Markdown/26_Danksagung
     - file: Markdown/Literaturverzeichnis 
-  - caption: 8. Test von R
+  - caption: 9. Test von R
     chapters:
     - file: R_Lerneinheit
