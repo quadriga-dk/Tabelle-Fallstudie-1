@@ -37,10 +37,10 @@ parts:
     - file: Markdown/24_Reflexion_Datenmanipulation
   - caption: 6. Datenmanipulation II
     chapters:
-    - file: Markdown/19_Datenmanipulation
+    - file: Markdown/23_Einleitung_DatenmanipulationII
     - file: Markdown/22_Übung_Reproduzierbarkeit
     - file: Markdown/23_Übung_Zeitreihe
-    - file: Markdown/24_Reflexion_Datenmanipulation
+    - file: Markdown/27_Reflexion_DatenmanipulationII
   - caption: 7. Zusammenfassung
     chapters:
     - file: Markdown/25_Reflexion
