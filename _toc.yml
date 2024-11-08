@@ -48,7 +48,7 @@ parts:
     chapters:
     - file: Markdown/26_Danksagung
     - file: Markdown/Literaturverzeichnis
-   - caption: 9. Altes Kapitel Datenmanipulation
+  - caption: 9. Altes Kapitel Datenmanipulation
     chapters:
     - file: Markdown/19_Alt_Datenmanipulation
     - file: Markdown/20_Alt_Datenstruktur
