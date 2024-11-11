@@ -1,7 +1,7 @@
 (Übung_csv)=
 # Übung: Arbeiten mit CSV-Dateien in R
 
-## 1 Vorwort
+## Vorwort
 
 Die folgende Lerneinheit soll Ihnen den Ersteinstieg in die
 Computersprache **R** erleichtern.  
@@ -71,7 +71,7 @@ dazugehörige Package durch den Befehl
 ```
 ------------------------------------------------------------------------
 
-## 2 Einleitung
+## Einleitung
 
 > Für Computersprachen gilt allgemein: Es gibt nie nur einen Weg zum
 > Ziel. Unterschiedliche Befehle können Sie zum gleichen Ziel bringen.
@@ -162,7 +162,7 @@ Wenn Sie die Bedeutung und Syntax eines Befehls besser verstehen wollen, empfiel
 ```
 ------------------------------------------------------------------------
 
-## 3 Daten sichten
+## Daten sichten
 
 Es ist immer ratsam, einen ersten Blick auf die Daten zu werfen, um
 deren Struktur zu verstehen. Dazu verwenden Sie folgenden Befehl:  
@@ -319,7 +319,7 @@ werfen Sie gerne einen Blick in das Kapitel  [Tidy Data Struktur](https://quadri
 
 ------------------------------------------------------------------------
 
-## 4 Daten aufbereiten 
+## Daten aufbereiten 
 
 Im folgenden Abschnitt werden die zuletzt erwähnten Qualitätsmängel der
 Datendarstellung behoben und die Daten zur Auswertung vorbereitet.
@@ -525,7 +525,7 @@ Es empfiehlt sich auf Befehle zur manuellen Bearbeitung zu verzichten, da die Ä
 
 ------------------------------------------------------------------------
 
-## 5 Auswertung 
+## Auswertung 
 
 Der folgende Abschnitt thematisiert Auswertungsmöglichkeiten mit Fokus
 auf Untergruppierungen und Filterfunktionen.  
