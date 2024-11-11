@@ -5,7 +5,7 @@
 
 In der vorangegangenen Übung wurden Sie mit Ansätzen zur Organisation und Strukturierung von CSV-Dateien vertraut gemacht. Der folgende Abschnitt baut auf dem Code der letzten Übung auf und thematisiert Auswertungsmöglichkeiten von CSV-Dateien in R mit Fokus auf Untergruppierungen und Filterfunktionen.
 
-````{admonition} Den Code für die Übung: Arbeiten mit CSV-Dateien in R finden sie hier: 
+````{admonition} Den Code für die Übung: Arbeiten mit CSV-Dateien in R finden Sie hier: 
 :class: tip, dropdown
 ```
 #TidyVerse Package Installation
@@ -590,3 +590,96 @@ head(Tabelle_Insgesamt_Sortiert)
     ## 6    Hauptberufl. wissenschaftl. u. kuenstler. Personal                269275   Wissenschaftliches und künstlerisches Personal     Hauptberuflich
     ## 15     Wissenschaftliche und kuenstlerische Mitarbeiter                205387   Wissenschaftliches und künstlerisches Personal     Hauptberuflich
 ```
+````{admonition} Zur Kontrolle, den kompletten Code der Übung finden Sie hier: 
+:class: tip, dropdown
+```
+#TidyVerse Package Installation
+install.packages("tidyverse")
+library(tidyverse)
+
+#Daten einlesen
+data_csv_clean <- read.csv2("21341-0001_F_2020.csv", header = FALSE, encoding = "latin1")
+
+#Ergebnisse ansehen
+head(data_csv_clean)
+
+#Umlaute entfernen
+data_csv_clean$V1 <- str_replace_all(data_csv_clean$V1, c("ä" = "ae", "ö" = "oe", "ü" ="ue", "ß" ="ss"))
+data_csv_clean$V2 <- str_replace_all(data_csv_clean$V2, c("ä" = "ae", "ö" = "oe", "ü" ="ue", "ß" ="ss"))
+
+#Ausgewählte Ergebnisse ansehen
+show(data_csv_clean[8:20,1:3])
+
+#Tabelle unterteilen
+Metadaten <- data_csv_clean[c(1:6, 87:88), 1]
+Tabellendaten <- data_csv_clean[8:85, 1:3]
+
+#Spaltenüberschriften setzen
+colnames(Tabellendaten) <- c("Angestelltenverhaeltnis", "Geschlecht", "Angestelltenzahl_2020")
+
+#Nummerierung neu setzen
+row.names(Tabellendaten) <- 1:78
+
+#Ergebnis ansehen
+head(Tabellendaten) 
+
+#Variablenklassen bestimmen
+class(Tabellendaten$Angestelltenverhaeltnis) #sollte als character oder factor gelesen werden
+class(Tabellendaten$Geschlecht) #sollte als character oder factor gelesen werden
+class(Tabellendaten$Angestelltenzahl_2020) #sollte als numerisch oder integer gelesen werden
+
+#Variablenklassen ändern
+Tabellendaten$Angestelltenzahl_2020 <- as.integer(Tabellendaten$Angestelltenzahl_2020)
+
+#Maximalwert anzeigen lassen
+max(Tabellendaten$Angestelltenzahl_2020, na.rm = TRUE)
+
+#Variablen sichten
+unique(Tabellendaten$Angestelltenverhaeltnis)
+
+#Neue Variablen erstellen
+#1.Ebene: Neue Variable "Personalkategorie"
+Tabellendaten$Personalkategorie <- c(NA)
+#2.Ebene: Neue Variable "Art der Anstellung"
+Tabellendaten$Art_der_Anstellung <- c(NA)
+
+#Einpflegen des Variableninhalts
+#1.Ebene
+Tabellendaten$Personalkategorie[76:78] <- "Insgesamt"
+Tabellendaten$Personalkategorie[1:30] <- "Wissenschaftliches und künstlerisches Personal"
+Tabellendaten$Personalkategorie[31:75] <- "Verwaltungs-, technisches und sonstiges Personal"
+#2.Ebene
+Tabellendaten$Art_der_Anstellung[c(1:3, 31:33, 76:78)] <- "Insgesamt"
+Tabellendaten$Art_der_Anstellung[c(4:18,34:66)] <- "Hauptberuflich"
+Tabellendaten$Art_der_Anstellung[c(19:30,67:75)] <- "Nebenberuflich"
+
+#Unterkategorisieren
+#Geschlecht
+Tabelle_maennlich <- subset(Tabellendaten, Geschlecht == "maennlich")
+Tabelle_weiblich <- subset(Tabellendaten, Geschlecht == "weiblich")
+Tabelle_Insgesamt <- subset(Tabellendaten, Geschlecht == "Insgesamt")
+
+#Redundante Tabelle entfernen
+Tabelle_Insgesamt <- subset(Tabelle_Insgesamt, select= c(-Geschlecht))
+
+#Tabellendaten filtern
+#Nach Angestelltenzahl unter 5000 filtern
+filter(Tabelle_Insgesamt, Tabelle_Insgesamt$Angestelltenzahl_2020 <= 5000)
+#Nach weiblichen Wiss.& Künstl.Personal filtern
+filter(Tabellendaten, Tabellendaten$Personalkategorie == "Wissenschaftliches und künstlerisches Personal" & Tabellendaten$Geschlecht == "weiblich" )
+#Filtern nach niedrigstem Wert
+filter(Tabellendaten, Tabellendaten$Angestelltenzahl_2020 == min(Tabellendaten$Angestelltenzahl_2020, na.rm = TRUE))
+
+#Fehlerbehebung Leerzeichen entfernen
+Tabellendaten$Angestelltenverhaeltnis <- trimws(Tabellendaten$Angestelltenverhaeltnis)
+
+#Filter nach 'Professoren'
+filter(Tabellendaten, Tabellendaten$Angestelltenverhaeltnis == "Professoren")
+
+#Sortieren von Tabellendaten
+Tabelle_Insgesamt_Sortiert <- Tabelle_Insgesamt[order(Tabelle_Insgesamt$Angestelltenzahl_2020, decreasing = TRUE),]
+
+#Ergebnis ansehen
+head(Tabelle_Insgesamt_Sortiert)
+```
+````
