@@ -523,9 +523,9 @@ edit(Tabellendaten)
 Es empfiehlt sich auf Befehle zur manuellen Bearbeitung zu verzichten, da die Änderungen nicht im **R Skript** oder der **Console** angezeigt und somit **nicht nachvollzogen** werden können!  
 ```
 
-```{admonition} Den Zusammenhängenden Code für diese Übung zur Fehlerkontrolle finden Sie hier: 
+````{admonition} Zur Fehlerkontrolle: Den zusammenhängenden Code der Übung finden sie hier: 
 :class: tip, dropdown
-
+```
 #TidyVerse Package Installation
 install.packages("tidyverse")
 library(tidyverse)
@@ -556,3 +556,4 @@ row.names(Tabellendaten) <- 1:78
 #Ergebnis ansehen
 head(Tabellendaten) 
 ```
+````
