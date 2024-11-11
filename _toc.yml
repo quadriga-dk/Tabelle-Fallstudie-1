@@ -34,6 +34,7 @@ parts:
     - file: Markdown/19_Datenmanipulation
     - file: Markdown/20_Datenstruktur
     - file: Markdown/21_Einstieg_R
+    - file: Markdown/22_Übung_Auswertung
     - file: Markdown/24_Reflexion_Datenmanipulation
   - caption: 6. Datenmanipulation II
     chapters:
