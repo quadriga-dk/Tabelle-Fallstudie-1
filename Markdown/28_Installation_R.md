@@ -1,5 +1,5 @@
 (Installation_R-Studio)=
-### Installieren von R und R-Studio
+## Installieren von R und R-Studio
 
 Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte
 vorab **R**. Zudem benötigen Sie eine geeignete Entwicklungsumgebung.
@@ -11,8 +11,6 @@ Die folgenden Übungen sind auf der Basis von R 4.4.1 entwickelt worden und wurd
 
 ------------------------------------------------------------------------
 
-```{admonition} Eine Anleitung für die ersten Schritte mit R Studio finden Sie hier: 
-:class: tip, dropdown
 ## Erste Schritte in R-Studio
 
 **Neues R Skript anlegen**  
@@ -56,4 +54,4 @@ dazugehörige Package durch den Befehl
 `install.packages("*Packagename*")` installiert und durch den Befehlt
 `library(*Packagename*)`geladen haben *(Dazu mehr im folgenden Abschnitt
 **Einleitung**)*.  
-```
+
