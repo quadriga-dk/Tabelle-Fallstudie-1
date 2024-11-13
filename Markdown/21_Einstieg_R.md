@@ -3,7 +3,7 @@
 
 ## Vorwort
 
-Die folgende Lerneinheit soll Ihnen den Ersteinstieg in die Programmiersprache **R** erleichtern. Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte **RStudio**, einem Programm in dem Sie mit **R** arbeiten können. Hinweise zur Installation finden Sie [hier](https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/28_Installation_R.html).  
+Die folgende Lerneinheit soll Ihnen den Ersteinstieg in die Programmiersprache **R** erleichtern. Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte **R** und **RStudio**. Hinweise zur Installation finden Sie [hier](https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/28_Installation_R.html).  
 Als Fallbeispiel wird eine CSV-Datei mit Rohdaten zum *Personalstand an Hochschulen* eingelesen und ausgewertet. Entweder haben Sie diese Datei schon in [Kapitel 3](https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/11_XLSXundCSV.html) heruntergeladen oder Sie klicken [hier](21341-0001_F_2020.csv) um die CSV-Datei aus unserem Repositorium direkt herunterzuladen (Quelle: Statistisches Bundesamt 2022).  
 
 ------------------------------------------------------------------------
