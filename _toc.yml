@@ -49,14 +49,9 @@ parts:
     chapters:
     - file: Markdown/26_Danksagung
     - file: Markdown/Literaturverzeichnis
-  - caption: 9. Altes Kapitel Datenmanipulation
+  - caption: 9. R-Installation
     chapters:
-    - file: Markdown/19_Alt_Datenmanipulation
-    - file: Markdown/20_Alt_Datenstruktur
-    - file: Markdown/21_Alt_Einstieg_R
-    - file: Markdown/22_Alt_Übung_Reproduzierbarkeit
-    - file: Markdown/23_Alt_Übung_Zeitreihe
-    - file: Markdown/24_Alt_Reflexion_Datenmanipulation
+    - file: Markdown/28_Installation_R
   - caption: 9. Test von R
     chapters:
     - file: R_Lerneinheit
