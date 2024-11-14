@@ -121,7 +121,7 @@ filter(Tabellendaten, Tabellendaten$Angestelltenverhaeltnis == "Professoren" & T
 
 ```
 ##  Angestelltenverhaeltnis Geschlecht Angestelltenzahl_2020                              Personalkategorie Art_der_Anstellung
-## 1             Professoren  Insgesamt                 49293 Wissenschaftliches und künstlerisches Personal     Hauptberuflich
+## 1             Professoren  Insgesamt                 49293 Wissenschaftliches und kuenstlerisches Personal     Hauptberuflich
 ```
 
 Wie Sie erkennen können, stimmt die Angestelltenzahl von 49293 mit der aus dem Kreisdiagramm überein.
@@ -134,7 +134,7 @@ Professoren_Insgesamt <- filter(Tabellendaten, Tabellendaten$Angestelltenverhael
 Für Nebenberufliche Mitarbeiter:innen gehen Sie analog vor:
 
 ```
-Nebenberuflich_Insgesamt <- filter(Tabellendaten, Tabellendaten$Angestelltenverhaeltnis == "Nebenberufl. wissenschaftl. u. künstler. Personal" & Tabellendaten$Geschlecht == "Insgesamt")
+Nebenberuflich_Insgesamt <- filter(Tabellendaten, Tabellendaten$Angestelltenverhaeltnis == "Nebenberufl. wissenschaftl. u. kuenstler. Personal" & Tabellendaten$Geschlecht == "Insgesamt")
 
 #Wert anzeigen lassen
 Nebenberuflich_Insgesamt
@@ -171,7 +171,7 @@ Sie haben nun die einzelnen Datenwerte abgespeichert. Damit Sie diese für ein K
 Hierzu erstellen Sie zunächst einen Vektor mit den passenden Bezeichnungen (Grundlage: Legende der Originalabbildung).
 
 ```
-Personalgruppe <- c("Wissenschaftliche und künstlerische Mitarbeiter:innen", "Professor:innen", "Nebenberufliche Mitarbeiter:innen")
+Personalgruppe <- c("Wissenschaftliche und kuenstlerische Mitarbeiter:innen", "Professor:innen", "Nebenberufliche Mitarbeiter:innen")
 ```
 
 Nun erzeugen Sie einen zweiten Vektor, welcher die abgespeicherten Datenwerte zu den jeweiligen Personalgruppen enthält.\
@@ -235,7 +235,7 @@ Aus dem erzeugten Dataframe können Sie sich nun ein Kreisdiagramm erstellen las
 Lassen Sie sich nicht von der Länge des folgenden Codes abschrecken. Jede einzelne Zeile spezifiziert den Aufbau des Kreisdiagramms. Wenn Sie weitere Details zu bestimmten Befehlen erfahren wollen, schlagen Sie diese in der R-Dokumentation nach (z.B. `?geom_label()`) oder lassen Sie mal bestimmte Zeilen weg, um nachzugucken, was sich am Output verändert.
 
 ```
-ggplot(Daten_kreisdiagramm, aes(x="", y=Absolute_Werte, fill=Arbeitsverhältnis))+ #Setzen der Datenbasis
+ggplot(Daten_kreisdiagramm, aes(x="", y=Absolute_Werte, fill=Personalgruppe))+ #Setzen der Datenbasis
   geom_bar(stat="identity")+ #Setzen wie die Werte verarbeitet werden sollen
   coord_polar("y")+ #Zusatz für Kreisdiagramme
   theme_void()+ #Hintergrund wird weiß eingefärbt
@@ -264,4 +264,141 @@ Bis auf kleine Schönheitsfehler fällt im direkten Vergleich kein Unterschied a
 
 **Das Kreisdiagramm ist somit mittels der Primärquelle reproduzierbar!**
 
+````{admonition} Zur Kontrolle. Den kompletten Code der Übung finden Sie hier: 
+:class: tip, dropdown
+```
+#Benötigtes Package zum Start der Session laden, damit alle hier verwendeteten Befehle verfügbar sind
+library(tidyverse) 
 
+#Daten einlesen
+data_csv_clean <- read.csv2("21341-0001_F_2020.csv", header = FALSE, encoding = "latin1")
+
+#Ergebnisse ansehen
+head(data_csv_clean)
+
+#Umlaute entfernen
+data_csv_clean$V1 <- str_replace_all(data_csv_clean$V1, c("ä" = "ae", "ö" = "oe", "ü" ="ue", "ß" ="ss"))
+data_csv_clean$V2 <- str_replace_all(data_csv_clean$V2, c("ä" = "ae", "ö" = "oe", "ü" ="ue", "ß" ="ss"))
+
+#Ausgewählte Ergebnisse ansehen
+show(data_csv_clean[8:20,1:3])
+
+#Tabelle unterteilen
+Metadaten <- data_csv_clean[c(1:6, 87:88), 1]
+Tabellendaten <- data_csv_clean[8:85, 1:3]
+
+#Spaltenüberschriften setzen
+colnames(Tabellendaten) <- c("Angestelltenverhaeltnis", "Geschlecht", "Angestelltenzahl_2020")
+
+#Nummerierung neu setzen
+row.names(Tabellendaten) <- 1:78
+
+#Ergebnis ansehen
+head(Tabellendaten) 
+
+#Variablenklassen bestimmen
+class(Tabellendaten$Angestelltenverhaeltnis) #sollte als character oder factor gelesen werden
+class(Tabellendaten$Geschlecht) #sollte als character oder factor gelesen werden
+class(Tabellendaten$Angestelltenzahl_2020) #sollte als numerisch oder integer gelesen werden
+
+#Variablenklassen ändern
+Tabellendaten$Angestelltenzahl_2020 <- as.integer(Tabellendaten$Angestelltenzahl_2020)
+
+#Maximalwert anzeigen lassen
+max(Tabellendaten$Angestelltenzahl_2020, na.rm = TRUE)
+
+#Variablen sichten
+unique(Tabellendaten$Angestelltenverhaeltnis)
+
+#Neue Variablen erstellen
+#1.Ebene: Neue Variable "Personalkategorie"
+Tabellendaten$Personalkategorie <- c(NA)
+#2.Ebene: Neue Variable "Art der Anstellung"
+Tabellendaten$Art_der_Anstellung <- c(NA)
+
+#Einpflegen des Variableninhalts
+#1.Ebene
+Tabellendaten$Personalkategorie[76:78] <- "Insgesamt"
+Tabellendaten$Personalkategorie[1:30] <- "Wissenschaftliches und künstlerisches Personal"
+Tabellendaten$Personalkategorie[31:75] <- "Verwaltungs-, technisches und sonstiges Personal"
+#2.Ebene
+Tabellendaten$Art_der_Anstellung[c(1:3, 31:33, 76:78)] <- "Insgesamt"
+Tabellendaten$Art_der_Anstellung[c(4:18,34:66)] <- "Hauptberuflich"
+Tabellendaten$Art_der_Anstellung[c(19:30,67:75)] <- "Nebenberuflich"
+
+#Unterkategorisieren
+#Geschlecht
+Tabelle_maennlich <- subset(Tabellendaten, Geschlecht == "maennlich")
+Tabelle_weiblich <- subset(Tabellendaten, Geschlecht == "weiblich")
+Tabelle_Insgesamt <- subset(Tabellendaten, Geschlecht == "Insgesamt")
+
+#Redundante Tabelle entfernen
+Tabelle_Insgesamt <- subset(Tabelle_Insgesamt, select= c(-Geschlecht))
+
+#Tabellendaten filtern
+#Fehlerbehebung Leerzeichen entfernen
+Tabellendaten$Angestelltenverhaeltnis <- trimws(Tabellendaten$Angestelltenverhaeltnis)
+
+#Filter nach 'Professoren'
+filter(Tabellendaten, Tabellendaten$Angestelltenverhaeltnis == "Professoren" & Tabellendaten$Geschlecht == "Insgesamt")
+
+#Abspeichern Professoren
+Professoren_Insgesamt <- filter(Tabellendaten, Tabellendaten$Angestelltenverhaeltnis == "Professoren" & Tabellendaten$Geschlecht == "Insgesamt")
+
+#Abspeichern Nebenberuflich
+Nebenberuflich_Insgesamt <- filter(Tabellendaten, Tabellendaten$Angestelltenverhaeltnis == "Nebenberufl. wissenschaftl. u. kuenstler. Personal" & Tabellendaten$Geschlecht == "Insgesamt")
+
+#Wert anzeigen lassen
+Nebenberuflich_Insgesamt
+
+Professoren_Insgesamt <- filter(Tabellendaten, Tabellendaten$Angestelltenverhaeltnis == "Professoren" &
+                                  Tabellendaten$Geschlecht == "Insgesamt")
+
+Hauptberuflich_Insgesamt <- filter(Tabellendaten, Tabellendaten$Angestelltenverhaeltnis == "Hauptberufl. wissenschaftl. u. kuenstler. Personal" &
+                                     Tabellendaten$Geschlecht == "Insgesamt")
+
+Hauptberuflich_exlusive_Professoren <- Hauptberuflich_Insgesamt$Angestelltenzahl_2020 - Professoren_Insgesamt$Angestelltenzahl_2020
+
+#Wert anzeigen lassen
+Hauptberuflich_exlusive_Professoren
+
+#Vektor ertsellen mit Namen Personalgruppe
+Personalgruppe <- c("Wissenschaftliche und kuenstlerische Mitarbeiter:innen", "Professor:innen", "Nebenberufliche Mitarbeiter:innen")
+
+#Zweiter Vektor Datenwerte Personalgruppen 
+Absolute_Werte <- c(Hauptberuflich_exlusive_Professoren, Professoren_Insgesamt$Angestelltenzahl_2020, 
+                    Nebenberuflich_Insgesamt$Angestelltenzahl_2020)
+
+#Dataframe
+Daten_kreisdiagramm <- data.frame(Personalgruppe, Absolute_Werte)
+
+#Dataframe anzeigen lassen
+Daten_kreisdiagramm
+
+#Varibale "Prozent" erzeugen 
+Daten_kreisdiagramm$Prozent <- paste(round(Daten_kreisdiagramm$Absolute_Werte/sum(Daten_kreisdiagramm$Absolute_Werte)*100,0), "%")
+
+#Absolute Werte und Prozentwerte kombinieren 
+Daten_kreisdiagramm$Werte_kombiniert <- paste(Daten_kreisdiagramm$Absolute_Werte, sep = " | ", Daten_kreisdiagramm$Prozent)
+
+#Neue Variablen begutachten
+Daten_kreisdiagramm
+
+#Tausenderpunkte im Kreisdiagramm
+Daten_kreisdiagramm$Werte_kombiniert <- prettyNum(Daten_kreisdiagramm$Werte_kombiniert, big.mark = ".", decimal.mark = ",")
+
+#ggplot zur Visualisierung des Kreisdiagramms
+ggplot(Daten_kreisdiagramm, aes(x="", y=Absolute_Werte, fill=Personalgruppe))+ #Setzen der Datenbasis
+  geom_bar(stat="identity")+ #Setzen wie die Werte verarbeitet werden sollen
+  coord_polar("y")+ #Zusatz für Kreisdiagramme
+  theme_void()+ #Hintergrund wird weiß eingefärbt
+  scale_fill_manual(values = c("#FF9900", "#333399", "#CC0033"))+ #Farben für einzelne Diagrammteile setzen. Farbcodes sind online abrufbar.
+  ggtitle("Hochschulen insgesamt")+ #Überschrift setzen
+  geom_label(aes(label=Werte_kombiniert), #Beschriftung setzen
+             position = position_stack(vjust = 0.5), #Position der Beschriftung setzen
+             color="white", #Schriftfarbe setzen
+             label.size = 0, #Größe des Randes um Beschriftung setzen
+             size=4, #Schriftgröße setzen
+             show.legend = FALSE) #Beschriftung soll nicht in der Legende angezeigt werden
+```
+````
