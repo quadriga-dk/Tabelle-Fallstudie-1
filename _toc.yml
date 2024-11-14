@@ -29,14 +29,14 @@ parts:
     - file: Markdown/16_Linked-Data
     - file: Markdown/17_Übung_PID
     - file: Markdown/18_Reflexion_Identifikatoren
-  - caption: 5. Datenmanipulation
+  - caption: 5. Datenmanipulation (Organisation und Strukturierung)
     chapters:
     - file: Markdown/19_Datenmanipulation
     - file: Markdown/20_Datenstruktur
     - file: Markdown/21_Einstieg_R
     - file: Markdown/22_Übung_Auswertung
     - file: Markdown/24_Reflexion_Datenmanipulation
-  - caption: 6. Datenmanipulation II
+  - caption: 6. Datenmanipulation (Analyse und Reproduktion)
     chapters:
     - file: Markdown/23_Einleitung_DatenmanipulationII
     - file: Markdown/22_Übung_Reproduzierbarkeit
