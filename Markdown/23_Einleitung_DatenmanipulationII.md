@@ -1,4 +1,4 @@
-(Datenmanipulation (Visualisierung und Reproduktion))=
+(Datenmanipulation (Analyse und Reproduktion))=
 # Einleitung: Datenmanipulation (Analyse und Reproduktion)
 
 ```{admonition} Verifizierung und Aufbereitung
