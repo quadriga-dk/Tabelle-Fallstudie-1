@@ -8,7 +8,7 @@ Doch wie steht es eigentlich um unsere Forschungsfrage:
 
 Um diese Frage beantworten zu können, reicht unsere Raw-Data Datei nicht aus, da diese nur die Daten für das Jahr 2020 enthält.
 Das Open-Data-Portal von [Destatis](https://www-genesis.destatis.de) bietet jedoch auch die Möglichkeiten, die Daten für alle Jahre von 2010 bis 2020 herunterzuladen
-oder Sie laden den Datensatz [hier](21341-0001_F_2010-2020.csv) direkt aus unserem Repositorium hierunter.
+oder Sie laden den Datensatz [hier](Data/21341-0001_F_2010-2020.csv) direkt aus unserem Repositorium hierunter.
 
 ## Daten vorbereiten
 
