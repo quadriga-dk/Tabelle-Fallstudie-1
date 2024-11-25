@@ -52,6 +52,4 @@ parts:
   - caption: 9. R-Installation
     chapters:
     - file: Markdown/28_Installation_R
-  - caption: 9. Test von R
-    chapters:
-    - file: R_Lerneinheit
+
