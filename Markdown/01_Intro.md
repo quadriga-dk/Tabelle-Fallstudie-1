@@ -2,7 +2,7 @@
 ## Entwicklung des Hochschulpersonals in Deutschland 
 
 
-![](_images/Collage_2.png)
+![](_images/Titelseite_Leonardo_PieChart.png)
 Abbildung 1: Collage aus Bildern, die beispielhaft für die in diesem JupyterBook behandelten Themen stehen.
 
 
