@@ -2,7 +2,7 @@
 ## Entwicklung des Hochschulpersonals in Deutschland 
 
 
-![](_images/Titelbild_Übersicht_Übung.png)
+![](_images/)
 *Abbildung 1: Collage, die beispielhaft für die in diesem JupyterBook behandelten Themen steht.*
 
 
