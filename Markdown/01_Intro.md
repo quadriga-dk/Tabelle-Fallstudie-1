@@ -2,8 +2,8 @@
 ## Entwicklung des Hochschulpersonals in Deutschland 
 
 
-![](_images/Titelseite_Leonardo_PieChart.png)
-Abbildung 1: Titelbild, das beispielhaft für die in diesem JupyterBook behandelten Themen steht.
+![](_images/Titelbild_Übersicht_Übungen.png)
+*Abbildung 1: Collage, die beispielhaft für die in diesem JupyterBook behandelten Themen steht.*
 
 
 Diese Fallstudie bildet mit Hilfe eines <a href="https://jupyterbook.org/en/stable/intro.html" target="_blank">JupyterBooks</a> einen Forschungsverlauf in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
