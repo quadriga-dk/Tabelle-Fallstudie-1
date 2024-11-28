@@ -1,7 +1,7 @@
 (Einleitung_Datenzitierung)=
 # Forschungsdaten zitieren
 
-```{admonition} Datenzitierung und PID
+```{admonition} Lernziel: Datenzitierung und PID
 :class: keypoints
 - Die Lernenden kennen die allgemein anerkannten Methoden der Datenzitierung.
 - Die Lernenden sind in der Lage, persistente Identifikatoren zu nennen und zu erkennen.
