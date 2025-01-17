@@ -2,9 +2,9 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Fallstudie I - Tabelle 
-author: Datenkompetenzzentrum QUADRIGA
+author: Jana Plomin, Juliane Schmeling, Anton Schulze, Paul Walter
 logo: quadriga-logo.jpeg
-copyright: http://www.apache.org/licenses/LICENSE-2.0 
+copyright: "2024, QUADRIGA" 
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, README.md]
 
 # Force re-execution of notebooks on each build.
