@@ -6,7 +6,7 @@
 In der vorangegangenen Übung wurden Sie mit Ansätzen zur Organisation und Strukturierung von CSV-Dateien vertraut gemacht. Der folgende Abschnitt baut auf dem Code der letzten Übung auf und thematisiert Auswertungsmöglichkeiten von CSV-Dateien in R mit Fokus auf Untergruppierungen und Filterfunktionen.
 
 ````{admonition} Den Code für die Übung: Arbeiten mit CSV-Dateien in R finden Sie hier: 
-:class: tip, dropdown
+:class: hinweis, dropdown
 ```
 #TidyVerse Package Installation
 install.packages("tidyverse")
@@ -90,7 +90,7 @@ passend. Die Variable “Angestelltenzahl_2020” wird jedoch auch als
 bestimmte Auswertungen nicht möglich sind und Fehler entstehen können.  
 
 `````{admonition} Tipp
-:class: tip
+:class: keypoint
 Im *Environment* Fenster können Sie die Variablenklassen ebenfalls schnell einsehen.
 `````
   
@@ -150,6 +150,7 @@ max(Tabellendaten$Angestelltenzahl_2020, na.rm = TRUE)
 
 
 `````{admonition} Wichtig!
+:class: hinweis
 Überprüfen Sie immer die Art der Variablenklasse, welche **R** Ihren Daten zuweist und ändern Sie dies gegebenenfalls, um Fehler zu vermeiden.
 `````
 
@@ -236,6 +237,7 @@ anders möglich.
 
 
 ```{admonition} Wichtig!
+:class: hinweis
 Wenn Sie Daten generieren, strukturieren Sie diese immer gut. Dies erleichtert Ihnen selbst, aber auch allen anderen, die Ihre Daten verwenden, das Arbeiten! Eine gute Struktur von Daten liefert der Tidy-Data Ansatz (s. Kapitel [Tidy Data](Tidy_data)).
 ```
  
@@ -591,7 +593,7 @@ head(Tabelle_Insgesamt_Sortiert)
     ## 15     Wissenschaftliche und kuenstlerische Mitarbeiter                205387   Wissenschaftliches und künstlerisches Personal     Hauptberuflich
 ```
 ````{admonition} Zur Kontrolle, den kompletten Code der Übung finden Sie hier: 
-:class: tip, dropdown
+:class: hinweis, dropdown
 ```
 #TidyVerse Package Installation
 install.packages("tidyverse")

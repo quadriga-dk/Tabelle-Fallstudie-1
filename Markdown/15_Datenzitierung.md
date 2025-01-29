@@ -2,7 +2,7 @@
 # Forschungsdaten zitieren
 
 ```{admonition} Lernziel: Datenzitierung und PID
-:class: keypoints
+:class: lernziele
 - Die Lernenden kennen die allgemein anerkannten Methoden der Datenzitierung.
 - Die Lernenden sind in der Lage, persistente Identifikatoren zu nennen und zu erkennen.
 ``` 
@@ -33,7 +33,7 @@ Wenn Sie Daten selbst zur Verfügung stellen, sollten Sie alle Beteiligten benen
 
 
 ```{admonition} Weitere Informationen
-:class: tip
+:class: seealso
 Zusätzliche Informationen zum Thema Datenzitierung finden Sie auf
 - der Informationsplattform <a href="https://forschungsdaten.info/themen/finden-und-nachnutzen/zitieren-von-daten/" target="_blank">forschungsdaten.info</a>
 - der Webseite von <a href="https://forschungsdaten.info/themen/finden-und-nachnutzen/zitieren-von-daten/" target="_blank">Auffinden, Zitieren, Dokumentieren</a> von ZBW, Gesis und RatSWD

@@ -2,8 +2,8 @@
 
 Die Struktur eines Datensatzes prägt maßgeblich dessen maschinelle Lesbarkeit und Auswertungsmöglichkeiten. Für eine effiziente Datenmanipulation bedarf es eines gut strukturierten Datensatzes. In den meisten Fällen haben Sie jedoch nicht nur einen Datensatz, sondern ganz viele. Daher kommt folgende Frage auf:
 
-```{note}
-:class: tip
+```{admonition} Frage
+:class: lernziele
 Worauf sollte bei einer guten Datenorganisation und -strukturierung geachtet werden? 
 ```
 
@@ -18,8 +18,10 @@ Beispielhafte simple Form der Datennormalisierung:
 ![](_images/Normalisierung_Tabelle.png)  
 *Abbildung nach Niklas Lang{cite}`noauthor_what_2023`*
 
+```{admonition} Weitere Informationen
+:class: seealso
 Weitere Informationen erhalten Sie im Blog <a href="https://databasecamp.de/daten/normalisierung" target="_blank">Data Base Camp</a>, von dem wir die obige Grafik nachgenutzt haben.  
-
+```
 
 
 (Tidy_data)=
@@ -43,13 +45,15 @@ Durch Einhaltung dieser Struktur entsteht eine Tabelle, die eine schnelle, einfa
 Beispiel für keine Tidy-Data-Struktur:
 ![](_images/tidy_data_schlecht.png) 
 
-*** 
-**Quiz:**
+ 
+````{admonition} Quiz
+:class: exercise
 
 Die obige abgebildete Raw-Data-Tabelle weist mehrere Mängel auf und entspricht nicht den Maßstäben einer Tidy-Data-Struktur. Können Sie alle Fehler finden? 
 
 
-Antworten:
+```{admonition} Lösung
+:class: solution, dropdown
 - (1)	Inkonsistenz
 
 - (2)	Zellen enthalten mehr als nur einen Inhalt
@@ -63,8 +67,9 @@ Antworten:
 - (6)	Es werden Berechnungen durchgeführt
   
 - (7) Es werden optische Hervorhebungen verwendet
-
-*** 
+```
+````
+ 
 Nach Wickham (2014) sind die häufigsten Fehler im Aufbau von Datensätzen folgende:
 
 - Spaltenüberschriften sind keine vernünftigen Variablennamen sondern numerische Werte.
@@ -74,6 +79,7 @@ Nach Wickham (2014) sind die häufigsten Fehler im Aufbau von Datensätzen folge
 - Eine einzelne Beobachtungseinheit wird wiederholt in mehreren Datensätzen gespeichert.
 
 
-```{note}
+```{admonition} Hinweis
+:class: hinweis
 Nun stellt sich bei Ihnen sicherlich die Frage, wie es um unser Raw-Data-Set des Statistischen Bundesamtes steht? Weist dieses eine vorbildliche Struktur auf? Diese Frage wird in der folgenden Lerneinheit [Übung: Arbeiten mit CSV-Dateien in R](Übung_csv) beantwortet.
 ```

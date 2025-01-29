@@ -263,7 +263,7 @@ Zuletzt bleibt nun nur noch eine zusammenfassende Antwort auf unsere Forschungsf
 > Wie hat sich die Zusammensetzung des Personals an Hochschulen in Deutschland im letzten Jahrzehnt (2010-2020) entwickelt?
 
 `````{admonition} Antwort
-:class: tip
+:class: solution
 Das Personal an Hochschulen in Deutschland gliedert sich in zwei Hauptgruppen:
 
 - 1. Wissenschaftliches und künstlerisches Personal

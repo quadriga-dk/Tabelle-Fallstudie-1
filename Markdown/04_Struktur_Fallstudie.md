@@ -25,7 +25,7 @@ Das ganze JupyterBook lässt sich darüber hinaus in zwei Blöcke teilen. Den er
 
 
 ```{admonition} Ein Hinweis zur Bearbeitung
-:class: tip
+:class: hinweis
 Sie müssen die Kapitel nicht alle nacheinander durchgehen. Zwar folgt der Aufbau des JupyterBooks einem roten Faden, aber die einzelnen Kapitel sind so gestaltet, dass sie in sich geschlossen und damit einzeln absolvierbar sind.
 ```  
 

@@ -89,7 +89,7 @@ data_csv <- read.csv2(choose.files(),header = FALSE)
 ```
  
 `````{admonition} Tipp
-:class: tip
+:class: keypoint
 Wenn Sie die Bedeutung und Syntax eines Befehls besser verstehen wollen, empfielt es sich, diesen Befehl im Handbuch nachzuschlagen. Hierzu setzen Sie ein `?` vor den Befehl Ihres Interesses.
 `````
 
@@ -280,6 +280,7 @@ erreichen.
 
 
 `````{admonition} Hinweis
+:class: hinweis
 Je nach Einstellung von RStudio kommt dieses Problem ggf. nicht auf und Umlaute werden korrekt angezeigt.
 `````
 
@@ -457,11 +458,12 @@ edit(Tabellendaten)
 ```
 
 ```{admonition} Achtung!
+:class: caution
 Es empfiehlt sich auf Befehle zur manuellen Bearbeitung zu verzichten, da die Änderungen nicht im **R Skript** oder der **Console** angezeigt und somit **nicht nachvollzogen** werden können!  
 ```
 
 ````{admonition} Zur Fehlerkontrolle. Den kompletten Code der Übung finden Sie hier: 
-:class: tip, dropdown
+:class: hinweis, dropdown
 ```
 #TidyVerse Package Installation
 install.packages("tidyverse")

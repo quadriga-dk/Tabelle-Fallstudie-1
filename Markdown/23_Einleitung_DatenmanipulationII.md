@@ -2,7 +2,7 @@
 # Einleitung: Datenmanipulation (Analyse und Reproduktion)
 
 ```{admonition} Verifizierung und Aufbereitung
-:class: keypoints 
+:class: lernziele 
 - Die Lernenden kennen Qualitätsprobleme von Daten und können Fehler und Lücken in den Daten identifizieren und beheben.
 - Die Lernenden kennen Methoden der Datenaufbereitung und können diese anwenden.
 ```  
