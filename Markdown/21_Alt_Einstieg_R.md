@@ -24,7 +24,7 @@ Die folgenden Übungen sind auf der Basis von R 4.4.1 entwickelt worden und wurd
 ------------------------------------------------------------------------
 
 ```{admonition} Eine Anleitung für die ersten Schritte mit R Studio finden Sie hier: 
-:class: tip, dropdown
+:class: hinweis, dropdown
 ## Erste Schritte in R-Studio
 
 **Neues R Skript anlegen**  
@@ -152,7 +152,7 @@ data_csv <- read.csv2(choose.files(),header = FALSE)
 ```
  
 `````{admonition} Tipp
-:class: tip
+:class: keypoint
 Wenn Sie die Bedeutung und Syntax eines Befehls besser verstehen wollen, empfielt es sich, diesen Befehl im Handbuch nachzuschlagen. Hierzu setzen Sie ein `?` vor den Befehl Ihres Interesses.
 `````
 
@@ -343,6 +343,7 @@ erreichen.
 
 
 `````{admonition} Hinweis
+:class: hinweis
 Je nach Einstellung von RStudio kommt dieses Problem ggf. nicht auf und Umlaute werden korrekt angezeigt.
 `````
 
@@ -520,6 +521,7 @@ edit(Tabellendaten)
 ```
 
 ```{admonition} Achtung!
+:class: caution
 Es empfiehlt sich auf Befehle zur manuellen Bearbeitung zu verzichten, da die Änderungen nicht im **R Skript** oder der **Console** angezeigt und somit **nicht nachvollzogen** werden können!  
 ```
 
@@ -580,7 +582,7 @@ passend. Die Variable “Angestelltenzahl_2020” wird jedoch auch als
 bestimmte Auswertungen nicht möglich sind und Fehler entstehen können.  
 
 `````{admonition} Tipp
-:class: tip
+:class: keypoint
 Im *Environment* Fenster können Sie die Variablenklassen ebenfalls schnell einsehen.
 `````
   
@@ -640,6 +642,7 @@ max(Tabellendaten$Angestelltenzahl_2020, na.rm = TRUE)
 
 
 `````{admonition} Wichtig!
+:class: hinweis
 Überprüfen Sie immer die Art der Variablenklasse, welche **R** Ihren Daten zuweist und ändern Sie dies gegebenenfalls, um Fehler zu vermeiden.
 `````
 
@@ -726,6 +729,7 @@ anders möglich.
 
 
 ```{admonition} Wichtig!
+:class: hinweis
 Wenn Sie Daten generieren, strukturieren Sie diese immer gut. Dies erleichtert Ihnen selbst, aber auch allen anderen, die Ihre Daten verwenden, das Arbeiten! Eine gute Struktur von Daten liefert der Tidy-Data Ansatz (s. Kapitel [Tidy Data](Tidy_data)).
 ```
  

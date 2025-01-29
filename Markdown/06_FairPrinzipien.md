@@ -16,7 +16,7 @@ Eine **Interoperabilität** von Daten(sätzen) lässt sich einstellen, wenn Date
 Die **Wiederverwendbarkeit** von Daten lässt sich von vornherein unterstützen, indem transparent dokumentiert wird, was die Daten beinhalten. Die präzise Benennung von Daten - auch nach Konventionen - erleichtert eine Nachnutzung ebenfalls. Die Nutzung von gängigen, in der Disziplin typischen Formaten ist hier erneut zu nennen und schließlich vereinfacht zudem die Verwendung von Lizenzen die Nachnutzung von Daten erheblich, da dadurch klar definiert ist, wer welche Rechte hat und wer die Daten wie verwenden darf {cite}`hollander_parthenos_nodate`.  
 
 ```{admonition} FAIR in der Praxis
-:class: hint
+:class: keypoint
 Falls Sie sich fragen, was das mit ihrer (Daten-)Praxis zu tun hat, seien hier ein paar Stichworte genannt:
 - Eine gute Dokumentation, Aus- und Bezeichnung von Daten(sätzen) erleichtert Ihnen und Ihren Kolleg:innen das Arbeiten mit diesen - auch in Zukunft.
 - Wenn Sie eigene Forschung betreiben, werden Sie sich freuen, wenn es zu Ihrer Forschungsfrage Vergleichsdaten aus anderen Städten oder Bundesländern gibt, die Sie nachnutzen können.
@@ -24,9 +24,10 @@ Falls Sie sich fragen, was das mit ihrer (Daten-)Praxis zu tun hat, seien hier e
 - Wenn Ihre Daten nachgenutzt werden, wird Ihre Forschung unter neuen Aspekten weitergeführt. Sie bleibt dadurch länger relevant und kann zu einem wichtigen Impuls für neue Ideen werden.
 ```  
 
-**Weitere Informationen**
+```{admonition} Weitere Informationen
+:class: seealso
 
 Eine detaillierte Ausformulierung der Prinzipien auf Englisch findet sich auf der <a href="https://www.go-fair.org/fair-principles/" target="_blank">Webseite der Initiative GO FAIR</a> und eine <a href="https://zenodo.org/records/6247015" target="_blank">deutsche Übersetzung</a> der originalen Prinzipien ist bei Zenodo einsehbar {cite}`wilkinson_fair-prinzipien_2016`. 
 Zum Prüfen der so genannten FAIRness von Daten haben sich Checklisten etabliert. Eine von diesen stammt von Jones und Grootveld (2017), die ebenfalls bei <a href="https://zenodo.org/records/5111307" target="_blank">Zenodo</a> zugänglich ist {cite}`jones_how_2017`. Sie stellt die Basis für die Übung im nächsten Abschnitt dar.
-
+```
 

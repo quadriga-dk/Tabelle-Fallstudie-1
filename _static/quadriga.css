@@ -1,3 +1,6 @@
+/* font-awesome icons library */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
 /* Custom variables */
 :root {
     --quadriga-main: #00305e;
@@ -94,7 +97,6 @@ div.hinweis > .admonition-title::after {
 }
 
 /* lernziele styling */
-/* lernziele styling */
 div.lernziele {
     background-color: #f7fbff !important;
     border-left-color: #00305e !important;
@@ -155,6 +157,11 @@ div.caution > .admonition-title::after {
 .external-link:after {
     color: var(--quadriga-main);
     content: "↗";
+}
+
+/* Dark mode override for external link */
+html[data-theme='dark'] .external-link:after {
+    color: var(--quadriga-main-web);
 }
 
 /* mailto: link mit 📧 */
@@ -219,4 +226,11 @@ div.citation-information  > .admonition-title::after {
     padding-right: 0.5rem !important;
     font-size: 1 em !important;
     color: #00305e !important;
+}
+
+/* Dark mode styling for Jupyter notebook cells */
+html[data-theme='dark'] div.cell div.cell_input,
+html[data-theme='dark'] div.cell details.above-input > summary {
+    background-color: #29313d !important;
+    color: #f7fbff !important;
 }

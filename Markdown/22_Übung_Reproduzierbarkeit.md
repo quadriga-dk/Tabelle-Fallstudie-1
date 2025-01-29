@@ -2,19 +2,19 @@
 # Übung: Reproduzierbarkeit Nationaler Bildungsbericht
 
 ```{admonition} Reproduzierbarkeit und Interpretation
-:class: keypoints
+:class: lernziele
 - Die Lernenden kennen Techniken der Datenanalyse und können diese anwenden.
 - Die Lernenden können geeignete Verfahren zur Lösung einer Fragestellung ausmachen.
 - Die Lernenden können Daten in verwertbare Informationen umwandeln.
 - Die Lernenden können die Reproduzierbarkeit einer Studie evaluieren.
 - Die Lernenden sind in der Lage, die Bedeutung der Reproduzierbarkeit von Ergebnissen zu bewerten und ihre eigenen Arbeiten in diesem Kontext kritisch zu reflektieren.
 - Die Lernenden sind in der Lage, Daten in einer angemessenen Form zu visualisieren.
-```  
+``` 
 
 In dem vorangegangenen Kapitel wurden Sie  mit ersten Grundbausteinen im Arbeiten mit **R** vertraut gemacht.  Diese Fähigkeiten können Sie nutzen, um die *Reproduzierbarkeit* von Grafiken, Daten, etc. zu überprüfen.
 
 `````{admonition} Doch was genau ist eigentlich Reproduzierbarkeit?
-:class: tip
+:class: keypoint
 Der Begriff Reproduzierbarkeit umschreibt in der Wissenschaft die Möglichkeit, durch Verwenden der gleichen Ausgangsdaten und Auswertungsmethoden auf die gleichen Ergebnisse zu produzieren {cite}`noauthor_reproducibility_2019`.
 `````
 
@@ -29,6 +29,7 @@ befindet sich auf der Seite 259 folgende Abbildung:
 Wenn Sie nun das Kreisdiagramm für *"Hochschulen insgesamt"* und *"Personen"* auf Reproduzierbarkeit überprüfen möchten, benötigen Sie hierfür die Daten aus der Primärquelle. Hierzu müssen Sie nun selbst recherchieren und versuchen, die Ausgangsdaten zu finden. 
 
 ```{admonition} Achtung!
+:class: caution
 Der Bildungsbericht verweist auf einzelne Excel-Dateien als Datenbasis (Hier: "Tab. H1-9web"), welche gleichzeitig mit dem Bildungsbericht veröffenlticht werden. Eine gute wissenschaftliche Praxis verlangt jedoch, dass Sie die jeweilige Primärquelle verwenden und nicht die verlinkten Sekundärquellen. 
 ```
 
@@ -265,7 +266,7 @@ Bis auf kleine Schönheitsfehler fällt im direkten Vergleich kein Unterschied a
 **Das Kreisdiagramm ist somit mittels der Primärquelle reproduzierbar!**
 
 ````{admonition} Zur Kontrolle. Den kompletten Code der Übung finden Sie hier: 
-:class: tip, dropdown
+:class: hinweis, dropdown
 ```
 #Benötigtes Package zum Start der Session laden, damit alle hier verwendeteten Befehle verfügbar sind
 library(tidyverse) 
