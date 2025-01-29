@@ -2,7 +2,7 @@
 ## Entwicklung des Hochschulpersonals in Deutschland 
 
 
-```{figure} ../_images/Collage_3.png)
+```{figure} _images/Collage_3.png
 ---
 name: collage-covered-topics
 alt: Eine Collage aus Themenfeldern, die in diesem JupyterBook behandelt werden.
