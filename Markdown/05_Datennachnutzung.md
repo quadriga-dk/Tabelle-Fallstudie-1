@@ -2,7 +2,7 @@
 # Datennachnutzung und Qualitätsbewertung  
 
 ```{admonition} Lernziel: Grundsätze des Datenmanagements
-:class: keypoints
+:class: lernziele
 - Die Lernenden sind mit den FAIR-Prinzipien vertraut und können Datensätze auf ihre FAIRness prüfen.
 - Die Lernenden erkennen den Wert guter (Daten-)Dokumentation.
 ```  

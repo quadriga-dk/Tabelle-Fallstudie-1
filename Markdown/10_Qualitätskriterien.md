@@ -2,7 +2,7 @@
 # Qualitätskriterien
 
 ```{admonition} Lernziel: Sicherstellen der Qualität von Datensätzen
-:class: keypoints
+:class: lernziele
 - Die Anwendenden wissen, auf welchen Portalen passende Datensätze zu finden sind.
 - Die Anwendenden kennen Qualitätskriterien von Datensätzen und können diese auf neue Datensätze anwenden.
 ```  
@@ -38,10 +38,10 @@ Die inhaltliche und kontextuelle Qualität von Daten und Metadaten kann anhand v
 
 - **Zugänglichkeit:** Die Daten können auf einfache Weise abgerufen werden. Außerdem besteht eine permanente Verlinkung aller Referenzen und Links (z.B. mittels Verwendung permanenter URIs) {cite}`behkamal_metrics-driven_2014,vetro_open_2016,pipino_data_2002,vaddepalli_taxonomy_2023`.
 
-**Weitere Informationen**
-
+```{admonition} Weitere Informationen
+:class: seealso
 Zur Steigerung der Qualität von CSV-Dateien haben das Fraunhofer FOKUS und die Pumacy Technologies AG im Rahmen des NQDM-Projektes (Normentwurf für qualitativ hochwertige Daten und Metadaten) eine <a href="https://cdn0.scrvt.com/fokus/19c04efdafe63fe4/edbc85cd796a/Checkliste_NQDM_CSV.pdf" target="_blank">Checkliste</a> erarbeitet {cite}`bruns_checkliste_2019`. 
-
+```
 
 ## Qualitätsmerkmale für Statistikdaten
 
@@ -61,9 +61,9 @@ Im Rahmen des Verhaltenskodex für europäische Statistiken der Europäischen Un
 
 
 `````{admonition} Was fällt Ihnen an den beiden Auflistungen auf?
-:class: tip
+:class: exercise
 ````{admonition} Lösung
-:class: dropdown
+:class: solution, dropdown
 Zum einen überschneiden sich einige Aspekte in den Listen. So erwähnen beide beispielsweise die Genauigkeit, die Aktualität oder die Zuverlässigkeit.
 
 Zum anderen finden sich hier alle Stichworte wieder, die Sie bereits von den FAIR-Prinzipien kennen. Diesbezüglich zu nennen sind z. B. die Angabe von Metadaten nach domänenspezifischen Standards, die Auffindbarkeit, die Zugänglichkeit, die Interoperabilität (hier als Vergleich- und Kombinierbarkeit) und auch die Wiederverwendbarkeit (hier als Transparenz, Verständlichkeit, Vertrauenswürdigkeit).

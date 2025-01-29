@@ -18,8 +18,10 @@ Beispielhafte simple Form der Datennormalisierung:
 ![](_images/Normalisierung_Tabelle.png)  
 *Abbildung nach Niklas Lang{cite}`noauthor_what_2023`*
 
+```{admonition} Weitere Informationen
+:class: seealso
 Weitere Informationen erhalten Sie im Blog <a href="https://databasecamp.de/daten/normalisierung" target="_blank">Data Base Camp</a>, von dem wir die obige Grafik nachgenutzt haben.  
-
+```
 
 
 (Tidy_data)=
