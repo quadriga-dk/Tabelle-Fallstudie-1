@@ -1,11 +1,6 @@
 # Datenstruktur
 
-Die Struktur eines Datensatzes prägt maßgeblich dessen maschinelle Lesbarkeit und Auswertungsmöglichkeiten. Für eine effiziente Datenmanipulation bedarf es eines gut strukturierten Datensatzes. In den meisten Fällen haben Sie jedoch nicht nur einen Datensatz, sondern ganz viele. Daher kommt folgende Frage auf:
-
-```{admonition} Frage
-:class: lernziele
-Worauf sollte bei einer guten Datenorganisation und -strukturierung geachtet werden? 
-```
+Die Struktur eines Datensatzes prägt maßgeblich dessen maschinelle Lesbarkeit und Auswertungsmöglichkeiten. Für eine effiziente Datenmanipulation bedarf es eines gut strukturierten Datensatzes. Da Datensätze in der Regel sehr viele Daten enthalten, gilt es zuerst zu klären, worauf bei einer guten Datenorganisation und -strukturierung geachtet werden muss.  
 
 
 ## Datenorganisation
