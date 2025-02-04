@@ -78,3 +78,8 @@ Nach Wickham (2014) sind die häufigsten Fehler im Aufbau von Datensätzen folge
 :class: hinweis
 Nun stellt sich bei Ihnen sicherlich die Frage, wie es um unser Raw-Data-Set des Statistischen Bundesamtes steht? Weist dieses eine vorbildliche Struktur auf? Diese Frage wird in der folgenden Lerneinheit [Übung: Arbeiten mit CSV-Dateien in R](Übung_csv) beantwortet.
 ```
+
+## Literatur
+```{bibliography}
+:filter: docname in docnames
+```

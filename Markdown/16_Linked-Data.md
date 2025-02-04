@@ -26,3 +26,8 @@ Für die Referenzierung von Literatur und Onlinepublikationen wird das Digital O
 
 Weitere Informationen zum Thema Linked Date erhalten Sie u. a. auf der Webseite von <a href="https://web-archive.southampton.ac.uk//openorg.ecs.soton.ac.uk/wiki/Linked_Data_Basics_for_Techies.html" target="_blank">Open Org</a>, der digitalen Bildungsplattform des Hasso-Plattner-Instituts (<a href="https://open.hpi.de/courses/semanticweb2016" target="_blank">openHPI</a>) und auf <a href="https://data.europa.eu/en/training/elearning/introduction-linked-data" target="_blank">European Data</a>, einem Angebot der EU.
 ```
+
+## Literatur
+```{bibliography}
+:filter: docname in docnames
+```

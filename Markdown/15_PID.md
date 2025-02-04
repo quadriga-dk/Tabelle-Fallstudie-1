@@ -38,7 +38,10 @@ PID werden beim Upload von Daten und in der Regel von Repositorien automatisiert
 Wenn Sie mehr zum Thema PID erfahren möchten, sei Ihnen das DFG-geförderte Projekt <a href="https://www.pid-network.de/" class="external-link" target="_blank">PID-Network Deutschland</a> empfohlen, das sich der Förderung von persistenten Identifikatoren in Wissenschaft und Kultur verpflichtet.
 ```
 
-
+## Literatur
+```{bibliography}
+:filter: docname in docnames
+```
 
 
 
