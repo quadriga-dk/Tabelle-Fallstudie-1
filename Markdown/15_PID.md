@@ -29,9 +29,15 @@ PID machen wissenschaftliches Arbeiten im digitalen Raum erst möglich. Ebenso w
 
 PID sind darüber hinaus im Kontext von Linked Data (s. [Kapitel Linked Data](linked_data)) von Bedeutung, denn so lassen sich schnell und unkompliziert Verweise von einem Datensatz zu verwandten Datensätzen, zu dem/der Autor:in oder anderen Veröffentlichungen darstellen.
 
-Wenn Daten vom Portal <a href="https://www.govdata.de/" target="_blank">GovData</a>, das Ihnen sicherlich ein Begriff ist, geharvestet werden sollen, brauchen sie neben Metadaten nach dem Standard <a href="https://www.dcat-ap.de" target="_blank">DCAT-AP.de</a> einen persistenten URI. Um selbst Daten einzustellen muss man angemeldet und Mitarbeiter:in einer auf der Webseite gelisteten Institutionen sein {cite}`govdata_anleitung_2024`.
+Wenn Daten vom Portal <a href="https://www.govdata.de/" target="_blank">GovData</a>, das Ihnen sicherlich ein Begriff ist, geharvestet werden sollen, brauchen sie neben Metadaten nach dem Standard <a href="https://www.dcat-ap.de" target="_blank">DCAT-AP.de</a> einen persistenten URI. Um selbst Daten einzustellen muss man angemeldet und Mitarbeiter:in einer auf der Webseite gelisteten Institutionen sein {cite}`govdata_anleitung_2024`.  
 
-PID werden beim Upload von Daten und in der Regel von Repositorien automatisiert vergeben. Kontaktstellen an der Bibliothek einer Einrichtung können dazu unterstützen. Eine Anleitung findet sich zudem bei der <a href="https://projects.tib.eu/pid-service/tib-doi-konsortium/anleitungen-zur-doi-registrierung/" target="_blank">Technischen Informationsbibliothek (TIB)</a>.
+```{admonition} Weitere Informationen
+:class: seealso
+
+PID werden beim Upload von Daten und in der Regel von Repositorien automatisiert vergeben. Kontaktstellen an der Bibliothek Ihrer Einrichtung können Sie dazu unterstützen. Eine Anleitung findet sich zudem bei der <a href="https://projects.tib.eu/pid-service/tib-doi-konsortium/anleitungen-zur-doi-registrierung/" target="_blank">Technischen Informationsbibliothek (TIB)</a> in Hannover.
+Wenn Sie mehr zum Thema PID erfahren möchten, sei Ihnen das DFG-geförderte Projekt <a href="https://www.pid-network.de/" class="external-link" target="_blank">PID-Network Deutschland</a> empfohlen, das sich der Förderung von persistenten Identifikatoren in Wissenschaft und Kultur verpflichtet.
+```
+
 
 
 
