@@ -74,4 +74,4 @@ Zum anderen finden sich hier alle Stichworte wieder, die Sie bereits von den FAI
 
 Es zeigt sich, dass Datenqualität und Datennachnutzung eng miteinander verknüpft sind, denn wer Daten nachnutzen möchte, profitiert von qualitätvollen Daten und Metadaten. 
 
-Im nächsten Abschnitt lernen Sie mit dem 5-Sterne-Modell ein weiteres Bewertungsschema für Datenqualität kennen. 
+Bevor Sie im übernächsten Abschnitt mit dem 5-Sterne-Modell ein weiteres Bewertungsschema für Datenqualität kennenlernen, lassen Sie uns im nächsten Abschnitt noch einen Blick auf das Dateiformat werfen. 
