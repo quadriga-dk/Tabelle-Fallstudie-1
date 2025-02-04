@@ -265,3 +265,7 @@ Bis auf kleine Schönheitsfehler fällt im direkten Vergleich kein Unterschied a
 
 **Das Kreisdiagramm ist somit mittels der Primärquelle reproduzierbar!**
 
+## Literatur
+```{bibliography}
+:filter: docname in docnames
+```

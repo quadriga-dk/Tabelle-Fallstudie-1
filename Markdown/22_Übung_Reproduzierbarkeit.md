@@ -403,3 +403,8 @@ ggplot(Daten_kreisdiagramm, aes(x="", y=Absolute_Werte, fill=Personalgruppe))+ #
              show.legend = FALSE) #Beschriftung soll nicht in der Legende angezeigt werden
 ```
 ````
+
+## Literatur
+```{bibliography}
+:filter: docname in docnames
+```
