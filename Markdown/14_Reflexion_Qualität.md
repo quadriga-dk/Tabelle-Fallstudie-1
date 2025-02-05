@@ -1,4 +1,4 @@
-# Resümee der Qualitätsbewertung
+# Resümee Qualitätsbewertung
 
 
 In diesem Kapitel haben Sie den Unterschied zwischen den Dateiformaten XLSX und CSV erfahren sowie Qualitätsmerkmale für Open Data und Statistikdaten kennengelernt. Darüber hinaus wurden Sie mit dem 5-Sterne-Modell vertraut gemacht, mit dem sich die Offenheit und die Kontextualität von Daten(sätzen) bewerten lässt.
