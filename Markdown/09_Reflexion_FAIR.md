@@ -8,3 +8,5 @@ Die FAIR-Prinzipien decken nur einen Teil dessen ab, was sich im Forschungsdaten
 `````
 
 Die Beantwortung der Forschungsfrage hat dieses Kapitel indirekt unterstützt. Da die Frage nach der Entwicklung des Hochschulpersonals im letzten Jahrzehnt nicht anhand eigener Datenerhebungen zu beantworten ist, muss auf bestehende Daten zurückgegriffen werden, die im Sinne der Aufgabenstellung nachgenutzt werden. Dazu war es wichtig mit den FAIR-Prinzipien die Grundsätze der Datennachnutzung bzw. des Datenmanagements kennenzulernen.
+
+<a href="https://gesellschaftfuerinformatik.limesurvey.net/745598?newtest=Y&lang=de&Git=0001" target="_blank" class="external-link" style="background-color: darkgray; padding: 14px 25px; text-align: center; color: white;">Umfrage</a>
