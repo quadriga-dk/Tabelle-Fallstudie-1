@@ -6,7 +6,7 @@ In Bezug auf die Nachnutzung von (Forschungs-)Daten wollen wir Sie hier mit den 
 *Abbildung 4: Die FAIR-Prinzipien*
 Bildquelle: The Turing Way Community, & Scriberia. (2020). Illustrations from the Turing Way book dashes. Zenodo. <a href="https://doi.org/10.5281/zenodo.3695300" target="_blank">https://doi.org/10.5281/zenodo.3695300</a>
 
-Die FAIR-Prinzipien wurden im Projekt PARTHENOS von Hollander et al. (2019) zu Richtlinien zusammengefasst, die im Folgenden - noch einmal gekürzt - vorgestellt werden {cite}`hollander_parthenos_2019`.
+Die FAIR-Prinzipien wurden im Projekt PARTHENOS von Hollander et al. (2019) zu Richtlinien zusammengefasst, die im Folgenden - noch einmal gekürzt - vorgestellt werden {cite}`hollander_parthenos_nodate`.
 
 Die **Auffindbarkeit** von Daten lässt sich zum Beispiel durch die Verwendung von Persistenten Identifikatoren (s. Kapitel [Persistent Identifier (PID)](PID)) für Daten und Datensätze wesentlich vereinfachen. Dieser Aspekt ist von zentraler Bedeutung für alle FAIR-Prinzipien. Weiterhin sollten Forschungsdaten immer mit Quellen versehen werden wie es die fachspezifischen Standards erfordern (s. Kapitel [Datenzitierung](Einleitung_Datenzitierung)). Darüber hinaus sollten die Daten mit zahlreichen Metadaten beschrieben werden, für die eine Reihe disziplinübergreifende und -spezifische Standards und Schemata vorliegen .
 
