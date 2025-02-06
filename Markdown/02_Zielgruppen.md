@@ -16,7 +16,7 @@ Dieses JupyterBook erfordert ein allgemeines Verständnis darüber, wie Datensä
 
 Für die Kapitel [2. Datennachnutzung und FAIR-Prinzipien](Datennachnutzung), [3. Qualitätsbewertung und 5-Sterne-Modell](Rohdaten) sowie [4. Identifikatoren und Linked Data](PID) werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in das Datenmanagement.
 
-Für das Kapitel [5. Datenmanipulation](Datenmanipulation) ist ein Grundinteresse bzw. -verständnis für Statistik und statistische Software hilfreich, da Sie dort mit der <a href="https://www.r-project.org" target="_blank">Software R</a> arbeiten werden. Grundlegende Kenntnisse diesbezüglich sind für dieses Kapitel von Vorteil, aber keine Voraussetzung.  
+Für die Kapitel [5. Datenmanipulation (Organisation und Strukturierung)](Datenmanipulation) und [6. Datenmanipulation (Analyse und Reproduktion)](Datenmanipulation (Analyse und Reproduktion)) werden ein Grundinteresse bzw. -verständnis für Statistik und statistische Software bzw. für das Programmieren empfohlen, da Sie dort mit der <a href="https://www.r-project.org" target="_blank">Software R</a> arbeiten werden. Grundlegende Kenntnisse in R oder anderen Programmiersprachen sind für diese Kapitel von Vorteil, aber keine zwingende Voraussetzung.  
 
 
 Die einzelnen Kapitel sind so gestaltet, dass Sie sie sowohl nacheinander als auch einzeln durchgehen können.  
