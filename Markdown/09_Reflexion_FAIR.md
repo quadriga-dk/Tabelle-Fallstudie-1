@@ -20,3 +20,7 @@ Die Beantwortung der Forschungsfrage hat dieses Kapitel indirekt unterstützt. D
           text-decoration: none;">
   Umfrage
 </a>
+  <span style="margin-left: 10px; vertical-align: middle;">
+    Um diese Lerneinheit stetig zu verbessern, bitten wir Sie am Ende jedes Kapitels einen Kurzfragebogen auszufüllen. Hier können Sie auch Unklarheiten, oder Probleme dieser QER anbringen.
+  </span>
+</div>
