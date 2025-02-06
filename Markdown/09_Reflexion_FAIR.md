@@ -18,5 +18,5 @@ Die Beantwortung der Forschungsfrage hat dieses Kapitel indirekt unterstützt. D
           color: white;
           border-radius: 8px;
           text-decoration: none;">
-  Button
+  Umfrage
 </a>
