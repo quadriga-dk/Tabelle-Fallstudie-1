@@ -24,7 +24,7 @@ from quadriga_config import colors
 
 
 Um das Kapitel Datenzitierung und Identifikatoren abzuschließen, können Sie Ihr Wissen hier in einem kleinen Quiz überprüfen.
-Das Quiz stammt von <a href="https://fair-office.at/index.php/pid/" target="_blank">FAIR Data Austria</a> und ist mit CC BY 4.0 lizensiert. Unter dem Link können Sie bei Bedarf die Originalsversion des Quiz' ausprobieren und sich ein erklärendes Video zum Thema PID ansehen, das von der RWTH Aachen erstellt wurde.
+Die Übung basiert auf einem Quiz von <a href="https://fair-office.at/index.php/pid/" target="_blank">FAIR Data Austria</a>, das mit CC BY 4.0 lizensiert ist. Unter dem Link können Sie bei Bedarf die Originalsversion des Quiz' ausprobieren und sich ein erklärendes Video zum Thema PID ansehen, das von der RWTH Aachen erstellt wurde.
 
 
 ````{code-cell} ipython3
@@ -100,13 +100,13 @@ questions = \
     'answers': [
     { 'answer': 'Damit (digitale) Ressourcen wie z.B. Forschungsdaten dauerhaft auffindbar, abrufbar und zitierbar sind.',
       'correct': True,
-      'feedback': '...'},
+      'feedback': 'Richtig. So vereinfachen PID wissenschaftliches Arbeiten.'},
     { 'answer': 'Damit mehr Verwaltungsaufwand entsteht.',
       'correct': False,
-      'feedback': '...'},
+      'feedback': 'Nein. Persistent Identifier führen nicht zu mehr Verwaltungsaufwand sondern vereinfachen die Datenverwaltung!'},
     { 'answer': 'Damit nur berechtigte Nutzer:innen auf die Daten zugreifen können.',
       'correct': False,
-      'feedback': '...'},
+      'feedback': 'Nein. PID haben keinen Einfluss auf die Nutzungsberechtigung.'},
     ]
   }
 ]
