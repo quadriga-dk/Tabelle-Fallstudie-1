@@ -18,9 +18,9 @@ Die Beantwortung der Forschungsfrage hat dieses Kapitel indirekt unterstützt. D
           color: white;
           border-radius: 8px;
           text-decoration: none;">
-  Umfrage
+  Fragebogen
 </a>
   <span style="margin-left: 10px; vertical-align: middle;">
-    Um diese Lerneinheit stetig zu verbessern, bitten wir Sie am Ende jedes Kapitels einen Kurzfragebogen auszufüllen. Hier können Sie auch Unklarheiten, oder Probleme dieser QER anbringen.
+    Um diese Lerneinheit stetig zu verbessern, bitten wir Sie am Ende jedes Kapitels einen Kurzfragebogen auszufüllen. Hier können Sie auch Unklarheiten, oder Probleme dieser QER einbringen.
   </span>
 </div>
