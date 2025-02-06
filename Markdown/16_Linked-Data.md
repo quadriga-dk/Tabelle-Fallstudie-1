@@ -9,7 +9,7 @@ Die vier Designprinzipien von Linked Data {cite}`berners-lee_linked_2006`:
 
 2. Benutzen Sie HTTP URIs, so dass diese Namen nachgeschlagen werden können.
 
-3. Wenn jemand eine URI nachschlägt, liefern Sie nützliche Informationen und nutzen Sie dabei die Standards (RDF*, SPARQL).
+3. Wenn jemand eine URI nachschlägt, liefern Sie nützliche Informationen und nutzen Sie dabei die Standards (RDF, SPARQL).
 
 4. Fügen Sie Links zu anderen URIs bei, so dass der User weitere Dinge entdecken kann.
 
