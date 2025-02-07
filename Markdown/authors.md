@@ -1,7 +1,7 @@
-(authors)=
 ---
 lang: de-DE
 ---
+(authors)=
 # Autor:innen
 
 Dieses Jupyter Book wurde erstellt von 
@@ -124,9 +124,9 @@ Dieses Jupyter Book wurde erstellt von
 <td><b>GitHub:</b></td>
 <td></a></td>
 </tr>
-</table>
+</table>  
 
-sowie 
+sowie  
 
 ## Hannes Schnaitter <span style="font-size:8pt">(er/ihm/sein)</span>
 
@@ -223,7 +223,7 @@ sowie
 <td><b>GitHub:</b></td>
 <td><a href="https://github.com/lam1aa" class="external-link" target="_blank">lam1aa</a></td>
 </tr>
-</table>
+</table>  
 
 **Danksagung**
 
