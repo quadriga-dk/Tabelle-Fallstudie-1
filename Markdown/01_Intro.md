@@ -38,7 +38,7 @@ Um diese zu beantworten, vermittelt dieses JupyterBook Kenntnisse in Bezug auf q
 
 ## Bedeutung des JupyterBooks für die Verwaltungswissenschaft
 
-Neben der Nutzung statistischer Daten in der Verwaltungswissenschaft, gewinnt die Nachnutzung von Forschungsdaten zunehmend an Bedeutung. Die in diesem JupyterBook erlernbaren Tools helfen dabei, die Reproduzierbarkeit von Analysen und Ergebnissen zu prüfen und zu bewerten. Durch die hier gezeigten Schritte der Datenmanipulation lassen sich zudem Tabellen bereinigen, um so weitere datengetriebene Analysen durchzuführen.
+Neben der Nutzung statistischer Daten in der Verwaltungswissenschaft gewinnt die Nachnutzung von Forschungsdaten zunehmend an Bedeutung. Die in diesem JupyterBook erlernbaren Tools helfen dabei, die Reproduzierbarkeit von Analysen und Ergebnissen zu prüfen und zu bewerten. Durch die hier gezeigten Schritte der Datenmanipulation lassen sich zudem Tabellen bereinigen, um so weitere datengetriebene Analysen durchzuführen.
 
 
 ## Lernziele bzw. zu erwerbende Kompetenzen  
