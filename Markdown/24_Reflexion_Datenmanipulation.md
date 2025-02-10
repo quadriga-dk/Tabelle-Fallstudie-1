@@ -7,3 +7,16 @@ Zunächst wurde eine Einführung in RStudio gegeben, wobei der Fokus darauf lag,
 Weiterhin wurde der Tidy-Ansatz zur Datenorganisation und -strukturierung vorgestellt. Dieser Ansatz betont die Wichtigkeit einer klaren und konsistenten Datenstruktur, die es erleichtert, effektive Datenanalysen durchzuführen. Es wurde vermittelt, wie man Daten sichtet, aufbereitet und Variablenklassen bestimmt und erstellt. Diese Fähigkeiten sind entscheidend, um Daten in einer Form zu organisieren, die eine maschinelle Bearbeitung und Auswertung der Daten unterstützt und vereinfacht.
 
 Abschließend lässt sich sagen, dass dieses Selbstlernmodul darauf ausgelegt war, den Teilnehmer:innen eine umfassende Einführung in die Datenmanipulation zu bieten, mit einem starken Fokus auf Datenorganisation und -strukturierung. Die Fähigkeiten, die die Teilnehmer:innen erworben haben, sind nicht nur für die Datenwissenschaft, sondern für eine Vielzahl von beruflichen und akademischen Bereichen von Bedeutung, da eigentlich jedes Datenprojekt zunächst mit einer aufwendigen Datenmanipulation und -bereinigung beginnt. Wer selbst Analyseergebnisse veröffentlicht, kann diese Lerneinheit auch dazu nutzen, Daten so bereitzustellen, dass die Datenbereinigung und -aufbereitung weniger Aufwand verursacht. 
+
+<a href="https://gesellschaftfuerinformatik.limesurvey.net/745598?newtest=Y&lang=de&Git=0004" target="_blank"
+   style="display: inline-block;
+          background-color: #818bac;
+          padding: 14px 25px;
+          text-align: center;
+          color: white;
+          border-radius: 8px;
+          text-decoration: none;">
+  Fragebogen
+</a>
+
+*Um diese Lerneinheit kontinuierlich zu verbessern, bitten wir Sie, am Ende jedes Kapitels einen Kurzfragebogen auszufüllen. So können Sie etwaige Unklarheiten oder Probleme mit dem Kapitel direkt an uns weitergeben.*
