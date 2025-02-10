@@ -29,6 +29,13 @@ PID machen wissenschaftliches Arbeiten im digitalen Raum erst möglich. Ebenso w
 
 PID sind darüber hinaus im Kontext von Linked Data (s. [Kapitel Linked Data](linked_data)) von Bedeutung, denn so lassen sich schnell und unkompliziert Verweise von einem Datensatz zu verwandten Datensätzen, zu dem/der Autor:in oder anderen Veröffentlichungen darstellen.
 
+````{margin}
+```{admonition} Hinweis
+:class: hinweis
+Harvesting (von engl. to harvest = ernten) bezeichnet das systematische Sammeln von Metadaten aus Datenbanken über Schnittstellen. Siehe auch den Eintrag auf <a href="https://www.forschungsdaten.org/index.php/Harvesting" class="external-link" target="_blank">forschungsdaten.org</a>.
+```
+````
+
 Wenn Daten vom Portal <a href="https://www.govdata.de/" target="_blank">GovData</a>, das Ihnen sicherlich ein Begriff ist, geharvestet werden sollen, brauchen sie neben Metadaten nach dem Standard <a href="https://www.dcat-ap.de" target="_blank">DCAT-AP.de</a> einen persistenten URI. Um selbst Daten einzustellen muss man angemeldet und Mitarbeiter:in einer auf der Webseite gelisteten Institutionen sein {cite}`govdata_anleitung_2024`.  
 
 ```{admonition} Weitere Informationen
