@@ -19,8 +19,9 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 
 ```{admonition} Lernziel: Datenzitierung und PID
 :class: lernziele
-- Die Lernenden kennen die allgemein anerkannten Methoden der Datenzitierung.
-- Die Lernenden sind in der Lage, persistente Identifikatoren zu nennen und zu erkennen.
+- Die Lernenden können die allgemein anerkannten Methoden der Datenzitierung beschreiben und ihre Anwendungsbereiche erklären. 
+- Die Lernenden können Persistente Identifikatoren (PIDs) definieren und ihre Rolle in der Datenzitierung erläutern. 
+- Die Lernenden können zwischen verschiedenen Arten von PIDs (z.B. DOI, ORCID) unterscheiden und ihre spezifischen Einsatzbereiche in der Verwaltungswissenschaft identifizieren.
 ``` 
 
 In einem Kapitel über Datennachnutzung darf selbstverständlich ein Abschnitt über das Zitieren von Forschungsdaten nicht fehlen. Die Zitation ist Teil der guten wissenschaftlichen Praxis {cite}`deutsche_forschungsgemeinschaft_guidelines_2022` und erfolgt analog zur Zitierung von Literatur. 
