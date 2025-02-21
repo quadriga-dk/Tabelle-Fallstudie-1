@@ -18,8 +18,8 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 
 ```{admonition} Lernziel: Sicherstellen der Qualität von Datensätzen
 :class: lernziele
-- Die Anwendenden wissen, auf welchen Portalen passende Datensätze zu finden sind.
-- Die Anwendenden kennen Qualitätskriterien von Datensätzen und können diese auf neue Datensätze anwenden.
+- Die Lernenden können zentrale Qualitätskriterien für Datensätze definieren und ihre Bedeutung für die Forschung erläutern.
+- Die Lernenden können die Qualität eines gegebenen Datensatzes anhand einer Checkliste bewerten.
 ```  
 
 Im Kapitel Datennachnutzung haben Sie erfahren, dass die FAIR-Prinzipien vor allem einen Bewertungsmaßstab zur Datennachnutzung liefern. In diesem Kapitel stehen nun die Kriterien der Qualitätsbewertung im Mittelpunkt. 
