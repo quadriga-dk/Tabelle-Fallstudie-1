@@ -17,14 +17,15 @@ Nach erfolgreichem Durchlaufen dieses JupyterNotebooks können im Erfolgsfall di
 
 ```{admonition} Sicherstellen der Qualität von Datensätzen
 :class: lernziele
-- Die Anwendenden wissen, auf welchen Portalen passende Datensätze zu finden sind.
-- Die Anwendenden kennen Qualitätskriterien von Datensätzen und können diese auf neue Datensätze anwenden.
+- Die Lernenden können zentrale Qualitätskriterien für Datensätze definieren und ihre Bedeutung für die Forschung erläutern.
+- Die Lernenden können die Qualität eines gegebenen Datensatzes anhand einer Checkliste bewerten.
 ```  
 
 ```{admonition} Zitierregeln und PID
 :class: lernziele
-- Die Lernenden kennen die allgemein anerkannten Methoden der Datenzitierung.
-- Die Lernenden sind in der Lage, persistente Identifikatoren zu nennen und zu erkennen.
+- Die Lernenden können die allgemein anerkannten Methoden der Datenzitierung beschreiben und ihre Anwendungsbereiche erklären. 
+- Die Lernenden können Persistente Identifikatoren (PIDs) definieren und ihre Rolle in der Datenzitierung erläutern. 
+- Die Lernenden können zwischen verschiedenen Arten von PIDs (z.B. DOI, ORCID) unterscheiden und ihre spezifischen Einsatzbereiche in der Verwaltungswissenschaft identifizieren.
 ```  
 
 ```{admonition} Verifizierung und Aufbereitung
