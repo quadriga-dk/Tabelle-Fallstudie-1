@@ -4,7 +4,11 @@
 format: jb-book
 root: Markdown/01_Intro
 parts:
-  - caption: 1. Einleitung
+  - caption: Präambel
+    chapters:
+      - file: Markdown/lernziele
+      - file: Markdown/technische_vorraussetzungen
+  - caption: 1. Einführung in die Fallstudie
     chapters:
     - file: Markdown/02_Zielgruppen
     - file: Markdown/03_Datenbasis
