@@ -21,11 +21,6 @@ latex:
 bibtex_bibfiles:
   - references.bib
 
-# reference style
-sphinx:
-  config:
-    bibtex_reference_style: author_year
-
 # Information about where the book exists on the web
 repository:
   url: https://github.com/quadriga-dk/Tabelle-Fallstudie-1  # Online location of your book
