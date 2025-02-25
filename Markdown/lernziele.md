@@ -28,18 +28,22 @@ Nach erfolgreichem Durchlaufen dieses JupyterNotebooks können im Erfolgsfall di
 - Die Lernenden können zwischen verschiedenen Arten von PIDs (z.B. DOI, ORCID) unterscheiden und ihre spezifischen Einsatzbereiche in der Verwaltungswissenschaft identifizieren.
 ```  
 
-```{admonition} Verifizierung und Aufbereitung
+```{admonition} Validierung und Aufbereitung
 :class: lernziele 
-- Die Lernenden kennen Qualitätsprobleme von Daten und können Fehler und Lücken in den Daten identifizieren und beheben.
-- Die Lernenden kennen Methoden der Datenaufbereitung und können diese anwenden.
+- Die Lernenden können die Unterschiede zwischen XLSX- und CSV-Dateiformaten erklären und Vor- und Nachteile für verschiedene Anwendungsfälle in der Verwaltungswissenschaft aufzeigen.
+-	Die Lernenden können den Begriff Datenmanipulation definieren und seine Bedeutung für die Qualitätsverbesserung und Informationsgewinnung aus Datensätzen erklären.
+- Die Lernenden können spezifische Datenmanipulationstechniken identifizieren und ihre Anwendung in einem gegebenen Datensatz beschreiben.
+- Die Lernenden können die Wichtigkeit einer effizienten Datenstruktur für effektive Datenmanipulation erläutern und anhand eines Beispiels demonstrieren.
 ```  
 
 ```{admonition} Reproduzierbarkeit und Interpretation
 :class: lernziele
-- Die Lernenden kennen Techniken der Datenanalyse und können diese anwenden.
-- Die Lernenden können geeignete Verfahren zur Lösung einer Fragestellung ausmachen.
+- Die Lernenden können die Wichtigkeit der sorgfältigen Dokumentation bei der Durchführung einer deskriptiven Analyse beschreiben und anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit) mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte erläutern.
 - Die Lernenden können Daten in verwertbare Informationen umwandeln.
 - Die Lernenden können die Reproduzierbarkeit einer Studie evaluieren.
 - Die Lernenden sind in der Lage, die Bedeutung der Reproduzierbarkeit von Ergebnissen zu bewerten und ihre eigenen Arbeiten in diesem Kontext kritisch zu reflektieren.
 - Die Lernenden sind in der Lage, Daten in einer angemessenen Form zu visualisieren.
-```  
+```
+
+Sie müssen die Kapitel nicht alle nacheinander durchgehen. Zwar folgt der Aufbau des JupyterBooks einem roten Faden, aber die einzelnen Kapitel sind so gestaltet, dass sie in sich geschlossen und damit einzeln absolvierbar sind.
+
