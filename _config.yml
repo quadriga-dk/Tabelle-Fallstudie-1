@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Fallstudie I - Tabelle 
-author: Jana Plomin, Juliane Schmeling, Anton Schulze, Paul Walter
+author: Jana Plomin, Juliane Schmeling, Anton Schulze, Paul Walter, Philip Wiemer
 logo: quadriga-logo.jpeg
 copyright: "2024, QUADRIGA" 
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, venv, README.md, LICENSE.md]
@@ -10,7 +10,7 @@ exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: force
+  execute_notebooks: cache
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -27,10 +27,10 @@ repository:
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
 launch_buttons:
-  notebook_interface: jupyterlab
-  thebe: true
-  binderhub_url: https://mybinder.org
+  notebook_interface: jupyterlab # remove if you don't want to use binder
+  binderhub_url: https://mybinder.org # remove if you don't want to use binder
   colab_url: https://colab.research.google.com
+  thebe: true
   
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
@@ -40,9 +40,14 @@ html:
   extra_footer: |
     <p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a>. For more detailed information please refer to <a href="https://github.com/quadriga-dk/Book_Template/blob/main/LICENSE.md">LICENSE.md</a></p>
   use_multitoc_numbering: false
-  extra_css:
-    - _static/quadriga.css
 
 sphinx:
   config:
+    bibtex_reference_style: abbrvnat.bst
     html_show_copyright: false
+    html_static_path: ['_static']
+    html_css_files:
+      - quadriga.css
+      - carousel.css
+    html_js_files:
+      - carousel.js
