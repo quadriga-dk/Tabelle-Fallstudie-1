@@ -7,7 +7,7 @@ parts:
   - caption: Präambel
     chapters:
       - file: Markdown/lernziele
-      - file: Markdown/technische_vorraussetzungen
+      - file: Markdown/technische_voraussetzungen
   - caption: 1. Einführung in die Fallstudie
     chapters:
     - file: Markdown/02_Zielgruppen
@@ -56,7 +56,4 @@ parts:
     - file: Markdown/authors
     - file: Markdown/quadriga
     - file: Markdown/impressum
-  - caption: 9. R-Installation
-    chapters:
-    - file: Markdown/28_Installation_R
 
