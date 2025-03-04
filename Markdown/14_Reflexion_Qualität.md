@@ -16,7 +16,10 @@ Ein gutes Datenmanagement erleichtert nicht nur potentiellen Nachnutzenden, sond
 `````
 
 Auf dem Weg zur Lösung der Forschungsfrage hat dieses Kapitel gezeigt, welche Rolle die Qualität von Daten bei der Datennachnutzung spielt. 
-Die Datenqualität bewerten zu können, befähigt zum einen dazu, zu entscheiden, ob sich die ausgewählten Daten überhaupt für ein anvisiertes (Forschungs-)Projekt und zur Lösung einer Fragestellung eignen. Zum anderen lässt sich so einschätzen, ob und inwieweit die Daten noch aufbereitet oder manipuliert werden müssen und ob dieser Aufwand gerechtfertigt ist. In unserem Fall müssen die Daten ein wenig manipuliert werden, was wir Ihnen im übernächsten Kapitel [Datenmanipulation](Datenmanipulation) zeigen werden.
+Die Datenqualität bewerten zu können, befähigt zum einen dazu, zu entscheiden, ob sich die ausgewählten Daten überhaupt für ein anvisiertes (Forschungs-)Projekt und zur Lösung einer Fragestellung eignen. Zum anderen lässt sich so einschätzen, ob und inwieweit die Daten noch aufbereitet oder manipuliert werden müssen und ob dieser Aufwand gerechtfertigt ist. In unserem Fall müssen die Daten ein wenig manipuliert werden, was wir Ihnen im übernächsten Kapitel [Datenmanipulation](Datenmanipulation) zeigen werden.  
+
+Am Ende dieser Lerneinheit möchten wir Sie wieder auf den Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen.
+Der Kurzfragebogen am Ende jedes Kapitels hilft uns, diese Lerneinheit kontinuierlich zu verbessern, indem Sie uns auf etwaige Unklarheiten hinweisen oder Anregungen geben. Vielen Dank!  
 
 <a href="https://gesellschaftfuerinformatik.limesurvey.net/745598?newtest=Y&lang=de&Git=0002" target="_blank"
    style="display: inline-block;
@@ -28,5 +31,3 @@ Die Datenqualität bewerten zu können, befähigt zum einen dazu, zu entscheiden
           text-decoration: none;">
   Fragebogen
 </a>
-
-*Um diese Lerneinheit kontinuierlich zu verbessern, bitten wir Sie, am Ende jedes Kapitels einen Kurzfragebogen auszufüllen. So können Sie etwaige Unklarheiten oder Probleme mit dem Kapitel direkt an uns weitergeben.*
