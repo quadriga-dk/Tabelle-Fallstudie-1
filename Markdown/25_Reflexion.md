@@ -8,7 +8,10 @@ Ein weiterer wichtiger Aspekt der Einheit war das Verständnis für persistente 
 
 Der praktische Teil der Einheit umfasste eine Einführung in RStudio, eine führende Software in der Datenanalyse. Durch die Bearbeitung von Daten mit RStudio konnten die Teilnehmer:innen praktische Fähigkeiten in der Handhabung und Analyse von Daten erwerben. Die Kombination dieser Inhalte erlaubte es den Teilnehmer:innen, ein umfassendes Verständnis der Herausforderungen und Techniken im Bereich der Reproduzierbarkeit von Datenanalysen zu entwickeln.
 
-Die Teilnehmer:innen konnten die erlernten Fähigkeiten anhand einer Fallstudie zur Entwicklung des Hochschulpersonals praktisch anwenden und so die Bedeutung einer sorgfältigen und methodischen Herangehensweise an Datenanalyseprojekte erfassen. 
+Die Teilnehmer:innen konnten die erlernten Fähigkeiten anhand einer Fallstudie zur Entwicklung des Hochschulpersonals praktisch anwenden und so die Bedeutung einer sorgfältigen und methodischen Herangehensweise an Datenanalyseprojekte erfassen.  
+
+Am Ende dieses Jupyter Notebooks möchten wir Sie auf einen Fragenbogen hinweisen, der Sie zu dem gesamten Notebook befragt. Eine Beteiligung an dieser Umfrage ist eher sinnvoll, wenn Sie das ganze Notebook durchgegangen sind, da Fragen zu allen Kapiteln gestellt werden. Das Ausfüllen des Fragebogens benötigt etwa ... Minuten. Auch zu diesem Fragebogen gelangen Sie durch einen Klick auf den Button.
+ Vielen Dank für Ihre Mitwirkung!  
 
 <a href="https://gesellschaftfuerinformatik.limesurvey.net/745598?newtest=Y&lang=de&Git=0006" target="_blank"
    style="display: inline-block;
@@ -20,5 +23,3 @@ Die Teilnehmer:innen konnten die erlernten Fähigkeiten anhand einer Fallstudie 
           text-decoration: none;">
   Fragebogen
 </a>
-
-*Um diese Lerneinheit kontinuierlich zu verbessern, bitten wir Sie, am Ende jedes Kapitels einen Kurzfragebogen auszufüllen. So können Sie etwaige Unklarheiten oder Probleme mit dem Kapitel direkt an uns weitergeben.*
