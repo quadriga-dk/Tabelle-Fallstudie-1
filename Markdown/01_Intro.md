@@ -12,7 +12,7 @@
     Geben Sie uns Feedback
 </a>
 
-Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfnisse anpassen.
+Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre Bedürfnisse anpassen.
 
 ```
 ````
@@ -39,25 +39,25 @@ Walter, P., Schulze, A., Schmeling, J., Plomin, J. & Wiemer, P. (2024). _Reprodu
 ```{figure} _images/Collage_3.png
 ---
 name: collage-covered-topics
-alt: Eine Collage aus Themenfeldern, die in diesem JupyterBook behandelt werden.
+alt: Eine Collage aus Themenfeldern, die in diesem interaktiven Lehrbuch behandelt werden.
 ---
-Collage, die beispielhaft für die in diesem JupyterBook behandelten Themen steht.
+Collage, die beispielhaft für die in diesem interaktiven Lehrbuch behandelten Themen steht.
 ```
 
 
-Diese Fallstudie bildet mit Hilfe eines <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">JupyterBooks</a> einen Forschungsverlauf in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
+Diese Fallstudie bildet mit Hilfe eines <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">Jupyter Books</a> einen Forschungsverlauf in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
 
 
 ## Fokus
 
 Im Fokus stehen dabei Daten des <a href="https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022" class="external-link" target="_blank">Nationalen Bildungsberichts (2022)</a>, anhand derer die Forschungsfrage formuliert wurde: 
 **Wie hat sich die Zusammensetzung des Personals an Hochschulen in Deutschland im letzten Jahrzehnt (2010-2020) entwickelt?**
-Um diese zu beantworten, vermittelt dieses JupyterBook Kenntnisse in Bezug auf qualitative Bewertungskriterien und Datenmanagement sowie Grundkenntnisse in der Benutzung der statistischen <a href="https://www.r-project.org" class="external-link" target="_blank">Software R</a>. Diese werden dazu eingesetzt, die Reproduzierbarkeit von datenbasierten Ergebnissen zu prüfen, um schließlich mit einer eigenen Abfrage die Forschungsfrage zu lösen.
+Um diese zu beantworten, vermittelt dieses Lehrbuch Kenntnisse in Bezug auf qualitative Bewertungskriterien und Datenmanagement sowie Grundkenntnisse in der Benutzung der statistischen <a href="https://www.r-project.org" class="external-link" target="_blank">Software R</a>. Diese werden dazu eingesetzt, die Reproduzierbarkeit von datenbasierten Ergebnissen zu prüfen, um schließlich mit einer eigenen Abfrage die Forschungsfrage zu lösen.
 
 
-## Bedeutung des JupyterBooks für die Verwaltungswissenschaft
+## Bedeutung dieses Lehrbuchs für die Verwaltungswissenschaft
 
-Neben der Nutzung statistischer Daten in der Verwaltungswissenschaft gewinnt die Nachnutzung von Forschungsdaten zunehmend an Bedeutung. Die in diesem JupyterBook erlernbaren Tools helfen dabei, die Reproduzierbarkeit von Analysen und Ergebnissen zu prüfen und zu bewerten. Durch die hier gezeigten Schritte der Datenmanipulation lassen sich zudem Tabellen bereinigen, um so weitere datengetriebene Analysen durchzuführen.
+Neben der Nutzung statistischer Daten in der Verwaltungswissenschaft gewinnt die Nachnutzung von Forschungsdaten zunehmend an Bedeutung. Die in diesem interaktiven Lehrbuch erlernbaren Tools helfen dabei, die Reproduzierbarkeit von Analysen und Ergebnissen zu prüfen und zu bewerten. Durch die hier gezeigten Schritte der Datenmanipulation lassen sich zudem Tabellen bereinigen, um so weitere datengetriebene Analysen durchzuführen.
 
 ## Zielgruppe
 
@@ -68,7 +68,7 @@ Die Zielgruppe sind promovierende und promovierte Wissenschaftler:innen, aber au
 Grundsätzlich steht das Angebot aber selbstverständlich allen Interessierten offen.
 
 
-Dieses JupyterBook erfordert ein allgemeines Verständnis darüber, wie Datensätze strukturiert sind, einschließlich grundlegender Begriffe wie Datensätze oder Variablen. Zudem sollten Anwendende mit Konzepten wie Metadaten und Datendokumentationen vertraut sein.  
+Dieses interaktive Lehrbuch erfordert ein allgemeines Verständnis darüber, wie Datensätze strukturiert sind, einschließlich grundlegender Begriffe wie Datensätze oder Variablen. Zudem sollten Anwendende mit Konzepten wie Metadaten und Datendokumentationen vertraut sein.  
 
 Für die Kapitel [2. Datennachnutzung und FAIR-Prinzipien](Datennachnutzung), [3. Qualitätsbewertung und 5-Sterne-Modell](Rohdaten) sowie [4. Identifikatoren und Linked Data](PID) werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in das Datenmanagement.
 
@@ -97,13 +97,13 @@ Die Gliederung der Fallstudie in Kapitel und Abschnitte können Sie immer in der
 - Im **4. Schritt** bewegen wir uns näher an die Forschungsfrage und zeigen Ihnen, wie Daten bereinigt und manipuliert werden können. Dazu machen wir Sie mit den Grundlagen des Arbeitens mit R vertraut, die für die folgenden Operationen benötigt werden (s. Kapitel [Datenmanipulation (Organisation und Strukturierung)](Datenmanipulation)). Schließlich vollziehen wir eine Datenanalyse des Bildungsberichts nach, um die Daten auf ihre Reproduzierbarkeit zu prüfen, und lösen am Ende mit Hilfe des neu erlangten Wissens die Forschungsfrage (s. Kapitel [Datenmanipulation (Analyse und Reproduktion)](Datenmanipulation2)).
 
 
-Das ganze JupyterBook lässt sich darüber hinaus in zwei Blöcke teilen. Den ersten Block bilden die Kapitel 2, 3 und 4, die aus mindestens einem Wissen vermittelnden Abschnitt und jeweils einer kurze Übung bestehen, in der die erworbenen Kenntnisse geprüft werden können. Diese Kapitel nehmen jedes für sich etwa 15 Minuten Bearbeitungszeit in Anspruch. Obwohl sie aus der Forschungsfrage entstanden sind, lassen sie sich auch als generische Module verstehen.   
+Das ganze interaktive Lehrbuch lässt sich darüber hinaus in zwei Blöcke teilen. Den ersten Block bilden die Kapitel 2, 3 und 4, die aus mindestens einem Wissen vermittelnden Abschnitt und jeweils einer kurze Übung bestehen, in der die erworbenen Kenntnisse geprüft werden können. Diese Kapitel nehmen jedes für sich etwa 15 Minuten Bearbeitungszeit in Anspruch. Obwohl sie aus der Forschungsfrage entstanden sind, lassen sie sich auch als generische Module verstehen.   
 Den zweiten Block nehmen die Kapitel 5 und 6 ein, die die Datenmanipulation mit der statistischen Software R thematisieren. Sie gliedern sich in die Organisation und Strukturierung von Daten mit Hilfe von R und deren Nutzung zur Analyse und Reproduktion. Diese Kapitel sind wesentlich umfangreicher als die vorherigen und können - je nach Vorkenntnissen - gute 2 bis 3 Stunden Bearbeitungszeit umfassen.
 
 
 ```{admonition} Ein Hinweis zur Bearbeitung
 :class: hinweis
-Sie müssen die Kapitel nicht alle nacheinander durchgehen. Zwar folgt der Aufbau des JupyterBooks einem roten Faden, aber die einzelnen Kapitel sind so gestaltet, dass sie in sich geschlossen und damit einzeln absolvierbar sind.
+Sie müssen die Kapitel nicht alle nacheinander durchgehen. Zwar folgt der Aufbau des Lehrbuchs einem roten Faden, aber die einzelnen Kapitel sind so gestaltet, dass sie in sich geschlossen und damit einzeln absolvierbar sind.
 ```  
 
 
