@@ -48,6 +48,7 @@ chapters:
     sections:
     - file: Markdown/25_Reflexion
   - file: Markdown/Epilog
+    numbered: 2
     sections:
     - file: Markdown/fragen_und_feedback
     - file: Markdown/literaturverzeichnis
