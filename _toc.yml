@@ -10,11 +10,7 @@ chapters:
     sections:
       - file: Markdown/lernziele
       - file: Markdown/technische_voraussetzungen
-  - file: Markdown/Einführung
-    sections:
-    - file: Markdown/02_Zielgruppen
-    - file: Markdown/03_Datenbasis
-    - file: Markdown/04_Struktur_Fallstudie
+  - file: Markdown/03_Datenbasis
   - file: Markdown/Datennachnutzung
     sections:
     - file: Markdown/05_Datennachnutzung
