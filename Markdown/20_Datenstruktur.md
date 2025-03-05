@@ -18,7 +18,7 @@ alt: Grafische Darstellung einer Datennormalisierung.
 ---
 Datennormalisierung nach Niklas Lang.
 ```
-Bildquelle: {cite}`noauthor_what_2023`
+Bildquelle: {cite}`lang_what_2023`
 
 ```{admonition} Weitere Informationen
 :class: seealso
