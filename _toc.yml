@@ -4,7 +4,7 @@
 format: jb-book
 root: Markdown/01_Intro
 options: 
-  numbered: true
+  numbered: 3
 chapters:
   - file: Markdown/Präambel
     sections:
