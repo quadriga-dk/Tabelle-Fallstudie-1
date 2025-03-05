@@ -4,9 +4,57 @@ lang: de-DE
 (authors)=
 # Autor:innen
 
-Dieses Jupyter Book wurde erstellt von 
+## Autor:innen der Inhalte
 
-## Paul Walter <span style="font-size:8pt"><a href="https://orcid.org/0000-0002-9236-3268" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a></span>
+### Jana Plomin <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+<table style="margin-left: 0">
+<tr>
+<td><b>Rolle in QUADRIGA:</b></td>
+<td>Konzeptionierung und Umsetzung Fallstudien Datentyp Tabelle, Testing und Iteration</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
+</tr>
+<tr>
+<td><b>ORCID:</b></td>
+<td></td>
+</tr>
+<tr>
+<td><b>Website:</b></td>
+<td>https://www.fokus.fraunhofer.de/8fb7bdcc1d2bd6e8</td>
+</tr>
+</table>
+
+### Juliane Schmeling <a href="https://orcid.org/0009-0005-9814-1139" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+<table style="margin-left: 0">
+<tr>
+<td><b>Rolle in QUADRIGA:</b></td>
+<td>Konzeptionierung und Umsetzung Fallstudien Datentyp Tabelle, Testing und Iteration</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
+</tr>
+<tr>
+<td><b>Website:</b></td>
+</td><td><a href="[https://www.fokus.fraunhofer.de/a1b4f9c17da1c9a6" class="external-link" target="_blank">Fraunhofer FOKUS</a></td>
+</tr>
+</table>
+
+### Anton Schulze <a href="https://orcid.org/0009-0003-5670-8577" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+<table style="margin-left: 0">
+<tr>
+<td><b>Rolle in QUADRIGA:</b></td>
+<td>Technische Unterstützung Fallstudie 1 Datentyp Tabelle</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
+</tr>
+</table>
+
+### Paul Walter <a href="https://orcid.org/0000-0002-9236-3268" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a></span>
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -15,10 +63,6 @@ Dieses Jupyter Book wurde erstellt von
 <tr>
 <td><b>Einrichtung:</b></td>
 <td>Fachhochschule Potsdam, Fachbereich Informationswissenschaften</td>
-</tr>
-<tr>
-<td><b>ORCID:</b></td>
-<td><a href="https://orcid.org/0000-0002-9236-3268" class="external-link" target="_blank">0000-0002-9236-3268</a></td>
 </tr>
 <tr>
 <td><b>Website:</b></td>
@@ -30,105 +74,21 @@ Dieses Jupyter Book wurde erstellt von
 </tr>
 </table>
 
-## Anton Schulze <a href="https://orcid.org/0009-0003-5670-8577" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+### Philip Wiemer
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
-<td>Praktikant</td>
+<td>Testen und Iteration, Qualitätssicherung</td>
 </tr>
 <tr>
 <td><b>Einrichtung:</b></td>
-<td>FOKUS</td>
-</tr>
-<tr>
-<td><b>ORCID:</b></td>
-<td></td>
-</tr>
-<tr>
-<td><b>Website:</b></td>
-<td>...</td>
-</tr>
-<tr>
-<td><b>GitHub:</b></td>
-<td></a></td>
-</tr>
-</table>
-
-## Juliane Schmeling <a href="https://orcid.org/0009-0005-9814-1139" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
-<table style="margin-left: 0">
-<tr>
-<td><b>Rolle in QUADRIGA:</b></td>
-<td></td>
-</tr>
-<tr>
-<td><b>Einrichtung:</b></td>
-<td>FOKUS</td>
-</tr>
-<tr>
-<td><b>ORCID:</b></td>
-<td></td>
-</tr>
-<tr>
-<td><b>Website:</b></td>
-</td><td><a href="[https://www.fokus.fraunhofer.de/a1b4f9c17da1c9a6" class="external-link" target="_blank">Fraunhofer FOKUS</a></td>
-</tr>
-<tr>
-<td><b>GitHub:</b></td>
-<td></a></td>
-</tr>
-</table>
-
-## Jana Plomin <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
-<table style="margin-left: 0">
-<tr>
-<td><b>Rolle in QUADRIGA:</b></td>
-<td></td>
-</tr>
-<tr>
-<td><b>Einrichtung:</b></td>
-<td>FOKUS</td>
-</tr>
-<tr>
-<td><b>ORCID:</b></td>
-<td></td>
-</tr>
-<tr>
-<td><b>Website:</b></td>
-<td>...</td>
-</tr>
-<tr>
-<td><b>GitHub:</b></td>
-<td></a></td>
-</tr>
-</table>
-
-## Philip Wiemer 
-<table style="margin-left: 0">
-<tr>
-<td><b>Rolle in QUADRIGA:</b></td>
-<td></td>
-</tr>
-<tr>
-<td><b>Einrichtung:</b></td>
-<td>FHP</td>
-</tr>
-<tr>
-<td><b>ORCID:</b></td>
-<td></td>
-</tr>
-<tr>
-<td><b>Website:</b></td>
-<td>...</td>
-</tr>
-<tr>
-<td><b>GitHub:</b></td>
-<td></a></td>
+<td>Fachhochschule Potsdam, Fachbereich Informationswissenschaften</td>
 </tr>
 </table>  
 
-sowie  
+## Autor:innen der Inhalte  
 
-## Hannes Schnaitter <span style="font-size:8pt">(er/ihm/sein)</span>
+### Hannes Schnaitter <span style="font-size:8pt">(er/ihm/sein)</span>
 
 <table style="margin-left: 0">
 <tr>
@@ -140,10 +100,6 @@ sowie
 <td>Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft</td>
 </tr>
 <tr>
-<td><b>ORCID:</b></td>
-<td><a href="https://orcid.org/0000-0002-1602-6032" class="external-link" target="_blank">0000-0002-1602-6032</a></td>
-</tr>
-<tr>
 <td><b>Website:</b></td>
 <td><a href="https://www.ibi.hu-berlin.de/de/institut/personen/schnaitter" class="external-link" target="_blank">Mitarbeiter-Seite IBI, HU</a></td>
 </tr>
@@ -153,7 +109,7 @@ sowie
 </tr>
 </table>
 
-## Evgenia Samoilova
+### Evgenia Samoilova 
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -162,10 +118,6 @@ sowie
 <tr>
 <td><b>Einrichtung:</b></td>
 <td>Universität Potsdam</td>
-</tr>
-<tr>
-<td><b>ORCID:</b></td>
-<td></td>
 </tr>
 <tr>
 <td><b>Website:</b></td>
@@ -177,31 +129,19 @@ sowie
 </tr>
 </table>
   
-## Carsten Schneemann <a href="https://orcid.org/0000-0002-2683-5853" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+### Carsten Schneemann <a href="https://orcid.org/0000-0002-2683-5853" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
-<td></td>
+<td>Atomisierung der Lernziele, Veröffentlichung und Qualitätssicherung</td>
 </tr>
 <tr>
 <td><b>Einrichtung:</b></td>
-<td>FHP</td>
-</tr>
-<tr>
-<td><b>ORCID:</b></td>
-<td></td>
-</tr>
-<tr>
-<td><b>Website:</b></td>
-<td>...</td>
-</tr>
-<tr>
-<td><b>GitHub:</b></td>
-<td></a></td>
+<td>Fachhochschule Potsdam, Fachbereich Informationswissenschaften</td>
 </tr>
 </table>
 
-## Lamia Islam
+### Lamia Islam
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -212,20 +152,28 @@ sowie
 <td>Universität Potsdam</td>
 </tr>
 <tr>
-<td><b>ORCID:</b></td>
-<td></td>
-</tr>
-<tr>
-<td><b>Website:</b></td>
-<td></td>
-</tr>
-<tr>
 <td><b>GitHub:</b></td>
 <td><a href="https://github.com/lam1aa" class="external-link" target="_blank">lam1aa</a></td>
 </tr>
 </table>  
 
-**Danksagung**
+### Yue Zhang
+<table style="margin-left: 0">
+<tr>
+<td><b>Rolle in QUADRIGA:</b></td>
+<td>Technische Unterstützung (insb. R, Docker, Binder, GitHub Actions)</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
+</tr>
+<tr>
+<td><b>GitHub:</b></td>
+<td><a href="https://github.com/SchenbergZY" class="external-link" target="_blank">SchenbergZY</a></td>
+</tr>
+</table>
+
+##Danksagung
 
 Wir danken folgenden Gruppen, Institutionen und Einrichtungen für die Nachnutzung ihrer Werke:
 
