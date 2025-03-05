@@ -70,7 +70,7 @@ Dieses Jupyter Book wurde erstellt von
 </tr>
 <tr>
 <td><b>Website:</b></td>
-<td>...</td>
+</td><td><a href="[https://www.fokus.fraunhofer.de/a1b4f9c17da1c9a6" class="external-link" target="_blank">Fraunhofer FOKUS</a></td>
 </tr>
 <tr>
 <td><b>GitHub:</b></td>
