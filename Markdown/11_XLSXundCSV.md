@@ -19,8 +19,7 @@ Da Sie ab diesem Kapitel mit einem CSV-Datensatz arbeiten werden, muss die Excel
 
 Die Abb. 5 zeigt, dass am Ende der (Excel-)Tabelle H1-9web u. a. auf das Statistische Bundesamt <a href="https://www-genesis.destatis.de/genesis/online" target="_blank">(Destatis)</a> als Quelle für die Rohdaten verwiesen wird.
   
-```
-{figure} _images/Quelle_Destatis2.PNG
+```{figure} _images/Quelle_Destatis2.PNG
 ---
 name: quellenangabe
 alt: Auschnitt einer Tabelle, auf dem eine Quelle der Daten hervorgehoben ist.
@@ -33,8 +32,7 @@ Auf der unter dem oben angegebenen Link zu findenden Genesis-Datenbank von Desta
 
 Angezeigt werden dann mehrere Tabellen wie Abb. 6 zeigt. Die von uns benötigte hat den Code 21341-0001 und steht wahrscheinlich ganz oben in der Liste.
 
-```
-{figure} _images/Destatis_Suche2.png
+```{figure} _images/Destatis_Suche2.png
 ---
 name: suchergebnisse
 alt: Screenshot einer Datensuche bei Destatis.
@@ -48,8 +46,7 @@ Nachdem Sie auf die Tabelle 21341-0001 geklickt haben, erscheint die Seite "Tabe
 Sodann wird Ihnen die Tabelle bereits angezeigt. Sie können die Daten nun in verschiedenen Formaten auswählen. Destatis bietet hier andere Formate, die für eine maschinelle Weiterverabreitung geeigneter sind als CSV. Wir arbeiten für unsere Lernzwecke mit der CSV-Datei weiter, weil CSV ein häufig genutztes Format ist. 
 Wählen Sie deshalb CSV aus und der Datensatz wird als 21341-0001_$F im Format CSV heruntergeladen.
 
-```
-{figure} _images/Destatis_Abruf_2020.png
+```{figure} _images/Destatis_Abruf_2020.png
 ---
 name: tabelle-download-csv
 alt: Screenshot eines Datensatzes bei Destatis.

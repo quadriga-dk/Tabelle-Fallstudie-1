@@ -28,8 +28,7 @@ Dieses Jupyter Book besteht aus mehreren Kapiteln, die jeweils als einzelne Open
 2. Ein neues Skript, in dem Sie Befehle eingeben können, öffnen Sie
 unter *Files*: 
  
-```
-{figure} _images/R_Studio_open_new_script.png
+```{figure} _images/R_Studio_open_new_script.png
 ---
 name: screenshot-r-1
 alt: Ein Screenshot, der zeigt, wie man ein neues R-Skript öffnet.
@@ -39,8 +38,7 @@ Anleitung zum Öffnen eines neuen R-Skriptes.
 
 **Interface von R-Studio:**  
 
-```
-{figure} _images/R_Studio_Interface.png
+```{figure} _images/R_Studio_Interface.png
 ---
 name: screenshot-r-2
 alt: Ein Screenshot, der das Interface von R-Studio zeigt.

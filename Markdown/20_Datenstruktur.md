@@ -11,15 +11,14 @@ Im Kontext der Datenorganisation ist es zudem ratsam, sich mit der Normalisierun
 
 Beispielhafte simple Form der Datennormalisierung:
 
-```
-{figure} _images/Normalisierung_Tabelle.png
+```{figure} _images/Normalisierung_Tabelle.png
 ---
 name: datennormalisierung
 alt: Grafische Darstellung einer Datennormalisierung.
 ---
 Datennormalisierung nach Niklas Lang.
 ```
-Bildquelle: {cite}`noauthor_what_2023`   
+Bildquelle: {cite}`noauthor_what_2023`
 
 ```{admonition} Weitere Informationen
 :class: seealso
@@ -40,8 +39,7 @@ einer Variable und einer Beobachtung zugeordnet.
 
 Nach dieser Struktur enthält jede Zelle exakt einen Wert und ist klar einer einzigen Variable zuzuordnen. Es entsteht ein rechteckiges Layout. Wenn Sie Berechnungen auf Basis der Tabellendaten durchführen möchten, sollten dies nie in der Raw-Data Datei erfolgen. Eine saubere Datei enthält nur eine einzige ausgefüllte Tabelle. Außerdem ist in der Raw-Data Datei auf jegliche Formen von optischen Hervorhebungen (z.B. Fettdruck, farbliche Markierungen, etc.) zu verzichten {cite}`broman_data_2018,wickham_tidy_2014`. 
 
-```
-{figure} _images/tidy_data_gut.png
+```{figure} _images/tidy_data_gut.png
 ---
 name: tidy-data-gut
 alt: Eine Tabelle mit einem guten Beispiel einer Tidy-Data-Struktur.
@@ -51,8 +49,7 @@ Beispiel für eine gute Tidy-Data-Struktur.
 
 Durch Einhaltung dieser Struktur entsteht eine Tabelle, die eine schnelle, einfache und vor allem konsistente Datenmanipulation und -auswertung ermöglicht {cite}`broman_data_2018,wickham_tidy_2014`.
 
-```
-{figure} _images/tidy_data_schlecht.png
+```{figure} _images/tidy_data_schlecht.png
 ---
 name: tidy-data-schlecht
 alt: Eine Tabelle mit einem schlechten Beispiel einer Tidy-Data-Struktur.

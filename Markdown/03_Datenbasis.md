@@ -13,8 +13,7 @@ Die für die Forschungsfrage relevanten Informationen zur Entwicklung des Hochsc
 
 Für diese Fallstudie ist die erstgenannte Abbildung H1-3 (s. unten, Abb. 2) von Bedeutung, die sich auf die Tabelle H1 - "Personalbestand und Personalstruktur" bezieht. Diese finden Sie auf der Hauptseite des Bildungsberichts (2022), die sie über den oben angegebenen Link erreichen. Alternativ können Sie den Tabellenanhang über das zu dieser Fallstudie bereitgestellte Repository ([Excel-Tabelle](Data/h1-anhang.xlsx)) oder über die <a href="https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/excel-bildungsbericht-2022/h1-anhang.xlsx">Website des Bildungsberichts</a> direkt herunterladen.  
  
-```
-{figure} _images/Abb_H1-3.png
+```{figure} _images/Abb_H1-3.png
 ---
 name: fig-wissenschaftliches-personal
 alt: Kreisdiagramme, die die Verteilung von wissenschaftlichem und künstlerischem Personal an Hochschulen zeigen.
@@ -24,8 +23,7 @@ Abb. H1-3 aus dem nationalen Bildungsbericht 2022.
 
 Die Daten, die zur Erzeugung der Visualisierung verwendet wurden, finden sich im Reiter "H1-9web: Personal an Hochschulen 2010, 2012, 2014, 2016, 2018, 2019 und 2020 nach Personalgruppen und Hochschulart" der Excel-Tabelle (s. Abb. 3).  
 
-```
-{figure} _images/Tab_H1-9web.png
+```{figure} _images/Tab_H1-9web.png
 ---
 name: tab-wissenschaftliches-personal
 alt: Tabelle, die die Anzahl des Personals an Hochschulen nach Jahren zeigt.

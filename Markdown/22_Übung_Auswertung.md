@@ -94,8 +94,7 @@ bestimmte Auswertungen nicht möglich sind und Fehler entstehen können.
 Im *Environment* Fenster können Sie die Variablenklassen ebenfalls schnell einsehen.
 `````
 
-```
-{figure} _images/R_Environment_Variablenklassen.png
+```{figure} _images/R_Environment_Variablenklassen.png
 ---
 name: r-environment
 alt: Ein Screenshot, der den Ausschnitt des Environment-Fensters von R-Studio zeigt.

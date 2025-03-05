@@ -319,8 +319,7 @@ Um Probleme mit der Zeichenkodierung zu vermeiden, speichern Sie am
 besten schon im Vorhinein Ihre Datei mit UTF-8 Kodierung ab. Dies können
 Sie meist direkt unter den `Speichern unter...` Dateiformaten auswählen:
 
-```
-{figure} _images/UTF8_Zeichenkodierung.png
+```{figure} _images/UTF8_Zeichenkodierung.png
 ---
 name: utf8-speichern
 alt: Ein Screenshot, der das Abspeichern als UTF-8 Code zeigt.

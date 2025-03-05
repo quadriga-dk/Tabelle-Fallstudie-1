@@ -23,8 +23,7 @@ Der Begriff Reproduzierbarkeit umschreibt in der Wissenschaft die Möglichkeit, 
 Im nationalen [Bildungsbericht 2022](https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022)
 befindet sich auf der Seite 259 folgende Abbildung:
 
-```
-{figure} _images/Abb_H1-3.png
+```{figure} _images/Abb_H1-3.png
 ---
 name: fig-wissenschaftliches-personal
 alt: Kreisdiagramme, die die Verteilung von wissenschaftlichem und künstlerischem Personal an Hochschulen zeigen.
@@ -100,8 +99,7 @@ library(tidyverse)
 
 #### Aufbau des Kreisdiagramms 
 
-```
-{figure} _images/Abb_H1-3_fokus.png
+```{figure} _images/Abb_H1-3_fokus.png
 ---
 name: fig-wissenschaftliches-personal-fokus
 alt: Abbildung von Kreisdiagrammen mit Hervorhebung des Diagramms zu Personal an Hochschulen insgesamt.
@@ -263,8 +261,7 @@ ggplot(Daten_kreisdiagramm, aes(x="", y=Absolute_Werte, fill=Personalgruppe))+ #
 ```
 
 
-```
-{figure} _images/pie_with_R.png
+```{figure} _images/pie_with_R.png
 ---
 name: nachgebautes-diagramm
 alt: Das mit R nachgebaute Kreisdiagramm.
@@ -277,8 +274,7 @@ Voilà, Sie haben soeben das Kreisdiagramm nachgebaut!
 #### Fazit 
 Betrachten Sie nun das originale Diagramm aus dem Bildungsbericht und das von Ihnen selbstständig erzeugte im Vergleich:
 
-```
-{figure} _images/Pie_vergleich.png
+```{figure} _images/Pie_vergleich.png
 ---
 name: diagramme-vergleich
 alt: Das mit R nachgebaute Kreisdiagramm und das originale Kreisdiagramm zu Personal an Hochschulen im Vergleich.
