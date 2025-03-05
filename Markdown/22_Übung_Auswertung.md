@@ -93,9 +93,15 @@ bestimmte Auswertungen nicht möglich sind und Fehler entstehen können.
 :class: keypoint
 Im *Environment* Fenster können Sie die Variablenklassen ebenfalls schnell einsehen.
 `````
-  
-![](_images/R_Environment_Variablenklassen.png)  
-*Abbildung 7: Environment-Fenster in RStudio*  
+
+```
+{figure} _images/R_Environment_Variablenklassen.png
+---
+name: r-environment
+alt: Ein Screenshot, der den Ausschnitt des Environment-Fensters von R-Studio zeigt.
+---
+Environment-Fenster in RStudio.
+```
 
 **Fallbeispiel:** Betrachten Sie die Funktion `max()`, welche den
 Maximalwert in der jeweiligen Spalte zurückgeben soll. Hinweis:

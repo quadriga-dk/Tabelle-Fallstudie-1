@@ -1,11 +1,16 @@
 # 5-Sterne-Modell
 
 
-In den vorherigen Abschnitten haben Sie bereits Merkmale zur Qualitätsbestimmung und mit den FAIR-Prinzipien auch ein Schema zur Bewertung kennengelernt. Bei dem nun folgenden <a href="https://5stardata.info/de" target="_blank">5-Sterne-Modell</a> steht ebenfalls die Wiederverwendbarkeit und Interoperabilität der Daten im Vordergrund {cite}`gangemi_assessing_2018`. Die fünf Stufen sind kaskadierend, d.h. damit ein Datensatz beispielsweise eine Bewertung von 3 Sternen erhalten kann, müssen die Stufen eins bis drei vollständig erfüllt sein {cite}`bruns_leitfaden_2019`. Das Modell wurde 2010 von Tim Burners-Lee als ein Weg zu Linked Data (s. Kapitel [Linked Data](linked_data)) entwickelt {cite}`berners-lee_linked_2006`. 
+In den vorherigen Abschnitten haben Sie bereits Merkmale zur Qualitätsbestimmung und mit den FAIR-Prinzipien auch ein Schema zur Bewertung kennengelernt. Bei dem nun folgenden <a href="https://5stardata.info/de" target="_blank">5-Sterne-Modell</a> steht ebenfalls die Wiederverwendbarkeit und Interoperabilität der Daten im Vordergrund {cite}`gangemi_assessing_2018`. Die fünf Stufen sind kaskadierend, d.h. damit ein Datensatz beispielsweise eine Bewertung von 3 Sternen erhalten kann, müssen die Stufen eins bis drei vollständig erfüllt sein {cite}`bruns_leitfaden_2019`. Das Modell wurde 2010 von Tim Burners-Lee als ein Weg zu Linked Data (s. Kapitel [Linked Data](linked_data)) entwickelt {cite}`berners-lee_linked_2006`.  
 
-
-![](_images/5_star_model.png)
-*Abbildung 3: Eigene Abbildung basierend auf {cite}`bruns_leitfaden_2019`.*
+```
+{figure} _images/5_star_model.png
+---
+name: 5-sterne
+alt: Grafische Darstellung des 5-Sterne-Modells.
+---
+Eigene Abbildung basierend auf {cite}`bruns_leitfaden_2019`.
+```
 
 
 Mithilfe des 5-Sterne-Modells können folgende Einschätzungen hinsichtlich des Datensatzes vorgenommen werden:

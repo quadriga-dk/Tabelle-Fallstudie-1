@@ -23,8 +23,14 @@ Der Begriff Reproduzierbarkeit umschreibt in der Wissenschaft die Möglichkeit, 
 Im nationalen [Bildungsbericht 2022](https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022)
 befindet sich auf der Seite 259 folgende Abbildung:
 
-![](_images/Abb_H1-3.png)  
-*Abbildung 8: Abb.H1-3 aus dem Nationalen Bildungsbericht* 
+```
+{figure} _images/Abb_H1-3.png
+---
+name: fig-wissenschaftliches-personal
+alt: Kreisdiagramme, die die Verteilung von wissenschaftlichem und künstlerischem Personal an Hochschulen zeigen.
+---
+Die Abb.H1-3 aus dem Nationalen Bildungsbericht 2022.
+```
 
 Wenn Sie nun das Kreisdiagramm für *"Hochschulen insgesamt"* und *"Personen"* auf Reproduzierbarkeit überprüfen möchten, benötigen Sie hierfür die Daten aus der Primärquelle. Hierzu müssen Sie nun selbst recherchieren und versuchen, die Ausgangsdaten zu finden. 
 
@@ -94,8 +100,14 @@ library(tidyverse)
 
 #### Aufbau des Kreisdiagramms 
 
-![](_images/Abb_H1-3_fokus.png)  
-*Abbildung 9: Abb.H1-3 aus dem Nationalen Bildungsbericht* 
+```
+{figure} _images/Abb_H1-3_fokus.png
+---
+name: fig-wissenschaftliches-personal-fokus
+alt: Abbildung von Kreisdiagrammen mit Hervorhebung des Diagramms zu Personal an Hochschulen insgesamt.
+---
+Das zu reproduzierende Kreisdiagramm aus dem Bildungsbericht 2022.
+```
 
 Um das Kreisdiagramm reproduzieren zu können, müssen Sie zunächst die einzelnen Bestandteile verstehen.
 Das Diagramm unterteilt in die folgenden drei Personalgruppen: 
@@ -250,16 +262,29 @@ ggplot(Daten_kreisdiagramm, aes(x="", y=Absolute_Werte, fill=Personalgruppe))+ #
              show.legend = FALSE) #Beschriftung soll nicht in der Legende angezeigt werden
 ```
 
-![](_images/pie_with_R.png)  
-*Abbildung 10: Nachgbautes Kreisdiagramm mit R* 
+
+```
+{figure} _images/pie_with_R.png
+---
+name: nachgebautes-diagramm
+alt: Das mit R nachgebaute Kreisdiagramm.
+---
+Das mit R nachgbaute Kreisdiagramm.
+```
 
 Voilà, Sie haben soeben das Kreisdiagramm nachgebaut!
 
 #### Fazit 
 Betrachten Sie nun das originale Diagramm aus dem Bildungsbericht und das von Ihnen selbstständig erzeugte im Vergleich:
 
-![](_images/Pie_vergleich.png)  
-*Abbildung 11: vergleich nachgebautes vs. originales Kreisdiagramm* 
+```
+{figure} _images/Pie_vergleich.png
+---
+name: diagramme-vergleich
+alt: Das mit R nachgebaute Kreisdiagramm und das originale Kreisdiagramm zu Personal an Hochschulen im Vergleich.
+---
+Vergleich des nachgebauten (links) und des originalen (rechts) Kreisdiagramms.
+```
 
 Bis auf kleine Schönheitsfehler fällt im direkten Vergleich kein Unterschied auf.
 

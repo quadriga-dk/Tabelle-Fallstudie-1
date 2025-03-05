@@ -2,8 +2,14 @@
 
 In Bezug auf die Nachnutzung von (Forschungs-)Daten wollen wir Sie hier mit den FAIR-Prinzipien vertraut machen. Diese stellen Grundsätze des Datenmanagements dar, die unter anderem den Austausch und die weitere Nutzung von Daten vereinfachen. FAIR ist das Akronym von **F**indable, **A**ccessible, **I**nteroperable und **R**eusable - also auffindbar, zugänglich, interoperabel (bzw. kompatibel) und wiederverwendbar. Diese 2016 veröffentlichten Prinzipien, die seit 2019 auch in den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" der Deutschen Forschungsgemeinschaft verankert sind {cite}`deutsche_forschungsgemeinschaft_guidelines_2022`, haben sich mittlerweile zu einem Standard entwickelt {cite}`spiecker_ecodm_2022`.
 
-![Fair Prinzipien](_images/fair-principles.jpg)
-*Abbildung 4: Die FAIR-Prinzipien*
+```
+{figure} _images/fair-principles.jpg
+---
+name: fair-prinzipien
+alt: Eine grafische Darstellung der FAIR-Prinzipien.
+---
+Die FAIR-Prinzipien.
+```
 Bildquelle: The Turing Way Community, & Scriberia. (2020). Illustrations from the Turing Way book dashes. Zenodo. <a href="https://doi.org/10.5281/zenodo.3695300" target="_blank">https://doi.org/10.5281/zenodo.3695300</a>
 
 Die FAIR-Prinzipien wurden im Projekt PARTHENOS von Hollander et al. (2019) zu Richtlinien zusammengefasst, die im Folgenden - noch einmal gekürzt - vorgestellt werden {cite}`hollander_parthenos_2019`.
