@@ -4,9 +4,9 @@ lang: de-de
 # Checkliste für die Finalisierung einer Fallstudie
 
 ## Zielgruppe & Lernziele
-- [ ] Zielgruppe und erforderliches Vorwissen
+- [x] Zielgruppe und erforderliches Vorwissen
 - [ ] Groblernziele (Kapitel)
-- [ ] Feinlernziele (Section) -> Blooms Taxonomie für kognitive Lernzielformulierung verwendet
+- [ ] Feinlernziele (Kapitel) -> Blooms Taxonomie für kognitive Lernzielformulierung verwendet
 - [ ] Geschätzter Workload pro Kapitel (1-3 Stunden) festgelegt
 - [ ] Geschätzter Workload pro Abschnitt (20-60 Minuten) festgelegt
 - [ ] Zugangswege definiert (Book-Only, Cloud, Local)
@@ -31,8 +31,6 @@ lang: de-de
 - [ ] Epilogue
 
 ## Inhalt
-- [ ] Anwendungsdomain
-- [ ] Datentyp
 - [ ] Informationen über den Lebenszyklus
 - [ ] Zugehörigkeit zu einer definierten Sammlung
 - [ ] Bildungsvoraussetzungen
