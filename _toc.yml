@@ -3,54 +3,54 @@
 
 format: jb-book
 root: Markdown/01_Intro
-parts:
-  - caption: Präambel
-    chapters:
+chapters:
+  - file: Markdown/Präambel
+    sections:
       - file: Markdown/lernziele
       - file: Markdown/technische_voraussetzungen
-  - caption: 1. Einführung in die Fallstudie
-    chapters:
+  - file: Markdown/Einführung
+    sections:
     - file: Markdown/02_Zielgruppen
     - file: Markdown/03_Datenbasis
     - file: Markdown/04_Struktur_Fallstudie
-  - caption: 2. Datennachnutzung und FAIR-Prinzipien
-    chapters:
+  - file: Markdown/Datennachnutzung
+    sections:
     - file: Markdown/05_Datennachnutzung
     - file: Markdown/06_FairPrinzipien
     - file: Markdown/07_Übung_FAIR
     - file: Markdown/09_Reflexion_FAIR
-  - caption: 3. Qualitätsbewertung und 5-Sterne-Modell
-    chapters:
+  - file: Markdown/Qualitätsbewertung
+    sections:
     - file: Markdown/10_Qualitätskriterien
     - file: Markdown/11_XLSXundCSV
     - file: Markdown/12_5-Sterne
     - file: Markdown/13_Übung_5-Sterne
     - file: Markdown/14_Reflexion_Qualität
-  - caption: 4. Identifikatoren und Linked Data
-    chapters:
+  - file: Markdown/Identifikatoren
+    sections:
     - file: Markdown/15_Datenzitierung
     - file: Markdown/15_PID
     - file: Markdown/16_Linked-Data
     - file: Markdown/17_Übung_PID
     - file: Markdown/18_Reflexion_Identifikatoren
-  - caption: 5. Datenmanipulation (Organisation und Strukturierung)
-    chapters:
+  - file: Markdown/Datenmanipulation1
+    sections:
     - file: Markdown/19_Datenmanipulation
     - file: Markdown/20_Datenstruktur
     - file: Markdown/21_Einstieg_R
     - file: Markdown/22_Übung_Auswertung
     - file: Markdown/24_Reflexion_Datenmanipulation
-  - caption: 6. Datenmanipulation (Analyse und Reproduktion)
-    chapters:
+  - file: Markdown/Datenmanipulation2
+    sections:
     - file: Markdown/23_Einleitung_DatenmanipulationII
     - file: Markdown/22_Übung_Reproduzierbarkeit
     - file: Markdown/23_Übung_Zeitreihe
     - file: Markdown/27_Reflexion_DatenmanipulationII
-  - caption: 7. Zusammenfassung
-    chapters:
+  - file: Markdown/Zusammenfassung
+    sections:
     - file: Markdown/25_Reflexion
-  - caption: 8. Epilog
-    chapters:
+  - file: Markdown/Epilog
+    sections:
     - file: Markdown/fragen_und_feedback
     - file: Markdown/literaturverzeichnis
     - file: Markdown/authors
