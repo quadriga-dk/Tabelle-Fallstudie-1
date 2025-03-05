@@ -1,29 +1,6 @@
 (Einleitung_Datenzitierung)=
 # Forschungsdaten zitieren
 
-````{margin}
-```{admonition} Fragen oder Feedback 
-:class: frage-feedback
-
-<a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-1/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
-    Stellen Sie eine Frage
-</a> <br>
-<a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-1/issues/new?assignees=&labels=feedback&projects=&template=feedback.yml" class="external-link" target="_blank">
-    Geben Sie uns Feedback
-</a>
-
-Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfnisse anpassen.
-
-```
-````
-
-```{admonition} Lernziel: Datenzitierung und PID
-:class: lernziele
-- Die Lernenden können die allgemein anerkannten Methoden der Datenzitierung beschreiben und ihre Anwendungsbereiche erklären. 
-- Die Lernenden können Persistente Identifikatoren (PIDs) definieren und ihre Rolle in der Datenzitierung erläutern. 
-- Die Lernenden können zwischen verschiedenen Arten von PIDs (z.B. DOI, ORCID) unterscheiden und ihre spezifischen Einsatzbereiche in der Verwaltungswissenschaft identifizieren.
-``` 
-
 In einem Kapitel über Datennachnutzung darf selbstverständlich ein Abschnitt über das Zitieren von Forschungsdaten nicht fehlen. Die Zitation ist Teil der guten wissenschaftlichen Praxis {cite}`deutsche_forschungsgemeinschaft_guidelines_2022` und erfolgt analog zur Zitierung von Literatur. 
 
 Eine allgmeine Richtlinie wurde von der so genannten Gruppe Force11 formuliert {cite}`force11_joint_2014`. In den dort aufgeführten 8 Punkten heißt es, dass 
