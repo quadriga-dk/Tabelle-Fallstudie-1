@@ -11,7 +11,7 @@ Alternativ können Sie den Bericht auch aus unserem Repository laden: [Bildungsb
 
 Die für die Forschungsfrage relevanten Informationen zur Entwicklung des Hochschulpersonals finden sich im Kapitel H - "Bildungspersonal: Struktur, Entwicklung, Qualität und Professionalisierung", das auf der Website des <a href="https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/pdf-dateien-2022/bildungsbericht-2022-kapitel-h.pdf" target="_blank">Bildungsberichts</a> auch einzeln aufrufbar ist, auf S. 258 ff. Die Visualisierungen Abb. H1-3 (S. 259) und Abb. H1-4 (S. 260) stellen die Verteilung des haupt- und nebenberuflichen Personals bzw. das aus Grundmitteln finanzierte Personal im Verhältnis zur Studierendenzahl dar. 
 
-Für diese Fallstudie ist die erstgenannte Abbildung H1-3 (s. unten, Abb. 2) von Bedeutung, die sich auf die Tabelle H1 - "Personalbestand und Personalstruktur" bezieht. Diese finden Sie auf der Hauptseite des Bildungsberichts (2022), die sie über den oben angegebenen Link erreichen. Alternativ können Sie den Tabellenanhang über das zu dieser Fallstudie bereitgestellte Repository ([Excel-Tabelle](Data/h1-anhang.xlsx)) oder über die <a href="https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/excel-bildungsbericht-2022/h1-anhang.xlsx">Website des Bildungsberichts</a> direkt herunterladen.  
+Für diese Fallstudie ist die erstgenannte Abbildung H1-3 (s. Fig. 2.1) von Bedeutung, die sich auf die Tabelle H1 - "Personalbestand und Personalstruktur" bezieht. Diese finden Sie auf der Hauptseite des Bildungsberichts (2022), die sie über den oben angegebenen Link erreichen. Alternativ können Sie den Tabellenanhang über das zu dieser Fallstudie bereitgestellte Repository ([Excel-Tabelle](Data/h1-anhang.xlsx)) oder über die <a href="https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/excel-bildungsbericht-2022/h1-anhang.xlsx">Website des Bildungsberichts</a> direkt herunterladen.  
  
 ```{figure} _images/Abb_H1-3.png
 ---
@@ -21,7 +21,7 @@ alt: Kreisdiagramme, die die Verteilung von wissenschaftlichem und künstlerisch
 Abb. H1-3 aus dem nationalen Bildungsbericht 2022.
 ```
 
-Die Daten, die zur Erzeugung der Visualisierung verwendet wurden, finden sich im Reiter "H1-9web: Personal an Hochschulen 2010, 2012, 2014, 2016, 2018, 2019 und 2020 nach Personalgruppen und Hochschulart" der Excel-Tabelle (s. Abb. 3).  
+Die Daten, die zur Erzeugung der Visualisierung verwendet wurden, finden sich im Reiter "H1-9web: Personal an Hochschulen 2010, 2012, 2014, 2016, 2018, 2019 und 2020 nach Personalgruppen und Hochschulart" der Excel-Tabelle (s. Fig. 2.2).  
 
 ```{figure} _images/Tab_H1-9web.png
 ---

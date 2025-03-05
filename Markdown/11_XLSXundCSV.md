@@ -17,7 +17,7 @@ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
 Da Sie ab diesem Kapitel mit einem CSV-Datensatz arbeiten werden, muss die Excel-Tabelle des Berichts umgewandelt werden. Da sie nicht konvertiert werden soll und die Tabellen des Berichts nur im Format XLSX zur Verfügung stehen, muss die Rohdatenquelle für die Daten ermittelt werden.  
 
-Die Abb. 5 zeigt, dass am Ende der (Excel-)Tabelle H1-9web u. a. auf das Statistische Bundesamt <a href="https://www-genesis.destatis.de/genesis/online" target="_blank">(Destatis)</a> als Quelle für die Rohdaten verwiesen wird.
+Die Fig. 4.1 zeigt, dass am Ende der (Excel-)Tabelle H1-9web u. a. auf das Statistische Bundesamt <a href="https://www-genesis.destatis.de/genesis/online" target="_blank">(Destatis)</a> als Quelle für die Rohdaten verwiesen wird.
   
 ```{figure} _images/Quelle_Destatis2.PNG
 ---
@@ -30,7 +30,7 @@ Die Quelle verweist auf die Statistischen Ämter des Bundes und der Länder.
 
 Auf der unter dem oben angegebenen Link zu findenden Genesis-Datenbank von Destatis sind die relevanten Daten praktischerweise nach kurzer Recherche (Suche nach "Personal" und "Hochschule") auszumachen.  
 
-Angezeigt werden dann mehrere Tabellen wie Abb. 6 zeigt. Die von uns benötigte hat den Code 21341-0001 und steht wahrscheinlich ganz oben in der Liste.
+Angezeigt werden dann mehrere Tabellen wie Fig. 4.2 zeigt. Die von uns benötigte hat den Code 21341-0001 und steht wahrscheinlich ganz oben in der Liste.
 
 ```{figure} _images/Destatis_Suche2.png
 ---
