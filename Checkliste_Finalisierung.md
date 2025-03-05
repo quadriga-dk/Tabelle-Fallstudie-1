@@ -5,44 +5,36 @@ lang: de-de
 
 ## Zielgruppe & Lernziele
 - [x] Zielgruppe und erforderliches Vorwissen
-- [ ] Groblernziele (Kapitel)
-- [ ] Feinlernziele (Kapitel) -> Blooms Taxonomie für kognitive Lernzielformulierung verwendet
-- [ ] Geschätzter Workload pro Kapitel (1-3 Stunden) festgelegt
+- [x] Groblernziele (Kapitel)
+- [x] Feinlernziele (Kapitel) -> Blooms Taxonomie für kognitive Lernzielformulierung verwendet
+- [x] Geschätzter Workload pro Kapitel (1-3 Stunden) festgelegt
 - [ ] Geschätzter Workload pro Abschnitt (20-60 Minuten) festgelegt
-- [ ] Zugangswege definiert (Book-Only, Cloud, Local)
+- [x] Zugangswege definiert (Book-Only, Cloud, Local)
 
 ## Struktur
-- [ ] Startseite
-  - [ ] Kurze Beschreibung + einladendes Bild
-  - [ ] Zielgruppe
-  - [ ] Struktur der Fallstudie + darstellendes Bild, das die Schritte der Fallstudie als Kapitel visualisiert
-  - [ ] Kurze Beschreibug aller Schritte
-  - [ ] Literatur
-- [ ] Präambel
-  - [ ] Lernziele
-  - [ ] Technische Voraussetzungen
-  - [ ] Vorkenntnisse
-- [ ] Struktur der Kapitel
-  - [ ] Einleitung
-  - [ ] Inhalt
-  - [ ] Resümee
+- [x] Startseite
+  - [x] Kurze Beschreibung + einladendes Bild
+  - [x] Zielgruppe
+  - [x] Struktur der Fallstudie + darstellendes Bild, das die Schritte der Fallstudie als Kapitel visualisiert
+  - [x] Kurze Beschreibug aller Schritte
+  - [x] Literatur
+- [x] Präambel
+  - [x] Lernziele
+  - [x] Technische Voraussetzungen
+  - [x] Vorkenntnisse
+- [x] Struktur der Kapitel
+  - [x] Einleitung
+  - [x] Inhalt
+  - [x] Resümee
   - [ ] Assessment
-- [ ] Reflexion und Resümee
-- [ ] Epilogue
+- [x] Reflexion und Resümee
+- [x] Epilogue
 
 ## Inhalt
-- [ ] Informationen über den Lebenszyklus
-- [ ] Zugehörigkeit zu einer definierten Sammlung
-- [ ] Bildungsvoraussetzungen
-- [ ] technische Rahmenbedingungen
-- [ ] rechtliche Aspekte (z. B. bei Nachnutzung von existierenden Bildungsangeboten)
-- [ ] Beziehungsstrukturen (zu thematisch verwandten Bildungsangeboten)
-- [ ] Möglichkeit zu Anmerkungen, Kommentierungen (z. B. durch die Zielgruppen)
-- [ ] Klassifizierung nach inhaltlichen (z. B. fachspezifischen Aspekten) und 
-- [ ] formalen Aspekten (z. B. Kompetenzniveau=Blooms Taxonomie=Zugangswege definiert?)
-- [ ] Fachliche Korrektheit überprüft
-- [ ] Code-Beispiele (wenn skriptbasierte Sprache verwendet wird) kommentiert und verständlich
-- [ ] Alle Fachbegriffe erklärt oder verlinkt
+- [x] Möglichkeit zu Anmerkungen, Kommentierungen (z. B. durch die Zielgruppen)
+- [x] Fachliche Korrektheit überprüft
+- [x] Code-Beispiele (wenn skriptbasierte Sprache verwendet wird) kommentiert und verständlich
+- [x] Alle Fachbegriffe erklärt oder verlinkt
 - [ ] Optionale Kapitel kennzeichnen
 
 ## Assessment
@@ -50,21 +42,21 @@ lang: de-de
 - [ ] Abschlussassessment für die OER als Ganzes
 
 ## Technologie
-- [ ] GitHub Action funktioniert
-- [ ] Lokale Entwicklungsumgebung funktioniert
+- [x] GitHub Action funktioniert
+- [x] Lokale Entwicklungsumgebung funktioniert
 - [ ] Colab funktioniert wie angedacht
 - [ ] Binder funktioniert wie angedacht
 - [ ] Live Code funktioniert wie angedacht
 
 ## Formatierung / Typographie / Design
-- [ ] Teile sollten in Kapitel geändert werden: Es erleichtert die Navigation
-- [ ] Admonitions passend genutzt
-- [ ] Externe Links sind gekennzeichnet
-- [ ] Abbildungen gut erkennbar
+- [x] Teile sollten in Kapitel geändert werden: Es erleichtert die Navigation
+- [x] Admonitions passend genutzt
+- [x] Externe Links sind gekennzeichnet
+- [x] Abbildungen gut erkennbar
 - [ ] Alt-Text für Abbildungen, soweit sinnvoll
 - [ ] Rechtschreibkontrolle durchgeführt
-- [ ] Zitationen und Literaturverzeichnis(se) korrekt
-- [ ] Hinweise zu Feedback-/Fragen-/Kontakt-Möglichkeiten
+- [x] Zitationen und Literaturverzeichnis(se) korrekt
+- [x] Hinweise zu Feedback-/Fragen-/Kontakt-Möglichkeiten
 
 ## Publikation
 - [ ] Metadaten sind vollständig
@@ -76,8 +68,9 @@ lang: de-de
 
 ## Links, Verweise und Abhängigkeit
 - [ ] Alle nötigen Materialien sind verfügbar. Wenn möglich in einem sicheren Repositorium oder direkt in der OER hinterlegt. Wenn lizenzrechtlich erlaubt Kopie unsicher abgelegter Datensätze anlegen. 
-- [ ] Links innerhalb der Fallstudien funktionieren
-- [ ] Links auf externe Inhalte überprüft
+- [x] Links innerhalb der Fallstudien funktionieren
+- [x] Links auf externe Inhalte überprüft
 - [ ] Code-Abhängigkeiten sind so definiert, dass sie wieder installiert werden können (requirements.txt, …)
+- [ ] rechtliche Aspekte (z. B. bei Nachnutzung von existierenden Bildungsangeboten)
 
  
