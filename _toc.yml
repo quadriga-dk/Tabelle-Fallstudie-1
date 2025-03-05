@@ -4,7 +4,7 @@
 format: jb-book
 root: Markdown/01_Intro
 options: 
-  numbered: 3
+  numbered: 2
 chapters:
   - file: Markdown/Präambel
     sections:
@@ -48,7 +48,6 @@ chapters:
     sections:
     - file: Markdown/25_Reflexion
   - file: Markdown/Epilog
-    numbered: 2
     sections:
     - file: Markdown/fragen_und_feedback
     - file: Markdown/literaturverzeichnis
