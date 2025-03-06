@@ -20,18 +20,10 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 `````{margin}
 ````{admonition} Zitierhinweis
 :class: citation-information
-```bibtex
-@book{Walter_Reproduzierbarkeit_2024,
-    address = {Potsdam; Berlin},
-    title = {{QUADRIGA} {Reproduzierbarkeit von Datenanalysen}: Ein Fallbeispiel aus dem Nationalen Bildungsbericht. {QUADRIGA} {Reproduzierbarkeit} {von} {Datenanalysen}: {Bildungsbericht}.},
-    copyright = {CC-BY-SA 4.0},
-    url = {https://quadriga-dk.github.io/Tabelle-Fallstudie-1/},
-    language = {deu},
-    author = {Walter, Paul and Schulze, Anton and Schmeling, Juliane and Plomin, Jana and Wiemer, Philip},
-    year = {2024},
-}
+```{literalinclude} ../CITATION.bib
+:language: bibtex
 ```
-Walter, P., Schulze, A., Schmeling, J., Plomin, J. & Wiemer, P. (2024). _Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht._ https://quadriga-dk.github.io/Tabelle-Fallstudie-1/
+Plomin, J., Schmeling, J., Schulze, A., Walter, P. & Wiemer, P. (2024). _Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht._ https://quadriga-dk.github.io/Tabelle-Fallstudie-1/
 
 ````
 `````
