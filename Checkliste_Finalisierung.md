@@ -60,10 +60,10 @@ lang: de-de
 
 ## Publikation
 - [ ] Metadaten sind vollständig
-- [ ] DOI(s) registriert und in den Metadaten und in der OER
-- [ ] Vergabe einer Versionsnummer (bspw. v1.0.0) (siehe [semver.org](https://semver.org))
+- [x ] DOI(s) registriert und in den Metadaten und in der OER
+- [x] Vergabe einer Versionsnummer (bspw. v1.0.0) (siehe [semver.org](https://semver.org))
 - [ ] Erstellung eines GitHub Releases
-- [ ] Veröffentlichung in einem Repositorium (bspw. Zenodo)
+- [x] Veröffentlichung in einem Repositorium (bspw. Zenodo)
 - [ ] Zitationshinweis
 
 ## Links, Verweise und Abhängigkeit
