@@ -13,7 +13,7 @@ Bildquelle: The Turing Way Community, & Scriberia. (2020). Illustrations from th
 
 Die FAIR-Prinzipien wurden im Projekt PARTHENOS von Hollander et al. (2019) zu Richtlinien zusammengefasst, die im Folgenden - noch einmal gekürzt - vorgestellt werden {cite}`hollander_parthenos_2019`.
 
-Die **Auffindbarkeit** von Daten lässt sich zum Beispiel durch die Verwendung von Persistenten Identifikatoren (s. Kapitel [Persistent Identifier (PID)](PID)) für Daten und Datensätze wesentlich vereinfachen. Dieser Aspekt ist von zentraler Bedeutung für alle FAIR-Prinzipien. Weiterhin sollten Forschungsdaten immer mit Quellen versehen werden wie es die fachspezifischen Standards erfordern (s. Kapitel [Datenzitierung](Einleitung_Datenzitierung)). Darüber hinaus sollten die Daten mit zahlreichen Metadaten beschrieben werden, für die eine Reihe disziplinübergreifende und -spezifische Standards und Schemata vorliegen .
+Die **Auffindbarkeit** von Daten lässt sich zum Beispiel durch die Verwendung von Persistenten Identifikatoren (s. Abschnitt [Persistent Identifier (PID)](PID)) für Daten und Datensätze wesentlich vereinfachen. Dieser Aspekt ist von zentraler Bedeutung für alle FAIR-Prinzipien. Weiterhin sollten Forschungsdaten immer mit Quellen versehen werden wie es die fachspezifischen Standards erfordern (s. Abschnitt [Datenzitierung](Einleitung_Datenzitierung)). Darüber hinaus sollten die Daten mit zahlreichen Metadaten beschrieben werden, für die eine Reihe disziplinübergreifende und -spezifische Standards und Schemata vorliegen .
 
 Unter **Zugänglichkeit** fällt die Auswahl eines vertrauenswürdigen Repositoriums als Speicherort für die Daten(sätze) und die klare Regelung des Zugriffs auf diese sowie die Verwendung von standardisierten Protokollen.
 

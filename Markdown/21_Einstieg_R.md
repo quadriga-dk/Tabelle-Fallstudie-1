@@ -3,8 +3,8 @@
 
 ## Vorwort
 
-Die folgende Lerneinheit soll Ihnen den Ersteinstieg in die Programmiersprache **R** erleichtern. Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte **R** und **RStudio**. Hinweise zur Installation finden Sie [hier](https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/28_Installation_R.html).  
-Als Fallbeispiel wird eine CSV-Datei mit Rohdaten zum *Personalstand an Hochschulen* eingelesen und ausgewertet. Entweder haben Sie diese Datei schon in [Kapitel 3](https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/11_XLSXundCSV.html) heruntergeladen oder Sie klicken [hier](Data/21341-0001_F_2020.csv) um die CSV-Datei aus unserem Repositorium direkt herunterzuladen (Quelle: Statistisches Bundesamt 2022).  
+Die folgende Lerneinheit soll Ihnen den Ersteinstieg in die Programmiersprache **R** erleichtern. Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte **R** und **RStudio**. Hinweise zur Installation finden Sie im Abschnitt [Technische Voraussetzungen](/Markdown/technische_voraussetzungen.md).  
+Als Fallbeispiel wird eine CSV-Datei mit Rohdaten zum *Personalstand an Hochschulen* eingelesen und ausgewertet. Entweder haben Sie diese Datei schon in Abschnitt 4.2 [XLSX und CSV](/Markdown/11_XLSXundCSV.md) heruntergeladen oder Sie klicken [hier](Data/21341-0001_F_2020.csv) um die CSV-Datei aus unserem Repositorium direkt herunterzuladen (Quelle: Statistisches Bundesamt 2022).  
 
 ------------------------------------------------------------------------
 
@@ -252,7 +252,7 @@ schlechter maschinenlesbar machen:
     Verarbeitung entstehen, wie Sie in der Tabelle erkennen können.  
 
 Wenn Sie mehr zum Thema “hochwertiger Datenaufbau” wissen möchten,
-werfen Sie gerne einen Blick in das Kapitel  [Tidy Data Struktur](https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenstruktur.html#tidy-data-struktur) oder auch den <a href="https://nqdm-projekt.de/de/downloads/leitfaden" target="_blank">NQDM-Leitfaden</a>.  
+werfen Sie gerne nochmal einen Blick in den Abschnitt  [Datenstruktur](/Markdown/20_Datenstruktur.md) oder auch den <a href="https://nqdm-projekt.de/de/downloads/leitfaden" target="_blank">NQDM-Leitfaden</a>.  
 
 ------------------------------------------------------------------------
 

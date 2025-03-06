@@ -13,7 +13,6 @@ chapters:
   - file: Markdown/03_Datenbasis
   - file: Markdown/05_Datennachnutzung
     sections:
-    - file: Markdown/Datennachnutzung
     - file: Markdown/06_FairPrinzipien
     - file: Markdown/07_Übung_FAIR
     - file: Markdown/09_Reflexion_FAIR

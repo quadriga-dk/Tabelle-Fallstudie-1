@@ -50,10 +50,8 @@ Finden Sie die Datengrundlage für das obere linke Kreisdiagramm (Personen, Hoch
 <summary>Ja</summary>
 <br>
 Bravo, gut gemacht!
-Downloaden Sie nun die Daten für das Jahr 2020 als CSV-Datei ab, da sich das Kreisdiagramm nur auf dieses Jahr bezieht.
-</details>
-
-
+Speichern Sie nun die Daten für das Jahr 2020 als CSV-Datei ab, da sich das Kreisdiagramm nur auf dieses Jahr bezieht.
+</details>  
 
 <details>
 <summary>Nein</summary>
@@ -69,10 +67,10 @@ Halb so schlimm, die Daten sind auch etwas versteckt. Klicken Sie in folgender R
 4. "21341-0001	Personal an Hochschulen: Deutschland, Jahre, Personalgruppen nach Beschäftigungsverhältnis, Geschlecht"
 
 Hier können Sie nun das Jahr 2020 auswählen, auf dass das Kreisdiagramm verweist und die Daten als CSV-Datei downloaden.
-</details>
+</details>  
 
 Öffnen Sie nun die Datei in einem Programm Ihrer Wahl (z.B. Excel).
-Wie Sie nun vermutlich selber erkannt haben, handelt es sich bei dieser Datei um die CSV-Ausgangsdatei aus vorangegangener Lerneinheit [Übung: Arbeiten mit CSV-Dateien in R](Übung_csv).
+Wie Sie nun vermutlich selber erkannt haben, handelt es sich bei dieser Datei um die CSV-Ausgangsdatei aus dem vorangegangenen Kapitel (s. [6.3 Übung: Arbeiten mit CSV-Dateien in R](/Markdown/21_Einstieg_R.md)).
 
 ### Nachbauen des Kreisdiagramms in R
 Das nachfolgende Skript knüpft an die vorangegangene Übung an. Es wird vorausgesetzt, dass die Daten entsprechend des Skriptes angepasst wurden.

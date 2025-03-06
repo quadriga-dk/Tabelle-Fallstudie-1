@@ -11,7 +11,7 @@ Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte vorab *
 
 
 **Hinweis**  
-Die Übungen in [Kapitel 5](Datenmanipulation) und [Kapitel 6](Datenmanipulation2) sind auf der Basis von R 4.4.1 entwickelt worden und zur Nutzung von RStudio 2024.09.0 Build 375 über Windows konzipiert. Bei der Nutzung einer anderen RStudio Version oder eines anderen Betriebssystems können Funktionen eventuell variieren.  
+Die Übungen in [Kapitel 6](Datenmanipulation) und [Kapitel 7](Datenmanipulation2) sind auf der Basis von R 4.4.1 entwickelt worden und zur Nutzung von RStudio 2024.09.0 Build 375 über Windows konzipiert. Bei der Nutzung einer anderen RStudio Version oder eines anderen Betriebssystems können Funktionen eventuell variieren.  
 Eine Anleitung für die ersten Schritte in R-Studio findet sich weiter unten in diesem Abschnitt.  
 
 ## Nutzung dieses Jupyter Books

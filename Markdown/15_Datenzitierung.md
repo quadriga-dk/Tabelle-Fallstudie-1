@@ -7,7 +7,7 @@ Eine allgmeine Richtlinie wurde von der so genannten Gruppe Force11 formuliert {
 - Daten wie Publikationen als legitime, zitierbare Forschungsergebnisse anzusehen sind (1) und
 - dementsprechend auf die Urheber:innen verwiesen werden muss (2).
 - Zitate sollten nach Evidenz verwendet (3),
-- mit eindeutigen Identifikatoren (s. Kapitel [Persistent Identifier](PID)) versehen werden (4) und
+- mit eindeutigen Identifikatoren (s. Abschnitt [Persistent Identifier](PID)) versehen werden (4) und
 - den Zugang zu den Daten selbst bzw. ihren Metadaten erleichtern (5).
 - Weiterhin sollten die Identifikatoren und Metadaten dauerhaft - im Zweifel auch über die Lebensdauer der Daten hinaus - bestehen bleiben (6).
 - Des Weiteren sollten die Zitate spezifisch sein und die Überprüfbarkeit der Daten erleichtern (7) sowie
