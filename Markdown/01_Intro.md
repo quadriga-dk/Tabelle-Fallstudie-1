@@ -23,7 +23,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```{literalinclude} ../CITATION.bib
 :language: bibtex
 ```
-Plomin, J., Schmeling, J., Schulze, A., Walter, P. & Wiemer, P. (2024). _Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht._ https://quadriga-dk.github.io/Tabelle-Fallstudie-1/
+Plomin, J., Schmeling, J., Schulze, A., Walter, P. & Wiemer, P. (2024). _Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht._ https://doi.org/10.5281/zenodo.14975202
 
 ````
 `````
