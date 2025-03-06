@@ -20,7 +20,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 `````{margin}
 ````{admonition} Zitierhinweis
 :class: citation-information
-```{literalinclude} ../CITATION.bib
+```{literalinclude} ../references.bib
 :language: bibtex
 ```
 Plomin, J., Schmeling, J., Schulze, A., Walter, P. & Wiemer, P. (2024). _Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht._ https://doi.org/10.5281/zenodo.14975202
