@@ -32,3 +32,9 @@ Weiterhin ist zu prüfen, ob die Daten in einem Format vorliegen, das auf Ihrem 
 Zu guter letzt sollten Sie sich die Lizenz der Daten ansehen: Darf man die Daten überhaupt nutzen? Dies ist im hier vorliegenden Fall nicht so einfach zu beantworten, daher stellen wir die Frage zunächst für ein Kapitel zurück.
 
 Vielleicht ist es Ihnen bereits aufgefallen. Diese Schritte entsprechen den im (Forschungs-)Datenmanagement wichtigen und allgemein gültigen FAIR-Prinzipien. Dies sind Richtlinien, die dabei helfen, Daten(sätze) nachnutzbar abzulegen, indem sie gut zu finden, einfach zugänglich und für verschiedene Systeme kompatibel gestaltet sind. Auf diese geht der nächste Abschnitt genauer ein. Wenn Sie mit den FAIR-Prinzipien bereits vertraut sind, können sie den Abschnitt auch überspringen und sich direkt an die Übung wagen.
+
+In diesem Kapitel finden Sie folgende Abschnitte: 
+
+- [FAIR-Prinzipien](Markdown/06_FairPrinzipien.md)
+- [Übung FAIR-Prinzipien](Markdown/07_Übung_FAIR.md)
+- [Resümee FAIR-Prinzipien](Markdown/09_Reflexion_FAIR.md)
