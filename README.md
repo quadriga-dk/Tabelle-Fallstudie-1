@@ -1,8 +1,9 @@
 # QUADRIGA OER 
+[![DOI](https://zenodo.org/badge/814613042.svg)](https://doi.org/10.5281/zenodo.14975202)
 
 ## Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht
 
-Diese Open Educational Resource (OER) ist im Rahmen des Projekts <a href="https://www.quadriga-dk.de" class="external-link" target="_blank">QUADRIGA</a> als 1. Fallstudie des Datentyps Tabelle entstanden.
+Dieses interaktive Lehrbuch ist im Rahmen des Projekts <a href="https://www.quadriga-dk.de" class="external-link" target="_blank">QUADRIGA</a> als 1. Fallstudie des Datentyps Tabelle entstanden.
 
 ## Datenkompetenzzentrum QUADRIGA
 
@@ -12,9 +13,9 @@ Anhand modellhafter Forschungsfragen werden für die drei Datentypen Bewegtes Bi
 
 ## Nutzung dieser OER
 
-Sie können diese OER zu Lehr- und Lernzwecken verwenden. Sie können sie zudem teilen und bearbeiten unter der Bedingung der Nennung der Autor:innen und der gleichen Lizenzierung. Weitere Informationen dazu entnehmen Sie bitte den <a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-1/blob/main/LICENSE.md" target="_blank">Lizenzhinweisen</a>.  
+Sie können dieses JupyterBook zu Lehr- und Lernzwecken verwenden. Sie können sie zudem teilen und bearbeiten unter der Bedingung der Nennung der Autor:innen und der gleichen Lizenzierung. Weitere Informationen dazu entnehmen Sie bitte den <a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-1/blob/main/LICENSE.md" target="_blank">Lizenzhinweisen</a>.  
 
-Im Repository sind die in der OER verwendeten Daten hinterlegt:
+Im Repository sind die in dem interaktiven Lehrbuch verwendeten Daten hinterlegt:
 - [Nationaler Bildungsbericht 2022](https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/bildung-in-deutschland-2022#1) inklusive des Tabellenanhangs H1 (Autor:innengruppe Bildungsberichterstattung (Hrsg.), Bildung in Deutschland 2022 : Ein indikatorengestützter Bericht mit einer Analyse zum Bildungspersonal, wbv Media - wbv Publikation, Bielefeld 2022, DOI: 10.3278/6001820hw, Lizenz: CC BY-SA 3.0 DE) 
 - Tabellenwerte im Format CSV von [Destatis/GENESIS-Online](https://www-genesis.destatis.de/genesis/online) (Hrsg.: Statistisches Bundesamt (Destatis), Lizenz: dl-de/by-2-0) 
 

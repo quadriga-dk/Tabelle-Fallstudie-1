@@ -93,9 +93,14 @@ bestimmte Auswertungen nicht möglich sind und Fehler entstehen können.
 :class: keypoint
 Im *Environment* Fenster können Sie die Variablenklassen ebenfalls schnell einsehen.
 `````
-  
-![](_images/R_Environment_Variablenklassen.png)  
-*Abbildung 7: Environment-Fenster in RStudio*  
+
+```{figure} _images/R_Environment_Variablenklassen.png
+---
+name: r-environment
+alt: Ein Screenshot, der den Ausschnitt des Environment-Fensters von R-Studio zeigt.
+---
+Environment-Fenster in RStudio.
+```
 
 **Fallbeispiel:** Betrachten Sie die Funktion `max()`, welche den
 Maximalwert in der jeweiligen Spalte zurückgeben soll. Hinweis:
@@ -238,7 +243,7 @@ anders möglich.
 
 ```{admonition} Wichtig!
 :class: hinweis
-Wenn Sie Daten generieren, strukturieren Sie diese immer gut. Dies erleichtert Ihnen selbst, aber auch allen anderen, die Ihre Daten verwenden, das Arbeiten! Eine gute Struktur von Daten liefert der Tidy-Data Ansatz (s. Kapitel [Tidy Data](Tidy_data)).
+Wenn Sie Daten generieren, strukturieren Sie diese immer gut. Dies erleichtert Ihnen selbst, aber auch allen anderen, die Ihre Daten verwenden, das Arbeiten! Eine gute Struktur von Daten liefert der Tidy-Data Ansatz (s. Abschnitt [Datenstruktur](/Markdown/20_Datenstruktur.md)).
 ```
  
 **Einpflegen des Variableninhalts**

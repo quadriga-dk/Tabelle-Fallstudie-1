@@ -5,7 +5,7 @@ In diesem Kapitel haben Sie den Unterschied zwischen den Dateiformaten XLSX und 
 
 Dabei ist Ihnen wahrscheinlich aufgefallen, dass es den "perfekten" Weg oder das "eine" Prüfschema nicht gibt. Je nach Aufgabenstellung bzw. Verwendungszweck der Daten kann es sinnvoll sein, mal das eine und mal das andere Format zu wählen. Und nicht immer lassen sich - aus verschiedensten Gründen - alle Qualitätskriterien einhalten. Dennoch sollte es das Ziel sein, möglichst vieke Kriterien zu erfüllen, denn nur mit qualitativ hochwertigen Daten lässt sich ordnungsgemäß arbeiten. Diese Qualität richtig einschätzen zu können, vermeidet unnötigen Mehraufwand. Dies gilt umso mehr für eine Datennachnutzung.
 
-Daher sollten Daten nach bestem Wissen und Gewissen beschrieben sowie transparent und möglichst vollständig dokumentiert werden. Das zahlt sich am Ende aus und spart Zeit für unnötige Recherchen ein! Für alle Daten, die sich im Internet finden lassen, ist es zudem ratsam, eine Lizenz zu vergeben, also auf Nutzungsrechte hinzuweisen. Idealerweise geschieht das in den Metadaten, die einen Datensatz beschreiben. Dort sollte sich auch ein Identifier (s. Kap. [Persistent Identifier (PID)](PID)) finden, der die Daten eindeutig und global identifiziert.
+Daher sollten Daten nach bestem Wissen und Gewissen beschrieben sowie transparent und möglichst vollständig dokumentiert werden. Das zahlt sich am Ende aus und spart Zeit für unnötige Recherchen ein! Für alle Daten, die sich im Internet finden lassen, ist es zudem ratsam, eine Lizenz zu vergeben, also auf Nutzungsrechte hinzuweisen. Idealerweise geschieht das in den Metadaten, die einen Datensatz beschreiben. Dort sollte sich auch ein Identifier (s. Abschnitt [Persistent Identifier (PID)](PID)) finden, der die Daten eindeutig und global identifiziert.
 
 
 `````{admonition} Tipp
@@ -16,7 +16,7 @@ Ein gutes Datenmanagement erleichtert nicht nur potentiellen Nachnutzenden, sond
 `````
 
 Auf dem Weg zur Lösung der Forschungsfrage hat dieses Kapitel gezeigt, welche Rolle die Qualität von Daten bei der Datennachnutzung spielt. 
-Die Datenqualität bewerten zu können, befähigt zum einen dazu, zu entscheiden, ob sich die ausgewählten Daten überhaupt für ein anvisiertes (Forschungs-)Projekt und zur Lösung einer Fragestellung eignen. Zum anderen lässt sich so einschätzen, ob und inwieweit die Daten noch aufbereitet oder manipuliert werden müssen und ob dieser Aufwand gerechtfertigt ist. In unserem Fall müssen die Daten ein wenig manipuliert werden, was wir Ihnen im übernächsten Kapitel [Datenmanipulation](Datenmanipulation) zeigen werden.  
+Die Datenqualität bewerten zu können, befähigt zum einen dazu, zu entscheiden, ob sich die ausgewählten Daten überhaupt für ein anvisiertes (Forschungs-)Projekt und zur Lösung einer Fragestellung eignen. Zum anderen lässt sich so einschätzen, ob und inwieweit die Daten noch aufbereitet oder manipuliert werden müssen und ob dieser Aufwand gerechtfertigt ist. In unserem Fall müssen die Daten ein wenig manipuliert werden, was wir Ihnen im übernächsten Kapitel [Organisation und Strukturierung](Datenmanipulation) zeigen werden.  
 
 Am Ende dieser Lerneinheit möchten wir Sie wieder auf den Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen.
 Der Kurzfragebogen am Ende jedes Kapitels hilft uns, diese Lerneinheit kontinuierlich zu verbessern, indem Sie uns auf etwaige Unklarheiten hinweisen oder Anregungen geben. Vielen Dank!  

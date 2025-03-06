@@ -12,7 +12,7 @@
     Geben Sie uns Feedback
 </a>
 
-Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfnisse anpassen.
+Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre Bedürfnisse anpassen.
 
 ```
 ````
@@ -29,6 +29,7 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
     language = {deu},
     author = {Walter, Paul and Schulze, Anton and Schmeling, Juliane and Plomin, Jana and Wiemer, Philip},
     year = {2024},
+    doi = {https://doi.org/10.5281/zenodo.14975202},
 }
 ```
 Walter, P., Schulze, A., Schmeling, J., Plomin, J. & Wiemer, P. (2024). _Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht._ https://quadriga-dk.github.io/Tabelle-Fallstudie-1/
@@ -39,25 +40,25 @@ Walter, P., Schulze, A., Schmeling, J., Plomin, J. & Wiemer, P. (2024). _Reprodu
 ```{figure} _images/Collage_3.png
 ---
 name: collage-covered-topics
-alt: Eine Collage aus Themenfeldern, die in diesem JupyterBook behandelt werden.
+alt: Eine Collage aus Themenfeldern, die in diesem interaktiven Lehrbuch behandelt werden.
 ---
-Collage, die beispielhaft für die in diesem JupyterBook behandelten Themen steht.
+Collage, die beispielhaft für die in diesem interaktiven Lehrbuch behandelten Themen steht.
 ```
 
 
-Diese Fallstudie bildet mit Hilfe eines <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">JupyterBooks</a> einen Forschungsverlauf in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
+Diese Fallstudie bildet mit Hilfe eines <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">Jupyter Books</a> einen Forschungsverlauf in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
 
 
 ## Fokus
 
 Im Fokus stehen dabei Daten des <a href="https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022" class="external-link" target="_blank">Nationalen Bildungsberichts (2022)</a>, anhand derer die Forschungsfrage formuliert wurde: 
 **Wie hat sich die Zusammensetzung des Personals an Hochschulen in Deutschland im letzten Jahrzehnt (2010-2020) entwickelt?**
-Um diese zu beantworten, vermittelt dieses JupyterBook Kenntnisse in Bezug auf qualitative Bewertungskriterien und Datenmanagement sowie Grundkenntnisse in der Benutzung der statistischen <a href="https://www.r-project.org" class="external-link" target="_blank">Software R</a>. Diese werden dazu eingesetzt, die Reproduzierbarkeit von datenbasierten Ergebnissen zu prüfen, um schließlich mit einer eigenen Abfrage die Forschungsfrage zu lösen.
+Um diese zu beantworten, vermittelt dieses Lehrbuch Kenntnisse in Bezug auf qualitative Bewertungskriterien und Datenmanagement sowie Grundkenntnisse in der Benutzung der statistischen <a href="https://www.r-project.org" class="external-link" target="_blank">Software R</a>. Diese werden dazu eingesetzt, die Reproduzierbarkeit von datenbasierten Ergebnissen zu prüfen, um schließlich mit einer eigenen Abfrage die Forschungsfrage zu lösen.
 
 
-## Bedeutung des JupyterBooks für die Verwaltungswissenschaft
+## Bedeutung dieses Lehrbuchs für die Verwaltungswissenschaft
 
-Neben der Nutzung statistischer Daten in der Verwaltungswissenschaft gewinnt die Nachnutzung von Forschungsdaten zunehmend an Bedeutung. Die in diesem JupyterBook erlernbaren Tools helfen dabei, die Reproduzierbarkeit von Analysen und Ergebnissen zu prüfen und zu bewerten. Durch die hier gezeigten Schritte der Datenmanipulation lassen sich zudem Tabellen bereinigen, um so weitere datengetriebene Analysen durchzuführen.
+Neben der Nutzung statistischer Daten in der Verwaltungswissenschaft gewinnt die Nachnutzung von Forschungsdaten zunehmend an Bedeutung. Die in diesem interaktiven Lehrbuch erlernbaren Tools helfen dabei, die Reproduzierbarkeit von Analysen und Ergebnissen zu prüfen und zu bewerten. Durch die hier gezeigten Schritte der Datenmanipulation lassen sich zudem Tabellen bereinigen, um so weitere datengetriebene Analysen durchzuführen.
 
 ## Zielgruppe
 
@@ -68,11 +69,11 @@ Die Zielgruppe sind promovierende und promovierte Wissenschaftler:innen, aber au
 Grundsätzlich steht das Angebot aber selbstverständlich allen Interessierten offen.
 
 
-Dieses JupyterBook erfordert ein allgemeines Verständnis darüber, wie Datensätze strukturiert sind, einschließlich grundlegender Begriffe wie Datensätze oder Variablen. Zudem sollten Anwendende mit Konzepten wie Metadaten und Datendokumentationen vertraut sein.  
+Dieses interaktive Lehrbuch erfordert ein allgemeines Verständnis darüber, wie Datensätze strukturiert sind, einschließlich grundlegender Begriffe wie Datensätze oder Variablen. Zudem sollten Anwendende mit Konzepten wie Metadaten und Datendokumentationen vertraut sein.  
 
-Für die Kapitel [2. Datennachnutzung und FAIR-Prinzipien](Datennachnutzung), [3. Qualitätsbewertung und 5-Sterne-Modell](Rohdaten) sowie [4. Identifikatoren und Linked Data](PID) werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in das Datenmanagement.
+Für die Kapitel [Datennachnutzung](/Markdown/05_Datennachnutzung.md), [Qualitätsbewertung](/Markdown/Qualitätsbewertung.md) sowie [Identifikatoren](/Markdown/Identifikatoren.md) werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in das Datenmanagement.
 
-Für die Kapitel [5. Datenmanipulation (Organisation und Strukturierung)](Datenmanipulation) und [6. Datenmanipulation (Analyse und Reproduktion)](Datenmanipulation2) werden ein Grundinteresse bzw. -verständnis für Statistik und statistische Software bzw. für das Programmieren empfohlen, da Sie dort mit der <a href="https://www.r-project.org" target="_blank">Software R</a> arbeiten werden. Grundlegende Kenntnisse in R oder anderen Programmiersprachen sind für diese Kapitel von Vorteil, aber keine zwingende Voraussetzung.  
+Für die Kapitel [Organisation und Strukturierung](/Markdown/Datenmanipulation1.md) sowie [Analyse und Reproduktion](/Markdown/Datenmanipulation2.md) werden ein Grundinteresse bzw. -verständnis für Statistik und statistische Software bzw. für das Programmieren empfohlen, da Sie dort mit der <a href="https://www.r-project.org" target="_blank">Software R</a> arbeiten werden. Grundlegende Kenntnisse in R oder anderen Programmiersprachen sind für diese Kapitel von Vorteil, aber keine zwingende Voraussetzung.  
 
 
 ## Struktur der Fallstudie 
@@ -88,22 +89,24 @@ Dies geschieht u. a. mit den Werkzeugen JupyterBooks und der statistischen Softw
 
 Die Gliederung der Fallstudie in Kapitel und Abschnitte können Sie immer in der Menüleiste auf der linken Seite nachvollziehen. Die rechte Menüleiste zeigt Ihnen an, in welchem Abschnitt eines Kapitels Sie sich gerade befinden.  
 
-- Um die Forschungsfrage zu beantworten, benötigen wir Daten. Diese können und wollen wir nicht selbst erheben, weshalb wir Daten nachnutzen müssen. Wir greifen in dieser Fallstudie auf Daten des [Nationalen Bildungsberichts](Datenbasis) zurück. Daher werden in einem **1. Schritt** die Nachnutzbarkeit der Daten analysiert und die FAIR-Prinzipien erläutert (s. Kapitel [Datennachnutzung](Datennachnutzung)).
+- Um die Forschungsfrage zu beantworten, benötigen wir Daten. Diese können und wollen wir nicht selbst erheben, weshalb wir Daten nachnutzen müssen. Wir greifen in dieser Fallstudie auf Daten des [Nationalen Bildungsberichts](Datenbasis) zurück. Daher werden in einem **1. Schritt** die Nachnutzbarkeit der Daten analysiert und die FAIR-Prinzipien erläutert (s. Kapitel [Datennachnutzung](/Markdown/05_Datennachnutzung.md)).
 
-- Im **2. Schritt** geht es dann darum, die nachgenutzten Daten in ihrer Qualität zu bewerten, um zu prüfen, ob sie den Ansprüchen gerecht werden. Dazu stellen wir Ihnen verschiedene Qualitätskriterien und das 5-Sterne-Modell für offene Daten vor und zeigen den Unterschied zwischen den Formaten XLSX und CSV auf (s. Kapitel [Qualitätsbewertung](Qualitätsbewertung)).
+- Im **2. Schritt** geht es dann darum, die nachgenutzten Daten in ihrer Qualität zu bewerten, um zu prüfen, ob sie den Ansprüchen gerecht werden. Dazu stellen wir Ihnen verschiedene Qualitätskriterien und das 5-Sterne-Modell für offene Daten vor und zeigen den Unterschied zwischen den Formaten XLSX und CSV auf (s. Kapitel [Qualitätsbewertung](/Markdown/Qualitätsbewertung.md)).
 
-- Im **3. Schritt** machen wir Sie mit den Grundlagen der Zitation von Forschungsdaten, Persistenten Identifikatoren und Linked Data vertraut, da auch dieser Themenkomplex im Kontext von Datennachnutzung und Open Science von Bedeutung ist (s. Kapitel [Identifikatoren und Linked Data](PID)).
+- Im **3. Schritt** machen wir Sie mit den Grundlagen der Zitation von Forschungsdaten, Persistenten Identifikatoren und Linked Data vertraut, da auch dieser Themenkomplex im Kontext von Datennachnutzung und Open Science von Bedeutung ist (s. Kapitel [Identifikatoren](/Markdown/Identifikatoren.md)).
 
-- Im **4. Schritt** bewegen wir uns näher an die Forschungsfrage und zeigen Ihnen, wie Daten bereinigt und manipuliert werden können. Dazu machen wir Sie mit den Grundlagen des Arbeitens mit R vertraut, die für die folgenden Operationen benötigt werden (s. Kapitel [Datenmanipulation (Organisation und Strukturierung)](Datenmanipulation)). Schließlich vollziehen wir eine Datenanalyse des Bildungsberichts nach, um die Daten auf ihre Reproduzierbarkeit zu prüfen, und lösen am Ende mit Hilfe des neu erlangten Wissens die Forschungsfrage (s. Kapitel [Datenmanipulation (Analyse und Reproduktion)](Datenmanipulation2)).
+- Im **4. Schritt** bewegen wir uns näher an die Forschungsfrage und zeigen Ihnen, wie Daten bereinigt und manipuliert sowie. organisiert und strukturiert werden können. Dazu machen wir Sie mit den Grundlagen des Arbeitens mit R vertraut, die für die folgenden Operationen benötigt werden (s. Kapitel [Organisation und Strukturierung](/Markdown/Datenmanipulation1.md)). 
+
+- Im **5. Schritt** vollziehen wir eine Datenanalyse des Bildungsberichts nach, um die Daten auf ihre Reproduzierbarkeit zu prüfen, und lösen am Ende mit Hilfe des neu erlangten Wissens die Forschungsfrage (s. Kapitel [Analyse und Reproduktion](/Markdown/Datenmanipulation2.md)).
 
 
-Das ganze JupyterBook lässt sich darüber hinaus in zwei Blöcke teilen. Den ersten Block bilden die Kapitel 2, 3 und 4, die aus mindestens einem Wissen vermittelnden Abschnitt und jeweils einer kurze Übung bestehen, in der die erworbenen Kenntnisse geprüft werden können. Diese Kapitel nehmen jedes für sich etwa 15 Minuten Bearbeitungszeit in Anspruch. Obwohl sie aus der Forschungsfrage entstanden sind, lassen sie sich auch als generische Module verstehen.   
-Den zweiten Block nehmen die Kapitel 5 und 6 ein, die die Datenmanipulation mit der statistischen Software R thematisieren. Sie gliedern sich in die Organisation und Strukturierung von Daten mit Hilfe von R und deren Nutzung zur Analyse und Reproduktion. Diese Kapitel sind wesentlich umfangreicher als die vorherigen und können - je nach Vorkenntnissen - gute 2 bis 3 Stunden Bearbeitungszeit umfassen.
+Das ganze interaktive Lehrbuch lässt sich darüber hinaus in zwei Blöcke teilen. Den ersten Block bilden die ersten drei Kapitel (Datennachnutzung, Qualitätsbewertung und Identifikatoren), die aus mindestens einem Wissen vermittelnden Abschnitt und jeweils einer kurze Übung bestehen, in der die erworbenen Kenntnisse geprüft werden können. Diese Kapitel nehmen jedes für sich etwa 15 Minuten Bearbeitungszeit in Anspruch. Obwohl sie aus der Forschungsfrage entstanden sind, lassen sie sich auch als generische Module verstehen.   
+Den zweiten Block nehmen die letzten beiden Kapitel (Organisation und Strukturierung, Analyse und Reproduktion) ein, die die Datenmanipulation mit der statistischen Software R thematisieren. Diese Kapitel sind wesentlich umfangreicher als die vorherigen und können - je nach Vorkenntnissen - gute 2 bis 3 Stunden Bearbeitungszeit umfassen.
 
 
 ```{admonition} Ein Hinweis zur Bearbeitung
 :class: hinweis
-Sie müssen die Kapitel nicht alle nacheinander durchgehen. Zwar folgt der Aufbau des JupyterBooks einem roten Faden, aber die einzelnen Kapitel sind so gestaltet, dass sie in sich geschlossen und damit einzeln absolvierbar sind.
+Sie müssen die Kapitel nicht alle nacheinander durchgehen. Zwar folgt der Aufbau des Lehrbuchs einem roten Faden, aber die einzelnen Kapitel sind so gestaltet, dass sie in sich geschlossen und damit einzeln absolvierbar sind.
 ```  
 
 

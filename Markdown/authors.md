@@ -17,12 +17,8 @@ lang: de-DE
 <td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
 </tr>
 <tr>
-<td><b>ORCID:</b></td>
-<td></td>
-</tr>
-<tr>
 <td><b>Website:</b></td>
-<td>https://www.fokus.fraunhofer.de/8fb7bdcc1d2bd6e8</td>
+<td><a href="https://www.fokus.fraunhofer.de/8fb7bdcc1d2bd6e8" class="external-link" target="_blank">Fraunhofer FOKUS</a></td>
 </tr>
 </table>
 
@@ -38,7 +34,7 @@ lang: de-DE
 </tr>
 <tr>
 <td><b>Website:</b></td>
-</td><td><a href="[https://www.fokus.fraunhofer.de/a1b4f9c17da1c9a6" class="external-link" target="_blank">Fraunhofer FOKUS</a></td>
+</td><td><a href="https://www.fokus.fraunhofer.de/a1b4f9c17da1c9a6" class="external-link" target="_blank">Fraunhofer FOKUS</a></td>
 </tr>
 </table>
 
@@ -54,7 +50,7 @@ lang: de-DE
 </tr>
 </table>
 
-### Paul Walter <a href="https://orcid.org/0000-0002-9236-3268" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a></span>
+### Paul Walter <a href="https://orcid.org/0000-0002-9236-3268" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -86,10 +82,9 @@ lang: de-DE
 </tr>
 </table>  
 
-## Autor:innen der Inhalte  
+## Weitere Beteiligte  
 
-### Hannes Schnaitter <span style="font-size:8pt">(er/ihm/sein)</span>
-
+### Hannes Schnaitter <span style="font-size:8pt">(er/ihm/sein)</span> <a href="https://orcid.org/0000-0002-1602-6032" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -109,7 +104,7 @@ lang: de-DE
 </tr>
 </table>
 
-### Evgenia Samoilova 
+### Evgenia Samoilova <a href="https://orcid.org/0000-0003-3858-901X" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -171,9 +166,10 @@ lang: de-DE
 <td><b>GitHub:</b></td>
 <td><a href="https://github.com/SchenbergZY" class="external-link" target="_blank">SchenbergZY</a></td>
 </tr>
-</table>
+</table>  
 
-##Danksagung
+
+## Danksagung
 
 Wir danken folgenden Gruppen, Institutionen und Einrichtungen für die Nachnutzung ihrer Werke:
 
