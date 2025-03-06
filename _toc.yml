@@ -4,7 +4,7 @@
 format: jb-book
 root: Markdown/01_Intro
 options: 
-  numbered: 2
+  numbered: 3
 chapters:
   - file: Markdown/Präambel
     sections:
@@ -13,7 +13,6 @@ chapters:
   - file: Markdown/03_Datenbasis
   - file: Markdown/05_Datennachnutzung
     sections:
-    - file: Markdown/Datennachnutzung
     - file: Markdown/06_FairPrinzipien
     - file: Markdown/07_Übung_FAIR
     - file: Markdown/09_Reflexion_FAIR

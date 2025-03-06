@@ -11,7 +11,7 @@ Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte vorab *
 
 
 **Hinweis**  
-Die Übungen in [Kapitel 5](Datenmanipulation) und [Kapitel 6](Datenmanipulation2) sind auf der Basis von R 4.4.1 entwickelt worden und zur Nutzung von RStudio 2024.09.0 Build 375 über Windows konzipiert. Bei der Nutzung einer anderen RStudio Version oder eines anderen Betriebssystems können Funktionen eventuell variieren.  
+Die Übungen in [Kapitel 6](Datenmanipulation) und [Kapitel 7](Datenmanipulation2) sind auf der Basis von R 4.4.1 entwickelt worden und zur Nutzung von RStudio 2024.09.0 Build 375 über Windows konzipiert. Bei der Nutzung einer anderen RStudio Version oder eines anderen Betriebssystems können Funktionen eventuell variieren.  
 Eine Anleitung für die ersten Schritte in R-Studio findet sich weiter unten in diesem Abschnitt.  
 
 ## Nutzung dieses Jupyter Books
@@ -27,12 +27,24 @@ Dieses Jupyter Book besteht aus mehreren Kapiteln, die jeweils als einzelne Open
 1. Öffnen Sie R-Studio.  
 2. Ein neues Skript, in dem Sie Befehle eingeben können, öffnen Sie
 unter *Files*: 
-![](_images/R_Studio_open_new_script.png)  
-*Abbildung 4: Anleitung zum Öffnen eines neuen R-Skriptes*
+ 
+```{figure} _images/R_Studio_open_new_script.png
+---
+name: screenshot-r-1
+alt: Ein Screenshot, der zeigt, wie man ein neues R-Skript öffnet.
+---
+Anleitung zum Öffnen eines neuen R-Skriptes.
+```  
 
 **Interface von R-Studio:**  
-![](_images/R_Studio_Interface.png)
-*Abbildung 5: Interface von R-Studio*
+
+```{figure} _images/R_Studio_Interface.png
+---
+name: screenshot-r-2
+alt: Ein Screenshot, der das Interface von R-Studio zeigt.
+---
+Interface von R-Studio.
+```
 
 **R Skript:**  
 Im R Skript werden die Befehle eingegeben, welche **R** ausführen soll.

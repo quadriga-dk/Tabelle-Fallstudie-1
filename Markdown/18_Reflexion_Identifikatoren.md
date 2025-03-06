@@ -5,7 +5,7 @@ Da unser Datensatz nicht über einen persistenten Identifikator wie bspw. einen 
 
 `````{admonition} Haben Sie sich bereits eine ORCID zugelegt?
 :class: keypoint
-Mit einer ORCID können Sie sich zweifelsfrei Ihren Publikationen und Forschungsergebnissen zuordnen. So ist eindeutig, dass genau Sie die Person sind, von der die Daten stammen. Eine <a href="https://orcid.org/register" class="external-link" target="_blank">Registrierung</a> lässt sich innerhalb von wenigen Minuten umsetzen. Wie das aussehen kann, können Sie am Ende dieser Fallstudie im [Kapitel Autor:innen](authors) ansehen.
+Mit einer ORCID können Sie sich zweifelsfrei Ihren Publikationen und Forschungsergebnissen zuordnen. So ist eindeutig, dass genau Sie die Person sind, von der die Daten stammen. Eine <a href="https://orcid.org/register" class="external-link" target="_blank">Registrierung</a> lässt sich innerhalb von wenigen Minuten umsetzen. Wie das aussehen kann, können Sie am Ende dieser Fallstudie im Abschnitt [Autor:innen](authors) ansehen.
 `````
 
 Am Ende dieser Lerneinheit möchten wir Sie wieder auf den Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen.
