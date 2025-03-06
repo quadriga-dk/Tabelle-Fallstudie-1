@@ -29,7 +29,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
     language = {deu},
     author = {Walter, Paul and Schulze, Anton and Schmeling, Juliane and Plomin, Jana and Wiemer, Philip},
     year = {2024},
-    DOI = {https://doi.org/10.5281/zenodo.14975202}
+    doi = {https://doi.org/10.5281/zenodo.14975202},
 }
 ```
 Walter, P., Schulze, A., Schmeling, J., Plomin, J. & Wiemer, P. (2024). _Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht._ https://quadriga-dk.github.io/Tabelle-Fallstudie-1/
