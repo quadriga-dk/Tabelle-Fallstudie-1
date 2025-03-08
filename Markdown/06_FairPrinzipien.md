@@ -34,7 +34,7 @@ Falls Sie sich fragen, was das mit ihrer (Daten-)Praxis zu tun hat, seien hier e
 :class: seealso
 
 Eine detaillierte Ausformulierung der Prinzipien auf Englisch findet sich auf der <a href="https://www.go-fair.org/fair-principles/" target="_blank">Webseite der Initiative GO FAIR</a> und eine <a href="https://zenodo.org/records/6247015" target="_blank">deutsche Übersetzung</a> der originalen Prinzipien ist bei Zenodo einsehbar {cite}`wilkinson_fair-prinzipien_2016`. 
-Zum Prüfen der so genannten FAIRness von Daten haben sich Checklisten etabliert. Eine von diesen stammt von Jones und Grootveld (2017), die ebenfalls bei <a href="https://zenodo.org/records/5111307" target="_blank">Zenodo</a> zugänglich ist {cite}`lang_what_2023`. Sie stellt die Basis für die Übung im nächsten Abschnitt dar.
+Zum Prüfen der so genannten FAIRness von Daten haben sich Checklisten etabliert. Eine von diesen stammt von Jones und Grootveld (2017), die ebenfalls bei <a href="https://zenodo.org/records/5111307" target="_blank">Zenodo</a> zugänglich ist {cite}`jones_how_2017`. Sie stellt die Basis für die Übung im nächsten Abschnitt dar.
 ```
 
 ## Literatur
