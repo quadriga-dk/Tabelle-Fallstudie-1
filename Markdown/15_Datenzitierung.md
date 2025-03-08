@@ -1,7 +1,7 @@
 (Einleitung_Datenzitierung)=
 # Forschungsdaten zitieren
 
-In einem Kapitel über Datennachnutzung darf selbstverständlich ein Abschnitt über das Zitieren von Forschungsdaten nicht fehlen. Die Zitation ist Teil der guten wissenschaftlichen Praxis {cite}`deutsche_forschungsgemeinschaft_guidelines_2022` und erfolgt analog zur Zitierung von Literatur. 
+In einem interaktiven Lehrbuch über die Reproduzierbarkeit von Daten darf selbstverständlich ein Abschnitt über das Zitieren von Forschungsdaten nicht fehlen. Die Zitation ist Teil der guten wissenschaftlichen Praxis {cite}`deutsche_forschungsgemeinschaft_guidelines_2022` und erfolgt analog zur Zitierung von Literatur. Da wir in unserem Beispiel von anderen erhobene Daten (nach)nutzen, machen wir an dieser Stelle auf das Datenzitieren aufmerksam.  
 
 Eine allgmeine Richtlinie wurde von der so genannten Gruppe Force11 formuliert {cite}`force11_joint_2014`. In den dort aufgeführten 8 Punkten heißt es, dass 
 - Daten wie Publikationen als legitime, zitierbare Forschungsergebnisse anzusehen sind (1) und
@@ -11,11 +11,9 @@ Eine allgmeine Richtlinie wurde von der so genannten Gruppe Force11 formuliert {
 - den Zugang zu den Daten selbst bzw. ihren Metadaten erleichtern (5).
 - Weiterhin sollten die Identifikatoren und Metadaten dauerhaft - im Zweifel auch über die Lebensdauer der Daten hinaus - bestehen bleiben (6).
 - Des Weiteren sollten die Zitate spezifisch sein und die Überprüfbarkeit der Daten erleichtern (7) sowie
-- eine Balance aus Flexibilität und Interoperabilität bieten (8).
+- eine Balance aus Flexibilität und Interoperabilität bieten (8).  
 
-Einen kurzen und verständlichen Überblick dazu, bietet dieses Video vom Forschungsdatenmanagement Bayern:  
-
-
+Einen kurzen und verständlichen Überblick dazu, bietet dieses Video vom Forschungsdatenmanagement Bayern, das unter der <a href="https://www.youtube.com/t/creative_commons" class="external-link" target="_blank">Lizenz CC BY</a> auf Youtube veröffentlicht wurde: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WBiZydSV-m0?si=" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

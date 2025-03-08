@@ -1,5 +1,5 @@
 (Datennachnutzung)=
-# Datennachnutzung und Qualitätsbewertung  
+# Datennachnutzung 
 ````{margin}
 ```{admonition} Fragen oder Feedback 
 :class: frage-feedback
