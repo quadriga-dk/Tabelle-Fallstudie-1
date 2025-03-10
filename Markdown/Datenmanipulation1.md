@@ -16,10 +16,11 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 ```
 ````
 
-```{admonition} Lernziel: Verifizierung und Aufbereitung
+```{admonition} Lernziel: Datenmanipulation und -strukturierung
 :class: lernziele 
-- Die Lernenden kennen Qualitätsprobleme von Daten und können Fehler und Lücken in den Daten identifizieren und beheben.
-- Die Lernenden kennen Methoden der Datenaufbereitung und können diese anwenden.
+- Die Lernenden können den Begriff Datenmanipulation definieren und seine Bedeutung für die Qualitätsverbesserung und Informationsgewinnung aus Datensätzen erklären.
+- Die Lernenden können spezifische Datenmanipulationstechniken identifizieren und ihre Anwendung in einem gegebenen Datensatz (z.B. aus der Verwaltungswissenschaft) beschreiben.
+- Die Lernenden können die Wichtigkeit einer effizienten Datenstruktur für effektive Datenmanipulation erläutern und anhand eines Beispiels demonstrieren.
 ```  
 
 In diesem Kapitel finden Sie folgende Abschnitte:

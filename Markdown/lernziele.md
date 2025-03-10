@@ -18,6 +18,7 @@ Nach erfolgreichem Durchlaufen dieses JupyterNotebooks können im Erfolgsfall di
 ```{admonition} Sicherstellen der Qualität von Datensätzen
 :class: lernziele
 - Die Lernenden können zentrale Qualitätskriterien für Datensätze definieren und ihre Bedeutung für die Forschung erläutern.
+- Die Lernenden können die Unterschiede zwischen XLSX- und CSV-Dateiformaten erklären und Vor- und Nachteile für verschiedene Anwendungsfälle in der Verwaltungswissenschaft aufzeigen.
 - Die Lernenden können die Qualität eines gegebenen Datensatzes anhand einer Checkliste bewerten.
 ```  
 
@@ -28,7 +29,7 @@ Nach erfolgreichem Durchlaufen dieses JupyterNotebooks können im Erfolgsfall di
 - Die Lernenden können zwischen verschiedenen Arten von PIDs (z.B. DOI, ORCID) unterscheiden und ihre spezifischen Einsatzbereiche in der Verwaltungswissenschaft identifizieren.
 ```  
 
-```{admonition} Validierung und Aufbereitung
+```{admonition} Datenmanipulation und -strukturierung
 :class: lernziele 
 - Die Lernenden können die Unterschiede zwischen XLSX- und CSV-Dateiformaten erklären und Vor- und Nachteile für verschiedene Anwendungsfälle in der Verwaltungswissenschaft aufzeigen.
 -	Die Lernenden können den Begriff Datenmanipulation definieren und seine Bedeutung für die Qualitätsverbesserung und Informationsgewinnung aus Datensätzen erklären.
@@ -36,12 +37,10 @@ Nach erfolgreichem Durchlaufen dieses JupyterNotebooks können im Erfolgsfall di
 - Die Lernenden können die Wichtigkeit einer effizienten Datenstruktur für effektive Datenmanipulation erläutern und anhand eines Beispiels demonstrieren.
 ```  
 
-```{admonition} Reproduzierbarkeit und Interpretation
+```{admonition} Datenanalyse und -reproduzierbarkeit
 :class: lernziele
 - Die Lernenden können die Wichtigkeit der sorgfältigen Dokumentation bei der Durchführung einer deskriptiven Analyse beschreiben und anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit) mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte erläutern.
-- Die Lernenden können Daten in verwertbare Informationen umwandeln.
 - Die Lernenden können die Reproduzierbarkeit einer Studie evaluieren.
-- Die Lernenden sind in der Lage, die Bedeutung der Reproduzierbarkeit von Ergebnissen zu bewerten und ihre eigenen Arbeiten in diesem Kontext kritisch zu reflektieren.
 - Die Lernenden sind in der Lage, Daten in einer angemessenen Form zu visualisieren.
 ```
 
