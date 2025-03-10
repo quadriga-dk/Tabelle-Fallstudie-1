@@ -2,7 +2,7 @@ cff-version: 1.2.0
 title: Reproduzierbarkeit von Datenanalysen
 abstract: >-
   Dieses interaktive Lehrbuch ist das Outcome der 1. Fallstudie des Datentyps Tabelle des Projekts [QUADRIGA](https://quadriga-dk.de).
-message: "Please cite this software using the metadata from 'preferred-citation' 'in CITATION.cff'."
+message: "Please cite this software using the metadata from `preferred-citation` in `CITATION.cff`."
 type: software
 authors:
   - given-names: Jana
