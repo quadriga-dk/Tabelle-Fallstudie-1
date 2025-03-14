@@ -1,4 +1,4 @@
-# Analyse und Reproduktion
+# Analyse und Reproduzierbarkeit
 
 ````{margin}
 ```{admonition} Fragen oder Feedback 
