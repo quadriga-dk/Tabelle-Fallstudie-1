@@ -5,26 +5,26 @@ lang: de-DE
 (Installation_R-Studio)=
 # Technische Voraussetzungen
 
-## Installieren von R und R-Studio
+## Installieren von R und RStudio
 
 Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte vorab **R**. Zudem benötigen Sie eine geeignete Entwicklungsumgebung. Hierfür bietet sich **RStudio** an. Die Computersprache **R** und **RStudio** können Sie direkt vom Entwickler bzw. Maintainer <a href="https://posit.co/download/rstudio-desktop/" target="_blank">Posit</a> beziehen.  
 
 
 **Hinweis**  
 Die Übungen in [Kapitel 6](Datenmanipulation) und [Kapitel 7](Datenmanipulation2) sind auf der Basis von R 4.4.1 entwickelt worden und zur Nutzung von RStudio 2024.09.0 Build 375 über Windows konzipiert. Bei der Nutzung einer anderen RStudio Version oder eines anderen Betriebssystems können Funktionen eventuell variieren.  
-Eine Anleitung für die ersten Schritte in R-Studio findet sich weiter unten in diesem Abschnitt.  
+Eine Anleitung für die ersten Schritte in RStudio findet sich weiter unten in diesem Abschnitt.  
 
-## Nutzung dieses Jupyter Books
+## Nutzung dieses JupyterBooks
 
-Dieses Jupyter Book besteht aus mehreren Kapiteln, die jeweils als einzelne Open Educational Resource (OER) gelten. Sie sind anhand einer Forschungsfrage durch einen roten Faden verbunden, können aber auch einzeln absolviert werden.  
+Dieses JupyterBook besteht aus mehreren Kapiteln, die jeweils als einzelne Open Educational Resource (OER) gelten. Sie sind anhand einer Forschungsfrage durch einen roten Faden verbunden, können aber auch einzeln absolviert werden.  
 
 
 ------------------------------------------------------------------------
 
-## Erste Schritte in R-Studio
+## Erste Schritte in RStudio
 
 **Neues R Skript anlegen**  
-1. Öffnen Sie R-Studio.  
+1. Öffnen Sie RStudio.  
 2. Ein neues Skript, in dem Sie Befehle eingeben können, öffnen Sie
 unter *Files*: 
  
@@ -36,14 +36,14 @@ alt: Ein Screenshot, der zeigt, wie man ein neues R-Skript öffnet.
 Anleitung zum Öffnen eines neuen R-Skriptes.
 ```  
 
-**Interface von R-Studio:**  
+**Interface von RStudio:**  
 
 ```{figure} _images/R_Studio_Interface.png
 ---
 name: screenshot-r-2
 alt: Ein Screenshot, der das Interface von R-Studio zeigt.
 ---
-Interface von R-Studio.
+Interface von RStudio.
 ```
 
 **R Skript:**  

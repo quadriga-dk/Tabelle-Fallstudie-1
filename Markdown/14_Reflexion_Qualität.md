@@ -12,7 +12,7 @@ Daher sollten Daten nach bestem Wissen und Gewissen beschrieben sowie transparen
 :class: keypoint
 In Bezug auf Datennachnutzung ist es in der Regel hilfreich sich vorzustellen, welche Angaben zu einem Datensatz man selbst gerne vorfinden würde. Erfahre ich aus dem Datensatz beispielsweise, ob und wie ich ihn nutzen darf, woher die Daten stammen und ob es eine Ansprechperson gibt?
 
-Ein gutes Datenmanagement erleichtert nicht nur potentiellen Nachnutzenden, sondern auch Ihren Kolleg:innen und vielleicht sogar Ihnen selbst die zukünftige Arbeit mit diesen Daten, denn vor allem wenn die Erhebung oder Bearbeitung bereits eine Weile zurück liegt, sind Kontextinformationen oft nicht mehr aus dem Kopf abrufbar. 
+Gutes Datenmanagement erleichtert die Nachnutzung sowohl für andere als auch Sie selbst. Vor allem wenn die Erhebung oder Bearbeitung bereits eine Weile zurück liegt, sind Kontextinformationen oft nicht mehr einfach abrufbar. 
 `````
 
 Auf dem Weg zur Lösung der Forschungsfrage hat dieses Kapitel gezeigt, welche Rolle die Qualität von Daten bei der Datennachnutzung spielt. 

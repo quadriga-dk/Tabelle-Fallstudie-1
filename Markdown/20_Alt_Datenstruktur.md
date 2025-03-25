@@ -16,7 +16,8 @@ Im Kontext der Datenorganisation ist es zudem ratsam, sich mit der Normalisierun
 
 Beispielhafte simple Form der Datennormalisierung:
 ![](_images/Normalisierung_Tabelle.png)  
-*Abbildung nach Niklas Lang{cite}`noauthor_what_2023`*
+*Abbildung nach Niklas Lang {cite}`lang_what_2023`*
+
 
 ```{admonition} Weitere Informationen
 :class: seealso

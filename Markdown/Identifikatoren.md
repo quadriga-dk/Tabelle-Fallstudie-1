@@ -23,6 +23,8 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 - Die Lernenden können zwischen verschiedenen Arten von PIDs (z.B. DOI, ORCID) unterscheiden und ihre spezifischen Einsatzbereiche in der Verwaltungswissenschaft identifizieren.
 ``` 
 
+Nachdem Sie in den beiden vorangegangenen Kapiteln über Datennachnutzung und Qualitätsbewertung erfahren haben, wendet sich das Kapitel Identifikatoren der eindeutigen und persistenten Auszeichnung von Daten zu. Dazu zählt auch ein Abschnitt über das Zitieren von Forschungsdaten, das nicht nur, aber vor allem von Bedeutung ist, wenn Daten nachgenutzt werden sollen.
+
 In diesem Kapitel finden Sie folgende Abschnitte:
 
 - [Forschungsdaten zitieren](/Markdown/15_Datenzitierung.md)

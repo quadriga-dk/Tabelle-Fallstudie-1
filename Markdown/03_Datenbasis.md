@@ -5,7 +5,7 @@ Diese Fallstudie des Datentyps Tabelle arbeitet mit strukturierten Daten, also D
 
 Der Nationale Bildungsbericht bereitet Daten für ein nationales Bildungsmonitoring aus unterschiedlichen Datenquellen auf und stellt den Report sowie die aufbereiteten Datensätze unter diesem <a href="https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/bildung-in-deutschland-2022#10" target="_blank">Link</a> bereit. Es gibt jeweils eine Online-Version im Format PDF und eine Printversion. Die aufbereiteten Daten werden im Excel-Format zum Download bereitgestellt. 
 
-Bitte beachten Sie, dass diese Fallstudie sich auf den Bildungsbericht **2022** bezieht. Wenn Sie den hier angegebenen Links folgen, sollten Sie kein Problem bekommen. Wenn Sie aber über die Startseite des Bildungsberichts gehen, wird Ihnen der jeweils aktuellste Bericht angezeigt. Die Bildungsberichte werden alle zwei Jahre mit unterschiedlichen Schwerpunktthemen veröffentlicht.
+Bitte beachten Sie, dass diese Fallstudie sich auf den Bildungsbericht **2022** bezieht. Wenn Sie den angegebenen Links folgen, sollte es keine Probleme geben. Wenn Sie aber über die Startseite des Bildungsberichts gehen, wird Ihnen der jeweils aktuellste Bericht angezeigt. Die Bildungsberichte werden alle zwei Jahre mit unterschiedlichen Schwerpunktthemen veröffentlicht.
 
 Alternativ können Sie den Bericht auch aus unserem Repository laden: [Bildungsbericht 2022](Data/bildungsbericht-2022.pdf)
 
@@ -33,4 +33,4 @@ Tab. H1-9web aus dem Bildungsbericht 2022.
 
 Da es sich bei dieser Tabelle um aggregierte Daten handelt, ist es sinnvoll, die Rohdaten für diese Daten zu suchen, da die Daten im Rahmen der Fallstudie im Sinn der Reproduzierbarkeit erneut analysiert werden sollen und sich Daten im CSV-Format besser weiterverarbeiten lassen als im Excel-Format. Dies erfolgt Schritt für Schritt in einem späteren Kapitel.  
 
-Bevor wir das tun, werden wir Sie im Kapitel **2. Datennachnutzung und FAIR-Prinzipien** aber zunächst mit dem Thema Datennachnutzung vertraut machen. Dazu untersuchen wir unter anderem die Qualität des Datensatzes anhand der FAIR-Prinzipien.
+Bevor wir das tun, werden wir Sie im folgenden Kapitel aber zunächst mit dem Thema Datennachnutzung vertraut machen. Dazu untersuchen wir unter anderem die Qualität des Datensatzes anhand der FAIR-Prinzipien.

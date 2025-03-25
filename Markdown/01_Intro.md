@@ -20,19 +20,10 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 `````{margin}
 ````{admonition} Zitierhinweis
 :class: citation-information
-```bibtex
-@book{Walter_Reproduzierbarkeit_2024,
-    address = {Potsdam; Berlin},
-    title = {{QUADRIGA} {Reproduzierbarkeit von Datenanalysen}: Ein Fallbeispiel aus dem Nationalen Bildungsbericht. {QUADRIGA} {Reproduzierbarkeit} {von} {Datenanalysen}: {Bildungsbericht}.},
-    copyright = {CC-BY-SA 4.0},
-    url = {https://quadriga-dk.github.io/Tabelle-Fallstudie-1/},
-    language = {deu},
-    author = {Walter, Paul and Schulze, Anton and Schmeling, Juliane and Plomin, Jana and Wiemer, Philip},
-    year = {2024},
-    doi = {https://doi.org/10.5281/zenodo.14975202},
-}
+```{literalinclude} /CITATION.bib
+:language: bibtex
 ```
-Walter, P., Schulze, A., Schmeling, J., Plomin, J. & Wiemer, P. (2024). _Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht._ https://quadriga-dk.github.io/Tabelle-Fallstudie-1/
+Plomin, J., Schmeling, J., Schulze, A., Walter, P. & Wiemer, P. (2024). _Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht._ https://doi.org/10.5281/zenodo.14975202
 
 ````
 `````
@@ -46,7 +37,7 @@ Collage, die beispielhaft für die in diesem interaktiven Lehrbuch behandelten T
 ```
 
 
-Diese Fallstudie bildet mit Hilfe eines <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">Jupyter Books</a> einen Forschungsverlauf in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
+Diese Fallstudie bildet mit Hilfe eines <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">JupyterBooks</a> einen Forschungsverlauf in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
 
 
 ## Fokus
@@ -88,6 +79,14 @@ Dies geschieht u. a. mit den Werkzeugen JupyterBooks und der statistischen Softw
 ---
 
 Die Gliederung der Fallstudie in Kapitel und Abschnitte können Sie immer in der Menüleiste auf der linken Seite nachvollziehen. Die rechte Menüleiste zeigt Ihnen an, in welchem Abschnitt eines Kapitels Sie sich gerade befinden.  
+
+```{figure} _images/FS-Schritte.png
+---
+name: steps of casestudy
+alt: Skizzenhafte Darstellung der 5 Schritte dieser Fallstudie.
+---
+Visualisierung der 5 Schritte dieser Fallstudie.
+```
 
 - Um die Forschungsfrage zu beantworten, benötigen wir Daten. Diese können und wollen wir nicht selbst erheben, weshalb wir Daten nachnutzen müssen. Wir greifen in dieser Fallstudie auf Daten des [Nationalen Bildungsberichts](Datenbasis) zurück. Daher werden in einem **1. Schritt** die Nachnutzbarkeit der Daten analysiert und die FAIR-Prinzipien erläutert (s. Kapitel [Datennachnutzung](/Markdown/05_Datennachnutzung.md)).
 

@@ -1,4 +1,4 @@
-# Analyse und Reproduktion
+# Analyse und Reproduzierbarkeit
 
 ````{margin}
 ```{admonition} Fragen oder Feedback 
@@ -16,10 +16,11 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 ```
 ````
 
-```{admonition} Verifizierung und Aufbereitung
+```{admonition} Datenanalyse und -reproduzierbarkeit
 :class: lernziele 
-- Die Lernenden kennen Qualitätsprobleme von Daten und können Fehler und Lücken in den Daten identifizieren und beheben.
-- Die Lernenden kennen Methoden der Datenaufbereitung und können diese anwenden.
+- Die Lernenden können die Wichtigkeit der sorgfältigen Dokumentation bei der Durchführung einer deskriptiven Analyse beschreiben und anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit) mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte erläutern. 
+- Die Lernenden können die Reproduzierbarkeit einer Studie evaluieren.
+- Die Lernenden sind in der Lage, Daten in einer angemessenen Form zu visualisieren.
 ```  
 
 In diesem Kapitel finden Sie folgende Abschnitte: 
