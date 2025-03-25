@@ -26,7 +26,7 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 In diesem Kapitel finden Sie folgende Abschnitte:
 
 - [Forschungsdaten zitieren](/Markdown/15_Datenzitierung.md)
-- [Persistent Identifier (PID)](/Markdown/16_PID.md)
+- [Persistent Identifier (PID)](/Markdown/15_PID.md)
 - [Linked Data](/Markdown/16_Linked-Data.md)
 - [Übung PID](/Markdown/17_Übung_PID.md)
 - [Resümee Identifikatoren](/Markdown/18_Reflexion_Identifikatoren.md)

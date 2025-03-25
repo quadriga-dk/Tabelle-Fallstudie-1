@@ -27,5 +27,5 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [Einleitung: Datenmanipulation](/Markdown/19_Datenmanipulation.md)
 - [Datenstruktur](/Markdown/20_Datenstruktur.md)
 - [Übung: Arbeiten mit CSV-Dateien in R](/Markdown/21_Einstieg_R.md)
-- [Übung: Auswerten von CSV-Dateien in R](/Markdown/22_Übung_Reproduzierbarkeit.md)
-- [Resümee Datenmanipulation](Markdown/24_Reflexion_Datenmanipulation.md)
+- [Übung: Auswerten von CSV-Dateien in R](/Markdown/22_Übung_Auswertung.md)
+- [Resümee Datenmanipulation](/Markdown/24_Reflexion_Datenmanipulation.md)
