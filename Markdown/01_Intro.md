@@ -49,7 +49,7 @@ Um diese zu beantworten, vermittelt dieses Lehrbuch Kenntnisse in Bezug auf qual
 
 ## Bedeutung dieses Lehrbuchs für die Verwaltungswissenschaft
 
-Neben der Nutzung statistischer Daten in der Verwaltungswissenschaft gewinnt die Nachnutzung von Forschungsdaten zunehmend an Bedeutung. Die in diesem interaktiven Lehrbuch erlernbaren Tools helfen dabei, die Reproduzierbarkeit von Analysen und Ergebnissen zu prüfen und zu bewerten. Durch die hier gezeigten Schritte der Datenmanipulation lassen sich zudem Tabellen bereinigen, um so weitere datengetriebene Analysen durchzuführen.
+Neben der Verwendung statistischer Daten gewinnt die Nachnutzung von Forschungsdaten in der Verwaltungswissenschaft zunehmend an Bedeutung. Die in diesem interaktiven Lehrbuch erlernbaren Tools helfen dabei, die Reproduzierbarkeit von Analysen und Ergebnissen zu prüfen und zu bewerten. Durch die hier gezeigten Schritte der Datenmanipulation lassen sich zudem Tabellen bereinigen, um so weitere datengetriebene Analysen durchzuführen.
 
 ## Zielgruppe
 
@@ -60,7 +60,7 @@ Die Zielgruppe sind promovierende und promovierte Wissenschaftler:innen, aber au
 Grundsätzlich steht das Angebot aber selbstverständlich allen Interessierten offen.
 
 
-Dieses interaktive Lehrbuch erfordert ein allgemeines Verständnis darüber, wie Datensätze strukturiert sind, einschließlich grundlegender Begriffe wie Datensätze oder Variablen. Zudem sollten Anwendende mit Konzepten wie Metadaten und Datendokumentationen vertraut sein.  
+Dieses interaktive Lehrbuch erfordert ein allgemeines Verständnis über die Struktur von Datensätzen, einschließlich grundlegender Begriffe wie Variablen oder Metadaten. Zudem sollten Anwendende mit Konzepten wie Metadaten und Datendokumentationen vertraut sein.  
 
 Für die Kapitel [Datennachnutzung](/Markdown/05_Datennachnutzung.md), [Qualitätsbewertung](/Markdown/Qualitätsbewertung.md) sowie [Identifikatoren](/Markdown/Identifikatoren.md) werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in das Datenmanagement.
 
