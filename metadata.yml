@@ -84,7 +84,7 @@ chapters:
   title: Organisation und Strukturierung
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation1.html
 
-- description: TODO
+- description: Dieses Kapitel widmet sich der Datenanalyse und -reproduzierbarkeit mit Hilfe der Programmiersprache R.
   doi: TODO
   learning-objectives:
   - blooms-category: "1 Remember", "2 Understand", "3 Apply"
