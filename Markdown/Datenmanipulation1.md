@@ -1,3 +1,4 @@
+(Datenmanipulation)=
 # Organisation und Strukturierung
 
 ````{margin}
@@ -22,11 +23,20 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 - Die Lernenden können spezifische Datenmanipulationstechniken identifizieren und ihre Anwendung in einem gegebenen Datensatz (z.B. aus der Verwaltungswissenschaft) beschreiben.
 - Die Lernenden können die Wichtigkeit einer effizienten Datenstruktur für effektive Datenmanipulation erläutern und anhand eines Beispiels demonstrieren.
 ```  
+  
+
+Der Begriff Datenmanipulation bezeichnet die Veränderung von Datensätzen oder einzelnen Datenpunkten. Diese Manipulation kann in Form einer einfachen Abfrage an das System der Datenbankverwaltung erfolgen, in der nur bestimmte Daten zurückgegeben werden sollen. Außerdem fällt hierunter das gezielte Anpassen und Verändern von einzelnen Teilmengen des Datensatzes {cite}`zehnder_datenmanipulation_1987`. Der Prozess der Datenmanipulation ist ein entscheidender Bestandteil, um die Qualität und den Aufbau von Datensätzen zu evaluieren und zu verbessern. Nur durch eine gezielte Datenmanipulation können aus Rohdaten nützliche Informationen gewonnen werden. In dem Abschnitt [6.3. Übung: Arbeiten mit CSV-Dateien in R](Übung_csv) werden Sie erkennen, wie wichtig das Erzeugen einer schlüssigen Datenstruktur hierfür ist, um mit den Daten einfach und effektiv arbeiten zu können. Zudem wird die Datenmanipulation benötigt, um Ihre Daten visualisieren können. Im Kontext der Reproduzierbarkeit von Grafiken spielt die Datenmanipulation somit eine elementare Rolle. Einen tieferen Einblick zur Datenvisualisierung und Datenreproduktion erlangen Sie im folgenden Kapitel [7. Analyse und Reproduktion](/Markdown/Datenmanipulation2.md).
+
 
 In diesem Kapitel finden Sie folgende Abschnitte:
 
-- [Einleitung: Datenmanipulation](/Markdown/19_Datenmanipulation.md)
 - [Datenstruktur](/Markdown/20_Datenstruktur.md)
 - [Übung: Arbeiten mit CSV-Dateien in R](/Markdown/21_Einstieg_R.md)
 - [Übung: Auswerten von CSV-Dateien in R](/Markdown/22_Übung_Auswertung.md)
 - [Resümee Datenmanipulation](/Markdown/24_Reflexion_Datenmanipulation.md)
+
+
+## Literatur
+```{bibliography}
+:filter: docname in docnames
+```

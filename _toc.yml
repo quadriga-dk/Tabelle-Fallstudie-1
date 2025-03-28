@@ -32,7 +32,6 @@ chapters:
     - file: Markdown/18_Reflexion_Identifikatoren
   - file: Markdown/Datenmanipulation1
     sections:
-    - file: Markdown/19_Datenmanipulation
     - file: Markdown/20_Datenstruktur
     - file: Markdown/21_Einstieg_R
     - file: Markdown/22_Übung_Auswertung
