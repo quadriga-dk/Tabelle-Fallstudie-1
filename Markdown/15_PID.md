@@ -17,7 +17,7 @@ from jupyterquiz import display_quiz
 (PID)=
 # Persistent Identifier (PID)
 
-In den vorherigen Kapiteln zur Nachnutzung und zur Bewertung von Daten(sätzen) fielen bereits häufiger die Stichworte "Persitent Identifier" (PID) oder auch "URI" (Uniform Resource Identifier), auf die nun eingegangen werden soll.
+In den vorherigen Kapiteln zur Nachnutzung und zur Bewertung von Daten fielen bereits häufiger die Stichworte "Persitent Identifier" (PID) oder auch "URI" (Uniform Resource Identifier), auf die nun eingegangen werden soll.
 
 Ein Persistenter Identifikator (engl. Persistent Identifier, PID) ist eine eindeutige, universelle und dauerhafte (=persistente) digitale Referenz, die aus einer definierten Kombination von Ziffern und/oder alphanumerischen Zeichen besteht {cite}`noauthor_pid_2024`. Sie können auf ein digitales Objekt (z. B. einen Datensatz), aber auch auf Personen und Organisationen verweisen. Zudem befinden sich momentan PID für Software, Forschungsinstrumente, Datenmanagementpläne, Repositorien oder wissenschaftliche Konferenzen in Entwicklung {cite}`tib_persistent_nodate`. Im Gegensatz zu einer URL (Uniform Resource Locator) verweist ein PID nicht auf einen "Standort" bzw. eine Adresse im Netz, sondern auf das Objekt selbst, sodass es selbst dann noch auffindbar bleibt, wenn sich der Standort ändert. URI kann man als übergeordnetes Konzept verstehen. Alle PID (wie auch URL) sind URI, aber nicht umgekehrt {cite}`berners-lee_universal_nodate`. 
 

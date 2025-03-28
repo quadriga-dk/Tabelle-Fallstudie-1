@@ -9,7 +9,7 @@ Die Seiten des World Wide Web Consortium (W3C) halten weitere Informationen zu <
 Erläuterungen zur URI finden sich beispielsweise bei <a href="https://de.wikipedia.org/wiki/Uniform_Resource_Identifier" class="external-link" target="_blank">Wikipedia</a>.
 ```
 ````
-Die vier Designprinzipien von Linked Data {cite}`berners-lee_linked_2006`:
+Linked Data basiert auf vier Prinzipien {cite}`berners-lee_linked_2006`:
 
 1. Benutzen Sie Uniform Resource Identifiers (URIs) als Namen für Dinge.
 
