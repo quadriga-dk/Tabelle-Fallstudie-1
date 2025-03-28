@@ -85,7 +85,7 @@ questions = \
       'feedback': 'Nein, denn es gibt weder einen eindeutigen/persistenten Identifikator noch Metadaten.'},
     { 'answer': 'Nein',
       'correct': True,
-      'feedback': 'Richtig.'},
+      'feedback': 'Richtig, denn es gibt weder einen eindeutigen Identifikator noch Metadaten.'},
     ]
   }
 ]
@@ -120,7 +120,7 @@ questions = \
       'feedback': 'Richtig. Sowohl die Seite des Bildungsberichts als auch die Daten sind über das Hypertext Transfer Protocol (kurz: HTTP) abgrufbar, nämlich über den oben angegebenen Link.'},
     { 'answer': 'Nein',
       'correct': False,
-      'feedback': 'Diese Antwort ist leider nicht richtig.'},
+      'feedback': 'Diese Antwort ist leider nicht richtig, denn die Daten können über einen Link (HTTP) abgerufen werden.'},
     ]
   },
 
@@ -223,10 +223,10 @@ questions = \
     'answers': [
     { 'answer': 'Ja',
       'correct': True,
-      'feedback': 'Diese Antwort ist richtig, denn die Daten sind exakt und ausführlich. Allerdings werden die Daten selbst nicht ausführlich beschrieben.'},
+      'feedback': 'Diese Antwort ist teilweise richtig, denn die Daten sind exakt und ausführlich. Allerdings werden die Daten selbst nicht ausführlich beschrieben.'},
     { 'answer': 'Nein',
       'correct': True,
-      'feedback': 'Diese Antwort ist richtig, denn die Daten sind zwar akkurat, aber nicht mit relevanten Attributen beschrieben.'},
+      'feedback': 'Diese Antwort ist teilweise richtig, denn die Daten sind zwar akkurat, aber nicht mit relevanten Attributen beschrieben.'},
     ]
   },
 

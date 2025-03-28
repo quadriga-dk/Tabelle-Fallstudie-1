@@ -13,18 +13,24 @@ Bildquelle: The Turing Way Community, & Scriberia. (2020). Illustrations from th
 
 Die FAIR-Prinzipien wurden im Projekt PARTHENOS von Hollander et al. (2019) zu Richtlinien zusammengefasst, die im Folgenden - noch einmal gekürzt - vorgestellt werden {cite}`hollander_parthenos_2019`.
 
-Die **Auffindbarkeit** von Daten lässt sich zum Beispiel durch die Verwendung von Persistenten Identifikatoren (s. Abschnitt [Persistent Identifier (PID)](PID)) für Daten und Datensätze wesentlich vereinfachen. Dieser Aspekt ist von zentraler Bedeutung für alle FAIR-Prinzipien. Weiterhin sollten Forschungsdaten immer mit Quellen versehen werden wie es die fachspezifischen Standards erfordern (s. Abschnitt [Datenzitierung](Einleitung_Datenzitierung)). Darüber hinaus sollten die Daten mit zahlreichen Metadaten beschrieben werden, für die eine Reihe disziplinübergreifende und -spezifische Standards und Schemata vorliegen .
+````{margin}
+```{admonition} Hinweis
+:class: hinweis
+Weitere Informationen zum Thema Metadaten und Metadatenstandards finden Sie beispielsweise bei <a href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/" class="external-link" target="_blank">forschungsdaten.info</a>.
+```
+````
+Die **Auffindbarkeit** von Daten lässt sich zum Beispiel durch die Verwendung von Persistenten Identifikatoren (s. Abschnitt [Persistent Identifier (PID)](PID)) wesentlich vereinfachen. Dieser Aspekt ist von zentraler Bedeutung für alle FAIR-Prinzipien. Weiterhin sollten Forschungsdaten immer mit Quellen versehen werden wie es die fachspezifischen Standards erfordern (s. Abschnitt [Datenzitierung](Einleitung_Datenzitierung)). Darüber hinaus sollten die Daten mit aussagekräftigen Metadaten beschrieben werden, für die es bereits einige disziplinspezifische und -übergreifende Standards und Schemata gibt.
 
-Unter **Zugänglichkeit** fällt die Auswahl eines vertrauenswürdigen Repositoriums als Speicherort für die Daten(sätze) und die klare Regelung des Zugriffs auf diese sowie die Verwendung von standardisierten Protokollen.
+Unter **Zugänglichkeit** fällt die Auswahl eines vertrauenswürdigen Repositoriums als Speicherort für die Daten und die klare Regelung des Zugriffs auf diese sowie die Verwendung von standardisierten Protokollen.
 
-Eine **Interoperabilität** von Daten(sätzen) lässt sich einstellen, wenn Daten sowohl von Menschen als auch Maschinen einfach mit anderen Daten(sätzen) verknüpft werden können. Dies lässt sich durch gut dokumentierte und maschinenlesbare APIs, eindeutig definierte und für das Fachgebiet relevante Vokabulare und offene, standardisierte Dateiformate erreichen.
+Eine **Interoperabilität** von Daten lässt sich einstellen, wenn Daten sowohl von Menschen als auch Maschinen einfach mit anderen Daten verknüpft werden können. Dies lässt sich durch gut dokumentierte und maschinenlesbare APIs, eindeutig definierte und für das Fachgebiet relevante Vokabulare und offene, standardisierte Dateiformate erreichen.
 
 Die **Wiederverwendbarkeit** von Daten lässt sich von vornherein unterstützen, indem transparent dokumentiert wird, was die Daten beinhalten. Die präzise Benennung von Daten - auch nach Konventionen - erleichtert eine Nachnutzung ebenfalls. Die Nutzung von gängigen, in der Disziplin typischen Formaten ist hier erneut zu nennen und schließlich vereinfacht zudem die Verwendung von Lizenzen die Nachnutzung von Daten erheblich, da dadurch klar definiert ist, wer welche Rechte hat und wer die Daten wie verwenden darf.  
 
 ```{admonition} FAIR in der Praxis
 :class: keypoint
 Falls Sie sich fragen, was das mit ihrer (Daten-)Praxis zu tun hat, seien hier ein paar Stichworte genannt:
-- Eine gute Dokumentation, Aus- und Bezeichnung von Daten(sätzen) erleichtert Ihnen und Ihren Kolleg:innen das Arbeiten mit diesen - auch in Zukunft.
+- Eine gute Dokumentation, Aus- und Bezeichnung von Daten erleichtert Ihnen und Ihren Kolleg:innen das Arbeiten mit diesen - auch in Zukunft.
 - Wenn Sie eigene Forschung betreiben, werden Sie sich freuen, wenn es zu Ihrer Forschungsfrage Vergleichsdaten aus anderen Städten oder Bundesländern gibt, die Sie nachnutzen können.
 - Sie müssen gar keine eigenen Daten erheben, weil zu einer bestimmten Problematik bereits viele Daten vorliegen bzw. die Erhebung überproportional aufwändig wäre.
 - Wenn Ihre Daten nachgenutzt werden, wird Ihre Forschung unter neuen Aspekten weitergeführt. Sie bleibt dadurch länger relevant und kann zu einem wichtigen Impuls für neue Ideen werden.
