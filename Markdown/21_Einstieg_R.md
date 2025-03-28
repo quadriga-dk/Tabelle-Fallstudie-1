@@ -1,7 +1,6 @@
 (Übung_csv)=
 # Übung: Arbeiten mit CSV-Dateien in R
 
-## Vorwort
 
 Die folgende Lerneinheit soll Ihnen den Ersteinstieg in die Programmiersprache **R** erleichtern. Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte **R** und **RStudio**. Hinweise zur Installation finden Sie im Abschnitt [Technische Voraussetzungen](/Markdown/technische_voraussetzungen.md).  
 Als Fallbeispiel wird eine CSV-Datei mit Rohdaten zum *Personalstand an Hochschulen* eingelesen und ausgewertet. Entweder haben Sie diese Datei schon in Abschnitt 4.2 [XLSX und CSV](/Markdown/11_XLSXundCSV.md) heruntergeladen oder Sie klicken [hier](Data/21341-0001_F_2020.csv) um die CSV-Datei aus unserem Repositorium direkt herunterzuladen (Quelle: Statistisches Bundesamt 2022).  
@@ -22,7 +21,7 @@ library(tidyverse)
 ```
 
 (Einlesen_csv)=
-### Einlesen von CSV Dateien
+## Einlesen von CSV Dateien
 
 Hierfür gibt es zwei Befehle: `read.csv()` oder `read.csv2()`  
 
