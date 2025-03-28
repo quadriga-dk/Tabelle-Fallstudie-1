@@ -35,6 +35,6 @@ Vielleicht ist es Ihnen bereits aufgefallen. Diese Schritte entsprechen den im (
 
 In diesem Kapitel finden Sie folgende Abschnitte: 
 
-- [FAIR-Prinzipien](Markdown/06_FairPrinzipien.md)
-- [Übung FAIR-Prinzipien](Markdown/07_Übung_FAIR.md)
-- [Resümee FAIR-Prinzipien](Markdown/09_Reflexion_FAIR.md)
+- [FAIR-Prinzipien](/Markdown/06_FairPrinzipien.md)
+- [Übung FAIR-Prinzipien](/Markdown/07_Übung_FAIR.md)
+- [Resümee FAIR-Prinzipien](/Markdown/09_Reflexion_FAIR.md)
