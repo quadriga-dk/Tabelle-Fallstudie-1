@@ -22,7 +22,7 @@ Nach erfolgreichem Durchlaufen dieses JupyterNotebooks können im Erfolgsfall di
 - Die Lernenden können die Qualität eines gegebenen Datensatzes anhand einer Checkliste bewerten.
 ```  
 
-```{admonition} Zitierregeln und PID
+```{admonition} Datenzitierung und PID
 :class: lernziele
 - Die Lernenden können die allgemein anerkannten Methoden der Datenzitierung beschreiben und ihre Anwendungsbereiche erklären. 
 - Die Lernenden können Persistente Identifikatoren (PIDs) definieren und ihre Rolle in der Datenzitierung erläutern. 
@@ -31,18 +31,14 @@ Nach erfolgreichem Durchlaufen dieses JupyterNotebooks können im Erfolgsfall di
 
 ```{admonition} Datenmanipulation und -strukturierung
 :class: lernziele 
-- Die Lernenden können die Unterschiede zwischen XLSX- und CSV-Dateiformaten erklären und Vor- und Nachteile für verschiedene Anwendungsfälle in der Verwaltungswissenschaft aufzeigen.
 -	Die Lernenden können den Begriff Datenmanipulation definieren und seine Bedeutung für die Qualitätsverbesserung und Informationsgewinnung aus Datensätzen erklären.
-- Die Lernenden können spezifische Datenmanipulationstechniken identifizieren und ihre Anwendung in einem gegebenen Datensatz beschreiben.
+- Die Lernenden können spezifische Datenmanipulationstechniken identifizieren und ihre Anwendung in einem gegebenen Datensatz (z.B. aus der Verwaltungswissenschaft) beschreiben.
 - Die Lernenden können die Wichtigkeit einer effizienten Datenstruktur für effektive Datenmanipulation erläutern und anhand eines Beispiels demonstrieren.
 ```  
 
 ```{admonition} Datenanalyse und -reproduzierbarkeit
 :class: lernziele
 - Die Lernenden können die Wichtigkeit der sorgfältigen Dokumentation bei der Durchführung einer deskriptiven Analyse beschreiben und anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit) mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte erläutern.
-- Die Lernenden können die Reproduzierbarkeit einer Studie evaluieren.
-- Die Lernenden sind in der Lage, Daten in einer angemessenen Form zu visualisieren.
+- Die Lernenden können eine Software (RStudio) anwenden, um Daten in einer angemessenen Form zu visualisieren.
 ```
-
-Sie müssen die Kapitel nicht alle nacheinander durchgehen. Zwar folgt der Aufbau des JupyterBooks einem roten Faden, aber die einzelnen Kapitel sind so gestaltet, dass sie in sich geschlossen und damit einzeln absolvierbar sind.
 

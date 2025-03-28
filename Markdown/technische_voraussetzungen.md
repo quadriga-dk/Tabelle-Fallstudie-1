@@ -12,7 +12,7 @@ Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte vorab *
 
 **Hinweis**  
 Die Übungen in [Kapitel 6](Datenmanipulation) und [Kapitel 7](Datenmanipulation2) sind auf der Basis von R 4.4.1 entwickelt worden und zur Nutzung von RStudio 2024.09.0 Build 375 über Windows konzipiert. Bei der Nutzung einer anderen RStudio Version oder eines anderen Betriebssystems können Funktionen eventuell variieren.  
-Eine Anleitung für die ersten Schritte in RStudio findet sich weiter unten in diesem Abschnitt.  
+Eine Anleitung für die ersten Schritte in RStudio findet sich weiter unten in diesem Abschnitt unter Punkt 1.2.3.  
 
 ## Nutzung dieses JupyterBooks
 
@@ -52,13 +52,13 @@ Um einen eingegebenen Befehl auszuführen, drücken Sie entweder
 `Strg + Enter` oder Sie drücken mit der Maus auf den *Run-Button* in der
 oberen rechten Ecke des Fensters. Ein Befehl ist z.B. `1+1`. Das Skript
 und dessen Befehle können abgespeichert werden und zu einem späteren
-Zeitpunkt erneut geöffnet werden.  
+Zeitpunkt erneut geöffnet werden. Daher eignen sich Skripte für umfangreiche Analysen. Darüber hinaus lässt sich das eigene Vorgehen gut dokumentieren, was die Reproduzierbarkeit der Ergebnisse ermöglicht. 
 
 **Console:**  
-In der Console werden die Ergebnisse der Befehle angezeigt. Wenn Sie im
+In der Console oder Konsole werden die Ergebnisse der Befehle angezeigt. Wenn Sie im
 Skript `1+1` eingegeben und ausgeführt haben, erscheint in der Console
-das Ergebnis `2`. Sie können auch Befehle direkt in der Console
-ausführen, diese werden dann jedoch nicht gespeichert.  
+das Ergebnis `2`. Sie können Befehle auch direkt in der Console
+ausführen, diese werden dann jedoch nicht gespeichert. Dies eignet sich also nur für überschaubare Ausführungen.  
 
 **Environment:**  
 In der Environment werden geladene Dateien und Datensätze angezeigt.
@@ -67,13 +67,12 @@ Zudem sind hier selbst erstellte Listen etc. vorzufinden.
 **Files, Plots, Packages, etc.**  
 In diesem Fenster werden verschiedene Funktionen angeboten. Über die
 Fensterkachel **Files** können Sie Dateien anzeigen lassen und
-Importieren *(Dazu mehr im Abschnitt **Einlesen von CSV Dateien**)*.  
+Importieren (Dazu mehr im Abschnitt **Einlesen von CSV Dateien** im Kapitel [Übung: Arbeiten mit CSV-Dateien in R](/Markdown/21_Einstieg_R.md)).  
 Die Fensterkachel **PLOTS** zeigt Ihnen erstellte Grafiken an.  
 Die Fensterkachel **Packages** zeigt Ihnen alle installierten R-Packages
 auf Ihrem Rechner an. Ein Package ist eine Ansammlung von
 **R**-Befehlen. Manche Befehle können Sie nur ausführen, wenn Sie das
 dazugehörige Package durch den Befehl
 `install.packages("*Packagename*")` installiert und durch den Befehlt
-`library(*Packagename*)`geladen haben *(Dazu mehr im folgenden Abschnitt
-**Einleitung**)*.  
+`library(*Packagename*)`geladen haben *(Dazu ebenfalls mehr oben genannten Kapitel, Abschnitt **Einleitung**)*.  
 

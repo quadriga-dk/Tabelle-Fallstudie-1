@@ -44,27 +44,23 @@ Diese Fallstudie bildet mit Hilfe eines <a href="https://jupyterbook.org/en/stab
 
 Im Fokus stehen dabei Daten des <a href="https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022" class="external-link" target="_blank">Nationalen Bildungsberichts (2022)</a>, anhand derer die Forschungsfrage formuliert wurde: 
 **Wie hat sich die Zusammensetzung des Personals an Hochschulen in Deutschland im letzten Jahrzehnt (2010-2020) entwickelt?**
-Um diese zu beantworten, vermittelt dieses Lehrbuch Kenntnisse in Bezug auf qualitative Bewertungskriterien und Datenmanagement sowie Grundkenntnisse in der Benutzung der statistischen <a href="https://www.r-project.org" class="external-link" target="_blank">Software R</a>. Diese werden dazu eingesetzt, die Reproduzierbarkeit von datenbasierten Ergebnissen zu prüfen, um schließlich mit einer eigenen Abfrage die Forschungsfrage zu lösen.
+Um diese zu beantworten, vermittelt dieses Lehrbuch Kenntnisse in Bezug auf qualitative Bewertungskriterien und Datenmanagement sowie Grundkenntnisse in der Benutzung der <a href="https://www.r-project.org" class="external-link" target="_blank">Programmiersprache R</a>. Diese werden dazu eingesetzt, die Reproduzierbarkeit von datenbasierten Ergebnissen zu prüfen, um schließlich mit einer eigenen Abfrage die Forschungsfrage zu lösen.
 
 
 ## Bedeutung dieses Lehrbuchs für die Verwaltungswissenschaft
 
-Neben der Nutzung statistischer Daten in der Verwaltungswissenschaft gewinnt die Nachnutzung von Forschungsdaten zunehmend an Bedeutung. Die in diesem interaktiven Lehrbuch erlernbaren Tools helfen dabei, die Reproduzierbarkeit von Analysen und Ergebnissen zu prüfen und zu bewerten. Durch die hier gezeigten Schritte der Datenmanipulation lassen sich zudem Tabellen bereinigen, um so weitere datengetriebene Analysen durchzuführen.
+Neben der Verwendung statistischer Daten gewinnt die Nachnutzung von Forschungsdaten in der Verwaltungswissenschaft zunehmend an Bedeutung. Die in diesem interaktiven Lehrbuch erlernbaren Tools helfen dabei, die Reproduzierbarkeit von Analysen und Ergebnissen zu prüfen und zu bewerten. Durch die hier gezeigten Schritte der Datenmanipulation lassen sich zudem Tabellen bereinigen, um so weitere datengetriebene Analysen durchzuführen.
 
-## Zielgruppe
+## Zielgruppe und Vorkenntnisse
 
-Dieses Selbstlernangebot richtet sich vorwiegend an Verwaltungswissenschaftler:innen und alle Personen, die an digitaler Verwaltung interessiert sind, da die hier vermittelten Inhalte anhand des Datentyps Tabelle aufbereitet sind. Zudem sind die hier entwickelten Lerneinheiten an einem Fallbeispiel konstruiert, das für diese Disziplin typisch ist. 
+Dieses Selbstlernangebot richtet sich vorwiegend an Verwaltungswissenschaftler:innen und alle Personen, die an digitaler Verwaltung interessiert sind, da die hier vermittelten Inhalte an einem Fallbeispiel konstruiert wurden, das für diese Disziplin typisch ist sowie anhand des Datentyps Tabelle aufbereitet sind. 
+Neben promovierenden und promovierten Wissenschaftler:innen werden auch Lehrende angesprochen, die das Angebot für die eigene Lehre nachnutzen wollen. Grundsätzlich steht das Angebot selbstverständlich allen Interessierten offen.
 
-Die Zielgruppe sind promovierende und promovierte Wissenschaftler:innen, aber auch Lehrende, die das Angebot für die eigene Lehre nachnutzen wollen.
-
-Grundsätzlich steht das Angebot aber selbstverständlich allen Interessierten offen.
-
-
-Dieses interaktive Lehrbuch erfordert ein allgemeines Verständnis darüber, wie Datensätze strukturiert sind, einschließlich grundlegender Begriffe wie Datensätze oder Variablen. Zudem sollten Anwendende mit Konzepten wie Metadaten und Datendokumentationen vertraut sein.  
+Dieses interaktive Lehrbuch erfordert ein allgemeines Verständnis über die Struktur von Datensätzen, einschließlich grundlegender Begriffe wie Variablen oder Vektoren. Zudem sollten Anwendende mit Konzepten wie Metadaten und Datendokumentationen vertraut sein.  
 
 Für die Kapitel [Datennachnutzung](/Markdown/05_Datennachnutzung.md), [Qualitätsbewertung](/Markdown/Qualitätsbewertung.md) sowie [Identifikatoren](/Markdown/Identifikatoren.md) werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in das Datenmanagement.
 
-Für die Kapitel [Organisation und Strukturierung](/Markdown/Datenmanipulation1.md) sowie [Analyse und Reproduktion](/Markdown/Datenmanipulation2.md) werden ein Grundinteresse bzw. -verständnis für Statistik und statistische Software bzw. für das Programmieren empfohlen, da Sie dort mit der <a href="https://www.r-project.org" target="_blank">Software R</a> arbeiten werden. Grundlegende Kenntnisse in R oder anderen Programmiersprachen sind für diese Kapitel von Vorteil, aber keine zwingende Voraussetzung.  
+Für die Kapitel [Organisation und Strukturierung](/Markdown/Datenmanipulation1.md) sowie [Analyse und Reproduzierbarkeit](/Markdown/Datenmanipulation2.md) werden ein Grundinteresse bzw. -verständnis für Statistik und statistische Software bzw. für das Programmieren empfohlen, da Sie dort mit der <a href="https://www.r-project.org" target="_blank">Programmiersprache R</a> arbeiten werden. Grundlegende Kenntnisse in R oder anderen Programmiersprachen sind für diese Kapitel von Vorteil, aber keine zwingende Voraussetzung.  
 
 
 ## Struktur der Fallstudie 
@@ -74,7 +70,7 @@ Die modellhafte Forschungsfrage der Fallstudie lautet:
 
 Basierend auf den Originaldaten werden die im Bildungsbericht vorgestellten Ergebnisse und Analysen nachvollzogen bzw. auf ihre Reproduzierbarkeit überprüft. Dazu werden die Nachnutzbarkeit der Daten untersucht, die Qualität der Daten bewertet und der Entstehungskontext sowie die Ergebnisse nachvollzogen, indem die Daten für die Analyse aufbereitet werden.
 
-Dies geschieht u. a. mit den Werkzeugen JupyterBooks und der statistischen Software R, für deren Verwendung hier erste Schritte aufgezeigt werden.  
+Dies geschieht u. a. mit den Werkzeugen JupyterBooks und der Statistik-Programmiersprache R, für deren Verwendung hier erste Schritte aufgezeigt werden.  
 
 ---
 
@@ -94,13 +90,13 @@ Visualisierung der 5 Schritte dieser Fallstudie.
 
 - Im **3. Schritt** machen wir Sie mit den Grundlagen der Zitation von Forschungsdaten, Persistenten Identifikatoren und Linked Data vertraut, da auch dieser Themenkomplex im Kontext von Datennachnutzung und Open Science von Bedeutung ist (s. Kapitel [Identifikatoren](/Markdown/Identifikatoren.md)).
 
-- Im **4. Schritt** bewegen wir uns näher an die Forschungsfrage und zeigen Ihnen, wie Daten bereinigt und manipuliert sowie. organisiert und strukturiert werden können. Dazu machen wir Sie mit den Grundlagen des Arbeitens mit R vertraut, die für die folgenden Operationen benötigt werden (s. Kapitel [Organisation und Strukturierung](/Markdown/Datenmanipulation1.md)). 
+- Im **4. Schritt** bewegen wir uns näher an die Forschungsfrage und zeigen Ihnen, wie Daten bereinigt und manipuliert sowie organisiert und strukturiert werden können. Dazu machen wir Sie mit den Grundlagen des Arbeitens mit R vertraut, die für die folgenden Operationen benötigt werden (s. Kapitel [Organisation und Strukturierung](/Markdown/Datenmanipulation1.md)). 
 
-- Im **5. Schritt** vollziehen wir eine Datenanalyse des Bildungsberichts nach, um die Daten auf ihre Reproduzierbarkeit zu prüfen, und lösen am Ende mit Hilfe des neu erlangten Wissens die Forschungsfrage (s. Kapitel [Analyse und Reproduktion](/Markdown/Datenmanipulation2.md)).
+- Im **5. Schritt** vollziehen wir eine Datenanalyse des Bildungsberichts nach, um die Daten auf ihre Reproduzierbarkeit zu prüfen, und lösen am Ende mit Hilfe des neu erlangten Wissens die Forschungsfrage (s. Kapitel [Analyse und Reproduzierbarkeit](/Markdown/Datenmanipulation2.md)).
 
 
 Das ganze interaktive Lehrbuch lässt sich darüber hinaus in zwei Blöcke teilen. Den ersten Block bilden die ersten drei Kapitel (Datennachnutzung, Qualitätsbewertung und Identifikatoren), die aus mindestens einem Wissen vermittelnden Abschnitt und jeweils einer kurze Übung bestehen, in der die erworbenen Kenntnisse geprüft werden können. Diese Kapitel nehmen jedes für sich etwa 15 Minuten Bearbeitungszeit in Anspruch. Obwohl sie aus der Forschungsfrage entstanden sind, lassen sie sich auch als generische Module verstehen.   
-Den zweiten Block nehmen die letzten beiden Kapitel (Organisation und Strukturierung, Analyse und Reproduktion) ein, die die Datenmanipulation mit der statistischen Software R thematisieren. Diese Kapitel sind wesentlich umfangreicher als die vorherigen und können - je nach Vorkenntnissen - gute 2 bis 3 Stunden Bearbeitungszeit umfassen.
+Den zweiten Block nehmen die letzten beiden Kapitel (Organisation und Strukturierung, Analyse und Reproduzierbarkeit) ein, die die Datenmanipulation mit der Programmiersprache R thematisieren. Diese Kapitel sind wesentlich umfangreicher als die vorherigen und können - je nach Vorkenntnissen - gute 2 bis 3 Stunden Bearbeitungszeit umfassen.
 
 
 ```{admonition} Ein Hinweis zur Bearbeitung
