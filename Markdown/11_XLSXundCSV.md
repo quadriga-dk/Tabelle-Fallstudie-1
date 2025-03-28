@@ -1,7 +1,7 @@
 (Rohdaten)=
 # XLSX und CSV
 
-Lassen Sie uns noch einmal einen Blick auf die Daten werfen. Aus der Bewertung der FAIRness der Daten im letzten Kapitel ging bereits hervor, dass Daten im Format XLSX unter bestimmten Gesichtspunkten Einschränkungen unterliegen können.
+In diesem Abschnitt werfen wir einen Blick auf Dateiformate. Aus der Bewertung der FAIRness der Daten im letzten Kapitel ging bereits hervor, dass Daten im Format XLSX unter bestimmten Gesichtspunkten Einschränkungen unterliegen können.
 
 Dies unterstreicht das kurze Tutorial zu Datenqualität und Maschinenlesbarkeit tabellarischer Daten in Bezug auf CSV und XLSX, dass von der <a href="https://odis-berlin.de" target="_blank">Open Data Informationsstelle Berlin</a>, einem Projekt der <a href="https://www.technologiestiftung-berlin.de" target="_blank">Technologiestiftung Berlin</a>, erstellt wurde. Dort erfahren Sie u. a., wie sich die beiden Formate unterscheiden und warum Excel-Tabellen oft nicht einwandfrei maschinenlesbar sind. Das Video wurde unter der Lizenz CC BY veröffentlicht.  
 

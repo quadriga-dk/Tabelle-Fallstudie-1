@@ -9,7 +9,7 @@ Da das Modell kaskadierend ist, beginnen wir beim 1. Stern. Um zu prüfen, ob di
 Ist der Datensatz mit einer offenen Lizenz zur Verfügung gestellt worden?
 ```
 
-```{admonition} Lösungen
+```{admonition} Lösung
 :class: solution, dropdown
 Ja, er ist offen zur Verfügung gestellt worden. Bei Destatis heißt es a. a. O.: Die statistischen Daten können unter den Bedingungen der Datenlizenz Deutschland 2.0 weiterverwendet werden. Diese ist durch den Sachverständigenrat der Open Definition als offene Lizenz anerkannt.
 ```
