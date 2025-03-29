@@ -7,7 +7,7 @@ Die Struktur eines Datensatzes prägt maßgeblich dessen maschinelle Lesbarkeit 
 
 ````{margin}
 ```{admonition} Hinweis
-Variable ist ein Synonym für Merkmal und Beobachtung gleichbedeutend mit Ausprägung. Siehe dazu beispielsweise den Artikel <a href="https://de.wikipedia.org/wiki/Statistische_Variable" class="external-link" target="_blank">Statistische Variable</a>.
+Variable ist ein Synonym für Merkmal und Wert gleichbedeutend mit Ausprägung. Siehe dazu beispielsweise den Artikel <a href="https://de.wikipedia.org/wiki/Statistische_Variable" class="external-link" target="_blank">Statistische Variable</a>.
 ```
 ````
 
