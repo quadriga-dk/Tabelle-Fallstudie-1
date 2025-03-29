@@ -14,21 +14,28 @@ Als Fallbeispiel wird eine CSV-Datei mit Rohdaten zum *Personalstand an Hochschu
 > Dieses gilt auch für die folgenden angeführten Befehle.
 
 Damit Sie die in diesem Skript angeführten Befehle verwenden können,
-müssen Sie das folgende Package installieren und laden:
+müssen Sie das folgende Package installieren und laden. Geben Sie zuerst
 ```
 install.packages("tidyverse")
+```
+in das R-Skript-Fenster ein und führen den Befehl mit `Run` aus. In der Console sehen Sie die Installation.
+
+Laden Sie das Package anschließend, indem Sie
+```
 library(tidyverse)
 ```
+in das Skript-Feld eingeben und ausführen.
+
 
 (Einlesen_csv)=
 ## Einlesen von CSV Dateien
 
 Hierfür gibt es zwei Befehle: `read.csv()` oder `read.csv2()`  
 
--   `read.csv()` wird verwendet, wenn die CSV Dateiwerte durch Kommata
+-   `read.csv()` wird verwendet, wenn die Werte in der CSV Datei durch Kommata
     separiert werden.  
       
--   `read.csv2()` wird verwendet, wenn die CSV Dateiwerte durch Semikola
+-   `read.csv2()` wird verwendet, wenn die Werte in der CSV Datei durch Semikola
     separiert werden.  
       
 
@@ -54,18 +61,13 @@ data_csv <- read.csv2("21341-0001_F_2020.csv",header = FALSE)
     Die verwendete Datei ist durch Semikola separiert. Deswegen wird
     hier `read.csv2()` verwendet.  
 
-    -   *Woraus ist dies ersichtlich? Durch Öffnen der Datei in der
-        Console Ihres Rechners können Sie die verwendeten Trennzeichen
-        erkennen.*  
+    *Woraus ist dies ersichtlich? Durch Öffnen der Datei in der Console Ihres Rechners können Sie die verwendeten Trennzeichen erkennen.*  
           
 
 -   `"21341-0001_F_2020.csv"`:  
     Hier steht der Name der CSV-Datei, die geladen werden soll.  
 
-    -   Bei Verwendung von RStudio: Sie sollten unter *Files* den
-        Ordner aufrufen, in dem Ihre Dateien gespeichert sind. Nach dem
-        Klicken auf die gewünschte Datei, können Sie die Option **Import
-        Dataset…** nutzen.  
+    *Bei Verwendung von RStudio: Sie sollten unter **Files** den Ordner aufrufen, in dem Ihre Dateien gespeichert sind. Nach dem Klicken auf die gewünschte Datei, können Sie die Option **Import Dataset…** nutzen.*  
           
 
 -   `header = FALSE`:  
@@ -77,8 +79,7 @@ data_csv <- read.csv2("21341-0001_F_2020.csv",header = FALSE)
     Damit Sie einen Befehl nicht immer wieder ausführen müssen, können
     Sie dem Befehl mittels eines Pfeils `<-` einem Namen zuordnen.  
 
-    -   Hier: “data\_csv”. Nun können Sie in dem folgenden Skript nur
-        noch den gesetzten Namen verwenden.  
+    *Hier: “data\_csv”. Nun können Sie in dem folgenden Skript nur noch den gesetzten Namen verwenden.*  
           
 
 ***Alternative:*** *Falls die Datei nicht unter “Files” auffindbar ist,
@@ -242,9 +243,9 @@ schlechter maschinenlesbar machen:
 
 4.  Auf Umlaute und Sonderzeichen ist zu verzichten. Dies führt zu einer
     fehlerhaften Anzeige. In **V1 Zeile 87** wird das Sonderzeichen
-    “Copyright” nicht logisch erkannt und als “.” angezeigt. In den
+    “Copyright” nicht logisch erkannt und als “\xa9” angezeigt. In den
     Spalten **V1** und **V2** werden Wörter mit Umlauten wie
-    *“männlich”, ““für”, “Lehrkräfte”, etc.* alle fehlerhaft angezeigt.
+    *“männlich”, ““für”, “Lehrkräfte”* etc. alle fehlerhaft angezeigt.
     Um größtmögliche Kompatibilität zu anderen Programmen zu
     gewährleisten, sollten Dateien immer der <a href="https://de.wikipedia.org/wiki/UTF-8" target="_blank">UTF-8-Zeichenkodierung</a>
     folgen. Andernfalls können Probleme bei der maschinellen
@@ -287,7 +288,7 @@ Je nach Einstellung von RStudio kommt dieses Problem ggf. nicht auf und Umlaute 
 Sie können die Datei als ISO 8859-1 (“Latin-1”) kodiert laden. Hierzu
 müssen Sie zum bekannten Einlesebefehl nur den Zusatz
 `encoding = "latin1"` hinzufügen, damit **R** weiß, welche
-Zeichenkodierung im Dokument verwendet wurde:
+Zeichenkodierung im Dokument verwendet wurde. Die neu eingelesene Datei bezeichnen wir als "data_csv_clean":
 ```
 data_csv_clean <- read.csv2("21341-0001_F_2020.csv", header = FALSE, encoding = "latin1")
 ```
@@ -350,11 +351,11 @@ data_csv_clean$V2 <- str_replace_all(data_csv_clean$V2, c("ä" = "ae", "ö" = "o
 -   `c("ä" = "ae", "ö" = "oe",...)`:  
     Der Befehl `c` erstellt einen Vektor. Ein Vektor kombiniert von
     Ihnen festgelegte Zahlen- oder Zeichenketten (letzteres wird auch
-    **“String”** genannt). Ein String ist z.B. (“Apfel”, “Birne”,
+    **“String”** genannt. Beispiele für "Strings" sind “Apfel”, “Birne” oder
     “Kiwi”).  
     Im hier verwendeten Zusammenhang mit `str_replace_all()` wird **R**
     befohlen, alle “ä” durch “ae” zu ersetzen und alle “ö” durch “oe”
-    usw..  
+    usw.  
       
       
 
@@ -367,10 +368,14 @@ bestimmte Bereiche anzeigen lassen. Hierfür setzen Sie hinter den
 Dateinamen eckige Klammern und bestimmen den
 Wertebereich:`[*Zeilenbereich*,*Spaltenbereich*]`.  
 
-*Hinweis: Wenn Sie einen Wertebereich angeben wollen, platzieren Sie
+
+```{admonition} Hinweis
+:class: hinweis
+Wenn Sie einen Wertebereich angeben wollen, platzieren Sie
 zwischen den ersten und letzten Wert einen Doppelpunkt`:` und **R**
 inkludiert alle dazwischenliegenden Werte (“von… bis…”). Ein Komma
-separiert Bereiche.  
+separiert Bereiche.
+```  
   
 **Allgemeines Beispiel:**
 ```
