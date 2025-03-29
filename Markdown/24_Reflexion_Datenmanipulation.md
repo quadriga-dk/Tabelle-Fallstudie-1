@@ -8,7 +8,7 @@ Weiterhin wurde der Tidy-Ansatz zur Datenorganisation und -strukturierung vorges
 
 Abschließend lässt sich sagen, dass dieses Selbstlernmodul darauf ausgelegt war, den Teilnehmer:innen eine umfassende Einführung in die Datenmanipulation zu bieten, mit einem starken Fokus auf Datenorganisation und -strukturierung. Die Fähigkeiten, die die Teilnehmer:innen erworben haben, sind nicht nur für die Datenwissenschaft, sondern für eine Vielzahl von beruflichen und akademischen Bereichen von Bedeutung, da eigentlich jedes Datenprojekt zunächst mit einer aufwendigen Datenmanipulation und -bereinigung beginnt. Wer selbst Analyseergebnisse veröffentlicht, kann diese Lerneinheit auch dazu nutzen, Daten so bereitzustellen, dass die Datenbereinigung und -aufbereitung weniger Aufwand verursacht.  
 
-Am Ende dieser Lerneinheit möchten wir Sie wieder auf den Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen.
+Am Ende dieser Lerneinheit möchten wir Sie wieder auf unseren Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen.
 Der Kurzfragebogen am Ende jedes Kapitels hilft uns, diese Lerneinheit kontinuierlich zu verbessern, indem Sie uns auf etwaige Unklarheiten hinweisen oder Anregungen geben. Vielen Dank!  
 
 

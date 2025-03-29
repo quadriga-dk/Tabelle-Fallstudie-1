@@ -1,7 +1,6 @@
 (Übung_Auswertung)=
 # Übung: Auswerten von CSV-Dateien in R
 
-## Vorwort
 
 In der vorangegangenen Übung wurden Sie mit Ansätzen zur Organisation und Strukturierung von CSV-Dateien vertraut gemacht. Der folgende Abschnitt baut auf dem Code der letzten Übung auf und thematisiert Auswertungsmöglichkeiten von CSV-Dateien in R mit Fokus auf Untergruppierungen und Filterfunktionen.
 
@@ -214,7 +213,7 @@ gibt:**
 3.  Ebene: Die einzelnen Positionen der Berufsbezeichnungen z.B.
     “Professoren”, “Dozenten und Assistenten”, etc.
 
-Für eine übersichtlichere Struktur in der Tabelle, kann für die ersten
+Für eine übersichtlichere Struktur in der Tabelle kann für die ersten
 zwei Ebenen jeweils eine neue Variable erstellt werden. Hierdurch werden
 zwei neue Spalten zur Tabelle hinzugefügt und Sie können dann bei
 Betrachtung einer einzelnen Zeile alle wichtigen Informationen
