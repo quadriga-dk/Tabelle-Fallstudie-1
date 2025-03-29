@@ -39,7 +39,8 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [Resümee Datenmanipulation](/Markdown/24_Reflexion_Datenmanipulation.md)
 
 
-## Literatur
+**Literatur**
+
 ```{bibliography}
 :filter: docname in docnames
 ```

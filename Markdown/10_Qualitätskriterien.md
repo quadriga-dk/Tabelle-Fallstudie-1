@@ -69,7 +69,8 @@ Es zeigt sich, dass Datenqualität und Datennachnutzung eng miteinander verknüp
 Bevor Sie im übernächsten Abschnitt mit dem 5-Sterne-Modell ein weiteres Bewertungsschema für Datenqualität kennenlernen, lassen Sie uns im nächsten Abschnitt noch einen Blick auf das Dateiformat werfen. 
 
 
-## Literatur
+**Literatur**
+
 ```{bibliography}
 :filter: docname in docnames
 ```

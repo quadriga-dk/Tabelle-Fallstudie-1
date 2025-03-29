@@ -268,7 +268,8 @@ questions = \
 ]
 display_quiz(questions, colors = colors.jupyterquiz)
 ````
-## Literatur
+**Literatur**
+
 ```{bibliography}
 :filter: docname in docnames
 ```

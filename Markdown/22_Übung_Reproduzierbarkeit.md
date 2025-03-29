@@ -423,7 +423,8 @@ ggplot(Daten_kreisdiagramm, aes(x="", y=Absolute_Werte, fill=Personalgruppe))+ #
 ```
 ````
 
-## Literatur
+**Literatur**
+
 ```{bibliography}
 :filter: docname in docnames
 ```

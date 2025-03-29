@@ -31,7 +31,8 @@ Zusätzliche Informationen zum Thema Datenzitierung finden Sie auf
 - der Webseite von <a href="https://forschungsdaten.info/themen/finden-und-nachnutzen/zitieren-von-daten/" target="_blank">Auffinden, Zitieren, Dokumentieren</a> von ZBW, Gesis und RatSWD
 ```  
 
-## Literatur
+**Literatur**
+
 ```{bibliography}
 :filter: docname in docnames
 ```

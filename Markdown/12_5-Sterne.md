@@ -24,7 +24,8 @@ Mithilfe des 5-Sterne-Modells können folgende Einschätzungen hinsichtlich des 
 
 - **5 Sterne** = Ein Datensatz erreicht die letzte Stufe, wenn alle vorherigen Stufen erreicht wurden (kaskadierendes Modell). Der 5. Stern wird vergeben, wenn zusätzlich eine Verlinkung der Daten mit anderen Daten erfolgt. Diese Verlinkung ermöglicht es, den Datensatz in einen Kontext zu stellen und zwischen verschiedenen Datenpunkten zu navigieren. Nutzer können damit während der Nutzung ähnliche Daten entdecken und Informationen über das Datenschema erhalten {cite}`bruns_leitfaden_2019`.  
 
-## Literatur
+**Literatur**
+
 ```{bibliography}
 :filter: docname in docnames
 ```
