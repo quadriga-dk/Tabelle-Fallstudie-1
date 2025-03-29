@@ -73,6 +73,6 @@ Die Fensterkachel **Packages** zeigt Ihnen alle installierten R-Packages
 auf Ihrem Rechner an. Ein Package ist eine Ansammlung von
 **R**-Befehlen. Manche Befehle können Sie nur ausführen, wenn Sie das
 dazugehörige Package durch den Befehl
-`install.packages("*Packagename*")` installiert und durch den Befehlt
-`library(*Packagename*)`geladen haben *(Dazu ebenfalls mehr oben genannten Kapitel, Abschnitt **Einleitung**)*.  
+`install.packages("*Packagename*")` installiert und durch den Befehl
+`library(*Packagename*)`geladen haben (Dazu ebenfalls mehr oben genannten Kapitel, Abschnitt **Einleitung**).  
 
