@@ -1,21 +1,12 @@
 (Uebung_Reproduzierbarkeit)=
 # Übung: Reproduzierbarkeit Nationaler Bildungsbericht
 
-```{admonition} Reproduzierbarkeit und Interpretation
-:class: lernziele
-- Die Lernenden kennen Techniken der Datenanalyse und können diese anwenden.
-- Die Lernenden können geeignete Verfahren zur Lösung einer Fragestellung ausmachen.
-- Die Lernenden können Daten in verwertbare Informationen umwandeln.
-- Die Lernenden können die Reproduzierbarkeit einer Studie evaluieren.
-- Die Lernenden sind in der Lage, die Bedeutung der Reproduzierbarkeit von Ergebnissen zu bewerten und ihre eigenen Arbeiten in diesem Kontext kritisch zu reflektieren.
-- Die Lernenden sind in der Lage, Daten in einer angemessenen Form zu visualisieren.
-``` 
 
 In dem vorangegangenen Kapitel wurden Sie  mit ersten Grundbausteinen im Arbeiten mit **R** vertraut gemacht.  Diese Fähigkeiten können Sie nutzen, um die *Reproduzierbarkeit* von Grafiken, Daten, etc. zu überprüfen.
 
 `````{admonition} Doch was genau ist eigentlich Reproduzierbarkeit?
 :class: keypoint
-Der Begriff Reproduzierbarkeit umschreibt in der Wissenschaft die Möglichkeit, durch Verwenden der gleichen Ausgangsdaten und Auswertungsmethoden auf die gleichen Ergebnisse zu produzieren {cite}`noauthor_reproducibility_2019`.
+Der Begriff Reproduzierbarkeit umschreibt in der Wissenschaft die Möglichkeit, durch Verwenden der gleichen Ausgangsdaten und Auswertungsmethoden die gleichen Ergebnisse zu erhalten {cite}`noauthor_reproducibility_2019`. Dadurch können diese validiert werden, um sicherzustellen, dass sie nicht durch Zufall oder falsche Annahmen entstanden sind. Reproduzierbarkeit erfordert das Offenlegen von Forschungsdaten und -techniken.
 `````
 
 ## Fallbeispiel: Bildungsbericht 
@@ -31,46 +22,17 @@ alt: Kreisdiagramme, die die Verteilung von wissenschaftlichem und künstlerisch
 Die Abb.H1-3 aus dem Nationalen Bildungsbericht 2022.
 ```
 
-Wenn Sie nun das Kreisdiagramm für *"Hochschulen insgesamt"* und *"Personen"* auf Reproduzierbarkeit überprüfen möchten, benötigen Sie hierfür die Daten aus der Primärquelle. Hierzu müssen Sie nun selbst recherchieren und versuchen, die Ausgangsdaten zu finden. 
+Werfen wir einen Blick auf das erste Kreisdiagramm links oben *"Hochschulen insgesamt"* und *"Personen"*. Wir wollen dieses Diagramm als Ergebnis der Auswertung eines Datensatzen reproduzieren. Dafür analysieren wir die Daten aus der Primärquelle.
 
 ```{admonition} Achtung!
 :class: caution
-Der Bildungsbericht verweist auf einzelne Excel-Dateien als Datenbasis (Hier: "Tab. H1-9web"), welche gleichzeitig mit dem Bildungsbericht veröffenlticht werden. Eine gute wissenschaftliche Praxis verlangt jedoch, dass Sie die jeweilige Primärquelle verwenden und nicht die verlinkten Sekundärquellen. 
+Der Bildungsbericht verweist auf einzelne Excel-Dateien als Datenbasis (Hier: "Tab. H1-9web"), die der Veröffentlichung des Berichts beigefügt sind. Wir wollen aber einen Schritt weiter gehen und prüfen, ob das Ergebnis auch aus der Primärquelle nachvollzogen werden kann. 
 ```
 
 ### Primärquelle finden 
 
-Unter der Grafik sind als Quelle unter anderem die "Statistische[n] Ämter des Bundes und der Länder" angegeben. Nun können Sie nachschauen, ob Sie auf der [Website des Statistischen Bundesamtes](https://www-genesis.destatis.de/genesis/online) (auch DESTATIS genannt) die Datenbasis zu dem vorliegendem Kreisdiagramm finden können.
-
-**Übung:**\
-Finden Sie die Datengrundlage für das obere linke Kreisdiagramm (Personen, Hochschulen insgesamt) auf der Website des des Statistischen Bundesamtes.
-
-*Gefunden?*
-<details>
-<summary>Ja</summary>
-<br>
-Bravo, gut gemacht!
-Speichern Sie nun die Daten für das Jahr 2020 als CSV-Datei ab, da sich das Kreisdiagramm nur auf dieses Jahr bezieht.
-</details>  
-
-<details>
-<summary>Nein</summary>
-<br>
-Halb so schlimm, die Daten sind auch etwas versteckt. Klicken Sie in folgender Reihenfolge auf besagte Kacheln:
-
-1. "2 Bildung, Sozialleistungen, Gesundheit, Recht"
-
-2. "21 Bildung und Kultur, Forschung und Entwicklung"
-
-3. "21341 Statistik des Hochschulpersonals"
-
-4. "21341-0001	Personal an Hochschulen: Deutschland, Jahre, Personalgruppen nach Beschäftigungsverhältnis, Geschlecht"
-
-Hier können Sie nun das Jahr 2020 auswählen, auf dass das Kreisdiagramm verweist und die Daten als CSV-Datei downloaden.
-</details>  
-
-Öffnen Sie nun die Datei in einem Programm Ihrer Wahl (z.B. Excel).
-Wie Sie nun vermutlich selber erkannt haben, handelt es sich bei dieser Datei um die CSV-Ausgangsdatei aus dem vorangegangenen Kapitel (s. [6.3 Übung: Arbeiten mit CSV-Dateien in R](/Markdown/21_Einstieg_R.md)).
+Unter der Grafik sind als Quelle unter anderem die "Statistische[n] Ämter des Bundes und der Länder" angegeben. 
+Wie Sie vermutlich erkannt haben, handelt es sich bei der nun von uns benötigten Datei um die CSV-Ausgangsdatei aus dem vorangegangenen Kapitel (s. [6.2 Übung: Arbeiten mit CSV-Dateien in R](/Markdown/21_Einstieg_R.md)). 
 
 ### Nachbauen des Kreisdiagramms in R
 Das nachfolgende Skript knüpft an die vorangegangene Übung an. Es wird vorausgesetzt, dass die Daten entsprechend des Skriptes angepasst wurden.
@@ -112,7 +74,7 @@ Das Diagramm unterteilt in die folgenden drei Personalgruppen:
 - Wissenschaftliche und künstlerische Mitarbeiter:innen 
 - Nebenberufliche Mitarbeiter:innen
 
-Zu diesen Personalgruppen werden jeweils die absoluten Beschäftigungszahlen und der jeweilige prozentuale Anteile zur Gesamtsumme für das Jahr 2020 
+Zu diesen Personalgruppen werden jeweils die absoluten Beschäftigungszahlen und der jeweilige prozentuale Anteil zur Gesamtsumme für das Jahr 2020 
 angegeben.
 
 *Lesebeispiel: Im Jahr 2020 waren insgesamt 49.293 Professor:innen an Universitäten und Fachhochschulen in Deutschland angestellt.*
@@ -173,6 +135,14 @@ Hauptberuflich_exlusive_Professoren
 ```
 ## [1] 219982
 ```
+
+`````{margin}
+````{admonition} Hinweis
+:class: hinweis
+Als Dataframe wird eine Datenstruktur bezeichnet, die aus Spalten (Variablen) und Zeilen (Beobachtungen) besteht und damit einer einfachen, zweidimensionalen Tabelle gleicht. Dataframes finden sich in den programmiersprachen R, aber auch in Python.
+```
+````
+`````
 
 #### Dataframe  erstellen
 Sie haben nun die einzelnen Datenwerte abgespeichert. Damit Sie diese für ein Kreisdiagramm verwenden können, müssen Sie diese Werte in einem neu erstellen Dataframe kombinieren.
