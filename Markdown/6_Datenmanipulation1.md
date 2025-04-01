@@ -28,15 +28,15 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 Dieses Kapitel hat das Schwerpunktthema Datenmanipulation mit Fokus auf Organisation und Strukturierung von Daten.
 Die Veränderung von Datensätzen oder einzelnen Datenpunkten wird als Datenmanipulation bezeichnet. Diese Manipulation kann in Form einer einfachen Abfrage an das System der Datenbankverwaltung erfolgen, in der nur bestimmte Daten zurückgegeben werden sollen. Außerdem fällt hierunter das gezielte Anpassen und Verändern von einzelnen Teilmengen des Datensatzes {cite}`zehnder_datenmanipulation_1987`. Dieser Prozess ist ein entscheidender Bestandteil, um die Qualität und den Aufbau von Datensätzen zu evaluieren und zu verbessern. Nur durch eine gezielte Manipulation können aus Rohdaten nützliche Informationen gewonnen werden. Dafür ist das Erzeugen einer schlüssigen Datenstruktur von besonderer Bedeutung, denn nur so kann mit den Daten einfach und effektiv gearbeitet werden. 
 
-Zudem wird die Datenmanipulation benötigt, um Ihre Daten visualisieren können. Einen tieferen Einblick dazu und zur Analyse und Reproduzierbarkeit erlangen Sie im nachfolgenden Kapitel [7. Analyse und Reproduzierbarkeit](/Markdown/Datenmanipulation2.md).
+Zudem wird die Datenmanipulation benötigt, um Ihre Daten visualisieren können. Einen tieferen Einblick dazu und zur Analyse und Reproduzierbarkeit erlangen Sie im nachfolgenden Kapitel [7. Analyse und Reproduzierbarkeit](/Markdown/7_Datenmanipulation2.md).
 
 
 In diesem Kapitel finden Sie folgende Abschnitte:
 
-- [Datenstruktur](/Markdown/20_Datenstruktur.md)
-- [Übung: Arbeiten mit CSV-Dateien in R](/Markdown/21_Einstieg_R.md)
-- [Übung: Auswerten von CSV-Dateien in R](/Markdown/22_Übung_Auswertung.md)
-- [Resümee Datenmanipulation](/Markdown/24_Reflexion_Datenmanipulation.md)
+- [Datenstruktur](/Markdown/6.1_Datenstruktur.md)
+- [Übung: Arbeiten mit CSV-Dateien in R](/Markdown/6.2_Übung_Arbeiten_CSV_in_R.md)
+- [Übung: Auswerten von CSV-Dateien in R](/Markdown/6.3_Übung_Auswertung_CSV_in_R.md)
+- [Resümee Datenmanipulation](/Markdown/6.4_Resümee_Datenmanipulation1.md)
 
 
 **Literatur**

@@ -58,9 +58,9 @@ Neben promovierenden und promovierten Wissenschaftler:innen werden auch Lehrende
 
 Dieses interaktive Lehrbuch erfordert ein allgemeines Verständnis über die Struktur von Datensätzen, einschließlich grundlegender Begriffe wie Variablen oder Vektoren. Zudem sollten Anwendende mit Konzepten wie Metadaten und Datendokumentationen vertraut sein.  
 
-Für die Kapitel [Datennachnutzung](/Markdown/05_Datennachnutzung.md), [Qualitätsbewertung](/Markdown/Qualitätsbewertung.md) sowie [Identifikatoren](/Markdown/Identifikatoren.md) werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in das Datenmanagement.
+Für die Kapitel [Datennachnutzung](/Markdown/3_Datennachnutzung.md), [Qualitätsbewertung](/Markdown/4_Qualitätsbewertung.md) sowie [Identifikatoren](/Markdown/5_Identifikatoren.md) werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in das Datenmanagement.
 
-Für die Kapitel [Organisation und Strukturierung](/Markdown/Datenmanipulation1.md) sowie [Analyse und Reproduzierbarkeit](/Markdown/Datenmanipulation2.md) werden ein Grundinteresse bzw. -verständnis für Statistik und statistische Software bzw. für das Programmieren empfohlen, da Sie dort mit der <a href="https://www.r-project.org" target="_blank">Programmiersprache R</a> arbeiten werden. Grundlegende Kenntnisse in R oder anderen Programmiersprachen sind für diese Kapitel von Vorteil, aber keine zwingende Voraussetzung.  
+Für die Kapitel [Organisation und Strukturierung](/Markdown/6_Datenmanipulation1.md) sowie [Analyse und Reproduzierbarkeit](/Markdown/7_Datenmanipulation2.md) werden ein Grundinteresse bzw. -verständnis für Statistik und statistische Software bzw. für das Programmieren empfohlen, da Sie dort mit der <a href="https://www.r-project.org" target="_blank">Programmiersprache R</a> arbeiten werden. Grundlegende Kenntnisse in R oder anderen Programmiersprachen sind für diese Kapitel von Vorteil, aber keine zwingende Voraussetzung.  
 
 
 ## Struktur der Fallstudie 
@@ -84,15 +84,15 @@ alt: Skizzenhafte Darstellung der 5 Schritte dieser Fallstudie.
 Visualisierung der 5 Schritte dieser Fallstudie.
 ```
 
-- Um die Forschungsfrage zu beantworten, benötigen wir Daten. Diese können und wollen wir nicht selbst erheben, weshalb wir Daten nachnutzen müssen. Wir greifen in dieser Fallstudie auf Daten des [Nationalen Bildungsberichts](Datenbasis) zurück. Daher werden in einem **1. Schritt** die Nachnutzbarkeit der Daten analysiert und die FAIR-Prinzipien erläutert (s. Kapitel [Datennachnutzung](/Markdown/05_Datennachnutzung.md)).
+- Um die Forschungsfrage zu beantworten, benötigen wir Daten. Diese können und wollen wir nicht selbst erheben, weshalb wir Daten nachnutzen müssen. Wir greifen in dieser Fallstudie auf Daten des [Nationalen Bildungsberichts](Datenbasis) zurück. Daher werden in einem **1. Schritt** die Nachnutzbarkeit der Daten analysiert und die FAIR-Prinzipien erläutert (s. Kapitel [Datennachnutzung](/Markdown/3_Datennachnutzung.md)).
 
-- Im **2. Schritt** geht es dann darum, die nachgenutzten Daten in ihrer Qualität zu bewerten, um zu prüfen, ob sie den Ansprüchen gerecht werden. Dazu stellen wir Ihnen verschiedene Qualitätskriterien und das 5-Sterne-Modell für offene Daten vor und zeigen den Unterschied zwischen den Formaten XLSX und CSV auf (s. Kapitel [Qualitätsbewertung](/Markdown/Qualitätsbewertung.md)).
+- Im **2. Schritt** geht es dann darum, die nachgenutzten Daten in ihrer Qualität zu bewerten, um zu prüfen, ob sie den Ansprüchen gerecht werden. Dazu stellen wir Ihnen verschiedene Qualitätskriterien und das 5-Sterne-Modell für offene Daten vor und zeigen den Unterschied zwischen den Formaten XLSX und CSV auf (s. Kapitel [Qualitätsbewertung](/Markdown/4_Qualitätsbewertung.md)).
 
-- Im **3. Schritt** machen wir Sie mit den Grundlagen der Zitation von Forschungsdaten, Persistenten Identifikatoren und Linked Data vertraut, da auch dieser Themenkomplex im Kontext von Datennachnutzung und Open Science von Bedeutung ist (s. Kapitel [Identifikatoren](/Markdown/Identifikatoren.md)).
+- Im **3. Schritt** machen wir Sie mit den Grundlagen der Zitation von Forschungsdaten, Persistenten Identifikatoren und Linked Data vertraut, da auch dieser Themenkomplex im Kontext von Datennachnutzung und Open Science von Bedeutung ist (s. Kapitel [Identifikatoren](/Markdown/5_Identifikatoren.md)).
 
-- Im **4. Schritt** bewegen wir uns näher an die Forschungsfrage und zeigen Ihnen, wie Daten bereinigt und manipuliert sowie organisiert und strukturiert werden können. Dazu machen wir Sie mit den Grundlagen des Arbeitens mit R vertraut, die für die folgenden Operationen benötigt werden (s. Kapitel [Organisation und Strukturierung](/Markdown/Datenmanipulation1.md)). 
+- Im **4. Schritt** bewegen wir uns näher an die Forschungsfrage und zeigen Ihnen, wie Daten bereinigt und manipuliert sowie organisiert und strukturiert werden können. Dazu machen wir Sie mit den Grundlagen des Arbeitens mit R vertraut, die für die folgenden Operationen benötigt werden (s. Kapitel [Organisation und Strukturierung](/Markdown/6_Datenmanipulation1.md)). 
 
-- Im **5. Schritt** vollziehen wir eine Datenanalyse des Bildungsberichts nach, um die Daten auf ihre Reproduzierbarkeit zu prüfen, und lösen am Ende mit Hilfe des neu erlangten Wissens die Forschungsfrage (s. Kapitel [Analyse und Reproduzierbarkeit](/Markdown/Datenmanipulation2.md)).
+- Im **5. Schritt** vollziehen wir eine Datenanalyse des Bildungsberichts nach, um die Daten auf ihre Reproduzierbarkeit zu prüfen, und lösen am Ende mit Hilfe des neu erlangten Wissens die Forschungsfrage (s. Kapitel [Analyse und Reproduzierbarkeit](/Markdown/7_Datenmanipulation2.md)).
 
 
 Das ganze interaktive Lehrbuch lässt sich darüber hinaus in zwei Blöcke teilen. Den ersten Block bilden die ersten drei Kapitel (Datennachnutzung, Qualitätsbewertung und Identifikatoren), die aus mindestens einem Wissen vermittelnden Abschnitt und jeweils einer kurze Übung bestehen, in der die erworbenen Kenntnisse geprüft werden können. Diese Kapitel nehmen jedes für sich etwa 15 Minuten Bearbeitungszeit in Anspruch. Obwohl sie aus der Forschungsfrage entstanden sind, lassen sie sich auch als generische Module verstehen.   
