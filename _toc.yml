@@ -40,7 +40,7 @@ chapters:
     sections:
     - file: Markdown/7.1_Übung_Reproduzierbarkeit
     - file: Markdown/7.2_Übung_Zeitreihe
-    - file: Markdown/7.3_Rsümee_Datenmanipulation2
+    - file: Markdown/7.3_Resümee_Datenmanipulation2
   - file: Markdown/8_Zusammenfassung
   - file: Markdown/9_Epilog
     sections:
