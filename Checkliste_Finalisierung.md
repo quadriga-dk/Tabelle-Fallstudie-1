@@ -9,14 +9,14 @@ lang: de-de
 - [x] Feinlernziele (Kapitel) -> Blooms Taxonomie für kognitive Lernzielformulierung verwendet
 - [x] Geschätzter Workload pro Kapitel (1-3 Stunden) festgelegt
 - [ ] Geschätzter Workload pro Abschnitt (20-60 Minuten) festgelegt
-- [x] Zugangswege definiert (Book-Only, Cloud, Local)
+- [ ] Zugangswege definiert (Book-Only, Cloud, Local)
 
 ## Struktur
 - [x] Startseite
   - [x] Kurze Beschreibung + einladendes Bild
   - [x] Zielgruppe
   - [x] Struktur der Fallstudie + darstellendes Bild, das die Schritte der Fallstudie als Kapitel visualisiert
-  - [x] Kurze Beschreibug aller Schritte
+  - [x] Kurze Beschreibung aller Schritte
   - [x] Literatur
 - [x] Präambel
   - [x] Lernziele
@@ -28,7 +28,7 @@ lang: de-de
   - [x] Resümee
   - [ ] Assessment
 - [x] Reflexion und Resümee
-- [x] Epilogue
+- [x] Epilog
 
 ## Inhalt
 - [x] Möglichkeit zu Anmerkungen, Kommentierungen (z. B. durch die Zielgruppen)
@@ -38,7 +38,7 @@ lang: de-de
 - [ ] Optionale Kapitel kennzeichnen
 
 ## Assessment
-- [ ] Assessment pro Kapitel (pro Zugangsweg?)
+- [ ] Assessment pro Kapitel
 - [ ] Abschlussassessment für die OER als Ganzes
 
 ## Technologie
@@ -53,24 +53,24 @@ lang: de-de
 - [x] Admonitions passend genutzt
 - [x] Externe Links sind gekennzeichnet
 - [x] Abbildungen gut erkennbar
-- [ ] Alt-Text für Abbildungen, soweit sinnvoll
-- [ ] Rechtschreibkontrolle durchgeführt
+- [X] Alt-Text für Abbildungen, soweit sinnvoll
+- [X] Rechtschreibkontrolle durchgeführt
 - [x] Zitationen und Literaturverzeichnis(se) korrekt
 - [x] Hinweise zu Feedback-/Fragen-/Kontakt-Möglichkeiten
 
 ## Publikation
 - [ ] Metadaten sind vollständig
-- [x ] DOI(s) registriert und in den Metadaten und in der OER
+- [X] DOI(s) registriert und in den Metadaten und in der OER
 - [x] Vergabe einer Versionsnummer (bspw. v1.0.0) (siehe [semver.org](https://semver.org))
-- [ ] Erstellung eines GitHub Releases
+- [X] Erstellung eines GitHub Releases
 - [x] Veröffentlichung in einem Repositorium (bspw. Zenodo)
-- [ ] Zitationshinweis
+- [X] Zitationshinweis
 
 ## Links, Verweise und Abhängigkeit
-- [ ] Alle nötigen Materialien sind verfügbar. Wenn möglich in einem sicheren Repositorium oder direkt in der OER hinterlegt. Wenn lizenzrechtlich erlaubt Kopie unsicher abgelegter Datensätze anlegen. 
+- [X] Alle nötigen Materialien sind verfügbar. Wenn möglich in einem sicheren Repositorium oder direkt in der OER hinterlegt. Wenn lizenzrechtlich erlaubt Kopie unsicher abgelegter Datensätze anlegen. 
 - [x] Links innerhalb der Fallstudien funktionieren
 - [x] Links auf externe Inhalte überprüft
 - [ ] Code-Abhängigkeiten sind so definiert, dass sie wieder installiert werden können (requirements.txt, …)
-- [ ] rechtliche Aspekte (z. B. bei Nachnutzung von existierenden Bildungsangeboten)
+- [X] rechtliche Aspekte (z. B. bei Nachnutzung von existierenden Bildungsangeboten)
 
  

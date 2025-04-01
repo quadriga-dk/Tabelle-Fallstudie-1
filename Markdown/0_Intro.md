@@ -95,8 +95,8 @@ Visualisierung der 5 Schritte dieser Fallstudie.
 - Im **5. Schritt** vollziehen wir eine Datenanalyse des Bildungsberichts nach, um die Daten auf ihre Reproduzierbarkeit zu prüfen, und lösen am Ende mit Hilfe des neu erlangten Wissens die Forschungsfrage (s. Kapitel [Analyse und Reproduzierbarkeit](/Markdown/7_Datenmanipulation2.md)).
 
 
-Das ganze interaktive Lehrbuch lässt sich darüber hinaus in zwei Blöcke teilen. Den ersten Block bilden die ersten drei Kapitel (Datennachnutzung, Qualitätsbewertung und Identifikatoren), die aus mindestens einem Wissen vermittelnden Abschnitt und jeweils einer kurze Übung bestehen, in der die erworbenen Kenntnisse geprüft werden können. Diese Kapitel nehmen jedes für sich etwa 15 Minuten Bearbeitungszeit in Anspruch. Obwohl sie aus der Forschungsfrage entstanden sind, lassen sie sich auch als generische Module verstehen.   
-Den zweiten Block nehmen die letzten beiden Kapitel (Organisation und Strukturierung, Analyse und Reproduzierbarkeit) ein, die die Datenmanipulation mit der Programmiersprache R thematisieren. Diese Kapitel sind wesentlich umfangreicher als die vorherigen und können - je nach Vorkenntnissen - gute 2 bis 3 Stunden Bearbeitungszeit umfassen.
+Das ganze interaktive Lehrbuch lässt sich darüber hinaus in zwei Blöcke teilen. Den ersten Block bilden die ersten drei Kapitel (Datennachnutzung, Qualitätsbewertung und Identifikatoren), die aus mindestens einem Wissen vermittelnden Abschnitt und jeweils einer kurze Übung bestehen, in der die erworbenen Kenntnisse geprüft werden können. Diese Kapitel nehmen jedes für sich etwa 15-30 Minuten Bearbeitungszeit in Anspruch. Obwohl sie aus der Forschungsfrage entstanden sind, lassen sie sich auch als generische Module verstehen.   
+Den zweiten Block nehmen die letzten beiden Kapitel (Organisation und Strukturierung, Analyse und Reproduzierbarkeit) ein, die die Datenmanipulation mit der Programmiersprache R thematisieren. Diese Kapitel sind wesentlich umfangreicher als die vorherigen und können - je nach Vorkenntnissen - insgesamt ca. 2 Stunden Bearbeitungszeit umfassen.
 
 
 ```{admonition} Ein Hinweis zur Bearbeitung
