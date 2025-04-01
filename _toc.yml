@@ -2,53 +2,51 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: Markdown/01_Intro
+root: Markdown/0_Intro
 options: 
   numbered: 3
 chapters:
-  - file: Markdown/Präambel
+  - file: Markdown/1_Präambel
     sections:
-      - file: Markdown/lernziele
-      - file: Markdown/technische_voraussetzungen
-  - file: Markdown/03_Datenbasis
-  - file: Markdown/05_Datennachnutzung
+      - file: Markdown/1.1_lernziele
+      - file: Markdown/1.2_technische_voraussetzungen
+  - file: Markdown/2_Datenbasis
+  - file: Markdown/3_Datennachnutzung
     sections:
-    - file: Markdown/06_FairPrinzipien
-    - file: Markdown/07_Übung_FAIR
-    - file: Markdown/09_Reflexion_FAIR
-  - file: Markdown/Qualitätsbewertung
+    - file: Markdown/3.1_FairPrinzipien
+    - file: Markdown/3.2_Übung_FAIR
+    - file: Markdown/3.3_Resümee_FAIR
+  - file: Markdown/4_Qualitätsbewertung
     sections:
-    - file: Markdown/10_Qualitätskriterien
-    - file: Markdown/11_XLSXundCSV
-    - file: Markdown/12_5-Sterne
-    - file: Markdown/13_Übung_5-Sterne
-    - file: Markdown/14_Reflexion_Qualität
-  - file: Markdown/Identifikatoren
+    - file: Markdown/4.1_Qualitätskriterien
+    - file: Markdown/4.2_XLSXundCSV
+    - file: Markdown/4.3_5-Sterne
+    - file: Markdown/4.4_Übung_5-Sterne
+    - file: Markdown/4.5_Resümee_Qualität
+  - file: Markdown/5_Identifikatoren
     sections:
-    - file: Markdown/15_Datenzitierung
-    - file: Markdown/15_PID
-    - file: Markdown/16_Linked-Data
-    - file: Markdown/17_Übung_PID
-    - file: Markdown/18_Reflexion_Identifikatoren
-  - file: Markdown/Datenmanipulation1
+    - file: Markdown/5.1_Datenzitierung
+    - file: Markdown/5.2_PID
+    - file: Markdown/5.3_Linked-Data
+    - file: Markdown/5.4_Übung_PID
+    - file: Markdown/5.5_Resümee_Identifikatoren
+  - file: Markdown/6_Datenmanipulation1
     sections:
-    - file: Markdown/20_Datenstruktur
-    - file: Markdown/21_Einstieg_R
-    - file: Markdown/22_Übung_Auswertung
-    - file: Markdown/24_Reflexion_Datenmanipulation
-  - file: Markdown/Datenmanipulation2
+    - file: Markdown/6.1_Datenstruktur
+    - file: Markdown/6.2_Übung_Arbeiten_CSV_in_R
+    - file: Markdown/6.3_Übung_Auswertung_CSV_in_R
+    - file: Markdown/6.4_Resümee_Datenmanipulation1
+  - file: Markdown/7_Datenmanipulation2
     sections:
-    - file: Markdown/22_Übung_Reproduzierbarkeit
-    - file: Markdown/23_Übung_Zeitreihe
-    - file: Markdown/27_Reflexion_DatenmanipulationII
-  - file: Markdown/Zusammenfassung
+    - file: Markdown/7.1_Übung_Reproduzierbarkeit
+    - file: Markdown/7.2_Übung_Zeitreihe
+    - file: Markdown/7.3_Rsümee_Datenmanipulation2
+  - file: Markdown/8_Zusammenfassung
+  - file: Markdown/9_Epilog
     sections:
-    - file: Markdown/25_Reflexion
-  - file: Markdown/Epilog
-    sections:
-    - file: Markdown/fragen_und_feedback
-    - file: Markdown/literaturverzeichnis
-    - file: Markdown/authors
-    - file: Markdown/quadriga
-    - file: Markdown/impressum
+    - file: Markdown/9.1_fragen_und_feedback
+    - file: Markdown/9.2_literaturverzeichnis
+    - file: Markdown/9.3_authors
+    - file: Markdown/9.4_quadriga
+    - file: Markdown/9.5_impressum
 
