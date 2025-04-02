@@ -5,12 +5,28 @@ title: Fallstudie I - Tabelle
 author: Jana Plomin, Juliane Schmeling, Anton Schulze, Paul Walter, Philip Wiemer
 logo: quadriga-logo.jpeg
 copyright: "2024, QUADRIGA" 
-exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, venv, README.md, LICENSE.md]
+exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, venv, README.md, LICENSE.md, .github, Checkliste_Finalisierung.md]
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: cache
+
+parse:
+  myst_enable_extensions:  # default extensions to enable in the myst parser. See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
+    # - amsmath
+    - colon_fence
+    # - deflist
+    - dollarmath
+    # - html_admonition
+    - html_image
+    - linkify
+    # - replacements
+    # - smartquotes
+    - substitution
+    - tasklist
+  myst_url_schemes: [mailto, http, https] # URI schemes that will be recognised as external URLs in Markdown links
+  myst_dmath_double_inline: true  # Allow display math ($$) within an inline context
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -30,6 +46,7 @@ launch_buttons:
   notebook_interface: jupyterlab # remove if you don't want to use binder
   binderhub_url: https://mybinder.org # remove if you don't want to use binder
   colab_url: https://colab.research.google.com
+  jupyterhub_url: https://dev.jupyterhub.uni-potsdam.de
   thebe: true
   
 # Add GitHub buttons to your book
