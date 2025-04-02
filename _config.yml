@@ -5,7 +5,7 @@ title: Fallstudie I - Tabelle
 author: Jana Plomin, Juliane Schmeling, Anton Schulze, Paul Walter, Philip Wiemer
 logo: quadriga-logo.jpeg
 copyright: "2024, QUADRIGA" 
-exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", conda, venv, README.md, LICENSE.md, .github, Checkliste_Finalisierung.md]
+exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", R_Lerneinheit.ipynb, nda, venv, README.md, LICENSE.md, .github, Checkliste_Finalisierung.md]
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
