@@ -8,45 +8,45 @@ options:
 chapters:
   - file: Markdown/1_Präambel
     sections:
-      - file: Markdown/1.1_lernziele
-      - file: Markdown/1.2_technische_voraussetzungen
+      - file: Markdown/1_1_lernziele
+      - file: Markdown/1_2_technische_voraussetzungen
   - file: Markdown/2_Datenbasis
   - file: Markdown/3_Datennachnutzung
     sections:
-    - file: Markdown/3.1_FairPrinzipien
-    - file: Markdown/3.2_Übung_FAIR
-    - file: Markdown/3.3_Resümee_FAIR
+    - file: Markdown/3_1_FairPrinzipien
+    - file: Markdown/3_2_Übung_FAIR
+    - file: Markdown/3_3_Resümee_FAIR
   - file: Markdown/4_Qualitätsbewertung
     sections:
-    - file: Markdown/4.1_Qualitätskriterien
-    - file: Markdown/4.2_XLSXundCSV
-    - file: Markdown/4.3_5-Sterne
-    - file: Markdown/4.4_Übung_5-Sterne
-    - file: Markdown/4.5_Resümee_Qualität
+    - file: Markdown/4_1_Qualitätskriterien
+    - file: Markdown/4_2_XLSXundCSV
+    - file: Markdown/4_3_5-Sterne
+    - file: Markdown/4_4_Übung_5-Sterne
+    - file: Markdown/4_5_Resümee_Qualität
   - file: Markdown/5_Identifikatoren
     sections:
-    - file: Markdown/5.1_Datenzitierung
-    - file: Markdown/5.2_PID
-    - file: Markdown/5.3_Linked-Data
-    - file: Markdown/5.4_Übung_PID
-    - file: Markdown/5.5_Resümee_Identifikatoren
+    - file: Markdown/5_1_Datenzitierung
+    - file: Markdown/5_2_PID
+    - file: Markdown/5_3_Linked-Data
+    - file: Markdown/5_4_Übung_PID
+    - file: Markdown/5_5_Resümee_Identifikatoren
   - file: Markdown/6_Datenmanipulation1
     sections:
-    - file: Markdown/6.1_Datenstruktur
-    - file: Markdown/6.2_Übung_Arbeiten_CSV_in_R
-    - file: Markdown/6.3_Übung_Auswertung_CSV_in_R
-    - file: Markdown/6.4_Resümee_Datenmanipulation1
+    - file: Markdown/6_1_Datenstruktur
+    - file: Markdown/6_2_Übung_Arbeiten_CSV_in_R
+    - file: Markdown/6_3_Übung_Auswertung_CSV_in_R
+    - file: Markdown/6_4_Resümee_Datenmanipulation1
   - file: Markdown/7_Datenmanipulation2
     sections:
-    - file: Markdown/7.1_Übung_Reproduzierbarkeit
-    - file: Markdown/7.2_Übung_Zeitreihe
-    - file: Markdown/7.3_Resümee_Datenmanipulation2
+    - file: Markdown/7_1_Übung_Reproduzierbarkeit
+    - file: Markdown/7_2_Übung_Zeitreihe
+    - file: Markdown/7_3_Resümee_Datenmanipulation2
   - file: Markdown/8_Zusammenfassung
   - file: Markdown/9_Epilog
     sections:
-    - file: Markdown/9.1_fragen_und_feedback
-    - file: Markdown/9.2_literaturverzeichnis
-    - file: Markdown/9.3_authors
-    - file: Markdown/9.4_quadriga
-    - file: Markdown/9.5_impressum
+    - file: Markdown/9_1_fragen_und_feedback
+    - file: Markdown/9_2_literaturverzeichnis
+    - file: Markdown/9_3_authors
+    - file: Markdown/9_4_quadriga
+    - file: Markdown/9_5_impressum
 
