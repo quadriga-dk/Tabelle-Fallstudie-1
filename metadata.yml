@@ -22,7 +22,23 @@ authors:
   given-names: Philip
 description:
   introduction: Diese Fallstudie bildet mit Hilfe eines JupyterBooks einen Forschungsverlauf in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
-  table-of-contents: '- Präambel - Datenbasis: Nationaler Bildungsbericht - Datennachnutzung - Qualitätsbewertung - Identifikatoren - Organisation und Strukturierung - Analyse und Reproduzierbarkeit - Zusammenfassung - Epliog'
+  table-of-contents: '- Präambel
+
+    - Datenbasis: Nationaler Bildungsbericht
+
+    - Datennachnutzung
+
+    - Qualitätsbewertung
+
+    - Identifikatoren
+
+    - Organisation und Strukturierung
+
+    - Analyse und Reproduzierbarkeit
+
+    - Zusammenfassung
+
+    - Epliog'
 discipline:
 - Verwaltungswissenschaften
 - Informationswissenschaft
