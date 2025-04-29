@@ -32,7 +32,7 @@ Der Bildungsbericht verweist auf einzelne Excel-Dateien als Datenbasis (Hier: "T
 ### Primärquelle finden 
 
 Unter der Grafik sind als Quelle unter anderem die "Statistische[n] Ämter des Bundes und der Länder" angegeben. 
-Wie Sie vermutlich erkannt haben, handelt es sich bei der nun von uns benötigten Datei um die CSV-Ausgangsdatei aus dem vorangegangenen Kapitel (s. [6.2 Übung: Arbeiten mit CSV-Dateien in R](/Markdown/21_Einstieg_R.md)). 
+Wie Sie vermutlich erkannt haben, handelt es sich bei der nun von uns benötigten Datei um die CSV-Ausgangsdatei aus dem vorangegangenen Kapitel (s. [6.2 Übung: Arbeiten mit CSV-Dateien in R](/Markdown/6_2_Übung_Arbeiten_CSV_in_R.md)). 
 
 ### Nachbauen des Kreisdiagramms in R
 Das nachfolgende Skript knüpft an die vorangegangene Übung an. Es wird vorausgesetzt, dass die Daten entsprechend des Skriptes angepasst wurden.

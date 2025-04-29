@@ -242,7 +242,7 @@ anders möglich.
 
 ```{admonition} Wichtig!
 :class: hinweis
-Wenn Sie Daten generieren, strukturieren Sie diese immer gut. Dies erleichtert Ihnen selbst, aber auch allen anderen, die Ihre Daten verwenden, das Arbeiten! Eine gute Struktur von Daten liefert der Tidy-Data Ansatz (s. Abschnitt [Datenstruktur](/Markdown/20_Datenstruktur.md)).
+Wenn Sie Daten generieren, strukturieren Sie diese immer gut. Dies erleichtert Ihnen selbst, aber auch allen anderen, die Ihre Daten verwenden, das Arbeiten! Eine gute Struktur von Daten liefert der Tidy-Data Ansatz (s. Abschnitt [Datenstruktur](/Markdown/6_1_Datenstruktur.md)).
 ```
  
 **Einpflegen des Variableninhalts**

@@ -27,8 +27,8 @@ Im Kapitel Datennachnutzung haben Sie erfahren, dass die FAIR-Prinzipien vor all
 
 Dieses Kapitel teilt sich in folgende Abschnitte: 
 
-- [Qualitätskriterien](/Markdown/4.1_Qualitätskriterien.md)
-- [XLSX und CSV](/Markdown/4.2_XLSXundCSV.md)
-- [5-Sterne](/Markdown/4.3_5-Sterne.md)
-- [Übung_5-Sterne](/Markdown/4.4_Übung_5-Sterne.md)
-- [Resümee Qualitätsbewertung](/Markdown/4.5_Resümee_Qualität.md)
+- [Qualitätskriterien](/Markdown/4_1_Qualitätskriterien.md)
+- [XLSX und CSV](/Markdown/4_2_XLSXundCSV.md)
+- [5-Sterne](/Markdown/4_3_5-Sterne.md)
+- [Übung_5-Sterne](/Markdown/4_4_Übung_5-Sterne.md)
+- [Resümee Qualitätsbewertung](/Markdown/4_5_Resümee_Qualität.md)
