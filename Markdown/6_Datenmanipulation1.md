@@ -34,8 +34,8 @@ Zudem wird die Datenmanipulation benötigt, um Ihre Daten visualisieren können.
 In diesem Kapitel finden Sie folgende Abschnitte:
 
 - [Datenstruktur](/Markdown/6_1_Datenstruktur.md)
-- [Übung: Arbeiten mit CSV-Dateien in R](/Markdown/6_2_Übung_Arbeiten_CSV_in_R.md)
-- [Übung: Auswerten von CSV-Dateien in R](/Markdown/6_3_Übung_Auswertung_CSV_in_R.md)
+- [Übung: Arbeiten mit CSV-Dateien in R](/Markdown/6_2_Übung_Arbeiten_CSV_in_R.ipynb)
+- [Übung: Auswerten von CSV-Dateien in R](/Markdown/6_3_Übung_Auswertung_CSV_in_R.ipynb)
 - [Resümee Datenmanipulation](/Markdown/6_4_Resümee_Datenmanipulation1.md)
 
 
