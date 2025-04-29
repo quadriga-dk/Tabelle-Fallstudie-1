@@ -57,7 +57,7 @@ RUN mamba install --quiet --yes \
     'r-rodbc' \
     'r-rsqlite' \
     'r-shiny' \
-    #'r-tidyverse' \
+    'r-tidyverse' \
     #'r-bit' \
     #'r-bit64' \
     #'r-googledrive' \
