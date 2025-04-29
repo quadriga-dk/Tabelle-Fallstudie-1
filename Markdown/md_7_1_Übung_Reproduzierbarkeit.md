@@ -1,3 +1,14 @@
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: R
+  language: R
+  name: ir
+---
 (Uebung_Reproduzierbarkeit)=
 # Übung: Reproduzierbarkeit Nationaler Bildungsbericht
 

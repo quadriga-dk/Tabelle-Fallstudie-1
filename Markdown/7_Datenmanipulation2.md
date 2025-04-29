@@ -30,6 +30,6 @@ Dazu verwenden wir weiterhin den aus dem vorherigen Kapitel bekannten Datensatz,
 
 In diesem Kapitel finden Sie folgende Abschnitte: 
 
-- [Übung: Reproduzierbarkeit Nationaler Bildungsbericht](/Markdown/7_1_Übung_Reproduzierbarkeit.md)
-- [Übung: Zeitreihe Personalentwicklung](/Markdown/7_2_Übung_Zeitreihe.md)
+- [Übung: Reproduzierbarkeit Nationaler Bildungsbericht](/Markdown/7_1_Übung_Reproduzierbarkeit.ipynb)
+- [Übung: Zeitreihe Personalentwicklung](/Markdown/7_2_Übung_Zeitreihe.ipynb)
 - [Resümee Datenmanipulation](/Markdown/7_3_Resümee_Datenmanipulation2.md)

@@ -1,3 +1,14 @@
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: R
+  language: R
+  name: ir
+---
 (Übung_csv)=
 # Übung: Arbeiten mit CSV-Dateien in R
 
