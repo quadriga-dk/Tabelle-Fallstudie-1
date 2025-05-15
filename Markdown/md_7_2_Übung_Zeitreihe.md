@@ -1,3 +1,14 @@
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: R
+  language: R
+  name: ir
+---
 # Übung: Zeitreihe Personalentwicklung
 
 In den vorangegangenen Übungen konnten wir verschiedene Fragen nach der Qualität der Daten und der Reproduzierbarkeit beantworten. 
@@ -12,7 +23,7 @@ oder Sie laden den Datensatz [hier](Data/21341-0001_F_2010-2020.csv) direkt aus 
 
 ## Daten vorbereiten
 
-Die CSV Datei können Sie nun wie in dem Abschnitt 6.3. [Übung: Arbeiten mit CSV-Dateien in R](/Markdown/21_Einstieg_R.md) einlesen und in Daten und Metadaten unterteilen.
+Die CSV Datei können Sie nun wie in dem Abschnitt 6.3. [Übung: Arbeiten mit CSV-Dateien in R](/Markdown/6_2_Übung_Arbeiten_CSV_in_R.md) einlesen und in Daten und Metadaten unterteilen.
 
 ```
 #Benötigtes Package zum Start der Session laden, damit alle hier verwendeteten Befehle verfügbar sind
@@ -95,7 +106,7 @@ show(Daten_basis)
 ```
 ## Daten auswerten 
 
-Um mit Datenwerten rechnen zu können, ist die Klasse der Daten entscheidend. Was Variablenklassen genau sind wurde in dem Abschnitt [Übung: Arbeiten mit CSV-Dateien in R](/Markdown/21_Einstieg_R.md) bereits besprochen.
+Um mit Datenwerten rechnen zu können, ist die Klasse der Daten entscheidend. Was Variablenklassen genau sind wurde in dem Abschnitt [Übung: Arbeiten mit CSV-Dateien in R](/Markdown/6_2_Übung_Arbeiten_CSV_in_R.md) bereits besprochen.
 
 Mittels des Befehls `str()` können Sie sich schnell die Klassen anzeigen lassen:
 ```

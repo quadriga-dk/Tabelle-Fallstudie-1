@@ -28,7 +28,7 @@ Wenn Sie Daten selbst zur Verfügung stellen, sollten Sie alle Beteiligten benen
 :class: seealso
 Zusätzliche Informationen zum Thema Datenzitierung finden Sie auf
 - der Informationsplattform <a href="https://forschungsdaten.info/themen/finden-und-nachnutzen/zitieren-von-daten/" target="_blank">forschungsdaten.info</a>
-- der Webseite von <a href="https://forschungsdaten.info/themen/finden-und-nachnutzen/zitieren-von-daten/" target="_blank">Auffinden, Zitieren, Dokumentieren</a> von ZBW, Gesis und RatSWD
+- der Webseite von <a href="https://auffinden-zitieren-dokumentieren.de/" target="_blank">Auffinden, Zitieren, Dokumentieren</a> von ZBW, Gesis und RatSWD
 ```  
 
 **Literatur**

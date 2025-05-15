@@ -27,8 +27,8 @@ Nachdem Sie in den beiden vorangegangenen Kapiteln über Datennachnutzung und Qu
 
 In diesem Kapitel finden Sie folgende Abschnitte:
 
-- [Forschungsdaten zitieren](/Markdown/5.1_Datenzitierung.md)
-- [Persistent Identifier (PID)](/Markdown/5.2PID.md)
-- [Linked Data](/Markdown/5.3_Linked-Data.md)
-- [Übung PID](/Markdown/5.4_Übung_PID.md)
-- [Resümee Identifikatoren](/Markdown/5.5_Resümee_Identifikatoren.md)
+- [Forschungsdaten zitieren](/Markdown/5_1_Datenzitierung.md)
+- [Persistent Identifier (PID)](/Markdown/5_2_PID.md)
+- [Linked Data](/Markdown/5_3_Linked-Data.md)
+- [Übung PID](/Markdown/5_4_Übung_PID.md)
+- [Resümee Identifikatoren](/Markdown/5_5_Resümee_Identifikatoren.md)
