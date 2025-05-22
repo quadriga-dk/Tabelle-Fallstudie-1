@@ -29,11 +29,11 @@ Nach erfolgreichem Durchlaufen dieses JupyterNotebooks können im Erfolgsfall di
 - Die Lernenden können zwischen verschiedenen Arten von PIDs (z.B. DOI, ORCID) unterscheiden und ihre spezifischen Einsatzbereiche identifizieren.
 ```  
 
-```{admonition} Datenmanipulation und -strukturierung
+```{admonition} Datenaufbereitung und -strukturierung
 :class: lernziele 
--	Die Lernenden können den Begriff Datenmanipulation definieren und seine Bedeutung für die Qualitätsverbesserung und Informationsgewinnung aus Datensätzen erklären.
-- Die Lernenden können spezifische Datenmanipulationstechniken identifizieren und ihre Anwendung in einem gegebenen Datensatz beschreiben.
-- Die Lernenden können die Wichtigkeit einer effizienten Datenstruktur für effektive Datenmanipulation erläutern und anhand eines Beispiels demonstrieren.
+-	Die Lernenden können den Begriff Datenaufbereitung definieren und seine Bedeutung für die Qualitätsverbesserung und Informationsgewinnung aus Datensätzen erklären.
+- Die Lernenden können spezifische Datenaufbereitungstechniken identifizieren und ihre Anwendung in einem gegebenen Datensatz beschreiben.
+- Die Lernenden können die Wichtigkeit einer klaren Datenstruktur für effektive Datenaufbereitung erläutern und anhand eines Beispiels demonstrieren.
 ```  
 
 ```{admonition} Datenanalyse und -reproduzierbarkeit
