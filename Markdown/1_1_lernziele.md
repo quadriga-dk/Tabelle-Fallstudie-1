@@ -18,7 +18,7 @@ Nach erfolgreichem Durchlaufen dieses JupyterNotebooks können im Erfolgsfall di
 ```{admonition} Sicherstellen der Qualität von Datensätzen
 :class: lernziele
 - Die Lernenden können zentrale Qualitätskriterien für Datensätze definieren und ihre Bedeutung für die Forschung erläutern.
-- Die Lernenden können die Unterschiede zwischen XLSX- und CSV-Dateiformaten erklären und Vor- und Nachteile für verschiedene Anwendungsfälle in der Verwaltungswissenschaft aufzeigen.
+- Die Lernenden können die Unterschiede zwischen XLSX- und CSV-Dateiformaten erklären und Vor- und Nachteile für verschiedene Anwendungsfälle aufzeigen.
 - Die Lernenden können die Qualität eines gegebenen Datensatzes anhand einer Checkliste bewerten.
 ```  
 
@@ -26,13 +26,13 @@ Nach erfolgreichem Durchlaufen dieses JupyterNotebooks können im Erfolgsfall di
 :class: lernziele
 - Die Lernenden können die allgemein anerkannten Methoden der Datenzitierung beschreiben und ihre Anwendungsbereiche erklären. 
 - Die Lernenden können Persistente Identifikatoren (PIDs) definieren und ihre Rolle in der Datenzitierung erläutern. 
-- Die Lernenden können zwischen verschiedenen Arten von PIDs (z.B. DOI, ORCID) unterscheiden und ihre spezifischen Einsatzbereiche in der Verwaltungswissenschaft identifizieren.
+- Die Lernenden können zwischen verschiedenen Arten von PIDs (z.B. DOI, ORCID) unterscheiden und ihre spezifischen Einsatzbereiche identifizieren.
 ```  
 
 ```{admonition} Datenmanipulation und -strukturierung
 :class: lernziele 
 -	Die Lernenden können den Begriff Datenmanipulation definieren und seine Bedeutung für die Qualitätsverbesserung und Informationsgewinnung aus Datensätzen erklären.
-- Die Lernenden können spezifische Datenmanipulationstechniken identifizieren und ihre Anwendung in einem gegebenen Datensatz (z.B. aus der Verwaltungswissenschaft) beschreiben.
+- Die Lernenden können spezifische Datenmanipulationstechniken identifizieren und ihre Anwendung in einem gegebenen Datensatz beschreiben.
 - Die Lernenden können die Wichtigkeit einer effizienten Datenstruktur für effektive Datenmanipulation erläutern und anhand eines Beispiels demonstrieren.
 ```  
 

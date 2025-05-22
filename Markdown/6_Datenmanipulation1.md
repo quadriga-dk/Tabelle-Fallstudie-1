@@ -20,7 +20,7 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 ```{admonition} Lernziel: Datenmanipulation und -strukturierung
 :class: lernziele 
 - Die Lernenden können den Begriff Datenmanipulation definieren und seine Bedeutung für die Qualitätsverbesserung und Informationsgewinnung aus Datensätzen erklären.
-- Die Lernenden können spezifische Datenmanipulationstechniken identifizieren und ihre Anwendung in einem gegebenen Datensatz (z.B. aus der Verwaltungswissenschaft) beschreiben.
+- Die Lernenden können spezifische Datenmanipulationstechniken identifizieren und ihre Anwendung in einem gegebenen Datensatz beschreiben.
 - Die Lernenden können die Wichtigkeit einer effizienten Datenstruktur für effektive Datenmanipulation erläutern und anhand eines Beispiels demonstrieren.
 ```  
   

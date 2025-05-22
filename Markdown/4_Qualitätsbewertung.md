@@ -19,7 +19,7 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 ```{admonition} Lernziel: Sicherstellen der Qualität von Datensätzen
 :class: lernziele
 - Die Lernenden können zentrale Qualitätskriterien für Datensätze definieren und ihre Bedeutung für die Forschung erläutern.
-- Die Lernenden können die Unterschiede zwischen XLSX- und CSV-Dateiformaten erklären und Vor- und Nachteile für verschiedene Anwendungsfälle in der Verwaltungswissenschaft aufzeigen.
+- Die Lernenden können die Unterschiede zwischen XLSX- und CSV-Dateiformaten erklären und Vor- und Nachteile für verschiedene Anwendungsfälle aufzeigen.
 - Die Lernenden können die Qualität eines gegebenen Datensatzes anhand einer Checkliste bewerten.
 ``` 
 
