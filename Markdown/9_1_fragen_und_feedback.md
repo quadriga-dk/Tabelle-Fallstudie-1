@@ -19,7 +19,7 @@ Daher haben wir für Ihre Fragen und für Kritik, Anregungen und Wünsche mehrer
 
 ---
 
-2) Ansonsten können Sie uns über den [Quadriga-Helpdesk](mailto:paul.walter@fh-potsdam.de?subject=[GitHub]%20Feedback%20Tabelle-Fallstudie-1) eine Email zukommen lassen.  
+2) Ansonsten können Sie uns über den [Quadriga-Helpdesk](mailto:quadriga-helpdesk@listserv.dfn.de?subject=[GitHub]%20Feedback%20Tabelle-Fallstudie-1) eine Email zukommen lassen.  
 
 ---
 
