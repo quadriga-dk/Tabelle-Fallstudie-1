@@ -14,4 +14,4 @@ Tel.: +49 331 977-4595<br>
 Fax: +49 331 977-4555<br>
 E-Mail: robin.moeser@uni-potsdam.de<br>
 
-<a href="https://www.uni-potsdam.de/de/impressum.html" class="external-link" target="_blank">Impressum</a>
+<a href="https://www.uni-potsdam.de/de/impressum.html" class="external-link" target="_blank">Impressum der Universität Potsdam</a>
