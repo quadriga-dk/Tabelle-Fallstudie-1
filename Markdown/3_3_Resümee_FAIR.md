@@ -9,6 +9,19 @@ Die FAIR-Prinzipien decken nur einen Teil dessen ab, was sich im Forschungsdaten
 
 Die Beantwortung der Forschungsfrage hat dieses Kapitel indirekt unterstützt. Da die Frage nach der Entwicklung des Hochschulpersonals im letzten Jahrzehnt nicht anhand eigener Datenerhebungen zu beantworten ist, muss auf bestehende Daten zurückgegriffen werden, die im Sinne der Aufgabenstellung nachgenutzt werden. Dazu war es wichtig mit den FAIR-Prinzipien die Grundsätze der Datennachnutzung bzw. des Datenmanagements kennenzulernen.  
 
+```{admonition} Keypoints
+:class: keypoint
+
+FAIR steht für Findable (Auffindbar), Accessible (Zugänglich), Interoperable (Interoperabel) und Reusable (Wiederverwendbar). Die FAIR-Prinzipien bilden einen wichtigen Standard im Forschungsdatenmanagement und sind seit 2019 in den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" der DFG verankert. Die FAIRness eines Datensatzes ist nicht zwangsläufig ein Indikator für seine Qualität – eine Tabelle kann qualitativ hochwertige Daten enthalten, aber dennoch schlecht auffindbar sein. Datensätze, die nur als Anhang zu Publikationen bereitgestellt werden (wie die Excel-Tabellen des Bildungsberichts), erfüllen die FAIR-Prinzipien oft nur unzureichend. Wichtige Voraussetzungen für bessere FAIRness:
+
+- Eigenständige Veröffentlichung der Daten mit persistenten Identifikatoren
+- Strukturierte Metadaten mit klaren Beschreibungen
+- Bereitstellung in offenen, nicht-proprietären Formaten
+- Eindeutige Lizenzen zur rechtssicheren Nachnutzung
+
+Die Nachnutzung bestehender Daten (statt eigener Erhebungen) ist für viele Forschungsfragen notwendig und wirtschaftlich – jedoch nur sinnvoll möglich, wenn die Daten den FAIR-Prinzipien folgen. Die FAIR-Prinzipien stellen einen Teil der Best Practices im Forschungsdatenmanagement dar, decken aber nicht alle Aspekte ab.
+```
+
 Am Ende dieser Lerneinheit möchten wir Sie auf unseren Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen.
 Der Kurzfragebogen am Ende jedes Kapitels hilft uns, diese Lerneinheit kontinuierlich zu verbessern, indem Sie uns auf etwaige Unklarheiten hinweisen oder Anregungen geben. Vielen Dank!  
 
