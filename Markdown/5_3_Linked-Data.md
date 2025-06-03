@@ -5,6 +5,7 @@ Linked Data umfasst 4 Designprinzipien, um maschinenlesbare Daten im Web für di
 
 ````{margin}
 ```{admonition} Hinweis
+:class: hinweis
 Die Seiten des World Wide Web Consortium (W3C) halten weitere Informationen zu <a href="https://www.w3.org/RDF/" class="external-link" target="_blank">RDF</a> und <a href="https://www.w3.org/TR/sparql11-query/" class="external-link" target="_blank">SPARQL</a> bereit.
 Erläuterungen zur URI finden sich beispielsweise bei <a href="https://de.wikipedia.org/wiki/Uniform_Resource_Identifier" class="external-link" target="_blank">Wikipedia</a>.
 ```
@@ -25,6 +26,7 @@ Webportale bieten Kapazitäten für die Speicherung und den Austausch offener Da
 
 ````{margin}
 ```{admonition} Hinweis
+:class: hinweis
 Weitere Informationen zum Metadatenstandard DCAT-AP finden Sie auf <a href="https://www.dcat-ap.de/" class="external-link" target="_blank">DCAT-AP.de</a>.
 ```
 ````
