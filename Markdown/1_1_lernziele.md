@@ -9,36 +9,36 @@ lang: de-DE
 Nach erfolgreichem Durchlaufen dieses JupyterNotebooks können im Erfolgsfall die folgenden Lernziele erreicht werden:
 
 
-```{admonition} Grundsätze des Datenmanagements
-:class: lernziele
-- Die Lernenden können die vier FAIR-Prinzipien definieren und anhand eines konkreten Beispiels ihre Bedeutung erläutern.
-- Die Lernenden können die FAIRness eines gegebenen Datensatzes anhand einer Checkliste bewerten.
+```{admonition} [Grundsätze des Datenmanagements](Datennachnutzung)
+:class: lernziele, dropdown
+1. Die vier FAIR-Prinzipien können definiert und ihre Bedeutung anhand eines konkreten Beispiels erläutert werden.
+2. Die FAIRness eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden.
 ```  
 
-```{admonition} Sicherstellen der Qualität von Datensätzen
-:class: lernziele
-- Die Lernenden können zentrale Qualitätskriterien für Datensätze definieren und ihre Bedeutung für die Forschung erläutern.
-- Die Lernenden können die Unterschiede zwischen XLSX- und CSV-Dateiformaten erklären und Vor- und Nachteile für verschiedene Anwendungsfälle aufzeigen.
-- Die Lernenden können die Qualität eines gegebenen Datensatzes anhand einer Checkliste bewerten.
+```{admonition} [Sicherstellen der Qualität von Datensätzen](Qualitätsbewertung)
+:class: lernziele, dropdown
+1. Zentrale Qualitätskriterien für Datensätze können definiert und ihre Bedeutung für die Forschung erläutert werden.
+2. Die Unterschiede zwischen XLSX- und CSV-Dateiformaten können erklärt und Vor- und Nachteile für verschiedene Anwendungsfälle aufgezeigt werden.
+3. Die Qualität eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden.
 ```  
 
-```{admonition} Datenzitierung und PID
-:class: lernziele
-- Die Lernenden können die allgemein anerkannten Methoden der Datenzitierung beschreiben und ihre Anwendungsbereiche erklären. 
-- Die Lernenden können Persistente Identifikatoren (PIDs) definieren und ihre Rolle in der Datenzitierung erläutern. 
-- Die Lernenden können zwischen verschiedenen Arten von PIDs (z.B. DOI, ORCID) unterscheiden und ihre spezifischen Einsatzbereiche identifizieren.
+```{admonition} [Datenzitierung und PID](Identifikatoren)
+:class: lernziele, dropdown
+1. Die allgemein anerkannten Methoden der Datenzitierung können beschrieben werden. 
+2. Persistente Identifikatoren (PIDs) können definiert und ihre Rolle in der Datenzitierung erläutert werden. 
+3. Zwischen verschiedenen Arten von PIDs (z.B. DOI, ORCID) kann unterschieden und ihre spezifischen Einsatzbereiche identifiziert werden.
 ```  
 
-```{admonition} Datenaufbereitung und -strukturierung
-:class: lernziele 
--	Die Lernenden können den Begriff Datenaufbereitung definieren und seine Bedeutung für die Qualitätsverbesserung und Informationsgewinnung aus Datensätzen erklären.
-- Die Lernenden können spezifische Datenaufbereitungstechniken identifizieren und ihre Anwendung in einem gegebenen Datensatz beschreiben.
-- Die Lernenden können die Wichtigkeit einer klaren Datenstruktur für effektive Datenaufbereitung erläutern und anhand eines Beispiels demonstrieren.
+```{admonition} [Datenaufbereitung und -strukturierung](Datenmanipulation)
+:class: lernziele, dropdown 
+1. Der Begriff Datenaufbereitung kann definiert und seine Bedeutung für die Qualitätsverbesserung und Informationsgewinnung aus Datensätzen erklärt werden.
+2. Spezifische Datenaufbereitungstechniken können identifiziert und ihre Anwendung in einem gegebenen Datensatz beschrieben werden.
+3. Die Wichtigkeit einer klaren Datenstruktur für effektive Datenaufbereitung kann erläutert und anhand eines Beispiels demonstriert werden.
 ```  
 
-```{admonition} Datenanalyse und -reproduzierbarkeit
-:class: lernziele
-- Die Lernenden können die Wichtigkeit der sorgfältigen Dokumentation bei der Durchführung einer deskriptiven Analyse beschreiben und anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit) mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte erläutern.
-- Die Lernenden können eine Software (RStudio) anwenden, um Daten in einer angemessenen Form zu visualisieren.
+```{admonition} [Datenanalyse und -reproduzierbarkeit](Datenmanipulation2)
+:class: lernziele, dropdown
+1. Die Wichtigkeit einer sorgfältigen Dokumentation bei der Durchführung einer deskriptiven Analyse kann beschrieben und anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit) können mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte erläutert werden.
+2. Eine Software (RStudio) kann angewendet werden, um Daten in einer angemessenen Form zu visualisieren.
 ```
 
