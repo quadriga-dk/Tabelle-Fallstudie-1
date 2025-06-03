@@ -9,7 +9,6 @@ Mit ihren Rückmeldungen können wir unser JupyterBook gezielt an Ihre Bedürfni
 Daher haben wir für Ihre Fragen und für Kritik, Anregungen und Wünsche mehrere Kommunikationswege eingerichtet.
 
 1) Wenn Sie einen GitHub-Account besitzen, können Sie direkt ein Issue erstellen:
-
 <a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-1/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
     Stellen Sie eine Frage
 </a> <br>
