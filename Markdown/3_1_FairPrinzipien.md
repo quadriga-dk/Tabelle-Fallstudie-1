@@ -9,7 +9,7 @@ alt: Eine grafische Darstellung der FAIR-Prinzipien.
 ---
 Die FAIR-Prinzipien.
 ```
-Bildquelle: The Turing Way Community, & Scriberia. (2020). Illustrations from the Turing Way book dashes. Zenodo. <a href="https://doi.org/10.5281/zenodo.3695300" target="_blank">https://doi.org/10.5281/zenodo.3695300</a>
+Bildquelle: The Turing Way Community, & Scriberia. (2020). Illustrations from the Turing Way book dashes. Zenodo. <a href="https://doi.org/10.5281/zenodo.3695300" class="external-link" target="_blank">https://doi.org/10.5281/zenodo.3695300</a>
 
 Die FAIR-Prinzipien wurden im Projekt PARTHENOS von Hollander et al. (2019) zu Richtlinien zusammengefasst, die im Folgenden - noch einmal gekürzt - vorgestellt werden {cite}`hollander_parthenos_2019`.
 

@@ -60,7 +60,7 @@ Dieses interaktive Lehrbuch erfordert ein allgemeines Verständnis über die Str
 
 Für die Kapitel [Datennachnutzung](/Markdown/3_Datennachnutzung.md), [Qualitätsbewertung](/Markdown/4_Qualitätsbewertung.md) sowie [Identifikatoren](/Markdown/5_Identifikatoren.md) werden darüber hinaus keine Vorkenntnisse benötigt. Sie wurden für ein Einstiegslevel konzipiert und geben einen grundlegenden Einblick in das Datenmanagement.
 
-Für die Kapitel [Organisation und Strukturierung](/Markdown/6_Datenmanipulation1.md) sowie [Analyse und Reproduzierbarkeit](/Markdown/7_Datenmanipulation2.md) werden ein Grundinteresse bzw. -verständnis für Statistik und statistische Software bzw. für das Programmieren empfohlen, da Sie dort mit der <a href="https://www.r-project.org" target="_blank">Programmiersprache R</a> arbeiten werden. Grundlegende Kenntnisse in R oder anderen Programmiersprachen sind für diese Kapitel von Vorteil, aber keine zwingende Voraussetzung.  
+Für die Kapitel [Organisation und Strukturierung](/Markdown/6_Datenmanipulation1.md) sowie [Analyse und Reproduzierbarkeit](/Markdown/7_Datenmanipulation2.md) werden ein Grundinteresse bzw. -verständnis für Statistik und statistische Software bzw. für das Programmieren empfohlen, da Sie dort mit der <a href="https://www.r-project.org" class="external-link" target="_blank">Programmiersprache R</a> arbeiten werden. Grundlegende Kenntnisse in R oder anderen Programmiersprachen sind für diese Kapitel von Vorteil, aber keine zwingende Voraussetzung.  
 
 
 ## Struktur der Fallstudie 

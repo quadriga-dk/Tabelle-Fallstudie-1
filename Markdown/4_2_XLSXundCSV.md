@@ -3,7 +3,7 @@
 
 In diesem Abschnitt werfen wir einen Blick auf Dateiformate. Aus der Bewertung der FAIRness der Daten im letzten Kapitel ging bereits hervor, dass Daten im Format XLSX unter bestimmten Gesichtspunkten Einschränkungen unterliegen können.
 
-Dies unterstreicht das kurze Tutorial zu Datenqualität und Maschinenlesbarkeit tabellarischer Daten in Bezug auf CSV und XLSX, dass von der <a href="https://odis-berlin.de" target="_blank">Open Data Informationsstelle Berlin</a>, einem Projekt der <a href="https://www.technologiestiftung-berlin.de" target="_blank">Technologiestiftung Berlin</a>, erstellt wurde. Dort erfahren Sie u. a., wie sich die beiden Formate unterscheiden und warum Excel-Tabellen oft nicht einwandfrei maschinenlesbar sind. Das Video wurde unter der Lizenz CC BY veröffentlicht.  
+Dies unterstreicht das kurze Tutorial zu Datenqualität und Maschinenlesbarkeit tabellarischer Daten in Bezug auf CSV und XLSX, dass von der <a href="https://odis-berlin.de" class="external-link" target="_blank">Open Data Informationsstelle Berlin</a>, einem Projekt der <a href="https://www.technologiestiftung-berlin.de" class="external-link" target="_blank">Technologiestiftung Berlin</a>, erstellt wurde. Dort erfahren Sie u. a., wie sich die beiden Formate unterscheiden und warum Excel-Tabellen oft nicht einwandfrei maschinenlesbar sind. Das Video wurde unter der Lizenz CC BY veröffentlicht.  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Nb_cLObVKho?si=cuM3HATsLLsvbk-h"
 title="YouTube video player" frameborder="0"
@@ -17,7 +17,7 @@ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
 Da Sie ab diesem Kapitel mit einem CSV-Datensatz arbeiten werden, muss die Excel-Tabelle des Berichts umgewandelt werden. Da sie nicht konvertiert werden soll und die Tabellen des Berichts nur im Format XLSX zur Verfügung stehen, muss die Rohdatenquelle für die Daten ermittelt werden.  
 
-Die Fig. 4.1 zeigt, dass am Ende der (Excel-)Tabelle H1-9web u. a. auf das Statistische Bundesamt <a href="https://www-genesis.destatis.de/genesis/online" target="_blank">(Destatis)</a> als Quelle für die Rohdaten verwiesen wird.
+Die Fig. 4.1 zeigt, dass am Ende der (Excel-)Tabelle H1-9web u. a. auf das Statistische Bundesamt <a href="https://www-genesis.destatis.de/genesis/online" class="external-link" target="_blank">(Destatis)</a> als Quelle für die Rohdaten verwiesen wird.
   
 ```{figure} _images/Quelle_Destatis2.PNG
 ---
