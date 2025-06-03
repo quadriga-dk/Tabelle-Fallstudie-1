@@ -31,6 +31,7 @@ PID sind darüber hinaus im Kontext von Linked Data (s. Abschnitt [Linked Data](
 
 ````{margin}
 ```{admonition} Hinweis
+:class: hinweis
 Harvesting (von engl. to harvest = ernten) bezeichnet das systematische Sammeln von Metadaten aus Datenbanken über Schnittstellen. Siehe auch den Eintrag auf <a href="https://www.forschungsdaten.org/index.php/Harvesting" class="external-link" target="_blank">forschungsdaten.org</a>.
 ```
 ````

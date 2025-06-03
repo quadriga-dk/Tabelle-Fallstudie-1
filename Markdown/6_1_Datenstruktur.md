@@ -7,6 +7,7 @@ Die Struktur eines Datensatzes prägt maßgeblich dessen maschinelle Lesbarkeit 
 
 ````{margin}
 ```{admonition} Hinweis
+:class: hinweis
 Variable ist ein Synonym für Merkmal und Wert gleichbedeutend mit Ausprägung. Siehe dazu beispielsweise den Artikel <a href="https://de.wikipedia.org/wiki/Statistische_Variable" class="external-link" target="_blank">Statistische Variable</a>.
 ```
 ````
@@ -15,6 +16,7 @@ Für eine gute Datenorganisation ist ein Kriterium elementar: Die Konsistenz. De
 
 ````{margin}
 ```{admonition} Hinweis
+:class: hinweis
 N/A steht für not available (nicht verfügbar) oder im Deutschen für nicht angegeben. So wird ein Fehlen von Informationen an einer entsprechenden Stelle gekennzeichnet. Siehe dazu auch den Artikel <a href="https://de.wikipedia.org/wiki/Statistische_Variable" class="external-link" target="_blank">N/A</a>.
 ```
 ````
