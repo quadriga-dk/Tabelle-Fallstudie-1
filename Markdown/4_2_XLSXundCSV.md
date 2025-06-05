@@ -5,7 +5,7 @@ In diesem Abschnitt werfen wir einen Blick auf Dateiformate. Aus der Bewertung d
 
 Dies unterstreicht das kurze Tutorial zu Datenqualität und Maschinenlesbarkeit tabellarischer Daten in Bezug auf CSV und XLSX, dass von der <a href="https://odis-berlin.de" class="external-link" target="_blank">Open Data Informationsstelle Berlin</a>, einem Projekt der <a href="https://www.technologiestiftung-berlin.de" class="external-link" target="_blank">Technologiestiftung Berlin</a>, erstellt wurde. Dort erfahren Sie u. a., wie sich die beiden Formate unterscheiden und warum Excel-Tabellen oft nicht einwandfrei maschinenlesbar sind. Das Video wurde unter der Lizenz CC BY veröffentlicht.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Nb_cLObVKho?si=cuM3HATsLLsvbk-h"
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nb_cLObVKho"
 title="YouTube video player" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
