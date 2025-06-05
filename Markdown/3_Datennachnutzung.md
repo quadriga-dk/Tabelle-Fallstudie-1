@@ -18,8 +18,8 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 
 ```{admonition} Lernziel: Grundsätze des Datenmanagements
 :class: lernziele
-- Die Lernenden können die vier FAIR-Prinzipien definieren und anhand eines konkreten Beispiels ihre Bedeutung erläutern.
-- Die Lernenden können die FAIRness eines gegebenen Datensatzes anhand einer Checkliste bewerten.
+1. Die vier FAIR-Prinzipien können definiert und ihre Bedeutung anhand eines konkreten Beispiels erläutert werden.
+2. Die FAIRness eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden.
 ```  
 
 Dieses Kapitel befasst sich mit der Datennachnutzung, die maßgeblich von der Qualität der Daten und der sie beschreibenden Metadaten abhängt. Da in dieser Fallstudie die Reproduzierbarkeit des Datensatzes geprüft und anhand der vorliegenden Daten die Forschungsfrage beantwortet werden soll, gilt es, die Daten hinsichtlich ihrer Qualität genauer zu untersuchen.
