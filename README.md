@@ -25,7 +25,7 @@ QUADRIGA ist ein Verbundprojekt mehrerer Institutionen, das von der Universität
 
 Fragen und Feedback zu dieser OER können Sie uns sowohl über GitHub Issues als auch über Email zukommen lassen.  
 
-Bei Fragen zum Projekt wenden Sie sich gerne an die [Projektkoordination](mailto:paul.walter@fh-potsdam.de?subject=[GitHub]%20Tabelle-Fallstudie-1). 
+Bei Fragen zum Projekt wenden Sie sich gerne an die [Projektkoordination](mailto:quadriga-helpdesk@listserv.dfn.de?subject=[GitHub]%20Tabelle-Fallstudie-1). 
 
 
 
