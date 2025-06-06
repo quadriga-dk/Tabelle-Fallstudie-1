@@ -1,6 +1,11 @@
 (Datenbasis)=
 # Datenbasis: Nationaler Bildungsbericht 
 
+```{admonition} Lernziel: Forschungsfrage
+:class: lernziele
+1. Die Forschungsfrage kann erläutert und in einen Kontext mit dem Bildungsbericht gesetzt werden.
+``` 
+
 Diese Fallstudie des Datentyps Tabelle arbeitet mit strukturierten Daten, also Daten, die in einem vorgegebenen Format organisiert und sortiert sind. Als Arbeitsgrundlage dienen Daten des Nationalen Bildungsberichts (2022) und von Destatis.
 
 Der Nationale Bildungsbericht bereitet Daten für ein nationales Bildungsmonitoring aus unterschiedlichen Datenquellen auf und stellt den Report sowie die aufbereiteten Datensätze unter diesem <a href="https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/bildung-in-deutschland-2022#10" class="external-link" target="_blank">Link</a> bereit. Es gibt jeweils eine Online-Version im Format PDF und eine Printversion. Die aufbereiteten Daten werden im Excel-Format zum Download bereitgestellt. 
