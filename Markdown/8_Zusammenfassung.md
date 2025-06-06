@@ -1,5 +1,10 @@
 # Zusammenfassung und Reflexion
 
+```{admonition} Lernziel: Reflexion
+:class: lernziele
+1. Das Gelernte kann reflektiert und in einen Kontext gesetzt werden.
+```
+
 In dieser Selbstlerneinheit lag der Fokus auf der Reproduzierbarkeit von Datenanalysen, illustriert am Beispiel der Entwicklung des Hochschulpersonals in Deutschland, basierend auf Daten aus dem Nationalen Bildungsbericht. Ziel war es, ein fundiertes Verständnis für die Bedeutung von Datenqualität, Datenzitierung und effektiver Datenmanipulation zu vermitteln.
 
 Die Einheit begann mit einer grundlegenden Einführung in die Datennachnutzung und die FAIR-Prinzipien, die für Findability, Accessibility, Interoperability und Reusability stehen. Die Teilnehmer:innen lernten, wie diese Prinzipien angewendet werden, um die Langzeitnutzung und -verfügbarkeit von Daten zu optimieren. Weiterhin wurde die Datenqualität und das 5-Sterne-Modell zur Bewertung der Qualität offener Daten behandelt, was den Teilnehmer:innen helfen sollte zu verstehen, wie man die Qualität von Daten bewertet und verbessert.
