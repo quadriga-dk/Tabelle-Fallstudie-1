@@ -6,6 +6,7 @@
 ---
 name: let's-get-started
 alt: Eine Frau sitzt an einem Schreibtisch vor einem Bildschirm und arbeitet.
+width: 348px
 ---
 Let's get started (KI generiert).
 ```

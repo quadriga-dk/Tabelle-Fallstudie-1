@@ -15,6 +15,7 @@ chapters:
     sections:
     - file: Markdown/3_1_FairPrinzipien
     - file: Markdown/3_2_Übung_FAIR
+    - file: Markdown/3_Assessment
     - file: Markdown/3_3_Resümee_FAIR
   - file: Markdown/4_Qualitätsbewertung
     sections:
@@ -22,6 +23,7 @@ chapters:
     - file: Markdown/4_2_XLSXundCSV
     - file: Markdown/4_3_5-Sterne
     - file: Markdown/4_4_Übung_5-Sterne
+    - file: Markdown/4_Assessment
     - file: Markdown/4_5_Resümee_Qualität
   - file: Markdown/5_Identifikatoren
     sections:
@@ -29,17 +31,20 @@ chapters:
     - file: Markdown/5_2_PID
     - file: Markdown/5_3_Linked-Data
     - file: Markdown/5_4_Übung_PID
+    - file: Markdown/5_Assessment
     - file: Markdown/5_5_Resümee_Identifikatoren
   - file: Markdown/6_Datenmanipulation1
     sections:
     - file: Markdown/6_1_Datenstruktur
     - file: Markdown/6_2_Übung_Arbeiten_CSV_in_R
     - file: Markdown/6_3_Übung_Auswertung_CSV_in_R
+    - file: Markdown/6_Assessment
     - file: Markdown/6_4_Resümee_Datenmanipulation1
   - file: Markdown/7_Datenmanipulation2
     sections:
     - file: Markdown/7_1_Übung_Reproduzierbarkeit
     - file: Markdown/7_2_Übung_Zeitreihe
+    - file: Markdown/7_Assessment
     - file: Markdown/7_3_Resümee_Datenmanipulation2
   - file: Markdown/8_Zusammenfassung
   - file: Markdown/9_Epilog
