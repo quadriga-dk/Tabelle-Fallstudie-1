@@ -148,6 +148,130 @@ question3 = [{
 display_quiz(question3, colors=colors.jupyterquiz)
 ```
 
+
+## Frage 4
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+question4 = [{
+    "question": """Wie können Sie einen Datensatz finden, der mit einem DOI eindeutig gekennzeichnet ist?""",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "Ich muss wissen, in welchem Repositorium der Datensatz abgelegt ist und gebe dann den DOI in die Suchmaske ein",
+            "correct": False,
+            "feedback": """× Dies ist unnötig kompliziert. Ein DOI ist gerade darauf ausgelegt, unabhängig vom spezifischen Repositorium zu funktionieren. Sie müssen nicht wissen, wo der Datensatz gespeichert ist."""
+        },
+        {
+            "answer": "Ich benötige neben dem DOI auch den Titel des Datensatzes",
+            "correct": False,
+            "feedback": """× Der DOI allein reicht aus - zusätzliche Informationen wie der Titel sind nicht erforderlich, da der DOI bereits eine eindeutige Referenz darstellt."""
+        },
+        {
+            "answer": "Ich gebe den DOI direkt in eine DOI-Auflösungsseite (z.B. doi.org) oder eine Suchmaschine ein",
+            "correct": True,
+            "feedback": """✓ Richtig! Ein DOI ist so konzipiert, dass er unabhängig vom Speicherort funktioniert. Sie können ihn direkt in DOI-Auflösungsseiten wie doi.org eingeben oder in Suchmaschinen suchen, um zum Datensatz zu gelangen."""
+        },
+        {
+            "answer": "Ich kontaktiere den Autor des Datensatzes direkt",
+            "correct": False,
+            "feedback": """× Dies ist ineffizient und unnötig. Der DOI ermöglicht direkten Zugang ohne Kontakt zum Autor."""
+        }
+    ]
+}]
+
+display_quiz(question4, colors=colors.jupyterquiz)
+```
+
+
+## Frage 5
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+question5 = [{
+    "question": """Kann die "broken links"-Problematik durch die Verwendung von PIDs vermieden werden?""",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "Nein, PIDs funktionieren genauso wie normale URLs",
+            "correct": False,
+            "feedback": """× PIDs funktionieren fundamental anders als normale URLs. Während URLs direkt auf einen Speicherort verweisen, fungieren PIDs als persistente Identifier, die über Resolver-Systeme funktionieren."""
+        },
+        {
+            "answer": "Ja, aber nur solange die Metadaten nicht geändert werden",
+            "correct": False,
+            "feedback": """× Die Funktionalität von PIDs hängt nicht von unveränderten Metadaten ab. Auch wenn Metadaten aktualisiert werden, bleibt der PID funktional."""
+        },
+        {
+            "answer": "Ja, weil der PID die Referenz vom Speicherort entkoppelt",
+            "correct": True,
+            "feedback": """✓ Richtig! Das ist der Hauptvorteil von PIDs: Sie verweisen auf das Objekt selbst und nicht auf einen spezifischen Speicherort. Selbst wenn sich der Speicherort ändert, bleibt die Referenz über den PID funktional."""
+        },
+        {
+            "answer": "Nur teilweise, da PIDs auch ablaufen können",
+            "correct": False,
+            "feedback": """× Während PIDs theoretisch ablaufen können, sind sie darauf ausgelegt, dauerhaft zu bestehen. Dies ist ein Kernprinzip ihrer Funktionalität - sie sollen gerade nicht "broken links" werden."""
+        }
+    ]
+}]
+
+display_quiz(question5, colors=colors.jupyterquiz)
+```
+
+
+## Frage 6
+
+```{code-cell} ipython3
+:tags: [remove-input]
+from jupyterquiz import display_quiz
+
+import sys
+sys.path.append("..")
+from quadriga import colors
+
+question6 = [{
+    "question": """Welche Aussage über die Vergabe von PIDs trifft zu?""",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "PIDs werden nur für Open Access Datensätze vergeben",
+            "correct": False,
+            "feedback": """× PIDs werden sowohl für Open Access als auch für zugangsbeschränkte Datensätze vergeben. Der Zugangstyp hat keinen Einfluss auf die PID-Vergabe."""
+        },
+        {
+            "answer": "Bei vielen Repositorien erfolgt die Vergabe automatisch beim Upload",
+            "correct": True,
+            "feedback": """✓ Richtig! Viele moderne Datenrepositorien vergeben automatisch PIDs (meist DOIs) beim Upload von Datensätzen, was den Prozess für Forschende erheblich vereinfacht."""
+        },
+        {
+            "answer": "PIDs müssen immer einen Ländercode enthalten",
+            "correct": False,
+            "feedback": """× PIDs müssen nicht zwingend einen Ländercode enthalten. Die Struktur von PIDs variiert je nach System (DOI, Handle, URN, etc.) und Vergabestelle."""
+        },
+        {
+            "answer": "PIDs können nur von nationalen Behörden vergeben werden",
+            "correct": False,
+            "feedback": """× PIDs können von verschiedenen autorisierten Stellen vergeben werden, nicht nur von nationalen Behörden. Viele Repositorien, Verlage und andere Organisationen sind berechtigt, PIDs zu vergeben."""
+        }
+    ]
+}]
+
+display_quiz(question6, colors=colors.jupyterquiz)
+```
+
+
 ## Aufgabe 1: Definition und Abgrenzung
 
 1. Definition: Erklären Sie in 2-3 Sätzen, was ein Persistenter Identifikator (PID) ist und wie er sich von einer URL unterscheidet.
