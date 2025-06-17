@@ -20,8 +20,8 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 ```{admonition} Lernziel: Sicherstellen der Qualität von Datensätzen
 :class: lernziele
 1. Zentrale Qualitätskriterien für Datensätze können definiert und ihre Bedeutung für die Forschung erläutert werden.
-2. Die Unterschiede zwischen XLSX- und CSV-Dateiformaten können erklärt und Vor- und Nachteile für verschiedene Anwendungsfälle aufgezeigt werden.
-3. Die Qualität eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden.
+2. Die Bedeutung der Wahl des Dateiformats für die Maschinenlesbarkeit kann erklärt werden.
+3. Das 5-Sterne-Modell kann auf einen konkreten Datensatz angewendet werden.
 ``` 
 
 Im Kapitel Datennachnutzung haben Sie erfahren, dass die FAIR-Prinzipien vor allem einen Bewertungsmaßstab zur Datennachnutzung liefern. In diesem Kapitel stehen nun die Kriterien der Qualitätsbewertung im Mittelpunkt. Darüber hinaus werden wir Ihnen den Unterschied zwischen dem XLSX- und dem CSV-Dateiformat für Tabellendaten erläutern und mit dem 5-Sterne-Modell ein Bewertungsschema vorstellen, das sie sogleich in einer Übung auf den Datensatz anwenden dürfen.  
