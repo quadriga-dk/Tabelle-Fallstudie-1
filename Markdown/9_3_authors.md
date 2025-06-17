@@ -136,7 +136,7 @@ lang: de-DE
 </tr>
 </table>
 
-### Lamia Islam
+### Lamia Islam <a href="https://orcid.org/0009-0001-1879-9880" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
