@@ -317,10 +317,6 @@ create_answer_box('6-consequence-3b')
    - Unleserliche Zeichen machen Daten unverständlich und Filter-/Suchfunktionen funktionieren nicht korrekt
    - UTF-8 gewährleistet laut Kapitel "größtmögliche Kompatibilität zu anderen Programmen" und vermeidet Probleme bei der maschinellen Verarbeitung
 
-**Bewertungskriterien:**
-- Korrekte Identifikation der Ursachen basierend auf Kapitelinhalt (10 Punkte)
-- Verstehen der konkreten Analysewirkungen mit Beispielen (10 Punkte)
-
 ````
 
 
@@ -446,11 +442,6 @@ create_answer_box('6-verbesserung')
 - Bemerkungen in separate Metadaten-Tabelle auslagern oder standardisierte Codes verwenden
 - Konsistente Bezeichnungen ohne Umlaute für bessere Maschinenlesbarkeit
 
-**Bewertungskriterien:**
-- Korrekte Anwendung der Tidy-Data-Prinzipien (6 Punkte)
-- Vollständige Problemidentifikation (8 Punkte)
-- Verständnis der Auswirkungen (6 Punkte)
-- Praktikable Verbesserungsvorschläge (5 Punkte)
 ````
 
 

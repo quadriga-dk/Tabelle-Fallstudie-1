@@ -229,10 +229,6 @@ create_answer_box('4-format-3')
 
 **3. XLSX-Anwendungsfall:** XLSX könnte sinnvoll sein, wenn komplexe Formatierungen, mehrere Arbeitsblätter oder eingebettete Formeln für die Interpretation der Daten wichtig sind. Allerdings sollte in solchen Fällen zusätzlich eine CSV-Version für die maschinelle Verarbeitung bereitgestellt werden.
 
-**Bewertungskriterien:**
-- Verständnis der Maschinenlesbarkeit (3 Punkte)
-- Korrekte Begründung der Formatwahl (3 Punkte)
-- Nachvollziehbare Argumentation für XLSX-Nutzung (2 Punkte)
 ````
 
 
@@ -507,8 +503,4 @@ create_answer_box('4-reflection-2')
 
 2. **Kaskadierende System:** Das kaskadierende System ist sinnvoll, weil es eine logische Hierarchie der Datenqualität und -offenheit abbildet. Höhere Stufen bauen auf niedrigeren auf - ohne offene Lizenz (1 Stern) macht Maschinenlesbarkeit (2 Sterne) für die Nachnutzung wenig Sinn. Ohne persistenten Identifikator (4 Sterne) sind Verlinkungen (5 Sterne) nicht dauerhaft möglich.
 
-**Bewertungskriterien:**
-- Korrekte Anwendung des 5-Sterne-Modells (10 Punkte)
-- Nachvollziehbare Begründungen für jede Bewertung (10 Punkte)
-- Sinnvolle Verbesserungsvorschläge (5 Punkte)
 ````

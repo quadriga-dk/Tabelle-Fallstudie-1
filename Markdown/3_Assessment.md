@@ -253,11 +253,10 @@ Sie bewerten den Datensatz "Hochschulpersonal nach Hochschularten und Hochschule
 - Das europäische Datenportal hat eine "Metadata Quality Assurance" für diesen Datensatz
 - Metadaten sind in verschiedenen Formaten verfügbar (RDF/XML, Turtle, JSON-LD, etc.)
 
-### Aufgabe
+### FAIR-Checkliste
 
 Bewerten Sie die FAIRness dieses realen Datensatzes anhand der folgenden Checkliste. Für jede Aussage wählen Sie "Ja" oder "Nein" und begründen Ihre Entscheidung in 1-2 Sätzen.
 
-### FAIR-Checkliste
 #### Findable (Auffindbar)
 
 
@@ -289,7 +288,7 @@ question6 = [{
 display_quiz(question6, colors=colors.jupyterquiz)
 ```
 
-**Begründung:**
+Begründung:
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -327,7 +326,7 @@ question7 = [{
 display_quiz(question7, colors=colors.jupyterquiz)
 ```
 
-**Begründung:**
+Begründung:
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -366,7 +365,7 @@ question8 = [{
 display_quiz(question8, colors=colors.jupyterquiz)
 ```
 
-**Begründung:**
+Begründung:
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -405,7 +404,7 @@ question9 = [{
 display_quiz(question9, colors=colors.jupyterquiz)
 ```
 
-**Begründung:**
+Begründung:
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -445,7 +444,7 @@ question10 = [{
 display_quiz(question10, colors=colors.jupyterquiz)
 ```
 
-**Begründung:**
+Begründung:
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -484,7 +483,7 @@ question11 = [{
 display_quiz(question11, colors=colors.jupyterquiz)
 ```
 
-**Begründung:**
+Begründung:
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -522,7 +521,7 @@ question12 = [{
 display_quiz(question12, colors=colors.jupyterquiz)
 ```
 
-**Begründung:**
+Begründung:
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -560,7 +559,7 @@ question13 = [{
 display_quiz(question13, colors=colors.jupyterquiz)
 ```
 
-**Begründung:**
+Begründung:
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -600,7 +599,7 @@ question14 = [{
 display_quiz(question14, colors=colors.jupyterquiz)
 ```
 
-**Begründung:**
+Begründung:
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -638,7 +637,7 @@ question15 = [{
 display_quiz(question15, colors=colors.jupyterquiz)
 ```
 
-**Begründung:**
+Begründung:
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -676,7 +675,7 @@ question16 = [{
 display_quiz(question16, colors=colors.jupyterquiz)
 ```
 
-**Begründung:**
+Begründung:
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -714,7 +713,7 @@ question17 = [{
 display_quiz(question17, colors=colors.jupyterquiz)
 ```
 
-**Begründung:**
+Begründung:
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -754,7 +753,7 @@ question18 = [{
 display_quiz(question18, colors=colors.jupyterquiz)
 ```
 
-**Begründung:**
+Begründung:
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -792,7 +791,7 @@ question19 = [{
 display_quiz(question19, colors=colors.jupyterquiz)
 ```
 
-**Begründung:**
+Begründung:
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -830,7 +829,7 @@ question20 = [{
 display_quiz(question20, colors=colors.jupyterquiz)
 ```
 
-**Begründung:**
+Begründung:
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -868,7 +867,7 @@ question21 = [{
 display_quiz(question21, colors=colors.jupyterquiz)
 ```
 
-**Begründung:**
+Begründung:
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -878,18 +877,52 @@ from assessment import create_answer_box
 create_answer_box('3-re-4')
 ```
 
-````{admonition}  Auswertung und Reflexion
-:class: solution, dropdown
+### Auswertung und Reflexion
 
 Nach dem Ausfüllen der Checkliste beantworten Sie bitte folgende Fragen:
+
 1. Wie bewerten Sie die Gesamtqualität des Datensatzes in Bezug auf die FAIR-Prinzipien? Welches Prinzip wird am besten erfüllt, welches am schlechtesten?
+
+```{code-cell} ipython3
+:tags: [remove-input]
+import sys
+sys.path.append("../quadriga")
+from assessment import create_answer_box
+
+create_answer_box('3-1')
+```
+
 2. Welche drei konkreten Maßnahmen würden Sie empfehlen, um die FAIRness dieses Datensatzes zu verbessern? Begründen Sie Ihre Empfehlungen.
+
+```{code-cell} ipython3
+:tags: [remove-input]
+import sys
+sys.path.append("../quadriga")
+from assessment import create_answer_box
+
+create_answer_box('3-2')
+```
+
 3. Inwiefern unterstützt die Verfügbarkeit über das europäische Datenportal die FAIR-Prinzipien? Welche Aspekte könnten dennoch verbessert werden?
 
-**Musterlösung**
+```{code-cell} ipython3
+:tags: [remove-input]
+import sys
+sys.path.append("../quadriga")
+from assessment import create_answer_box
+
+create_answer_box('3-3')
+```
+
+
+
+
+````{admonition} Musterlösung
+:class: solution, dropdown
+
+**FAIR-Checkliste**
 
 Findable (Auffindbar)
-
 1. Der Datensatz verfügt über einen persistenten Identifikator (z.B. DOI, URN).
     - Ja
     - Begründung: Der Datensatz hat sowohl einen Hauptidentifikator des Datenbereitstellers (https://www.datenportal.bmbf.de/portal/2.5.56) als auch einen uriRef des europäischen Portals, die beide als persistente Identifikatoren fungieren.
@@ -904,7 +937,6 @@ Findable (Auffindbar)
     - Begründung: Der Datensatz ist über das europäische Datenportal indexiert und durchsuchbar, auch wenn spezifische Suchbegriffe erforderlich sind.
 
 Accessible (Zugänglich)
-
 1. Der Datensatz kann über standardisierte Kommunikationsprotokolle abgerufen werden.
     - Ja
     - Begründung: Der Datensatz kann über Standard-Webprotokolle (HTTP/HTTPS) heruntergeladen werden.
@@ -919,7 +951,6 @@ Accessible (Zugänglich)
     - Begründung: Es sind keine Authentifizierungs- oder Autorisierungsverfahren erforderlich, was klar ersichtlich ist (kein Registrierungshinweis).
 
 Interoperable (Interoperabel)
-
 1. Der Datensatz verwendet eine formale, zugängliche, gemeinsame und weit verbreitete Sprache zur Wissensrepräsentation.
     - Teilweise/Nein
     - Begründung: Die Spaltennamen sind nur auf Deutsch verfügbar, was die internationale Interoperabilität einschränkt, auch wenn die Datenstruktur standardisiert ist.
@@ -934,7 +965,6 @@ Interoperable (Interoperabel)
     - Begründung: Der Datensatz ist als CSV verfügbar, was ein offenes, nicht-proprietäres Format ist (zusätzlich zu XLS und HTML).
 
 Reusable (Wiederverwendbar)
-
 1. Der Datensatz hat eine klare und zugängliche Datennutzungslizenz.
     - Ja
     - Begründung: Die DL-DE BY 2.0 Lizenz ist klar angegeben und erlaubt die Nutzung unter Nennung des Bereitstellers.

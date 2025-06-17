@@ -316,10 +316,6 @@ create_answer_box('5-definition-3')
 - Die eigene Forschungsleistung wird sichtbarer und besser zitierbar
 - Bessere Auffindbarkeit und Kontextualisierung schaffen mehr Transparenz und erleichtern die Qualitätseinschätzung
 
-**Bewertungskriterien:**
-- Korrekte Definition von PID und Unterscheidung zur URL (4 Punkte)
-- Verständnis der Rolle in der Datenzitierung (3 Punkte)
-- Realistische Vorteile für Forschende (3 Punkte)
 ````
 
 ## Aufgabe 2: PID-Typen und ihre Anwendungsbereiche
@@ -439,9 +435,5 @@ create_answer_box('5-pid-reflection')
 
 Verschiedene PID-Systeme sind auf die spezifischen Anforderungen unterschiedlicher Ressourcentypen optimiert. Personen-IDs wie ORCID berücksichtigen Besonderheiten wie Namensänderungen und Institutionswechsel, während Objekt-IDs wie DOI auf die dauerhafte Verfügbarkeit digitaler Inhalte fokussieren. Diese Spezialisierung gewährleistet bessere Funktionalität, Interoperabilität und langfristige Stabilität der Identifikationssysteme.
 
-**Bewertungskriterien:**
-- Korrekte Zuordnung der PID-Typen (10 Punkte)
-- Nachvollziehbare Begründungen (10 Punkte)
-- Verständnis der Unterschiede zwischen PID-Systemen (5 Punkte)
 ````
 
