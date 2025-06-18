@@ -152,7 +152,7 @@ from assessment import create_answer_box
 create_answer_box('6-zeit-elemente')
 ```
 
-Warum wurde die Visualisierung (Liniendiagramm) als Teil der Analyse erstellt und wie unterstützt sie die Reproduzierbarkeit?
+Warum wurde die Visualisierung (Liniendiagramm) als Teil der Analyse erstellt?
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -234,7 +234,7 @@ create_answer_box('6-visual-wichtigkeit')
 
 **Grenzen und Herausforderungen:**
 
-Welche Grenzen der Reproduzierbarkeit werden in den Fallstudien deutlich?
+Welche Grenzen der Reproduzierbarkeit werden in der Fallstudie deutlich?
 ```{code-cell} ipython3
 :tags: [remove-input]
 import sys
@@ -256,7 +256,7 @@ create_answer_box('6-herausforderungen-zukunft')
 
 **Übertragung auf andere Kontexte:**
 
-Sie möchten eine eigene deskriptive Analyse durchführen und dabei Reproduzierbarkeit sicherstellen. Welche drei wichtigsten Lehren ziehen Sie aus den Fallstudien des Kapitels für Ihr eigenes Vorgehen?
+Sie möchten eine eigene deskriptive Analyse durchführen und dabei Reproduzierbarkeit sicherstellen. Welche drei wichtigsten Lehren ziehen Sie aus der Fallstudie des Kapitels für Ihr eigenes Vorgehen?
 
 ```{code-cell} ipython3
 :tags: [remove-input]
@@ -281,7 +281,7 @@ create_answer_box('6-lehren-uebertragung')
 Reproduzierbarkeitsrelevante Aspekte:
 
 **Aspekt 1 - Datenquelle:**
-- Problem Excel-Datei: Wäre nur ein "Anhang" zur Veröffentlichung gewesen, nicht die ursprüngliche Datenquelle
+- Problem Excel-Datei: Die Excel-Datei war nicht die ursprüngliche Datenquelle, sondern eine aggregierte Tabelle
 - Primärquelle wichtig: Ermöglicht Zugang zu den tatsächlichen Rohdaten und macht den gesamten Verarbeitungsprozess nachvollziehbar
 
 **Aspekt 2 - Methodische Transparenz:**
@@ -299,7 +299,7 @@ Reproduzierbarkeitsrelevante Aspekte:
 
 **Reproduzierbarkeitsaspekte:Dokumentationsqualität:**
 - Vollständiger Code mit Kommentaren
-- Schrittweise Erklärung jeder Datenmanipulation
+- Schrittweise Erklärung jeder Datenaufbereitung
 - Transparente Darstellung aller Berechnungen
 - Liniendiagramm als visuelle Bestätigung der berechneten Trends
 
@@ -312,11 +312,11 @@ Reproduzierbarkeitsrelevante Aspekte:
 
 **Sorgfältige Dokumentation:**
 - Ermöglichende Elemente: Vollständiger kommentierten Code, Schritt-für-Schritt-Erklärungen, Begründung von Entscheidungen
-- Ohne Dokumentation: Andere könnten die Analysen nicht nachvollziehen oder würden unterschiedliche Ergebnisse erhalten
+- Ohne Dokumentation: Andere könnten die Analysen nicht nachvollziehen oder mögliche Fehlerquellen ausmachen
 
 **Visualisierung im Kontext:**
 - Rolle: Nicht nur Darstellung, sondern Verifikation und Kommunikation der Ergebnisse
-- Mehr als "schöne Bilder": Objektive Bestätigung der Reproduktion und verständliche Ergebnispräsentation
+- Mehr als "schöne Bilder": Objektive Bestätigung der Analyse und verständliche Ergebnispräsentation
 
 ##### Teil E: Kritische Reflexion
 
