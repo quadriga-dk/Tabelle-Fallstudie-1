@@ -137,7 +137,7 @@ question3 = [{
         {
             "answer": "Sie ist ein entscheidender Bestandteil, der vor der eigentlichen Analyse durchgeführt wird",
             "correct": True,
-            "feedback": """✓ Richtig! Datenaufbereitung ist ein entscheidender Bestandteil des Analyseprozesses, der vor der eigentlichen Analyse durchgeführt wird. Das Kapitel erwähnt, dass sie benötigt wird, "um Ihre Daten visualisieren zu können" und für die nachfolgende Analyse und Reproduzierbarkeit."""
+            "feedback": """✓ Richtig! Datenaufbereitung ist ein entscheidender Bestandteil des Analyseprozesses, der vor der eigentlichen Analyse durchgeführt wird. Die Daten werden in diesem Schritt bereinigt und für die folgende Analyse vorbereitet."""
         },
         {
             "answer": "Sie ersetzt die eigentliche Datenanalyse",
