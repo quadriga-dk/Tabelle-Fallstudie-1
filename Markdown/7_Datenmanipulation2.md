@@ -20,7 +20,6 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 ```{admonition} Lernziel: Datenanalyse und -reproduzierbarkeit
 :class: lernziele 
 1. Die Wichtigkeit einer sorgfältigen Dokumentation bei der Durchführung einer deskriptiven Analyse kann beschrieben und anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit) können mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte erläutert werden.
-2. Eine Software (RStudio) kann angewendet werden, um Daten in einer angemessenen Form zu visualisieren.
 ```  
 
 
