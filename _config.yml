@@ -39,7 +39,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/quadriga-dk/Tabelle-Fallstudie-1  # Online location of your book
+  url: https://github.com/lam1aa/Tabelle-Fallstudie-1  # Online location of your book
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
 launch_buttons:
