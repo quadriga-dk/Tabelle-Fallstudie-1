@@ -18,6 +18,28 @@ Gutes Datenmanagement erleichtert die Nachnutzung sowohl für andere als auch Si
 Auf dem Weg zur Lösung der Forschungsfrage hat dieses Kapitel gezeigt, welche Rolle die Qualität von Daten bei der Datennachnutzung spielt. 
 Die Datenqualität bewerten zu können, befähigt zum einen dazu, zu entscheiden, ob sich die ausgewählten Daten überhaupt für ein anvisiertes (Forschungs-)Projekt und zur Lösung einer Fragestellung eignen. Zum anderen lässt sich so einschätzen, ob und inwieweit die Daten noch aufbereitet oder manipuliert werden müssen und ob dieser Aufwand gerechtfertigt ist. In unserem Fall müssen die Daten ein wenig manipuliert werden, was wir Ihnen im übernächsten Kapitel [Organisation und Strukturierung](Datenmanipulation) zeigen werden.  
 
+```{admonition} Keypoints
+:class: keypoint
+
+Dateiformate:
+- XLSX und CSV unterscheiden sich in ihrer Struktur und Anwendung. Die Formatwahl hängt vom jeweiligen Verwendungszweck ab - es gibt keinen universell "perfekten" Weg.
+
+Qualitätsmerkmale:
+- Open Data und Statistikdaten weisen spezifische Qualitätskriterien auf. Das 5-Sterne-Modell ermöglicht die Bewertung von Offenheit und Kontextualität der Daten.
+
+Qualitätsbewertung in der Praxis:
+- Nicht alle Qualitätskriterien lassen sich immer erfüllen. Die Bewertung erfolgt kontextabhängig je nach Aufgabenstellung und Verwendungszweck der Daten.
+
+Dokumentation und Metadaten:
+- Transparente und vollständige Dokumentation ist essentiell. Lizenzen sollten vergeben und Persistente Identifikatoren ([PID](PID)) für eindeutige Identifizierung genutzt werden.
+
+Datennachnutzung:
+- Gutes Datenmanagement erleichtert die Nachnutzung für andere und sich selbst. Kontextinformationen müssen langfristig verfügbar bleiben, auch wenn die Datenerhebung länger zurückliegt.
+
+Strategische Bedeutung:
+- Qualitätsbewertung befähigt zur Entscheidung über Dateneignung für Forschungsprojekte und zur Einschätzung des erforderlichen Aufbereitungsaufwands.
+```
+
 Am Ende dieser Lerneinheit möchten wir Sie wieder auf unseren Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen.
 Der Kurzfragebogen am Ende jedes Kapitels hilft uns, diese Lerneinheit kontinuierlich zu verbessern, indem Sie uns auf etwaige Unklarheiten hinweisen oder Anregungen geben. Vielen Dank!  
 

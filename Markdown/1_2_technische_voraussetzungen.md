@@ -5,6 +5,18 @@ lang: de-DE
 (Installation_R-Studio)=
 # Technische Voraussetzungen
 
+
+Diese Fallstudie umfasst erklärende Texte, Code in der Programmiersprache R sowie Übungen und Assessments zur Selbstüberprüfung. Sie haben folgende Möglichkeiten mit dem R-Code (die entsprechenden Kapitel sind an der 🚀 erkennbar) umzugehen:
+   - Sie können diesen parallel zum Lesen des Jupyter Books in RStudio bearbeiten. Dazu müssen Sie sich R und RStudio installieren. Eine Anleitung dazu finden Sie weiter unten.
+   - Sie können den Code in Binder ausführen, was je nach traffic mitunder langsam sein kann.
+   - Sie können den Code mit Live Code ausführen.
+   - Sie können den Code mit Google Colab ausführen. Dazu benötigen Sie aber Kenntnisse im file management.
+   - Für die Verwendung in einem JupyterHub sollten Sie sich vergewissern, dass der R Kernel funktioniert.
+
+Sie können die Inhalte auch auf Ihren lokalen Rechner herunterladen, indem Sie die *.zip*-Datei aus dem GitHub Repositorium oder Zenodo herunterladen. Dies gibt Ihnen die Möglichkeit, Inhalte zu bearbeiten und um eigene Ressourcen zu erweitern, erfordert aber Kenntnisse einer entsprechenden Ausführungsumgebung (z. B. Anaconda).
+
+---
+
 ## Installieren von R und RStudio
 
 Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte vorab **R**. Zudem benötigen Sie eine geeignete Entwicklungsumgebung. Hierfür bietet sich **RStudio** an. Die Computersprache **R** und **RStudio** können Sie direkt vom Entwickler bzw. Maintainer <a href="https://posit.co/download/rstudio-desktop/" class="external-link" target="_blank">Posit</a> beziehen.  
@@ -14,12 +26,7 @@ Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte vorab *
 Die Übungen in [Kapitel 6](Datenmanipulation) und [Kapitel 7](Datenmanipulation2) sind auf der Basis von R 4.4.1 entwickelt worden und zur Nutzung von RStudio 2024.09.0 Build 375 über Windows konzipiert. Bei der Nutzung einer anderen RStudio Version oder eines anderen Betriebssystems können Funktionen eventuell variieren.  
 Eine Anleitung für die ersten Schritte in RStudio findet sich weiter unten in diesem Abschnitt unter Punkt 1.2.3.  
 
-## Nutzung dieses JupyterBooks
-
-Dieses JupyterBook besteht aus mehreren Kapiteln, die jeweils als einzelne Open Educational Resource (OER) gelten. Sie sind anhand einer Forschungsfrage durch einen roten Faden verbunden, können aber auch einzeln absolviert werden.  
-
-
-------------------------------------------------------------------------
+---
 
 ## Erste Schritte in RStudio
 
