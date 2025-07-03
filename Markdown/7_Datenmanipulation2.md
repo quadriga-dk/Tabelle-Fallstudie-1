@@ -23,7 +23,8 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 ```  
 
 
-In diesem Kapitel wird die Datenmanipulation unter Verschiebung des Fokus auf Analyse und Visualisierung weitergeführt. Wir werden die Reproduzierbarkeit von Forschungsergebnissen mittels einer Grafik aufzeigen und die Forschungsfrage beantworten und das Ergebnis ebenfalls visuell darstellen.
+In diesem Kapitel wird die Datenaufbereitung unter Verschiebung des Fokus auf Analyse, Reproduzierbarkeit und Visualisierung weitergeführt. Dazu widmen wir uns zuerst der Reproduzierbarkeit von Forschungsergebnissen und deren Visualisierung. Dazu wird u. a. ein *Datamframe* erstellt und ein Kreisdiagramm nachgebaut. 
+Im letzten Abschnitt wird schließlich die Forschungsfrage beantwortet und das Ergebnis ebenfalls visuell dargestellt.
 Dazu verwenden wir weiterhin den aus dem vorherigen Kapitel bekannten Datensatz, den wir mit der Software RStudio weiterbearbeiten.
 
 
