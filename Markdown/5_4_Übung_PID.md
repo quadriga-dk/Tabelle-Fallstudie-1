@@ -52,7 +52,7 @@ questions = \
     'answers': [
     { 'answer': 'Ja, weil der PID die Referenz vom Speicherort entkoppelt.',
       'correct': True,
-      'feedback': 'Richtig!'Ein Broken Link ist ein Verweis bzw. ein Link, der nicht mehr aufgelöst werden kann, weil das entsprechende Ziel verschoben oder umbenannt wurde. Da ein PID auf ein digitales Objekt statt eines Ortes verweist, kann die Broken Link-Problematik damit umgangen werden.},
+      'feedback': 'Richtig! Ein Broken Link ist ein Verweis bzw. ein Link, der nicht mehr aufgelöst werden kann, weil das entsprechende Ziel verschoben oder umbenannt wurde. Da ein PID auf ein digitales Objekt statt eines Ortes verweist, kann die Broken Link-Problematik damit umgangen werden.'},
     { 'answer': 'Ja, aber nur solange die Metadaten zum PID nicht geändert werden.',
       'correct': False,
       'feedback': 'Diese Antwort ist leider nicht richtig. PIDs wie DOI weisen standardisierte Metadaten auf, von denen die URL ein Aspekt ist. Die Metadaten müssen also sogar geändert werden, wenn sich die URL ändert.'},
