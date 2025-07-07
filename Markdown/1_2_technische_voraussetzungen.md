@@ -8,12 +8,12 @@ lang: de-DE
 
 Diese Fallstudie umfasst erklärende Texte, Code in der Programmiersprache R sowie Übungen und Assessments zur Selbstüberprüfung. Sie haben folgende Möglichkeiten mit dem R-Code (die entsprechenden Kapitel sind an der 🚀 erkennbar) umzugehen:
    - Sie können diesen parallel zum Lesen des Jupyter Books in RStudio bearbeiten. Dazu müssen Sie sich R und RStudio installieren. Eine Anleitung dazu finden Sie weiter unten.
-   - Sie können den Code in Binder ausführen, was je nach traffic mitunder langsam sein kann.
-   - Sie können den Code mit Live Code ausführen.
-   - Sie können den Code mit Google Colab ausführen. Dazu benötigen Sie aber Kenntnisse im file management.
+   - Sie können den Code in Binder ausführen, was je nach Auslastung mitunter langsam sein kann.
+   - Sie können den Code mit Live Code ausführen. Diese Funktion läuft auch über Binder.
+   - Sie können den Code mit Google Colab ausführen. Dazu müssen Sie ggf. die von R genutzten Daten-Dateien aus dem Repositorium herunterladen und in Colab passend hinterlegen.
    - Für die Verwendung in einem JupyterHub sollten Sie sich vergewissern, dass der R Kernel funktioniert.
 
-Sie können die Inhalte auch auf Ihren lokalen Rechner herunterladen, indem Sie die *.zip*-Datei aus dem GitHub Repositorium oder Zenodo herunterladen. Dies gibt Ihnen die Möglichkeit, Inhalte zu bearbeiten und um eigene Ressourcen zu erweitern, erfordert aber Kenntnisse einer entsprechenden Ausführungsumgebung (z. B. Anaconda).
+Sie können die Inhalte auch auf Ihren lokalen Rechner herunterladen, indem Sie die *.zip*-Datei aus dem GitHub Repositorium oder Zenodo herunterladen. Dies gibt Ihnen die Möglichkeit, Inhalte zu bearbeiten und um eigene Ressourcen zu erweitern, erfordert aber Kenntnisse einer entsprechenden Ausführungsumgebung (z.B. Anaconda).
 
 ---
 
