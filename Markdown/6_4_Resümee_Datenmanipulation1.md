@@ -8,7 +8,7 @@ Weiterhin wurde der Tidy-Ansatz zur Datenorganisation und -strukturierung vorges
 
 Abschließend lässt sich sagen, dass dieses Selbstlernmodul darauf ausgelegt war, den Teilnehmer:innen eine umfassende Einführung in die Datenaufbereitung zu bieten, mit einem starken Fokus auf Datenorganisation und -strukturierung. Die Fähigkeiten, die die Teilnehmer:innen erworben haben, sind nicht nur für die Datenwissenschaft, sondern für eine Vielzahl von beruflichen und akademischen Bereichen von Bedeutung, da eigentlich jedes Datenprojekt zunächst mit einer aufwendigen Datenaufbereitung und -bereinigung beginnt. Wer selbst Analyseergebnisse veröffentlicht, kann diese Lerneinheit auch dazu nutzen, Daten so bereitzustellen, dass die Datenbereinigung und -aufbereitung weniger Aufwand verursacht.  
 
-```{admonition} Keypoints
+```{admonition} Key points
 :class: keypoint
 RStudio Grundlagen:  
 - Einführung in RStudio mit Fokus auf das Einlesen von CSV-Daten. Diese grundlegende Fähigkeit ist für jede Art von Datenanalyse unerlässlich und bildet die Basis für weiterführende Datenbearbeitung.

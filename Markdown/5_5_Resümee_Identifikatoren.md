@@ -8,7 +8,7 @@ Da unser Datensatz nicht über einen persistenten Identifikator wie bspw. einen 
 Mit einer ORCID können Sie sich zweifelsfrei Ihren Publikationen und Forschungsergebnissen zuordnen. So ist eindeutig, dass genau Sie die Person sind, von der die Daten stammen. Eine <a href="https://orcid.org/register" class="external-link" target="_blank">Registrierung</a> lässt sich innerhalb von wenigen Minuten umsetzen. Wie das aussehen kann, können Sie am Ende dieser Fallstudie im Abschnitt [Autor:innen](authors) ansehen.
 ```
 
-```{admonition} Keypoints
+```{admonition} Key points
 :class: keypoint
 
 Datenzitierung:  

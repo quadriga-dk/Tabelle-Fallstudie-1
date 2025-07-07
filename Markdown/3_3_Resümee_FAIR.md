@@ -9,7 +9,7 @@ Die FAIR-Prinzipien decken nur einen Teil dessen ab, was sich im Forschungsdaten
 
 Die Beantwortung der Forschungsfrage hat dieses Kapitel indirekt unterstützt. Da die Frage nach der Entwicklung des Hochschulpersonals im letzten Jahrzehnt nicht anhand eigener Datenerhebungen zu beantworten ist, muss auf bestehende Daten zurückgegriffen werden, die im Sinne der Aufgabenstellung nachgenutzt werden. Dazu war es wichtig mit den FAIR-Prinzipien die Grundsätze der Datennachnutzung bzw. des Datenmanagements kennenzulernen.  
 
-```{admonition} Keypoints
+```{admonition} Key points
 :class: keypoint
 
 FAIR steht für Findable (Auffindbar), Accessible (Zugänglich), Interoperable (Interoperabel) und Reusable (Wiederverwendbar). Die FAIR-Prinzipien bilden einen wichtigen Standard im Forschungsdatenmanagement und sind seit 2019 in den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" der DFG verankert. Die FAIRness eines Datensatzes ist nicht zwangsläufig ein Indikator für seine Qualität – eine Tabelle kann qualitativ hochwertige Daten enthalten, aber dennoch schlecht auffindbar sein. Datensätze, die nur als Anhang zu Publikationen bereitgestellt werden (wie die Excel-Tabellen des Bildungsberichts), erfüllen die FAIR-Prinzipien oft nur unzureichend. Wichtige Voraussetzungen für bessere FAIRness:
