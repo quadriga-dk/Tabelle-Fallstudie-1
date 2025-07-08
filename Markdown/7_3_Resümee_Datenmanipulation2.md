@@ -8,7 +8,7 @@ Darüber hinaus beinhaltete das Modul das Erstellen von ersten Visualisierungen 
 
 Abschließend lässt sich sagen, dass dieses Selbstlernmodul darauf ausgelegt ist, den Teilnehmer:innen eine umfassende Einführung in die Datenmanipulation zu bieten, mit einem starken Fokus auf praktische Anwendungen und realen Kontext. Die Fähigkeiten, die die Teilnehmer:innen erworben haben, sind nicht nur für die Datenwissenschaft, sondern für eine Vielzahl von beruflichen und akademischen Bereichen von Bedeutung, da eigentlich jedes Datenprojekt zunächst mit einer aufwendigen Datenmanipulation und -bereinigung beginnt. Wer selbst Analyseergebnisse veröffentlicht, kann diese Lerneinheit auch dazu nutzen, Daten so bereitzustellen, dass die Datenbereinigung und -aufbereitung weniger Aufwand verursacht.  
 
-```{admonition} Keypoints
+```{admonition} Key points
 :class: keypoint
 Erweiterte Datenmanipulation  
 - Aufbauend auf Kapitel 6 wurden die Kenntnisse zur Datenaufbereitung am Beispiel des Nationalen Bildungsberichts vertieft. Im Fokus stand dabei das Erzeugen von Vektoren, das Erstellen von Dataframes und die Visualisierung mit Kreisdiagrammen in RStudio.
