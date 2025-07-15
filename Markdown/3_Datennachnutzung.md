@@ -18,7 +18,7 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 
 ```{admonition} Lernziel: Grundsätze des Datenmanagements
 :class: lernziele
-1. Die vier FAIR-Prinzipien können definiert und ihre Bedeutung anhand eines konkreten Beispiels erläutert werden.
+1. Die Bedeutung der vier FAIR-Prinzipien kann anhand eines konkreten Beispiels erläutert werden.
 2. Die FAIRness eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden.
 ```  
 
