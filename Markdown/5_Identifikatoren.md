@@ -20,8 +20,8 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 ```{admonition} Lernziel: Datenzitierung und PID
 :class: lernziele
 1. Die allgemein anerkannten Methoden der Datenzitierung können beschrieben werden. 
-2. Persistente Identifikatoren (PIDs) können definiert und ihre Rolle in der Datenzitierung erläutert werden. 
-3. Zwischen verschiedenen Arten von PIDs (z.B. DOI, ORCID) kann unterschieden und ihre spezifischen Einsatzbereiche identifiziert werden.
+2. Die Rolle von Persistenten Identifikatoren (PIDs) in der Datenzitierung kann erläutert werden. 
+3. Die spezifischen Einsatzbereiche verschiedener Arten von PIDs (z.B. DOI, ORCID) können erklärt werden.
 ``` 
 
 Nachdem Sie in den beiden vorangegangenen Kapiteln über Datennachnutzung und Qualitätsbewertung erfahren haben, wendet sich das Kapitel Identifikatoren der eindeutigen und persistenten Auszeichnung von Daten zu. Dazu zählt auch ein Abschnitt über das Zitieren von Forschungsdaten, das nicht nur, aber vor allem von Bedeutung ist, wenn Daten nachgenutzt werden sollen.
