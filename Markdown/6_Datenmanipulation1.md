@@ -19,9 +19,9 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 
 ```{admonition} Lernziel: Datenaufbereitung und -strukturierung
 :class: lernziele 
-1. Der Begriff Datenaufbereitung kann definiert und seine Bedeutung für die Qualitätsverbesserung und Informationsgewinnung aus Datensätzen erklärt werden.
-2. Spezifische Datenaufbereitungstechniken können identifiziert und ihre Anwendung in einem gegebenen Datensatz beschrieben werden.
-3. Die Wichtigkeit einer klaren Datenstruktur für effektive Datenaufbereitung kann erläutert und anhand eines Beispiels demonstriert werden.
+1. Die Bedeutung von Datenaufbereitung kann erläutert werden.
+2. Die Anwendung spezifischer Aufbereitungstechniken auf einen gegebenen Datensatz kann beschrieben werden.
+3. Die Bedeutung einer klaren Datenstruktur für effektive Datenaufbereitung kann anhand eines Beispiels demonstriert werden.
 ```  
   
 
