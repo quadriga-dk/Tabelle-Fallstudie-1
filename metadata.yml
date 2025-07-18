@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0-alpha/schema.json
+# yaml-language-server: $schema=quadriga-schema.json
 title: Fallstudie I - Tabelle. Reproduzierbarkeit von Datenanalysen
 identifier: https://doi.org/10.5281/zenodo.14999803
 authors:
