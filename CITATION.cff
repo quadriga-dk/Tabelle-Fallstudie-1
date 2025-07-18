@@ -15,13 +15,13 @@ authors: &id001
   family-names: Schmeling
   orcid: https://orcid.org/0009-0005-9814-1139
   affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
-- given-names: Anton
-  family-names: Schulze
-  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
 - given-names: Paul
   family-names: Walter
   orcid: https://orcid.org/0000-0002-9236-3268
   affiliation: Fachhochschule Potsdam
+- given-names: Anton
+  family-names: Schulze
+  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
 - given-names: Philip
   family-names: Wiemer
   affiliation: Fachhochschule Potsdam
