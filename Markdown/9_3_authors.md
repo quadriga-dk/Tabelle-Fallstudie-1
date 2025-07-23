@@ -38,18 +38,6 @@ lang: de-DE
 </tr>
 </table>
 
-### Anton Schulze <a href="https://orcid.org/0009-0003-5670-8577" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
-<table style="margin-left: 0">
-<tr>
-<td><b>Rolle in QUADRIGA:</b></td>
-<td>Technische Unterstützung Fallstudie 1 Datentyp Tabelle</td>
-</tr>
-<tr>
-<td><b>Einrichtung:</b></td>
-<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
-</tr>
-</table>
-
 ### Paul Walter <a href="https://orcid.org/0000-0002-9236-3268" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
@@ -67,6 +55,18 @@ lang: de-DE
 <tr>
 <td><b>GitHub:</b></td>
 <td><a href="https://github.com/pwalter24" class="external-link" target="_blank">pwalter24</a></td>
+</tr>
+</table>
+
+### Anton Schulze <a href="https://orcid.org/0009-0003-5670-8577" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+<table style="margin-left: 0">
+<tr>
+<td><b>Rolle in QUADRIGA:</b></td>
+<td>Technische Unterstützung Fallstudie 1 Datentyp Tabelle</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
 </tr>
 </table>
 
