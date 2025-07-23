@@ -54,7 +54,7 @@ preferred-citation:
     family-names: Schulze
   - given-names: Philip
     family-names: Wiemer
-  title: Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht
+  title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht'
   type: software
   doi: 10.5281/zenodo.14975202
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/
