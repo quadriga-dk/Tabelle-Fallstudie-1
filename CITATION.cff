@@ -1,10 +1,13 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
 version: 1.0.0
-title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht'
-abstract: Diese Fallstudie geht auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen ein. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
+title: Fallstudie I - Tabelle. Reproduzierbarkeit von Datenanalysen
+abstract: Diese Fallstudie geht auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen
+  ein. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von
+  Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
 type: software
-message: Please cite this software using the metadata from `preferred-citation` in `CITATION.cff`.
+message: Please cite this software using the metadata from `preferred-citation` in
+  `CITATION.cff`.
 authors: &id001
 - given-names: Jana
   family-names: Plomin
@@ -14,13 +17,13 @@ authors: &id001
   family-names: Schmeling
   orcid: https://orcid.org/0009-0005-9814-1139
   affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+- given-names: Anton
+  family-names: Schulze
+  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
 - given-names: Paul
   family-names: Walter
   orcid: https://orcid.org/0000-0002-9236-3268
   affiliation: Fachhochschule Potsdam
-- given-names: Anton
-  family-names: Schulze
-  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
 - given-names: Philip
   family-names: Wiemer
   affiliation: Fachhochschule Potsdam
@@ -29,7 +32,7 @@ identifiers:
   value: 10.5281/zenodo.14975202
   description: Zenodo
 repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
-url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/
+url: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
 keywords:
 - Open Educational Resource
 - Verwaltungswissenschaft
@@ -43,21 +46,11 @@ references:
 preferred-citation:
   year: '2025'
   version: 1.0.0
-  authors: 
-  - given-names: Jana
-    family-names: Plomin
-  - given-names: Juliane
-    family-names: Schmeling
-  - given-names: Paul
-    family-names: Walter
-  - given-names: Anton
-    family-names: Schulze
-  - given-names: Philip
-    family-names: Wiemer
-  title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht'
+  authors: *id001
+  title: Fallstudie I - Tabelle. Reproduzierbarkeit von Datenanalysen
   type: software
   doi: 10.5281/zenodo.14975202
-  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/
+  url: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
   repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
   license: CC-BY-SA-4.0
   languages:
