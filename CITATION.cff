@@ -44,7 +44,17 @@ references:
 preferred-citation:
   year: '2025'
   version: 1.0.0
-  authors: *id001
+  authors: 
+  - given-names: Jana
+    family-names: Plomin
+  - given-names: Juliane
+    family-names: Schmeling
+  - given-names: Paul
+    family-names: Walter
+  - given-names: Anton
+    family-names: Schulze
+  - given-names: Philip
+    family-names: Wiemer
   title: Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht
   type: software
   doi: 10.5281/zenodo.14975202
