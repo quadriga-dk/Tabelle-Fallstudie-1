@@ -2,10 +2,9 @@
 cff-version: 1.2.0
 version: 1.0.0
 title: Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht
-abstract: Diese Fallstudie bildet mit Hilfe eines JupyterBooks einen Forschungsverlauf in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
+abstract: Diese Fallstudie geht auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen ein. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
 type: software
-message: Please cite this software using the metadata from `preferred-citation` in
-  `CITATION.cff`.
+message: Please cite this software using the metadata from `preferred-citation` in `CITATION.cff`.
 authors: &id001
 - given-names: Jana
   family-names: Plomin
