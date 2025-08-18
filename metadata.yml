@@ -1,30 +1,41 @@
 # yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/schema.json
 
-schema-version: 1.0.0-alpha
+schema-version: 1.0.0-beta.1
 book-version: 0.56.4
 
-title: Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht
+title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht'
 identifier: https://doi.org/10.5281/zenodo.14999803
 authors:
-- affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+- given-names: Jana
   family-names: Plomin
-  given-names: Jana
   orcid: https://orcid.org/0000-0003-0127-7493
-- affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+- given-names: Juliane
   family-names: Schmeling
-  given-names: Juliane
   orcid: https://orcid.org/0009-0005-9814-1139
-- affiliation: Fachhochschule Potsdam
+  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+- given-names: Paul
   family-names: Walter
-  given-names: Paul
   orcid: https://orcid.org/0000-0002-9236-3268
+  affiliation: Fachhochschule Potsdam
 contributors:
-- affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+- given-names: Anton
   family-names: Schulze
-  given-names: Anton
-- affiliation: Fachhochschule Potsdam
+  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+- given-names: Philip
   family-names: Wiemer
-  given-names: Philip
+  affiliation: Fachhochschule Potsdam
+- given-names: Hannes
+  family-names: Schnaitter
+  orcid: https://orcid.org/0000-0002-1602-6032
+  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+- given-names: Evgenia
+  family-names: Samoilova
+  orcid: https://orcid.org/0000-0003-3858-901X
+  affiliation: Universität Potsdam
+- given-names: Lamia
+  family-names: Islam
+  affiliation: Universität Potsdam
 description:
   table-of-contents: '- Präambel
 
@@ -68,7 +79,7 @@ chapters:
   description: Dieses Kapitel befasst sich mit der Datennachnutzung und den FAIR-Prinzipien.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/05_Datennachnutzung.html
   learning goal: Grundsätze des Datenmanagements
-  duration: 15min
+  duration: 
   learning-objectives:
   - learning-objective: Die Bedeutung der vier FAIR-Prinzipien kann anhand eines konkreten Beispiels erläutert werden.
     data-flow: Grundlagen
@@ -78,83 +89,83 @@ chapters:
     data-flow: Grundlagen
     competency: 1 Basiskompetenz
     blooms-category: 3 Anwenden
-  
 - title: Qualitätsbewertung
   description: In diesem Kapitel stehen die Kriterien der Qualitätsbewertung im Mittelpunkt.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Qualit%C3%A4tsbewertung.html
-  learning-goal:
+  learning-goal: Sicherstellen der Qualität von Datensätzen
   duration: 
   learning-objectives:
-  - blooms-category:
-    - 1 Erinnern
-    - 2 Verstehen
-    - 3 Anwenden
-    - 4 Analysieren
-    - 5 Bewerten
-    competency: 3 Qualitätssicherung
+  - learning-objective: Die Bedeutung zentraler Qualitätskriterien für Datensätze kann für die Forschung erläutert werden.
     data-flow: Planung
-    learning-objective: Sicherstellen der Qualität von Datensätzen
-  
-- description: Dieses Kapitel behandelt Identifikatoren der eindeutigen und persistenten
-    Auszeichnung von Daten sowie das Zitieren von Forschungsdaten.
-  doi: TODO
-  learning-objectives:
-  - blooms-category:
-    - 1 Erinnern
-    - 2 Verstehen
-    competency:
-    - 4 Ethik und Recht
-    - 14 Datenpublikation
-    data-flow:
-    - Planung
-    - Publikation und Nachnutzung
-    learning-objective: Datenzitierung und PID
-  title: Identifikatoren
+    competency: 3 Qualitätssicherung
+    blooms-category: 2 Verstehen
+  - learning-objective: Die Vor- und Nachteile zwischen XLSX- und CSV-Dateiformaten können für verschiedene Anwendungsfälle aufgezeigt werden.
+    data-flow: Planung
+    competency: 3 Qualitätssicherung
+    blooms-category: 2 Verstehen
+  - learning-objective: Die Qualität eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden.
+    data-flow: Planung
+    competency: 3 Qualitätssicherung
+    blooms-category: 3 Anwenden
+- title: Identifikatoren
+  description: Dieses Kapitel behandelt Identifikatoren der eindeutigen und persistenten Auszeichnung von Daten sowie das Zitieren von Forschungsdaten.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Identifikatoren.html
-- description: Dieses Kapitel widmet sich der Datenmanipulation als ein entscheidender
-    Bestandteil, um die Qualität und den Aufbau von Datensätzen zu evaluieren und
-    zu verbessern.
-  doi: TODO
+  learning-goal: Datenzitierung und PID
+  duration: 
   learning-objectives:
-  - blooms-category:
-    - 1 Erinnern
-    - 2 Verstehen
-    - 3 Anwenden
-    competency:
-    - 6 Validierung
-    - 7 Aufbereitung
-    data-flow: Erhebung und Aufbereitung
-    learning-objective: Datenmanipulation und -strukturierung
-  title: Organisation und Strukturierung
+  - learning-objective: Die allgemein anerkannten Methoden der Datenzitierung können beschrieben werden.
+    data-flow: Planung
+    competency: 4 Ethik und Recht
+    blooms-category: 2 Verstehen
+  - learning-objective: Die Rolle von Persistenten Identifikatoren (PIDs) in der Datenzitierung kann erläutert werden.
+    data-flow: Publikation und Nachnutzung
+    competency: 14 Datenpublikation
+    blooms-category: 2 Verstehen
+  - learning-objective: Die spezifischen Einsatzbereiche verschiedener Arten von PIDs (z.B. DOI, ORCID) können erklärt werden.
+    data-flow: Publikation und Nachnutzung
+    competency: 14 Datenpublikation
+    blooms-category: 2 Verstehen
+- title: Organisation und Strukturierung
+  description: Dieses Kapitel widmet sich der Datenmanipulation als ein entscheidender Bestandteil, um die Qualität und den Aufbau von Datensätzen zu evaluieren und zu verbessern.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation1.html
-- description: Dieses Kapitel widmet sich der Datenanalyse und -reproduzierbarkeit
-    mit Hilfe der Programmiersprache R.
-  doi: TODO
+  learning-goal: Datenaufbereitung und -strukturierung
+  duration: 
   learning-objectives:
-  - blooms-category:
-    - 1 Erinnern
-    - 2 Verstehen
-    - 3 Anwenden
-    competency:
-    - 10 Datenanalyse
-    - 11 Visualisierung
-    data-flow: Analyse
-    learning-objective: Datenanalyse und -reproduzierbarkeit
-  title: Analyse und Reproduzierbarkeit
+  - learning-objective: Die Bedeutung von Datenaufbereitung kann erläutert werden.
+    data-flow: Erhebung und Aufbereitung
+    competency: 6 Validierung
+    blooms-category: 2 Verstehen
+  - learning-objective: Die Anwendung spezifischer Aufbereitungstechniken auf einen gegebenen Datensatz kann beschrieben werden.
+    data-flow: Erhebung und Aufbereitung
+    competency: 7 Aufbereitung
+    blooms-category: 2 Verstehen
+  - learning-objective: Die Bedeutung einer klaren Datenstruktur für effektive Datenaufbereitung kann anhand eines Beispiels demonstriert werden.
+    data-flow: Erhebung und Aufbereitung
+    competency: 7 Aufbereitung
+    blooms-category: 3 Anwenden
+- title: Analyse und Reproduzierbarkeit
+  description: Dieses Kapitel widmet sich der Datenanalyse und -reproduzierbarkeit mit Hilfe der Programmiersprache R.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation2.html
+  learning-goal: Datenanalyse und -reproduzierbarkeit
+  duration: 
+  learning-objectives:
+  - learning-objective: Die Wichtigkeit einer sorgfältigen Dokumentation bei der Durchführung einer deskriptiven Analyse kann beschrieben werden.
+    data-flow: Analyse
+    competency: 10 Datenanalyse
+    blooms-category: 2 Verstehen
+  - learning-objective: Anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit) können mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte erläutert werden.
+    data-flow: Analyse
+    competency: 10 Datenanalyse
+    blooms-category: 2 Verstehen  
 target-group:
 - Forschende (PostDoc)
 - Forschende (Projektleitung)
 - Promovierende
 - Hochschullehrende
-has-predecessor: false
-has-successor: false
 duration: 4h
-publication-date: 2024-06-13
-date-of-last-change: 2025-03-24
-book-version: 1.0.0-beta.1
-schema-version: 1.1-beta
-context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
-  Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
+date-published: 2024-06-13
+date-modified: 2025-03-24
+context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
+
 git: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
 url: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
