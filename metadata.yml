@@ -1,5 +1,9 @@
-# yaml-language-server: $schema=quadriga-schema.json
-title: Fallstudie I - Tabelle. Reproduzierbarkeit von Datenanalysen
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/schema.json
+
+schema-version: 1.0.0-alpha
+book-version: 0.56.4
+
+title: Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht
 identifier: https://doi.org/10.5281/zenodo.14999803
 authors:
 - affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
@@ -10,22 +14,18 @@ authors:
   family-names: Schmeling
   given-names: Juliane
   orcid: https://orcid.org/0009-0005-9814-1139
-- affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
-  family-names: Schulze
-  given-names: Anton
 - affiliation: Fachhochschule Potsdam
   family-names: Walter
   given-names: Paul
   orcid: https://orcid.org/0000-0002-9236-3268
+contributors:
+- affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+  family-names: Schulze
+  given-names: Anton
 - affiliation: Fachhochschule Potsdam
   family-names: Wiemer
   given-names: Philip
 description:
-  introduction: Diese Fallstudie bildet mit Hilfe eines JupyterBooks einen Forschungsverlauf
-    in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage
-    auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen.
-    Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität
-    und Nachvollziehbarkeit von Analysen behandelt.
   table-of-contents: '- Präambel
 
     - Datenbasis: Nationaler Bildungsbericht
@@ -43,26 +43,47 @@ description:
     - Zusammenfassung und Reflexion
 
     - Epilog'
+  description: Diese Fallstudie bildet mit Hilfe eines JupyterBooks einen Forschungsverlauf
+    in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage
+    auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen.
+    Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität
+    und Nachvollziehbarkeit von Analysen behandelt.
 discipline:
 - Verwaltungswissenschaften
 - Informationswissenschaft
-type-of-research-object:
+research-object-type:
 - Tabelle
 chapters:
-- description: Dieses Kapitel befasst sich mit der Datennachnutzung und den FAIR-Prinzipien.
-  doi: TODO
+- title: Datenbasis
+  description: Dieses Kapitel beschreibt die in dieser Fallstudie genutzten Daten.
+  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/2_Datenbasis.html
+  learning-goal: Forschungssfrage
+  duration: 5min
   learning-objectives:
-  - blooms-category:
-    - 1 Erinnern
-    - 2 Verstehen
-    - 3 Anwenden
-    competency: 1 Basiskompetenz
-    data-flow: Grundlagen
-    learning-objective: Grundsätze des Datenmanagements
-  title: Datennachnutzung
+  - learning-objective: Die Forschungsfrage kann erläutert und in einen Kontext mit dem Bildungsbericht gesetzt werden.
+    data-flow: none
+    competency: none
+    blooms-category: 2 Verstehen 
+- title: Datennachnutzung
+  description: Dieses Kapitel befasst sich mit der Datennachnutzung und den FAIR-Prinzipien.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/05_Datennachnutzung.html
-- description: In diesem Kapitel stehen die Kriterien der Qualitätsbewertung im Mittelpunkt.
-  doi: TODO
+  learning goal: Grundsätze des Datenmanagements
+  duration: 15min
+  learning-objectives:
+  - learning-objective: Die Bedeutung der vier FAIR-Prinzipien kann anhand eines konkreten Beispiels erläutert werden.
+    data-flow: Grundlagen
+    competency: 1 Basiskompetenz
+    blooms-category: 2 Verstehen
+  - learning-objective: Die FAIRness eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden.
+    data-flow: Grundlagen
+    competency: 1 Basiskompetenz
+    blooms-category: 3 Anwenden
+  
+- title: Qualitätsbewertung
+  description: In diesem Kapitel stehen die Kriterien der Qualitätsbewertung im Mittelpunkt.
+  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Qualit%C3%A4tsbewertung.html
+  learning-goal:
+  duration: 
   learning-objectives:
   - blooms-category:
     - 1 Erinnern
@@ -73,8 +94,7 @@ chapters:
     competency: 3 Qualitätssicherung
     data-flow: Planung
     learning-objective: Sicherstellen der Qualität von Datensätzen
-  title: Qualitätsbewertung
-  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Qualit%C3%A4tsbewertung.html
+  
 - description: Dieses Kapitel behandelt Identifikatoren der eindeutigen und persistenten
     Auszeichnung von Daten sowie das Zitieren von Forschungsdaten.
   doi: TODO
