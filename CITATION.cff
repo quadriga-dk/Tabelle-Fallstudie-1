@@ -1,7 +1,8 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
 version: 1.0.0
-title: Fallstudie I - Tabelle. Reproduzierbarkeit von Datenanalysen
+title: 'Fallstudie I - Tabelle. Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel
+  aus dem Nationalen Bildungsbericht'
 abstract: Diese Fallstudie geht auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen
   ein. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von
   Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
@@ -17,15 +18,9 @@ authors: &id001
   family-names: Schmeling
   orcid: https://orcid.org/0009-0005-9814-1139
   affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
-- given-names: Anton
-  family-names: Schulze
-  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
 - given-names: Paul
   family-names: Walter
   orcid: https://orcid.org/0000-0002-9236-3268
-  affiliation: Fachhochschule Potsdam
-- given-names: Philip
-  family-names: Wiemer
   affiliation: Fachhochschule Potsdam
 identifiers:
 - type: doi
@@ -47,7 +42,8 @@ preferred-citation:
   year: '2025'
   version: 1.0.0
   authors: *id001
-  title: Fallstudie I - Tabelle. Reproduzierbarkeit von Datenanalysen
+  title: 'Fallstudie I - Tabelle. Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel
+    aus dem Nationalen Bildungsbericht'
   type: software
   doi: 10.5281/zenodo.14975202
   url: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
