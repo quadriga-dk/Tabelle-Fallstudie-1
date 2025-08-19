@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Fallstudie I - Tabelle 
-author: Jana Plomin, Juliane Schmeling, Paul Walter, Anton Schulze, Philip Wiemer
+title: "Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht"
+author: Jana Plomin, Juliane Schmeling, Paul Walter
 logo: Tabelle1.png
 copyright: "2024, QUADRIGA" 
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", 3.ipynb, conda, venv, README.md, LICENSE.md, .github, Checkliste_Finalisierung.md, "Markdown/md_*.md"]
