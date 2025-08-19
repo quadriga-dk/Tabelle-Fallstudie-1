@@ -58,6 +58,9 @@ lang: de-DE
 </tr>
 </table>
 
+
+## Weitere Beteiligte  
+
 ### Anton Schulze <a href="https://orcid.org/0009-0003-5670-8577" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
@@ -81,8 +84,6 @@ lang: de-DE
 <td>Fachhochschule Potsdam, Fachbereich Informationswissenschaften</td>
 </tr>
 </table>  
-
-## Weitere Beteiligte  
 
 ### Hannes Schnaitter <span style="font-size:8pt">(er/ihm/sein)</span> <a href="https://orcid.org/0000-0002-1602-6032" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
