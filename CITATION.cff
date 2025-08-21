@@ -1,9 +1,8 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: 1.2.0
-version: 1.0.0
+version: 1.0.0-beta.2
 title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen
-  Bildungsbericht. Fallstudie I - Tabelle. Reproduzierbarkeit von Datenanalysen: Ein
-  Fallbeispiel aus dem Nationalen Bildungsbericht'
+  Bildungsbericht'
 abstract: Diese Fallstudie geht auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen
   ein. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von
   Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
@@ -41,11 +40,10 @@ references:
     website: https://github.com/jupyter-book/jupyter-book/graphs/contributors
 preferred-citation:
   year: '2025'
-  version: 1.0.0
+  version: 1.0.0-beta.2
   authors: *id001
   title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen
-    Bildungsbericht. Fallstudie I - Tabelle. Reproduzierbarkeit von Datenanalysen:
-    Ein Fallbeispiel aus dem Nationalen Bildungsbericht'
+    Bildungsbericht'
   type: software
   doi: 10.5281/zenodo.14975202
   url: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
