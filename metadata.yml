@@ -191,3 +191,8 @@ context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch d
   Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
 git: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
 url: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
+license:
+  code: https://opensource.org/licenses/AGPL-3.0
+  content:
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+    name: CC BY-SA 4.0
