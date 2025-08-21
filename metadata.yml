@@ -1,9 +1,8 @@
-# yaml-language-server: $schema=quadriga-schema.json
-schema-version: 1.0.0-beta.1
-book-version: 0.56.4
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0-alpha/schema.json
+schema-version: 1.0.0-alpha
+book-version: 1.0.0-beta.2
 title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen
-  Bildungsbericht. Fallstudie I - Tabelle. Reproduzierbarkeit von Datenanalysen: Ein
-  Fallbeispiel aus dem Nationalen Bildungsbericht'
+  Bildungsbericht'
 identifier: https://doi.org/10.5281/zenodo.14999803
 authors:
 - given-names: Jana
@@ -36,29 +35,28 @@ contributors:
 - given-names: Lamia
   family-names: Islam
   affiliation: Universität Potsdam
-description:
-  table-of-contents: '- Präambel
+table-of-contents: '- Präambel
 
-    - Datenbasis: Nationaler Bildungsbericht
+  - Datenbasis: Nationaler Bildungsbericht
 
-    - Datennachnutzung
+  - Datennachnutzung
 
-    - Qualitätsbewertung
+  - Qualitätsbewertung
 
-    - Identifikatoren
+  - Identifikatoren
 
-    - Organisation und Strukturierung
+  - Organisation und Strukturierung
 
-    - Analyse und Reproduzierbarkeit
+  - Analyse und Reproduzierbarkeit
 
-    - Zusammenfassung und Reflexion
+  - Zusammenfassung und Reflexion
 
-    - Epilog'
-  description: Diese Fallstudie bildet mit Hilfe eines JupyterBooks einen Forschungsverlauf
-    in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage
-    auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen.
-    Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität
-    und Nachvollziehbarkeit von Analysen behandelt.
+  - Epilog'
+description: Diese Fallstudie bildet mit Hilfe eines JupyterBooks einen Forschungsverlauf
+  in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage
+  auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu
+  werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität
+  und Nachvollziehbarkeit von Analysen behandelt.
 discipline:
 - Verwaltungswissenschaften
 - Informationswissenschaft
@@ -70,17 +68,19 @@ chapters:
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/2_Datenbasis.html
   learning-goal: Forschungssfrage
   duration: 5min
+  educational-level: Basis
   learning-objectives:
   - learning-objective: Die Forschungsfrage kann erläutert und in einen Kontext mit
       dem Bildungsbericht gesetzt werden.
-    data-flow: none
-    competency: none
+    data-flow: nicht anwendbar
+    competency: nicht anwendbar
     blooms-category: 2 Verstehen
 - title: Datennachnutzung
   description: Dieses Kapitel befasst sich mit der Datennachnutzung und den FAIR-Prinzipien.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/05_Datennachnutzung.html
   learning goal: Grundsätze des Datenmanagements
   duration: null
+  educational-level: Basis
   learning-objectives:
   - learning-objective: Die Bedeutung der vier FAIR-Prinzipien kann anhand eines konkreten
       Beispiels erläutert werden.
@@ -97,6 +97,7 @@ chapters:
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Qualit%C3%A4tsbewertung.html
   learning-goal: Sicherstellen der Qualität von Datensätzen
   duration: null
+  educational-level: Basis
   learning-objectives:
   - learning-objective: Die Bedeutung zentraler Qualitätskriterien für Datensätze
       kann für die Forschung erläutert werden.
@@ -119,6 +120,7 @@ chapters:
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Identifikatoren.html
   learning-goal: Datenzitierung und PID
   duration: null
+  educational-level: Basis
   learning-objectives:
   - learning-objective: Die allgemein anerkannten Methoden der Datenzitierung können
       beschrieben werden.
@@ -142,6 +144,7 @@ chapters:
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation1.html
   learning-goal: Datenaufbereitung und -strukturierung
   duration: null
+  educational-level: Basis
   learning-objectives:
   - learning-objective: Die Bedeutung von Datenaufbereitung kann erläutert werden.
     data-flow: Erhebung und Aufbereitung
@@ -163,6 +166,7 @@ chapters:
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation2.html
   learning-goal: Datenanalyse und -reproduzierbarkeit
   duration: null
+  educational-level: Basis
   learning-objectives:
   - learning-objective: Die Wichtigkeit einer sorgfältigen Dokumentation bei der Durchführung
       einer deskriptiven Analyse kann beschrieben werden.
