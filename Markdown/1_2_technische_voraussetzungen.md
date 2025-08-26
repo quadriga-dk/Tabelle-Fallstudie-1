@@ -3,19 +3,21 @@ lang: de-DE
 ---
 
 (Installation_R-Studio)=
-# Technische Voraussetzungen
+# Anwendung und technische Voraussetzungen
 
+Diese Fallstudie umfasst erklärende Texte, Code in der Programmiersprache R sowie Übungen und Assessments zur Selbstüberprüfung. 
 
-Diese Fallstudie umfasst erklärende Texte, Code in der Programmiersprache R sowie Übungen und Assessments zur Selbstüberprüfung. Sie haben folgende Möglichkeiten mit dem R-Code (die entsprechenden Kapitel sind an der 🚀 erkennbar) umzugehen:
-   - Sie können diesen parallel zum Lesen des Jupyter Books in RStudio bearbeiten. Dazu müssen Sie sich R und RStudio installieren. Eine Anleitung dazu finden Sie weiter unten.
-   - Sie können den Code in Binder ausführen, was je nach Auslastung mitunter langsam sein kann.
-   - Sie können den Code mit Live Code ausführen. Diese Funktion läuft auch über Binder.
-   - Sie können den Code mit Google Colab ausführen. Dazu müssen Sie ggf. die von R genutzten Daten-Dateien aus dem Repositorium herunterladen und in Colab passend hinterlegen.
-   - Für die Verwendung in einem JupyterHub sollten Sie sich vergewissern, dass der R Kernel funktioniert.
+Wir bieten drei verschiedene Zugangswege:
 
-Sie können die Inhalte auch auf Ihren lokalen Rechner herunterladen, indem Sie die *.zip*-Datei aus dem GitHub Repositorium oder Zenodo herunterladen. Dies gibt Ihnen die Möglichkeit, Inhalte zu bearbeiten und um eigene Ressourcen zu erweitern, erfordert aber Kenntnisse einer entsprechenden Ausführungsumgebung (z.B. Anaconda).
+📘 Book-Only Mode: Im Browser lesen Sie unser interaktives Lehrbuch mit eingeschränkten Interaktionsmöglichkeiten. Dies erfordert keine Programmierkenntnisse oder Erfahrung mit Jupyter Notebooks. Wenn Sie möchten, können Sie den Code in der Programmiersprache R parallel zum Lesen des Jupyter Books in RStudio bearbeiten. Dazu müssen Sie sich R und RStudio installieren. Eine Anleitung dazu finden Sie weiter unten.  
+🌨️ Cloud Mode: Ausführen und Anpassen der enthaltenen Jupyter Notebooks über Google Colab oder Binder. Kapitel mit ausführbaren Notebooks sind durch ein Raketen-Symbol (🚀) gekennzeichnet - klicken Sie darauf, um das Notebook entsprechend zu öffnen. Beachten Sie bitte, dass der Code in Binder je nach Auslastung mitunter langsam sein kann. Das Ausführen über Live Code läuft auch über Binder. Sie können den Code auch mit Google Colab ausführen. Dazu müssen Sie ggf. die von R genutzten Daten-Dateien aus dem Repositorium herunterladen und in Colab passend hinterlegen. Für die Verwendung in einem JupyterHub sollten Sie sich vergewissern, dass der R Kernel funktioniert.  
+💻 Local Mode: Sie können die Inhalte auch auf Ihren lokalen Rechner herunterladen, indem Sie die *.zip*-Datei aus dem GitHub Repositorium oder Zenodo herunterladen. Dies gibt Ihnen die Möglichkeit, Inhalte zu bearbeiten und um eigene Ressourcen zu erweitern, erfordert aber Kenntnisse einer entsprechenden Ausführungsumgebung (z.B. Anaconda).    
+
+Wählen Sie den Ansatz, der am besten zu Ihren Anforderungen passt. Sie können jederzeit zwischen den Methoden wechseln.
+
 
 ---
+
 
 ## Installieren von R und RStudio
 
@@ -23,7 +25,7 @@ Um der Übungseinheit effektiv folgen zu können, installieren Sie bitte vorab *
 
 
 **Hinweis**  
-Die Übungen in [Kapitel 6](Datenmanipulation) und [Kapitel 7](Datenmanipulation2) sind auf der Basis von R 4.4.1 entwickelt worden und zur Nutzung von RStudio 2024.09.0 Build 375 über Windows konzipiert. Bei der Nutzung einer anderen RStudio Version oder eines anderen Betriebssystems können Funktionen eventuell variieren.  
+Die Übungen in [Kapitel 6](Datenaufbereitung1) und [Kapitel 7](Datenaufbereitung2) sind auf der Basis von R 4.4.1 entwickelt worden und zur Nutzung von RStudio 2024.09.0 Build 375 über Windows konzipiert. Bei der Nutzung einer anderen RStudio Version oder eines anderen Betriebssystems können Funktionen eventuell variieren.  
 Eine Anleitung für die ersten Schritte in RStudio finden Sie im direkt folgenden Absatz unter Punkt 1.2.2.  
 
 ---
@@ -73,13 +75,13 @@ Zudem sind hier selbst erstellte Listen etc. vorzufinden.
 
 **Files, Plots, Packages, etc.**  
 In diesem Fenster werden verschiedene Funktionen angeboten. Über die
-Fensterkachel **Files** können Sie Dateien anzeigen lassen und
-Importieren (Dazu mehr im Abschnitt **Einlesen von CSV Dateien** im Kapitel [Übung: Arbeiten mit CSV-Dateien in R](/Markdown/6_2_Übung_Arbeiten_CSV_in_R.ipynb)).  
+Fensterkachel **Files** können Sie sich Dateien anzeigen lassen und
+importieren (dazu mehr im Abschnitt **Einlesen von CSV Dateien** im Kapitel [Übung: Arbeiten mit CSV-Dateien in R](/Markdown/6_2_Übung_Arbeiten_CSV_in_R.ipynb)).  
 Die Fensterkachel **PLOTS** zeigt Ihnen erstellte Grafiken an.  
 Die Fensterkachel **Packages** zeigt Ihnen alle installierten R-Packages
 auf Ihrem Rechner an. Ein Package ist eine Ansammlung von
 **R**-Befehlen. Manche Befehle können Sie nur ausführen, wenn Sie das
 dazugehörige Package durch den Befehl
 `install.packages("*Packagename*")` installiert und durch den Befehl
-`library(*Packagename*)`geladen haben (Dazu ebenfalls mehr oben genannten Kapitel, Abschnitt **Einleitung**).  
+`library(*Packagename*)` geladen haben (dazu ebenfalls mehr oben genannten Kapitel, Abschnitt **Einleitung**).  
 

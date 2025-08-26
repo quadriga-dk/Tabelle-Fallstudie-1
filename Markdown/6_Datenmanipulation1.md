@@ -1,5 +1,5 @@
-(Datenmanipulation)=
-# Organisation und Strukturierung
+(Datenaufbereitung1)=
+# Datenaufbereitung I - Organisation und Strukturierung
 
 ````{margin}
 ```{admonition} Fragen oder Feedback 

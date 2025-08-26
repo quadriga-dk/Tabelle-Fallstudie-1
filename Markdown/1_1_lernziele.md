@@ -6,7 +6,7 @@ lang: de-DE
 # Lernziele
 
 
-Mit dem Durcharbeiten dieses Jupyter Books können Sie die folgenden Lernziele erreichen:
+Mit dem Durcharbeiten dieses Jupyter Books können Sie die folgenden Lernziele erreichen. Sie finden die entsprechenden Lernziele auch noch einmal am Anfang jedes Kapitels.  
 
 
 ```{admonition} [Lernziel: Forschungsfrage](Datenbasis)
