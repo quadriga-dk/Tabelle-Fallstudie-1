@@ -1,3 +1,7 @@
+---
+lang: de-DE
+---
+
 (Qualitätsbewertung)=
 # Qualitätsbewertung
 
@@ -17,14 +21,15 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 ```
 ````
 
+Im Kapitel Datennachnutzung haben Sie erfahren, dass die FAIR-Prinzipien vor allem einen Bewertungsmaßstab zur Datennachnutzung liefern. In diesem Kapitel stehen nun die Kriterien der Qualitätsbewertung im Mittelpunkt. Darüber hinaus werden wir Ihnen den Unterschied zwischen dem XLSX- und dem CSV-Dateiformat für Tabellendaten erläutern und mit dem 5-Sterne-Modell ein Bewertungsschema vorstellen, das sie sogleich in einer Übung auf den Datensatz anwenden dürfen. Dabei können Sie folgende Lernziele erreichen:
+
+
 ```{admonition} Lernziel: Sicherstellen der Qualität von Datensätzen
 :class: lernziele
 1. Die Bedeutung zentraler Qualitätskriterien für Datensätze kann für die Forschung erläutert werden.
 2. Die Vor- und Nachteile zwischen XLSX- und CSV-Dateiformaten können für verschiedene Anwendungsfälle aufgezeigt werden.
 3. Die Qualität eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden.
 ``` 
-
-Im Kapitel Datennachnutzung haben Sie erfahren, dass die FAIR-Prinzipien vor allem einen Bewertungsmaßstab zur Datennachnutzung liefern. In diesem Kapitel stehen nun die Kriterien der Qualitätsbewertung im Mittelpunkt. Darüber hinaus werden wir Ihnen den Unterschied zwischen dem XLSX- und dem CSV-Dateiformat für Tabellendaten erläutern und mit dem 5-Sterne-Modell ein Bewertungsschema vorstellen, das sie sogleich in einer Übung auf den Datensatz anwenden dürfen.  
 
 Dieses Kapitel teilt sich in folgende Abschnitte: 
 
@@ -33,3 +38,29 @@ Dieses Kapitel teilt sich in folgende Abschnitte:
 - [5-Sterne](/Markdown/4_3_5-Sterne.md)
 - [Übung_5-Sterne](/Markdown/4_4_Übung_5-Sterne.md)
 - [Resümee Qualitätsbewertung](/Markdown/4_5_Resümee_Qualität.md)
+
+Dieses Kapitel befasst sich mit der Qualität der Daten und der sie beschreibenden Metadaten. Da in dieser Fallstudie die Reproduzierbarkeit des Datensatzes geprüft werden soll, gilt es, die Daten hinsichtlich ihrer Qualität genauer zu untersuchen. Wir befinden uns damit im theoretischen Teil dieser Fallstudie. Bevor wir dazu übergehen Daten mit R aufzubereiten und zu analysieren, legen wir hier wichtige Grundlagen.
+
++++
+*Wir befinden uns hier:*
+
+```{figure} _images/FS-Schritte2.png
+---
+name: step 2 of casestudy
+alt: Skizzenhafte Darstellung der 5 Schritte dieser Fallstudie mit farblicher Hervorhebung des 2. Schrittes.
+---
+Schritt 2 dieser Fallstudie.
+```
+
+```{admonition} Bearbeitungszeit
+:class: zeitinfo
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 15-30 Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
+
+Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. 30-60 Minuten.
+
+Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
+``` 
+
+
+
+
