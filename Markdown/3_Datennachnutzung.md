@@ -1,5 +1,10 @@
+---
+lang: de-DE
+---
+
 (Datennachnutzung)=
 # Datennachnutzung 
+
 ````{margin}
 ```{admonition} Fragen oder Feedback 
 :class: frage-feedback
@@ -16,25 +21,38 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 ```
 ````
 
+Dieses Kapitel befasst sich mit der Datennachnutzung, die für die Reproduzierbarkeit elementar ist, da nur Daten, die verfügbar und gut dokumentiert sind, überhaupt für eine erneute Analyse verwendet werden können. Dabei können Sie folgende Lernziele erreichen:
+
 ```{admonition} Lernziel: Grundsätze des Datenmanagements
 :class: lernziele
 1. Die Bedeutung der vier FAIR-Prinzipien kann anhand eines konkreten Beispiels erläutert werden.
 2. Die FAIRness eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden.
 ```  
 
-Dieses Kapitel befasst sich mit der Datennachnutzung, die maßgeblich von der Qualität der Daten und der sie beschreibenden Metadaten abhängt. Da in dieser Fallstudie die Reproduzierbarkeit des Datensatzes geprüft und anhand der vorliegenden Daten die Forschungsfrage beantwortet werden soll, gilt es, die Daten hinsichtlich ihrer Qualität genauer zu untersuchen.
-
-Zunächst wenden wir uns aber der Datennachnutzung zu. Diese ist für die Reproduzierbarkeit elementar, da nur Daten, die verfügbar und gut dokumentiert sind, überhaupt für eine wiederholte Analyse verwendet werden können.  
-
-Um Daten zu nutzen, müssen sie zuerst gefunden werden. Das klingt banal, kann in der Praxis aber durchaus herausfordernd sein. In dem hier skizzierten Fall stellt das allerdings kein Problem dar, da die Daten zusammen mit dem Bildungsbericht veröffentlicht wurden. Ansonsten ließen sich Daten beispielsweise über die Suche in einer Datenbank oder einem Datenportal finden.  
-In einem zweiten Schritt gilt es, sich Zugang zu den Daten zu verschaffen. Auch das ist in diesem Beispiel kein Hindernis, da die Daten frei zum Download bereitgestellt wurden.  
-Weiterhin ist zu prüfen, ob die Daten in einem Format vorliegen, das auf Ihrem Rechner ausgelesen werden kann. Dies ist höchstwahrscheinlich der Fall, da es sich um Daten im Format XLSX handelt, das sich zu einem Quasi-Standard entwickelt hat, obwohl es ein proprietäres Format von Microsoft ist. Das Programm Excel lässt sich mit Microsoft Office, aber auch mit zahlreichen kostenlosen Varianten wie Open Office oder Libre Office öffnen.  
-Zu guter letzt sollten Sie sich die Lizenz der Daten ansehen: Darf man die Daten überhaupt nutzen? Dies ist im hier vorliegenden Fall nicht so einfach zu beantworten, daher stellen wir die Frage zunächst für ein Kapitel zurück.
-
-Vielleicht ist es Ihnen bereits aufgefallen. Diese Schritte entsprechen den im (Forschungs-)Datenmanagement wichtigen und allgemein gültigen FAIR-Prinzipien. Dies sind Richtlinien, die dabei helfen, Daten nachnutzbar abzulegen, sodass sie gut zu finden, einfach zugänglich und für verschiedene Systeme kompatibel gestaltet sind. Auf diese geht der nächste Abschnitt genauer ein. Wenn Sie mit den FAIR-Prinzipien bereits vertraut sind, können sie den Abschnitt auch überspringen und sich direkt an die Übung wagen.
-
-In diesem Kapitel finden Sie folgende Abschnitte: 
+Dazu finden Sie in diesem Kapitel folgende Abschnitte:
 
 - [FAIR-Prinzipien](/Markdown/3_1_FairPrinzipien.md)
 - [Übung FAIR-Prinzipien](/Markdown/3_2_Übung_FAIR.md)
 - [Resümee FAIR-Prinzipien](/Markdown/3_3_Resümee_FAIR.md)
+- [Selbsttest: Wissen und Praxis](assessment_fair)
+
+Wir befinden uns damit im theoretischen Teil dieser Fallstudie. Bevor wir dazu übergehen Daten mit R aufzubereiten und zu analysieren, legen wir hier wichtige Grundlagen.
+
++++
+*Wir befinden uns hier:*
+![Aufgabe 3](/assets/Aufgabenstruktur-03.png)
+
+<span style="color:red">*Bild einfügen von Verortung in Fallstudien-Struktur*</span>
+
+In Bezug auf die Nachnutzung von (Forschungs-)Daten wollen wir Sie in diesem Kapitel mit den FAIR-Prinzipien vertraut machen. Diese stellen Grundsätze des Datenmanagements dar, die unter anderem den Austausch und die weitere Nutzung von Daten vereinfachen.
+Wenn Sie mit den FAIR-Prinzipien bereits vertraut sind, können sie das einführende Unterkapitel auch überspringen und sich direkt an die Übung oder den Selbsttest wagen.
+
+```{admonition} Bearbeitungszeit
+:class: zeitinfo
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. ... Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
+
+Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. ...
+
+Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
+``` 
+

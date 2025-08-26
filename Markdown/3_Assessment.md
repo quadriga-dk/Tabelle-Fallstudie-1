@@ -10,6 +10,7 @@ kernelspec:
   name: python3
 ---
 
+(assessment_fair)=
 # 🏆Selbsttest: Wissen und Praxis
 
 ````{admonition} Hinweis

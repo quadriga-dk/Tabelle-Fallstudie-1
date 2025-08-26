@@ -1,6 +1,13 @@
 # FAIR-Prinzipien
 
-In Bezug auf die Nachnutzung von (Forschungs-)Daten wollen wir Sie hier mit den FAIR-Prinzipien vertraut machen. Diese stellen Grundsätze des Datenmanagements dar, die unter anderem den Austausch und die weitere Nutzung von Daten vereinfachen. FAIR ist das Akronym von **F**indable, **A**ccessible, **I**nteroperable und **R**eusable - also auffindbar, zugänglich, interoperabel (bzw. kompatibel) und wiederverwendbar. Diese 2016 veröffentlichten Prinzipien, die seit 2019 auch in den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" der Deutschen Forschungsgemeinschaft verankert sind {cite}`deutsche_forschungsgemeinschaft_guidelines_2022`, haben sich mittlerweile zu einem Standard entwickelt {cite}`spiecker_ecodm_2022`.
+Um Daten zu nutzen, müssen sie zuerst gefunden werden. Das klingt banal, kann in der Praxis aber durchaus herausfordernd sein. In dem hier skizzierten Fall stellt das allerdings kein Problem dar, da die Daten zusammen mit dem Bildungsbericht veröffentlicht wurden. Ansonsten ließen sich Daten beispielsweise über die Suche in einer Datenbank oder einem Datenportal finden.  
+In einem zweiten Schritt gilt es, sich Zugang zu den Daten zu verschaffen. Auch das ist in diesem Beispiel kein Hindernis, da die Daten frei zum Download bereitgestellt werden.  
+Weiterhin ist zu prüfen, ob die Daten in einem Format vorliegen, das auf Ihrem Rechner ausgelesen werden kann. Dies ist höchstwahrscheinlich der Fall, da es sich um Daten im Format XLSX handelt, das sich zu einem Quasi-Standard entwickelt hat, obwohl es ein proprietäres Format von Microsoft ist. Das Format XLSX lässt sich mit Microsoft Office, aber auch mit zahlreichen kostenlosen Varianten wie Open Office oder Libre Office öffnen.  
+Zu guter letzt sollten Sie sich die Lizenz der Daten ansehen: Darf man die Daten überhaupt nutzen? Dies ist im hier vorliegenden Fall nicht so einfach zu beantworten, daher stellen wir die Frage zunächst für ein Kapitel zurück.
+
+Vielleicht ist es Ihnen bereits aufgefallen. Diese Schritte entsprechen den im (Forschungs-)Datenmanagement wichtigen und allgemein gültigen FAIR-Prinzipien. Diese sind Richtlinien, die dabei helfen, Daten nachnutzbar abzulegen, sodass sie gut zu finden, einfach zugänglich und für verschiedene Systeme kompatibel gestaltet sind. Auf diese gehten wir im Folgenden genauer ein.
+
+FAIR ist das Akronym von **F**indable, **A**ccessible, **I**nteroperable und **R**eusable - also auffindbar, zugänglich, interoperabel (bzw. kompatibel) und wiederverwendbar. Diese 2016 veröffentlichten Prinzipien, die seit 2019 auch in den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" der Deutschen Forschungsgemeinschaft verankert sind {cite}`deutsche_forschungsgemeinschaft_guidelines_2022`, haben sich mittlerweile zu einem Standard entwickelt {cite}`spiecker_ecodm_2022`.
 
 ```{figure} _images/fair-principles.jpg
 ---
@@ -36,11 +43,23 @@ Falls Sie sich fragen, was das mit ihrer (Daten-)Praxis zu tun hat, seien hier e
 - Wenn Ihre Daten nachgenutzt werden, wird Ihre Forschung unter neuen Aspekten weitergeführt. Sie bleibt dadurch länger relevant und kann zu einem wichtigen Impuls für neue Ideen werden.
 ```  
 
+Dieses Unterkapitel kann nur eine Einführung in die Thematik darstellen, weshalb wir Ihnen folgende weiterführende Materialien ans Herz legen möchten:
+
 ```{admonition} Weitere Informationen
 :class: seealso
 
 Eine detaillierte Ausformulierung der Prinzipien auf Englisch findet sich auf der <a href="https://www.go-fair.org/fair-principles/" target="_blank">Webseite der Initiative GO FAIR</a> und eine <a href="https://zenodo.org/records/6247015" target="_blank">deutsche Übersetzung</a> der originalen Prinzipien ist bei Zenodo einsehbar {cite}`wilkinson_fair-prinzipien_2016`. 
-Zum Prüfen der so genannten FAIRness von Daten haben sich Checklisten etabliert. Eine von diesen stammt von Jones und Grootveld (2017), die ebenfalls bei <a href="https://zenodo.org/records/5111307" target="_blank">Zenodo</a> zugänglich ist {cite}`jones_how_2017`. Sie stellt die Basis für die Übung im nächsten Abschnitt dar.
+
+Es gibt mittlerweile eine Reihe von Werkzeugen, die Ihnen helfen können zu prüfen, ob Ihre Daten FAIR sind. Diese sog. "Assessment Tools" variieren in ihrem Umfang. Wir empfehlen Ihnen, sich unsere 3 Vorschläge anzusehen, um dann zu entscheiden, welches Verfahren Ihnen am meisten zusagt.
+
+1. Checkliste
+Zum Prüfen der so genannten FAIRness von Daten haben sich Checklisten etabliert. Eine von diesen stammt von Jones und Grootveld (2017), die ebenfalls bei <a href="https://zenodo.org/records/5111307" target="_blank">Zenodo</a> zugänglich ist {cite}`jones_how_2017`. Sie stellt die Basis für die Übung im nächsten Abschnitt dar. Sie ist auf Englisch publiziert, hat aber den Vorteil, dass sie kurz und knapp ist und einfach abgehakt werden kann.
+
+2. Webtool
+Ein weiteres Werkzeug zur Bewertung der FAIRness Ihrer Daten ist das <a href="https://forschungsdaten-thueringen.de/fair-assessment-tool/articles/fair-assessment-tool.html" target="_blank">FAIR Assessment Tool</a> des Thüringer Kompetenznetzwerks Forschungsdatenmanagement (TKFDM), das auf dem Open-Source-Umfrage-Tool der <a href="https://ardc.edu.au/resource/fair-data-self-assessment-tool/" target="_blank">Australian Research Data Commons</a> (ARDC) beruht. In diesem erstmals auf Deutsch vorliegenden Hilfswerk können Sie für Fragen zu den einzelnen FAIR-Kriterien jeweils 3-5 Fragen beantworten (insgesamt 16). Antwortmöglichkeiten werden Ihnen vorgegeben. Wie FAIR Ihr Datensatz ist, sehen Sie direkt online in dem FAIR Score, den Sie sich auch als .docx ausgeben lassen können. Der Vorteil liegt hier klar im Online-Zugang und den vorgegebenen Antworten.
+
+3. FAIR Data Maturity Model
+Das FAIR Data Maturity Model wurde von einer Arbeitsgruppe der <a href="https://www.rd-alliance.org/groups/fair-data-maturity-model-wg/outputs/?output=94549" target="_blank">Research Data Alliance</a> (RDA) entwickelt und im Rahmen des Projektes <a href="https://www.ecodm.de/" target="_blank">EcoDM</a> unter Finanzierung des damaligen BMBF ins <a href="https://zenodo.org/records/5834115" target="_blank">Deutsche</a> übersetzt. Das FAIR Data Maturity Model hat den Vorteil, dass es sehr detailliert ist und den Grad der Implementierung bemessen kann. Dies ist vor allem sinnvoll, wenn eine vollständige Umsetzung eines FAIR-Aspektes weder gewünscht noch praxistauglich ist.
 ```
 
 **Literatur**
