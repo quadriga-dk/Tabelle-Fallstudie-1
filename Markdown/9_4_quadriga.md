@@ -11,7 +11,7 @@ Dabei werden auf Basis eines Datenkompetenzframeworks OER in Form von JupyterNot
 
 Weitere Informationen sowie Publikationen finden Sie auf der <a href="https://www.quadriga-dk.de/de/" class="external-link" target="_blank">Webseite</a> und der <a href="https://zenodo.org/communities/quadriga/records?q=&l=list&p=1&s=10&sort=newest" class="external-link" target="_blank">Zenodo-Community-Seite</a> des Projekts.
 
-Das Datenkompetenzzentrum QUADRIGA wird vom [Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR)](https://www.bmbf.de) unter dem Kennzeichen 16DKZ2034 gefördert. Zu den Verbundpartern zählen:
+Das Datenkompetenzzentrum QUADRIGA wird vom <a href="https://www.bmftr.bund.de/DE/Forschung/Wissenschaftssystem/Forschungsdaten/DatenkompetenzenInDerWissenschaft/datenkompetenzeninderwissenschaft.html" target="_blank" class="external-link">Bundesministerium für Forschung, Technologie und Raumfahrt (BMFTR)</a> unter dem Kennzeichen 16DKZ2034 gefördert. Zu den Verbundpartern zählen:
 - Universität Potsdam (Verbundkoordination) <span style="font-size: small">(Förderkennzeichen: 16DKZ2034A)</span>
 - Filmuniversität Babelsberg <span style="font-size: small">(Förderkennzeichen: 16DKZ2034B)</span>
 - Fachhochschule Potsdam <span style="font-size: small">(Förderkennzeichen: 16DKZ2034C)</span>
