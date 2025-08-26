@@ -7,7 +7,7 @@ Zu guter letzt sollten Sie sich die Lizenz der Daten ansehen: Darf man die Daten
 
 Vielleicht ist es Ihnen bereits aufgefallen. Diese Schritte entsprechen den im (Forschungs-)Datenmanagement wichtigen und allgemein gültigen FAIR-Prinzipien. Diese sind Richtlinien, die dabei helfen, Daten nachnutzbar abzulegen, sodass sie gut zu finden, einfach zugänglich und für verschiedene Systeme kompatibel gestaltet sind. Auf diese gehten wir im Folgenden genauer ein.
 
-FAIR ist das Akronym von **F**indable, **A**ccessible, **I**nteroperable und **R**eusable - also auffindbar, zugänglich, interoperabel (bzw. kompatibel) und wiederverwendbar. Diese 2016 veröffentlichten Prinzipien, die seit 2019 auch in den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" der Deutschen Forschungsgemeinschaft verankert sind {cite}`deutsche_forschungsgemeinschaft_guidelines_2022`, haben sich mittlerweile zu einem Standard entwickelt {cite}`spiecker_ecodm_2022`.
+FAIR ist das Akronym von **F**indable, **A**ccessible, **I**nteroperable und **R**eusable - also auffindbar, zugänglich, interoperabel (bzw. kompatibel) und wiederverwendbar. Diese 2016 veröffentlichten Prinzipien, die seit 2019 auch in den "Leitlinien zur Sicherung guter wissenschaftlicher Praxis" der Deutschen Forschungsgemeinschaft verankert sind {cite}`deutsche_forschungsgemeinschaft_guidelines_2022`, haben sich mittlerweile zu einem Standard entwickelt {cite}`bruch_ecodm_2022`.
 
 ```{figure} _images/fair-principles.jpg
 ---
@@ -26,7 +26,7 @@ Die FAIR-Prinzipien wurden im Projekt PARTHENOS von Hollander et al. (2019) zu R
 Weitere Informationen zum Thema Metadaten und Metadatenstandards finden Sie beispielsweise bei <a href="https://forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards/" class="external-link" target="_blank">forschungsdaten.info</a>.
 ```
 ````
-Die **Auffindbarkeit** von Daten lässt sich zum Beispiel durch die Verwendung von Persistenten Identifikatoren (s. Abschnitt [Persistent Identifier (PID)](PID)) wesentlich vereinfachen. Dieser Aspekt ist von zentraler Bedeutung für alle FAIR-Prinzipien. Weiterhin sollten Forschungsdaten immer mit Quellen versehen werden wie es die fachspezifischen Standards erfordern (s. Abschnitt [Datenzitierung](Einleitung_Datenzitierung)). Darüber hinaus sollten die Daten mit aussagekräftigen Metadaten beschrieben werden, für die es bereits einige disziplinspezifische und -übergreifende Standards und Schemata gibt.
+Die **Auffindbarkeit** von Daten lässt sich zum Beispiel durch die Verwendung von Persistenten Identifikatoren (s. Abschnitt [Persistent Identifier (PID)](PID)) wesentlich vereinfachen. Dieser Aspekt ist von zentraler Bedeutung für alle FAIR-Prinzipien. Weiterhin sollten Forschungsdaten immer mit Quellen versehen werden wie es die fachspezifischen Standards erfordern (s. Abschnitt [Datenzitierung](Einleitung_Datenzitierung)). Darüber hinaus sollten die Daten mit aussagekräftigen Metadaten beschrieben werden, für die es bereits einige disziplinspezifische und übergreifende Standards und Schemata gibt.
 
 Unter **Zugänglichkeit** fällt die Auswahl eines vertrauenswürdigen Repositoriums als Speicherort für die Daten und die klare Regelung des Zugriffs auf diese sowie die Verwendung von standardisierten Protokollen.
 
@@ -49,17 +49,21 @@ Dieses Unterkapitel kann nur eine Einführung in die Thematik darstellen, weshal
 :class: seealso
 
 Eine detaillierte Ausformulierung der Prinzipien auf Englisch findet sich auf der <a href="https://www.go-fair.org/fair-principles/" target="_blank">Webseite der Initiative GO FAIR</a> und eine <a href="https://zenodo.org/records/6247015" target="_blank">deutsche Übersetzung</a> der originalen Prinzipien ist bei Zenodo einsehbar {cite}`wilkinson_fair-prinzipien_2016`. 
+```
 
-Es gibt mittlerweile eine Reihe von Werkzeugen, die Ihnen helfen können zu prüfen, ob Ihre Daten FAIR sind. Diese sog. "Assessment Tools" variieren in ihrem Umfang. Wir empfehlen Ihnen, sich unsere 3 Vorschläge anzusehen, um dann zu entscheiden, welches Verfahren Ihnen am meisten zusagt.
+```{admonition} Prüfen der FAIRness
+:class: seealso
 
-1. Checkliste
-Zum Prüfen der so genannten FAIRness von Daten haben sich Checklisten etabliert. Eine von diesen stammt von Jones und Grootveld (2017), die ebenfalls bei <a href="https://zenodo.org/records/5111307" target="_blank">Zenodo</a> zugänglich ist {cite}`jones_how_2017`. Sie stellt die Basis für die Übung im nächsten Abschnitt dar. Sie ist auf Englisch publiziert, hat aber den Vorteil, dass sie kurz und knapp ist und einfach abgehakt werden kann.
+Es gibt mittlerweile eine Reihe von Werkzeugen, die Ihnen helfen können zu prüfen, ob Ihre Daten FAIR sind. Diese so genannten "Assessment Tools" variieren in ihrem Umfang. Wir empfehlen Ihnen, sich unsere drei Vorschläge anzusehen, um dann zu entscheiden, welches Verfahren Ihnen am meisten zusagt.
 
-2. Webtool
-Ein weiteres Werkzeug zur Bewertung der FAIRness Ihrer Daten ist das <a href="https://forschungsdaten-thueringen.de/fair-assessment-tool/articles/fair-assessment-tool.html" target="_blank">FAIR Assessment Tool</a> des Thüringer Kompetenznetzwerks Forschungsdatenmanagement (TKFDM), das auf dem Open-Source-Umfrage-Tool der <a href="https://ardc.edu.au/resource/fair-data-self-assessment-tool/" target="_blank">Australian Research Data Commons</a> (ARDC) beruht. In diesem erstmals auf Deutsch vorliegenden Hilfswerk können Sie für Fragen zu den einzelnen FAIR-Kriterien jeweils 3-5 Fragen beantworten (insgesamt 16). Antwortmöglichkeiten werden Ihnen vorgegeben. Wie FAIR Ihr Datensatz ist, sehen Sie direkt online in dem FAIR Score, den Sie sich auch als .docx ausgeben lassen können. Der Vorteil liegt hier klar im Online-Zugang und den vorgegebenen Antworten.
+**1. Checkliste**  
+Zum Prüfen der so genannten FAIRness von Daten haben sich Checklisten etabliert. Eine von diesen stammt von Jones und Grootveld (2017), die ebenfalls bei <a href="https://zenodo.org/records/5111307" target="_blank">Zenodo</a> zugänglich ist {cite}`jones_how_2017` und die Basis für die Übung im nächsten Abschnitt darstellt. Sie ist auf Englisch publiziert, hat aber den Vorteil, dass sie kurz gehalten ist und einfach abgehakt werden kann.
 
-3. FAIR Data Maturity Model
-Das FAIR Data Maturity Model wurde von einer Arbeitsgruppe der <a href="https://www.rd-alliance.org/groups/fair-data-maturity-model-wg/outputs/?output=94549" target="_blank">Research Data Alliance</a> (RDA) entwickelt und im Rahmen des Projektes <a href="https://www.ecodm.de/" target="_blank">EcoDM</a> unter Finanzierung des damaligen BMBF ins <a href="https://zenodo.org/records/5834115" target="_blank">Deutsche</a> übersetzt. Das FAIR Data Maturity Model hat den Vorteil, dass es sehr detailliert ist und den Grad der Implementierung bemessen kann. Dies ist vor allem sinnvoll, wenn eine vollständige Umsetzung eines FAIR-Aspektes weder gewünscht noch praxistauglich ist.
+**2. Webtool**  
+Ein weiteres Werkzeug zur Bewertung der FAIRness Ihrer Daten ist das <a href="https://forschungsdaten-thueringen.de/fair-assessment-tool/articles/fair-assessment-tool.html" target="_blank">FAIR Assessment Tool</a> des Thüringer Kompetenznetzwerks Forschungsdatenmanagement (TKFDM), das auf dem Open-Source-Umfrage-Tool der <a href="https://ardc.edu.au/resource/fair-data-self-assessment-tool/" target="_blank">Australian Research Data Commons</a> (ARDC) beruht. In diesem erstmals auf Deutsch vorliegenden Hilfswerk können Sie zu den einzelnen FAIR-Kriterien jeweils 3-5 Fragen beantworten (insgesamt 16). Antwortmöglichkeiten werden Ihnen vorgegeben. Wie FAIR Ihr Datensatz ist, sehen Sie direkt online in dem FAIR Score, den Sie sich auch als .docx ausgeben lassen können. Der Vorteil liegt hier klar im Online-Zugang, den vorgegebenen Antworten und der automatisch erstellten Zusammenfassung.
+
+**3. FAIR Data Maturity Model**  
+Das FAIR Data Maturity Model wurde von einer Arbeitsgruppe der <a href="https://www.rd-alliance.org/groups/fair-data-maturity-model-wg/outputs/?output=94549" target="_blank">Research Data Alliance</a> (RDA) entwickelt und im Rahmen des Projektes <a href="https://www.ecodm.de/" target="_blank">EcoDM</a> unter Finanzierung des damaligen BMBF ins <a href="https://zenodo.org/records/5834115" target="_blank">Deutsche</a> übersetzt. Das FAIR Data Maturity Model hat den Vorteil, dass es sehr detailliert ist und den Grad der Implementierung bemessen kann. Dies ist vor allem sinnvoll, wenn eine vollständige Umsetzung eines FAIR-Aspektes weder gewünscht noch praktikabel ist.
 ```
 
 **Literatur**

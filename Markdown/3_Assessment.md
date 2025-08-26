@@ -26,7 +26,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten. 
 
-**Geschätzte Zeit**: XXX
+**Geschätzte Zeit**: 15-30 Minuten
 
 Viel Erfolg!
 
@@ -217,7 +217,7 @@ question5 = [{
             "feedback": """× Diese Antwort ist nicht korrekt. Im Abschnitt "FAIR in der Praxis" wird explizit erwähnt: "Eine gute Dokumentation, Aus- und Bezeichnung von Daten erleichtert Ihnen und Ihren Kolleg:innen das Arbeiten mit diesen.\""""
         },
         {
-            "answer": "Möglichkeit, Vergleichsdaten aus anderen Städten oder Bundesländern nachzunutzen",
+            "answer": "Einfachere (Nach-)Nutzung von Forschungsdaten",
             "correct": False,
             "feedback": """× Diese Antwort ist nicht korrekt. Im Abschnitt "FAIR in der Praxis" wird explizit erwähnt: "Wenn Sie eigene Forschung betreiben, werden Sie sich freuen, wenn es zu Ihrer Forschungsfrage Vergleichsdaten aus anderen Städten oder Bundesländern gibt, die Sie nachnutzen können.\""""
         },
@@ -581,7 +581,7 @@ sys.path.append("..")
 from quadriga import colors
 
 question14 = [{
-    "question": """Der Datensatz verwendet eine formale, zugängliche, gemeinsame und weit verbreitete Sprache zur Wissensrepräsentation.""",
+    "question": """Die Daten oder Metadaten verwenden eine formale, zugängliche, gemeinsame und weit verbreitete Sprache zur Wissensrepräsentation.""",
     "type": "multiple_choice",
     "answers": [
         {
@@ -619,7 +619,7 @@ sys.path.append("..")
 from quadriga import colors
 
 question15 = [{
-    "question": """Der Datensatz verwendet Vokabulare, die den FAIR-Prinzipien folgen.""",
+    "question": """Die Daten oder Metadaten verwenden Vokabulare, die den FAIR-Prinzipien folgen.""",
     "type": "multiple_choice",
     "answers": [
         {
@@ -662,13 +662,13 @@ question16 = [{
     "answers": [
         {
             "answer": "Nein",
-            "correct": False,
-            "feedback": """× Nicht korrekt"""
+            "correct": True,
+            "feedback": """✓ Richtig!"""
         },
         {
             "answer": "Ja",
-            "correct": True,
-            "feedback": """✓ Richtig! """
+            "correct": False,
+            "feedback": """× Nicht korrekt"""
         }
     ]
 }]
@@ -952,15 +952,15 @@ Accessible (Zugänglich)
     - Begründung: Es sind keine Authentifizierungs- oder Autorisierungsverfahren erforderlich, was klar ersichtlich ist (kein Registrierungshinweis).
 
 Interoperable (Interoperabel)
-1. Der Datensatz verwendet eine formale, zugängliche, gemeinsame und weit verbreitete Sprache zur Wissensrepräsentation.
-    - Teilweise/Nein
-    - Begründung: Die Spaltennamen sind nur auf Deutsch verfügbar, was die internationale Interoperabilität einschränkt, auch wenn die Datenstruktur standardisiert ist.
-2. Der Datensatz verwendet Vokabulare, die den FAIR-Prinzipien folgen.
-    - Nein
-    - Begründung: Es gibt keine Hinweise darauf, dass spezielle FAIR-konforme Vokabulare verwendet werden; die Terminologie ist domänenspezifisch aber nicht standardisiert.
+1. Die Daten oder Metadaten verwenden eine formale, zugängliche, gemeinsame und weit verbreitete Sprache zur Wissensrepräsentation.
+    - Ja
+    - Begründung: Die Verwendung einer gemeinsamen, standardisierten Sprache oder Ontologie (z. B. RDF) wird hier für die Metadaten verwendet.
+2. Die Daten oder Metadaten verwenden Vokabulare, die den FAIR-Prinzipien folgen.
+    - Ja
+    - Begründung: Ja, denn es die Metadaten verwenden Standard-Vokabulare wie DCAT oder Dublin Core.
 3. Der Datensatz enthält qualifizierte Verweise auf andere Daten.
-    - Teilweise
-    - Begründung: Es gibt einen Verweis auf die Originalquelle (Statistisches Bundesamt), aber keine strukturierten Verweise auf verwandte Datensätze.
+    - Nein
+    - Begründung: Es gibt nur einen Verweis auf die Originalquelle (Statistisches Bundesamt), aber keine strukturierten Verweise auf verwandte Datensätze.
 4. Der Datensatz liegt in einem nicht-proprietären Format vor.
     - Ja
     - Begründung: Der Datensatz ist als CSV verfügbar, was ein offenes, nicht-proprietäres Format ist (zusätzlich zu XLS und HTML).

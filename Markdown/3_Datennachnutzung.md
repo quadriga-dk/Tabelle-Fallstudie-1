@@ -40,9 +40,14 @@ Wir befinden uns damit im theoretischen Teil dieser Fallstudie. Bevor wir dazu �
 
 +++
 *Wir befinden uns hier:*
-![Aufgabe 3](/assets/Aufgabenstruktur-03.png)
 
-<span style="color:red">*Bild einfügen von Verortung in Fallstudien-Struktur*</span>
+```{figure} _images/FS-Schritte1.png
+---
+name: step 1 of casestudy
+alt: Skizzenhafte Darstellung der 5 Schritte dieser Fallstudie mit farblicher Hervorhebung des 1. Schrittes.
+---
+Schritt 1 dieser Fallstudie.
+```
 
 In Bezug auf die Nachnutzung von (Forschungs-)Daten wollen wir Sie in diesem Kapitel mit den FAIR-Prinzipien vertraut machen. Diese stellen Grundsätze des Datenmanagements dar, die unter anderem den Austausch und die weitere Nutzung von Daten vereinfachen.
 Wenn Sie mit den FAIR-Prinzipien bereits vertraut sind, können sie das einführende Unterkapitel auch überspringen und sich direkt an die Übung oder den Selbsttest wagen.
