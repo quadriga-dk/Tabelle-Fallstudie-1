@@ -1,4 +1,4 @@
-# Resümee Manipulation, Analyse und Reproduzierbarkeit
+# Resümee Datenaufbereitung II - Analyse und Reproduzierbarkeit
 
 Dieses Kapitel hat das Manipulieren von Daten erweitert, indem die Kenntnisse von Kapitel 6 auf das Beispiel des Nationalen Bildungsberichts angepasst wurden. Dazu wurden mit RStudio Vektoren erzeugt, ein Dataframe erstellt und schließlich ein Kreisdiagramm visualisiert.
 

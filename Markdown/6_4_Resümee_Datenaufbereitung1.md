@@ -1,4 +1,4 @@
-# Resümee Datenaufbereitung
+# Resümee Datenaufbereitung  - Organisation und Strukturierung
 
 Die Inhalte dieses Abschnitts zur Datenaufbereitung konzentrierten sich auf eine konsistente und saubere Datenstruktur unter Verwendung des Tidy-Ansatzes und die Umsetzung in RStudio.
 
