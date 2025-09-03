@@ -40,8 +40,7 @@ In diesem Kapitel finden Sie daher die folgenden Abschnitte:
 
 
 Wir befinden uns damit im letzten Kapitel des theoretischen Teils dieser Fallstudie.
-+++
-*Wir befinden uns hier:*
+
 
 ```{figure} _images/FS-Schritte3.png
 ---

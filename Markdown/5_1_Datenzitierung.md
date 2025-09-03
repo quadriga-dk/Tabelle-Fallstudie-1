@@ -19,14 +19,13 @@ Einen kurzen und verständlichen Überblick dazu, bietet dieses Video vom Forsch
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WBiZydSV-m0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-*In diesem Video erfahren Sie ...*
+---
 
+```{admonition} Was Sie mitnehmen sollten
+:class: keypoint
+Wenn Sie Daten zitieren, sollten sie die Urheber:innen benennen und den PID/URI des Datensatzes bzw. einen Link zu den Daten angeben. Nennen Sie auch das Repositorium, in dem die Daten liegen
 
-```{admonition} Zusammenfassung
-:class: tip
-Wenn Sie Daten zitieren, sollten sie also die Urheber:innen benennen und den PID/URI des Datensatzes oder einen Link zu den Daten angeben.
-
-Wenn Sie Daten selbst zur Verfügung stellen, sollten Sie alle Beteiligten benennen, einen PID/URI vergeben, den Datensatz mit Metadaten ausführlich beschreiben und in einem gängigen, im besten Fall offenen Format bereitstellen.
+Wenn Sie Daten selbst zur Verfügung stellen, sollten Sie alle weiteren Beteiligten benennen, einen PID/URI vergeben, den Datensatz mit Metadaten ausführlich beschreiben und in einem gängigen, im besten Fall offenen und maschinenlesbaren Format bereitstellen.
 ```
 
 

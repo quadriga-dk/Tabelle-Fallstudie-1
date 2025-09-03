@@ -16,9 +16,9 @@ Linked Data basiert auf vier Prinzipien {cite}`berners-lee_linked_2006`:
 
 2. Benutzen Sie HTTP URIs, so dass diese Namen nachgeschlagen werden können.
 
-3. Wenn jemand eine URI nachschlägt, liefern Sie nützliche Informationen und nutzen Sie dabei die Standards (RDF, SPARQL).
+3. Wenn jemand einen URI nachschlägt, liefern Sie nützliche Informationen und nutzen Sie dabei Standards (RDF, SPARQL).
 
-4. Fügen Sie Links zu anderen URIs bei, so dass der User weitere Dinge entdecken kann.
+4. Fügen Sie Links zu anderen URIs bei, so dass Nutzer:innen weitere Informationen erhalten kann.
 
 Uniform Resource Identifiers (URIs) sind das grundlegende Identifikationsschema für Ressourcen im Internet {cite}`bulazel_importance_2016`. Durch die Kombination von URLs (Uniform Resource Locators), die beschreiben, wie eine bestimmte Ressource online zu erreichen ist, und URNs (Uniform Resource Names), die eine Ressource mit einem bestimmten Namensraum identifizieren, können URIs als wertvolle Instrumente für die eindeutige Benennung und Verknüpfung offener Daten sein {cite}`lindgren_linked_2019`.
 

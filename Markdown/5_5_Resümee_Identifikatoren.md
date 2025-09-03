@@ -1,7 +1,8 @@
 # Resümee Identifikatoren
 
 Persistente Identifikatoren sind quasi das Rückgrat wissenschaftlichen Arbeitens in der digitalen Welt. Durch das eindeutige Bezeichnen von Publikationen, Daten und Urheber:innen erleichtert sich das Nachnutzen, Zitieren und Verlinken von (Forschungs-)Ergebnissen erheblich und ermöglicht vorher nicht gekannte Synergien.  
-Da unser Datensatz nicht über einen persistenten Identifikator wie bspw. einen DOI verfügt, ist die Übung zu diesem Kapitel generisch gewesen. Der Bildungsbericht 2022 weist zwar einen DOI auf (DOI: 10.3278/6001820hw), aber die von uns verwendeten Daten sind diesem "nur" als herunterladbarer Anhang im Excel-Format zugeordnet und nicht einzeln publiziert.  
+
+Da der von uns in dieser Fallstudie verwendete Datensatz nicht über einen persistenten Identifikator wie bspw. einen DOI verfügt, ist die Übung zu diesem Kapitel generisch gewesen. Der Bildungsbericht 2022 weist zwar einen DOI auf (DOI: 10.3278/6001820hw), aber die von uns verwendeten Daten sind diesem "nur" als herunterladbarer Anhang im Excel-Format zugeordnet und nicht einzeln publiziert.  
 
 ```{admonition} Keypoints
 :class: keypoint
