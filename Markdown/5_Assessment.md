@@ -25,7 +25,7 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten. 
 
-**Geschätzte Zeit**: XXX
+**Geschätzte Zeit**: 15-20 Minuten
 
 Viel Erfolg!
 ````
@@ -52,7 +52,7 @@ question1 = [{
         {
             "answer": "Force11",
             "correct": True,
-            "feedback": """✓ Richtig! Die Force11-Gruppe hat die 8-Punkte-Richtlinie für die Datenzitierung formuliert, die im Kapitel ausführlich vorgestellt wird. Diese Richtlinie etabliert Standards dafür, wie Forschungsdaten als legitime, zitierbare Forschungsergebnisse behandelt werden sollten."""
+            "feedback": """✓ Richtig! Die Force11-Gruppe hat die 8-Punkte-Richtlinie für die Datenzitierung formuliert, die im Kapitel vorgestellt wird. Diese Richtlinie etabliert Standards dafür, wie Forschungsdaten als legitime, zitierbare Forschungsergebnisse behandelt werden sollten."""
         },
         {
             "answer": "Europäische Union",
@@ -130,7 +130,7 @@ question3 = [{
         {
             "answer": "Alle Beteiligten benennen, einen PID/URI vergeben, den Datensatz mit Metadaten ausführlich beschreiben und in einem gängigen Format bereitstellen",
             "correct": True,
-            "feedback": """✓ Richtig! Die Zusammenfassung im Kapitel gibt klare Empfehlungen für die Bereitstellung eigener Daten: alle Beteiligten benennen, einen PID/URI vergeben, den Datensatz mit Metadaten ausführlich beschreiben und in einem gängigen, im besten Fall offenen Format bereitstellen."""
+            "feedback": """✓ Richtig! Die Zusammenfassung im Kapitel gibt Empfehlungen für die Bereitstellung eigener Daten: alle Beteiligten benennen, einen PID/URI vergeben, den Datensatz mit Metadaten ausführlich beschreiben und in einem gängigen, im besten Fall offenen Format bereitstellen."""
         },
         {
             "answer": "Die Daten ohne weitere Dokumentation hochladen",
@@ -253,7 +253,7 @@ question6 = [{
         {
             "answer": "Bei vielen Repositorien erfolgt die Vergabe automatisch beim Upload",
             "correct": True,
-            "feedback": """✓ Richtig! Viele moderne Datenrepositorien vergeben automatisch PIDs (meist DOIs) beim Upload von Datensätzen, was den Prozess für Forschende erheblich vereinfacht."""
+            "feedback": """✓ Richtig! Viele Datenrepositorien vergeben automatisch PIDs (meist DOIs) beim Upload von Datensätzen, was den Prozess für Forschende erheblich vereinfacht."""
         },
         {
             "answer": "PIDs müssen immer einen Ländercode enthalten",
