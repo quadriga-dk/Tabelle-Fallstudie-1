@@ -46,7 +46,7 @@ preferred-citation:
   version: 1.0.0-beta.2
   authors: *id001
   title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen
-    Bildungsbericht'
+    Bildungsbericht. QUADRIGA Open Educational Resources: Tabelle 1'
   type: software
   doi: 10.5281/zenodo.14975202
   url: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
