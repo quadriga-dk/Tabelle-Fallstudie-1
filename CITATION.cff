@@ -2,7 +2,7 @@
 cff-version: 1.2.0
 version: 1.0.0-beta.2
 title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen
-  Bildungsbericht'
+  Bildungsbericht. QUADRIGA Open Educational Resources: Tabelle 1'
 abstract: Diese Fallstudie geht auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen
   ein. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von
   Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
@@ -22,6 +22,9 @@ authors: &id001
   family-names: Walter
   orcid: https://orcid.org/0000-0002-9236-3268
   affiliation: Fachhochschule Potsdam
+- given-names: Anton
+  family-names: Schulze
+  affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
 identifiers:
 - type: doi
   value: 10.5281/zenodo.14975202

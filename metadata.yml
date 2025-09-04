@@ -17,10 +17,10 @@ authors:
   family-names: Walter
   orcid: https://orcid.org/0000-0002-9236-3268
   affiliation: Fachhochschule Potsdam
-contributors:
 - given-names: Anton
   family-names: Schulze
   affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+contributors:
 - given-names: Philip
   family-names: Wiemer
   affiliation: Fachhochschule Potsdam

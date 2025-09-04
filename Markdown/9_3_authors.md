@@ -58,10 +58,7 @@ lang: de-DE
 </tr>
 </table>
 
-
-## Weitere Beteiligte  
-
-### Anton Schulze <a href="https://orcid.org/0009-0003-5670-8577" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+### Anton Schulze 
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -72,6 +69,10 @@ lang: de-DE
 <td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
 </tr>
 </table>
+
+
+## Weitere Beteiligte  
+
 
 ### Philip Wiemer
 <table style="margin-left: 0">
