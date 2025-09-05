@@ -1,5 +1,7 @@
 # Datenstruktur
 
+Die Veränderung von Datensätzen oder einzelnen Datenpunkten wird als Datenaufbereitung bezeichnet. Diese Aufbereitung oder Bereinigung kann in Form einer einfachen Abfrage an das System der Datenbankverwaltung erfolgen, in der nur bestimmte Daten zurückgegeben werden sollen. Außerdem fällt hierunter das gezielte Anpassen und Verändern von einzelnen Teilmengen des Datensatzes {cite}`zehnder_datenmanipulation_1987`. Dieser Prozess ist ein entscheidender Bestandteil, um die Qualität und den Aufbau von Datensätzen zu evaluieren und zu verbessern. Nur durch eine gezielte Aufbereitung können aus Rohdaten nützliche Informationen gewonnen werden. Dafür ist das Erzeugen einer schlüssigen Datenstruktur von besonderer Bedeutung, denn nur so kann mit den Daten einfach und effektiv gearbeitet werden. 
+
 Die Struktur eines Datensatzes prägt maßgeblich dessen maschinelle Lesbarkeit und Auswertungsmöglichkeiten. Für eine effiziente Datenaufbereitung bedarf es eines gut strukturierten Datensatzes. Da Datensätze in der Regel sehr viele Daten enthalten, gilt es zuerst zu klären, worauf bei einer guten Datenorganisation und -strukturierung geachtet werden muss.  
 
 

@@ -17,6 +17,8 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 ```
 ````
 
+Dieses Kapitel hat das Schwerpunktthema Datenaufbereitung mit Fokus auf Organisation und Strukturierung von Daten. Nach Abschluss des Kapitel werden Sie folgende Lernziele erreicht haben:
+
 ```{admonition} Lernziel: Datenaufbereitung und -strukturierung
 :class: lernziele 
 1. Die Bedeutung von Datenaufbereitung kann erläutert werden.
@@ -24,13 +26,6 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 3. Die Bedeutung einer klaren Datenstruktur für effektive Datenaufbereitung kann anhand eines Beispiels demonstriert werden.
 ```  
   
-
-Dieses Kapitel hat das Schwerpunktthema Datenaufbereitung mit Fokus auf Organisation und Strukturierung von Daten.
-Die Veränderung von Datensätzen oder einzelnen Datenpunkten wird als Datenaufbereitung bezeichnet. Diese Aufbereitung oder Bereinigung kann in Form einer einfachen Abfrage an das System der Datenbankverwaltung erfolgen, in der nur bestimmte Daten zurückgegeben werden sollen. Außerdem fällt hierunter das gezielte Anpassen und Verändern von einzelnen Teilmengen des Datensatzes {cite}`zehnder_datenmanipulation_1987`. Dieser Prozess ist ein entscheidender Bestandteil, um die Qualität und den Aufbau von Datensätzen zu evaluieren und zu verbessern. Nur durch eine gezielte Aufbereitung können aus Rohdaten nützliche Informationen gewonnen werden. Dafür ist das Erzeugen einer schlüssigen Datenstruktur von besonderer Bedeutung, denn nur so kann mit den Daten einfach und effektiv gearbeitet werden. 
-
-Zudem wird die Datenaufbereitung benötigt, um Ihre Daten visualisieren können. Einen tieferen Einblick dazu und zur Analyse und Reproduzierbarkeit erlangen Sie im nachfolgenden Kapitel [7. Analyse und Reproduzierbarkeit](/Markdown/7_Datenmanipulation2.md).
-
-
 In diesem Kapitel finden Sie folgende Abschnitte:
 
 - [Datenstruktur](/Markdown/6_1_Datenstruktur.md)
@@ -38,6 +33,27 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [Übung: Auswerten von CSV-Dateien in R](/Markdown/6_3_Übung_Auswertung_CSV_in_R.ipynb)
 - [Resümee Datenaufbereitung](/Markdown/6_4_Resümee_Datenmanipulation1.md)
 
+In diesem Kapitel werden Sie lernen wie Sie Daten aus einer CSV-Datei mithilfe der Programmiersprache R organisieren und strukturieren können.
+
++++
+*In Bezug zur gesamten Fallstudie befinden wir uns hier:*
+
+```{figure} _images/FS-Schritte4.png
+---
+name: step 4 of casestudy
+alt: Skizzenhafte Darstellung der 5 Schritte dieser Fallstudie mit farblicher Hervorhebung des 4. Schrittes.
+---
+Schritt 4 dieser Fallstudie.
+```
+
+```{admonition} Bearbeitungszeit
+:class: zeitinfo
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 60 Minuten. Dies schließt das gekennzeichnete Assessment, dessen Bearbeitungsdauer individuell variiert, aus. 
+
+Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. 75-90 Minuten.
+
+Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
+``` 
 
 **Literatur**
 
