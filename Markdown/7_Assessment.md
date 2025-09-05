@@ -25,14 +25,14 @@ Sie können die Fragen in beliebiger Reihenfolge beantworten und auch mehrfach v
 
 Es erfolgt keine Bewertung oder Speicherung Ihrer Ergebnisse. Nutzen Sie dieses Assessment, um Wissenslücken zu identifizieren und gegebenenfalls die entsprechenden Abschnitte des Kapitels noch einmal zu bearbeiten. 
 
-**Geschätzte Zeit**: XXX
+**Geschätzte Zeit**: 15-30 Minuten
 
 Viel Erfolg!
 ````
 
 ## Aufgabe: Reproduzierbarkeitsanalyse der Bildungsbericht-Fallstudie
 
-**Ausgangssituation:** Das Kapitel demonstriert Reproduzierbarkeit anhand zweier konkreter Beispiele: der Reproduktion eines Kreisdiagramms aus dem Nationalen Bildungsbericht und der Beantwortung einer Forschungsfrage durch Zeitreihenanalyse. Analysieren Sie diese Fallstudien hinsichtlich der Reproduzierbarkeitsaspekte.
+**Ausgangssituation:** Das Kapitel demonstriert Reproduzierbarkeit anhand zweier konkreter Beispiele: der Reproduktion eines Kreisdiagramms aus dem Nationalen Bildungsbericht und der Beantwortung einer Forschungsfrage durch Zeitreihenanalyse. Analysieren Sie diese Beispiele hinsichtlich der Reproduzierbarkeitsaspekte.
 
 ### Teil A: Konzeptionelles Verständnis von Reproduzierbarkeit
 
@@ -69,7 +69,7 @@ create_answer_box('6-repro-voraussetzungen')
 
 ### Teil B: Analyse der Kreisdiagramm-Reproduktion
 
-Identifizieren Sie drei zentrale Aspekte aus der Kreisdiagramm-Fallstudie, die für die Reproduzierbarkeit besonders relevant waren
+Identifizieren Sie drei zentrale Aspekte aus dem Kreisdiagramm-Beispiel, die für die Reproduzierbarkeit besonders relevant waren
 
 **Aspekt 1 - Datenquelle und -zugang:**
 
@@ -256,7 +256,7 @@ create_answer_box('6-herausforderungen-zukunft')
 
 **Übertragung auf andere Kontexte:**
 
-Sie möchten eine eigene deskriptive Analyse durchführen und dabei Reproduzierbarkeit sicherstellen. Welche drei wichtigsten Lehren ziehen Sie aus der Fallstudie des Kapitels für Ihr eigenes Vorgehen?
+Sie möchten eine eigene deskriptive Analyse durchführen und dabei Reproduzierbarkeit sicherstellen. Welche drei wichtigsten Lehren ziehen Sie aus diesem Kapitel für Ihr eigenes Vorgehen?
 
 ```{code-cell} ipython3
 :tags: [remove-input]

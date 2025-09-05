@@ -17,20 +17,40 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 ```
 ````
 
+In diesem Kapitel wird die Datenaufbereitung unter Verschiebung des Fokus auf Analyse, Reproduzierbarkeit und Visualisierung weitergeführt. Dabei können Sie folgende Lernziele erreichen:
+
 ```{admonition} Lernziel: Datenanalyse und -reproduzierbarkeit
 :class: lernziele 
 1. Die Wichtigkeit einer sorgfältigen Dokumentation bei der Durchführung einer deskriptiven Analyse kann beschrieben werden.
 2. Anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit) können mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte erläutert werden.
 ```  
 
-
-In diesem Kapitel wird die Datenaufbereitung unter Verschiebung des Fokus auf Analyse, Reproduzierbarkeit und Visualisierung weitergeführt. Dazu widmen wir uns zuerst der Reproduzierbarkeit von Forschungsergebnissen und deren Visualisierung. Dazu wird u. a. ein *Dataframe* erstellt und ein Kreisdiagramm nachgebaut. 
+Zuerst widmen wir uns der Reproduzierbarkeit von Forschungsergebnissen und deren Visualisierung. Dazu wird u. a. ein *Dataframe* erstellt und ein Kreisdiagramm nachgebaut. 
 Im letzten Abschnitt wird schließlich die Forschungsfrage beantwortet und das Ergebnis ebenfalls visuell dargestellt.
 Dazu verwenden wir weiterhin den aus dem vorherigen Kapitel bekannten Datensatz, den wir mit der Software RStudio weiterbearbeiten.
 
-
-In diesem Kapitel finden Sie folgende Abschnitte: 
+Dies gleidert sich in folgende Abschnitte: 
 
 - [Übung: Reproduzierbarkeit Nationaler Bildungsbericht](/Markdown/7_1_Übung_Reproduzierbarkeit.ipynb)
 - [Übung: Zeitreihe Personalentwicklung](/Markdown/7_2_Übung_Zeitreihe.ipynb)
 - [Resümee Datenmanipulation](/Markdown/7_3_Resümee_Datenmanipulation2.md)
+
++++
+*Wir befinden uns damit im letzten Kapitel der Fallstudie:*
+
+```{figure} _images/FS-Schritte5.png
+---
+name: step 5 of casestudy
+alt: Skizzenhafte Darstellung der 5 Schritte dieser Fallstudie mit farblicher Hervorhebung des 5. Schrittes.
+---
+Schritt 5 dieser Fallstudie.
+```
+
+
+```{admonition} Bearbeitungszeit
+:class: zeitinfo
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 60 Minuten. Dies schließt das gekennzeichnete Assessment, dessen Bearbeitungsdauer individuell variiert, aus. 
+
+Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. 75-90 Minuten.
+
+Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.

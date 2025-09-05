@@ -54,9 +54,3 @@ Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben be
 
 Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
 ``` 
-
-**Literatur**
-
-```{bibliography}
-:filter: docname in docnames
-```
