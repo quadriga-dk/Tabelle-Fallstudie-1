@@ -17,7 +17,7 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 ```
 ````
 
-In diesem Kapitel wird die Datenaufbereitung unter Verschiebung des Fokus auf Analyse, Reproduzierbarkeit und Visualisierung weitergeführt. Dabei können Sie folgende Lernziele erreichen:
+In diesem Kapitel wird die Datenaufbereitung unter Verschiebung des Fokus' auf Analyse, Reproduzierbarkeit und Visualisierung weitergeführt. Dabei können Sie folgende Lernziele erreichen:
 
 ```{admonition} Lernziel: Datenanalyse und -reproduzierbarkeit
 :class: lernziele 
@@ -26,7 +26,7 @@ In diesem Kapitel wird die Datenaufbereitung unter Verschiebung des Fokus auf An
 ```  
 
 Zuerst widmen wir uns der Reproduzierbarkeit von Forschungsergebnissen und deren Visualisierung. Dazu wird u. a. ein *Dataframe* erstellt und ein Kreisdiagramm nachgebaut. 
-Im letzten Abschnitt wird schließlich die Forschungsfrage beantwortet und das Ergebnis ebenfalls visuell dargestellt.
+Danach werden wir uns auf die Beantwortung der Forschungsfrage fokussieren und das Ergebnis ebenfalls visuell dargestellen.
 Dazu verwenden wir weiterhin den aus dem vorherigen Kapitel bekannten Datensatz, den wir mit der Software RStudio weiterbearbeiten.
 
 Dies gleidert sich in folgende Abschnitte: 
@@ -36,7 +36,7 @@ Dies gleidert sich in folgende Abschnitte:
 - [Resümee Datenmanipulation](/Markdown/7_3_Resümee_Datenmanipulation2.md)
 
 +++
-*Wir befinden uns damit im letzten Kapitel der Fallstudie:*
+*Wir befinden uns im letzten Kapitel dieser Fallstudie:*
 
 ```{figure} _images/FS-Schritte5.png
 ---
@@ -51,6 +51,6 @@ Schritt 5 dieser Fallstudie.
 :class: zeitinfo
 Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 60 Minuten. Dies schließt das gekennzeichnete Assessment, dessen Bearbeitungsdauer individuell variiert, aus. 
 
-Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. 75-90 Minuten.
+Die geschätzte Bearbeitungsdauer **inklusive** des Assessments beträgt ca. 75-90 Minuten.
 
 Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
