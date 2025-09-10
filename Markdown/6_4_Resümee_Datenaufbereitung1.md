@@ -30,7 +30,7 @@ Datenaufbereitung ist fundamental für jedes Datenprojekt - sowohl in der Datenw
 Wer selbst Analyseergebnisse veröffentlicht, kann durch bewusste Datenbereitstellung den Aufwand für nachgelagerte Datenbereinigung und -aufbereitung für andere reduzieren.
 ```
 
-Am Ende dieser Lerneinheit möchten wir Sie wieder auf unseren Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen.
+Am Ende dieser Lerneinheit möchten wir Sie wieder auf unseren Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen. Die Beantwortung dauert etwa 5 Minuten.
 Der Kurzfragebogen am Ende jedes Kapitels hilft uns, diese Lerneinheit kontinuierlich zu verbessern, indem Sie uns auf etwaige Unklarheiten hinweisen oder Anregungen geben. Vielen Dank!  
 
 

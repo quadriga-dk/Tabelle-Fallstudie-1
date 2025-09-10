@@ -30,7 +30,7 @@ Datenmanipulation und -bereinigung sind fundamental für jedes Datenprojekt in v
 Wer selbst Analyseergebnisse veröffentlicht, kann durch bewusste Datenbereitstellung den Aufwand für nachgelagerte Datenbereinigung und -aufbereitung für andere Forschende reduzieren.
 ```
 
-Am Ende dieser Lerneinheit möchten wir Sie wieder auf unseren Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen.
+Am Ende dieser Lerneinheit möchten wir Sie wieder auf unseren Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen. Die Beantwortung dauert etwa 5 Minuten.
 Der Kurzfragebogen am Ende jedes Kapitels hilft uns, diese Lerneinheit kontinuierlich zu verbessern, indem Sie uns auf etwaige Unklarheiten hinweisen oder Anregungen geben. Vielen Dank!  
 
 <a href="https://gesellschaftfuerinformatik.limesurvey.net/745598?newtest=Y&lang=de&Git=0005" target="_blank"

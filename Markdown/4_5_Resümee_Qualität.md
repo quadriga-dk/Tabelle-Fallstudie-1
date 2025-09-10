@@ -40,7 +40,7 @@ Gutes Datenmanagement erleichtert die Nachnutzung für andere und sich selbst. K
 Qualitätsbewertung befähigt zur Entscheidung über Dateneignung für Forschungsprojekte und zur Einschätzung des erforderlichen Aufbereitungsaufwands.
 ```
 
-Am Ende dieser Lerneinheit möchten wir Sie wieder auf unseren Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen.
+Am Ende dieser Lerneinheit möchten wir Sie wieder auf unseren Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen. Die Beantwortung dauert etwa 5 Minuten.
 Der Kurzfragebogen am Ende jedes Kapitels hilft uns, diese Lerneinheit kontinuierlich zu verbessern, indem Sie uns auf etwaige Unklarheiten hinweisen oder Anregungen geben. Vielen Dank!  
 
 <a href="https://gesellschaftfuerinformatik.limesurvey.net/745598?newtest=Y&lang=de&Git=0002" target="_blank"

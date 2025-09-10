@@ -25,7 +25,7 @@ PID werden meist automatisch von Repositorien beim Datenupload vergeben. Webport
 Mit einer ORCID können Sie sich zweifelsfrei Ihren Publikationen und Forschungsergebnissen zuordnen. So ist eindeutig, dass genau Sie die Person sind, von der die Daten stammen. Eine <a href="https://orcid.org/register" class="external-link" target="_blank">Registrierung</a> lässt sich innerhalb von wenigen Minuten umsetzen. Wie das aussehen kann, können Sie am Ende dieser Fallstudie im Abschnitt [Autor:innen](authors) ansehen.
 ```
 
-Am Ende dieser Lerneinheit möchten wir Sie wieder auf unseren Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen.
+Am Ende dieser Lerneinheit möchten wir Sie wieder auf unseren Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen. Die Beantwortung dauert etwa 5 Minuten.
 Der Kurzfragebogen am Ende jedes Kapitels hilft uns, diese Lerneinheit kontinuierlich zu verbessern, indem Sie uns auf etwaige Unklarheiten hinweisen oder Anregungen geben. Vielen Dank! 
 
 <a href="https://gesellschaftfuerinformatik.limesurvey.net/745598?newtest=Y&lang=de&Git=0003" target="_blank"

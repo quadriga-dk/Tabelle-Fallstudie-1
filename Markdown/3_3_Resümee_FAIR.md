@@ -32,7 +32,7 @@ Die Nachnutzung bestehender Daten (statt eigener Erhebungen) ist für viele Fors
 Die FAIR-Prinzipien stellen einen Teil der Best Practices im Forschungsdatenmanagement dar, decken aber nicht alle Aspekte ab.
 ```
 
-Am Ende dieser Lerneinheit möchten wir Sie auf unseren Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen.
+Am Ende dieser Lerneinheit möchten wir Sie auf unseren Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen. Die Beantwortung dauert etwa 5 Minuten.
 Der Kurzfragebogen am Ende jedes Kapitels hilft uns, diese Lerneinheit kontinuierlich zu verbessern, indem Sie uns auf etwaige Unklarheiten hinweisen oder Anregungen geben. Vielen Dank!  
 
 <a href="https://gesellschaftfuerinformatik.limesurvey.net/745598?newtest=Y&lang=de&Git=0001" target="_blank"
