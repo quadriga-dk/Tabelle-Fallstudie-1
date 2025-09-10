@@ -16,7 +16,7 @@ Gutes Datenmanagement erleichtert die Nachnutzung sowohl für andere als auch Si
 `````
 
 Auf dem Weg zur Lösung der Forschungsfrage hat dieses Kapitel gezeigt, welche Rolle die Qualität von Daten bei der Datennachnutzung spielt. 
-Die Datenqualität bewerten zu können, befähigt zum einen dazu, zu entscheiden, ob sich die ausgewählten Daten überhaupt für ein anvisiertes (Forschungs-)Projekt und zur Lösung einer Fragestellung eignen. Zum anderen lässt sich so einschätzen, ob und inwieweit die Daten noch aufbereitet oder manipuliert werden müssen und ob dieser Aufwand gerechtfertigt ist. In unserem Fall müssen die Daten ein wenig manipuliert werden, was wir Ihnen im übernächsten Kapitel [Organisation und Strukturierung](Datenmanipulation) zeigen werden.  
+Die Datenqualität bewerten zu können, befähigt zum einen dazu, zu entscheiden, ob sich die ausgewählten Daten überhaupt für ein anvisiertes (Forschungs-)Projekt und zur Lösung einer Fragestellung eignen. Zum anderen lässt sich so einschätzen, ob und inwieweit die Daten noch aufbereitet oder bereinigt werden müssen und ob dieser Aufwand gerechtfertigt ist. In unserem Fall müssen die Daten ein wenig aufbereitet werden, was wir Ihnen im übernächsten Kapitel [Organisation und Strukturierung](Datenaufbereitung1) zeigen werden.  
 
 ```{admonition} Keypoints
 :class: keypoint

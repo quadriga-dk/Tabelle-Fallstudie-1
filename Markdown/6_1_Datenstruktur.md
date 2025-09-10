@@ -64,7 +64,7 @@ alt: Eine Tabelle mit einem guten Beispiel einer Tidy-Data-Struktur.
 Beispiel für eine gute Tidy-Data-Struktur.
 ```
 
-Durch Einhaltung dieser Struktur entsteht eine Tabelle, die eine schnelle, einfache und vor allem konsistente Datenmanipulation und -auswertung ermöglicht {cite}`broman_data_2018,wickham_tidy_2014`. In der oben zu sehenden Abbildung 6.2 ist ein Beispiel für eine gut strukturierte Tabelle zu sehen. In der folgenden Abbildung 6.3 ist ein Negativbeispiel zu sehen.
+Durch Einhaltung dieser Struktur entsteht eine Tabelle, die eine schnelle, einfache und vor allem konsistente Datenaufbereitung und -auswertung ermöglicht {cite}`broman_data_2018,wickham_tidy_2014`. In der oben zu sehenden Abbildung 6.2 ist ein Beispiel für eine gut strukturierte Tabelle zu sehen. In der folgenden Abbildung 6.3 ist ein Negativbeispiel zu sehen.
 
 ```{figure} _images/tidy_data_schlecht.png
 ---

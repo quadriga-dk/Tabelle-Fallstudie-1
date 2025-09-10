@@ -33,7 +33,7 @@ Dies gleidert sich in folgende Abschnitte:
 
 - [Übung: Reproduzierbarkeit Nationaler Bildungsbericht](/Markdown/7_1_Übung_Reproduzierbarkeit.ipynb)
 - [Übung: Zeitreihe Personalentwicklung](/Markdown/7_2_Übung_Zeitreihe.ipynb)
-- [Resümee Datenmanipulation](/Markdown/7_3_Resümee_Datenmanipulation2.md)
+- [Resümee Datenaufbereitung2](/Markdown/7_3_Resümee_Datenaufbereitung2.md)
 
 +++
 *Wir befinden uns im letzten Kapitel dieser Fallstudie:*

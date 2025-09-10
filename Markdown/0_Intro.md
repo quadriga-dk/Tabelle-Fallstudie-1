@@ -49,7 +49,7 @@ Um diese zu beantworten, vermittelt dieses Lehrbuch Kenntnisse in Bezug auf qual
 
 ## Bedeutung dieses Lehrbuchs für die Verwaltungswissenschaft
 
-Neben der Verwendung statistischer Daten gewinnt die Nachnutzung von Forschungsdaten in der Verwaltungswissenschaft zunehmend an Bedeutung. Die in diesem interaktiven Lehrbuch erlernbaren Tools helfen dabei, die Reproduzierbarkeit von Analysen und Ergebnissen zu prüfen und zu bewerten. Durch die hier gezeigten Schritte der Datenmanipulation lassen sich zudem Tabellen bereinigen, um so weitere datengetriebene Analysen durchzuführen.
+Neben der Verwendung statistischer Daten gewinnt die Nachnutzung von Forschungsdaten in der Verwaltungswissenschaft zunehmend an Bedeutung. Die in diesem interaktiven Lehrbuch erlernbaren Tools helfen dabei, die Reproduzierbarkeit von Analysen und Ergebnissen zu prüfen und zu bewerten. Durch die hier gezeigten Schritte der Datenaufbereitung lassen sich zudem Tabellen bereinigen, um so weitere datengetriebene Analysen durchzuführen.
 
 ## Zielgruppe und Vorkenntnisse
 
