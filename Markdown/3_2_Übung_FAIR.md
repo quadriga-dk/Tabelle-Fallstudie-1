@@ -23,7 +23,11 @@ from quadriga import colors
 (ÜbungFAIR)=
 # Übung FAIR-Prinzipien
 
-Um Daten auf ihre FAIRness zu prüfen, bieten sich Checklisten an. Diese Übung bezieht sich auf die Checkliste von Jones & Grootveld (2017){cite}`jones_how_2017`, die Sie unter folgendem Link bei Zenodo auf Englisch einsehen können: <a href="https://zenodo.org/records/5111307" class="external-link" target="_blank">https://zenodo.org/records/5111307</a>. Für diese Übung wurde das Dokument übersetzt.
+Um Daten auf ihre FAIRness zu prüfen, bieten sich Checklisten an. Diese Übung bezieht sich auf die Checkliste von Jones & Grootveld (2017){cite}`jones_how_2017`, die für diese Übung übersetzt wurde.
+
+---
+Lizenzhinweis: Checkliste „How FAIR are your data?” von <a href="https://orcid.org/0000-0002-5094-7126" class="external-link" target="_blank">Sarah Jones</a> und <a href="https://orcid.org/0000-0002-2789-322X" class="external-link" target="_blank">Marjan Grootveld</a> unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/legalcode" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://doi.org/10.5281/zenodo.5111307" class="external-link" target="_blank">Zenodo</a>.
+---
 
 Den Datensatz, also die Tabelle im Format XSLX, können Sie, wie im [Kapitel Datenbasis](Datenbasis) erwähnt, unter folgendem Link als zum Bildungsbericht zugehörigen Datensatz herunterladen: <a href="https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/bildung-in-deutschland-2022#10" class="external-link" target="_blank">https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/bildung-in-deutschland-2022#10</a>. Sie gehört zum Kapitel "H - Bildungspersonal: Struktur, Entwicklung, Qualität und Professionalisierung" und ist dort als "H1 - Personalbestand und Personalstruktur" gelistet. Ein Klick auf `(xlsx)` lädt automatisch die Excel-Tabelle herunter. Bitte beachten Sie, dass sie den Bildungsbericht für das Jahr **2022** öffnen. Die hier zu prüfende Tabelle ist der Reiter "H1-9web: Personal an Hochschulen 2010, 2012, 2014, 2016, 2018, 2019 und 2020 nach Personalgruppen und Hochschulart". 
 Alternativ finden Sie die Tabelle auch in unserem Repository: [Excel-Tabelle](Data/h1-anhang.xlsx).

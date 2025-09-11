@@ -23,7 +23,7 @@ Für diese Fallstudie ist die erstgenannte Abbildung H1-3 (s. Fig. 2.1) von Bede
 name: fig-wissenschaftliches-personal
 alt: Kreisdiagramme, die die Verteilung von wissenschaftlichem und künstlerischem Personal an Hochschulen zeigen.
 ---
-Abb. H1-3 aus dem nationalen Bildungsbericht 2022.
+Abb. H1-3 aus dem nationalen Bildungsbericht 2022, S. 259.
 ```
 
 Die Daten, die zur Erzeugung der Visualisierung verwendet wurden, finden sich im Reiter "H1-9web: Personal an Hochschulen 2010, 2012, 2014, 2016, 2018, 2019 und 2020 nach Personalgruppen und Hochschulart" der Excel-Tabelle (s. Fig. 2.2).  
