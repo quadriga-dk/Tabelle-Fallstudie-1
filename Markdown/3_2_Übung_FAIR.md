@@ -23,7 +23,7 @@ from quadriga import colors
 (ÜbungFAIR)=
 # Übung FAIR-Prinzipien
 
-Um Daten auf ihre FAIRness zu prüfen, bieten sich Checklisten an. Diese Übung bezieht sich auf die Checkliste von Jones & Grootveld (2017){cite}`jones_how_2017`, die für diese Übung übersetzt wurde.
+Um Daten auf ihre FAIRness zu prüfen, bieten sich Checklisten an. Diese Übung bezieht sich auf die Checkliste von Jones & Grootveld (2017) {cite}`jones_how_2017`, die für diese Übung übersetzt wurde.
 
 ---
 
