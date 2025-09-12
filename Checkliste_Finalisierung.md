@@ -8,8 +8,8 @@ lang: de-de
 - [x] Groblernziele (Kapitel)
 - [x] Feinlernziele (Kapitel) -> Blooms Taxonomie für kognitive Lernzielformulierung verwendet
 - [x] Geschätzter Workload pro Kapitel (1-3 Stunden) festgelegt
-- [ ] Geschätzter Workload pro Abschnitt (20-60 Minuten) festgelegt
-- [ ] Zugangswege definiert (Book-Only, Cloud, Local)
+- [x] Geschätzter Workload pro Abschnitt (20-60 Minuten) festgelegt
+- [x] Zugangswege definiert (Book-Only, Cloud, Local)
 
 ## Struktur
 - [x] Startseite
@@ -26,7 +26,7 @@ lang: de-de
   - [x] Einleitung
   - [x] Inhalt
   - [x] Resümee
-  - [ ] Assessment
+  - [x] Assessment
 - [x] Reflexion und Resümee
 - [x] Epilog
 
@@ -35,18 +35,18 @@ lang: de-de
 - [x] Fachliche Korrektheit überprüft
 - [x] Code-Beispiele (wenn skriptbasierte Sprache verwendet wird) kommentiert und verständlich
 - [x] Alle Fachbegriffe erklärt oder verlinkt
-- [ ] Optionale Kapitel kennzeichnen
+- [/] Optionale Kapitel kennzeichnen
 
 ## Assessment
-- [ ] Assessment pro Kapitel
-- [ ] Abschlussassessment für die OER als Ganzes
+- [x] Assessment pro Kapitel
+- [/] Abschlussassessment für die OER als Ganzes
 
 ## Technologie
 - [x] GitHub Action funktioniert
 - [x] Lokale Entwicklungsumgebung funktioniert
-- [ ] Colab funktioniert wie angedacht
-- [ ] Binder funktioniert wie angedacht
-- [ ] Live Code funktioniert wie angedacht
+- [x] Colab funktioniert wie angedacht
+- [x] Binder funktioniert wie angedacht
+- [x] Live Code funktioniert wie angedacht
 
 ## Formatierung / Typographie / Design
 - [x] Teile sollten in Kapitel geändert werden: Es erleichtert die Navigation
