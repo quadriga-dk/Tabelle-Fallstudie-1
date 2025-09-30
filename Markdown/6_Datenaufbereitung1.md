@@ -31,7 +31,7 @@ In diesem Kapitel finden Sie folgende Abschnitte:
 - [Datenstruktur](/Markdown/6_1_Datenstruktur.md)
 - [Übung: Arbeiten mit CSV-Dateien in R](/Markdown/6_2_Übung_Arbeiten_CSV_in_R.ipynb)
 - [Übung: Auswerten von CSV-Dateien in R](/Markdown/6_3_Übung_Auswertung_CSV_in_R.ipynb)
-- [Resümee Datenaufbereitung](/Markdown/6_4_Resümee_Datenmanipulation1.md)
+- [Resümee Datenaufbereitung](/Markdown/6_4_Resümee_Datenaufbereitung1.md)
 
 In diesem Kapitel werden Sie lernen wie Sie Daten aus einer CSV-Datei mithilfe der Programmiersprache R organisieren und strukturieren können.
 
