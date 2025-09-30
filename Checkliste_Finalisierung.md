@@ -35,11 +35,11 @@ lang: de-de
 - [x] Fachliche Korrektheit überprüft
 - [x] Code-Beispiele (wenn skriptbasierte Sprache verwendet wird) kommentiert und verständlich
 - [x] Alle Fachbegriffe erklärt oder verlinkt
-- [/] Optionale Kapitel kennzeichnen
+- [ ] Optionale Kapitel kennzeichnen
 
 ## Assessment
 - [x] Assessment pro Kapitel
-- [/] Abschlussassessment für die OER als Ganzes
+- [ ] Abschlussassessment für die OER als Ganzes
 
 ## Technologie
 - [x] GitHub Action funktioniert

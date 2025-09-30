@@ -23,8 +23,14 @@ from quadriga import colors
 # Übung PID
 
 
-Um das Kapitel Datenzitierung und Identifikatoren abzuschließen, können Sie Ihr Wissen hier in einem kleinen Quiz überprüfen.
+Um das Kapitel Identifikatoren abzuschließen, können Sie Ihr Wissen hier in einem kleinen Quiz überprüfen.
 Die Übung basiert auf einem Quiz von <a href="https://fair-office.at/index.php/pid/" class="external-link" target="_blank">FAIR Data Austria</a>, das mit CC BY 4.0 lizensiert ist. Unter dem Link können Sie bei Bedarf die Originalversion des Quiz' ausprobieren und sich ein erklärendes Video zum Thema PID ansehen, das von der RWTH Aachen erstellt wurde.
+
+---
+
+Lizenzhinweis: „Quiz” zum Thema Persistente Identifikatoren (PID) von <a href="https://fair-office.at/" class="external-link" target="_blank">FAIR Data Austria</a> unter der Lizenz <a href="https://creativecommons.org/licenses/by/4.0/deed.de" class="external-link" target="_blank">CC BY 4.0</a> via <a href="https://fair-office.at/pid/" class="external-link" target="_blank">FAIR Data Austria (2021) „Persistente Identifikatoren (PID)“</a>.
+
+---
 
 
 ````{code-cell} ipython3

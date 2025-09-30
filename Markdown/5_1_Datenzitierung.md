@@ -15,9 +15,13 @@ Eine allgemeine Richtlinie wurde von der so genannten Gruppe Force11 formuliert 
 
 ---
 
-Einen kurzen und verständlichen Überblick dazu, bietet dieses Video vom Forschungsdatenmanagement Bayern, das unter der <a href="https://www.youtube.com/t/creative_commons" class="external-link" target="_blank">Lizenz CC BY</a> auf Youtube veröffentlicht wurde: 
+Einen kurzen und verständlichen Überblick dazu, bietet das folgende Video vom Forschungsdatenmanagement Bayern: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WBiZydSV-m0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+Lizenzhinweis: Video „#06 Forschungsdaten zitieren | Forschungsdaten suchen & nachnutzen” von <a href="https://www.youtube.com/@forschungsdatenmanagementb4205" class="external-link" target="_blank">Forschungsdatenmanagement Bayern</a> unter der Lizenz <a href="https://support.google.com/youtube/answer/2797468" class="external-link" target="_blank">CC BY</a> via <a href="https://www.youtube.com/watch?v=WBiZydSV-m0" class="external-link" target="_blank">YouTube</a>.
 
 ---
 
