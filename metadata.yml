@@ -74,7 +74,7 @@ chapters:
     data-flow: nicht anwendbar
     competency: nicht anwendbar
     blooms-category: 2 Verstehen
-  supplemented-by: https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/bildung-in-deutschland-2022#10 
+  supplemented-by: https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/bildung-in-deutschland-2022#10
 - title: Datennachnutzung
   description: Dieses Kapitel befasst sich mit der Datennachnutzung und den FAIR-Prinzipien.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/05_Datennachnutzung.html
