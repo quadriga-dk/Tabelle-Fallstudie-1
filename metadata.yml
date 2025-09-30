@@ -67,20 +67,19 @@ chapters:
   description: Dieses Kapitel beschreibt die in dieser Fallstudie genutzten Daten.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/2_Datenbasis.html
   learning-goal: Forschungssfrage
-  duration: 5min
-  educational-level: Basis
+  duration: 5 Minuten
   learning-objectives:
   - learning-objective: Die Forschungsfrage kann erläutert und in einen Kontext mit
       dem Bildungsbericht gesetzt werden.
     data-flow: nicht anwendbar
     competency: nicht anwendbar
     blooms-category: 2 Verstehen
+  supplemented-by: https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/bildung-in-deutschland-2022#10 
 - title: Datennachnutzung
   description: Dieses Kapitel befasst sich mit der Datennachnutzung und den FAIR-Prinzipien.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/05_Datennachnutzung.html
-  learning goal: Grundsätze des Datenmanagements
-  duration: null
-  educational-level: Basis
+  learning-goal: Grundsätze des Datenmanagements
+  duration: 15 Minuten
   learning-objectives:
   - learning-objective: Die Bedeutung der vier FAIR-Prinzipien kann anhand eines konkreten
       Beispiels erläutert werden.
@@ -92,12 +91,12 @@ chapters:
     data-flow: Grundlagen
     competency: 1 Basiskompetenz
     blooms-category: 3 Anwenden
+  supplemented-by: https://doi.org/10.5281/zenodo.5111307
 - title: Qualitätsbewertung
   description: In diesem Kapitel stehen die Kriterien der Qualitätsbewertung im Mittelpunkt.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Qualit%C3%A4tsbewertung.html
   learning-goal: Sicherstellen der Qualität von Datensätzen
-  duration: null
-  educational-level: Basis
+  duration: 30 Minuten
   learning-objectives:
   - learning-objective: Die Bedeutung zentraler Qualitätskriterien für Datensätze
       kann für die Forschung erläutert werden.
@@ -114,13 +113,13 @@ chapters:
     data-flow: Planung
     competency: 3 Qualitätssicherung
     blooms-category: 3 Anwenden
+  supplemented-by: https://www.youtube.com/watch?v=Nb_cLObVKho, https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl
 - title: Identifikatoren
   description: Dieses Kapitel behandelt Identifikatoren der eindeutigen und persistenten
     Auszeichnung von Daten sowie das Zitieren von Forschungsdaten.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Identifikatoren.html
   learning-goal: Datenzitierung und PID
-  duration: null
-  educational-level: Basis
+  duration: 25 Minuten
   learning-objectives:
   - learning-objective: Die allgemein anerkannten Methoden der Datenzitierung können
       beschrieben werden.
@@ -137,14 +136,14 @@ chapters:
     data-flow: Publikation und Nachnutzung
     competency: 14 Datenpublikation
     blooms-category: 2 Verstehen
-- title: Organisation und Strukturierung
+  supplemented-by: https://www.youtube.com/watch?v=WBiZydSV-m0, https://fair-office.at/pid/
+- title: Datenaufbereitung I - Organisation und Strukturierung
   description: Dieses Kapitel widmet sich der Datenmanipulation als ein entscheidender
     Bestandteil, um die Qualität und den Aufbau von Datensätzen zu evaluieren und
     zu verbessern.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation1.html
   learning-goal: Datenaufbereitung und -strukturierung
-  duration: null
-  educational-level: Basis
+  duration: 60 Minuten
   learning-objectives:
   - learning-objective: Die Bedeutung von Datenaufbereitung kann erläutert werden.
     data-flow: Erhebung und Aufbereitung
@@ -160,13 +159,13 @@ chapters:
     data-flow: Erhebung und Aufbereitung
     competency: 7 Aufbereitung
     blooms-category: 3 Anwenden
-- title: Analyse und Reproduzierbarkeit
+  supplemented-by: https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl
+- title: Datenaufbereitung II - Analyse und Reproduzierbarkeit
   description: Dieses Kapitel widmet sich der Datenanalyse und -reproduzierbarkeit
     mit Hilfe der Programmiersprache R.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation2.html
   learning-goal: Datenanalyse und -reproduzierbarkeit
-  duration: null
-  educational-level: Basis
+  duration: 60 Minuten
   learning-objectives:
   - learning-objective: Die Wichtigkeit einer sorgfältigen Dokumentation bei der Durchführung
       einer deskriptiven Analyse kann beschrieben werden.
@@ -179,12 +178,13 @@ chapters:
     data-flow: Analyse
     competency: 10 Datenanalyse
     blooms-category: 2 Verstehen
+  supplemented-by: https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl
 target-group:
 - Forschende (PostDoc)
 - Forschende (Projektleitung)
 - Promovierende
 - Hochschullehrende
-duration: 4h
+duration: 3 Stunden 15 Minuten
 date-published: 2024-06-13
 date-modified: 2025-03-24
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
