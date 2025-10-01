@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0-alpha/schema.json
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0-beta/schema.json
 schema-version: 1.0.0-beta
 book-version: 1.0.0-beta.2
 title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen
