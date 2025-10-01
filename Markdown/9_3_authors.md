@@ -4,7 +4,7 @@ lang: de-DE
 (authors)=
 # Autor:innen
 
-## Autor:innen der Inhalte
+## Autor:innen der Inhalte (creator)
 
 ### Jana Plomin <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
@@ -71,7 +71,7 @@ lang: de-DE
 </table>
 
 
-## Weitere Beteiligte  
+## Weitere Beteiligte  (contributor)
 
 
 ### Philip Wiemer
@@ -162,20 +162,10 @@ lang: de-DE
 </tr>
 <tr>
 <td><b>Einrichtung:</b></td>
-<td>Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS</td>
+<td>Technische Universität Berlin</td>
 </tr>
 <tr>
 <td><b>GitHub:</b></td>
 <td><a href="https://github.com/SchenbergZY" class="external-link" target="_blank">SchenbergZY</a></td>
 </tr>
 </table>  
-
-
-## Danksagung
-
-Wir danken folgenden Gruppen, Institutionen und Einrichtungen für die Nachnutzung ihrer Werke:
-
-- <a href="https://www.bildungsbericht.de/de/autor-innengruppe-bildungsbericht/autorengruppe" target="_blank">Autor:innengruppe Bildungsbericht</a>  
-- <a href="https://www.fdm-bayern.org/" target="_blank">Forschungsdatenmanagement Bayern</a>  
-- <a href="https://fair-office.at/" target="_blank">Go Fair Austria</a>  
-- <a href="https://odis-berlin.de/" target="_blank">Open Data Informationsstelle Berlin</a>  
