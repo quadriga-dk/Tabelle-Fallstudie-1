@@ -30,7 +30,7 @@ identifiers:
   value: 10.5281/zenodo.14975202
   description: Zenodo
 repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
-url: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
+url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
 keywords:
 - Open Educational Resource
 - Verwaltungswissenschaft
@@ -49,7 +49,7 @@ preferred-citation:
     Bildungsbericht. QUADRIGA Open Educational Resources: Tabelle 1'
   type: software
   doi: 10.5281/zenodo.14975202
-  url: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
+  url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
   repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
   license: CC-BY-SA-4.0
   languages:
