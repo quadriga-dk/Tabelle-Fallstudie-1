@@ -259,14 +259,16 @@ duration: 3 Stunden 15 Minuten
 date-published: 2024-06-13
 date-modified: 2025-03-24
 keywords:
-- Verwaltung
-- Tabelle
-- Public Sector
-- Open Educational Resource
+- de: Verwaltung
+- de: Verwaltungswissenschaft
+- de: Tabelle
+- de: Lerneinheit
+- en: Public Sector
+- en: Open Educational Resource
 language: de
 quality-assurance:
 - person: Paul Walter
-  date: 2025-10-01
+- date: 2025-10-01
 learning-resource-type: Jupyter Book
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
   Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
