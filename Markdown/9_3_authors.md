@@ -4,7 +4,7 @@ lang: de-DE
 (authors)=
 # Autor:innen
 
-## Autor:innen der Inhalte (creator)
+## Autor:innen
 
 ### Jana Plomin <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
@@ -71,20 +71,8 @@ lang: de-DE
 </table>
 
 
-## Weitere Beteiligte  (contributor)
+## Weitere Beteiligte
 
-
-### Philip Wiemer
-<table style="margin-left: 0">
-<tr>
-<td><b>Rolle in QUADRIGA:</b></td>
-<td>Testen und Iteration, Qualitätssicherung</td>
-</tr>
-<tr>
-<td><b>Einrichtung:</b></td>
-<td>Fachhochschule Potsdam, Fachbereich Informationswissenschaften</td>
-</tr>
-</table>  
 
 ### Hannes Schnaitter <span style="font-size:8pt">(er/ihm/sein)</span> <a href="https://orcid.org/0000-0002-1602-6032" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
@@ -169,3 +157,51 @@ lang: de-DE
 <td><a href="https://github.com/SchenbergZY" class="external-link" target="_blank">SchenbergZY</a></td>
 </tr>
 </table>  
+
+### Philip Wiemer
+<table style="margin-left: 0">
+<tr>
+<td><b>Beitrag zu dieser Fallstudie:</b></td>
+<td>Testen und Iteration, Qualitätssicherung</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Fachhochschule Potsdam, Fachbereich Informationswissenschaften</td>
+</tr>
+</table> 
+
+### Melanie Seltmann <a href="https://orcid.org/0000-0002-7588-4395" target="_blank">![](../assets/ORCID-iD_icon-16x16.png)</a>
+<table style="margin-left: 0">
+<tr>
+<td><b>Beitrag zu dieser Fallstudie:</b></td>
+<td>Review</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft</td>
+</tr>
+</table>
+
+### Henny Sluyter-Gäthje <a href="https://orcid.org/0000-0003-2969-3237" target="_blank">![](../assets/ORCID-iD_icon-16x16.png)</a>
+<table style="margin-left: 0">
+<tr>
+<td><b>Beitrag zu dieser Fallstudie:</b></td>
+<td>Review</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Universität Potsdam</td>
+</tr>
+</table>
+
+### Jan Bernoth <a href="https://orcid.org/0000-0002-4127-0053" target="_blank">![](../assets/ORCID-iD_icon-16x16.png)</a>
+<table style="margin-left: 0">
+<tr>
+<td><b>Beitrag zu dieser Fallstudie:</b></td>
+<td>Review</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Universität Potsdam</td>
+</tr>
+</table>
