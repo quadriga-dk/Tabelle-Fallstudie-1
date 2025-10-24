@@ -165,17 +165,17 @@ chapters:
   learning-objectives:
   - learning-objective: Die Bedeutung zentraler Qualitätskriterien für Datensätze
       kann für die Forschung erläutert werden.
-    data-flow: Planung
+    data-flow: 1 Planung
     competency: 2 Qualitätssicherung
     blooms-category: 2 Verstehen
   - learning-objective: Die Vor- und Nachteile zwischen XLSX- und CSV-Dateiformaten
       können für verschiedene Anwendungsfälle aufgezeigt werden.
-    data-flow: Planung
+    data-flow: 1 Planung
     competency: 2 Qualitätssicherung
     blooms-category: 2 Verstehen
   - learning-objective: Die Qualität eines gegebenen Datensatzes kann anhand einer
       Checkliste bewertet werden.
-    data-flow: Planung
+    data-flow: 1 Planung
     competency: 2 Qualitätssicherung
     blooms-category: 3 Anwenden
   supplemented-by:
@@ -190,17 +190,17 @@ chapters:
   learning-objectives:
   - learning-objective: Die allgemein anerkannten Methoden der Datenzitierung können
       beschrieben werden.
-    data-flow: Planung
+    data-flow: 1 Planung
     competency: 3 Ethik und Recht
     blooms-category: 2 Verstehen
   - learning-objective: Die Rolle von Persistenten Identifikatoren (PIDs) in der Datenzitierung
       kann erläutert werden.
-    data-flow: Publikation und Nachnutzung
+    data-flow: 5 Publikation und Nachnutzung
     competency: 13 Datenpublikation
     blooms-category: 2 Verstehen
   - learning-objective: Die spezifischen Einsatzbereiche verschiedener Arten von PIDs
       (z.B. DOI, ORCID) können erklärt werden.
-    data-flow: Publikation und Nachnutzung
+    data-flow: 5 Publikation und Nachnutzung
     competency: 13 Datenpublikation
     blooms-category: 2 Verstehen
   supplemented-by:
@@ -215,17 +215,17 @@ chapters:
   duration: 60 Minuten
   learning-objectives:
   - learning-objective: Die Bedeutung von Datenaufbereitung kann erläutert werden.
-    data-flow: Erhebung und Aufbereitung
+    data-flow: 2 Erhebung und Aufbereitung
     competency: 5 Validierung
     blooms-category: 2 Verstehen
   - learning-objective: Die Anwendung spezifischer Aufbereitungstechniken auf einen
       gegebenen Datensatz kann beschrieben werden.
-    data-flow: Erhebung und Aufbereitung
+    data-flow: 2 Erhebung und Aufbereitung
     competency: 6 Aufbereitung
     blooms-category: 2 Verstehen
   - learning-objective: Die Bedeutung einer klaren Datenstruktur für effektive Datenaufbereitung
       kann anhand eines Beispiels demonstriert werden.
-    data-flow: Erhebung und Aufbereitung
+    data-flow: 2 Erhebung und Aufbereitung
     competency: 6 Aufbereitung
     blooms-category: 3 Anwenden
   supplemented-by:
@@ -239,13 +239,13 @@ chapters:
   learning-objectives:
   - learning-objective: Die Wichtigkeit einer sorgfältigen Dokumentation bei der Durchführung
       einer deskriptiven Analyse kann beschrieben werden.
-    data-flow: Analyse
+    data-flow: 5 Analyse
     competency: 9 Datenanalyse
     blooms-category: 2 Verstehen
   - learning-objective: Anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit)
       können mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte
       erläutert werden.
-    data-flow: Analyse
+    data-flow: 5 Analyse
     competency: 9 Datenanalyse
     blooms-category: 2 Verstehen
   supplemented-by:
@@ -258,6 +258,15 @@ target-group:
 duration: 3 Stunden 15 Minuten
 date-published: 2024-06-13
 date-modified: 2025-03-24
+quality-assurance: 
+  person: Paul Walter
+  date: 2025-10-30
+  description: 
+  - 
+prerequisites:
+- allgemeines Verständnis von / Interesse an Struktur von Datensätzen, Datenkonzepten, Metadaten und Datendokumentationen
+- Verständnis für Statistik und statistische Software bzw. für das Programmieren empfohlen
+- Grundlegende Kenntnisse in R oder anderen Programmiersprachen von Vorteil
 keywords:
 - de: Verwaltung
 - de: Verwaltungswissenschaft
@@ -279,7 +288,9 @@ context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch d
   Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
 git: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
 url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
-used-tools: R (Computer program language), http://id.loc.gov/authorities/subjects/sh2002004407
+used-tools: 
+- R (Computer program language), http://id.loc.gov/authorities/subjects/sh2002004407
+- RStudio, https://posit.co/download/rstudio-desktop/
 license:
   code: https://opensource.org/licenses/AGPL-3.0
   content:
