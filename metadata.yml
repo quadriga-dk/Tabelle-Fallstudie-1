@@ -265,6 +265,11 @@ keywords:
 - de: Lerneinheit
 - en: Public Sector
 - en: Open Educational Resource
+- de: FAIR-Prinzipien
+- de: Datenqualität
+- de: Persistente Identifikatoren
+- de: Reproduzierbarkeit
+- de: R (Programmiersprache)
 language: de
 quality-assurance:
 - person: Paul Walter
@@ -274,6 +279,7 @@ context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch d
   Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
 git: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
 url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
+used-tools: R (Computer program language), http://id.loc.gov/authorities/subjects/sh2002004407
 license:
   code: https://opensource.org/licenses/AGPL-3.0
   content:
