@@ -258,13 +258,12 @@ target-group:
 duration: 3 Stunden 15 Minuten
 date-published: 2024-06-13
 date-modified: 2025-03-24
-quality-assurance: 
-  person: Paul Walter
-  date: 2025-10-30
-  description: 
-  - 
+quality-assurance:
+- person: Paul Walter
+- date: 2025-10-01
 prerequisites:
-- allgemeines Verständnis von / Interesse an Struktur von Datensätzen, Datenkonzepten, Metadaten und Datendokumentationen
+- allgemeines Verständnis von / Interesse an Struktur von Datensätzen, Datenkonzepten,
+  Metadaten und Datendokumentationen
 - Verständnis für Statistik und statistische Software bzw. für das Programmieren empfohlen
 - Grundlegende Kenntnisse in R oder anderen Programmiersprachen von Vorteil
 keywords:
@@ -280,15 +279,12 @@ keywords:
 - de: Reproduzierbarkeit
 - de: R (Programmiersprache)
 language: de
-quality-assurance:
-- person: Paul Walter
-- date: 2025-10-01
 learning-resource-type: Jupyter Book
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
   Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
 git: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
 url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
-used-tools: 
+used-tools:
 - R (Computer program language), http://id.loc.gov/authorities/subjects/sh2002004407
 - RStudio, https://posit.co/download/rstudio-desktop/
 license:
