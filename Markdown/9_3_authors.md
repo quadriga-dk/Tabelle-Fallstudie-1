@@ -170,7 +170,19 @@ lang: de-DE
 </tr>
 </table> 
 
-### Melanie Seltmann <a href="https://orcid.org/0000-0002-7588-4395" target="_blank">![](../assets/ORCID-iD_icon-16x16.png)</a>
+### Jan Bernoth <a href="https://orcid.org/0000-0002-4127-0053" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+<table style="margin-left: 0">
+<tr>
+<td><b>Beitrag zu dieser Fallstudie:</b></td>
+<td>Review</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Universität Potsdam</td>
+</tr>
+</table>
+
+### Melanie Seltmann <a href="https://orcid.org/0000-0002-7588-4395" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
 <td><b>Beitrag zu dieser Fallstudie:</b></td>
@@ -182,7 +194,7 @@ lang: de-DE
 </tr>
 </table>
 
-### Henny Sluyter-Gäthje <a href="https://orcid.org/0000-0003-2969-3237" target="_blank">![](../assets/ORCID-iD_icon-16x16.png)</a>
+### Henny Sluyter-Gäthje <a href="https://orcid.org/0000-0003-2969-3237" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
 <td><b>Beitrag zu dieser Fallstudie:</b></td>
@@ -194,14 +206,26 @@ lang: de-DE
 </tr>
 </table>
 
-### Jan Bernoth <a href="https://orcid.org/0000-0002-4127-0053" target="_blank">![](../assets/ORCID-iD_icon-16x16.png)</a>
+### Vivien Petras <a href="https://orcid.org/0000-0002-8113-1509" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
 <table style="margin-left: 0">
 <tr>
 <td><b>Beitrag zu dieser Fallstudie:</b></td>
-<td>Review</td>
+<td>Funding acquisition</td>
 </tr>
 <tr>
 <td><b>Einrichtung:</b></td>
-<td>Universität Potsdam</td>
+<td>Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft</td>
+</tr>
+</table>
+
+### Heike Neuroth <a href="https://orcid.org/0000-0002-3637-3154" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+<table style="margin-left: 0">
+<tr>
+<td><b>Beitrag zu dieser Fallstudie:</b></td>
+<td>Conceptualization, Funding acquisition</td>
+</tr>
+<tr>
+<td><b>Einrichtung:</b></td>
+<td>Fachhochschule Potsdam</td>
 </tr>
 </table>
