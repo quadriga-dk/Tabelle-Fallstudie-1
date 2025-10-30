@@ -1,0 +1,114 @@
+{
+  "upload_type": "lesson",
+  "title": "Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht. QUADRIGA Open Educational Resources: Tabelle 1",
+  "creators": [
+    {
+      "name": "Plomin, Jana",
+      "affiliation": "Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS",
+      "orcid": "0000-0003-0127-7493"
+    },
+    {
+      "name": "Schmeling, Juliane",
+      "affiliation": "Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS",
+      "orcid": "0009-0005-9814-1139"
+    },
+    {
+      "name": "Walter, Paul",
+      "affiliation": "Fachhochschule Potsdam",
+      "orcid": "0000-0002-9236-3268"
+    },
+    {
+      "name": "Schulze, Anton",
+      "affiliation": "Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS"
+    }
+  ],
+  "description": "Diese Fallstudie geht auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen ein. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.",
+  "publication_date": "2025-03-24",
+  "keywords": [
+    "Verwaltung",
+    "Verwaltungswissenschaft",
+    "Tabelle",
+    "Lerneinheit",
+    "Public Sector",
+    "Open Educational Resource",
+    "FAIR-Prinzipien",
+    "Datenqualität",
+    "Persistente Identifikatoren",
+    "Reproduzierbarkeit",
+    "R (Programmiersprache)"
+  ],
+  "license": "CC-BY-SA-4.0",
+  "language": "deu",
+  "contributors": [
+    {
+      "name": "Schnaitter, Hannes",
+      "type": "Other",
+      "affiliation": "Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft",
+      "orcid": "0000-0002-1602-6032"
+    },
+    {
+      "name": "Samoilova, Evgenia",
+      "type": "Other",
+      "affiliation": "Universität Potsdam",
+      "orcid": "0000-0003-3858-901X"
+    },
+    {
+      "name": "Schneemann, Carsten",
+      "type": "Other",
+      "affiliation": "Fachhochschule Potsdam"
+    },
+    {
+      "name": "Islam, Lamia",
+      "type": "Other",
+      "affiliation": "Universität Potsdam"
+    },
+    {
+      "name": "Zhang, Yue",
+      "type": "Other",
+      "affiliation": "Technische Universität Berlin"
+    },
+    {
+      "name": "Wiemer, Philip",
+      "type": "Other",
+      "affiliation": "Fachhochschule Potsdam"
+    },
+    {
+      "name": "Bernoth, Jan",
+      "type": "Other",
+      "affiliation": "Universität Potsdam"
+    },
+    {
+      "name": "Sluyther-Gäthhje, Henny",
+      "type": "Other",
+      "affiliation": "Universität Potsdam"
+    },
+    {
+      "name": "Petras, Vivien",
+      "type": "Other",
+      "affiliation": "Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft"
+    },
+    {
+      "name": "Neuroth, Heike",
+      "type": "Other",
+      "affiliation": "Fachhochschule Potsdam"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/quadriga-dk/Tabelle-Fallstudie-1",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html",
+      "relation": "isAlternateIdentifier",
+      "scheme": "url"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "quadriga"
+    }
+  ],
+  "version": "1.0.0-beta.2"
+}

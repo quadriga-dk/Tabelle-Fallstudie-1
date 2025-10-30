@@ -1,5 +1,5 @@
-# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0-beta/schema.json
-schema-version: 1.0.0-beta
+# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
+schema-version: 1.0.0
 book-version: 1.0.0-beta.2
 title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen
   Bildungsbericht. QUADRIGA Open Educational Resources: Tabelle 1'
@@ -239,13 +239,13 @@ chapters:
   learning-objectives:
   - learning-objective: Die Wichtigkeit einer sorgfältigen Dokumentation bei der Durchführung
       einer deskriptiven Analyse kann beschrieben werden.
-    data-flow: 5 Analyse
+    data-flow: 4 Analyse
     competency: 9 Datenanalyse
     blooms-category: 2 Verstehen
   - learning-objective: Anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit)
       können mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte
       erläutert werden.
-    data-flow: 5 Analyse
+    data-flow: 4 Analyse
     competency: 9 Datenanalyse
     blooms-category: 2 Verstehen
   supplemented-by:
@@ -260,12 +260,14 @@ date-published: 2024-06-13
 date-modified: 2025-03-24
 quality-assurance:
 - person: Paul Walter
-- date: 2025-10-01
+  description: TODO
+  date: 2025-10-01
 prerequisites:
-- allgemeines Verständnis von / Interesse an Struktur von Datensätzen, Datenkonzepten,
-  Metadaten und Datendokumentationen
-- Verständnis für Statistik und statistische Software bzw. für das Programmieren empfohlen
-- Grundlegende Kenntnisse in R oder anderen Programmiersprachen von Vorteil
+- description: allgemeines Verständnis von / Interesse an Struktur von Datensätzen,
+    Datenkonzepten, Metadaten und Datendokumentationen
+- description: Verständnis für Statistik und statistische Software bzw. für das Programmieren
+    empfohlen
+- description: Grundlegende Kenntnisse in R oder anderen Programmiersprachen von Vorteil
 keywords:
 - de: Verwaltung
 - de: Verwaltungswissenschaft
@@ -281,7 +283,10 @@ keywords:
 language: de
 learning-resource-type: Jupyter Book
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
-  Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
+  Datenkompetenzzentrum QUADRIGA erstellt.
+
+
+  Förderkennzeichen: 16DKZ2034'
 git: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
 url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
 used-tools:

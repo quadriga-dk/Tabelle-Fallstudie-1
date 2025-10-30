@@ -1,19 +1,20 @@
-#!/usr/bin/env python3
 """
-Updates book-version and date-of-last-change in metadata.yml based on git tag.
+Updates book-version and date-modified in metadata.yml based on git tag.
 """
+
 import logging
-import sys
 import os
+import sys
 from datetime import datetime
-from .utils import load_yaml_file, save_yaml_file, get_file_path
+
+from .utils import get_file_path, load_yaml_file, save_yaml_file
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 
 def update_version_from_tag():
     """
-    Updates book-version and date-of-last-change in metadata.yml from git tag.
+    Updates book-version and date-modified in metadata.yml from git tag.
 
     Expects the version to be passed via environment variable TAG_VERSION.
 
@@ -24,9 +25,7 @@ def update_version_from_tag():
         # Get version from environment variable (set by GitHub Actions)
         version = os.environ.get("TAG_VERSION")
         if not version:
-            logging.info(
-                "No TAG_VERSION environment variable found - skipping version update"
-            )
+            logging.info("No TAG_VERSION environment variable found - skipping version update")
             return True
 
         logging.info(f"Updating metadata for version: {version}")
@@ -53,30 +52,26 @@ def update_version_from_tag():
         if current_version != version:
             metadata["book-version"] = version
             updates_made = True
-            logging.info(
-                f"Updated book-version from '{current_version}' to '{version}'"
-            )
+            logging.info(f"Updated book-version from '{current_version}' to '{version}'")
         else:
             logging.info(f"book-version already matches tag version: {version}")
 
-        # Update date-of-last-change
+        # Update date-modified
         current_date = datetime.now().strftime("%Y-%m-%d")
-        old_date = metadata.get("date-of-last-change")
+        old_date = metadata.get("date-modified")
         if old_date != current_date:
-            metadata["date-of-last-change"] = current_date
+            metadata["date-modified"] = current_date
             updates_made = True
-            logging.info(
-                f"Updated date-of-last-change from '{old_date}' to '{current_date}'"
-            )
+            logging.info(f"Updated date-modified from '{old_date}' to '{current_date}'")
         else:
-            logging.info(f"date-of-last-change already current: {current_date}")
+            logging.info(f"date-modified already current: {current_date}")
 
         # Save if updates were made
         if updates_made:
             success = save_yaml_file(
                 metadata_path,
                 metadata,
-                schema_comment="# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/schema.json",
+                schema_comment="# yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json",
             )
             if success:
                 logging.info("Successfully updated metadata.yml")

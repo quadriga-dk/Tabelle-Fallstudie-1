@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Updates the CITATION.cff file with metadata from metadata.yml.
 
@@ -7,10 +6,12 @@ fields in 'CITATION.cff'. It handles fields like title, authors, URL,
 repository URL, and publication date. It also ensures that the
 'preferred-citation' section, if present, is updated consistently.
 """
+
 import logging
 import sys
 from pathlib import Path
-from .utils import load_yaml_file, save_yaml_file, get_file_path
+
+from .utils import extract_keywords, get_file_path, load_yaml_file, save_yaml_file
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
@@ -28,19 +29,18 @@ def update_citation():
         'CITATION.cff' if a matching author (by given and family names) is found.
     5.  Saves the updated data back to 'CITATION.cff', including a schema comment.
 
-    Returns:
+    Returns
+    -------
         bool: True if successful, False otherwise.
     """
     try:
         # Define file paths
         try:
-            repo_root = get_file_path(
-                ""
-            )  # Get repo root by providing empty relative path
+            repo_root = get_file_path("")  # Get repo root by providing empty relative path
             metadata_path = get_file_path("metadata.yml", repo_root)
             citation_cff_path = get_file_path("CITATION.cff", repo_root)
         except Exception as e:
-            logging.error(f"Failed to resolve file paths: {str(e)}")
+            logging.exception(f"Failed to resolve file paths: {e!s}")
             return False
 
         # Check if files exist
@@ -83,17 +83,13 @@ def update_citation():
         if "book-version" in metadata:
             citation_data["version"] = metadata["book-version"]
             if "preferred-citation" in citation_data:
-                citation_data["preferred-citation"]["version"] = metadata[
-                    "book-version"
-                ]
+                citation_data["preferred-citation"]["version"] = metadata["book-version"]
             updates_made = True
-            logging.info(f"Updated version to: {metadata["book-version"]}")
+            logging.info(f"Updated version to: {metadata['book-version']}")
         else:
-            logging.warning(
-                "No book version found in metadata.yml, skipping version update"
-            )
+            logging.warning("No book version found in metadata.yml, skipping version update")
 
-        if "authors" in metadata and metadata["authors"]:
+        if metadata.get("authors"):
             try:
                 # Convert metadata authors format to citation authors format
                 citation_authors = []
@@ -130,16 +126,14 @@ def update_citation():
 
                     # Also update preferred-citation if it exists
                     if "preferred-citation" in citation_data:
-                        citation_data["preferred-citation"][
-                            "authors"
-                        ] = citation_authors
+                        citation_data["preferred-citation"]["authors"] = citation_authors
 
                     updates_made = True
                     logging.info(f"Updated {len(citation_authors)} authors")
                 else:
                     logging.warning("Failed to process authors from metadata.yml")
             except Exception as e:
-                logging.error(f"Error processing authors: {str(e)}")
+                logging.exception(f"Error processing authors: {e!s}")
         else:
             logging.warning("No authors found in metadata.yml")
 
@@ -159,27 +153,40 @@ def update_citation():
             updates_made = True
             logging.info(f"Updated repository-code to: {metadata['git']}")
 
-        # Update publication year based on date-of-last-change or publication-date
-        # Prefer newer date-of-last-change, if available
+        # Update publication year based on date-modified or date-published
+        # Prefer newer date-modified, if available
         year_source = None
         year_value = None
 
-        if "date-of-last-change" in metadata:
-            date_str = metadata["date-of-last-change"]
+        if "date-modified" in metadata:
+            date_str = metadata["date-modified"]
             if isinstance(date_str, str) and len(date_str) >= 4:
                 year_value = date_str[:4]
-                year_source = "date-of-last-change"
-        elif "publication-date" in metadata:
-            date_str = metadata["publication-date"]
+                year_source = "date-modified"
+        elif "date-published" in metadata:
+            date_str = metadata["date-published"]
             if isinstance(date_str, str) and len(date_str) >= 4:
                 year_value = date_str[:4]  # Extract year from YYYY-MM-DD
-                year_source = "publication-date"
+                year_source = "date-published"
         if year_value and "preferred-citation" in citation_data:
             citation_data["preferred-citation"]["year"] = year_value
             updates_made = True
-            logging.info(
-                f"Updated publication year to: {year_value} (from {year_source})"
-            )
+            logging.info(f"Updated publication year to: {year_value} (from {year_source})")
+
+        # Update keywords if present in metadata
+        # Extract keywords to flatten any language-keyed formats
+        if metadata.get("keywords"):
+            flattened_keywords = extract_keywords(metadata["keywords"])
+            if flattened_keywords:
+                citation_data["keywords"] = flattened_keywords
+                if "preferred-citation" in citation_data:
+                    citation_data["preferred-citation"]["keywords"] = flattened_keywords
+                updates_made = True
+                logging.info(f"Updated keywords with {len(flattened_keywords)} items")
+            else:
+                logging.warning("Keywords found in metadata.yml but could not be extracted")
+        else:
+            logging.warning("No keywords found in metadata.yml")
 
         # No changes
         if not updates_made:
@@ -195,7 +202,7 @@ def update_citation():
         return success
 
     except Exception as e:
-        logging.exception(f"Unexpected error in update_citation: {str(e)}")
+        logging.exception(f"Unexpected error in update_citation: {e!s}")
         return False
 
 
