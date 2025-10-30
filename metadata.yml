@@ -156,16 +156,18 @@ chapters:
   learning-goal: Grundsätze des Datenmanagements
   duration: 15 Minuten
   learning-objectives:
-  - learning-objective: "Die Bedeutung der vier FAIR-Prinzipien kann anhand eines konkreten Beispiels erläutert werden."
+  - learning-objective: Die Bedeutung der vier FAIR-Prinzipien kann anhand eines konkreten
+      Beispiels erläutert werden.
     data-flow: übergreifend
     competency: Orientierungswissen
     blooms-category: 2 Verstehen
-    assessment: "Multiple-Choice-Quiz, Reflexionsfragen" 
-  - learning-objective: "Die FAIRness eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden."
+    assessment: Multiple-Choice-Quiz, Reflexionsfragen
+  - learning-objective: Die FAIRness eines gegebenen Datensatzes kann anhand einer
+      Checkliste bewertet werden.
     data-flow: übergreifend
     competency: Orientierungswissen
     blooms-category: 3 Anwenden
-    assessment: "Multiple-Choice-Quiz, Reflexionsfragen"
+    assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
   - https://doi.org/10.5281/zenodo.5111307
 - title: Qualitätsbewertung
@@ -179,19 +181,19 @@ chapters:
     data-flow: 1 Planung
     competency: 2 Qualitätssicherung
     blooms-category: 2 Verstehen
-    assessment: "Multiple-Choice-Quiz, Reflexionsfragen" 
+    assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Vor- und Nachteile zwischen XLSX- und CSV-Dateiformaten
       können für verschiedene Anwendungsfälle aufgezeigt werden.
     data-flow: 1 Planung
     competency: 2 Qualitätssicherung
     blooms-category: 2 Verstehen
-    assessment: "Multiple-Choice-Quiz, Reflexionsfragen" 
+    assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Qualität eines gegebenen Datensatzes kann anhand einer
       Checkliste bewertet werden.
     data-flow: 1 Planung
     competency: 2 Qualitätssicherung
     blooms-category: 3 Anwenden
-    assessment: "Multiple-Choice-Quiz, Reflexionsfragen" 
+    assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
   - https://www.youtube.com/watch?v=Nb_cLObVKho
   - https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl
@@ -207,19 +209,19 @@ chapters:
     data-flow: 1 Planung
     competency: 3 Ethik und Recht
     blooms-category: 2 Verstehen
-    assessment: "Multiple-Choice-Quiz, Reflexionsfragen" 
+    assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Rolle von Persistenten Identifikatoren (PIDs) in der Datenzitierung
       kann erläutert werden.
     data-flow: 5 Publikation und Nachnutzung
     competency: 13 Datenpublikation
     blooms-category: 2 Verstehen
-    assessment: "Multiple-Choice-Quiz, Reflexionsfragen" 
+    assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die spezifischen Einsatzbereiche verschiedener Arten von PIDs
       (z.B. DOI, ORCID) können erklärt werden.
     data-flow: 5 Publikation und Nachnutzung
     competency: 13 Datenpublikation
     blooms-category: 2 Verstehen
-    assessment: "Multiple-Choice-Quiz, Reflexionsfragen" 
+    assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
   - https://www.youtube.com/watch?v=WBiZydSV-m0
   - https://fair-office.at/pid/
@@ -235,19 +237,19 @@ chapters:
     data-flow: 2 Erhebung und Aufbereitung
     competency: 5 Validierung
     blooms-category: 2 Verstehen
-    assessment: "Multiple-Choice-Quiz, Reflexionsfragen" 
+    assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Anwendung spezifischer Aufbereitungstechniken auf einen
       gegebenen Datensatz kann beschrieben werden.
     data-flow: 2 Erhebung und Aufbereitung
     competency: 6 Aufbereitung
     blooms-category: 2 Verstehen
-    assessment: "Multiple-Choice-Quiz, Reflexionsfragen" 
+    assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Bedeutung einer klaren Datenstruktur für effektive Datenaufbereitung
       kann anhand eines Beispiels demonstriert werden.
     data-flow: 2 Erhebung und Aufbereitung
     competency: 6 Aufbereitung
     blooms-category: 3 Anwenden
-    assessment: "Multiple-Choice-Quiz, Reflexionsfragen" 
+    assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
   - https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl
 - title: Datenaufbereitung II - Analyse und Reproduzierbarkeit
@@ -262,14 +264,14 @@ chapters:
     data-flow: 4 Analyse
     competency: 9 Datenanalyse
     blooms-category: 2 Verstehen
-    assessment: "Multiple-Choice-Quiz, Reflexionsfragen" 
+    assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit)
       können mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte
       erläutert werden.
     data-flow: 4 Analyse
     competency: 9 Datenanalyse
     blooms-category: 2 Verstehen
-    assessment: "Multiple-Choice-Quiz, Reflexionsfragen" 
+    assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
   - https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl
 target-group:
