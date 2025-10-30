@@ -31,9 +31,18 @@ identifiers:
   description: Zenodo
 repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
 url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
-keywords:
-- Open Educational Resource
+keywords: &id002
+- Verwaltung
 - Verwaltungswissenschaft
+- Tabelle
+- Lerneinheit
+- Public Sector
+- Open Educational Resource
+- FAIR-Prinzipien
+- Datenqualität
+- Persistente Identifikatoren
+- Reproduzierbarkeit
+- R (Programmiersprache)
 license: CC-BY-SA-4.0
 references:
 - title: Jupyter Book
@@ -55,6 +64,4 @@ preferred-citation:
   languages:
   - deu
   copyright: CC-BY-SA-4.0
-  keywords:
-  - Open Educational Resource
-  - Verwaltungswissenschaft
+  keywords: *id002
