@@ -1,4 +1,6 @@
-# QUADRIGA OER 
+# Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht
+## QUADRIGA OER 
+
 [![DOI](https://zenodo.org/badge/814613042.svg)](https://doi.org/10.5281/zenodo.14975202)
 
 ## Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht
@@ -16,8 +18,8 @@ Anhand modellhafter Forschungsfragen werden für die drei Datentypen Bewegtes Bi
 Sie können dieses JupyterBook zu Lehr- und Lernzwecken verwenden. Sie können sie zudem teilen und bearbeiten unter der Bedingung der Nennung der Autor:innen und der gleichen Lizenzierung. Weitere Informationen dazu entnehmen Sie bitte den <a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-1/blob/main/LICENSE.md" target="_blank">Lizenzhinweisen</a>.  
 
 Im Repository sind die in dem interaktiven Lehrbuch verwendeten Daten hinterlegt:
-- [Nationaler Bildungsbericht 2022](https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/bildung-in-deutschland-2022#1) inklusive des Tabellenanhangs H1 (Autor:innengruppe Bildungsberichterstattung (Hrsg.), Bildung in Deutschland 2022 : Ein indikatorengestützter Bericht mit einer Analyse zum Bildungspersonal, wbv Media - wbv Publikation, Bielefeld 2022, DOI: 10.3278/6001820hw, Lizenz: CC BY-SA 3.0 DE) 
-- Tabellenwerte im Format CSV von [Destatis/GENESIS-Online](https://www-genesis.destatis.de/genesis/online) (Hrsg.: Statistisches Bundesamt (Destatis), Lizenz: dl-de/by-2-0) 
+- Tabelle „H1 Personalbestand und Personalstruktur” von <a href="https://www.bildungsbericht.de/de/autor-innengruppe-bildungsbericht" class="external-link" target="_blank">Autor:innengruppe Bildungsbericht</a> unter der Lizenz <a href="https://creativecommons.org/licenses/by-sa/3.0/de/deed.de" class="external-link" target="_blank">CC BY-SA 3.0</a> via <a href="https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/bildung-in-deutschland-2022#10" class="external-link" target="_blank">Nationaler Bildungsbericht</a>.
+- Datensatz „Personal an Hochschulen: Deutschland, Jahre, Personalgruppen nach Beschäftigungsverhältnis, Geschlecht” von <a href="https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl#modal=imprint" class="external-link" target="_blank">Statistisches Bundesamt (Destatis)</a> unter <a href="https://www.destatis.de/DE/Service/Impressum/copyright-genesis-online.html" class="external-link" target="_blank">© Statistisches Bundesamt (Destatis), 2025 und der Datenlizenz Deutschland - Namensnennung - Version 2.0</a> via <a href="https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl" class="external-link" target="_blank">Statistisches Bundesamt (Destatis), Genesis-Online</a> (s. Kapitel 4).
 
 ## Ansprechpartner:innen
 
