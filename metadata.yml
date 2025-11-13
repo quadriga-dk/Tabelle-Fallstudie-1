@@ -1,9 +1,11 @@
 # yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
 schema-version: 1.0.0
-book-version: 1.0.0-beta.2
 title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen
   Bildungsbericht. QUADRIGA Open Educational Resources: Tabelle 1'
 identifier: https://doi.org/10.5281/zenodo.14999803
+version: 1.0.0-beta.2
+date-issued: 2024-06-13
+date-modified: 2025-03-24
 authors:
 - given-names: Jana
   family-names: Plomin
@@ -131,17 +133,48 @@ description: Diese Fallstudie bildet mit Hilfe eines JupyterBooks einen Forschun
   auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu
   werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität
   und Nachvollziehbarkeit von Analysen behandelt.
+keywords:
+- de: Verwaltung
+- de: Verwaltungswissenschaft
+- de: Tabelle
+- de: Lerneinheit
+- en: Public Sector
+- en: Open Educational Resource
+- de: FAIR-Prinzipien
+- de: Datenqualität
+- de: Persistente Identifikatoren
+- de: Reproduzierbarkeit
+- de: R (Programmiersprache)
+language: de
 discipline:
 - Verwaltungswissenschaften
 - Informationswissenschaft
 research-object-type:
 - Tabelle
+target-group:
+- Forschende (PostDoc)
+- Forschende (Projektleitung)
+- Promovierende
+- Hochschullehrende
+time-required: PT3H15M
+context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
+  Datenkompetenzzentrum QUADRIGA erstellt.
+
+
+  Förderkennzeichen: 16DKZ2034'
+git: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
+url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
+license:
+  code: https://opensource.org/licenses/AGPL-3.0
+  content:
+    url: https://creativecommons.org/licenses/by-sa/4.0/
+    name: CC BY-SA 4.0
 chapters:
 - title: Datenbasis
   description: Dieses Kapitel beschreibt die in dieser Fallstudie genutzten Daten.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/2_Datenbasis.html
   learning-goal: Forschungssfrage
-  duration: 5 Minuten
+  time-required: PT5M
   learning-objectives:
   - learning-objective: Die Forschungsfrage kann erläutert und in einen Kontext mit
       dem Bildungsbericht gesetzt werden.
@@ -154,7 +187,7 @@ chapters:
   description: Dieses Kapitel befasst sich mit der Datennachnutzung und den FAIR-Prinzipien.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/05_Datennachnutzung.html
   learning-goal: Grundsätze des Datenmanagements
-  duration: 15 Minuten
+  time-required: PT15M
   learning-objectives:
   - learning-objective: Die Bedeutung der vier FAIR-Prinzipien kann anhand eines konkreten
       Beispiels erläutert werden.
@@ -174,7 +207,7 @@ chapters:
   description: In diesem Kapitel stehen die Kriterien der Qualitätsbewertung im Mittelpunkt.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Qualit%C3%A4tsbewertung.html
   learning-goal: Sicherstellen der Qualität von Datensätzen
-  duration: 30 Minuten
+  time-required: PT30M
   learning-objectives:
   - learning-objective: Die Bedeutung zentraler Qualitätskriterien für Datensätze
       kann für die Forschung erläutert werden.
@@ -202,7 +235,7 @@ chapters:
     Auszeichnung von Daten sowie das Zitieren von Forschungsdaten.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Identifikatoren.html
   learning-goal: Datenzitierung und PID
-  duration: 25 Minuten
+  time-required: PT25M
   learning-objectives:
   - learning-objective: Die allgemein anerkannten Methoden der Datenzitierung können
       beschrieben werden.
@@ -231,7 +264,7 @@ chapters:
     zu verbessern.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation1.html
   learning-goal: Datenaufbereitung und -strukturierung
-  duration: 60 Minuten
+  time-required: PT60M
   learning-objectives:
   - learning-objective: Die Bedeutung von Datenaufbereitung kann erläutert werden.
     data-flow: 2 Erhebung und Aufbereitung
@@ -257,7 +290,7 @@ chapters:
     mit Hilfe der Programmiersprache R.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation2.html
   learning-goal: Datenanalyse und -reproduzierbarkeit
-  duration: 60 Minuten
+  time-required: PT60M
   learning-objectives:
   - learning-objective: Die Wichtigkeit einer sorgfältigen Dokumentation bei der Durchführung
       einer deskriptiven Analyse kann beschrieben werden.
@@ -274,50 +307,7 @@ chapters:
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
   - https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl
-target-group:
-- Forschende (PostDoc)
-- Forschende (Projektleitung)
-- Promovierende
-- Hochschullehrende
-duration: 3 Stunden 15 Minuten
-date-published: 2024-06-13
-date-modified: 2025-03-24
 quality-assurance:
 - person: Paul Walter
   description: TODO
   date: 2025-10-01
-prerequisites:
-- description: allgemeines Verständnis von / Interesse an Struktur von Datensätzen,
-    Datenkonzepten, Metadaten und Datendokumentationen
-- description: Verständnis für Statistik und statistische Software bzw. für das Programmieren
-    empfohlen
-- description: Grundlegende Kenntnisse in R oder anderen Programmiersprachen von Vorteil
-keywords:
-- de: Verwaltung
-- de: Verwaltungswissenschaft
-- de: Tabelle
-- de: Lerneinheit
-- en: Public Sector
-- en: Open Educational Resource
-- de: FAIR-Prinzipien
-- de: Datenqualität
-- de: Persistente Identifikatoren
-- de: Reproduzierbarkeit
-- de: R (Programmiersprache)
-language: de
-learning-resource-type: Jupyter Book
-context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
-  Datenkompetenzzentrum QUADRIGA erstellt.
-
-
-  Förderkennzeichen: 16DKZ2034'
-git: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
-url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
-used-tools:
-- R (Computer program language), http://id.loc.gov/authorities/subjects/sh2002004407
-- RStudio, https://posit.co/download/rstudio-desktop/
-license:
-  code: https://opensource.org/licenses/AGPL-3.0
-  content:
-    url: https://creativecommons.org/licenses/by-sa/4.0/
-    name: CC BY-SA 4.0
