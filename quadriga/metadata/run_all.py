@@ -6,9 +6,9 @@ import logging
 import sys
 
 from .create_bibtex import create_bibtex_from_cff
-from .create_zenodo_json import create_zenodo_json
 from .extract_from_book_config import extract_and_update
 from .update_citation_cff import update_citation
+from .create_zenodo_json import create_zenodo_json
 
 
 def main():

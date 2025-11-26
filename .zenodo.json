@@ -55,12 +55,14 @@
     {
       "name": "Schneemann, Carsten",
       "type": "Other",
-      "affiliation": "Fachhochschule Potsdam"
+      "affiliation": "Fachhochschule Potsdam",
+      "orcid": "0000-0002-2683-5853"
     },
     {
       "name": "Islam, Lamia",
       "type": "Other",
-      "affiliation": "Universität Potsdam"
+      "affiliation": "Universität Potsdam",
+      "orcid": "0009-0001-1879-9880"
     },
     {
       "name": "Zhang, Yue",
@@ -69,28 +71,37 @@
     },
     {
       "name": "Wiemer, Philip",
-      "type": "Other",
-      "affiliation": "Fachhochschule Potsdam"
+      "type": "Other"
     },
     {
       "name": "Bernoth, Jan",
       "type": "Other",
-      "affiliation": "Universität Potsdam"
+      "affiliation": "Universität Potsdam",
+      "orcid": "0000-0002-4127-0053"
+    },
+    {
+      "name": "Seltmann, Melanie",
+      "type": "Other",
+      "affiliation": "Fachhochschule Potsdam",
+      "orcid": "0000-0002-7588-4395"
     },
     {
       "name": "Sluyther-Gäthhje, Henny",
       "type": "Other",
-      "affiliation": "Universität Potsdam"
+      "affiliation": "Universität Potsdam",
+      "orcid": "0000-0003-2969-3237"
     },
     {
       "name": "Petras, Vivien",
       "type": "Other",
-      "affiliation": "Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft"
+      "affiliation": "Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft",
+      "orcid": "0000-0002-8113-1509"
     },
     {
       "name": "Neuroth, Heike",
       "type": "Other",
-      "affiliation": "Fachhochschule Potsdam"
+      "affiliation": "Fachhochschule Potsdam",
+      "orcid": "0000-0002-3637-3154"
     }
   ],
   "related_identifiers": [
