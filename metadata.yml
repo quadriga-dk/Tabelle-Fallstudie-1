@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
-
-title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht. QUADRIGA Open Educational Resources: Tabelle 1'
+title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen
+  Bildungsbericht. QUADRIGA Open Educational Resources: Tabelle 1'
 authors:
 - family-names: Plomin
   given-names: Jana
@@ -106,11 +106,10 @@ contributors:
   - Conceptualization
   - Funding acquisition
   affiliation: Fachhochschule Potsdam
-identifier: https://doi.org/10.5281/zenodo.14975202 
+identifier: https://doi.org/10.5281/zenodo.14975202
 date-issued: 2024-06-13
 date-modified: 2025-03-24
 version: 1.0.0-beta.2
-
 description: Diese Fallstudie bildet mit Hilfe eines JupyterBooks einen Forschungsverlauf
   in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage
   auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu
@@ -272,7 +271,6 @@ chapters:
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
   - https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl
-  
 research-object-type:
 - Tabelle
 discipline:
@@ -283,13 +281,15 @@ target-group:
 - Forschende (Projektleitung)
 - Promovierende
 - Hochschullehrende
-prerequisites: Ein Grundverständnis für statistische Software bzw. für das Programmieren wird empfohlen. Ansonsten sind keine Vorkenntnisse nötig.
+prerequisites: Ein Grundverständnis für statistische Software bzw. für das Programmieren
+  wird empfohlen. Ansonsten sind keine Vorkenntnisse nötig.
 used-tools:
 - name: R (Programmiersprache)
   url: https://cran.rstudio.com/
 - name: RStudio
   url: https://posit.co/download/rstudio-desktop/
-context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
+context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
+  Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
 learning-resource-type: Jupyter Book
 keywords:
 - de: Verwaltung
