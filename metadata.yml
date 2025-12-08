@@ -1,17 +1,19 @@
 # yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
+
 title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen
   Bildungsbericht. QUADRIGA Open Educational Resources: Tabelle 1'
+
 authors:
-- family-names: Plomin
-  given-names: Jana
+- family-name: Plomin
+  given-name: Jana
   orcid: https://orcid.org/0000-0003-0127-7493
   credit:
   - Methodology
   - Writing – original draft
   - Writing – review & editing
   affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
-- given-names: Juliane
-  family-names: Schmeling
+- family-name: Schmeling
+  given-name: Juliane
   orcid: https://orcid.org/0009-0005-9814-1139
   credit:
   - Methodology
@@ -19,8 +21,8 @@ authors:
   - Writing – original draft
   - Writing – review & editing
   affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
-- given-names: Paul
-  family-names: Walter
+- family-name: Walter
+  given-name: Paul
   orcid: https://orcid.org/0000-0002-9236-3268
   credit:
   - Data curation
@@ -29,93 +31,31 @@ authors:
   - Writing – original draft
   - Writing – review & editing
   affiliation: Fachhochschule Potsdam
-- given-names: Anton
-  family-names: Schulze
+- family-name: Schulze
+  given-name: Anton
   credit:
   - Software
   - Visualization
   - Writing – original draft
   affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
-contributors:
-- given-names: Hannes
-  family-names: Schnaitter
-  orcid: https://orcid.org/0000-0002-1602-6032
-  credit:
-  - Data curation
-  - Methodology
-  - Software
-  - Validation
-  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
-- given-names: Evgenia
-  family-names: Samoilova
-  orcid: https://orcid.org/0000-0003-3858-901X
-  credit:
-  - Methodology
-  - Validation
-  affiliation: Universität Potsdam
-- given-names: Carsten
-  family-names: Schneemann
-  orcid: https://orcid.org/0000-0002-2683-5853
-  credit:
-  - Methodology
-  - Validation
-  affiliation: Fachhochschule Potsdam
-- given-names: Lamia
-  family-names: Islam
-  orcid: https://orcid.org/0009-0001-1879-9880
-  credit:
-  - Software
-  affiliation: Universität Potsdam
-- given-names: Yue
-  family-names: Zhang
-  credit:
-  - Software
-  affiliation: Technische Universität Berlin
-- given-names: Philip
-  family-names: Wiemer
-  credit:
-  - Validation
-- given-names: Jan
-  family-names: Bernoth
-  orcid: https://orcid.org/0000-0002-4127-0053
-  credit:
-  - Validation
-  affiliation: Universität Potsdam
-- given-names: Melanie
-  family-names: Seltmann
-  orcid: https://orcid.org/0000-0002-7588-4395
-  credit:
-  - Validation
-  affiliation: Fachhochschule Potsdam
-- given-names: Henny
-  family-names: Sluyther-Gäthhje
-  orcid: https://orcid.org/0000-0003-2969-3237
-  credit:
-  - Validation
-  affiliation: Universität Potsdam
-- given-names: Vivien
-  family-names: Petras
-  orcid: https://orcid.org/0000-0002-8113-1509
-  credit:
-  - Funding acquisition
-  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
-- given-names: Heike
-  family-names: Neuroth
-  orcid: https://orcid.org/0000-0002-3637-3154
-  credit:
-  - Conceptualization
-  - Funding acquisition
-  affiliation: Fachhochschule Potsdam
-identifier: https://doi.org/10.5281/zenodo.14975202
-date-issued: 2024-06-13
-date-modified: 2025-03-24
-version: 1.0.0-beta.2
+  
+keywords:
+- de: Verwaltung
+- de: Verwaltungswissenschaft
+- de: Tabelle
+- de: Lerneinheit
+- en: Public Sector
+- en: Open Educational Resource
+- de: FAIR-Prinzipien
+- de: Datenqualität
+- de: Persistente Identifikatoren
+- de: Reproduzierbarkeit
+- de: R (Programmiersprache)
 description: Diese Fallstudie bildet mit Hilfe eines JupyterBooks einen Forschungsverlauf
   in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage
   auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu
   werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität
   und Nachvollziehbarkeit von Analysen behandelt.
-time-required: PT3H15M
 table-of-contents: '- Präambel
 
   - Datenbasis: Nationaler Bildungsbericht
@@ -133,6 +73,101 @@ table-of-contents: '- Präambel
   - Zusammenfassung und Reflexion
 
   - Epilog'
+discipline:
+- Verwaltungswissenschaften
+- Informationswissenschaft
+research-object-type:
+- Tabelle
+target-group:
+- Forschende (PostDoc)
+- Forschende (Projektleitung)
+- Promovierende
+- Hochschullehrende
+time-required: PT3H15M
+language: de
+
+contributors:
+- family-name: Schnaitter
+  given-name: Hannes
+  orcid: https://orcid.org/0000-0002-1602-6032
+  credit:
+  - Data curation
+  - Methodology
+  - Software
+  - Validation
+  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+- family-name: Samoilova
+  given-name: Evgenia
+  orcid: https://orcid.org/0000-0003-3858-901X
+  credit:
+  - Methodology
+  - Validation
+  affiliation: Universität Potsdam
+- family-name: Schneemann
+  given-name: Carsten
+  orcid: https://orcid.org/0000-0002-2683-5853
+  credit:
+  - Methodology
+  - Validation
+  affiliation: Fachhochschule Potsdam
+- family-name: Islam
+  given-name: Lamia
+  orcid: https://orcid.org/0009-0001-1879-9880
+  credit:
+  - Software
+  affiliation: Universität Potsdam
+- family-name: Zhang
+  given-name: Yue
+  credit:
+  - Software
+  affiliation: Technische Universität Berlin
+- family-name: Wiemer
+  given-name: Philip
+  credit:
+  - Validation
+- family-name: Bernoth
+  given-name: Jan
+  orcid: https://orcid.org/0000-0002-4127-0053
+  credit:
+  - Validation
+  affiliation: Universität Potsdam
+- family-name: Seltmann
+  given-name: Melanie
+  orcid: https://orcid.org/0000-0002-7588-4395
+  credit:
+  - Validation
+  affiliation: Fachhochschule Potsdam
+- family-name: Sluyther-Gäthhje
+  given-name: Henny
+  orcid: https://orcid.org/0000-0003-2969-3237
+  credit:
+  - Validation
+  affiliation: Universität Potsdam
+- family-name: Petras
+  given-name: Vivien
+  orcid: https://orcid.org/0000-0002-8113-1509
+  credit:
+  - Funding acquisition
+  affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
+- family-name: Neuroth
+  given-name: Heike
+  orcid: https://orcid.org/0000-0002-3637-3154
+  credit:
+  - Conceptualization
+  - Funding acquisition
+  affiliation: Fachhochschule Potsdam
+
+identifier: https://doi.org/10.5281/zenodo.14975202
+git: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
+url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
+prerequisites: Ein Grundverständnis für statistische Software bzw. für das Programmieren
+  wird empfohlen. Ansonsten sind keine Vorkenntnisse nötig.
+used-tools:
+- name: R (Programmiersprache)
+  url: https://cran.rstudio.com/
+- name: RStudio
+  url: https://posit.co/download/rstudio-desktop/
+
 chapters:
 - title: Datenbasis
   description: Dieses Kapitel beschreibt die in dieser Fallstudie genutzten Daten.
@@ -142,9 +177,10 @@ chapters:
   learning-objectives:
   - learning-objective: Die Forschungsfrage kann erläutert und in einen Kontext mit
       dem Bildungsbericht gesetzt werden.
-    data-flow: nicht anwendbar
     competency: nicht anwendbar
+    data-flow: nicht anwendbar
     blooms-category: 2 Verstehen
+    assessment: nicht anwendbar
   supplemented-by:
   - https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/bildung-in-deutschland-2022#10
 - title: Datennachnutzung
@@ -155,14 +191,14 @@ chapters:
   learning-objectives:
   - learning-objective: Die Bedeutung der vier FAIR-Prinzipien kann anhand eines konkreten
       Beispiels erläutert werden.
-    data-flow: übergreifend
     competency: Orientierungswissen
+    data-flow: übergreifend
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die FAIRness eines gegebenen Datensatzes kann anhand einer
       Checkliste bewertet werden.
-    data-flow: übergreifend
     competency: Orientierungswissen
+    data-flow: übergreifend
     blooms-category: 3 Anwenden
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
@@ -175,20 +211,20 @@ chapters:
   learning-objectives:
   - learning-objective: Die Bedeutung zentraler Qualitätskriterien für Datensätze
       kann für die Forschung erläutert werden.
-    data-flow: 1 Planung
     competency: 2 Qualitätssicherung
+    data-flow: 1 Planung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Vor- und Nachteile zwischen XLSX- und CSV-Dateiformaten
       können für verschiedene Anwendungsfälle aufgezeigt werden.
-    data-flow: 1 Planung
     competency: 2 Qualitätssicherung
+    data-flow: 1 Planung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Qualität eines gegebenen Datensatzes kann anhand einer
       Checkliste bewertet werden.
-    data-flow: 1 Planung
     competency: 2 Qualitätssicherung
+    data-flow: 1 Planung
     blooms-category: 3 Anwenden
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
@@ -203,20 +239,20 @@ chapters:
   learning-objectives:
   - learning-objective: Die allgemein anerkannten Methoden der Datenzitierung können
       beschrieben werden.
-    data-flow: 1 Planung
     competency: 3 Ethik und Recht
+    data-flow: 1 Planung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Rolle von Persistenten Identifikatoren (PIDs) in der Datenzitierung
       kann erläutert werden.
-    data-flow: 5 Publikation und Nachnutzung
     competency: 13 Datenpublikation
+    data-flow: 5 Publikation und Nachnutzung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die spezifischen Einsatzbereiche verschiedener Arten von PIDs
       (z.B. DOI, ORCID) können erklärt werden.
-    data-flow: 5 Publikation und Nachnutzung
     competency: 13 Datenpublikation
+    data-flow: 5 Publikation und Nachnutzung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
@@ -231,20 +267,20 @@ chapters:
   learning-goal: Datenaufbereitung und -strukturierung
   learning-objectives:
   - learning-objective: Die Bedeutung von Datenaufbereitung kann erläutert werden.
-    data-flow: 2 Erhebung und Aufbereitung
     competency: 5 Validierung
+    data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Anwendung spezifischer Aufbereitungstechniken auf einen
       gegebenen Datensatz kann beschrieben werden.
-    data-flow: 2 Erhebung und Aufbereitung
     competency: 6 Aufbereitung
+    data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Bedeutung einer klaren Datenstruktur für effektive Datenaufbereitung
       kann anhand eines Beispiels demonstriert werden.
-    data-flow: 2 Erhebung und Aufbereitung
     competency: 6 Aufbereitung
+    data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 3 Anwenden
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
@@ -258,61 +294,32 @@ chapters:
   learning-objectives:
   - learning-objective: Die Wichtigkeit einer sorgfältigen Dokumentation bei der Durchführung
       einer deskriptiven Analyse kann beschrieben werden.
-    data-flow: 4 Analyse
     competency: 9 Datenanalyse
+    data-flow: 4 Analyse
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit)
       können mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte
       erläutert werden.
-    data-flow: 4 Analyse
     competency: 9 Datenanalyse
+    data-flow: 4 Analyse
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
   - https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl
-research-object-type:
-- Tabelle
-discipline:
-- Verwaltungswissenschaften
-- Informationswissenschaft
-target-group:
-- Forschende (PostDoc)
-- Forschende (Projektleitung)
-- Promovierende
-- Hochschullehrende
-prerequisites: Ein Grundverständnis für statistische Software bzw. für das Programmieren
-  wird empfohlen. Ansonsten sind keine Vorkenntnisse nötig.
-used-tools:
-- name: R (Programmiersprache)
-  url: https://cran.rstudio.com/
-- name: RStudio
-  url: https://posit.co/download/rstudio-desktop/
-context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
-  Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
+
+date-issued: 2024-06-13
+date-modified: 2025-03-24
+version: 1.0.0-beta.2
+context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
+quality-assurance:
+- description: TODO: DOI des Qualitätsprüfungstextes hinzufügen
+  date: 2025-10-01
 learning-resource-type: Jupyter Book
-keywords:
-- de: Verwaltung
-- de: Verwaltungswissenschaft
-- de: Tabelle
-- de: Lerneinheit
-- en: Public Sector
-- en: Open Educational Resource
-- de: FAIR-Prinzipien
-- de: Datenqualität
-- de: Persistente Identifikatoren
-- de: Reproduzierbarkeit
-- de: R (Programmiersprache)
-language: de
+schema-version: 1.0.0
 license:
   content:
     url: https://creativecommons.org/licenses/by-sa/4.0/
     name: CC BY-SA 4.0
   code: https://opensource.org/licenses/AGPL-3.0
-git: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
-url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
-quality-assurance:
-- person: Paul Walter
-  description: TODO
-  date: 2025-10-01
-schema-version: 1.0.0
+
