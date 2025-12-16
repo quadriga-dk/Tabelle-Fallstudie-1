@@ -4,16 +4,16 @@ title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationale
   Bildungsbericht. QUADRIGA Open Educational Resources: Tabelle 1'
 
 authors:
-- family-name: Plomin
-  given-name: Jana
+- family-names: Plomin
+  given-names: Jana
   orcid: https://orcid.org/0000-0003-0127-7493
   credit:
   - Methodology
   - Writing – original draft
   - Writing – review & editing
   affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
-- family-name: Schmeling
-  given-name: Juliane
+- family-names: Schmeling
+  given-names: Juliane
   orcid: https://orcid.org/0009-0005-9814-1139
   credit:
   - Methodology
@@ -21,8 +21,8 @@ authors:
   - Writing – original draft
   - Writing – review & editing
   affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
-- family-name: Walter
-  given-name: Paul
+- family-names: Walter
+  given-names: Paul
   orcid: https://orcid.org/0000-0002-9236-3268
   credit:
   - Data curation
@@ -31,8 +31,8 @@ authors:
   - Writing – original draft
   - Writing – review & editing
   affiliation: Fachhochschule Potsdam
-- family-name: Schulze
-  given-name: Anton
+- family-names: Schulze
+  given-names: Anton
   credit:
   - Software
   - Visualization
@@ -87,8 +87,8 @@ time-required: PT3H15M
 language: de
 
 contributors:
-- family-name: Schnaitter
-  given-name: Hannes
+- family-names: Schnaitter
+  given-names: Hannes
   orcid: https://orcid.org/0000-0002-1602-6032
   credit:
   - Data curation
@@ -96,61 +96,61 @@ contributors:
   - Software
   - Validation
   affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
-- family-name: Samoilova
-  given-name: Evgenia
+- family-names: Samoilova
+  given-names: Evgenia
   orcid: https://orcid.org/0000-0003-3858-901X
   credit:
   - Methodology
   - Validation
   affiliation: Universität Potsdam
-- family-name: Schneemann
-  given-name: Carsten
+- family-names: Schneemann
+  given-names: Carsten
   orcid: https://orcid.org/0000-0002-2683-5853
   credit:
   - Methodology
   - Validation
   affiliation: Fachhochschule Potsdam
-- family-name: Islam
-  given-name: Lamia
+- family-names: Islam
+  given-names: Lamia
   orcid: https://orcid.org/0009-0001-1879-9880
   credit:
   - Software
   affiliation: Universität Potsdam
-- family-name: Zhang
-  given-name: Yue
+- family-names: Zhang
+  given-names: Yue
   credit:
   - Software
   affiliation: Technische Universität Berlin
-- family-name: Wiemer
-  given-name: Philip
+- family-names: Wiemer
+  given-names: Philip
   credit:
   - Validation
-- family-name: Bernoth
-  given-name: Jan
+- family-names: Bernoth
+  given-names: Jan
   orcid: https://orcid.org/0000-0002-4127-0053
   credit:
   - Validation
   affiliation: Universität Potsdam
-- family-name: Seltmann
-  given-name: Melanie
+- family-names: Seltmann
+  given-names: Melanie
   orcid: https://orcid.org/0000-0002-7588-4395
   credit:
   - Validation
   affiliation: Fachhochschule Potsdam
-- family-name: Sluyther-Gäthhje
-  given-name: Henny
+- family-names: Sluyther-Gäthhje
+  given-names: Henny
   orcid: https://orcid.org/0000-0003-2969-3237
   credit:
   - Validation
   affiliation: Universität Potsdam
-- family-name: Petras
-  given-name: Vivien
+- family-names: Petras
+  given-names: Vivien
   orcid: https://orcid.org/0000-0002-8113-1509
   credit:
   - Funding acquisition
   affiliation: Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft
-- family-name: Neuroth
-  given-name: Heike
+- family-names: Neuroth
+  given-names: Heike
   orcid: https://orcid.org/0000-0002-3637-3154
   credit:
   - Conceptualization
