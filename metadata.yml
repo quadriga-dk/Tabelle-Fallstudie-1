@@ -1,8 +1,6 @@
 # yaml-language-server: $schema=https://quadriga-dk.github.io/quadriga-schema/v1.0.0/schema.json
-
 title: 'Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen
   Bildungsbericht. QUADRIGA Open Educational Resources: Tabelle 1'
-
 authors:
 - family-names: Plomin
   given-names: Jana
@@ -38,7 +36,6 @@ authors:
   - Visualization
   - Writing – original draft
   affiliation: Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
-  
 keywords:
 - de: Verwaltung
 - de: Verwaltungswissenschaft
@@ -85,7 +82,6 @@ target-group:
 - Hochschullehrende
 time-required: PT3H15M
 language: de
-
 contributors:
 - family-names: Schnaitter
   given-names: Hannes
@@ -156,7 +152,6 @@ contributors:
   - Conceptualization
   - Funding acquisition
   affiliation: Fachhochschule Potsdam
-
 identifier: https://doi.org/10.5281/zenodo.14975202
 git: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
 url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
@@ -167,7 +162,6 @@ used-tools:
   url: https://cran.rstudio.com/
 - name: RStudio
   url: https://posit.co/download/rstudio-desktop/
-
 chapters:
 - title: Datenbasis
   description: Dieses Kapitel beschreibt die in dieser Fallstudie genutzten Daten.
@@ -307,13 +301,13 @@ chapters:
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
   - https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl
-
 date-issued: 2024-06-13
 date-modified: 2025-03-24
 version: 1.0.0-beta.2
-context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
+context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
+  Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
 quality-assurance:
-- description: 'DOI des Qualitätsprüfungstextes hinzufügen'
+- description: DOI des Qualitätsprüfungstextes hinzufügen
 - date: 2025-10-01
 learning-resource-type: Jupyter Book
 schema-version: 1.0.0
@@ -322,4 +316,3 @@ license:
     url: https://creativecommons.org/licenses/by-sa/4.0/
     name: CC BY-SA 4.0
   code: https://opensource.org/licenses/AGPL-3.0
-
