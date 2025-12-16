@@ -313,8 +313,8 @@ date-modified: 2025-03-24
 version: 1.0.0-beta.2
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
 quality-assurance:
-- description: TODO: DOI des Qualitätsprüfungstextes hinzufügen
-  date: 2025-10-01
+- description: 'DOI des Qualitätsprüfungstextes hinzufügen'
+- date: 2025-10-01
 learning-resource-type: Jupyter Book
 schema-version: 1.0.0
 license:
