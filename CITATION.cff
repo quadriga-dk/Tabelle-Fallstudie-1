@@ -43,7 +43,7 @@ keywords: &id002
 - Persistente Identifikatoren
 - Reproduzierbarkeit
 - R (Programmiersprache)
-license: CC-BY-SA-4.0
+license: CC BY 4.0
 references:
 - title: Jupyter Book
   type: software
@@ -60,8 +60,8 @@ preferred-citation:
   doi: 10.5281/zenodo.14975202
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
   repository-code: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
-  license: CC-BY-SA-4.0
+  license: CC BY 4.0
   languages:
   - deu
-  copyright: CC-BY-SA-4.0
+  copyright: CC BY 4.0
   keywords: *id002
