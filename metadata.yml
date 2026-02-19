@@ -155,8 +155,9 @@ contributors:
 identifier: https://doi.org/10.5281/zenodo.14975202
 git: https://github.com/quadriga-dk/Tabelle-Fallstudie-1
 url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html
-prerequisites: Ein Grundverständnis für statistische Software bzw. für das Programmieren
-  wird empfohlen. Ansonsten sind keine Vorkenntnisse nötig.
+prerequisites:
+- Ein Grundverständnis für statistische Software bzw. für das Programmieren wird empfohlen.
+  Ansonsten sind keine Vorkenntnisse nötig.
 used-tools:
 - name: R (Programmiersprache)
   url: https://cran.rstudio.com/
@@ -205,19 +206,19 @@ chapters:
   learning-objectives:
   - learning-objective: Die Bedeutung zentraler Qualitätskriterien für Datensätze
       kann für die Forschung erläutert werden.
-    competency: 2 Qualitätssicherung
+    competency: 1.2 Qualitätssicherung
     data-flow: 1 Planung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Vor- und Nachteile zwischen XLSX- und CSV-Dateiformaten
       können für verschiedene Anwendungsfälle aufgezeigt werden.
-    competency: 2 Qualitätssicherung
+    competency: 1.2 Qualitätssicherung
     data-flow: 1 Planung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Qualität eines gegebenen Datensatzes kann anhand einer
       Checkliste bewertet werden.
-    competency: 2 Qualitätssicherung
+    competency: 1.2 Qualitätssicherung
     data-flow: 1 Planung
     blooms-category: 3 Anwenden
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
@@ -233,19 +234,19 @@ chapters:
   learning-objectives:
   - learning-objective: Die allgemein anerkannten Methoden der Datenzitierung können
       beschrieben werden.
-    competency: 3 Ethik und Recht
+    competency: 1.3 Ethik und Recht
     data-flow: 1 Planung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Rolle von Persistenten Identifikatoren (PIDs) in der Datenzitierung
       kann erläutert werden.
-    competency: 13 Datenpublikation
+    competency: 5.2 Datenpublikation
     data-flow: 5 Publikation und Nachnutzung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die spezifischen Einsatzbereiche verschiedener Arten von PIDs
       (z.B. DOI, ORCID) können erklärt werden.
-    competency: 13 Datenpublikation
+    competency: 5.2 Datenpublikation
     data-flow: 5 Publikation und Nachnutzung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
@@ -261,19 +262,19 @@ chapters:
   learning-goal: Datenaufbereitung und -strukturierung
   learning-objectives:
   - learning-objective: Die Bedeutung von Datenaufbereitung kann erläutert werden.
-    competency: 5 Validierung
+    competency: 2.2 Validierung
     data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Anwendung spezifischer Aufbereitungstechniken auf einen
       gegebenen Datensatz kann beschrieben werden.
-    competency: 6 Aufbereitung
+    competency: 2.3 Aufbereitung
     data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Die Bedeutung einer klaren Datenstruktur für effektive Datenaufbereitung
       kann anhand eines Beispiels demonstriert werden.
-    competency: 6 Aufbereitung
+    competency: 2.3 Aufbereitung
     data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 3 Anwenden
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
@@ -288,27 +289,30 @@ chapters:
   learning-objectives:
   - learning-objective: Die Wichtigkeit einer sorgfältigen Dokumentation bei der Durchführung
       einer deskriptiven Analyse kann beschrieben werden.
-    competency: 9 Datenanalyse
+    competency: 4.1 Datenanalyse
     data-flow: 4 Analyse
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - learning-objective: Anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit)
       können mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte
       erläutert werden.
-    competency: 9 Datenanalyse
+    competency: 4.1 Datenanalyse
     data-flow: 4 Analyse
     blooms-category: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplemented-by:
   - https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl
-date-issued: 2024-06-13
-date-modified: 2025-03-24
+date-issued: '2024-06-13'
+date-modified: '2025-03-24'
 version: 1.0.0-beta.2
 context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch das
-  Datenkompetenzzentrum QUADRIGA erstellt. Förderkennzeichen: 16DKZ2034'
+  Datenkompetenzzentrum QUADRIGA erstellt.
+
+
+  Förderkennzeichen: 16DKZ2034'
 quality-assurance:
-- description: DOI des Qualitätsprüfungstextes hinzufügen
-- date: 2025-10-01
+  description: https://doi.org/TODO
+  date: '2025-10-01'
 learning-resource-type: Jupyter Book
 schema-version: 1.0.0
 license:

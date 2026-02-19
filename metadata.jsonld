@@ -1,0 +1,523 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "@vocab": "http://schema.org/"
+  },
+  "@type": [
+    "Book",
+    "LearningResource"
+  ],
+  "name": "Reproduzierbarkeit von Datenanalysen: Ein Fallbeispiel aus dem Nationalen Bildungsbericht. QUADRIGA Open Educational Resources: Tabelle 1",
+  "description": "Diese Fallstudie bildet mit Hilfe eines JupyterBooks einen Forschungsverlauf in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.14975202",
+    "url": "https://doi.org/10.5281/zenodo.14975202"
+  },
+  "version": "1.0.0-beta.2",
+  "schemaVersion": "1.0.0",
+  "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html",
+  "workExample": {
+    "@type": "SoftwareSourceCode",
+    "name": "Source Code Repository",
+    "codeRepository": "https://github.com/quadriga-dk/Tabelle-Fallstudie-1"
+  },
+  "datePublished": "2024-06-13",
+  "dateModified": "2025-03-24",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Jana",
+      "familyName": "Plomin",
+      "name": "Jana Plomin",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0003-0127-7493",
+        "url": "https://orcid.org/0000-0003-0127-7493"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Juliane",
+      "familyName": "Schmeling",
+      "name": "Juliane Schmeling",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0009-0005-9814-1139",
+        "url": "https://orcid.org/0009-0005-9814-1139"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Paul",
+      "familyName": "Walter",
+      "name": "Paul Walter",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-9236-3268",
+        "url": "https://orcid.org/0000-0002-9236-3268"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fachhochschule Potsdam"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Anton",
+      "familyName": "Schulze",
+      "name": "Anton Schulze",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS"
+      }
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "givenName": "Hannes",
+      "familyName": "Schnaitter",
+      "name": "Hannes Schnaitter",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-1602-6032",
+        "url": "https://orcid.org/0000-0002-1602-6032"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Evgenia",
+      "familyName": "Samoilova",
+      "name": "Evgenia Samoilova",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0003-3858-901X",
+        "url": "https://orcid.org/0000-0003-3858-901X"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universität Potsdam"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Carsten",
+      "familyName": "Schneemann",
+      "name": "Carsten Schneemann",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-2683-5853",
+        "url": "https://orcid.org/0000-0002-2683-5853"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fachhochschule Potsdam"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Lamia",
+      "familyName": "Islam",
+      "name": "Lamia Islam",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0009-0001-1879-9880",
+        "url": "https://orcid.org/0009-0001-1879-9880"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universität Potsdam"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Yue",
+      "familyName": "Zhang",
+      "name": "Yue Zhang",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Technische Universität Berlin"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Philip",
+      "familyName": "Wiemer",
+      "name": "Philip Wiemer"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Jan",
+      "familyName": "Bernoth",
+      "name": "Jan Bernoth",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-4127-0053",
+        "url": "https://orcid.org/0000-0002-4127-0053"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universität Potsdam"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Melanie",
+      "familyName": "Seltmann",
+      "name": "Melanie Seltmann",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-7588-4395",
+        "url": "https://orcid.org/0000-0002-7588-4395"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fachhochschule Potsdam"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Henny",
+      "familyName": "Sluyther-Gäthhje",
+      "name": "Henny Sluyther-Gäthhje",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0003-2969-3237",
+        "url": "https://orcid.org/0000-0003-2969-3237"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Universität Potsdam"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Vivien",
+      "familyName": "Petras",
+      "name": "Vivien Petras",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-8113-1509",
+        "url": "https://orcid.org/0000-0002-8113-1509"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Heike",
+      "familyName": "Neuroth",
+      "name": "Heike Neuroth",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-3637-3154",
+        "url": "https://orcid.org/0000-0002-3637-3154"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Fachhochschule Potsdam"
+      }
+    }
+  ],
+  "inLanguage": "de",
+  "keywords": [
+    "Verwaltung",
+    "Verwaltungswissenschaft",
+    "Tabelle",
+    "Lerneinheit",
+    "Public Sector",
+    "Open Educational Resource",
+    "FAIR-Prinzipien",
+    "Datenqualität",
+    "Persistente Identifikatoren",
+    "Reproduzierbarkeit",
+    "R (Programmiersprache)"
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Verwaltung"
+    },
+    {
+      "@type": "Thing",
+      "name": "Verwaltungswissenschaft"
+    },
+    {
+      "@type": "Thing",
+      "name": "Tabelle"
+    },
+    {
+      "@type": "Thing",
+      "name": "Lerneinheit"
+    },
+    {
+      "@type": "Thing",
+      "name": "Public Sector"
+    },
+    {
+      "@type": "Thing",
+      "name": "Open Educational Resource"
+    },
+    {
+      "@type": "Thing",
+      "name": "FAIR-Prinzipien"
+    },
+    {
+      "@type": "Thing",
+      "name": "Datenqualität"
+    },
+    {
+      "@type": "Thing",
+      "name": "Persistente Identifikatoren"
+    },
+    {
+      "@type": "Thing",
+      "name": "Reproduzierbarkeit"
+    },
+    {
+      "@type": "Thing",
+      "name": "R (Programmiersprache)"
+    },
+    {
+      "@type": "Thing",
+      "name": "Verwaltungswissenschaften"
+    },
+    {
+      "@type": "Thing",
+      "name": "Informationswissenschaft"
+    },
+    {
+      "@type": "Thing",
+      "name": "Tabelle"
+    }
+  ],
+  "audience": [
+    {
+      "@type": "Audience",
+      "audienceType": "Forschende (PostDoc)"
+    },
+    {
+      "@type": "Audience",
+      "audienceType": "Forschende (Projektleitung)"
+    },
+    {
+      "@type": "Audience",
+      "audienceType": "Promovierende"
+    },
+    {
+      "@type": "Audience",
+      "audienceType": "Hochschullehrende"
+    }
+  ],
+  "timeRequired": "PT3H15M",
+  "license": [
+    {
+      "@type": "CreativeWork",
+      "name": "Source Code",
+      "license": "https://opensource.org/licenses/AGPL-3.0"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Content",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "LearningResource",
+      "name": "Datenbasis",
+      "description": "Dieses Kapitel beschreibt die in dieser Fallstudie genutzten Daten.",
+      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/2_Datenbasis.html",
+      "timeRequired": "PT5M",
+      "teaches": "Forschungssfrage",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Forschungsfrage kann erläutert und in einen Kontext mit dem Bildungsbericht gesetzt werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: 2 Verstehen | Data Flow: nicht anwendbar",
+          "lrmi:assesses": "nicht anwendbar"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Datennachnutzung",
+      "description": "Dieses Kapitel befasst sich mit der Datennachnutzung und den FAIR-Prinzipien.",
+      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/05_Datennachnutzung.html",
+      "timeRequired": "PT15M",
+      "teaches": "Grundsätze des Datenmanagements",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Bedeutung der vier FAIR-Prinzipien kann anhand eines konkreten Beispiels erläutert werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: Orientierungswissen | Bloom's: 2 Verstehen | Data Flow: übergreifend",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die FAIRness eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: Orientierungswissen | Bloom's: 3 Anwenden | Data Flow: übergreifend",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Qualitätsbewertung",
+      "description": "In diesem Kapitel stehen die Kriterien der Qualitätsbewertung im Mittelpunkt.",
+      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Qualit%C3%A4tsbewertung.html",
+      "timeRequired": "PT30M",
+      "teaches": "Sicherstellen der Qualität von Datensätzen",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Bedeutung zentraler Qualitätskriterien für Datensätze kann für die Forschung erläutert werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 1.2 Qualitätssicherung | Bloom's: 2 Verstehen | Data Flow: 1 Planung",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Vor- und Nachteile zwischen XLSX- und CSV-Dateiformaten können für verschiedene Anwendungsfälle aufgezeigt werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 1.2 Qualitätssicherung | Bloom's: 2 Verstehen | Data Flow: 1 Planung",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Qualität eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 1.2 Qualitätssicherung | Bloom's: 3 Anwenden | Data Flow: 1 Planung",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Identifikatoren",
+      "description": "Dieses Kapitel behandelt Identifikatoren der eindeutigen und persistenten Auszeichnung von Daten sowie das Zitieren von Forschungsdaten.",
+      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Identifikatoren.html",
+      "timeRequired": "PT25M",
+      "teaches": "Datenzitierung und PID",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die allgemein anerkannten Methoden der Datenzitierung können beschrieben werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 1.3 Ethik und Recht | Bloom's: 2 Verstehen | Data Flow: 1 Planung",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Rolle von Persistenten Identifikatoren (PIDs) in der Datenzitierung kann erläutert werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 5.2 Datenpublikation | Bloom's: 2 Verstehen | Data Flow: 5 Publikation und Nachnutzung",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die spezifischen Einsatzbereiche verschiedener Arten von PIDs (z.B. DOI, ORCID) können erklärt werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 5.2 Datenpublikation | Bloom's: 2 Verstehen | Data Flow: 5 Publikation und Nachnutzung",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Datenaufbereitung I - Organisation und Strukturierung",
+      "description": "Dieses Kapitel widmet sich der Datenmanipulation als ein entscheidender Bestandteil, um die Qualität und den Aufbau von Datensätzen zu evaluieren und zu verbessern.",
+      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation1.html",
+      "timeRequired": "PT60M",
+      "teaches": "Datenaufbereitung und -strukturierung",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Bedeutung von Datenaufbereitung kann erläutert werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 2.2 Validierung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Anwendung spezifischer Aufbereitungstechniken auf einen gegebenen Datensatz kann beschrieben werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 2.3 Aufbereitung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Bedeutung einer klaren Datenstruktur für effektive Datenaufbereitung kann anhand eines Beispiels demonstriert werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 2.3 Aufbereitung | Bloom's: 3 Anwenden | Data Flow: 2 Erhebung und Aufbereitung",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        }
+      ]
+    },
+    {
+      "@type": "LearningResource",
+      "name": "Datenaufbereitung II - Analyse und Reproduzierbarkeit",
+      "description": "Dieses Kapitel widmet sich der Datenanalyse und -reproduzierbarkeit mit Hilfe der Programmiersprache R.",
+      "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/Datenmanipulation2.html",
+      "timeRequired": "PT60M",
+      "teaches": "Datenanalyse und -reproduzierbarkeit",
+      "educationalAlignment": [
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Wichtigkeit einer sorgfältigen Dokumentation bei der Durchführung einer deskriptiven Analyse kann beschrieben werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 4.1 Datenanalyse | Bloom's: 2 Verstehen | Data Flow: 4 Analyse",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Anhand eines konkreten Beispiels (aus der Fallstudie zur Reproduzierbarkeit) können mindestens drei für die Reproduzierbarkeit besonders relevante Aspekte erläutert werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 4.1 Datenanalyse | Bloom's: 2 Verstehen | Data Flow: 4 Analyse",
+          "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
+        }
+      ]
+    }
+  ],
+  "dcterms:tableOfContents": "- Präambel\n- Datenbasis: Nationaler Bildungsbericht\n- Datennachnutzung\n- Qualitätsbewertung\n- Identifikatoren\n- Datenaufbereitung I - Organisation und Strukturierung\n- Datenaufbereitung II - Analyse und Reproduzierbarkeit\n- Zusammenfassung und Reflexion\n- Epilog",
+  "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034",
+  "learningResourceType": "Jupyter Book",
+  "lrmi:learningResourceType": "Jupyter Book",
+  "dcterms:type": "Jupyter Book",
+  "dc:type": "Jupyter Book"
+}
