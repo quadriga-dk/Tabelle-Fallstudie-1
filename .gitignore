@@ -3,3 +3,4 @@ venv/
 _build
 .ipynb_checkpoints
 __pycache__
+**/.schema_cache/
