@@ -2,7 +2,7 @@
 # Datenaufbereitung I - Organisation und Strukturierung
 
 ````{margin}
-```{admonition} Fragen oder Feedback 
+```{admonition} Fragen oder Feedback
 :class: frage-feedback
 
 <a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-1/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
@@ -19,13 +19,14 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 
 Dieses Kapitel hat das Schwerpunktthema Datenaufbereitung mit Fokus auf Organisation und Strukturierung von Daten. Sie können folgende Lernziele erreichen:
 
-```{admonition} Lernziel: Datenaufbereitung und -strukturierung
-:class: lernziele 
-1. Die Bedeutung von Datenaufbereitung kann erläutert werden.
-2. Die Anwendung spezifischer Aufbereitungstechniken auf einen gegebenen Datensatz kann beschrieben werden.
-3. Die Bedeutung einer klaren Datenstruktur für effektive Datenaufbereitung kann anhand eines Beispiels demonstriert werden.
-```  
-  
+````{admonition} Lernziel: Datenaufbereitung und -strukturierung
+:class: lernziele
+```{inlcude} ../Markdown/1_1_lernziele.md
+:begin-after: "<!-- START: Datenaufbereitung I -->"
+:end-before: "<!-- END: Datenaufbereitung I -->"
+```
+````
+
 In diesem Kapitel finden Sie folgende Abschnitte:
 
 - [Datenstruktur](/Markdown/6_1_Datenstruktur.md)
@@ -48,9 +49,9 @@ Schritt 4 dieser Fallstudie.
 
 ```{admonition} Bearbeitungszeit
 :class: zeitinfo
-Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 60 Minuten. Dies schließt das gekennzeichnete Assessment, dessen Bearbeitungsdauer individuell variiert, aus. 
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 60 Minuten. Dies schließt das gekennzeichnete Assessment, dessen Bearbeitungsdauer individuell variiert, aus.
 
 Die geschätzte Bearbeitungsdauer **inklusive** des Assessment beträgt ca. 75-90 Minuten.
 
 Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
-``` 
+```

@@ -2,7 +2,7 @@
 # Identifikatoren
 
 ````{margin}
-```{admonition} Fragen oder Feedback 
+```{admonition} Fragen oder Feedback
 :class: frage-feedback
 
 <a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-1/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
@@ -17,16 +17,17 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 ```
 ````
 
-Nachdem Sie in den beiden vorangegangenen Kapiteln über Datennachnutzung und Qualitätsbewertung erfahren haben, wendet sich das Kapitel Identifikatoren der eindeutigen und persistenten Auszeichnung von Daten zu. Dazu zählt auch ein Abschnitt über das Zitieren von Forschungsdaten, das nicht nur, aber vor allem von Bedeutung ist, wenn Daten nachgenutzt werden sollen. 
+Nachdem Sie in den beiden vorangegangenen Kapiteln über Datennachnutzung und Qualitätsbewertung erfahren haben, wendet sich das Kapitel Identifikatoren der eindeutigen und persistenten Auszeichnung von Daten zu. Dazu zählt auch ein Abschnitt über das Zitieren von Forschungsdaten, das nicht nur, aber vor allem von Bedeutung ist, wenn Daten nachgenutzt werden sollen.
 
 In diesem Kapitel können Sie folgende Lernziele erreichen:
 
 ```{admonition} Lernziel: Datenzitierung und PID
 :class: lernziele
-1. Die allgemein anerkannten Methoden der Datenzitierung können beschrieben werden. 
-2. Die Rolle von Persistenten Identifikatoren (PIDs) in der Datenzitierung kann erläutert werden. 
-3. Die spezifischen Einsatzbereiche verschiedener Arten von PIDs (z.B. DOI, ORCID) können erklärt werden.
-``` 
+```{inlcude} ../Markdown/1_1_lernziele.md
+:begin-after: "<!-- START: Identifikatoren -->"
+:end-before: "<!-- END: Identifikatoren -->"
+```
+```
 
 Dieses Kapitel verbindet das Zitieren von Forschungsdaten mit Persistenten Identifikatoren (PID), die in Bezug auf die FAIR-Prinzipien von Bedeutung sind, mit dem übergeordneten Thema Linked Data, zu dessen Prinzip der Verknüpfung von Daten PID beitragen können.
 
@@ -52,10 +53,10 @@ Schritt 3 dieser Fallstudie.
 
 ```{admonition} Bearbeitungszeit
 :class: zeitinfo
-Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 15-25 Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 15-25 Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus.
 
 Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. 30-45 Minuten.
 
 Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
-``` 
+```
 
