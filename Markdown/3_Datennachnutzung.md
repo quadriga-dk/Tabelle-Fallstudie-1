@@ -3,10 +3,10 @@ lang: de-DE
 ---
 
 (Datennachnutzung)=
-# Datennachnutzung 
+# Datennachnutzung
 
 ````{margin}
-```{admonition} Fragen oder Feedback 
+```{admonition} Fragen oder Feedback
 :class: frage-feedback
 
 <a href="https://github.com/quadriga-dk/Tabelle-Fallstudie-1/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
@@ -23,11 +23,13 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 
 Dieses Kapitel befasst sich mit der Datennachnutzung, die für die Reproduzierbarkeit elementar ist, da nur Daten, die verfügbar und gut dokumentiert sind, überhaupt für eine erneute Analyse verwendet werden können. Dabei können Sie folgende Lernziele erreichen:
 
-```{admonition} Lernziel: Grundsätze des Datenmanagements
+````{admonition} Lernziel: Grundsätze des Datenmanagements
 :class: lernziele
-1. Die Bedeutung der vier FAIR-Prinzipien kann anhand eines konkreten Beispiels erläutert werden.
-2. Die FAIRness eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden.
-```  
+```{inlcude} ../Markdown/1_1_lernziele.md
+:begin-after: "<!-- START: Datennachnutzung -->"
+:end-before: "<!-- END: Datennachnutzung -->"
+```
+````
 
 Dazu finden Sie in diesem Kapitel folgende Abschnitte:
 
@@ -54,10 +56,10 @@ Wenn Sie mit den FAIR-Prinzipien bereits vertraut sind, können sie das einführ
 
 ```{admonition} Bearbeitungszeit
 :class: zeitinfo
-Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 15 Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus. 
+Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 15 Minuten. Dies schließt die gekennzeichneten Übungsaufgaben, deren Bearbeitungsdauer individuell variiert, aus.
 
 Die geschätzte Bearbeitungsdauer **inklusive** der einzelnen Übungsaufgaben beträgt ca. 30-45 Minuten.
 
 Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
-``` 
+```
 
