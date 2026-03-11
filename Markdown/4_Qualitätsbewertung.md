@@ -22,8 +22,8 @@ Im Kapitel Datennachnutzung haben Sie erfahren, dass die FAIR-Prinzipien vor all
 
 ````{admonition} Lernziel: Sicherstellen der Qualität von Datensätzen
 :class: lernziele
-```{inlcude} ../Markdown/1_1_lernziele.md
-:begin-after: "<!-- START: Qualitätsbewertung -->"
+```{include} 1_1_lernziele.md
+:start-after: "<!-- START: Qualitätsbewertung -->"
 :end-before: "<!-- END: Qualitätsbewertung -->"
 ```
 ````

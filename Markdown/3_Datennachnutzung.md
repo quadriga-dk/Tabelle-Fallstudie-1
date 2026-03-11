@@ -25,8 +25,8 @@ Dieses Kapitel befasst sich mit der Datennachnutzung, die für die Reproduzierba
 
 ````{admonition} Lernziel: Grundsätze des Datenmanagements
 :class: lernziele
-```{inlcude} ../Markdown/1_1_lernziele.md
-:begin-after: "<!-- START: Datennachnutzung -->"
+```{include} 1_1_lernziele.md
+:start-after: "<!-- START: Datennachnutzung -->"
 :end-before: "<!-- END: Datennachnutzung -->"
 ```
 ````

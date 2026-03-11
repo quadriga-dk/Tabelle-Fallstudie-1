@@ -19,13 +19,13 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 
 In diesem Kapitel wird die Datenaufbereitung unter Verschiebung des Fokus' auf Analyse, Reproduzierbarkeit und Visualisierung weitergeführt. Dabei können Sie folgende Lernziele erreichen:
 
-```{admonition} Lernziel: Datenanalyse und -reproduzierbarkeit
+````{admonition} Lernziel: Datenanalyse und -reproduzierbarkeit
 :class: lernziele
-```{inlcude} ../Markdown/1_1_lernziele.md
-:begin-after: "<!-- START: Datenaufbereitung II -->"
+```{include} 1_1_lernziele.md
+:start-after: "<!-- START: Datenaufbereitung II -->"
 :end-before: "<!-- END: Datenaufbereitung II -->"
 ```
-```
+````
 
 Zuerst widmen wir uns der Reproduzierbarkeit von Forschungsergebnissen und deren Visualisierung. Dazu wird u. a. ein *Dataframe* erstellt und ein Kreisdiagramm nachgebaut.
 Danach werden wir uns auf die Beantwortung der Forschungsfrage fokussieren und das Ergebnis ebenfalls visuell dargestellen.

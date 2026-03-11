@@ -22,7 +22,7 @@ Mit dem Durcharbeiten dieses Jupyter Books können Sie die folgenden Lernziele e
 <!-- competency: Orientierungswissen | bloom: 2 Verstehen -->
 2. Die FAIRness eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden.
 <!-- competency: Orientierungswissen | bloom: 3 Anwenden -->
-<!-- END: Datenbasis -->
+<!-- END: Datennachnutzung -->
 ```
 
 ```{admonition} [Lernziel: Sicherstellen der Qualität von Datensätzen](Qualitätsbewertung)
