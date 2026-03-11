@@ -311,7 +311,7 @@ context-of-creation: 'Die vorliegenden Open Educational Resources wurden durch d
 
   Förderkennzeichen: 16DKZ2034'
 quality-assurance:
-  description: https://doi.org/TODO
+  description: https://doi.org/10.5281/zenodo.18953896
   date: '2025-10-01'
 learning-resource-type: Jupyter Book
 schema-version: 1.0.0
