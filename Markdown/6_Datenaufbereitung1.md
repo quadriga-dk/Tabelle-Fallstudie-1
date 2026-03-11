@@ -21,8 +21,8 @@ Dieses Kapitel hat das Schwerpunktthema Datenaufbereitung mit Fokus auf Organisa
 
 ````{admonition} Lernziel: Datenaufbereitung und -strukturierung
 :class: lernziele
-```{inlcude} ../Markdown/1_1_lernziele.md
-:begin-after: "<!-- START: Datenaufbereitung I -->"
+```{include} 1_1_lernziele.md
+:start-after: "<!-- START: Datenaufbereitung I -->"
 :end-before: "<!-- END: Datenaufbereitung I -->"
 ```
 ````

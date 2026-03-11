@@ -3,8 +3,8 @@
 
 ````{admonition} Lernziel: Forschungsfrage
 :class: lernziele
-```{inlcude} ../Markdown/1_1_lernziele.md
-:begin-after: "<!-- START: Datenbasis -->"
+```{include} 1_1_lernziele.md
+:start-after: "<!-- START: Datenbasis -->"
 :end-before: "<!-- END: Datenbasis -->"
 ```
 ````

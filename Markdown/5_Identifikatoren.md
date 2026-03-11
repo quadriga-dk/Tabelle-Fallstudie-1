@@ -21,13 +21,13 @@ Nachdem Sie in den beiden vorangegangenen Kapiteln über Datennachnutzung und Qu
 
 In diesem Kapitel können Sie folgende Lernziele erreichen:
 
-```{admonition} Lernziel: Datenzitierung und PID
+````{admonition} Lernziel: Datenzitierung und PID
 :class: lernziele
-```{inlcude} ../Markdown/1_1_lernziele.md
-:begin-after: "<!-- START: Identifikatoren -->"
+```{include} 1_1_lernziele.md
+:start-after: "<!-- START: Identifikatoren -->"
 :end-before: "<!-- END: Identifikatoren -->"
 ```
-```
+````
 
 Dieses Kapitel verbindet das Zitieren von Forschungsdaten mit Persistenten Identifikatoren (PID), die in Bezug auf die FAIR-Prinzipien von Bedeutung sind, mit dem übergeordneten Thema Linked Data, zu dessen Prinzip der Verknüpfung von Daten PID beitragen können.
 
