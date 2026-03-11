@@ -1,8 +1,6 @@
----
-lang: de-de
----
-
 # Checkliste Qualitätssicherung
+
+[Qualitätssicherungskonzept für die Publikation von QUADRIGA Lernmaterialien](https://doi.org/10.5281/zenodo.18953896)
 
 ## Inhalt
 - [ ] Stand der Forschung
