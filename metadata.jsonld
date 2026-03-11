@@ -346,12 +346,12 @@
     {
       "@type": "CreativeWork",
       "name": "Source Code",
-      "license": "https://opensource.org/licenses/AGPL-3.0"
+      "license": "https://opensource.org/licenses/MIT"
     },
     {
       "@type": "CreativeWork",
       "name": "Content",
-      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+      "license": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
   "hasPart": [
