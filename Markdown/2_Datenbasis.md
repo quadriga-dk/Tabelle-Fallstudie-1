@@ -1,13 +1,12 @@
 (Datenbasis)=
 # Datenbasis: Nationaler Bildungsbericht
 
-````{admonition} Lernziel: Forschungsfrage
-:class: lernziele
+
 ```{include} 1_1_lernziele.md
 :start-after: "<!-- START: Datenbasis -->"
 :end-before: "<!-- END: Datenbasis -->"
 ```
-````
+
 
 Diese Fallstudie des Datentyps Tabelle arbeitet mit strukturierten Daten, also Daten, die in einem vorgegebenen Format organisiert und sortiert sind. Als Arbeitsgrundlage dienen Daten des Nationalen Bildungsberichts (2022) und von Destatis.
 

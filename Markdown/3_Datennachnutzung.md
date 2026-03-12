@@ -23,13 +23,12 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 
 Dieses Kapitel befasst sich mit der Datennachnutzung, die für die Reproduzierbarkeit elementar ist, da nur Daten, die verfügbar und gut dokumentiert sind, überhaupt für eine erneute Analyse verwendet werden können. Dabei können Sie folgende Lernziele erreichen:
 
-````{admonition} Lernziel: Grundsätze des Datenmanagements
-:class: lernziele
+
 ```{include} 1_1_lernziele.md
 :start-after: "<!-- START: Datennachnutzung -->"
 :end-before: "<!-- END: Datennachnutzung -->"
 ```
-````
+
 
 Dazu finden Sie in diesem Kapitel folgende Abschnitte:
 
