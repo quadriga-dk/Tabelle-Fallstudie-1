@@ -19,13 +19,12 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 
 Dieses Kapitel hat das Schwerpunktthema Datenaufbereitung mit Fokus auf Organisation und Strukturierung von Daten. Sie können folgende Lernziele erreichen:
 
-````{admonition} Lernziel: Datenaufbereitung und -strukturierung
-:class: lernziele
+
 ```{include} 1_1_lernziele.md
-:start-after: "<!-- START: Datenaufbereitung I -->"
-:end-before: "<!-- END: Datenaufbereitung I -->"
+:start-after: "<!-- START: Datenaufbereitung I - Organisation und Strukturierung -->"
+:end-before: "<!-- END: Datenaufbereitung I - Organisation und Strukturierung -->"
 ```
-````
+
 
 In diesem Kapitel finden Sie folgende Abschnitte:
 
