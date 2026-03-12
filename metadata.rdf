@@ -414,13 +414,13 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:learningResourceType>Jupyter Book</schema:learningResourceType>
     <schema:license>
       <schema:CreativeWork rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html#license_code">
-        <schema:license rdf:resource="https://opensource.org/licenses/AGPL-3.0" />
+        <schema:license rdf:resource="https://opensource.org/licenses/MIT" />
         <schema:name>Source Code</schema:name>
       </schema:CreativeWork>
     </schema:license>
     <schema:license>
       <schema:CreativeWork rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html#license_content">
-        <schema:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/" />
+        <schema:license rdf:resource="https://creativecommons.org/licenses/by/4.0/" />
         <schema:name>Content</schema:name>
       </schema:CreativeWork>
     </schema:license>
