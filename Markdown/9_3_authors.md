@@ -1,12 +1,15 @@
 ---
 lang: de-DE
 ---
+
 (authors)=
+
 # Autor:innen
 
 ## Autor:innen
 
 ### Jana Plomin <a href="https://orcid.org/0000-0003-0127-7493" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -23,6 +26,7 @@ lang: de-DE
 </table>
 
 ### Juliane Schmeling <a href="https://orcid.org/0009-0005-9814-1139" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -39,6 +43,7 @@ lang: de-DE
 </table>
 
 ### Paul Walter <a href="https://orcid.org/0000-0002-9236-3268" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -58,7 +63,8 @@ lang: de-DE
 </tr>
 </table>
 
-### Anton Schulze 
+### Anton Schulze
+
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -70,11 +76,10 @@ lang: de-DE
 </tr>
 </table>
 
-
 ## Weitere Beteiligte
 
-
 ### Hannes Schnaitter <span style="font-size:8pt">(er/ihm/sein)</span> <a href="https://orcid.org/0000-0002-1602-6032" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -95,6 +100,7 @@ lang: de-DE
 </table>
 
 ### Evgenia Samoilova <a href="https://orcid.org/0000-0003-3858-901X" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -113,8 +119,9 @@ lang: de-DE
 <td><a href="https://github.com/esamoilo" class="external-link" target="_blank">esamoilo</a></td>
 </tr>
 </table>
-  
+
 ### Carsten Schneemann <a href="https://orcid.org/0000-0002-2683-5853" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -127,6 +134,7 @@ lang: de-DE
 </table>
 
 ### Lamia Islam <a href="https://orcid.org/0009-0001-1879-9880" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -140,9 +148,10 @@ lang: de-DE
 <td><b>GitHub:</b></td>
 <td><a href="https://github.com/lam1aa" class="external-link" target="_blank">lam1aa</a></td>
 </tr>
-</table>  
+</table>
 
-### Yue Zhang
+### Yue Zhang <a href="https://orcid.org/0009-0007-6432-1259" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+
 <table style="margin-left: 0">
 <tr>
 <td><b>Rolle in QUADRIGA:</b></td>
@@ -156,9 +165,10 @@ lang: de-DE
 <td><b>GitHub:</b></td>
 <td><a href="https://github.com/SchenbergZY" class="external-link" target="_blank">SchenbergZY</a></td>
 </tr>
-</table>  
+</table>
 
 ### Philip Wiemer
+
 <table style="margin-left: 0">
 <tr>
 <td><b>Beitrag zu dieser Fallstudie:</b></td>
@@ -168,9 +178,10 @@ lang: de-DE
 <td><b>Einrichtung:</b></td>
 <td>Fachhochschule Potsdam, Fachbereich Informationswissenschaften</td>
 </tr>
-</table> 
+</table>
 
 ### Jan Bernoth <a href="https://orcid.org/0000-0002-4127-0053" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+
 <table style="margin-left: 0">
 <tr>
 <td><b>Beitrag zu dieser Fallstudie:</b></td>
@@ -183,6 +194,7 @@ lang: de-DE
 </table>
 
 ### Melanie Seltmann <a href="https://orcid.org/0000-0002-7588-4395" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+
 <table style="margin-left: 0">
 <tr>
 <td><b>Beitrag zu dieser Fallstudie:</b></td>
@@ -195,6 +207,7 @@ lang: de-DE
 </table>
 
 ### Henny Sluyter-Gäthje <a href="https://orcid.org/0000-0003-2969-3237" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+
 <table style="margin-left: 0">
 <tr>
 <td><b>Beitrag zu dieser Fallstudie:</b></td>
@@ -207,6 +220,7 @@ lang: de-DE
 </table>
 
 ### Vivien Petras <a href="https://orcid.org/0000-0002-8113-1509" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+
 <table style="margin-left: 0">
 <tr>
 <td><b>Beitrag zu dieser Fallstudie:</b></td>
@@ -219,6 +233,7 @@ lang: de-DE
 </table>
 
 ### Heike Neuroth <a href="https://orcid.org/0000-0002-3637-3154" target="_blank">![](_images/ORCID-iD_icon-16x16.png)</a>
+
 <table style="margin-left: 0">
 <tr>
 <td><b>Beitrag zu dieser Fallstudie:</b></td>
