@@ -6,7 +6,7 @@ root: Markdown/0_Intro
 options: 
   numbered: 3
 chapters:
-  - file: Markdown/1_Präambel
+  - file: Markdown/1_Einstieg
     sections:
       - file: Markdown/1_1_lernziele
       - file: Markdown/1_2_technische_voraussetzungen
@@ -47,7 +47,7 @@ chapters:
     - file: Markdown/7_3_Resümee_Datenaufbereitung2
     - file: Markdown/7_Assessment
   - file: Markdown/8_Zusammenfassung
-  - file: Markdown/9_Epilog
+  - file: Markdown/9_Abschluss
     sections:
     - file: Markdown/9_1_fragen_und_feedback
     - file: Markdown/9_2_literaturverzeichnis
