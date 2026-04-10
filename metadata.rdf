@@ -86,7 +86,7 @@
   </schema:AlignmentObject>
   <schema:Book rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html">
     <dc:type>Jupyter Book</dc:type>
-    <dcterms:tableOfContents>- [Missing: 1_Präambel]
+    <dcterms:tableOfContents>- Einstieg
 - Datenbasis: Nationaler Bildungsbericht
 - Datennachnutzung
 - Qualitätsbewertung
@@ -94,7 +94,7 @@
 - Datenaufbereitung I - Organisation und Strukturierung
 - Datenaufbereitung II - Analyse und Reproduzierbarkeit
 - Zusammenfassung und Reflexion
-- [Missing: 9_Epilog]</dcterms:tableOfContents>
+- Abschluss</dcterms:tableOfContents>
     <dcterms:type>Jupyter Book</dcterms:type>
     <lrmi:learningResourceType>Jupyter Book</lrmi:learningResourceType>
     <schema:about>
