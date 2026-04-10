@@ -159,6 +159,12 @@
       "givenName": "Yue",
       "familyName": "Zhang",
       "name": "Yue Zhang",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0009-0007-6432-1259",
+        "url": "https://orcid.org/0009-0007-6432-1259"
+      },
       "affiliation": {
         "@type": "Organization",
         "name": "Technische Universität Berlin"

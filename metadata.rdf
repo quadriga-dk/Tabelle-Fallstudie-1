@@ -263,6 +263,7 @@
         <schema:affiliation rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html#contributor_4_org" />
         <schema:familyName>Zhang</schema:familyName>
         <schema:givenName>Yue</schema:givenName>
+        <schema:identifier rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html#contributor_4_orcid" />
         <schema:name>Yue Zhang</schema:name>
       </schema:Person>
     </schema:contributor>
@@ -518,6 +519,11 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:propertyID>ORCID</schema:propertyID>
     <schema:url rdf:resource="https://orcid.org/0009-0001-1879-9880" />
     <schema:value>0009-0001-1879-9880</schema:value>
+  </schema:PropertyValue>
+  <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html#contributor_4_orcid">
+    <schema:propertyID>ORCID</schema:propertyID>
+    <schema:url rdf:resource="https://orcid.org/0009-0007-6432-1259" />
+    <schema:value>0009-0007-6432-1259</schema:value>
   </schema:PropertyValue>
   <schema:PropertyValue rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html#contributor_6_orcid">
     <schema:propertyID>ORCID</schema:propertyID>
