@@ -53,7 +53,7 @@ description: Diese Fallstudie bildet mit Hilfe eines JupyterBooks einen Forschun
   auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu
   werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität
   und Nachvollziehbarkeit von Analysen behandelt.
-table-of-contents: '- Präambel
+table-of-contents: '- [Missing: 1_Präambel]
 
   - Datenbasis: Nationaler Bildungsbericht
 

@@ -514,7 +514,7 @@
       ]
     }
   ],
-  "dcterms:tableOfContents": "- Präambel\n- Datenbasis: Nationaler Bildungsbericht\n- Datennachnutzung\n- Qualitätsbewertung\n- Identifikatoren\n- Datenaufbereitung I - Organisation und Strukturierung\n- Datenaufbereitung II - Analyse und Reproduzierbarkeit\n- Zusammenfassung und Reflexion\n- Epilog",
+  "dcterms:tableOfContents": "- [Missing: 1_Präambel]\n- Datenbasis: Nationaler Bildungsbericht\n- Datennachnutzung\n- Qualitätsbewertung\n- Identifikatoren\n- Datenaufbereitung I - Organisation und Strukturierung\n- Datenaufbereitung II - Analyse und Reproduzierbarkeit\n- Zusammenfassung und Reflexion\n- Epilog",
   "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034",
   "learningResourceType": "Jupyter Book",
   "lrmi:learningResourceType": "Jupyter Book",

@@ -86,7 +86,7 @@
   </schema:AlignmentObject>
   <schema:Book rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html">
     <dc:type>Jupyter Book</dc:type>
-    <dcterms:tableOfContents>- Präambel
+    <dcterms:tableOfContents>- [Missing: 1_Präambel]
 - Datenbasis: Nationaler Bildungsbericht
 - Datennachnutzung
 - Qualitätsbewertung
