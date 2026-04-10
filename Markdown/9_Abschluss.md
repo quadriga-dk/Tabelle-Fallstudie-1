@@ -1,4 +1,4 @@
-# Epilog 
+# Abschluss 
 
 In diesem Kapitel finden Sie Informationen zum Projekt und den Autor:innen dieses JupyterBooks und Möglichkeiten, das Projektteam für Fragen und Feedback zu erreichen.
 
