@@ -318,7 +318,7 @@
         <schema:name>Heike Neuroth</schema:name>
       </schema:Person>
     </schema:contributor>
-    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-03-24</schema:dateModified>
+    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-10</schema:dateModified>
     <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-06-13</schema:datePublished>
     <schema:description>Diese Fallstudie bildet mit Hilfe eines JupyterBooks einen Forschungsverlauf in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.</schema:description>
     <schema:funding>Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.
@@ -428,7 +428,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:schemaVersion>1.0.0</schema:schemaVersion>
     <schema:timeRequired>PT3H15M</schema:timeRequired>
     <schema:url rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html" />
-    <schema:version>1.0.0-beta.2</schema:version>
+    <schema:version>1.0.0-beta.3</schema:version>
     <schema:workExample>
       <schema:SoftwareSourceCode rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html#repository">
         <schema:codeRepository rdf:resource="https://github.com/quadriga-dk/Tabelle-Fallstudie-1" />

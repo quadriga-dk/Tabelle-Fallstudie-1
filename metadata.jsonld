@@ -19,7 +19,7 @@
     "value": "10.5281/zenodo.14975202",
     "url": "https://doi.org/10.5281/zenodo.14975202"
   },
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "schemaVersion": "1.0.0",
   "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html",
   "workExample": {
@@ -28,7 +28,7 @@
     "codeRepository": "https://github.com/quadriga-dk/Tabelle-Fallstudie-1"
   },
   "datePublished": "2024-06-13",
-  "dateModified": "2025-03-24",
+  "dateModified": "2026-04-10",
   "author": [
     {
       "@type": "Person",
