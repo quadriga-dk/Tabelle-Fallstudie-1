@@ -16,11 +16,11 @@ jobs:
       id-token: write
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
 
     # Python
-    - name: Set up Python 
-      uses: actions/setup-python@v5
+    - name: Set up Python
+      uses: actions/setup-python@v6
       with:
         python-version-file: '.python-version'
         cache: pip
@@ -41,8 +41,8 @@ jobs:
         packages: |
           any::tidyverse
           any::IRkernel
-    
-    # Jupyter Kernels   
+
+    # Jupyter Kernels
     - name: Print kernelspec version
       run: |
         jupyter kernelspec --version
@@ -75,10 +75,10 @@ jobs:
         jupyter-book build .
 
     - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
+      uses: actions/upload-pages-artifact@v4
       with:
         path: "_build/html"
 
     - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@v4
+      uses: actions/deploy-pages@v5
