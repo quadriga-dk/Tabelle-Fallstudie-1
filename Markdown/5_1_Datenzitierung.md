@@ -44,4 +44,5 @@ Zusätzliche Informationen zum Thema Datenzitierung finden Sie auf
 
 ```{bibliography}
 :filter: docname in docnames
+:list: bullet
 ```

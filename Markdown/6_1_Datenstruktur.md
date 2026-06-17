@@ -116,4 +116,5 @@ Nun stellt sich bei Ihnen sicherlich die Frage, wie es um unsere Tabelle des Sta
 
 ```{bibliography}
 :filter: docname in docnames
+:list: bullet
 ```

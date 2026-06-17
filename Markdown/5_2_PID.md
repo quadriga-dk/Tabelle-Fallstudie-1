@@ -49,6 +49,7 @@ Wenn Sie mehr zum Thema PID erfahren möchten, sei Ihnen das DFG-geförderte Pro
 
 ```{bibliography}
 :filter: docname in docnames
+:list: bullet
 ```
 
 
