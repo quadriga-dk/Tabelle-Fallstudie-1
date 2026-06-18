@@ -44,5 +44,4 @@ Weitere Informationen zum Thema Linked Data erhalten Sie u. a. auf der Webseite 
 
 ```{bibliography}
 :filter: docname in docnames
-:list: bullet
 ```

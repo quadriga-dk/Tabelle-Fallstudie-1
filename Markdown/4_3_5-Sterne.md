@@ -28,5 +28,4 @@ Mithilfe des 5-Sterne-Modells können folgende Einschätzungen hinsichtlich des 
 
 ```{bibliography}
 :filter: docname in docnames
-:list: bullet
 ```

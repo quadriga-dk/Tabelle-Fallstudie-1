@@ -73,5 +73,4 @@ Bevor Sie im übernächsten Abschnitt mit dem 5-Sterne-Modell ein weiteres Bewer
 
 ```{bibliography}
 :filter: docname in docnames
-:list: bullet
 ```

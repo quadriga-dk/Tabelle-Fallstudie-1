@@ -283,5 +283,4 @@ display_quiz(questions, colors = colors.jupyterquiz)
 
 ```{bibliography}
 :filter: docname in docnames
-:list: bullet
 ```

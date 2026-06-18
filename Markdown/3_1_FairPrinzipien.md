@@ -70,5 +70,4 @@ Das FAIR Data Maturity Model wurde von einer Arbeitsgruppe der <a href="https://
 
 ```{bibliography}
 :filter: docname in docnames
-:list: bullet
 ```
