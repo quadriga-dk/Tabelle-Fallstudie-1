@@ -304,3 +304,22 @@ html[data-theme='dark'] div.zeitinfo > .admonition-title {
 html[data-theme='dark'] div.zeitinfo > .admonition-title::after {
     color: #e59d7e !important;
 }
+
+/* Fix bibliography URL overflowL */
+div.citation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+div.citation p,
+div.citation dd,
+div.citation .docutils {
+    overflow-wrap: break-word;
+    word-break: break-all;
+    word-wrap: break-word;
+    min-width: 0;
+    flex: 1;
+}
