@@ -63,11 +63,11 @@ def _fetch_json(url: str) -> dict:
         age = time.time() - cache_file.stat().st_mtime
         if age < SCHEMA_CACHE_MAX_AGE:
             logger.debug("Using cached schema for %s (age: %ds)", url, int(age))
-            return dict(json.loads(cache_file.read_text(encoding="utf-8")))
+            return json.loads(cache_file.read_text(encoding="utf-8"))
 
     # Fetch from remote
     try:
-        with urllib.request.urlopen(url, timeout=30) as resp:  # noqa: S310
+        with urllib.request.urlopen(url, timeout=30) as resp:
             data = json.loads(resp.read())
 
         # Try to write to cache (skip silently if not writable, e.g. in Docker)
@@ -76,22 +76,18 @@ def _fetch_json(url: str) -> dict:
             cache_file.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
             logger.debug("Cached schema for %s", url)
         except OSError:
-            logger.debug(
-                "Could not write schema cache (read-only filesystem), continuing without cache"
-            )
+            logger.debug("Could not write schema cache (read-only filesystem), continuing without cache")
 
-        return dict(data)
+        return data
     except Exception:
         # Fall back to stale cache if available
         if cache_file.exists():
             logger.warning("Failed to fetch %s, using stale cache", url)
-            return dict(json.loads(cache_file.read_text(encoding="utf-8")))
+            return json.loads(cache_file.read_text(encoding="utf-8"))
         raise
 
 
-def _validate_metadata(
-    metadata: dict, schema_url: str = QUADRIGA_SCHEMA_URL
-) -> tuple[bool, list[str]]:
+def _validate_metadata(metadata: dict, schema_url: str = QUADRIGA_SCHEMA_URL) -> tuple[bool, list[str]]:
     """Validate a metadata dictionary against the QUADRIGA JSON Schema.
 
     Fetches the schema (and any ``$ref`` sub-schemas) fresh from the given URL.
@@ -112,8 +108,7 @@ def _validate_metadata(
         from referencing.jsonschema import DRAFT202012
     except ImportError:
         logger.warning(
-            "jsonschema package not installed - skipping schema validation. "
-            "Install it via: pip install jsonschema"
+            "jsonschema package not installed – skipping schema validation. Install it via: pip install jsonschema"
         )
         return True, []
 
@@ -129,7 +124,7 @@ def _validate_metadata(
         return Resource.from_contents(data, default_specification=DRAFT202012)
 
     try:
-        registry: Registry = Registry(retrieve=retrieve)  # type: ignore[call-arg]
+        registry: Registry = Registry(retrieve=retrieve)
         validator = Draft202012Validator(main_schema, registry=registry)
         errors = list(validator.iter_errors(metadata))
     except Exception:
@@ -159,7 +154,7 @@ def validate_schema() -> bool:
         logger.error("Could not load metadata.yml for validation.")
         return False
 
-    valid, errors = _validate_metadata(dict(metadata))
+    valid, errors = _validate_metadata(metadata)
     if valid:
         logger.info("Schema validation passed.")
         return True
