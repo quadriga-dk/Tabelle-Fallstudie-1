@@ -127,7 +127,7 @@ question3 = [{
         {
             "answer": "Sie ist optional und nur bei sehr großen Datensätzen notwendig",
             "correct": False,
-            "feedback": """× Diese Antwort ist nicht korrekt. Datenaufbereitung ist nicht optional, sondern ein wesentlicher Schritt in fast jedem Datenprojekt, unabhängig von der Datensatzgröße. Das Kapitel betont, dass "eigentlich jedes Datenprojekt zunächst mit einer aufwendigen Datenaufbereitung und -bereinigung beginnt."."""
+            "feedback": """× Diese Antwort ist nicht korrekt. Datenaufbereitung ist nicht optional, sondern ein wesentlicher Schritt in fast jedem Datenprojekt, unabhängig von der Datensatzgröße. Das Kapitel betont, dass "eigentlich jedes Datenprojekt zunächst mit einer aufwendigen Datenaufbereitung und -bereinigung beginnt.\""""
         },
         {
             "answer": "Sie erfolgt erst nach der Datenanalyse zur Ergebnisverbesserung",
