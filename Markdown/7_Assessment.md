@@ -297,7 +297,7 @@ Reproduzierbarkeitsrelevante Aspekte:
 
 ##### Teil C: Zeitreihenanalyse
 
-**Reproduzierbarkeitsaspekte:Dokumentationsqualität:**
+**Reproduzierbarkeitsaspekte: Dokumentationsqualität:**
 - Vollständiger Code mit Kommentaren
 - Schrittweise Erklärung jeder Datenaufbereitung
 - Transparente Darstellung aller Berechnungen
@@ -311,7 +311,7 @@ Reproduzierbarkeitsrelevante Aspekte:
 ##### Teil D: Übergreifende Aspekte
 
 **Sorgfältige Dokumentation:**
-- Ermöglichende Elemente: Vollständiger kommentierten Code, Schritt-für-Schritt-Erklärungen, Begründung von Entscheidungen
+- Ermöglichende Elemente: Vollständiger, kommentierter Code, Schritt-für-Schritt-Erklärungen, Begründung von Entscheidungen
 - Ohne Dokumentation: Andere könnten die Analysen nicht nachvollziehen oder mögliche Fehlerquellen ausmachen
 
 **Visualisierung im Kontext:**
