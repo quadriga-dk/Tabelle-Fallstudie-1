@@ -8,7 +8,7 @@ Mit dem Durcharbeiten dieses Jupyter Books können Sie die folgenden Lernziele e
 <!-- START: Datenbasis -->
 ```{admonition} [Lernziel: Forschungsfrage](Datenbasis)
 :class: lernziele
-<!-- learning-goal: Forschungssfrage -->
+<!-- learning-goal: Forschungsfrage -->
 1. Die Forschungsfrage kann erläutert und in einen Kontext mit dem Bildungsbericht gesetzt werden.
 <!-- competency: nicht anwendbar | bloom: 2 Verstehen -->
 ```
