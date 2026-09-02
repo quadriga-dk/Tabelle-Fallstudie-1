@@ -849,7 +849,7 @@ sys.path.append("..")
 from quadriga import colors
 
 question21 = [{
-    "question": """2.	Der Datensatz enthält angemessene Dokumentation über seine Erstellung""",
+    "question": """Der Datensatz enthält angemessene Dokumentation über seine Erstellung""",
     "type": "multiple_choice",
     "answers": [
         {
@@ -957,7 +957,7 @@ Interoperable (Interoperabel)
     - Begründung: Die Verwendung einer gemeinsamen, standardisierten Sprache oder Ontologie (z. B. RDF) wird hier für die Metadaten verwendet.
 2. Die Daten oder Metadaten verwenden Vokabulare, die den FAIR-Prinzipien folgen.
     - Ja
-    - Begründung: Ja, denn es die Metadaten verwenden Standard-Vokabulare wie DCAT oder Dublin Core.
+    - Begründung: Ja, denn die Metadaten verwenden Standard-Vokabulare wie DCAT oder Dublin Core.
 3. Der Datensatz enthält qualifizierte Verweise auf andere Daten.
     - Nein
     - Begründung: Es gibt nur einen Verweis auf die Originalquelle (Statistisches Bundesamt), aber keine strukturierten Verweise auf verwandte Datensätze.
