@@ -27,10 +27,10 @@ In diesem Kapitel wird die Datenaufbereitung unter Verschiebung des Fokus' auf A
 
 
 Zuerst widmen wir uns der Reproduzierbarkeit von Forschungsergebnissen und deren Visualisierung. Dazu wird u. a. ein *Dataframe* erstellt und ein Kreisdiagramm nachgebaut.
-Danach werden wir uns auf die Beantwortung der Forschungsfrage fokussieren und das Ergebnis ebenfalls visuell dargestellen.
+Danach werden wir uns auf die Beantwortung der Forschungsfrage fokussieren und das Ergebnis ebenfalls visuell darstellen.
 Dazu verwenden wir weiterhin den aus dem vorherigen Kapitel bekannten Datensatz, den wir mit der Software RStudio weiterbearbeiten.
 
-Dies gleidert sich in folgende Abschnitte:
+Dies gliedert sich in folgende Abschnitte:
 
 - [Übung: Reproduzierbarkeit Nationaler Bildungsbericht](/Markdown/7_1_Übung_Reproduzierbarkeit.ipynb)
 - [Übung: Zeitreihe Personalentwicklung](/Markdown/7_2_Übung_Zeitreihe.ipynb)
