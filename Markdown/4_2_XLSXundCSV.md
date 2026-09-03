@@ -44,9 +44,9 @@ Die benötigte Tabelle hat den Code 21341-0001.
 ```
 
 
-Nachdem Sie auf die Tabelle 21341-0001 geklickt haben, erscheint die Seite "Tabelle abrufen". Unter "Tabellenaufbau" wählen wir noch das Jahr 2020 aus, weil wir zunächst ein Jahr bertrachten wollen. Beginnen Sie den Abruf der Werte mit einem Klick auf den Button `(Werteabruf)`.  
+Nachdem Sie auf die Tabelle 21341-0001 geklickt haben, erscheint die Seite "Tabelle abrufen". Unter "Tabellenaufbau" wählen wir noch das Jahr 2020 aus, weil wir zunächst ein Jahr betrachten wollen. Beginnen Sie den Abruf der Werte mit einem Klick auf den Button `(Werteabruf)`.  
 
-Sodann wird Ihnen die Tabelle bereits angezeigt. Sie können die Daten nun in verschiedenen Formaten auswählen. Destatis bietet hier andere Formate, die für eine maschinelle Weiterverabreitung geeigneter sind als CSV. Wir arbeiten für unsere Lernzwecke mit der CSV-Datei weiter, weil CSV ein häufig genutztes Format ist. 
+Sodann wird Ihnen die Tabelle bereits angezeigt. Sie können die Daten nun in verschiedenen Formaten auswählen. Destatis bietet hier andere Formate, die für eine maschinelle Weiterverarbeitung geeigneter sind als CSV. Wir arbeiten für unsere Lernzwecke mit der CSV-Datei weiter, weil CSV ein häufig genutztes Format ist. 
 Wählen Sie deshalb CSV aus und der Datensatz wird als 21341-0001_$F im Format CSV heruntergeladen.
 
 ```{figure} _images/Destatis_Abruf_2020.png

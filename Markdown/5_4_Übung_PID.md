@@ -24,7 +24,7 @@ from quadriga import colors
 
 
 Um das Kapitel Identifikatoren abzuschließen, können Sie Ihr Wissen hier in einem kleinen Quiz überprüfen.
-Die Übung basiert auf einem Quiz von <a href="https://fair-office.at/index.php/pid/" class="external-link" target="_blank">FAIR Data Austria</a>, das mit CC BY 4.0 lizensiert ist. Unter dem Link können Sie bei Bedarf die Originalversion des Quiz' ausprobieren und sich ein erklärendes Video zum Thema PID ansehen, das von der RWTH Aachen erstellt wurde.
+Die Übung basiert auf einem Quiz von <a href="https://fair-office.at/index.php/pid/" class="external-link" target="_blank">FAIR Data Austria</a>, das mit CC BY 4.0 lizenziert ist. Unter dem Link können Sie bei Bedarf die Originalversion des Quiz' ausprobieren und sich ein erklärendes Video zum Thema PID ansehen, das von der RWTH Aachen erstellt wurde.
 
 ---
 
@@ -72,7 +72,7 @@ questions = \
 { 'question': "3. Welche Aussage trifft zu?",
     'type': 'multiple_choice',
     'answers': [
-    { 'answer': 'Die Vergabe von persistenten Identifikatoren erfolgt auf Länderebene. Ein PID muss daher immer einen zweistellige Ländercode nach ISO-Norm 3166 enthalten.',
+    { 'answer': 'Die Vergabe von persistenten Identifikatoren erfolgt auf Länderebene. Ein PID muss daher immer einen zweistelligen Ländercode nach ISO-Norm 3166 enthalten.',
       'correct': False,
       'feedback': 'Diese Antwort ist leider nicht richtig. Die Vergabe erfolgt nicht auf Länderebene und enthält daher auch keinen Ländercode nach der ISO-Norm 3166.'},
     { 'answer': 'Bei vielen Datenrepositorien erfolgt die Vergabe eines persistenten Identifikators automatisch beim Upload der Daten.',
