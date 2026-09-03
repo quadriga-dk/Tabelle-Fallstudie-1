@@ -330,7 +330,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
         <schema:description>Dieses Kapitel beschreibt die in dieser Fallstudie genutzten Daten.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html#chapter_0_objective_0" />
         <schema:name>Datenbasis</schema:name>
-        <schema:teaches>Forschungssfrage</schema:teaches>
+        <schema:teaches>Forschungsfrage</schema:teaches>
         <schema:timeRequired>PT5M</schema:timeRequired>
         <schema:url rdf:resource="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/2_Datenbasis.html" />
       </schema:LearningResource>

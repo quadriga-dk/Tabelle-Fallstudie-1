@@ -169,7 +169,7 @@ chapters:
   description: Dieses Kapitel beschreibt die in dieser Fallstudie genutzten Daten.
   url: https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/2_Datenbasis.html
   time-required: PT5M
-  learning-goal: Forschungssfrage
+  learning-goal: Forschungsfrage
   learning-objectives:
   - learning-objective: Die Forschungsfrage kann erläutert und in einen Kontext mit
       dem Bildungsbericht gesetzt werden.

@@ -367,7 +367,7 @@
       "description": "Dieses Kapitel beschreibt die in dieser Fallstudie genutzten Daten.",
       "url": "https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/2_Datenbasis.html",
       "timeRequired": "PT5M",
-      "teaches": "Forschungssfrage",
+      "teaches": "Forschungsfrage",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
