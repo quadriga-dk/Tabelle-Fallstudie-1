@@ -74,8 +74,19 @@ jobs:
       run: |
         jupyter-book build .
 
+    - name: Inject all metadata into HTML
+      run: |
+        python -m quadriga.metadata.inject_all_metadata
+        echo "Injected all metadata (OpenGraph, JSON-LD, and RDF links) into HTML head"
+
+    - name: Copy metadata files to build directory
+      run: |
+        cp quadriga-metadata.jsonld _build/html/quadriga-metadata.jsonld
+        cp quadriga-metadata.rdf _build/html/quadriga-metadata.rdf
+        echo "Copied metadata files to _build/html for discovery"
+
     - name: Upload artifact
-      uses: actions/upload-pages-artifact@v4
+      uses: actions/upload-pages-artifact@v5
       with:
         path: "_build/html"
 
