@@ -241,6 +241,6 @@ lang: de-DE
 </tr>
 <tr>
 <td><b>Einrichtung:</b></td>
-<td>Fachhochschule Potsdam</td>
+<td>Fachhochschule Potsdam, Fachbereich Informationswissenschaften</td>
 </tr>
 </table>
