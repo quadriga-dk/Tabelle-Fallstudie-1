@@ -227,9 +227,10 @@ chapterLIST:
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplementalMaterialLIST:
   - url: https://www.youtube.com/watch?v=Nb_cLObVKho
-    title: "Video „ODIS | Tutorial: Offene Daten und Datenqualität”"
+    title: 'Video „ODIS | Tutorial: Offene Daten und Datenqualität”'
   - url: https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl
-    title: "Datensatz „Personal an Hochschulen: Deutschland, Jahre, Personalgruppen nach Beschäftigungsverhältnis, Geschlecht”"
+    title: 'Datensatz „Personal an Hochschulen: Deutschland, Jahre, Personalgruppen
+      nach Beschäftigungsverhältnis, Geschlecht”'
 - title: Identifikatoren
   description: Dieses Kapitel behandelt Identifikatoren der eindeutigen und persistenten
     Auszeichnung von Daten sowie das Zitieren von Forschungsdaten.
@@ -287,7 +288,8 @@ chapterLIST:
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplementalMaterialLIST:
   - url: https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl
-    title: "Datensatz „Personal an Hochschulen: Deutschland, Jahre, Personalgruppen nach Beschäftigungsverhältnis, Geschlecht”"
+    title: 'Datensatz „Personal an Hochschulen: Deutschland, Jahre, Personalgruppen
+      nach Beschäftigungsverhältnis, Geschlecht”'
 - title: Datenaufbereitung II - Analyse und Reproduzierbarkeit
   description: Dieses Kapitel widmet sich der Datenanalyse und -reproduzierbarkeit
     mit Hilfe der Programmiersprache R.
@@ -310,7 +312,8 @@ chapterLIST:
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   supplementalMaterialLIST:
   - url: https://www-genesis.destatis.de/datenbank/online/statistic/21341/table/21341-0001/search/s/cGVyc29uYWwlMjBob2Noc2NodWxl
-    title: "Datensatz „Personal an Hochschulen: Deutschland, Jahre, Personalgruppen nach Beschäftigungsverhältnis, Geschlecht”"
+    title: 'Datensatz „Personal an Hochschulen: Deutschland, Jahre, Personalgruppen
+      nach Beschäftigungsverhältnis, Geschlecht”'
 dateIssued: '2024-06-13'
 dateModified: '2026-04-10'
 version: 1.0.0
