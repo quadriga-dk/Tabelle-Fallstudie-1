@@ -223,8 +223,8 @@ lang: de-DE
 
 <table style="margin-left: 0">
 <tr>
-<td><b>Beitrag zu dieser Fallstudie:</b></td>
-<td>Funding acquisition</td>
+<td><b>Rolle in QUADRIGA:</b></td>
+<td>Projektleitung</td>
 </tr>
 <tr>
 <td><b>Einrichtung:</b></td>
@@ -236,8 +236,8 @@ lang: de-DE
 
 <table style="margin-left: 0">
 <tr>
-<td><b>Beitrag zu dieser Fallstudie:</b></td>
-<td>Conceptualization, Funding acquisition</td>
+<td><b>Rolle in QUADRIGA:</b></td>
+<td>Projektleitung, Konzeptionierung Fallstudien Datentyp Tabelle</td>
 </tr>
 <tr>
 <td><b>Einrichtung:</b></td>
