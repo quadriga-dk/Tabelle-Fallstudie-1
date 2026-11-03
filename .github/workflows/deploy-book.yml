@@ -16,11 +16,11 @@ jobs:
       id-token: write
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
 
     # Python
     - name: Set up Python
-      uses: actions/setup-python@v6
+      uses: actions/setup-python@v7
       with:
         python-version-file: '.python-version'
         cache: pip
@@ -65,7 +65,7 @@ jobs:
     # execute:
     #   execute_notebooks: cache
     - name: cache executed notebooks
-      uses: actions/cache@v4
+      uses: actions/cache@v6
       with:
         path: _build/.jupyter_cache
         key: jupyter-book-cache-${{ hashFiles('requirements.txt') }}
