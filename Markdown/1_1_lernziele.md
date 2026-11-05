@@ -32,7 +32,7 @@ Mit dem Durcharbeiten dieses Jupyter Books können Sie die folgenden Lernziele e
 1. Die Bedeutung zentraler Qualitätskriterien für Datensätze kann für die Forschung erläutert werden.
 <!-- competency: 1.2 Qualitätssicherung | bloom: 2 Verstehen -->
 2. Die Vor- und Nachteile zwischen XLSX- und CSV-Dateiformaten können für verschiedene Anwendungsfälle aufgezeigt werden.
-<!-- competency: 1.2 Qualitätssicherung | bloom: 2 Verstehen -->
+<!-- competency: 2.3 Aufbereitung | bloom: 2 Verstehen -->
 3. Die Qualität eines gegebenen Datensatzes kann anhand einer Checkliste bewertet werden.
 <!-- competency: 1.2 Qualitätssicherung | bloom: 3 Anwenden -->
 ```
