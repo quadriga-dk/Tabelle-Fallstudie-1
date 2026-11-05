@@ -27,7 +27,7 @@
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html#chapter_2_objective_1">
     <lrmi:assesses>Multiple-Choice-Quiz, Reflexionsfragen</lrmi:assesses>
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: 1.2 Qualitätssicherung | Bloom's: 2 Verstehen | Data Flow: 1 Planung</schema:targetDescription>
+    <schema:targetDescription>Competency: 2.3 Aufbereitung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
     <schema:targetName>Die Vor- und Nachteile zwischen XLSX- und CSV-Dateiformaten können für verschiedene Anwendungsfälle aufgezeigt werden.</schema:targetName>
   </schema:AlignmentObject>
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Tabelle-Fallstudie-1/Markdown/0_Intro.html#chapter_2_objective_2">

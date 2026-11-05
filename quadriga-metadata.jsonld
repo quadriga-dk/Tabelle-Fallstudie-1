@@ -421,7 +421,7 @@
           "@type": "AlignmentObject",
           "targetName": "Die Vor- und Nachteile zwischen XLSX- und CSV-Dateiformaten können für verschiedene Anwendungsfälle aufgezeigt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: 1.2 Qualitätssicherung | Bloom's: 2 Verstehen | Data Flow: 1 Planung",
+          "targetDescription": "Competency: 2.3 Aufbereitung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung",
           "lrmi:assesses": "Multiple-Choice-Quiz, Reflexionsfragen"
         },
         {

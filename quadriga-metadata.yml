@@ -215,8 +215,8 @@ chapterLIST:
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - description: Die Vor- und Nachteile zwischen XLSX- und CSV-Dateiformaten können
       für verschiedene Anwendungsfälle aufgezeigt werden.
-    competency: 1.2 Qualitätssicherung
-    dataFlow: 1 Planung
+    competency: 2.3 Aufbereitung
+    dataFlow: 2 Erhebung und Aufbereitung
     bloomsCategory: 2 Verstehen
     assessment: Multiple-Choice-Quiz, Reflexionsfragen
   - description: Die Qualität eines gegebenen Datensatzes kann anhand einer Checkliste
