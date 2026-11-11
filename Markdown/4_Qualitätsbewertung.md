@@ -17,7 +17,7 @@ Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfn
 ```
 ````
 
-Im Kapitel Datennachnutzung haben Sie erfahren, dass die FAIR-Prinzipien vor allem einen Bewertungsmaßstab zur Datennachnutzung liefern. In diesem Kapitel stehen nun die Kriterien der Qualitätsbewertung im Mittelpunkt. Darüber hinaus werden wir Ihnen den Unterschied zwischen dem XLSX- und dem CSV-Dateiformat für Tabellendaten erläutern und mit dem 5-Sterne-Modell ein Bewertungsschema vorstellen, das sie sogleich in einer Übung auf den Datensatz anwenden dürfen. Dabei können Sie folgende Lernziele erreichen:
+Im Kapitel Datennachnutzung haben Sie erfahren, dass die FAIR-Prinzipien vor allem einen Bewertungsmaßstab zur Datennachnutzung liefern. In diesem Kapitel stehen nun die Kriterien der Qualitätsbewertung im Mittelpunkt. Darüber hinaus werden wir Ihnen den Unterschied zwischen dem XLSX- und dem CSV-Dateiformat für Tabellendaten erläutern und mit dem 5-Sterne-Modell ein Bewertungsschema vorstellen, das Sie sogleich in einer Übung auf den Datensatz anwenden dürfen. Dabei können Sie folgende Lernziele erreichen:
 
 
 
