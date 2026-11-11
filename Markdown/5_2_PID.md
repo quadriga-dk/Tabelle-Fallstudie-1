@@ -36,7 +36,7 @@ Harvesting (von engl. to harvest = ernten) bezeichnet das systematische Sammeln 
 ```
 ````
 
-Wenn Daten vom Portal <a href="https://www.govdata.de/" class="external-link" target="_blank">GovData</a>, das Ihnen sicherlich ein Begriff ist, geharvestet werden sollen, brauchen sie neben Metadaten nach dem Standard <a href="https://www.dcat-ap.de" class="external-link" target="_blank">DCAT-AP.de</a> einen persistenten URI. Um selbst Daten einzustellen muss man angemeldet und Mitarbeiter:in einer auf der Webseite gelisteten Institutionen sein {cite}`govdata_anleitung_2024`.  
+Wenn Daten vom Portal <a href="https://www.govdata.de/" class="external-link" target="_blank">GovData</a>, das Ihnen sicherlich ein Begriff ist, geharvestet werden sollen, brauchen sie neben Metadaten nach dem Standard <a href="https://www.dcat-ap.de" class="external-link" target="_blank">DCAT-AP.de</a> einen persistenten URI. Um selbst Daten einzustellen, muss man angemeldet und Mitarbeiter:in einer auf der Webseite gelisteten Institution sein {cite}`govdata_anleitung_2024`.  
 
 ```{admonition} Weitere Informationen
 :class: seealso
