@@ -27,7 +27,7 @@ Lizenzhinweis: Video „#06 Forschungsdaten zitieren | Forschungsdaten suchen & 
 
 ```{admonition} Was Sie mitnehmen sollten
 :class: keypoint
-Wenn Sie Daten zitieren, sollten sie die Urheber:innen benennen und den PID/URI des Datensatzes bzw. einen Link zu den Daten angeben. Nennen Sie auch das Repositorium, in dem die Daten liegen
+Wenn Sie Daten zitieren, sollten Sie die Urheber:innen benennen und den PID/URI des Datensatzes bzw. einen Link zu den Daten angeben. Nennen Sie auch das Repositorium, in dem die Daten liegen
 
 Wenn Sie Daten selbst zur Verfügung stellen, sollten Sie alle weiteren Beteiligten benennen, einen PID/URI vergeben, den Datensatz mit Metadaten ausführlich beschreiben und in einem gängigen, im besten Fall offenen und maschinenlesbaren Format bereitstellen.
 ```
