@@ -5,7 +5,7 @@ lang: de-DE
 # Fragen und Feedback
 
 
-Mit ihren Rückmeldungen können wir unser JupyterBook gezielt an Ihre Bedürfnisse anpassen.
+Mit Ihren Rückmeldungen können wir unser Jupyter Book gezielt an Ihre Bedürfnisse anpassen.
 Daher haben wir für Ihre Fragen und für Kritik, Anregungen und Wünsche mehrere Kommunikationswege eingerichtet.
 
 1) Wenn Sie einen GitHub-Account besitzen, können Sie direkt ein Issue erstellen:
@@ -22,7 +22,7 @@ Daher haben wir für Ihre Fragen und für Kritik, Anregungen und Wünsche mehrer
 
 ---
 
-3) Oder sie nehmen an der <a href="https://gesellschaftfuerinformatik.limesurvey.net/745598?newtest=Y&lang=de&Git=0006" class="external-link" target="_blank">Umfrage</a> teil, die wir zur Bewertung der Fallstudie eingerichtet haben. Diese wird von der <a href="https://gi.de/" class="external-link" target="_blank">Gesellschaft für Informatik e. V.</a> gehostet und betrifft die ganze Fallstudie. Kürzere Umfragen zu den einzelnen Kapiteln haben wir jeweils am Ende der entsprechenden Kapitel verlinkt.
+3) Oder Sie nehmen an der <a href="https://gesellschaftfuerinformatik.limesurvey.net/745598?newtest=Y&lang=de&Git=0006" class="external-link" target="_blank">Umfrage</a> teil, die wir zur Bewertung der Fallstudie eingerichtet haben. Diese wird von der <a href="https://gi.de/" class="external-link" target="_blank">Gesellschaft für Informatik e. V.</a> gehostet und betrifft die ganze Fallstudie. Kürzere Umfragen zu den einzelnen Kapiteln haben wir jeweils am Ende der entsprechenden Kapitel verlinkt.
   
 ---
 
