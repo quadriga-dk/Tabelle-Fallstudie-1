@@ -51,10 +51,15 @@ jobs:
       run: |
         jupyter kernelspec list
 
+    # Register kernels with Jupyter.
+    # IRkernel::installspec() shells out to `jupyter` from R and aborts with
+    # "jupyter-client has to be installed" on newer Ubuntu runner images
+    # (ubuntu-26.04) because that subprocess loses the toolcache Python's
+    # site-packages. Install IRkernel's kernelspec from the Python side instead.
     - name: Set up IRkernel
       run: |
-        IRkernel::installspec(name="ir", displayname="R")
-      shell: Rscript {0}
+        kernel_dir="$(Rscript -e 'cat(system.file("kernelspec", package = "IRkernel"))')"
+        jupyter kernelspec install --user --replace --name ir "$kernel_dir"
 
     - name: Print all kernels again
       run: |
