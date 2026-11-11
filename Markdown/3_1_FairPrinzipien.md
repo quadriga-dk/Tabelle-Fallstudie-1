@@ -36,7 +36,7 @@ Die **Wiederverwendbarkeit** von Daten lässt sich von vornherein unterstützen,
 
 ```{admonition} FAIR in der Praxis
 :class: keypoint
-Falls Sie sich fragen, was das mit ihrer (Daten-)Praxis zu tun hat, seien hier ein paar Stichworte genannt:
+Falls Sie sich fragen, was das mit Ihrer (Daten-)Praxis zu tun hat, seien hier ein paar Stichworte genannt:
 - Eine gute Dokumentation, Aus- und Bezeichnung von Daten erleichtert Ihnen und Ihren Kolleg:innen das Arbeiten mit diesen - auch in Zukunft.
 - Wenn Sie eigene Forschung betreiben, werden Sie sich freuen, wenn es zu Ihrer Forschungsfrage Vergleichsdaten aus anderen Städten oder Bundesländern gibt, die Sie nachnutzen können.
 - Sie müssen gar keine eigenen Daten erheben, weil zu einer bestimmten Problematik bereits viele Daten vorliegen bzw. die Erhebung überproportional aufwändig wäre.
