@@ -50,7 +50,7 @@ Schritt 4 dieser Fallstudie.
 :class: zeitinfo
 Die geschätzte Bearbeitungszeit dieser Lerneinheit beträgt ca. 60 Minuten. Dies schließt das gekennzeichnete Assessment, dessen Bearbeitungsdauer individuell variiert, aus.
 
-Die geschätzte Bearbeitungsdauer **inklusive** des Assessment beträgt ca. 75-90 Minuten.
+Die geschätzte Bearbeitungsdauer **inklusive** des Assessments beträgt ca. 75-90 Minuten.
 
 Bitte beachten Sie: Die tatsächliche Bearbeitungsdauer kann je nach Ihren Vorkenntnissen unterschiedlich ausfallen. Die angegebene Zeitangabe dient lediglich als Orientierungshilfe.
 ```
