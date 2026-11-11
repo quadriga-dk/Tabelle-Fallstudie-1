@@ -1,6 +1,6 @@
 # Resümee FAIR-Prinzipien
 
-Die Übung zu den FAIR-Prinzipien hat verdeutlicht, dass die untersuchten Daten weniger gut abschließen. Das heißt nicht, dass sie nicht von guter Qualität sind. Die meisten unbefriedigenden Antworten ergeben sich aus der Tatsache, dass die Daten nicht eigenständig veröffentlicht sind. Wäre das geschehen, gäbe es eine Verlinkung zur Textpublikation (dem Bericht), es gäbe einen URI/PID und sicher auch Metadaten, die beschrieben, was in den Tabellen zu finden wäre. Da die Datentabellen in diesem Beispiel wie an den Bericht "angehängt" und nicht als eigenständige Forschungsdaten publiziert sind, schneiden sie in diesem Test eher unbefriedigend ab. Sie sind tatsächlich schwer zu finden, wenn man nicht weiß, dass sie zum Bildungsbericht gehören. Sie sind aber zugänglich. Die Interoperabilität ist mit dem gegebenen XLSX-Format nur bedingt gegeben - auch, wenn es sich dabei um ein gängiges Format handelt. Und da die Daten nicht mit einer eigenen Lizenz versehen sind, erschwert sich ihre Nachnutzung.
+Die Übung zu den FAIR-Prinzipien hat verdeutlicht, dass die untersuchten Daten weniger gut abschneiden. Das heißt nicht, dass sie nicht von guter Qualität sind. Die meisten unbefriedigenden Antworten ergeben sich aus der Tatsache, dass die Daten nicht eigenständig veröffentlicht sind. Wäre das geschehen, gäbe es eine Verlinkung zur Textpublikation (dem Bericht), es gäbe einen URI/PID und sicher auch Metadaten, die beschrieben, was in den Tabellen zu finden wäre. Da die Datentabellen in diesem Beispiel wie an den Bericht "angehängt" und nicht als eigenständige Forschungsdaten publiziert sind, schneiden sie in diesem Test eher unbefriedigend ab. Sie sind tatsächlich schwer zu finden, wenn man nicht weiß, dass sie zum Bildungsbericht gehören. Sie sind aber zugänglich. Die Interoperabilität ist mit dem gegebenen XLSX-Format nur bedingt gegeben - auch, wenn es sich dabei um ein gängiges Format handelt. Und da die Daten nicht mit einer eigenen Lizenz versehen sind, erschwert sich ihre Nachnutzung.
 
 `````{admonition} Hinweis
 :class: hinweis
@@ -32,7 +32,7 @@ Die Nachnutzung bestehender Daten (statt eigener Erhebungen) ist für viele Fors
 Die FAIR-Prinzipien stellen einen Teil der Best Practices im Forschungsdatenmanagement dar, decken aber nicht alle Aspekte ab.
 ```
 
-Am Ende dieser Lerneinheit möchten wir Sie auf unseren Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen. Die Beantwortung dauert etwa 5 Minuten.
+Am Ende dieser Lerneinheit möchten wir Sie auf unseren Fragebogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen. Die Beantwortung dauert etwa 5 Minuten.
 Der Kurzfragebogen am Ende jedes Kapitels hilft uns, diese Lerneinheit kontinuierlich zu verbessern, indem Sie uns auf etwaige Unklarheiten hinweisen oder Anregungen geben. Vielen Dank!  
 
 <a href="https://gesellschaftfuerinformatik.limesurvey.net/745598?newtest=Y&lang=de&Git=0001" target="_blank"
