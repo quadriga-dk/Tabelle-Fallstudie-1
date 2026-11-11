@@ -22,7 +22,7 @@ Die inhaltliche und kontextuelle Qualität von Daten und Metadaten kann anhand v
 
 - **Vertrauenswürdigkeit:** Der Ursprung der Daten ist kenntlich gemacht. Zudem sollte eine Evaluation bezüglich der Glaubwürdigkeit des Herausgebers erfolgen {cite}`bruns_leitfaden_2019,pipino_data_2002`.
 
-- **Transparenz:** Veränderungen an den Daten ist für Dritte ersichtlich (beispielsweise durch die Angabe einer Versionsnummer) {cite}`bruns_leitfaden_2019`.
+- **Transparenz:** Veränderungen an den Daten sind für Dritte ersichtlich (beispielsweise durch die Angabe einer Versionsnummer) {cite}`bruns_leitfaden_2019`.
 
 - **Verständlichkeit:** Die Daten sind so strukturiert und bezeichnet, dass Außenstehende diese leicht verstehen können. Es wird nur einfaches Vokabular verwendet, welches kein besonderes Fachwissen voraussetzt {cite}`behkamal_metrics-driven_2014,vetro_open_2016,pipino_data_2002`.
 
@@ -46,7 +46,7 @@ Im Rahmen des Verhaltenskodex für europäische Statistiken der Europäischen Un
 
 - **Aktualität und Pünktlichkeit:** Die bereitgestellten Statistiken werden regelmäßig aktualisiert und zum angesetzten Zeitpunkt fristgerecht veröffentlicht.
 
-- **Kohärenz und Vergleichbarkeit:** Die bereitgestellten Statistiken sind untereinander und im Zeitverlauf konsistent und mit anderen staatlich öffentlichten Statistiken vergleichbar. Hierbei steht die Möglichkeit der Datenkombination aus verschiedenen öffentlichen Institutionen im Vordergrund.
+- **Kohärenz und Vergleichbarkeit:** Die bereitgestellten Statistiken sind untereinander und im Zeitverlauf konsistent und mit anderen staatlich veröffentlichten Statistiken vergleichbar. Hierbei steht die Möglichkeit der Datenkombination aus verschiedenen öffentlichen Institutionen im Vordergrund.
 
 - **Zugänglichkeit und Klarheit:** Die bereitgestellten Statistiken werden öffentlich zur Verfügung gestellt und sind leicht auffindbar. Zudem wird transparent und detailreich die Statistik inklusive der Datenerhebung und -auswertung sowie Inhalt zu den beteiligten Parteien angegeben.
 
@@ -64,7 +64,7 @@ Zum anderen finden sich hier alle Stichworte wieder, die Sie bereits von den FAI
 
 
 
-Es zeigt sich, dass Datenqualität und Datennachnutzung eng miteinander verknüpft sind, denn wer Daten nachnutzen möchte, profitiert von qualitätvollen Daten und Metadaten. 
+Es zeigt sich, dass Datenqualität und Datennachnutzung eng miteinander verknüpft sind, denn wer Daten nachnutzen möchte, profitiert von qualitätsvollen Daten und Metadaten. 
 
 Bevor Sie im übernächsten Abschnitt mit dem 5-Sterne-Modell ein weiteres Bewertungsschema für Datenqualität kennenlernen, lassen Sie uns im nächsten Abschnitt noch einen Blick auf das Dateiformat werfen. 
 
