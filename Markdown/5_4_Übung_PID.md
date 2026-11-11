@@ -14,7 +14,7 @@ kernelspec:
 # Jupyterquiz
 from jupyterquiz import display_quiz
 
-# Coporate Design
+# Corporate Design
 import sys
 sys.path.append("..")
 from quadriga import colors
@@ -43,7 +43,7 @@ questions = \
     { 'answer': 'Um einen bestimmten Datensatz zu finden, brauche ich neben dem DOI in jedem Fall auch den Titel des Datensatzes.',
       'correct': False,
       'feedback': 'Diese Antwort ist leider nicht richtig. Der DOI reicht als Referenz aus.'},
-    { 'answer': 'Ich muss wissen, in welchem Repositorium der Datensatz abgelegt ist. Auf der Webseite des Repositorium gebe ich dann einfach den DOI in die Suchmaske ein.',
+    { 'answer': 'Ich muss wissen, in welchem Repositorium der Datensatz abgelegt ist. Auf der Webseite des Repositoriums gebe ich dann einfach den DOI in die Suchmaske ein.',
       'correct': False,
       'feedback': 'Diese Antwort ist leider nicht richtig. Sie brauchen nicht zu wissen, wo ein Datensatz liegt. Der DOI reicht aus.'},
     { 'answer': 'Ich gebe den DOI in eine gängige Suchmaschine ein und warte, was passiert.',
