@@ -76,7 +76,7 @@ Zudem sind hier selbst erstellte Listen etc. vorzufinden.
 **Files, Plots, Packages, etc.**  
 In diesem Fenster werden verschiedene Funktionen angeboten. Über die
 Fensterkachel **Files** können Sie sich Dateien anzeigen lassen und
-importieren (dazu mehr im Abschnitt **Einlesen von CSV Dateien** im Kapitel [Übung: Arbeiten mit CSV-Dateien in R](/Markdown/6_2_Übung_Arbeiten_CSV_in_R.ipynb)).  
+importieren (dazu mehr im Abschnitt **Einlesen von CSV-Dateien** im Kapitel [Übung: Arbeiten mit CSV-Dateien in R](/Markdown/6_2_Übung_Arbeiten_CSV_in_R.ipynb)).  
 Die Fensterkachel **PLOTS** zeigt Ihnen erstellte Grafiken an.  
 Die Fensterkachel **Packages** zeigt Ihnen alle installierten R-Packages
 auf Ihrem Rechner an. Ein Package ist eine Ansammlung von

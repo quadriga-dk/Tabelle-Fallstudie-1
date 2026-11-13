@@ -37,7 +37,7 @@ Collage, die beispielhaft für die in diesem interaktiven Lehrbuch behandelten T
 ```
 
 
-Diese Fallstudie bildet mit Hilfe eines <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">JupyterBooks</a> einen Forschungsverlauf in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
+Diese Fallstudie bildet mit Hilfe eines <a href="https://jupyterbook.org/en/stable/intro.html" class="external-link" target="_blank">Jupyter Books</a> einen Forschungsverlauf in der Verwaltungswissenschaft nach. Dabei wird anhand einer modellhaften Forschungsfrage auf die Reproduzierbarkeit von Analysen und Forschungsergebnissen eingegangen. Dazu werden in einzelnen Kapiteln die Themen Datennachnutzung, Bewertung von Datenqualität und Nachvollziehbarkeit von Analysen behandelt.
 
 
 ## Fokus
@@ -70,7 +70,7 @@ Die modellhafte Forschungsfrage der Fallstudie lautet:
 
 Basierend auf den Originaldaten werden die im Bildungsbericht vorgestellten Ergebnisse und Analysen nachvollzogen bzw. auf ihre Reproduzierbarkeit überprüft. Dazu werden die Nachnutzbarkeit der Daten untersucht, die Qualität der Daten bewertet und der Entstehungskontext sowie die Ergebnisse nachvollzogen, indem die Daten für die Analyse aufbereitet werden.
 
-Dies geschieht u. a. mit den Werkzeugen JupyterBooks und der Statistik-Programmiersprache R, für deren Verwendung hier erste Schritte aufgezeigt werden.
+Dies geschieht u. a. mit den Werkzeugen Jupyter Books und der Statistik-Programmiersprache R, für deren Verwendung hier erste Schritte aufgezeigt werden.
 
 ---
 

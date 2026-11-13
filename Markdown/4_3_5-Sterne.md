@@ -14,7 +14,7 @@ Eigene Abbildung basierend auf {cite}`bruns_leitfaden_2019`.
 
 Mithilfe des 5-Sterne-Modells können folgende Einschätzungen hinsichtlich des Datensatzes vorgenommen werden:
 
-- **1 Stern** = Der erste Stern wird an Datensätze verliehen, die unter einer offenen Lizenz zur Verfügung gestellt werden - unabhängig ihrer eigentlichen Datenqualität {cite}`bruns_leitfaden_2019`. Ein Stern bedeutet, dass der Nutzer auf die Daten zugreifen, sie nutzen, lokal speichern, bearbeiten und teilen kann {cite}`gangemi_assessing_2018`.
+- **1 Stern** = Der erste Stern wird an Datensätze verliehen, die unter einer offenen Lizenz zur Verfügung gestellt werden - unabhängig von ihrer eigentlichen Datenqualität {cite}`bruns_leitfaden_2019`. Ein Stern bedeutet, dass der Nutzer auf die Daten zugreifen, sie nutzen, lokal speichern, bearbeiten und teilen kann {cite}`gangemi_assessing_2018`.
 
 - **2 Sterne** = Ist der Datensatz mit zwei Sternen ausgezeichnet, handelt es sich um maschinenlesbare, strukturierte Daten (z. B. um eine Exceltabelle anstelle einer Fotokopie der Tabelle). Der Datensatz ist neben der offenen Lizenz zusätzlich leicht wiederverwendbar {cite}`bruns_leitfaden_2019`.
 

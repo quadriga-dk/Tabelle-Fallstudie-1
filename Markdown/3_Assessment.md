@@ -11,7 +11,7 @@ kernelspec:
 ---
 
 (assessment_fair)=
-# 🏆Selbsttest: Wissen und Praxis
+# 🏆 Selbsttest: Wissen und Praxis
 
 ````{admonition} Hinweis
 :class: hinweis

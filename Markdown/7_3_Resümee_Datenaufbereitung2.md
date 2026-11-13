@@ -35,7 +35,7 @@ Wer selbst Analyseergebnisse veröffentlicht, kann durch bewusste Datenbereitste
 Wenn Sie sich weiter mit den Möglichkeiten der Programmiersprache R befassen wollen, können wir Ihnen den Kurs <a href="https://dxi.ai/dxi-r/" class="external-link" target="_blank">Einführung in die Datenwissenschaft mit R</a> des Zürcher Wissenschaftlers Christian Glahn empfehlen. 
 ```
 
-Am Ende dieser Lerneinheit möchten wir Sie wieder auf unseren Fragenbogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen. Die Beantwortung dauert etwa 5 Minuten.
+Am Ende dieser Lerneinheit möchten wir Sie wieder auf unseren Fragebogen hinweisen, zu dem Sie durch einen Klick auf den Button gelangen. Die Beantwortung dauert etwa 5 Minuten.
 Der Kurzfragebogen am Ende jedes Kapitels hilft uns, diese Lerneinheit kontinuierlich zu verbessern, indem Sie uns auf etwaige Unklarheiten hinweisen oder Anregungen geben. Vielen Dank!  
 
 <a href="https://gesellschaftfuerinformatik.limesurvey.net/745598?newtest=Y&lang=de&Git=0005" target="_blank"

@@ -26,7 +26,7 @@ alt: Kreisdiagramme, die die Verteilung von wissenschaftlichem und künstlerisch
 Abb. H1-3 aus dem nationalen Bildungsbericht 2022, S. 259.
 ```
 
-Die Daten aus Tabelle H1 - "Personalbestand und Personalstruktur" benötigen wir ebenfalls. Diese finden Sie auf der Hauptseite des Bildungsberichts (2022), die sie über den oben angegebenen Link erreichen. Alternativ können Sie den Tabellenanhang über das zu dieser Fallstudie bereitgestellte Repository ([Excel-Tabelle](Data/h1-anhang.xlsx)) oder über die <a href="https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/excel-bildungsbericht-2022/h1-anhang.xlsx">Website des Bildungsberichts</a> direkt herunterladen.
+Die Daten aus Tabelle H1 - "Personalbestand und Personalstruktur" benötigen wir ebenfalls. Diese finden Sie auf der Hauptseite des Bildungsberichts (2022), die Sie über den oben angegebenen Link erreichen. Alternativ können Sie den Tabellenanhang über das zu dieser Fallstudie bereitgestellte Repository ([Excel-Tabelle](Data/h1-anhang.xlsx)) oder über die <a href="https://www.bildungsbericht.de/de/bildungsberichte-seit-2006/bildungsbericht-2022/excel-bildungsbericht-2022/h1-anhang.xlsx">Website des Bildungsberichts</a> direkt herunterladen.
 
 ---
 

@@ -3,7 +3,7 @@
 
 In diesem Abschnitt werfen wir einen Blick auf Dateiformate. Aus der Bewertung der FAIRness der Daten im letzten Kapitel ging bereits hervor, dass Daten im Format XLSX unter bestimmten Gesichtspunkten Einschränkungen unterliegen können.
 
-Dies unterstreicht das kurze Tutorial zu Datenqualität und Maschinenlesbarkeit tabellarischer Daten in Bezug auf CSV und XLSX, dass von der <a href="https://odis-berlin.de" class="external-link" target="_blank">Open Data Informationsstelle Berlin</a>, einem Projekt der <a href="https://www.technologiestiftung-berlin.de" class="external-link" target="_blank">Technologiestiftung Berlin</a>, erstellt wurde. Dort erfahren Sie u. a., wie sich die beiden Formate unterscheiden und warum Excel-Tabellen oft nicht einwandfrei maschinenlesbar sind.  
+Dies unterstreicht das kurze Tutorial zu Datenqualität und Maschinenlesbarkeit tabellarischer Daten in Bezug auf CSV und XLSX, das von der <a href="https://odis-berlin.de" class="external-link" target="_blank">Open Data Informationsstelle Berlin</a>, einem Projekt der <a href="https://www.technologiestiftung-berlin.de" class="external-link" target="_blank">Technologiestiftung Berlin</a>, erstellt wurde. Dort erfahren Sie u. a., wie sich die beiden Formate unterscheiden und warum Excel-Tabellen oft nicht einwandfrei maschinenlesbar sind.  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Nb_cLObVKho"
 title="YouTube video player" frameborder="0"
@@ -25,7 +25,7 @@ Die Fig. 4.1 zeigt, dass am Ende der (Excel-)Tabelle H1-9web u. a. auf das Stati
 ```{figure} _images/Quelle_Destatis2.PNG
 ---
 name: quellenangabe
-alt: Auschnitt einer Tabelle, auf dem eine Quelle der Daten hervorgehoben ist.
+alt: Ausschnitt einer Tabelle, auf dem eine Quelle der Daten hervorgehoben ist.
 ---
 Die Quelle verweist auf die Statistischen Ämter des Bundes und der Länder.
 ```

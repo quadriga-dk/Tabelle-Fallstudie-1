@@ -1,6 +1,6 @@
 # Abschluss 
 
-In diesem Kapitel finden Sie Informationen zum Projekt und den Autor:innen dieses JupyterBooks und Möglichkeiten, das Projektteam für Fragen und Feedback zu erreichen.
+In diesem Kapitel finden Sie Informationen zum Projekt und den Autor:innen dieses Jupyter Books und Möglichkeiten, das Projektteam für Fragen und Feedback zu erreichen.
 
 
 - [Fragen und Feedback](/Markdown/9_1_fragen_und_feedback.md)

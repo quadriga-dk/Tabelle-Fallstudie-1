@@ -10,7 +10,7 @@ kernelspec:
   name: python3
 ---
 
-# 🏆Selbsttest: Wissen und Praxis
+# 🏆 Selbsttest: Wissen und Praxis
 
 ````{admonition} Hinweis
 :class: hinweis
@@ -163,7 +163,7 @@ question4 = [{
         {
             "answer": "Open Data sind automatisch von hoher Qualität",
             "correct": False,
-            "feedback": """× Diese Antwort ist nicht korrekt. Das Kapitel macht deutlich, dass \"offen\" nicht automatisch \"qualitativ hochwertig\" bedeutet. Die Bewertung nach dem 5-Sterne-Modell zeigt, dass der erste Stern bereits für eine offene Lizenz vergeben wird - unabhängig der eigentlichen Datenqualität."""
+            "feedback": """× Diese Antwort ist nicht korrekt. Das Kapitel macht deutlich, dass \"offen\" nicht automatisch \"qualitativ hochwertig\" bedeutet. Die Bewertung nach dem 5-Sterne-Modell zeigt, dass der erste Stern bereits für eine offene Lizenz vergeben wird - unabhängig von der eigentlichen Datenqualität."""
         },
         {
             "answer": "Open Data ermöglichen durch freie Nachnutzung mehr Transparenz in der Forschung und sind ein Basiselement der Reproduzierbarkeit",
@@ -178,7 +178,7 @@ question4 = [{
         {
             "answer": "Datenqualität ist für Open Science irrelevant",
             "correct": False,
-            "feedback": """× Diese Antwort ist nicht korrekt. Im Gegenteil: Das Kapitel zeigt deutlich die enge Verknüpfung zwischen Datenqualität und Datennachnutzung auf - wer Daten nachnutzen möchte (wie in Open Science), profitiert von qualitätvollen Daten und Metadaten."""
+            "feedback": """× Diese Antwort ist nicht korrekt. Im Gegenteil: Das Kapitel zeigt deutlich die enge Verknüpfung zwischen Datenqualität und Datennachnutzung auf - wer Daten nachnutzen möchte (wie in Open Science), profitiert von qualitätsvollen Daten und Metadaten."""
         }
     ]
 }]
@@ -501,6 +501,6 @@ create_answer_box('4-reflection-2')
    - Vergabe eines persistenten Identifikators (DOI oder URN) für den Datensatz
    - Strukturierte Verlinkung zu verwandten Datensätzen (z.B. zu ähnlichen Statistiken anderer Jahre oder Bundesländer)
 
-2. **Kaskadierende System:** Das kaskadierende System ist sinnvoll, weil es eine logische Hierarchie der Datenqualität und -offenheit abbildet. Höhere Stufen bauen auf niedrigeren auf - ohne offene Lizenz (1 Stern) macht Maschinenlesbarkeit (2 Sterne) für die Nachnutzung wenig Sinn. Ohne persistenten Identifikator (4 Sterne) sind Verlinkungen (5 Sterne) nicht dauerhaft möglich.
+2. **Kaskadierendes System:** Das kaskadierende System ist sinnvoll, weil es eine logische Hierarchie der Datenqualität und -offenheit abbildet. Höhere Stufen bauen auf niedrigeren auf - ohne offene Lizenz (1 Stern) macht Maschinenlesbarkeit (2 Sterne) für die Nachnutzung wenig Sinn. Ohne persistenten Identifikator (4 Sterne) sind Verlinkungen (5 Sterne) nicht dauerhaft möglich.
 
 ````

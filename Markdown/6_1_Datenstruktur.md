@@ -46,15 +46,15 @@ Weitere Informationen erhalten Sie im Blog <a href="https://databasecamp.de/date
 
 (Tidy_data)=
 ## Tidy-Data-Struktur
-Eine sinnvolle Struktur für Ihre Daten ist unerlässlich. Ein weitverbreiteter Standard für diese Struktur setzt das sogenannte „Tidy Dataset“ {cite}`wickham_tidy_2014`. Ein Datensatz wird als „Tidy“ bezeichnet, wenn er folgende Struktur erfüllt:
+Eine sinnvolle Struktur für Ihre Daten ist unerlässlich. Ein weitverbreiteter Standard für diese Struktur setzt auf das sogenannte „Tidy Dataset“ {cite}`wickham_tidy_2014`. Ein Datensatz wird als „Tidy“ bezeichnet, wenn er folgende Struktur erfüllt:
 
 1. Jede Variable ist eine Spalte
 
 2. Jede Beobachtung ist eine Zeile
 
-3. jeder einzelne Wert (Datenpunkt) wird einer Variable und einer Beobachtung zugeordnet.
+3. Jeder einzelne Wert (Datenpunkt) wird einer Variable und einer Beobachtung zugeordnet.
 
-Nach dieser Struktur enthält jede Zelle exakt einen Wert und ist klar einer einzigen Variable zuzuordnen. Es entsteht ein rechteckiges Layout. Eine saubere Datei enthält nur eine einzige ausgefüllte Tabelle. Außerdem ist in der Raw-Data Datei auf jegliche Formen von optischen Hervorhebungen (z.B. Fettdruck, farbliche Markierungen, etc.) zu verzichten {cite}`broman_data_2018,wickham_tidy_2014`. Wenn Sie Berechnungen auf Basis der Tabellendaten durchführen möchten, sollte dies nie innerhalb der Raw-Data Datei erfolgen (so zu sehen in Abb. 6.3 Zeile 9). 
+Nach dieser Struktur enthält jede Zelle exakt einen Wert und ist klar einer einzigen Variable zuzuordnen. Es entsteht ein rechteckiges Layout. Eine saubere Datei enthält nur eine einzige ausgefüllte Tabelle. Außerdem ist in der Raw-Data-Datei auf jegliche Formen von optischen Hervorhebungen (z.B. Fettdruck, farbliche Markierungen, etc.) zu verzichten {cite}`broman_data_2018,wickham_tidy_2014`. Wenn Sie Berechnungen auf Basis der Tabellendaten durchführen möchten, sollte dies nie innerhalb der Raw-Data-Datei erfolgen (so zu sehen in Abb. 6.3 Zeile 9). 
 
 ```{figure} _images/tidy_data_gut.png
 ---
